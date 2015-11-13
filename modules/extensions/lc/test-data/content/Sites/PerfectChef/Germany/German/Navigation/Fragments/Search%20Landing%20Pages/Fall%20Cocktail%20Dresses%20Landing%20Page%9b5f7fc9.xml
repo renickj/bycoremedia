@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/Germany/German/Navigation/Fragments/Search Landing Pages" name="Fall Cocktail Dresses Landing Page Hero Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Fragments/Search%20Landing%20Pages/Fall%20Cocktail%20Dresses%20Landin5d84340f.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Fragments/Search%20Landing%20Pages/Fall%20Cocktail%20Dresses%20Landing%20Page%20Hero%20Collection"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMCollection/slideshow.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/slideshow"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Eleganz</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Fall%20Cocktail%20Dresses%20Category%20Hero5e0ccb41.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Fragments/Search%20Landing%20Pages/Fall%20Cocktail%20Dresses%20Category%20Hero%20Teaser%201"/>
+<link href="Fall%20Cocktail%20Dresses%20Category%20Hero5e0ccb42.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Fragments/Search%20Landing%20Pages/Fall%20Cocktail%20Dresses%20Category%20Hero%20Teaser%202"/>
+</items>
+</CMCollection>

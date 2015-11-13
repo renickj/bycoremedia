@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>blueprint</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>modules</artifactId>
+  <packaging>pom</packaging>
+
+  <description>Modules like CAE, Studio and component libraries</description>
+
+  <modules>
+    <module>cae</module>
+    <module>studio</module>
+    <module>shared</module>
+    <module>cmd-tools</module>
+    <module>server</module>
+    <module>search</module>
+    <module>ecommerce</module>
+    <module>extension-config</module>
+    <module>extensions</module>
+    <module>editor-components</module>
+    <module>elastic-worker</module>
+  </modules>
+</project>

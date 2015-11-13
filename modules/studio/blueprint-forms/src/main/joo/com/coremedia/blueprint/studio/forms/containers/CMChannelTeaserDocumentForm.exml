@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:bpforms="exml:com.coremedia.blueprint.studio.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config">
+
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.CustomLabels_properties"/>
+
+  <exml:constant name="PICTURE_PROPERTY_NAME" value="pictures">
+    <exml:description>A constant for the linklist property name</exml:description>
+  </exml:constant>
+
+  <editor:collapsibleFormPanel title="{CustomLabels_properties.INSTANCE.PropertyGroup_Teaser_label}"
+                               itemId="teaserDocumentForm"
+                               collapsed="true"
+                               propertyNames="{['teaserTitle','teaserText','pictures']}"
+                               expandOnValues="teaserTitle,teaserText.data,pictures">
+    <items>
+      <editor:stringPropertyField propertyName="teaserTitle">
+        <plugins mode="append">
+          <editor:stringPropertyFieldDelegatePlugin delegatePropertyName="title"/>
+        </plugins>
+      </editor:stringPropertyField>
+      <editor:textAreaPropertyField propertyName="teaserText"
+                                    itemId="teaserText"
+                                    initialHeight="100"
+                                    changeBuffer="1000"/>
+      <spacer height="6"/>
+      <bpforms:callToActionConfigurationForm/>
+      <spacer height="12"/>
+      <bpforms:singlePictureDocumentForm/>
+    </items>
+  </editor:collapsibleFormPanel>
+  
+</exml:component>
+
+

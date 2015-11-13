@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:es="exml:com.coremedia.blueprint.elastic.social.studio.config"
+                xmlns:bpforms="exml:com.coremedia.blueprint.studio.config">
+
+  <exml:import class="com.coremedia.blueprint.elastic.social.studio.ElasticSocialStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+
+  <editor:documentTabPanel itemId="CMMail">
+    <items>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_content_title}">
+        <items>
+          <bpforms:collapsibleStringPropertyForm title="{ElasticSocialStudioPlugin_properties.INSTANCE.CMMail_from_text}"
+                                                 expandOnValues="from"
+                                                 propertyName="from"/>
+          <editor:collapsibleFormPanel title="{ElasticSocialStudioPlugin_properties.INSTANCE.CMMail_text}"
+                                       itemId="cmMailTextForm">
+            <items>
+              <editor:stringPropertyField propertyName="subject"/>
+              <editor:textBlobPropertyField propertyName="text"
+                                            height="300"/>
+              <container layout="hbox">
+                <items>
+                  <container flex="1"/>
+                  <ui:textLink id="cmmail-help-button"
+                               margins="0 12 0 0"
+                               iconCls="flat-help-btn"
+                               text="{ElasticSocialStudioPlugin_properties.INSTANCE.cmmail_help_text}">
+                    <baseAction>
+                      <editor:openReferenceWindowAction>
+                        <ui:dialog>
+                          <es:cmMailHelpWindow/>
+                        </ui:dialog>
+                      </editor:openReferenceWindowAction>
+                    </baseAction>
+                  </ui:textLink>
+                </items>
+              </container>
+            </items>
+          </editor:collapsibleFormPanel>
+          <bpforms:collapsibleStringPropertyForm collapsed="true"
+                                                 expandOnValues="contentType"
+                                                 title="{ElasticSocialStudioPlugin_properties.INSTANCE.CMMail_contentType_text}"
+                                                 propertyName="contentType"/>
+        </items>
+      </editor:documentForm>
+      <bpforms:multiLanguageDocumentForm/>
+      <bpforms:metaDataWithoutSettingsForm bindTo="{config.bindTo}"/>
+    </items>
+  </editor:documentTabPanel>
+</exml:component>

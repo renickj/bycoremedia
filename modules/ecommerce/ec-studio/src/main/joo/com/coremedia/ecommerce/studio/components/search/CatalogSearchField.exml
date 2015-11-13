@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                baseClass="CatalogSearchFieldBase">
+  <exml:import class="com.coremedia.cms.editor.Editor_properties"/>
+
+  <combo emptyText="{Editor_properties.INSTANCE.SearchField_empty_text}"
+         fieldClass="search-combobox"
+         hideTrigger="true"
+         blankText=""
+         autoSelect="false"
+         flex="1"
+         enableKeyEvents="true"
+         queryParam="query"
+         selectOnFocus="true">
+    <plugins>
+      <ui:immediateChangeEventsPlugin/>
+      <ui:bindPropertyPlugin bidirectional="true" bindTo="{getSearchTextExpression()}"/>
+    </plugins>
+  </combo>
+</exml:component>

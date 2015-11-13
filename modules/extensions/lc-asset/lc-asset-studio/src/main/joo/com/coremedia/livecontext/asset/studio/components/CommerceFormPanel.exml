@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                baseClass="com.coremedia.livecontext.asset.studio.components.CommerceFormPanelBase">
+
+  <exml:import class="com.coremedia.livecontext.studio.LivecontextStudioPlugin_properties"/>
+
+  <exml:cfg name="additionalToolbarItems" type="Array"/>
+
+  <editor:collapsibleFormPanel itemId="commerceFormPanel"
+                               title="{LivecontextStudioPlugin_properties.INSTANCE.CMPicture_propertyGroup_commerce}">
+    <plugins mode="append">
+      <ui:bindVisibilityPlugin bindTo="{getShopExpression(config)}"/>
+    </plugins>
+    <items>
+      <ec:productLinksPropertyField hideLabel="true" additionalToolbarItems="{config.additionalToolbarItems}"/>
+    </items>
+  </editor:collapsibleFormPanel>
+</exml:component>

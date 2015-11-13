@@ -1,0 +1,18 @@
+.cm-teaser__content {
+  /* No zooming in Studio preview */
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.cm-teaser:hover .cm-teaser__content {
+  /* No zooming in Studio preview */
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Navigation/Fragments/Search Landing Pages" name="Fall Cocktail Dresses Landing Page Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Fragments/Search%20Landing%20Pages/Fall%20Cocktail%20Dresses%20Landine93b49a8.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Fragments/Search%20Landing%20Pages/Fall%20Cocktail%20Dresses%20Landing%20Page%20Teaser"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Perfekt zum Dinner</teaserTitle>
+<pictures>
+<link href="../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinnerc2aa93bf.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2001%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Fall%20Evening%20Dresses%20Hidden%20Landing%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Fragments/Search%20Landing%20Pages/Fall%20Evening%20Dresses%20Hidden%20Landing%20Page"/>
+</target>
+</CMTeaser>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection" name="tiles-layout-left" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-left.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-left"/>
+</master>
+<masterVersion>1</masterVersion>
+<description>Displays a collection in a left focused tiles layout.</description>
+<icon md5="8cfbcd1c9324b592e90b1ead34d8db1f" href="../../../../../../../__blob/8cfbcd1c9324b592e90b1ead34d8db1f.blob" mimetype="image/png"/>
+<layout>tiles-layout-left</layout>
+</CMViewtype>

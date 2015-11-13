@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Videos/Documentaries" name="Jacob's Recipe - A short documentary Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Watch Jacob's Recipe</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Learn about up and coming chef Jacob Kenedy and his favorite recipes.</p></div></teaserText>
+<pictures>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%60834c9e.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2001%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%6bd9d3e5.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Local%20Video"/>
+</target>
+</CMTeaser>

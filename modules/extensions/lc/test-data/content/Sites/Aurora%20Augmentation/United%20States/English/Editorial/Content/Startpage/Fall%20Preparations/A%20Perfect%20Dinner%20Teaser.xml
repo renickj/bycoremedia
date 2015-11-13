@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Startpage/Fall Preparations" name="A Perfect Dinner Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>A Perfect Dinner</teaserTitle>
+<pictures>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinned69dbce.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%20Hero%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../../../Navigation/Microsites/99_Magazine%20Fall/Theme%20Special%3A%20Perfect%2e075e6b.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/99_Magazine%20Fall/Theme%20Special%3A%20Perfect%20Dinner/Perfect%20Dinner%20Page"/>
+</target>
+</CMTeaser>

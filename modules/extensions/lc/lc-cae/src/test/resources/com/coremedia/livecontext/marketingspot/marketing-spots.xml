@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <import resource="classpath:/com/coremedia/cae/uapi-services.xml"/>
+  <import resource="classpath:/com/coremedia/cae/contentbean-services.xml"/>
+  <import resource="classpath:/com/coremedia/cae/dataview-services.xml"/>
+  <import resource="classpath:/com/coremedia/cap/multisite/multisite-services.xml"/>
+
+  <bean id="marketingSpotHandler" class="com.coremedia.livecontext.marketingspot.MarketingSpotHandler">
+    <property name="marketingSpotSearchStrategy">
+      <bean class="com.coremedia.livecontext.marketingspot.StaticMarketingSpotStrategy">
+        <property name="contentRepository" ref="contentRepository"/>
+        <property name="contentBeanFactory" ref="contentBeanFactory"/>
+        <property name="dataViewFactory" ref="dataViewFactory"/>
+        <property name="developerModeEnabled" value="true"/>
+        <property name="sitesService" ref="sitesService"/>
+      </bean>
+    </property>
+  </bean>
+</beans>

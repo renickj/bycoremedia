@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-fragment version="3.0"
+              xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+              http://java.sun.com/xml/ns/javaee/web-fragment_3_0.xsd">
+
+  <name>es_p13n_cae</name>
+
+  <ordering>
+    <after>
+      <name>elastic_social_plugin_cae</name>
+    </after>
+  </ordering>
+
+  <filter-mapping>
+    <!--userFilter is defined in elastic_social_plugin_cae (web-fragment of es-cae) -->
+    <filter-name>userFilter</filter-name>
+    <url-pattern>/servlet/userdetails/*</url-pattern>
+  </filter-mapping>
+
+</web-fragment>

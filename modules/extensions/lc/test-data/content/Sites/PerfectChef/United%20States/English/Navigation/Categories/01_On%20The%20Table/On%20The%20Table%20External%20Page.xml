@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalChannel folder="/Sites/PerfectChef/United States/English/Navigation/Categories/01_On The Table" name="On The Table External Page" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>on-the-table</segment>
+<title>On The Table</title>
+<htmlTitle></htmlTitle>
+<keywords>on the table, tableware</keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/On%20the%20Table.xml" path="/Settings/Taxonomies/Subject/On%20the%20Table"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+<link href="Decoration/Decoration%20External%20Catfa3cf8be.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/Decoration/Decoration%20External%20Category%20Page"/>
+<link href="Glasses/Glasses%20External%20Category%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/Glasses/Glasses%20External%20Category%20Page"/>
+<link href="Tableware/Tableware%20External%20Categ922ce9c.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/Tableware/Tableware%20External%20Category%20Page"/>
+<link href="Outdoor/Outdoor%20External%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/Outdoor/Outdoor%20External%20Page"/>
+</children>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<StructProperty Name="placements">
+<Struct>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<StructListProperty Name="placements">
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+<Link xlink:href="coremedia:///cap/resources/On%20The%20Table%20Article.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/On%20The%20Table%20Article"/>
+<Link xlink:href="coremedia:///cap/resources/On%20%20The%20Table%20Main%20Collection.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/On%20%20The%20Table%20Main%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/../../Site-Wide/Category%20Pages/Productlist-Placeholder%20Listing.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Category%20Pages/Productlist-Placeholder%20Listing"/>
+</LinkListProperty>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/main"/>
+</Struct>
+</StructListProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+<externalId>ibm:///catalog/category/PC_OnTheTable</externalId>
+</CMExternalChannel>

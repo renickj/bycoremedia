@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:webtrends="exml:com.coremedia.blueprint.studio.config.webtrends"
+        >
+
+  <editor:documentForm title="{WebtrendsStudioPlugin_properties.INSTANCE.SpacerTitle_webtrends}">
+    <items>
+      <webtrends:webtrendsRetrievalFields />
+    </items>
+  </editor:documentForm>
+
+</exml:component>

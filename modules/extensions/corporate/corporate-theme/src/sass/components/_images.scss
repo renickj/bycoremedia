@@ -1,0 +1,66 @@
+// Imports
+@import "../base/imports";
+@import "../utils/imports";
+
+/*
+Image
+========================================================================================================================
+
+Contains styling definitions for all content types as cm-image.
+- cm-image
+- cm-image-box
+*/
+
+.cm-image {
+
+  /* responsive image, use width of outer container */
+  &--responsive {
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  /* lazy loading, show spinner */
+  &--loading {
+    background: palette(grey, lighter) url("#{$path-to-images}loader_big.gif") no-repeat center center;
+    color: transparent; /* hide alt text */
+  }
+
+  /* alternative image */
+  &--missing {
+    background: $brand-primary url("#{$path-to-images}logo.svg") no-repeat center center;
+    background-size: 50%;
+  }
+}
+
+/* images in richtext */
+.cm-image-box {
+  &--embedded {
+    position: relative;
+    width: 100%;
+    margin: ($line-height-computed / 2) 0;
+
+    @include breakpoint(sm-and-up) {
+
+      /* centered */
+      &.float--none {
+        width: 50%;
+        margin: ($line-height-computed / 2) auto;
+      }
+
+      &.float--left {
+        width: 50%;
+        margin-right: ($line-height-computed / 2);
+      }
+
+      &.float--right {
+        width: 50%;
+        margin-left: ($line-height-computed / 2);
+      }
+    }
+  }
+
+  // set default aspect ratio box to 16:9 for all richtext images
+  &--embedded &__image {
+    @include aspect-ratio-box(16, 9);
+  }
+}

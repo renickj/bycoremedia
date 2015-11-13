@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMFolderProperties folder="/Sites/PerfectChef/Germany/German" name="_folderProperties" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../United%20States/English/_folderProperties.xml" path="/Sites/PerfectChef/United%20States/English/_folderProperties"/>
+</master>
+<masterVersion>1</masterVersion>
+<contexts>
+<link href="Navigation/Perfect%20Chef%20Deutschland.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Perfect%20Chef%20Deutschland"/>
+</contexts>
+</CMFolderProperties>

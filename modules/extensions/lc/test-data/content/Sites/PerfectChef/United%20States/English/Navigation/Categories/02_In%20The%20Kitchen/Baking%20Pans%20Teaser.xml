@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Categories/02_In The Kitchen" name="Baking Pans Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Baking Pans</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Baking%20Pans/Baking%20Pans%20Extern24e23b5c.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/02_In%20The%20Kitchen/Baking%20Pans/Baking%20Pans%20External%20Category%20Page"/>
+</target>
+</CMTeaser>

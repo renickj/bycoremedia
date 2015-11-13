@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection" name="accordion" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMCollection/accordion.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/accordion"/>
+</master>
+<masterVersion>1</masterVersion>
+<description></description>
+<icon md5="bc043a98f5e54d727d81d805cdd065bb" href="../../../../../../../__blob/bc043a98f5e54d727d81d805cdd065bb.blob" mimetype="image/png"/>
+<layout>accordion</layout>
+</CMViewtype>

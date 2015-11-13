@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMChannel folder="/Sites/Aurora Augmentation/United States/English/Navigation/Microsites/Perfect Dinner" name="Perfect Dinner Microsite" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<BooleanProperty Name="livecontext.policy.commerce-microsite-links">true</BooleanProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment>theperfectdinner3</segment>
+<title>Meat Lovers</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/Meat.xml" path="/Settings/Taxonomies/Subject/Meat"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+</children>
+<hidden>1</hidden>
+<hiddenInSitemap>1</hiddenInSitemap>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<StructProperty Name="placements">
+<Struct>
+<StructProperty Name="828">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../Options/Settings/Pagegrid/Placements/sidebar.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Placements/sidebar"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/../../e-Marketing%20Spots/Sitewide%20Top-Sellers%20Related%20Box%e4bf0725.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/e-Marketing%20Spots/Sitewide%20Top-Sellers%20Related%20Box%20e-Marketing%20Spot"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="794">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Placements/main"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/../../Startpage/Fall%20Dinner%20Image%20Map.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Startpage/Fall%20Dinner%20Image%20Map"/>
+<Link xlink:href="coremedia:///cap/resources/../../e-Marketing%20Spots/Startpage%20Offer%20Textbanner%20e-Mark313c1892.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/e-Marketing%20Spots/Startpage%20Offer%20Textbanner%20e-Marketing%20Spot"/>
+<Link xlink:href="coremedia:///cap/resources/../../Fragments/Search%20Landing%20Pages/Fall%20Evening%20Dressesc23ad6c4.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Search%20Landing%20Pages/Fall%20Evening%20Dresses/Fall%20Cocktail%20Dresses%20Landing%20Page%20Main%20Collection"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<LinkProperty Name="layout" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../../Options/Settings/Pagegrid/Layouts/PagegridNavigation.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Layouts/PagegridNavigation"/>
+</Struct>
+</StructProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+</CMChannel>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config"
+                baseClass="CommerceCatalogObjectsSelectFormBase">
+
+  <exml:cfg name="catalogObjectIdListName" type="String"/>
+  <exml:cfg name="invalidMessage" type="String"/>
+  <exml:cfg name="emptyText" type="String"/>
+  <exml:cfg name="removeActionName" type="String"/>
+  <exml:cfg name="getCommerceObjectsFunction" type="Function"/>
+  <exml:cfg name="noStoreMessage" type="String"/>
+  <exml:cfg name="catalogObjectIdsExpression" type="com.coremedia.ui.data.ValueExpression"/>
+
+  <exml:constant name="SELECTOR_CONTAINER_ITEM_ID" value="selectorContainer"/>
+  <exml:constant name="SELECTOR_ITEM_ID" value="selector"/>
+  <exml:constant name="PLACEHOLDER_LABEL_ITEM_ID" value="placeholderLabel"/>
+  <exml:constant name="NO_STORE_LABEL" value="noStoreLabel"/>
+
+  <editor:collapsibleFormPanel>
+    <plugins>
+      <ui:bindComponentsPlugin configBeanParameterName="commerceObject"
+                               valueExpression="{getCatalogObjectsExpression(config)}"
+                               reuseComponents="false"
+                               removeFunction="{removeCommerceObjectFields}"
+                               addFunction="{addCommerceObjectFields}"
+                               getKey="{getCatalogObjectKey}">
+        <ui:template>
+          <ec:commerceObjectField catalogObjectIdListName="{config.catalogObjectIdListName}"
+                                  removeActionName="{config.removeActionName}"
+                                  catalogObjectIdsExpression="{config.catalogObjectIdsExpression}"/>
+        </ui:template>
+      </ui:bindComponentsPlugin>
+    </plugins>
+    <items>
+      <container layout="hbox" autoWidth="true" itemId="{SELECTOR_CONTAINER_ITEM_ID}">
+        <items>
+          <label text="" width="150" itemId="{PLACEHOLDER_LABEL_ITEM_ID}"/>
+          <ec:commerceObjectSelector itemId="{SELECTOR_ITEM_ID}"
+                                     flex="1"
+                                     typeAhead="true"
+                                     forceSelection="true"
+                                     selectOnFocus="true"
+                                     mode="local"
+                                     triggerAction="all"
+                                     listeners="{{'change': getHandleSelectFunction(config)}}"
+                                     selectedCatalogObjectsExpression="{getCatalogObjectsExpression(config)}"
+                                     getCommerceObjectsFunction="{config.getCommerceObjectsFunction}"
+                                     emptyText="{config.emptyText}"
+                                     noStoreMessage="{config.noStoreMessage}">
+            <plugins mode="append">
+              <ui:immediateChangeEventsPlugin/>
+              <editor:bindDisablePlugin bindTo="{config.bindTo}"
+                                        forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+            </plugins>
+          </ec:commerceObjectSelector>
+        </items>
+      </container>
+      <label autoWidth="true" itemId="{NO_STORE_LABEL}" hidden="true" text="{config.noStoreMessage}"/>
+    </items>
+  </editor:collapsibleFormPanel>
+</exml:component>

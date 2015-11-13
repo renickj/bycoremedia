@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Product Teaser Pictures/04_Deli/To Drink" name="PC_TARRAZU_ESPRESSO Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=245;y=190;width=755;height=1170</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=229;y=304;width=791;height=1056</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=111;y=0;width=1360;height=1360</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=0;width=1815;height=1360</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=210;width=2044;height=1150</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=269;width=2048;height=1024</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=312;width=2048;height=818</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=308;width=2048;height=767</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=526;width=2048;height=514</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.11969111969111969;y1=0.13953488372093023;x2=0.48841698841698844;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.11196911196911197;y1=0.2238372093023256;x2=0.4980694980694981;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.05405405405405406;y1=0;x2=0.7181467181467182;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0;x2=0.8861003861003861;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.15406976744186046;x2=0.9980694980694981;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.19767441860465115;x2=1;y2=0.9505813953488372</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.22965116279069767;x2=1;y2=0.8313953488372093</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.22674418604651161;x2=1;y2=0.7906976744186046</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.3866279069767442;x2=1;y2=0.7645348837209303</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_TARRAZU_ESPRESSO</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Tarrazu Espresso Beans</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Coffee.xml" path="/Settings/Taxonomies/Subject/Coffee"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Brown.xml" path="/Settings/Taxonomies/Subject/Brown"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Tarrazu Espresso Beans</alt>
+<copyright>CapPui/Shutterstock 94716478</copyright>
+<data md5="ad98baac715efb6315a9f9a6898041c7" href="../../../../../../../../__blob/ad98baac715efb6315a9f9a6898041c7.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

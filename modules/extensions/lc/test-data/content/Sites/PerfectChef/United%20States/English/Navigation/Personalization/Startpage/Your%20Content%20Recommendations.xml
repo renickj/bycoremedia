@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMP13NSearch folder="/Sites/PerfectChef/United States/English/Navigation/Personalization/Startpage" name="Your Content Recommendations" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMCollection/tiles-layout-50-50-landscape.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-50-50-landscape"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Your content recommendations</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+<maxLength>2</maxLength>
+<documentType>CMArticle</documentType>
+<searchContext>
+<link href="../../Perfect%20Chef%20USA.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Perfect%20Chef%20USA"/>
+</searchContext>
+<searchQuery href="Your%20Content%20Recommendations.searchQuery.plain" mimetype="text/plain"/>
+<defaultContent>
+<link href="../../../Editorial/Content/Recipes/Fall%20Recipes/Starters/Pumpkin%20Salad%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Pumpkin%20Salad%20Recipe%20Article"/>
+<link href="../../../Editorial/Content/Magazine%20Fall/Story%203%20-%20Ginger/Ginger%20-%20The%20Magi731c15e1.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Fall/Story%203%20-%20Ginger/Ginger%20-%20The%20Magic%20Spice%20Article"/>
+</defaultContent>
+</CMP13NSearch>

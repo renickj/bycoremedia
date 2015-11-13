@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Spring Dresses Campaign" name="Blue Summer Dress Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/Blue%20Summer%20Dress%20Video%205%3A2.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/Blue%20Summer%20Dress%20Video%205%3A2"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Hellblaues Sommerkleid</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Fühlen Sie den Wind</teaserTitle>
+<pictures>
+<link href="Blue%20Summer%20Dress%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Spring%20Dresses%20Campaign/Blue%20Summer%20Dress%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Hellblaues Sommerkleid</alt>
+<copyright>Mamba100/Shutterstock 778156</copyright>
+<data md5="d3a4090ee297426ddd0b69dd1a2450c6" href="../../../../../../../__blob/d3a4090ee297426ddd0b69dd1a2450c6.blob" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Startpage" name="Fall Cocktail Dress Mainpage Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Dress to Impress</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Dress to impress with our elegant Cocktail Dresses</p></div></teaserText>
+<pictures>
+<link href="../../Pictures/Product%20Category%20Pictures/For%20The%20Cook/Apparel/Cocktad857b800.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Category%20Pictures/For%20The%20Cook/Apparel/Cocktail%20Dresses%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+</target>
+</CMTeaser>

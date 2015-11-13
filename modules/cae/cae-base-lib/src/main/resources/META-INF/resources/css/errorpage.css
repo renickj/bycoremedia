@@ -1,0 +1,64 @@
+body {
+  background-color:white;
+  width:30em;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  font-size: 80%;
+  margin: 0;
+  border: 0 none;
+}
+
+table {
+  font-family: tahoma,arial,helvetica,sans-serif;
+  font-size: 100%;
+  empty-cells: show;
+}
+
+th, td {
+  background-color:transparent;
+}
+
+div.body {
+  padding:8px 16px;
+}
+
+.header,
+.footer {
+  margin: 0;
+  padding: 0;
+}
+table.header,
+table.footer {
+  width: 100%;
+  border-collapse: collapse;
+}
+.header tr,
+.footer tr {
+  margin: 0;
+  padding: 0;
+}
+.header td,
+.footer td {
+  margin: 0;
+  padding: 8px 8px 8px 12px;
+  vertical-align: middle;
+  width: 1px;
+  white-space: nowrap;
+}
+.header td *,
+.footer td *,
+.header td,
+.footer td {
+  width: auto;
+}
+.header {
+  background: #4F4F4F;
+  color: white;
+}
+.footer {
+  background: #A8A8A8;
+}
+
+.header .CMTitle {
+  font-family: arial,helvetica,sans-serif;
+  font-size: 164%;
+}

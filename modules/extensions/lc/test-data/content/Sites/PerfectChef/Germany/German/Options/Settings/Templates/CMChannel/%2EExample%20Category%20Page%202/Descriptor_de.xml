@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSymbol folder="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/.Example Category Page 2" name="Descriptor_de" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%202/Descriptor_de.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%202/Descriptor_de"/>
+</master>
+<masterVersion>1</masterVersion>
+<description>_Kategorie-Seite Beispiel 2</description>
+<icon md5="45aef2d6c5309c978690b02b64d2d6be" href="../../../../../../../../../__blob/45aef2d6c5309c978690b02b64d2d6be.blob" mimetype="image/png"/>
+</CMSymbol>

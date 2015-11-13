@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <description>
+    This file is only used in the TaxonomyReferrerFeedablePopulatorTest.
+  </description>
+
+  <import resource="classpath:/com/coremedia/cap/common/uapi-services.xml"/>
+
+  <bean id="taxonomyReferrerFeedablePopulator"
+        class="com.coremedia.blueprint.caefeeder.TaxonomyReferrerFeedablePopulator">
+    <description>
+      FeedablePopulator that sets the referrer of a taxonomy.
+    </description>
+    <property name="sitesService" ref="sitesService"/>
+  </bean>
+
+</beans>

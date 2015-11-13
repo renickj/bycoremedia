@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMFolderProperties folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Recipes/Spring Recipes" name="_folderProperties" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<contexts>
+<link href="../../../../Navigation/Microsites/05_Recipes/Spring%20Recipes/Spring%20Recipes%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/05_Recipes/Spring%20Recipes/Spring%20Recipes%20Page"/>
+</contexts>
+</CMFolderProperties>

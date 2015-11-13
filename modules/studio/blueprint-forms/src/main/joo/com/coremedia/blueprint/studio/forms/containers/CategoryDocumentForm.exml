@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:taxonomy="exml:com.coremedia.blueprint.studio.config.taxonomy"
+                xmlns:ui="exml:ext.config">
+
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.CustomLabels_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.config.standardCollapsibleFormPanel"/>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Content bean value expression</exml:description>
+  </exml:cfg>
+
+  <ui:container autoWidth="true">
+    <items>
+      <editor:collapsibleFormPanel title="{CustomLabels_properties.INSTANCE.PropertyGroup_Subject_label}"
+                                   bindTo="{config.bindTo}"
+                                   expandOnValues="subjectTaxonomy,locationTaxonomy,keywords"
+                                   itemId="subjectTaxonomyDocumentForm"
+                                   collapsed="true">
+        <items>
+          <taxonomy:taxonomyPropertyField propertyName="subjectTaxonomy"
+                                          bindTo="{config.bindTo}"
+                                          hideLabel="true"
+                                          forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"
+                                          taxonomyId="Subject"/>
+          <spacer height="6"/>
+          <editor:collapsibleFormPanel title="{CustomLabels_properties.INSTANCE.PropertyGroup_Free_Keywords_label}"
+                                       bindTo="{config.bindTo}"
+                                       expandOnValues="keywords"
+                                       itemId="freeKeywordsForm"
+                                       collapsed="true">
+            <items>
+              <editor:stringPropertyField hideLabel="true"
+                                          bindTo="{config.bindTo}"
+                                          propertyName="keywords"
+                                          forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+            </items>
+          </editor:collapsibleFormPanel>
+          <spacer height="12"/>
+          <editor:collapsibleFormPanel title="{CustomLabels_properties.INSTANCE.PropertyGroup_Location_label}"
+                                       bindTo="{config.bindTo}"
+                                       expandOnValues="locationTaxonomy"
+                                       itemId="locationTaxonomyForm"
+                                       collapsed="true">
+            <items>
+              <taxonomy:taxonomyPropertyField itemId="locTaxonomyItemId"
+                                              bindTo="{config.bindTo}"
+                                              hideLabel="true"
+                                              forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"
+                                              propertyName="locationTaxonomy"
+                                              taxonomyId="Location"/>
+            </items>
+          </editor:collapsibleFormPanel>
+        </items>
+      </editor:collapsibleFormPanel>
+    </items>
+  </ui:container>
+</exml:component>

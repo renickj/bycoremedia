@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSite folder="/Sites/Aurora Augmentation/United States/English/Navigation" name="Aurora Augmentation [Site]" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<id>99c8ef576f385bc322564d5694df6fc2</id>
+<name>Aurora Augmentation</name>
+<root>
+<link href="Aurora%20Augmentation.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Aurora%20Augmentation"/>
+</root>
+<siteManagerGroup>manager-en-US</siteManagerGroup>
+</CMSite>

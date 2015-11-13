@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Sites/Chef Corp./Germany/German/Options/Settings" name="Preview" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Options/Settings/Preview.xml" path="/Sites/Chef%20Corp%2E/United%20States/English/Options/Settings/Preview"/>
+</master>
+<masterVersion>1</masterVersion>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<LinkListProperty Name="studioPreviewCss" LinkType="coremedia:///cap/contenttype/CMCSS">
+<Link xlink:href="coremedia:///cap/resources/../../../../../../Themes/corporate/css/preview%2Ecss.xml" cmexport:path="/Themes/corporate/css/preview%2Ecss"/>
+</LinkListProperty>
+<LinkListProperty Name="previewCss" LinkType="coremedia:///cap/contenttype/CMCSS">
+<Link xlink:href="coremedia:///cap/resources/../../../../../../Themes/basic/css/preview%2Ecss.xml" cmexport:path="/Themes/basic/css/preview%2Ecss"/>
+</LinkListProperty>
+<LinkListProperty Name="previewJs" LinkType="coremedia:///cap/contenttype/CMJavaScript">
+</LinkListProperty>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

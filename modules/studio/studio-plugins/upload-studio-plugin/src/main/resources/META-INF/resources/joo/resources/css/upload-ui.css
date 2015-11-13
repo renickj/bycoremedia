@@ -1,0 +1,193 @@
+ @charset "UTF-8";
+
+/**
+  * upload-studio-plugin
+  *
+  * @copyright       CoreMedia
+  * @author          SEC/MFA
+  *
+  * @lastmodified    wed 27.05.2015
+  */
+
+/**
+  * grey drop containers
+  *
+  * @see UploadDialog.exml
+  */
+.upload-placeholder {
+  -moz-border-radius: 2px; /* firefox rounded corners */
+  -webkit-border-radius: 2px; /* webkit rounded corners */
+  border-radius: 2px; /* ie9 rounded corners */
+  background-color: #F0F0F0 !important;
+  border: 1px solid #BCBCBC;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  width: 100% !important;
+}
+#upload-drop-label {
+  display: block;
+  margin: auto;
+  padding-top: 4px;
+  margin-top: 147px;
+}
+#upload-drop-label.dialog-upload-helptext-collapsed {
+  margin-top: 0;
+}
+.file-container {
+  margin-top: 12px;
+  background-color: #FFF !important;
+}
+
+/**
+  * layout for images
+  */
+ .upload-thumbnail {
+   border: 1px solid #BCBCBC;
+   -moz-box-shadow: 0 1px 2px -2px #787878;
+   -webkit-box-shadow: 0 1px 2px -2px #787878;
+   box-shadow: 0 1px 2px -2px #787878;
+   background-color: #F1F1F1;
+   padding: 2px;
+ }
+.preview-container {
+  max-height: 60px;
+  max-width: 96px;
+}
+ .no-preview .preview-container {
+   background: url('../images/no_preview.png') no-repeat scroll center center transparent;
+   width: 100%;
+   height: 100%;
+ }
+ .preview .preview-container {
+   background-image: none;
+   top: 50%;
+   transform: translateX(-50%);
+   position: relative;
+   left: 50%;
+ }
+.no-mime-type {
+  color: #646060;
+  margin-top: -19px;
+  text-align: center;
+  font-style: italic;
+  font-size: 9px;
+}
+.upload-progress-dialog-footer {
+  background-color: #DCDBDB;
+  padding-top: 5px;
+}
+.form-spacer {
+  margin-top: 5px;
+}
+.open-tab-checkbox {
+  margin-top: -5px;
+}
+.upload-progress-panel {
+  margin: 7px 0 0 10px;
+}
+.upload-in-progress-icon {
+  background: transparent url(../images/ajax-loader.gif) no-repeat left 0 !important;
+  width: 16px;
+  height: 16px;
+  display: block;
+  text-decoration: none;
+  cursor: default;
+  opacity: 0.8;
+  outline: none;
+  position: relative;
+}
+.upload-progress-dialog-labels {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.file-container .font-weight-bold {
+  line-height: 15px;
+}
+
+/**
+  * special upload designed checkbox
+  */
+.upload-dialog-checkbox .x-form-check-wrap {
+  position: absolute;
+  line-height: 14px;
+  cursor: pointer;
+  height: 20px;
+  top: 10px !important;
+}
+.upload-dialog-checkbox .x-form-checkbox {
+  height: 14px;
+  opacity: 0;
+  -moz-opacity: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.upload-dialog-checkbox .x-form-cb-label {
+  position: static;
+  margin-left: 6px;
+  top: 0;
+  cursor: pointer;
+}
+.upload-dialog-checkbox div:not(#dummy) > .x-form-checkbox + .x-form-cb-label:before {
+  padding: 0;
+  background: url(../../../coremedia-ext-theme/images/cm-default/grid/row-check-sprite.png) 0 -1px no-repeat;
+  position: absolute;
+  z-index: 2;
+  left: 14px;
+  content: url(../../../coremedia-ext-theme/images/cm-default/form/checkbox-dummy.png); /* transparent dummy image */
+  overflow: hidden;
+  width: 14px;
+  height: 14px;
+  margin: 0 0 0 -13px;
+  cursor: pointer;
+}
+.upload-dialog-checkbox div:not(#dummy) > .x-form-checkbox:checked + .x-form-cb-label:before {
+  background-position: -25px -1px;
+}
+.upload-dialog-checkbox div:not(#dummy) > .x-form-checkbox.translucent + .x-form-cb-label:before {
+  background-position: 0 -1px;
+}
+
+/**
+  * the upload creation dialog classes
+  *
+  * @see UploadProgressDialog.exml,
+  *      FolderPrompt.exml,
+  *      FolderPanel.exml
+  */
+.upload-list-wrapper.x-menu-list-item {
+  padding: 0;
+}
+.upload-prompt-container,
+.upload-folder-prompt-container {
+  background-color: #FFF;
+}
+.upload-prompt-title {
+  display: block;
+  margin: 9px 12px 0 12px;
+}
+.upload-prompt-container .upload-prompt-footer {
+  background-color: #F1F1F1;
+}
+.upload-prompt-footer-label {
+  display: block;
+  margin: 0 12px;
+  padding-top: 4px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.folder-item-panel .folder-item-name,
+.folder-item-panel .folder-item-path,
+.upload-prompt-container .upload-progress-panel.x-box-layout-ct label.x-box-item,
+.upload-folder-prompt-container .upload-progress-panel.x-box-layout-ct label.x-box-item {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.upload-prompt-container .upload-list-wrapper span.upload-progress-dialog-separator:last-child {
+  height: 0;
+  visibility: hidden;
+}

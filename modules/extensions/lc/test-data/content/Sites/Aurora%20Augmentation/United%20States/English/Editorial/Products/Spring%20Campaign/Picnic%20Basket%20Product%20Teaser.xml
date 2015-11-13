@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/Aurora Augmentation/United States/English/Editorial/Products/Spring Campaign" name="Picnic Basket Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Picnic Set</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Basket with plates, glasses  and cutlery for two</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Teaser%20Pictures/01_On%20The%20Table/Outdoor/PC_PI348426ae.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Teaser%20Pictures/01_On%20The%20Table/Outdoor/PC_PICNIC_BASKET%20Frontshot%201"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/product/PC_PICNIC_BASKET</externalId>
+</CMProductTeaser>

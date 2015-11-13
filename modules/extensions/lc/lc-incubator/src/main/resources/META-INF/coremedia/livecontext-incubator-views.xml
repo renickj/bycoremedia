@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <import resource="classpath:/framework/spring/blueprint-views.xml"/>
+
+  <customize:prepend id="addLiveContextIncubatorRepositoryName" bean="viewRepositories" order="2001">
+    <description>
+      Add repository name, relative to /WEB-INF/templates/.
+      Will be searched before any site repository is searched
+    </description>
+    <list>
+      <value>livecontext-incubator</value>
+    </list>
+  </customize:prepend>
+
+</beans>

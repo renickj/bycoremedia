@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora B2B Augmentation/United States/English/Editorial/Personalization/Contract-Specific Call-To-Action" name="Join Us Default Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Register to receive exclusive contract pricing!</teaserTitle>
+<pictures>
+<link href="../../../Pictures/Site-Wide/Register%20Now/Join%20Us%20Picture.xml" path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Pictures/Site-Wide/Register%20Now/Join%20Us%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+</target>
+</CMTeaser>

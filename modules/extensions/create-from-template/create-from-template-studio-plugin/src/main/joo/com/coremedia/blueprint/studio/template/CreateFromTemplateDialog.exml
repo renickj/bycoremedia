@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                xmlns:template="exml:com.coremedia.blueprint.studio.template.config"
+                xmlns:u="exml:untyped"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:bpb-components="exml:com.coremedia.blueprint.base.components.config"
+                baseClass="com.coremedia.blueprint.studio.template.CreateFromTemplateDialogBase">
+
+  <exml:import class="ext.MessageBox"/>
+  <exml:import class="ext.util.StringUtil"/>
+  <exml:import class="com.coremedia.ui.data.ValueExpressionFactory"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.util.ContentLocalizationUtil"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.config.propertyFieldGroup"/>
+  <exml:import class="com.coremedia.blueprint.studio.template.model.ProcessingData"/>
+  <exml:import class="com.coremedia.blueprint.studio.util.StudioPluginUtils_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.template.CreateFromTemplateStudioPluginSettings_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.config.documentForm"/>
+
+  <window title="{CreateFromTemplateStudioPlugin_properties.INSTANCE.text}"
+          width="400"
+          height="536"
+          x="113"
+          y="84"
+          id="createFromTemplate"
+          resizable="true"
+          resizeHandles="e"
+          minWidth="400"
+          cls="modal-window-base"
+          bodyCssClass="auto-height">
+    <items>
+      <panel u:labelAlign="top" padding="0 12" autoWidth="true">
+        <items>
+          <spacer height="12"/>
+          <textfield name="{ProcessingData.NAME_PROPERTY}"
+                     validator="{nameValidator}"
+                     itemId="{NAME_FIELD_ID}"
+                     emptyText="{CreateFromTemplateStudioPlugin_properties.INSTANCE.name_empty_text}"
+                     fieldLabel="{CreateFromTemplateStudioPlugin_properties.INSTANCE.name_label}"
+                     cls="border-box-textfield">
+            <plugins>
+              <ui:bindPropertyPlugin bidirectional="true">
+                <ui:bindTo>
+                  <ui:valueExpression context="{getModel()}" expression="{ProcessingData.NAME_PROPERTY}" />
+                </ui:bindTo>
+              </ui:bindPropertyPlugin>
+              <ui:immediateChangeEventsPlugin buffer="500"/>
+              <ui:blockEnterPlugin/>
+            </plugins>
+          </textfield>
+          <bp:navigationLinkFieldWrapper label="{CreateFromTemplateStudioPlugin_properties.INSTANCE.parent_label}"
+                                         doctype="{CreateFromTemplateStudioPluginSettings_properties.INSTANCE.doctype}"
+                                         model="{getModel()}"
+                                         itemId="{PARENT_PAGE_FIELD_ID}"
+                                         propertyName="{CreateFromTemplateStudioPluginSettings_properties.INSTANCE.parent_property}"
+                                         navigationPath=""/>
+          <template:templateBeanListChooser height="230"
+                                            itemId="{TEMPLATE_CHOOSER_FIELD_ID}"
+                                            validate="{templateChooserNonEmptyValidator}"
+                                            configPaths="{CreateFromTemplateStudioPluginSettings_properties.INSTANCE.template_paths}"
+                                            fieldLabel="{CreateFromTemplateStudioPlugin_properties.INSTANCE.choose_template_text}"
+                                            bindTo="{ValueExpressionFactory.createFromValue(getModel())}"/>
+          <bpb-components:folderCombo labelSeparator=""
+                             bindTo="{ValueExpressionFactory.create(ProcessingData.FOLDER_PROPERTY, getModel())}"
+                             itemId="{PAGE_FOLDER_COMBO_ID}"
+                             fieldLabel="{CreateFromTemplateStudioPlugin_properties.INSTANCE.channel_folder_text}"
+                             contentType="{CreateFromTemplateStudioPluginSettings_properties.INSTANCE.doctype}"
+                             folders="{[]}"/>
+          <bpb-components:folderCombo validator="{editorialFolderValidator}"
+                             labelSeparator=""
+                             bindTo="{ValueExpressionFactory.create(CreateFromTemplateStudioPluginSettings_properties.INSTANCE.editorial_folder_property, getModel())}"
+                             itemId="{EDITORIAL_FOLDER_COMBO_ID}"
+                             fieldLabel="{CreateFromTemplateStudioPlugin_properties.INSTANCE.editorial_folder_text}"
+                             contentType="CMArticle"
+                             folders="{[]}"/>
+        </items>
+        <layout>
+          <formlayout labelSeparator=""/>
+        </layout>
+      </panel>
+    </items>
+    <buttons>
+      <ui:footerButton asSuggestion="true"
+                       text="{StudioPluginUtils_properties.INSTANCE.CreateContent_createButton_label}"
+                       itemId="createBtn"
+                       handler="{handleSubmit}">
+        <plugins>
+          <ui:bindPropertyPlugin componentProperty="disabled"
+                                 bindTo="{getDisabledExpression()}"/>
+        </plugins>
+      </ui:footerButton>
+      <ui:footerButton text="{StudioPluginUtils_properties.INSTANCE.btn_cancel}"
+                       itemId="cancelBtn"
+                       handler="{close}"/>
+    </buttons>
+
+  </window>
+</exml:component>

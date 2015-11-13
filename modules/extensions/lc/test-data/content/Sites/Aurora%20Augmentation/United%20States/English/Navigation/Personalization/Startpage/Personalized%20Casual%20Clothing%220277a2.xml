@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSelectionRules folder="/Sites/Aurora Augmentation/United States/English/Navigation/Personalization/Startpage" name="Personalized Casual Clothing Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMCollection/unboxed.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/unboxed"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Casual Clothing</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>This personalized product teaser uses various persona attributes to target:</p><p><br/></p><p>- female: yellow summer dress</p><p><br/></p><p>- no match: casual blue Men's t-shirt<br/></p><p><br/></p></div></teaserText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+<rules grammarName="coremedia-selectionrules-1.0"><rules version="1.0" xmlns="http://www.coremedia.com/2010/selectionrules" xmlns:xlink="http://www.w3.org/1999/xlink">select <content xlink:href="coremedia:///cap/resources/../../Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/18b72c70.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Elegant%20Women%20Teaser"/> if commerce.usersegments#"ibm:///catalog/segment/8000000000000000555" and commerce.usersegments#"ibm:///catalog/segment/8000000000000000557"; select <content xlink:href="coremedia:///cap/resources/../../Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/d497ff0c.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Women/Women%20Casual/Women%20Casual%20External%20Page"/> if commerce.usersegments#"ibm:///catalog/segment/8000000000000000555" and commerce.usersegments#"ibm:///catalog/segment/8000000000000000556"; select <content xlink:href="coremedia:///cap/resources/../../Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/ff23b171.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Men/Men%20Exclusive%20Teaser"/> if commerce.usersegments#"ibm:///catalog/segment/8000000000000000554" and commerce.usersegments#"ibm:///catalog/segment/8000000000000000557"; select <content xlink:href="coremedia:///cap/resources/../../Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/7882eca4.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Men/Men%20Casual/Men%20Casual%20External%20Page"/> if commerce.usersegments#"ibm:///catalog/segment/8000000000000000554" and commerce.usersegments#"ibm:///catalog/segment/8000000000000000556"</rules></rules>
+<defaultContent>
+<link href="../../Fragments/Search%20Landing%20Pages/Spring%20Summer%20Dresse58acc0ed.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Search%20Landing%20Pages/Spring%20Summer%20Dresses/Spring%20Summer%20Dresses%20Category%20Main%20Teaser"/>
+</defaultContent>
+</CMSelectionRules>

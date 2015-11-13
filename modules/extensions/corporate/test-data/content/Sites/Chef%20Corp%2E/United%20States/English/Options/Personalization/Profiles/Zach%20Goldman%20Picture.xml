@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Chef Corp./United States/English/Options/Personalization/Profiles" name="Zach Goldman Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=77;y=0;width=278;height=431</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=55;y=0;width=323;height=431</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=0;y=0;width=431;height=431</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=34;width=431;height=323</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=44;width=431;height=243</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=67;width=431;height=216</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=105;width=431;height=173</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=111;width=431;height=161</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=128;width=431;height=108</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.1791530944625407;y1=0;x2=0.8241042345276873;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.1270358306188925;y1=0;x2=0.8762214983713354;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.0781758957654723;x2=1;y2=0.8273615635179153</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.10097719869706841;x2=1;y2=0.6644951140065146</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.1563517915309446;x2=1;y2=0.6579804560260586</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.24429967426710097;x2=1;y2=0.6449511400651465</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.25732899022801303;x2=1;y2=0.6319218241042345</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.2964169381107492;x2=1;y2=0.5472312703583062</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Zach Goldman</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p/></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Portrait of Zach Goldman - Investor Persona</alt>
+<copyright>Potstock/Shutterstock 237800350</copyright>
+<data md5="38f2d711f3bfe26dcda59c37b6f0c0f8" href="../../../../../../../__blob/38f2d711f3bfe26dcda59c37b6f0c0f8.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>431</width>
+<height>431</height>
+</CMPicture>

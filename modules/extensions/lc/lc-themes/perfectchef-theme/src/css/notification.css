@@ -1,0 +1,80 @@
+/* =====================================================================================================================
+   Notification classes
+   Contains styling definitions for notifications.
+   ================================================================================================================== */
+
+/* box */
+.cm-notification {
+  position: relative;
+  padding: 10px 25px 10px 35px;
+  min-height: 20px;
+  color: #cccccc;
+  line-height: 20px;
+}
+
+/* title */
+.cm-notification__headline {
+  font-weight: bold;
+}
+
+/* icon */
+.cm-notification:before {
+  position: absolute;
+  margin: -1px 0 0 -35px;
+  font-size: 24px;
+  font-family: 'perfectchef';
+  cursor: default;
+}
+
+.cm-notification--error {
+  color: #e30615;
+}
+
+.cm-notification--error:before {
+  content: "\e60e";
+}
+
+.cm-notification--warning {
+  color: #ee9234;
+}
+
+.cm-notification--warning:before {
+  content: "\e611";
+}
+
+.cm-notification--info {
+  color: #4681c5;
+}
+
+.cm-notification--info:before {
+  content: "\e60d";
+}
+
+.cm-notification--success {
+  color: #5cb565;
+}
+
+.cm-notification--success:before {
+  content: "\e60f";
+}
+
+/* dismiss-button */
+.cm-notification__dismiss:before {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  color: rgba(0, 0, 0, 0.75);
+  content: "\e610";
+  font-size: 12px;
+  font-family: 'perfectchef';
+  cursor: pointer;
+}
+
+/* dismiss in error alert */
+.cm-notification--error .cm-notification__dismiss:before {
+  color: rgba(255, 255, 255, 1);
+}
+
+.cm-notification--inactive {
+  display: none;
+}

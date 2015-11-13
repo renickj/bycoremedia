@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMTeaser" name="storelocator" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMTeaser/storelocator.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMTeaser/storelocator"/>
+</master>
+<masterVersion>1</masterVersion>
+<description>Viewtype for a Store Locator</description>
+<icon md5="4d9db3bc3fc33692a72a55890696c750" href="../../../../../../../__blob/4d9db3bc3fc33692a72a55890696c750.blob" mimetype="image/png"/>
+<layout>storelocator</layout>
+</CMViewtype>

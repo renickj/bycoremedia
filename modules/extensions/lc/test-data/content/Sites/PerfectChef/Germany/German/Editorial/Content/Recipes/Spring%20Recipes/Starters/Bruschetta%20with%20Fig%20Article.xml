@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring Recipes/Starters" name="Bruschetta with Fig Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Bruschetta%20with%20Fig%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Bruschetta%20with%20Fig%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Bruschetta mit Feigen und Ziegenkäse</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Tomato.xml" path="/Settings/Taxonomies/Subject/Tomato"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cream.xml" path="/Settings/Taxonomies/Subject/Cream"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Basil.xml" path="/Settings/Taxonomies/Subject/Basil"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Bruschetta</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Bruschetta mit Feigen und Ziegenkäse</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Bruschetta%20with%20Figs%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Bruschetta%20with%20Figs%20Picture"/>
+</pictures>
+<related>
+<link href="Prosciutto%20with%20Melon%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring%20Recipes/Starters/Prosciutto%20with%20Melon%20Article"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+<link href="Tomato%20Soup%20Recipe%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring%20Recipes/Starters/Tomato%20Soup%20Recipe%20Article"/>
+</related>
+</CMArticle>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                xmlns:bpb-components="exml:com.coremedia.blueprint.base.components.config"
+                xmlns:bpforms="exml:com.coremedia.blueprint.studio.config">
+
+  <exml:import class="com.coremedia.blueprint.elastic.social.studio.ElasticSocialStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.CustomLabels_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintDocumentTypes_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.config.propertyFieldGroup"/>
+
+  <exml:constant name="ITEMS_PROPERTY_NAME"
+                 value="items">
+    <exml:description>A constant for the linklist property name</exml:description>
+  </exml:constant>
+
+  <exml:constant name="EXTENDED_LINK_LIST_PROPERTY_SEP_ITEM_ID"
+                 value="extendedLinkListPropertyFieldSeparator">
+    <exml:description>
+       The itemId of the extended link list toolbar separator.
+    </exml:description>
+  </exml:constant>
+
+  <editor:documentTabPanel itemId="ESDynamicList">
+    <items>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_content_title}">
+        <items>
+          <bpforms:teaserDocumentForm/>
+          <editor:collapsibleFormPanel title="{CustomLabels_properties.INSTANCE.PropertyGroup_Configuration_label}"
+                                       itemId="esDynamicListConfigForm">
+            <items>
+              <bp:simpleComboBoxField propertyName="aggregationType"
+                                      autoWidth="true"
+                                      choices="{[
+                                            ['TOP_RATED', ElasticSocialStudioPlugin_properties.INSTANCE.TOP_RATED],
+                                            ['MOST_REVIEWED', ElasticSocialStudioPlugin_properties.INSTANCE.MOST_REVIEWED],
+                                            ['TOP_REVIEWED', ElasticSocialStudioPlugin_properties.INSTANCE.TOP_REVIEWED],
+                                            ['MOST_COMMENTED', ElasticSocialStudioPlugin_properties.INSTANCE.MOST_COMMENTED],
+                                            ['MOST_RATED', ElasticSocialStudioPlugin_properties.INSTANCE.MOST_RATED],
+                                            ['MOST_LIKED', ElasticSocialStudioPlugin_properties.INSTANCE.MOST_LIKED],
+                                            ['MOST_SHARED', ElasticSocialStudioPlugin_properties.INSTANCE.MOST_SHARED]
+                                          ]}"/>
+              <bp:simpleComboBoxField propertyName="interval"
+                                      autoWidth="true"
+                                      choices="{[
+                                            ['INFINITY', ElasticSocialStudioPlugin_properties.INSTANCE.INFINITY],
+                                            ['LAST_YEAR', ElasticSocialStudioPlugin_properties.INSTANCE.LAST_YEAR],
+                                            ['LAST_MONTH', ElasticSocialStudioPlugin_properties.INSTANCE.LAST_MONTH],
+                                            ['LAST_WEEK', ElasticSocialStudioPlugin_properties.INSTANCE.LAST_WEEK],
+                                            ['LAST_DAY', ElasticSocialStudioPlugin_properties.INSTANCE.LAST_DAY]
+                                          ]}"/>
+              <bp:extendedLinkListPropertyField propertyName="channel">
+                <bp:additionalToolbarItems>
+                  <tbseparator itemId="{EXTENDED_LINK_LIST_PROPERTY_SEP_ITEM_ID}"/>
+                  <bpb-components:quickCreateToolbarButton bindTo="{config.bindTo}"
+                                               contentType="CMChannel"
+                                               propertyName="channel"/>
+                </bp:additionalToolbarItems>
+              </bp:extendedLinkListPropertyField>
+              <editor:spinnerPropertyField propertyName="maxLength"
+                                           minValue="1"/>
+            </items>
+          </editor:collapsibleFormPanel>
+          <bpforms:viewTypeSelectorForm collapsed="false"/>
+          <bpforms:validityDocumentForm/>
+        </items>
+      </editor:documentForm>
+      <bpforms:multiLanguageDocumentForm/>
+      <bpforms:metaDataWithoutSettingsForm/>
+    </items>
+  </editor:documentTabPanel>
+</exml:component>

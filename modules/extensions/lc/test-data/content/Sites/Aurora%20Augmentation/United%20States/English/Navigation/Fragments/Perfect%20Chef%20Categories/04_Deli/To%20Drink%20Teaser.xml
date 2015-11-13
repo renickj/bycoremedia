@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/04_Deli" name="To Drink Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>To Drink</teaserTitle>
+<pictures>
+<link href="../../../../Pictures/Product%20Teaser%20Pictures/04_Deli/To%20Drink/PC_ORANGE_TEA%618dbc05.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Teaser%20Pictures/04_Deli/To%20Drink/PC_ORANGE_TEA%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="To%20Drink/To893c9e79.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/04_Deli/To%20Drink/To%20Drink%20External%20Page"/>
+</target>
+</CMTeaser>

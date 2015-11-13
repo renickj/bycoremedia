@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <!-- public imports for this service -->
+  <import resource="classpath:/framework/spring/blueprint-contentbeans.xml"/>
+  <import resource="classpath:/com/coremedia/blueprint/base/multisite/bpbase-multisite-services.xml"/>
+  <import resource="classpath*:/META-INF/coremedia/component-lc-ecommerce-ibm.xml"/>
+
+  <!-- "private" imports needed for this file's beans -->
+  <import resource="classpath:/META-INF/coremedia/livecontext-navigation.xml"/>
+
+  <bean name="contentBeanFactory:CMMarketingSpot" parent="abstractTeasable-blueprint-doctypes"
+        class="com.coremedia.livecontext.contentbeans.CMMarketingSpotImpl" scope="prototype">
+    <property name="liveContextNavigationFactory" ref="liveContextNavigationFactory"/>
+  </bean>
+
+  <bean name="contentBeanFactory:CMProductTeaser" parent="abstractTeasable-blueprint-doctypes"
+        class="com.coremedia.livecontext.contentbeans.CMProductTeaserImpl" scope="prototype">
+    <property name="liveContextNavigationFactory" ref="liveContextNavigationFactory"/>
+  </bean>
+
+  <bean name="abstractExternalChannel-blueprint-doctypes" parent="abstractChannel-blueprint-doctypes"
+        class="com.coremedia.livecontext.contentbeans.CMExternalChannelBase" scope="prototype" abstract="true"/>
+
+  <bean name="contentBeanFactory:CMExternalChannel" parent="abstractExternalChannel-blueprint-doctypes"
+        class="com.coremedia.livecontext.contentbeans.LiveContextExternalChannel" scope="prototype">
+    <property name="liveContextNavigationFactory" ref="liveContextNavigationFactory"/>
+  </bean>
+
+</beans>
+

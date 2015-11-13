@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Navigation/Site-Wide/FAQ" name="FAQ Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Frequently Asked Questions</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+<link href="FAQ%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/FAQ/FAQ%20Page"/>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>At Perfect Chef, we are always here to help you.<br/></p><p>Please have a look at our Frequently Asked Questions below to see whether your problem has already been solved before.<br/></p><p>Otherwise, do not hesitate to <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Editorial/Content/Corporate/Contact%20Us.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Corporate/Contact%20Us">contact us.</a><br/><br/></p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

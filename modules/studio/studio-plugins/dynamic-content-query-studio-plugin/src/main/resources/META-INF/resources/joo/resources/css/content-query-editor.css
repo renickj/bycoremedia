@@ -1,0 +1,317 @@
+@charset "UTF-8";
+
+/**
+  * coremedia content query component
+  *
+  * @copyright       CoreMedia
+  * @author          SEC, TBS, MFS
+  *
+  * @lastmodified    wed 20.03.2013
+  */
+
+/**
+  * content query form
+  *
+  * @see ContentQueryEditor.exml
+  */
+.dcqe {
+  min-height: 100% !important;
+  margin-bottom: -12px;
+}
+.dcqe .expert-view-container {
+  padding: 12px 16px;
+}
+
+/**
+  * view switch link between expert & novice in form header
+  */
+.dcqe .switch-condition-view {
+  padding: 3px 18px;
+  border-bottom: 1px solid #BCBCBC;
+}
+.dcqe .switch-condition-view .x-form-item {
+  float: right;
+  margin-left: 10px;
+}
+/**
+  * button hover feedback
+  */
+.condition-editor-header .icon-button-xs.x-btn-icon {
+  width: 24px;
+  height: 24px;
+  background: transparent url(../../../coremedia-ext-theme/images/cm-custom/custom-ui/icon-btn-bg-flat.png) no-repeat 0 -48px;
+  cursor: pointer;
+  font-size: 0;
+}
+.condition-editor-header .icon-button-xs.x-btn-icon.x-btn-over {
+  background-position: left -24px !important;
+}
+.condition-editor-header .icon-button-xs.x-btn-icon.x-btn-click,
+.condition-editor-header .icon-button-xs.x-btn-icon.x-btn-pressed,
+.condition-editor-header .icon-button-xs.x-btn-icon.x-btn-pressed.x-btn-over {
+  background-position: left 0 !important;
+}
+
+/**
+  * left column
+  */
+
+/**
+  * @see ApplicableConditions.exml
+  */
+.dcqe .applicable-condition-group-ct .x-panel-header {
+  margin-left: -6px !important;
+  margin-bottom: 0 !important;
+}
+.query-editor-conditions-left {
+  background-color: #DCDBDB;
+  padding: 6px 12px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  height: 100% !important;
+}
+.dcqe .applicable-condition-group .x-panel-header,
+.dcqe .applicable-condition-group-body {
+  background: none;
+}
+.dcqe .applicable-condition-group .x-tool-toggle,
+.dcqe .applicable-condition-group .x-tool-toggle-over {
+  background-position: 0 -75px;
+}
+.dcqe .applicable-condition-group.x-panel-collapsed .x-tool-toggle {
+  background-position: 0 -120px;
+}
+
+/**
+  * @see ContextConditionEditor.exml
+  */
+.context-condition-editor {
+  margin: 6px;
+}
+.context-condition-editor .x-grid3-body,
+.context-condition-editor .x-grid3-row,
+.context-condition-editor .x-grid3-row-table {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  width: auto !important;
+}
+
+/**
+  * droppable container
+  *
+  * @see ConditionDroppable.exml
+  */
+.query-editor-condition-droppable {
+  background-color: #F1F1F1;
+  border: 2px solid #FFF;
+  margin: 3px 0 24px 0;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding: 1px 1px 2px 2px;
+  margin-bottom: 14px;
+  -moz-box-shadow: 0 4px 4px -4px #999;
+  -webkit-box-shadow: 0 4px 4px -4px #999;
+  box-shadow: 0 4px 4px -4px #999;
+}
+.query-editor-condition-droppable,
+.condition-droppable .x-form-item-label {
+  cursor: pointer;
+}
+.query-editor-condition-droppable:active,
+.condition-droppable .x-form-item-label:active {
+  cursor: move;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+.query-editor-condition-droppable .inner-component {
+  background-color: #F1F1F1;
+}
+
+/**
+  * right column
+  *
+  * @see ContentQueryEditor.exml
+  */
+.dcqe-assistant-view .x-box-inner {
+  overflow-x: auto;
+}
+.dcqe-assistant-view .query-editor-conditions-left .x-box-inner,
+.dcqe-assistant-view .query-editor-subsection .x-box-inner {
+  overflow: hidden;
+}
+.query-editor-conditions-right {
+  padding: 8px 12px 18px 12px;
+}
+.query-editor-types-filter {
+  margin-bottom: 14px;
+}
+.query-editor-checkboxgroup-top,
+.query-editor-checkboxgroup-bottom {
+  border: 1px solid #BCBCBC;
+  background-color: #FFF;
+}
+.query-editor-checkboxgroup-top {
+  border-bottom: 1px solid #CDCDCD;
+  border-radius: 2px 2px 0 0;
+  padding: 6px 6px 0 6px;
+  margin-top: 3px;
+}
+.query-editor-checkboxgroup-bottom {
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  overflow: hidden !important;
+  padding: 6px 6px 2px 6px;
+}
+.query-editor-checkboxgroup-bottom .x-column-inner {
+  width: auto !important;
+}
+.query-editor-subsection {
+  margin: 3px 0;
+  padding: 6px 12px;
+  border-radius: 2px;
+  background-color: #DCDBDB;
+  position: relative;
+}
+.dcqe .applied-condition-editor {
+  background-color: #F1F1F1;
+  border: 2px solid #FFF;
+  margin: 3px 0 24px 0;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.dcqe .applied-condition-editor:last-child {
+  margin-bottom: 3px;
+}
+.dcqe .applied-condition-editor.drop-target label {
+  font-style: italic;
+  color: #646060;
+}
+.dcqe .applied-condition-editor .condition-editor-header {
+  border-bottom: 2px solid white;
+}
+.applied-condition-editor.drop-target {
+  padding: 6px 0;
+}
+.dcqe .applied-condition-editor .content {
+  padding: 6px 12px;
+}
+.dcqe .delete-all-link {
+  position: absolute;
+  right: 12px;
+}
+.dcqe .remove-icon button,
+.dcqe .remove-folder button {
+  background: none;
+  border: none;
+  width: 16px;
+  height: 16px;
+}
+.dcqe .condition-handle,
+.dcqe .remove-folder {
+  background: url('../images/dcqe_icons_16.png') no-repeat scroll left 0 transparent !important;
+}
+.dcqe .condition-handle {
+  background-position: left 0 !important
+}
+.dcqe .remove-folder {
+  background-position: left -16px !important
+}
+/* Folder path condition */
+.dcqe .folder-list {
+  margin: 3px 0;
+}
+.dcqe .folder-list div:first-child {
+  border-radius: 2px 2px 0 0;
+}
+.dcqe .folder-list div.folder-drop-target:first-child {
+  border-radius: 2px;
+}
+.dcqe .folder-item,
+.dcqe .folder-drop-target {
+  background-color: white;
+  border-color: #BCBCBC;
+  border-style: solid solid none;
+  border-width: 1px 1px medium;
+  padding: 3px 3px 0 5px;
+  margin-bottom: -2px;
+}
+.dcqe .folder-drop-target {
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #BCBCBC;
+}
+.dcqe .folder-drop-target .x-form-item {
+  font-style: italic !important;
+  color: #646868;
+}
+.dcqe .folder-drop-target .x-box-inner {
+  height: 16px;
+}
+/* Expert view */
+.dcqe .query-error-message {
+  /* Form layout manager is pretty rigid so relative positioning
+     is used to force some minor layout requirements. */
+  position: relative;
+  top: -8px;
+  color: #ff3300;
+  /*visibility: hidden;*/
+}
+
+/**
+  * helper window
+  *
+  * @see ContentQueryEditor.exml
+  */
+.helper-window .x-window-mc {
+  background-color: #FFF;
+}
+.helper-window #helper-window-body {
+  color: #000;
+  background: #fff;
+  padding: 15px;
+}
+.helper-window #helper-window-body > p {
+  margin-bottom: 15px;
+}
+.helper-window a:link,
+.helper-window a:hover,
+.helper-window a:visited,
+.helper-window a:active {
+  color: #4188dd;
+}
+.helper-window table {
+  border-collapse: collapse;
+}
+.helper-window table,
+.helper-window td,
+.helper-window th {
+  border: 1px solid #909090;
+}
+.helper-window th,
+.helper-window td {
+  text-align: left;
+  padding: 3px 5px;
+}
+.helper-window th {
+  font-weight: bold;
+}
+.helper-window td {
+  vertical-align: top;
+}
+.helper-window td p {
+  margin-bottom: 7px;
+}
+.helper-window td dl {
+  margin-top: 3px;
+  margin-bottom: 7px;
+}
+.helper-window dt {
+  font-family: 'courier new', monospace;
+}
+.helper-window dd {
+  padding-left: 20px;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection" name="footer-navigation" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMCollection/footer-navigation.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/footer-navigation"/>
+</master>
+<masterVersion>1</masterVersion>
+<description>Displays collection as footer navigation</description>
+<icon md5="247ba488bfbee0ee345c2482ae0bd191" href="../../../../../../../__blob/247ba488bfbee0ee345c2482ae0bd191.blob" mimetype="image/png"/>
+<layout>footer-navigation</layout>
+</CMViewtype>

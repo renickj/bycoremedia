@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:dcqe="exml:com.coremedia.cms.studio.queryeditor.config"
+                baseClass="com.coremedia.cms.studio.queryeditor.conditions.ModificationDateConditionEditorBase">
+
+  <exml:import class="com.coremedia.cms.studio.queryeditor.QueryEditor_properties"/>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Content bean value expression</exml:description>
+  </exml:cfg>
+  <exml:cfg name="propertyName" type="String">
+    <exml:description>Property which contains the condition.</exml:description>
+  </exml:cfg>
+  <exml:cfg name="timeSlots" type="Array">
+    <exml:description>List of time slots.</exml:description>
+  </exml:cfg>
+  <exml:cfg name="group" type="String">
+    <exml:description></exml:description>
+  </exml:cfg>
+  <exml:cfg name="documentTypes" type="Array">
+    <exml:description></exml:description>
+  </exml:cfg>
+  <exml:cfg name="sortable" type="Boolean">
+    <exml:description></exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="forceReadOnlyValueExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       An optional ValueExpression which makes the component read-only if it is evaluated to true.
+    </exml:description>
+  </exml:cfg>
+
+
+  <dcqe:conditionEditorBase>
+    <items>
+      <container cls="content">
+        <items>
+          <container>
+            <items>
+              <label text="{QueryEditor_properties.INSTANCE.DCQE_label_modification_time}"/>
+            </items>
+            <layout>
+              <hboxlayout defaultMargins="0 6px 0 0" align="middle"/>
+            </layout>
+          </container>
+
+          <spacer height="3"/>
+
+          <container>
+            <items>
+              <ui:localComboBox itemId="sortingField"
+                                width="150"
+                                minListWidth="150"
+                                fieldClass="type-box"
+                                valueField="name"
+                                displayField="localizedName"
+                                encodeItems="true"
+                                blankText=""
+                                emptyText="{QueryEditor_properties.INSTANCE.DCQE_option_default}">
+              <plugins mode="append">
+                  <ui:bindListPlugin>
+                    <ui:fields>
+                      <datafield name="name"/>
+                      <ui:dataField name="localizedName"
+                                    mapping="name"
+                                    convert="{getText}"
+                                    encode="false"/>
+                    </ui:fields>
+                    <ui:bindTo>
+                      <ui:valueExpression context="{getLocalModel()}" expression="{TIME_SLOTS}"/>
+                    </ui:bindTo>
+                  </ui:bindListPlugin>
+                  <ui:bindPropertyPlugin bidirectional="true"
+                                         ifUndefined="">
+                    <ui:bindTo>
+                      <ui:valueExpression context="{getLocalModel()}" expression="{SELECTED_TIME_SLOT}"/>
+                    </ui:bindTo>
+                  </ui:bindPropertyPlugin>
+                  <editor:bindDisablePlugin bindTo="{config.bindTo}"
+                                            forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+                </plugins>
+                <tpl>
+                  <exml:object> <![CDATA[
+                    '<tpl for="."><div class="x-menu-item x-combo-list-item">{localizedName}</div></tpl>'
+                    ]]></exml:object>
+                </tpl>
+              </ui:localComboBox>
+            </items>
+            <layout>
+              <hboxlayout defaultMargins="0 6px 0 0" align="middle"/>
+            </layout>
+          </container>
+        </items>
+      </container>
+
+    </items>
+  </dcqe:conditionEditorBase>
+
+</exml:component>

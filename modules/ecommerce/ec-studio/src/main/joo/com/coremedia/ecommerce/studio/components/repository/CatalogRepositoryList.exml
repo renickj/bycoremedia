@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config"
+                baseClass="com.coremedia.ecommerce.studio.components.repository.CatalogRepositoryListBase">
+
+  <exml:import class="com.coremedia.ecommerce.studio.ECommerceStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.columns.grid.GridColumns_properties"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.CatalogObject"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.util.RichTextPlainTextTransformer"/>
+
+  <exml:var name="catalogHelper" type="CatalogHelper" value="{CatalogHelper.getInstance()}"/>
+
+  <ec:abstractCatalogList
+          autoExpandColumn="description"
+          emptyText="{ECommerceStudioPlugin_properties.INSTANCE.CatalogView_empty_text}"
+          selectedItemsValueExpression="{createSelectedItemsValueExpression()}"
+          >
+    <plugins mode="prepend">
+      <ui:bindListPlugin bindTo="{getCatalogItemsValueExpression()}">
+        <ui:fields>
+          <ui:dataField name="type"
+                        mapping=""
+                        convert="{catalogHelper.getTypeLabel}"/>
+          <ui:dataField name="typeCls"
+                        mapping=""
+                        convert="{catalogHelper.getTypeCls}"/>
+          <ui:dataField name="id" mapping="externalId"/>
+          <ui:dataField name="name"
+                        mapping=""
+                        convert="{catalogHelper.getDecoratedName}"/>
+          <ui:dataField name="description"
+                        mapping="shortDescription"
+                        convert="{function(v:String, catalogObject:CatalogObject):String {
+                          return RichTextPlainTextTransformer.convertToPlainText(catalogObject.getShortDescription());}}"/>
+        </ui:fields>
+      </ui:bindListPlugin>
+      <ui:contextMenuPlugin>
+        <ui:contextMenu>
+          <ec:catalogRepositoryContextMenu/>
+        </ui:contextMenu>
+      </ui:contextMenuPlugin>
+    </plugins>
+    <colModel>
+      <columnmodel>
+        <columns>
+          <editor:typeIconColumn showTypeName="true" width="125"/>
+          <gridcolumn header="{ECommerceStudioPlugin_properties.INSTANCE.id_header}"
+                      id="id"
+                      dataIndex="id"
+                      sortable="true"
+                      width="125"/>
+          <gridcolumn header="{GridColumns_properties.INSTANCE.name_header}"
+                      id="name"
+                      dataIndex="name"
+                      sortable="true"
+                      width="200"/>
+          <gridcolumn header="{ECommerceStudioPlugin_properties.INSTANCE.description_header}"
+                      id="description"
+                      dataIndex="description"/>
+        </columns>
+        <defaults>
+          <gridcolumn hideable="false" menuDisabled="true"/>
+        </defaults>
+      </columnmodel>
+    </colModel>
+  </ec:abstractCatalogList>
+</exml:component>

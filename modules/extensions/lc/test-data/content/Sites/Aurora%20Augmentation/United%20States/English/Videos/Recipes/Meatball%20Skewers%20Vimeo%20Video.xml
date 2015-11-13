@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/Recipes" name="Meatball Skewers Vimeo Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Meatball Skewers</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Meat.xml" path="/Settings/Taxonomies/Subject/Meat"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Outdoor.xml" path="/Settings/Taxonomies/Subject/Outdoor"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/American.xml" path="/Settings/Taxonomies/Subject/American"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Beef.xml" path="/Settings/Taxonomies/Subject/Beef"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Onion.xml" path="/Settings/Taxonomies/Subject/Onion"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+<link href="Meatball%20Skewers%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Meatball%20Skewers%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Meatball Skewers (1)</alt>
+<copyright></copyright>
+<dataUrl>//player.vimeo.com/video/84178736</dataUrl>
+</CMVideo>

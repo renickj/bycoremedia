@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/FAQ" name="FAQ Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Site-Wide/FAQ/FAQ%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/FAQ/FAQ%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Häufig gestellte Fragen</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+<link href="FAQ%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/FAQ/FAQ%20Page"/>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Bei Perfect Chef helfen wir Ihnen jederzeit gern. Bitte werfen Sie einen Blick auf unsere häufig gestellten Fragen unten, um zu sehen, ob Ihr Problem bereits zuvor gelöst worden ist. Ansonsten zögern Sie bitte nicht, <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Editorial/Content/Corporate/Contact%20Us.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/Contact%20Us">uns zu kontaktieren.</a></p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

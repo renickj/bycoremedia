@@ -1,0 +1,603 @@
+@charset "UTF-8";
+
+/**
+  * coremedia taxonomy ui
+  *
+  * @copyright       CoreMedia
+  * @author          SEC/MFA/BUE
+  *
+  * @lastmodified    thu 04.12.2014
+  */
+
+/**
+  * no left border for first tab
+  */
+#taxSplitPanelRight .x-tab-strip.x-tab-strip-top {
+  margin-left: -1px;
+}
+
+/**
+  * @section icons for navigation in grids & buttons
+  */
+
+/**
+  * icons in grids
+  */
+.taxonomy-path-arrow,
+.x-grid3-row-selected .taxonomy-path-arrow,
+.arrow-link {
+  background: transparent url("../images/cm-16--taxonomy-tool.png") no-repeat left 0;
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+  float: left;
+}
+.taxonomy-path-arrow {
+  background-position: left 0;
+}
+.arrow-link {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+.taxonomySplitPanel .x-grid3-row-selected .taxonomy-path-arrow,
+.taxonomy-search-item.x-combo-selected .taxonomy-path-arrow {
+  background-position: left -16px;
+}
+
+/**
+  * more space for path arrow icon only in suggestion combo box list
+  */
+.x-combo-list .taxonomy-path-arrow {
+  margin-top: 2px;
+}
+
+/**
+  * icons for buttons
+  */
+.btn-plus-white,
+.btn-plus-black,
+.btn-minus-white,
+.btn-minus-black {
+  background: transparent url("../images/cm-16--taxonomy-tool.png") no-repeat;
+  display: block;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  position: absolute;
+  top: 0;
+  right: 1px;
+  cursor: default;
+  outline: none;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.btn-minus-black {
+  background-position: left -32px;
+  border-left: 1px solid #b3b1b1;
+}
+.btn-minus-white {
+  background-position: left -48px;
+}
+.btn-plus-black {
+  background-position: left -64px;
+  border-left: 1px solid #b3b1b1;
+}
+.btn-plus-white {
+  background-position: left -80px;
+}
+
+/**
+ * Admin CSS
+ */
+.taxonomy-center-panel {
+  padding: 0 12px 12px 12px;
+  font: normal 12px/18px 'Segoe UI', 'Trebuchet MS', 'Lucida Grande', Helvetica, sans-serif;
+}
+.filter-container {
+  -moz-box-sizing: border-box;
+  background: none repeat scroll 0 0 #F0F0F0;
+  padding: 5px 12px 0 10px;
+  font: 12px/18px 'Segoe UI', 'Trebuchet MS', 'Lucida Grande', Helvetica, sans-serif;
+}
+.taxonomySplitPanel {
+  border: 1px solid #BCBCBC;
+}
+.dynamicTaxonomyColumnsPanel .x-box-inner {
+  overflow-x: auto !important;
+  border-left: 1px solid #BCBCBC;
+  background-color: #FFF !important;
+}
+.explorerColumn {
+  border-right: 1px solid #BCBCBC;
+}
+.explorerColumn .x-grid-empty {
+  border: 0 !important;
+}
+
+/**
+* The node formatting styles
+*/
+.column-entry-default {
+  font-weight: bold;
+}
+.column-entry-not-extendable {
+  color: #F0F0F0;
+  font-style: italic;
+}
+.column-entry-leaf {
+  /*font-style: normal;*/
+}
+.column-entries-marked-for-copy {
+  color: #8a8686 !important;
+}
+.x-grid3-row-selected .column-entries-marked-for-copy {
+  color: #dcdbdb !important;
+}
+
+/**
+ * Node Search
+ */
+.taxonomy-admin-search-field {
+  border-radius: 2px !important;
+}
+.taxonomy-admin-search-field.error {
+  border: 1px solid #F30;
+  background: none repeat scroll 0 0 #FFE7E1;
+}
+.suggestions-panel-wrapper,
+.add-all-suggestions > .x-column-inner {
+  width: auto !important;
+}
+.add-all-suggestions {
+  margin-top: 8px;
+}
+.add-all-suggestions > .x-column-inner .wrapper-btn-textlink {
+  margin-right: 4px;
+}
+.suggestions-panel-wrapper .x-grid-empty {
+  color: #646868 !important;
+  padding-left: 8px;
+  border-radius: 2px;
+}
+.suggestion-panel-empty-text {
+  margin-top: 1px;
+}
+.suggestion-link-list-title {
+  padding-left: 3px !important;
+  font-weight: bold !important;
+}
+.content-editor .link-list-property-wrapper {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  width: 100% !important;
+}
+.content-editor .link-list-property .x-grid3-scroller {
+  overflow-x: hidden;
+}
+
+/**
+  * Taxonomy Explorer
+  */
+.taxonomy-roots-column {
+  background-color: #F0F0F0;
+}
+.taxonomy-roots-column .x-grid3 {
+  background-color: #DCDBDB;
+}
+.taxonomy-roots-column .x-grid3-row-selected,
+.dynamicTaxonomyColumnsPanel .x-grid3-row-selected {
+  border: 1px solid transparent;
+  outline: none;
+}
+/* ...former end of 'taxonomy-ui.css'! */
+
+/**
+ * Common CSS for the search field/combo
+ */
+.taxonomy-search-field {
+  border: none;
+  margin-top: -2px;
+  box-shadow: none !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.taxonomy-link-list.readonly .taxonomy-search-field {
+  background-color: #F1F1F1;
+}
+.taxonomy-search-item.x-combo-selected .taxonomy-node-linklist-base {
+  background-color: #FFF;
+  border-color: #B3B1B1;
+  color: #000;
+}
+.taxonomy-search-item.x-combo-selected .taxonomy-node-linklist-base.grey {
+  background-color: #FFF;
+  border-color: #4189DD;
+}
+div.taxonomy-search-item {
+  border-style: none;
+  border-bottom: 1px solid #EFEFEF;
+  padding: 1px 2px 2px 2px;
+  clear: both;
+  cursor: pointer;
+  overflow: hidden;
+}
+.x-combo-list div.taxonomy-search-item.x-combo-selected {
+  background-color: #4189DD;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.taxonomy-search-error-message {
+  color: #F30;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: -5px;
+}
+/* ...former end of 'taxonomy-search-ui.css'! */
+
+.taxonomy-node-linklist-base {
+  background-color: #fff;
+  border: 1px solid #B3B1B1;
+  border-radius: 10px;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 1px 6px;
+  margin: 0 2px 0 0;
+  float: left;
+  position: relative;
+  height: 13px;
+}
+.x-combo-list .taxonomy-node-linklist-base {
+  padding: 2px 6px 1px 6px;
+  margin: 1px 2px 0 0;
+}
+
+/**
+  * state visualisations
+  */
+.taxonomy-node-linklist-base.grey {
+  background-color: #FFF;
+  border: 1px solid #B3B1B1;
+}
+.taxonomy-node-linklist-base.leaf {
+  background-color: #B3B1B1;
+  border: 1px solid #B3B1B1;
+  color: #FFF;
+}
+.taxonomy-node-linklist-base .tag-name {
+  overflow: hidden;
+  margin-right: 16px;
+}
+.taxonomy-node-linklist-base .leaf .tag-name {
+  overflow: hidden;
+  margin-right: 16px;
+}
+.taxonomy-node-linklist-base.grey .tag-name {
+  margin-right: 0;
+}
+
+/**
+  * no selection state feedback needed
+  */
+.taxonomy-link-list.issue-change {
+  box-shadow: none;
+}
+.taxonomy-link-list.issue-change .link-list-grid-panel-empty ~ .link-list-property-drop-container,
+.taxonomy-link-list.issue-warn .link-list-grid-panel-empty ~ .link-list-property-drop-container,
+.taxonomy-link-list.issue-error .link-list-grid-panel-empty ~ .link-list-property-drop-container,
+.taxonomy-link-list.issue-info .link-list-grid-panel-empty ~ .link-list-property-drop-container {
+  border-image: none;
+}
+.taxonomy-link-list .x-grid3-row-selected,
+.taxonomy-link-list .x-grid3-row-selected td.x-grid3-cell,
+.taxonomy-link-list .x-grid3-row-selected .x-grid3-row-over,
+.taxonomy-link-list .x-grid3-row-over {
+  background-color: #FFF !important;
+  color: #000;
+  overflow: hidden;
+}
+.taxonomy-link-list.link-list-property .x-grid3-scroller .x-grid3-row table:after {
+  content: none;
+}
+.taxonomy-link-list .x-panel-footer {
+  padding: 0;
+  width: 100% !important;
+}
+.taxonomy-node-linklist-base.stripped {
+  padding-right: 6px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+.taxonomy-node-linklist-base .stripped-tag-overlay {
+  visibility: hidden;
+}
+.taxonomy-node-linklist-base.stripped .stripped-tag-overlay {
+  visibility: visible;
+  width: 20px;
+  height: 18px;
+  background-image: url(../images/tag-stripped-overlay.png);
+  background-repeat: repeat-y;
+  background-position: right center;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}
+.taxonomy-node-linklist-base .plus-minus-button {
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 1px solid #FFF;
+}
+.taxonomy-node-linklist-base .plus-minus-button a {
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+.taxonomy-link-list .loading-indicator {
+  line-height: 16px;
+  margin: 0;
+}
+
+/**
+  * enable browser auto width
+  */
+.taxonomy-link-list .x-grid3-body,
+.taxonomy-link-list .x-grid3-row {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  width: auto !important;
+}
+.taxonomy-link-list .x-grid3-row {
+  height: 23px;
+}
+
+/**
+ * special rule for this suggestion link list
+ */
+.taxonomy-link-list.simple-list .x-grid3-row.x-grid3-row-last {
+  height: 24px;
+}
+
+/**
+  * lightweight standard button layout without tables
+  * in different toolbars
+  */
+.rule-list-editor .icon-button-xs.x-btn-icon,
+.collection-status-filters .icon-button-xs.x-btn-icon {
+  width: 24px;
+  height: 24px;
+  background: transparent url(../../../coremedia-ext-theme/images/cm-custom/custom-ui/icon-btn-bg-flat.png) no-repeat 0 -48px;
+  cursor: pointer;
+  font-size: 0;
+}
+.rule-list-editor .icon-button-xs.x-btn-icon.x-btn-over,
+.collection-status-filters .icon-button-xs.x-btn-icon.x-btn-over {
+  background-position: left -24px !important;
+}
+.rule-list-editor .icon-button-xs.x-btn-icon.x-btn-click,
+.collection-status-filters .icon-button-xs.x-btn-icon.x-btn-click,
+.rule-list-editor .icon-button-xs.x-btn-icon.x-btn-pressed,
+.collection-status-filters .icon-button-xs.x-btn-icon.x-btn-pressed,
+.rule-list-editor .icon-button-xs.x-btn-icon.x-btn-pressed.x-btn-over,
+.collection-status-filters .icon-button-xs.x-btn-icon.x-btn-pressed.x-btn-over {
+  background-position: left 0 !important;
+}
+
+
+/**
+  * grid & panel
+  */
+.taxonomy-filter-list {
+  background-color: #F0F0F0 !important;
+}
+.taxonomy-filter-list.simple-list .x-panel-body {
+  width: auto !important;
+}
+.taxonomy-filter-list.simple-list .x-grid3-body {
+  width: 100% !important;
+  font-size: 0;
+  overflow-x: hidden;
+}
+.taxonomy-filter-list.simple-list .x-grid3-row:last-child {
+  padding-bottom: 6px;
+}
+.taxonomy-filter-list .x-grid3-row-over {
+  background: #F0F0F0 !important;
+}
+.taxonomy-filter-list .x-grid3-row {
+  background-color: #F0F0F0 !important;
+  border: none !important;
+  width: 100% !important;
+}
+.taxonomy-filter-list .x-grid3-row-table {
+  width: 100% !important;
+}
+.taxonomy-filter-list .x-grid3 {
+  background-color: #F0F0F0 !important;
+  border: none !important;
+}
+.taxonomy-filter-list.x-grid3-row-selected,
+.taxonomy-filter-list .x-grid3-row-selected td.x-grid3-cell {
+  background: none repeat scroll 0 0 #F0F0F0 !important;
+  color: #000;
+  overflow: hidden;
+}
+
+/* ...former end of 'taxonomy-filter-ui.css'! */
+
+/**
+  * @see TaxonomySelector.exml
+  *
+  * CSS for the upper link list of the selection dialog, this is a regular taxonomy link list with some fine tuning.
+  */
+.icon-taxonomy {
+  display: block;
+  text-decoration: none;
+  background: transparent url("../images/cm-16-taxonomies.png") center right no-repeat;
+}
+.taxonomy-label {
+  font-weight: bold !important;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.letter-button {
+  background-color: #B3B1B1;
+  border: none;
+  margin-left: 5px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.letter-panel {
+  background-color: #B3B1B1;
+}
+.list-letter-selection {
+  background-color: #FFF;
+  border-color: #BCBCBC;
+  border-radius: 4px;
+}
+.list-selection {
+  background-color: #B3B1B1;
+  border-color: #BCBCBC;
+  margin-top: 4px;
+  border-radius: 4px;
+}
+.taxonomy-selection-window-north {
+  background-color: #FFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.taxonomy-selection-window-selection-list {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  height: 85px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.taxonomy-selection-window-letter-list-panel .x-grid3-scroller {
+  overflow-x: hidden !important;
+}
+.taxonomy-selection-window-center {
+  background-color:#FFF;
+}
+.taxonomy-selection-window-selector {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: #FFF;
+}
+.taxonomy-selection-window-letter-list-panel {
+  border-color:#FFF;
+}
+.tag-link {
+  font-weight: bold !important;
+  text-decoration: none;
+}
+
+/**
+ * Shared styles for both lists in the selection dialog
+ */
+.taxonomy-selection-window-selector .taxonomy-node-linklist.grey .tag-name a:hover,
+.taxonomy-selection-window-selector .taxonomy-node-linklist.grey .tag-name a:focus {
+  text-decoration: underline;
+}
+.taxonomy-selection-window-letter-list-panel .x-grid3-row-selected,
+.taxonomy-selection-window-letter-list-panel .x-grid3-row-over,
+.taxonomy-selection-window-selection-list .x-grid3-row-selected,
+.taxonomy-selection-window-selection-list .x-grid3-row-over {
+  background: none repeat scroll 0 0 #FFF !important;
+  color: #000;
+  border-color: #EDEDED;
+  border-top-color: #FFF;
+  border-style: solid;
+}
+.taxonomy-selection-window-letter-list-panel .x-grid3-row-over,
+.taxonomy-selection-window-letter-list-panel .x-grid3-row-alt {
+  background: none repeat !important;
+  border-color: #EDEDED;
+  border-top-color: #FFF;
+}
+.taxonomy-selection-window-selection-list .x-grid3-row-over,
+.taxonomy-selection-window-selection-list .x-grid3-row-alt {
+  background: none repeat !important;
+  border-color: #EDEDED;
+  border-top-color: #FFF;
+}
+.taxonomy-selection-window-letter-list-panel .taxonomy-node-linklist-base.leaf a {
+  color: #FFF;
+}
+
+/**
+ * Fixes the problem of white selection foreground in the upper list
+ */
+.taxonomy-selection-window-selection-list .x-grid3-row-selected td.x-grid3-cell,
+.taxonomy-selection-window-letter-list-panel .x-grid3-row-selected td.x-grid3-cell {
+  color: #000;
+}
+.taxonomy-selection-window-selection-list .x-grid-empty {
+  border: none !important;
+}
+
+/**
+ * CSS for the second list in the selection dialog, only leaf nodes are displayed here.
+ * CSS includes the navigator!
+ */
+.taxonomy-parent-node {
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #FFF;
+  border: 1px solid #B1B3B3;
+  padding: 1px 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+  border-radius: 8px;
+  opacity: 0.8;
+  text-decoration: underline;
+}
+/* ...former end of 'taxonomy-selectionwindow-ui.css'! */
+
+/**
+  * tab icons in grids
+  */
+.x-tab-strip-active .cm-icon-taxonomies-tab {
+  background: url("../images/Taxonomies_neg_16_0.png") no-repeat left center !important;
+}
+.cm-icon-taxonomies-tab {
+  background: url("../images/Taxonomies_pos_16_0.png") no-repeat left center !important;
+}
+
+/**
+ * fix for the search field/combo in FilterFieldSet in CollectionView
+ * @see TaxonomyFilterFieldset.exml
+ */
+.taxonomy-admin-search-field,
+.taxonomy-admin-search-field.x-form-focus {
+  margin: 1px 3px 0 0;
+}
+.taxonomy-filter-fieldset-spacer {
+  width: 3px !important;
+  height: 23px;
+}
+.collection-status-filters + .taxonomy-filter-list .x-grid3-row.x-grid3-row-first.x-grid3-row-last {
+  padding-top: 0;
+}
+.fieldset-filter-collection .taxonomy-filter-list.simple-list {
+  width: auto !important;
+}

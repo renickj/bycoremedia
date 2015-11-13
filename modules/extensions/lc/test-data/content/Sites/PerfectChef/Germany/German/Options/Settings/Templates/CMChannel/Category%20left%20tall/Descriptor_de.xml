@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSymbol folder="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/Category left tall" name="Descriptor_de" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Options/Settings/Templates/CMChannel/Category%20left%20tall/Descriptor_de.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Templates/CMChannel/Category%20left%20tall/Descriptor_de"/>
+</master>
+<masterVersion>1</masterVersion>
+<description>Kategorie links hoch, 4 klein</description>
+<icon md5="a1c1b1b802fa945a2f235d8497703f37" href="../../../../../../../../../__blob/a1c1b1b802fa945a2f235d8497703f37.blob" mimetype="image/png"/>
+</CMSymbol>

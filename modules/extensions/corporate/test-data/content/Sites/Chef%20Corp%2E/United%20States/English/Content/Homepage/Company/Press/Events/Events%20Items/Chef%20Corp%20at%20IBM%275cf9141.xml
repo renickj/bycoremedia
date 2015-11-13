@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/Chef Corp./United States/English/Content/Homepage/Company/Press/Events/Events Items" name="Chef Corp at IBM Experience One Amplify Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<extDisplayedDate format="dd.MM.yyyy HH:mm:ss Z">11.05.2015 00:00:00 -0400</extDisplayedDate>
+<segment></segment>
+<title>Chef Corp. Engages Patrons at IBM Amplify 2015</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../../Settings/Taxonomies/Subject/Events.xml" path="/Settings/Taxonomies/Subject/Events"/>
+<link href="../../../../../../../../../../Settings/Taxonomies/Subject/Press.xml" path="/Settings/Taxonomies/Subject/Press"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Chef Corp. at IBM Experience One Amplify</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Meet us at booth 210 for a culinary treat!</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>This year's IBM Amplify will be a culinary treat for everybody who comes by the Chef Corp. booth (booth 210) to grab lunch or a delicious Italian coffee. Our cooks make mouthwatering recipes come to life right on site - aided, of course, by a Chef Corp. kitchen and appliances.</p><p>Chef Corp. is active in a variety of online shopping ventures like <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Site-Wide/External%20Links/Perfect%20Chef%20External%20Link.xml" cmexport:path="/Sites/Chef%20Corp%2E/United%20States/English/Content/Site-Wide/External%20Links/Perfect%20Chef%20External%20Link">Perfect Chef</a> and <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Site-Wide/External%20Links/Aurora%20B2C%20External%20Link.xml" cmexport:path="/Sites/Chef%20Corp%2E/United%20States/English/Content/Site-Wide/External%20Links/Aurora%20B2C%20External%20Link">Aurora B2C</a>. Take a look at our internet shops and technology behind them. You may be interested in the synergy of the platforms and how we engage different customer segments using <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Site-Wide/External%20Links/CoreMedia%208%20Digital%20Experience%20Pla5391ef27.xml" cmexport:path="/Sites/Chef%20Corp%2E/United%20States/English/Content/Site-Wide/External%20Links/CoreMedia%208%20Digital%20Experience%20Platform%20External%20Link">CoreMedia 8</a>.</p><p>Learn about Chef Corp.'s groundbreaking use of <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../News/News%20Items/Integrated%20Technology%20Article.xml" cmexport:path="/Sites/Chef%20Corp%2E/United%20States/English/Content/Homepage/Company/Press/News/News%20Items/Integrated%20Technology%20Article">Integrated Technology</a> in the modern professional kitchen that will help you serve your customers even better. Marvel at the <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../News/News%20Items/Introducing%20Chef%20Wave%20ac7ad44f.xml" cmexport:path="/Sites/Chef%20Corp%2E/United%20States/English/Content/Homepage/Company/Press/News/News%20Items/Introducing%20Chef%20Wave%20HD%20Article">new Chef Wave HD</a>, the world's first high pressure deep frying microwave. Spend a minute in our <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../../Products/Cooling%20and%20Storage/Cooling%20and%20Storage.xml" cmexport:path="/Sites/Chef%20Corp%2E/United%20States/English/Products/Cooling%20and%20Storage/Cooling%20and%20Storage">Cold Storage</a> at -55°F (-48°C) ­ be sure to bring a hat with earflaps!</p><p>There is lots to learn at the Chef Corp. booth.  Meet you there!</p></div></detailText>
+<pictures>
+<link href="../../../../../../Assets/Pictures/Events/Chef%20Corp%20at%20IBM%20Experience%20One%20Amplify%20Picture.xml" path="/Sites/Chef%20Corp%2E/United%20States/English/Assets/Pictures/Events/Chef%20Corp%20at%20IBM%20Experience%20One%20Amplify%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

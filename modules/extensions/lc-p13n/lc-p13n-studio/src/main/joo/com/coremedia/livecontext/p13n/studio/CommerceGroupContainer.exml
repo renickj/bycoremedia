@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config"
+                baseClass="com.coremedia.livecontext.p13n.studio.CommerceGroupContainerBase">
+
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="com.coremedia.livecontext.studio.LivecontextStudioPlugin_properties"/>
+
+  <exml:cfg name="contentBindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       The bean value expression to hand through to all property fields contained in this group.
+    </exml:description>
+  </exml:cfg>
+
+  <editor:collapsibleFormPanel itemId="commerceGroup"
+                               bindTo="{config.contentBindTo}"
+                               title="{LivecontextStudioPlugin_properties.INSTANCE.p13n_commerce_group_label}">
+    <items>
+      <spacer height="10"/>
+      <ec:commerceCatalogObjectsSelectForm itemId="userSegments"
+                                           bindTo="{config.contentBindTo}"
+                                           title="{LivecontextStudioPlugin_properties.INSTANCE.p13n_commerce_user_segments_label}"
+                                           catalogObjectIdListName="{CatalogHelper.USER_SEGMENTS}"
+                                           emptyText="{LivecontextStudioPlugin_properties.INSTANCE.p13n_commerce_user_segments_selector_for_persona_emptyText}"
+                                           invalidMessage="{LivecontextStudioPlugin_properties.INSTANCE.p13n_commerce_user_segment_invalid}"
+                                           removeActionName="removeCommerceSegment"
+                                           getCommerceObjectsFunction="{CatalogHelper.getSegments}"
+                                           noStoreMessage="{LivecontextStudioPlugin_properties.INSTANCE.p13n_commerce_no_store_configured}"/>
+      <ec:commerceCatalogObjectsSelectForm itemId="userContract"
+                                           bindTo="{config.contentBindTo}"
+                                           title="{LivecontextStudioPlugin_properties.INSTANCE.p13n_commerce_user_contracts_label}"
+                                           catalogObjectIdListName="{CatalogHelper.USER_CONTRACTS}"
+                                           emptyText="{LivecontextStudioPlugin_properties.INSTANCE.p13n_commerce_user_contracts_selector_for_persona_emptyText}"
+                                           invalidMessage="{LivecontextStudioPlugin_properties.INSTANCE.p13n_commerce_user_contract_invalid}"
+                                           removeActionName="removeCommerceContract"
+                                           getCommerceObjectsFunction="{CatalogHelper.getContracts}"
+                                           noStoreMessage="{LivecontextStudioPlugin_properties.INSTANCE.p13n_commerce_no_store_configured}"/>
+    </items>
+  </editor:collapsibleFormPanel>
+
+
+</exml:component>

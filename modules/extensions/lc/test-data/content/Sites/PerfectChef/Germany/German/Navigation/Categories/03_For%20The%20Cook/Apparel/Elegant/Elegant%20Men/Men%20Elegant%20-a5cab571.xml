@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalChannel folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For The Cook/Apparel/Elegant/Elegant Men" name="Men Elegant - Dinner Wear External Page" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../../United%20States/English/Navigation/Categories/03_For%20The%20Cook/Apparel/Elegant/Elegant%20Men/Men%20Ela5fdd4a0.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/03_For%20The%20Cook/Apparel/Elegant/Elegant%20Men/Men%20Elegant%20-%20Dinner%20Wear%20External%20Page"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>men-elegant</segment>
+<title>Elegante Herren Abendkleidung</title>
+<htmlTitle></htmlTitle>
+<keywords>exklusiv, Männer, Männer exklusiv, HAKA, Anzüge, Blazer, elegante</keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../../Settings/Taxonomies/Subject/Men%20Elegant%20Spring.xml" path="/Settings/Taxonomies/Subject/Men%20Elegant%20Spring"/>
+<link href="../../../../../../../../../../Settings/Taxonomies/Subject/Men%20Elegant%20Fall.xml" path="/Settings/Taxonomies/Subject/Men%20Elegant%20Fall"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+</children>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<StructProperty Name="placements">
+<Struct>
+<StructProperty Name="96">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../../../../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/main"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/Men%20Elegant%20%40b223aa.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For%20The%20Cook/Apparel/Elegant/Elegant%20Men/Men%20Elegant%20%20Hero%20Banner%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/../../../../../Site-Wide/Category%20Pages/Productlist-Placeholder%20Listing.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Category%20Pages/Productlist-Placeholder%20Listing"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+<externalId>ibm:///catalog/category/PC_ApparelMenExclusive</externalId>
+</CMExternalChannel>

@@ -1,0 +1,2 @@
+joo.loadModule("${project.groupId}", "${project.artifactId}");
+coremediaEditorPlugins.push({mainClass:"com.coremedia.livecontext.asset.studio.LivecontextAssetStudioPlugin",name:"LiveContext Product Asset Management"});

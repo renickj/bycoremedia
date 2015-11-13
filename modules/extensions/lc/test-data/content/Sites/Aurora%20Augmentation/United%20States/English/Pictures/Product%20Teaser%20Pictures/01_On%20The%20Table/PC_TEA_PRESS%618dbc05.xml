@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Product Teaser Pictures/01_On The Table" name="PC_TEA_PRESS Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=780;y=0;width=1084;height=1680</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=607;y=0;width=1260;height=1680</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=172;y=0;width=1679;height=1680</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=37;width=2048;height=1536</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=49;width=2048;height=1154</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=49;width=2048;height=1027</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=53;width=2048;height=822</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=58;width=2048;height=768</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=283;width=2048;height=513</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.3807615230460922;y1=0;x2=0.9098196392785571;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.2965931863727455;y1=0;x2=0.9118236472945892;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.0841683366733467;y1=0;x2=0.9038076152304609;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.022004889975550123;x2=1;y2=0.9364303178484108</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.029339853300733496;x2=1;y2=0.7163814180929096</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.029339853300733496;x2=1;y2=0.6405867970660146</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.03178484107579462;x2=1;y2=0.5207823960880196</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.034229828850855744;x2=1;y2=0.49144254278728605</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.1687041564792176;x2=1;y2=0.4743276283618582</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_TEA_PRESS</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Tea Press</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/On%20the%20Table.xml" path="/Settings/Taxonomies/Subject/On%20the%20Table"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Tea Press</alt>
+<copyright>Roxana Bashyrova/Shutterstock 56660620</copyright>
+<data md5="613e350812689a18d52c380f0decc1d5" href="../../../../../../../__blob/613e350812689a18d52c380f0decc1d5.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring Recipes/Salads" name="Garden Salad Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Salads/Garden%20Salad%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Salads/Garden%20Salad%20Recipe%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Garten-Salat mit Vinaigrette</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salad.xml" path="/Settings/Taxonomies/Subject/Salad"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Carrot.xml" path="/Settings/Taxonomies/Subject/Carrot"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Oil.xml" path="/Settings/Taxonomies/Subject/Oil"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Pepper.xml" path="/Settings/Taxonomies/Subject/Pepper"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salad%282%29.xml" path="/Settings/Taxonomies/Subject/Salad%282%29"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Garten-Salat</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Was könnte erfrischender als ein knackiger Gartensalat mit hausgemachten Vinaigrette sein?</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Was könnte erfrischender sein im Sommer als ein knackiger-Gartensalat mit hausgemachter <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video">Vinaigrette</a>? Egal ob als Vorspeise, oder als Beilage zu einem raffinierten Hauptgericht, als Partysalat auf dem Büffet oder aber <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article">bei einem Picknick.</a> Verwenden Sie unseren <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser">super scharfen japanischen Messern</a> zum Schneiden. <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser">Mahlen Sie etwas frischem Pfeffer</a> über den Salat und fügen Sie Ihre selbst vorbereitete <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video">Vinaigrette</a> dazu.</p><p/><p/><p class="p--heading-2">Zutaten</p><ul><li>1/2 Kopf grüner Gartensalat</li><li>3-4 mittelgroße Tomaten</li><li>1 Gurke</li><li>1 große Zwiebel</li><li><a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video">Vinaigrette</a></li><li>Pfeffer</li></ul><p class="p--heading-2">Zubereitung</p><p/><ul><li>Die äußersten Blätter vom Salat entfernen</li><li>Die übrigen Blätter zerpfücken, waschen und abtropfen lassen</li><li>Die Tomaten, die Gurke und den Zwiebel waschen und in Stücke schneiden</li><li>Mit der hausgemachten Vinaigrette beträufeln und mit Salz und Pfeffer abschmecken</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Kleine Dekorationen mit großer Wirkung:<br/>Mit ein wenig Garnierung sehen Ihre Salate noch appetitlicher aus! Probieren Sie mal Radieschen-Blumen. Dazu wird die Schale in gleichmäßigen Abständen achtmal von oben nach unten eingeschnitten, die Schale wird etwas abgehoben und das Radieschen in kaltes Wasser gelegt, damit es aufblüht.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Garden%20Salad%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Garden%20Salad%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser"/>
+<link href="../../../../../Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+</related>
+</CMArticle>

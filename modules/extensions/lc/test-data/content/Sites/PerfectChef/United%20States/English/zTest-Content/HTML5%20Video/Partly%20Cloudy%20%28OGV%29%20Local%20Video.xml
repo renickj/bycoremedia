@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/United States/English/zTest-Content/HTML5 Video" name="Partly Cloudy (OGV) Local Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Partly Cloudy OGV</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>with no chance of meatballs...</p></div></detailText>
+<pictures>
+<link href="Partly%20Cloudy%20Video%20Preview%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/zTest-Content/HTML5%20Video/Partly%20Cloudy%20Video%20Preview%20Picture"/>
+</pictures>
+<related>
+<link href="Partly%20Cloudy%20%28MP4%29%20Local%20Video.xml" path="/Sites/PerfectChef/United%20States/English/zTest-Content/HTML5%20Video/Partly%20Cloudy%20%28MP4%29%20Local%20Video"/>
+<link href="Partly%20Cloudy%20%28WebM%29%20Local%20Video.xml" path="/Sites/PerfectChef/United%20States/English/zTest-Content/HTML5%20Video/Partly%20Cloudy%20%28WebM%29%20Local%20Video"/>
+</related>
+<alt>Partly Cloudy OGV</alt>
+<copyright>Copyright: Shutterstock</copyright>
+<data md5="32a2add8eb9d97542cac877347840c0c" href="../../../../../../__blob/32a2add8eb9d97542cac877347840c0c.blob" mimetype="video/ogg"/>
+<dataUrl></dataUrl>
+</CMVideo>

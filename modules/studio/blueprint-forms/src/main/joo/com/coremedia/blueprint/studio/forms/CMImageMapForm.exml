@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component publicApi="true"
+                xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:bpforms="exml:com.coremedia.blueprint.studio.config"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                xmlns:im="exml:com.coremedia.cms.studio.im.config">
+
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintDocumentTypes_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.CustomLabels_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.Blueprint_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.config.documentForm"/>
+
+  <exml:constant name="OVERLAY_CONFIG_ITEMID" value="overlayConfig"/>
+
+  <editor:documentTabPanel>
+    <items>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_content_title}">
+        <items>
+          <bpforms:teaserDocumentForm itemId="detailsForm"/>
+          <bpforms:singlePictureDocumentForm itemId="cmImageMapPicturesForm"/>
+          <editor:collapsibleFormPanel title="{BlueprintDocumentTypes_properties.INSTANCE.CMImageMap_target_text}"
+                                       itemId="cmImageMapTargetForm">
+            <items>
+              <bp:imageLinkListPropertyField propertyName="target"
+                                             hideLabel="true"
+                                             maxCardinality="1"/>
+            </items>
+          </editor:collapsibleFormPanel>
+          <editor:collapsibleFormPanel itemId="{OVERLAY_CONFIG_ITEMID}"
+                                       title="{BlueprintDocumentTypes_properties.INSTANCE.CMImageMap_overlayConfiguration_title}">
+            <items>
+              <bp:inlineBooleanPropertyField propertyName="localSettings.overlay.displayTitle"
+                                             dontTransformToInteger="true"/>
+              <bp:inlineBooleanPropertyField propertyName="localSettings.overlay.displayShortText"
+                                             dontTransformToInteger="true"/>
+              <bp:inlineBooleanPropertyField propertyName="localSettings.overlay.displayPicture"
+                                             dontTransformToInteger="true"/>
+            </items>
+          </editor:collapsibleFormPanel>
+          <bpforms:viewTypeSelectorForm/>
+          <bpforms:validityDocumentForm bindTo="{config.bindTo}"/>
+        </items>
+      </editor:documentForm>
+      <editor:documentForm title="{BlueprintDocumentTypes_properties.INSTANCE.CMImageMap_title}">
+        <items>
+          <editor:collapsibleFormPanel title="{BlueprintDocumentTypes_properties.INSTANCE.CMImageMap_title}"
+                                       cls="padding-bottom-none"
+                                       itemId="cmImageMapEditorForm">
+            <items>
+              <im:imageMapEditor
+                      imageBlobValueExpression="{config.bindTo.extendBy('properties.pictures.0.properties.data')}"
+                      structPropertyName="localSettings"
+                      areaContentType="CMTeasable"/>
+            </items>
+          </editor:collapsibleFormPanel>
+        </items>
+      </editor:documentForm>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_extras_title}">
+        <items>
+          <bpforms:categoryDocumentForm/>
+          <bpforms:seoForm/>
+        </items>
+      </editor:documentForm>
+      <bpforms:multiLanguageDocumentForm/>
+      <bpforms:metaDataWithoutSearchableForm/>
+    </items>
+  </editor:documentTabPanel>
+
+</exml:component>

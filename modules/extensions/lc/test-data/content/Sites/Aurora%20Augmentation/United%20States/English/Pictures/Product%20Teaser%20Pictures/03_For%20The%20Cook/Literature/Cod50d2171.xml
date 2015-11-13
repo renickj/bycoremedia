@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Product Teaser Pictures/03_For The Cook/Literature/Cookbooks" name="PC_COOKBOOK_4" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=562;y=0;width=856;height=1332</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=500;y=52;width=960;height=1280</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=361;y=0;width=1331;height=1332</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=129;y=0;width=1775;height=1332</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=108;y=160;width=1826;height=1027</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=41;y=201;width=1929;height=965</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=201;y=372;width=1677;height=671</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=330;width=1831;height=687</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=413;width=2048;height=511</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.27455919395465994;y1=0;x2=0.6926952141057935;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.24433249370277077;y1=0.03875968992248062;x2=0.7128463476070529;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.17632241813602015;y1=0;x2=0.8261964735516373;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.06297229219143577;y1=0;x2=0.929471032745592;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.05289672544080604;y1=0.12015503875968993;x2=0.9445843828715366;y2=0.8914728682170543</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.020151133501259445;y1=0.1511627906976744;x2=0.9622166246851386;y2=0.875968992248062</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.0982367758186398;y1=0.27906976744186046;x2=0.9168765743073047;y2=0.7829457364341085</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.24806201550387597;x2=0.8942065491183879;y2=0.7635658914728682</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.31007751937984496;x2=1;y2=0.6937984496124031</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_COOKBOOK_4</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Brown Cookbook</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Brown.xml" path="/Settings/Taxonomies/Subject/Brown"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Cook%20Books.xml" path="/Settings/Taxonomies/Subject/Cook%20Books"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Brown Cookbook</alt>
+<copyright>Mihai Maxim/Shutterstock 171756746</copyright>
+<data md5="4e9dc26cec6ef910688b259715563178" href="../../../../../../../../__blob/4e9dc26cec6ef910688b259715563178.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

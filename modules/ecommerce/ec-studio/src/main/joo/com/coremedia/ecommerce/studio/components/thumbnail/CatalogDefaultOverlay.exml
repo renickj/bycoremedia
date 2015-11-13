@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config"
+                baseClass="CatalogDefaultOverlayBase">
+
+  <exml:import class="ext.Ext"/>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>a property path to the Content</exml:description>
+  </exml:cfg>
+
+  <container layout="fit"
+             cls="default-overlay-container">
+    <items>
+      <ui:image  width="128"
+                 height="128"
+                 src="{Ext.BLANK_IMAGE_URL}"
+                 cls="content-type-xl"
+                 itemId="{IMAGE_ITEM_ID}">
+        <plugins>
+          <ui:bindPlugin bindTo="{config.bindTo}"
+                         boundValueChanged="{boundValueChanged}"/>
+        </plugins>
+      </ui:image>
+      <ec:catalogOverlayInfo bindTo="{config.bindTo}"
+                             itemId="{INFO_ITEM_ID}"/>
+    </items>
+  </container>
+</exml:component>

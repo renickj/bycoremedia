@@ -1,0 +1,26 @@
+!tape
+name: lsi_testLoginFailure
+interactions:
+- recorded: 2014-09-08T17:33:33.031Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/loginidentity
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '54'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+    body: '{"logonId":"cmadmin","logonPassword":"wrong password"}'
+  response:
+    status: 400
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:32 GMT
+      Expires: Mon, 08 Sep 2014 18:33:32 GMT
+      Vary: Accept
+    body: "{\n\t\"errors\": [\n\t\t{\n\t\t\t\"errorCode\": \"2030\",\n\t\t\t\"errorKey\": \"_ERR_AUTHENTICATION_ERROR\",\n\t\t\t\"errorMessage\": \"The specified logon ID or password are not correct. Verify the information provided and log in again.\",\n\t\t\
+      \t\"errorParameters\": \"\"\n\t\t}\n\t]\n}"

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall Campaign" name="White Strap Dress Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Products/Fall%20Campaign/White%20Strap%20Dress%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/White%20Strap%20Dress%20Product%20Teaser"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Traum in Weiß</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Ein luftiger Traum in Weiß - das gerüschte, weiße Trägerkleid.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Fall/For%20Her/4c4d83cc.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Fall/For%20Her/PC_WHITE_STRAP_DRESS%20Actionshot%202"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/product/PC_WHITE_STRAP_DRESS</externalId>
+</CMProductTeaser>

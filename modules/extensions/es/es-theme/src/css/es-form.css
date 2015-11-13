@@ -1,0 +1,157 @@
+/* =====================================================================================================================
+   Layout for Elastic Social form functionality
+   Contains styling rules used for Elastic Social integration in Blueprint
+   ================================================================================================================== */
+
+.cm-textfield,
+.cm-textarea,
+.cm-checkbox,
+.cm-radiobox {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.cm-textfield,
+.cm-textarea {
+  width: 100%;
+  border: 1px solid #919191;
+  resize: none;
+}
+
+.cm-textfield {
+  padding: 0 11px;
+  height: 37px;
+}
+
+.cm-textarea {
+  height: 10rem;
+  padding: 11px;
+}
+
+.cm-textarea::-webkit-input-placeholder,
+.cm-textfield::-webkit-input-placeholder {
+  color: #3c3c3c;
+  font-style: italic;
+  opacity: 1;
+}
+
+.cm-textarea:-moz-placeholder,
+.cm-textfield:-moz-placeholder {
+  color: #3c3c3c;
+  font-style: italic;
+  opacity: 1;
+}
+
+.cm-textarea::-moz-placeholder,
+.cm-textfield::-moz-placeholder {
+  color: #3c3c3c;
+  font-style: italic;
+  opacity: 1;
+}
+
+.cm-textarea:-ms-input-placeholder,
+.cm-textfield:-ms-input-placeholder {
+  color: #3c3c3c;
+  font-style: italic;
+  opacity: 1;
+}
+
+.cm-textarea[placeholder]
+.cm-textfield[placeholder] {
+  color: #3c3c3c;
+  font-style: italic;
+  opacity: 1;
+}
+
+.cm-textarea--error,
+.cm-textfield--error {
+  border-color: #dd5050;
+}
+
+.cm-textarea--error::-webkit-input-placeholder,
+.cm-textfield--error::-webkit-input-placeholder {
+  color: #dd5050;
+  font-style: normal;
+}
+
+.cm-textarea--error:-moz-placeholder,
+.cm-textfield-error:-moz-placeholder {
+  color: #dd5050;
+  font-style: normal;
+}
+
+.cm-textarea--error::-moz-placeholder,
+.cm-textfield--error::-moz-placeholder {
+  color: #dd5050;
+  font-style: normal;
+}
+
+.cm-textarea--error:-ms-input-placeholder
+.cm-textfield--error:-ms-input-placeholder {
+  color: #dd5050;
+  font-style: normal;
+}
+
+.cm-field {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 37px;
+  min-height: 37px;
+}
+
+.cm-field__name {
+  display: none;
+  line-height: 37px;
+}
+
+.cm-field__value--link {
+  display: inline-block;
+  color: #010000;
+  text-decoration: underline;
+}
+
+.cm-field__value--link:hover {
+  color: #80A3BF;
+  text-decoration: none;
+}
+
+.cm-field--detail .cm-field__name {
+  display: block;
+}
+
+.cm-checkbox.cm-field__value {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -17px;
+  width: 13px;
+}
+
+.cm-checkbox.cm-field__value ~ .cm-field__name {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 23px;
+  line-height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cm-fieldset {
+  border: none;
+  padding: 0;
+}
+
+.cm-fieldset__item {
+  display: block;
+  width: 100%;
+}
+
+.cm-form__fieldset {
+  margin: 0;
+}

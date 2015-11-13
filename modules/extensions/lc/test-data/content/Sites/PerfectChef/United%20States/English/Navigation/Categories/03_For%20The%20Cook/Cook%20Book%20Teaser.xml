@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Categories/03_For The Cook" name="Cook Book Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Cook Books &amp; Magazines</teaserTitle>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/03_For%20The%20Cook/Literature/Magazines/PC_FASHION_MAG_2.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/03_For%20The%20Cook/Literature/Magazines/PC_FASHION_MAG_2"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Literature/Literature%20External%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/03_For%20The%20Cook/Literature/Literature%20External%20Page"/>
+</target>
+</CMTeaser>

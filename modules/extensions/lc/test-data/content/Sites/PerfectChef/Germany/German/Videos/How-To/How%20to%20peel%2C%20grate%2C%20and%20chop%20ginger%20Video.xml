@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/How-To" name="How to peel, grate, and chop ginger Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/How-To/How%20to%20peel%2C%20grate%2C%20and%20chop%20ginger%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20peel%2C%20grate%2C%20and%20chop%20ginger%20Video"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-how-to-peel-grate-chop-ginger</segment>
+<title>Gewußt-Wie: Ingwer schälen und hacken</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Smoothie.xml" path="/Settings/Taxonomies/Subject/Smoothie"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/How%20To.xml" path="/Settings/Taxonomies/Subject/How%20To"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Ginger.xml" path="/Settings/Taxonomies/Subject/Ginger"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spices.xml" path="/Settings/Taxonomies/Subject/Spices"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Knives.xml" path="/Settings/Taxonomies/Subject/Knives"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Cutting%20Boards.xml" path="/Settings/Taxonomies/Subject/Cutting%20Boards"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Ingwer schälen und hacken</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Sehen Sie, wie einfach wir Ingwer schälen und reiben oder hacken. Verwenden Sie Ingwer für aromatische Sossen und Pfannengerichte, geben Sie Ingwer in einen erfrischenden Smoothie. </p></div></detailText>
+<pictures>
+<link href="How%20to%20peel%2C%20grate%2C%20and%20chop%20ginger%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/How-To/How%20to%20peel%2C%20grate%2C%20and%20chop%20ginger%20Picture"/>
+</pictures>
+<related>
+<link href="How%20to%20stir-fry%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/How-To/How%20to%20stir-fry%20Video"/>
+<link href="How%20to%20make%20pureed%20vegetable%20soups%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video"/>
+</related>
+<alt>Gewußt-Wie: Ingwer schälen und hacken</alt>
+<copyright>cooksmarts.com / Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/78378954</dataUrl>
+</CMVideo>

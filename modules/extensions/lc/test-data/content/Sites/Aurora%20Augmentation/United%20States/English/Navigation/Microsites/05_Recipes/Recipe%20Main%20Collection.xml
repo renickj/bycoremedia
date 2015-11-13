@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Navigation/Microsites/05_Recipes" name="Recipe Main Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Recipe Main Collection</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Spring%20Recipes%20Main%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/05_Recipes/Spring%20Recipes%20Main%20Teaser"/>
+<link href="../../../Editorial/Content/Recipes/Share%20your%20best%20recipes%20with%20us%21.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Recipes/Share%20your%20best%20recipes%20with%20us%21"/>
+<link href="../../../Editorial/Content/Recipes/Spring%20Recipes/Salads/Insalata%20Caprese%2125df6b1.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Salads/Insalata%20Caprese%20Recipe%20Article"/>
+<link href="../../../Editorial/Content/Recipes/Spring%20Recipes/Main/Mushroom%20Quiche%20Re3e3a596e.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Main/Mushroom%20Quiche%20Recipe%20Article"/>
+<link href="../../../Editorial/Content/Recipes/Spring%20Recipes/Starters/Tomato%20Soup%20Re3e3a596e.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Tomato%20Soup%20Recipe%20Article"/>
+</items>
+</CMCollection>

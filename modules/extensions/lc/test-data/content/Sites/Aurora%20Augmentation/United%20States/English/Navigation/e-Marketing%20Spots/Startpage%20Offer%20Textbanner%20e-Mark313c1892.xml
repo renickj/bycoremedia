@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMMarketingSpot folder="/Sites/Aurora Augmentation/United States/English/Navigation/e-Marketing Spots" name="Startpage Offer Textbanner e-Marketing Spot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Startpage Offer</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+<maxLength>3</maxLength>
+<externalId>ibm:///catalog/marketingspot/PC_Homepage_Offer</externalId>
+</CMMarketingSpot>

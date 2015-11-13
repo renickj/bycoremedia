@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Fall Recipes/Starters" name="Beans Soup Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Beans Stew with Ham</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Beans.xml" path="/Settings/Taxonomies/Subject/Beans"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Onion.xml" path="/Settings/Taxonomies/Subject/Onion"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Carrot.xml" path="/Settings/Taxonomies/Subject/Carrot"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Chicken%20Stock.xml" path="/Settings/Taxonomies/Subject/Chicken%20Stock"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Beans Stew</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Beans are an essential ingredient of fall and winter soups and stews. They fill the stomach and provide a lot of protein.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>Beans are an essential ingredient of fall and winter soups and stews. They fill the stomach and provide a lot of protein. Add ham or bacon for extra flavor and richness. This version includes ham hocks and cabbage and is topped with toasted bread smothered in melted cheese.</p><p class="p--heading-2">Ingredients</p><ul><li>4 meaty smoked ham hocks </li><li>1/2 pound dried cannellini or borlotti beans (1 1/4 cups)</li><li>3 quarts water</li><li>2 medium red-skinned potatoes</li><li>1 large leek, white and pale green parts only</li><li>1 large celery rib</li><li>1 large carrot</li><li>1 large parsnip</li><li>1/2 pound Savoy cabbage</li><li>Salt and freshly ground black pepper</li><li>Eight 1/4-inch-thick slices of peasant bread, lightly toasted</li><li>2 cups shredded cheese</li></ul><p class="p--heading-2">Preparation</p><ul><li>Mix the smoked ham hocks with the beans and water and bring to a boil</li><li>Cover and simmer over low heat for 1 hour</li><li>Add the potatoes, leek, celery, carrot, parsnip, cabbage and 1/2 teaspoon of salt </li><li>Transfer the ham hocks to a plate</li><li>Simmer the stew uncovered over moderate heat until thickened and the beans and vegetables are very tender, about 45 minutes</li><li>Meanwhile, discard the skin and bones from the hocks and cut the meat into bite-size pieces</li><li>Add the meat to the stew as it simmers</li><li>Season the stew with pepper</li><li>Preheat the broiler</li><li>Ladle the hot stew into 8 heatproof soup bowls and place the bowls on a large cookie sheet</li><li>Cover each bowl with a toast and spread the cheese on top</li><li>Broil 4 inches from the heat, rotating the bowls as necessary, until the cheese is lightly browned, about 3 minutes</li></ul><p class="p--heading-2">Serving Suggestion</p><p>Traditionally, anyone eating the stew would add some red wine to the last few spoonfuls of broth and sip it straight from the bowl.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Beans%20Soup%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Beans%20Soup%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:u="exml:untyped"
+                xmlns:topicpages="exml:com.coremedia.blueprint.studio.topicpages.config"
+                baseClass="com.coremedia.blueprint.studio.topicpages.administration.TopicPagesEditorBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.topicpages.TopicPages_properties"/>
+
+  <panel title="{TopicPages_properties.INSTANCE.TopicPages_administration_title}"
+         closable="true"
+         id="{TopicPagesEditorBase.TOPIC_PAGES_EDITOR_ID}"
+         iconCls="cm-icon-topicpages-tab"
+         header="true"
+         border="false"
+         layout="border">
+    <items>
+      <topicpages:topicPagesEditorToolbar region="north"
+                                          height="34"/>
+      <panel region="center"
+             layout="border">
+        <items>
+          <topicpages:topicsPanel region="west"
+                                  id="topicsPanel"
+                                  collapsible="false"
+                                  selectionExpression="{getSelectionExpression()}"
+                                  u:split="true"
+                                  width="550"
+                                  u:maxWidth="680"/>
+          <topicpages:topicPreviewPanel region="center"
+                                        selectionExpression="{getSelectionExpression()}"
+                                        id="topicPreviewPanel"
+                                        u:split="true"/>
+        </items>
+      </panel>
+    </items>
+  </panel>
+</exml:component>

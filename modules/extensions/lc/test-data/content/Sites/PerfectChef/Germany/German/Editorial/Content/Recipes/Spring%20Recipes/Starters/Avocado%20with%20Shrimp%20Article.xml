@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring Recipes/Starters" name="Avocado with Shrimp Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Avocado%20with%20Shrimp%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Avocado%20with%20Shrimp%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Avocado mit Garnelen</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Avocado.xml" path="/Settings/Taxonomies/Subject/Avocado"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Shrimp.xml" path="/Settings/Taxonomies/Subject/Shrimp"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lemon.xml" path="/Settings/Taxonomies/Subject/Lemon"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Mediterranean.xml" path="/Settings/Taxonomies/Subject/Mediterranean"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Avocado mit Garnelen</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Avocado mit Garnelen ist eine köstliche, mediterrane Vorspeise, die sehr schnell zubereitet ist.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Für eine herrliche Erfrischung an einem heißen Tag im Sommer, brauchen Sie nur Garnelen, Avocado, Tomaten und Gemüsezwiebeln mit frischem Limettensaft. Avocado mit Garnelen ist eine köstliche, mediterrane Vorspeise, die sehr schnell zubereitet ist.</p><p/><p class="p--heading-2">Zutaten</p><ul><li>20 rohe tiefgefrorene Garnelen</li><li>2 reife Avocados</li><li>1 kleine Knoblauchzehe</li><li>1 rote Zwiebel</li><li>1-2 EL Zitronensaft</li><li>6 EL Weißwein-Essig</li><li>5 EL Olivenöl</li><li>Salz, Pfeffer,</li></ul><p class="p--heading-2">Zubereitung</p><p/><ul><li>Garnelen abspülen und ca. 1 Stunde auftauen lassen</li><li>Knoblauch schälen und in dünne Scheiben schneiden</li><li>Zwiebel schälen und in sehr dünne Spalten schneiden</li><li>Avocado halbieren, Fruchtfleisch in Spalten schneiden und mir Zitronensaft beträufeln</li><li>Garnelen waschen und trocken tupfen</li><li>1 Esslöffel Öl in die Pfanne geben und die Garnelen darin 3-5 Minuten braten</li><li>Knoblauchscheiben zugeben</li><li>Alle Zutaten gleichmäßig auf die Hälften verteilen</li><li>Die Avocado mit einer "Sauce Americaine" auffüllen - einfach saure Sahne mit Ketchup mischen</li><li>Mit Salz abschmecken</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Reichen Sie als Snack dazu doch mal Nachos oder Cracker. Diese Kombination ist auf jeden Fall gesünder und abwechslungsreicher als die üblichen Kartoffel-Chips und passt gut zu Bier oder Wein.</p><p>Nun die Frage zum Schluss: Was machen wir mit den Kernen der Avocados? Natürlich kann man sie unbedenklich in den Müll geben, aber wer ein Hobbygärtner ist, der zieht ein Avocadobäumchen aus dem Kern. Empfehlenswert und pädagogisch wertvoll für Kinder, aber auch ein Spaß für das Kind in uns selbst.<br/></p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Avocado%20with%20Shrimp%20Appetizer%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Avocado%20with%20Shrimp%20Appetizer%20Picture"/>
+</pictures>
+<related>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+<link href="../../../../../Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser"/>
+<link href="../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser"/>
+</related>
+</CMArticle>

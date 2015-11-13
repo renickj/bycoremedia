@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns="exml:ext.config"
+                baseClass="com.coremedia.blueprint.studio.struct.editor.ContentTypeEditorBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.struct.StructEditor_properties"/>
+
+  <exml:cfg name="forceReadOnlyValueExpression" type="com.coremedia.ui.data.ValueExpression"/>
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression"/>
+  <exml:cfg name="propertyName" type="String"/>
+  <exml:cfg name="linkEditor" type="com.coremedia.blueprint.studio.struct.editor.LinkEditor" />
+  <exml:cfg name="node" type="ext.tree.TreeNode" />
+  <exml:cfg name="structHandler" type="com.coremedia.blueprint.studio.struct.editor.StructHandler" />
+
+  <container layout="border"
+             height="50">
+    <defaults>
+      <editor:propertyField bindTo="{config.bindTo}"/>
+    </defaults>
+    <items>
+      <label text="{StructEditor_properties.INSTANCE.Struct_attribute_LinkType}" region="north" cls="struct-editor-title"/>
+      <editor:contentTypeSelector allowBlank="false" contentTypeValueExpression="{getContentTypeValueExpression()}" region="center">
+        <plugins mode="append">
+          <editor:bindReadOnlyPlugin forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"
+                                     bindTo="{config.bindTo}"/>
+        </plugins>
+      </editor:contentTypeSelector>
+    </items>
+  </container>
+</exml:component>

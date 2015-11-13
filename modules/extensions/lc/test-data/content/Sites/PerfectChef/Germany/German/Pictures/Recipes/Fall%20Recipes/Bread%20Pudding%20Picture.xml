@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall Recipes" name="Bread Pudding Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Pictures/Recipes/Fall%20Recipes/Bread%20Pudding%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Bread%20Pudding%20Picture"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=781;y=0;width=880;height=1362</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=655;y=0;width=1022;height=1362</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=454;y=0;width=1361;height=1362</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=233;y=0;width=1815;height=1362</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=209;width=2048;height=1153</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=272;width=2048;height=1026</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=320;width=2048;height=821</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=347;width=2048;height=770</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=371;width=2048;height=513</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.3815028901734104;y1=0;x2=0.8111753371868978;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.3198458574181118;y1=0;x2=0.8188824662813102;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.22157996146435452;y1=0;x2=0.8863198458574181;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.11368015414258188;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.1536231884057971;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.2;x2=1;y2=0.9536231884057971</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.23478260869565218;x2=1;y2=0.8376811594202899</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.25507246376811593;x2=1;y2=0.8202898550724638</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.27246376811594203;x2=1;y2=0.6492753623188405</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Brot-Pudding</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Brot-Pudding</alt>
+<copyright>Zickzack-Berg Art / Shutterstock 163092218</copyright>
+<data md5="53b1c30f79929fafdb8407b3d73bea2a" href="../../../../../../../__blob/53b1c30f79929fafdb8407b3d73bea2a.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

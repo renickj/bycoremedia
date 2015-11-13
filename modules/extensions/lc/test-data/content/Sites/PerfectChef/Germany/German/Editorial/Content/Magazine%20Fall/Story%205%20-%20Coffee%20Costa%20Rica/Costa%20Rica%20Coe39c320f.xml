@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMGallery folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine Fall/Story 5 - Coffee Costa Rica" name="Costa Rica Coffee Gallery" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Costa%20b51a0da9.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Costa%20Rica%20Coffee%20Gallery"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Costa Rica Kaffee Gallerie</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Costa Rica Gallerie</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><br/></p> </div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Pictures/Coffee%22dd57902.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Pictures/Coffee%20Farms%20in%20Tarrazu%20Picture"/>
+<link href="Pictures/Orosi%202426bb1a.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Pictures/Orosi%20Valley%20Picture"/>
+<link href="Pictures/Coffee%28cbec423.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Pictures/Coffee%20Cherry%20Picker%20Picture"/>
+<link href="Pictures/Plantati4aa3064c.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Pictures/Plantation%20Workers%20Picture"/>
+<link href="Pictures/Harveste855fe386.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Pictures/Harvested%20Coffee%20Picture"/>
+<link href="../Story%204%20-%20Coffee%20Roasting/Pictures/Roasted%20Co71ae1f1b.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%204%20-%20Coffee%20Roasting/Pictures/Roasted%20Coffee%20Beans%20Picture"/>
+</items>
+</CMGallery>

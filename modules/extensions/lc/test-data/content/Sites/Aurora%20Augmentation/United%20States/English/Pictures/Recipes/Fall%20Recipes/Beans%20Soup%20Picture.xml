@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Recipes/Fall Recipes" name="Beans Soup Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=604;y=0;width=880;height=1367</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=513;y=0;width=1022;height=1367</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=517;y=0;width=1365;height=1367</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=0;width=1819;height=1367</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=99;width=2048;height=1154</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=99;width=2048;height=1027</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=178;width=2048;height=822</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=198;width=2048;height=770</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=194;width=2048;height=514</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.2947976878612717;y1=0;x2=0.7244701348747592;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.2504816955684008;y1=0;x2=0.7495183044315993;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.2524084778420039;y1=0;x2=0.9190751445086706;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0;x2=0.8882466281310212;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.07225433526011561;x2=1;y2=0.9161849710982659</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.07225433526011561;x2=1;y2=0.8236994219653179</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.13005780346820808;x2=1;y2=0.7312138728323699</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.14450867052023122;x2=1;y2=0.708092485549133</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.1416184971098266;x2=1;y2=0.5173410404624278</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Beans Soup</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><br/></p></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Beans Soup</alt>
+<copyright>Dzinnik Darius/Shutterstock 130818956</copyright>
+<data md5="eb2de262df8df59902dfce036d800a1f" href="../../../../../../../__blob/eb2de262df8df59902dfce036d800a1f.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

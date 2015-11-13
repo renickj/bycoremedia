@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Recipes/Spring Recipes/Starters" name="Avocado with Shrimp Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Avocado with Shrimp Appetizer</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Avocado.xml" path="/Settings/Taxonomies/Subject/Avocado"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Shrimp.xml" path="/Settings/Taxonomies/Subject/Shrimp"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lemon.xml" path="/Settings/Taxonomies/Subject/Lemon"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Mediterranean.xml" path="/Settings/Taxonomies/Subject/Mediterranean"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Avocado Shrimp</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Avocado with Shrimp is a Mediterrenean favorite that is very quick to prepare, yet delicious.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>On a hot summer day, you need refereshing starters: Avocado with Shrimp is a Mediterrenean favorite that is very quick to prepare, yet delicious. Cut a ripe avocado into halves and drizzle with lemon juice and add salt and pepper. Then add some shrimp. You may want to try topping off the avocado with a "Sauce Americaine" - just mix sour cream with Ketchup and add salt to taste.</p><p> </p><p class="p--heading-2">Ingredients</p><ul><li>3 medium avocados, halved, pit and skin removed</li><li>4 oz crab meat</li><li>5 large shrimp, boiled, chilled and then chopped into small chunks</li><li>1 tablespoon red bell pepper, small dice</li><li>1 tablespoon red onion, small dice</li><li>1 tablespoon celery, small dice</li><li>½ tablespoon parsley, small dice</li><li>1 ½ tablespoon lite mayo</li><li>Fresh black pepper</li><li>Chili lime sauce</li><li>¼ cup lite mayo</li><li>1 tablespoon siracha sauce</li><li>2 tablespoon Chili Lime Cholula</li></ul><p class="p--heading-2">Preparation</p><ul><li>Combine all ingredients together and mix well</li><li>Scoop the crab &amp; shrimp mixture onto the avocado</li><li>Squirt the sauce over the avocado and sprinkle with parsley</li></ul><p class="p--heading-2">Serving Suggestion</p><p>For something a bit more dressed up but still deliciously easy to prepare, look to shrimp scampi, a quick-fix classic that pairs garlic, lemon and often a splash of white wine with the tender shellfish.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Avocado%20with%20Shrimp%20Appetizer%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Recipes/Spring%20Recipes/Avocado%20with%20Shrimp%20Appetizer%20Picture"/>
+</pictures>
+<related>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picn93a7e59e.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+<link href="../../../../../Navigation/Microsites/05_Recipes/Spring%20Recipes/Starters/Starters%20cd50cdc6.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser"/>
+<link href="../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser"/>
+</related>
+</CMArticle>

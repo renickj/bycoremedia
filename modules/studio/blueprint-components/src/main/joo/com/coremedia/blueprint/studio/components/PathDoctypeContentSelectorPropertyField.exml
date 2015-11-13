@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                baseClass="com.coremedia.blueprint.studio.components.PathDoctypeContentSelectorPropertyFieldBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.Blueprint_properties" />
+  <exml:import class="com.coremedia.ui.data.ValueExpressionFactory" />
+
+  <exml:description>
+    Specialized ContentListChooserPropertyField that builds up its content list based on the given
+    paths and doctypes.
+
+    The content list of this component contains all direct children of the given paths that have one
+    of the specified doctypes plus an empty selection bean. The component also provides it's own
+    rendering template as well as a matching set of data fields.
+  </exml:description>
+
+  <exml:cfg name="paths" type="Array">
+    <exml:description>
+      A list of paths that will be scanned for documents of certain types. All matching documents will be included
+      in the list of selectable contents.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="allowedDocTypes" type="Array">
+    <exml:description>
+      List of doctype names. Documents of the given type located under one of the given paths will be included in the list
+      of selectable contents.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="sortComparator" type="Function">
+    <exml:description>
+      Comparator function to sort contentList.
+    </exml:description>
+  </exml:cfg>
+
+  <editor:contentListChooserPropertyField contentList="{getContentList(config.emptySelection)}"/>
+</exml:component>

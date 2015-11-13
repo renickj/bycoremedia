@@ -1,0 +1,235 @@
+/* =====================================================================================================================
+   Mobile, Landscape
+   ================================================================================================================== */
+@media only screen and (max-width: 599px) and (orientation: landscape) {
+
+  /* hidden flags defining screen type and orientation for javascript */
+  body:before {
+    content: 'landscape';
+  }
+
+  /* --- teaser hero ------------------------------------------------------------------------------------------------ */
+  /* boxes */
+  .cm-teaser--hero .cm-aspect-ratio-box:before {
+    padding-top: 50%; /* 2:1 */
+  }
+
+  /* --- collection ------------------------------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--masonry > .cm-collection__item,
+  .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    width: calc(50% - 4px);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    width: calc(50% - 4px - 1px / 100);
+  }
+
+  /* --- default collection ----------------------------------------------------------------------------------------- */
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--default > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--default > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- productlisting collection ---------------------------------------------------------------------------------- */
+  .cm-collection--productlisting > .cm-collection__item,
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 33%;
+    /* (100% - 16px) / 3 */
+    width: calc(100% / 3 - 16px / 3);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 33%;
+    /* (100% - 16px) / 3 */
+    width: calc(100% / 3 - 16px / 3 - 1px / 100);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--productlisting > .cm-collection__item:nth-of-type(3n+1):nth-last-of-type(-n+3),
+  /* and for all following elements */
+  .cm-collection--productlisting > .cm-collection__item:nth-of-type(3n+1):nth-last-of-type(-n+3) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- promo collection ------------------------------------------------------------------------------------------- */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-child(1) {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 100%;
+    width: calc(100%);
+  }
+
+  /* boxes */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box:before {
+    padding-top: 37.5%; /* 8:3 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* element 1 */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-of-type(1):nth-last-of-type(1),
+  /* first element of last row */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-of-type(2n+2):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-of-type(2n+2):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles layout left collection ------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-left > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box:before {
+    padding-top: 150%; /* 2:3 */
+  }
+
+  .cm-collection--tiles-left > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box {
+    margin-right: 0;
+    /* -8px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 16px / 3);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* element 1 */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(1):nth-last-of-type(-n+3),
+  /* element 2 does not matter, it can keep its margin due to element 1 being larger */
+  /* element 3 */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(3):nth-last-of-type(1),
+  /* first element of last row */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(2n+4):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(2n+4):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles layout center collection ----------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-center > .cm-collection__item:nth-child(2) .cm-aspect-ratio-box:before {
+    padding-top: 150%; /* 2:3 */
+  }
+
+  .cm-collection--tiles-center > .cm-collection__item:nth-child(2) .cm-aspect-ratio-box {
+    margin-right: 0;
+    /* -8px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 16px / 3);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* element 1 */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(1):nth-last-of-type(1),
+  /* element 2 */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(2):nth-last-of-type(-n+2),
+  /* element 3 */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(3):nth-last-of-type(1),
+  /* first element of last row */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(2n+4):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(2n+4):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles layout right collection ------------------------------------------------------------------------------ */
+  /* boxes */
+  .cm-collection--tiles-right > .cm-collection__item:nth-child(3) .cm-aspect-ratio-box:before {
+    padding-top: 150%; /* 2:3 */
+  }
+
+  .cm-collection--tiles-right > .cm-collection__item:nth-child(3) .cm-aspect-ratio-box {
+    margin-right: 0;
+    /* -8px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 16px / 3);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* element 1 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(1):nth-last-of-type(-n+2),
+  /* element 2 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(2):nth-last-of-type(1),
+  /* element 3 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(3):nth-last-of-type(-n+3),
+  /* element 4 does not matter, it can keep its margin due to element 3 being larger */
+  /* element 5 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(5):nth-last-of-type(1),
+  /* first element of last row */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(2n+6):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(2n+6):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles portrait collection ---------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-portrait > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 133.3333%; /* 3:4 */
+    padding-top: calc(400% / 3); /* 3:4 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-portrait > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-portrait > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles landscape collection --------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-landscape > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 56.25%; /* 16:9 */
+    padding-top: calc(900% / 16); /* 16:9 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-landscape > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-landscape > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles 50-50 portrait collection ---------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 133.3333%; /* 3:4 */
+    padding-top: calc(400% / 3); /* 3:4 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles 50-50 landscape collection --------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 56.25%; /* 16:9 */
+    padding-top: calc(900% / 16); /* 16:9 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+}

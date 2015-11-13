@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+  <import resource="classpath:/com/coremedia/cae/uapi-services.xml"/>
+  <import resource="classpath:/com/coremedia/cae/link-services.xml"/>
+  <import resource="classpath:/com/coremedia/blueprint/base/multisite/bpbase-multisite-services.xml"/>
+  <import resource="classpath:/framework/spring/search/solr-search.xml"/>
+
+  <import resource="classpath:/framework/spring/blueprint-contentbeans.xml"/>
+
+  <!--
+    BEGIN inlining <import resource="classpath:/META-INF/coremedia/component-elastic-social-common.xml"/>
+      we must exclude JMX stuff from tests ...
+  -->
+  <context:component-scan base-package="com.coremedia.elastic">
+    <context:exclude-filter type="regex" expression=".+\.mail\..+"/>
+  </context:component-scan>
+
+
+  <!--
+      END inlining <import resource="classpath:/META-INF/coremedia/component-elastic-social-common.xml"/>
+  -->
+
+  <bean id="shoutemController" class="com.coremedia.blueprint.jsonprovider.shoutem.ShoutemController">
+    <property name="shoutemApi" ref="shoutemApiImpl" />
+    <property name="contentRepository" ref="contentRepository"/>
+    <property name="settingsDocumentPath" value="/Settings/Options/Settings/Shoutem"/>
+  </bean>
+
+  <bean id="shoutemControllerMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+    <property name="urlMap">
+      <map>
+        <entry key="/shoutemapi/**" value-ref="shoutemController"/>
+      </map>
+    </property>
+  </bean>
+
+  <bean id="shoutemApiImpl" class="com.coremedia.blueprint.jsonprovider.shoutem.ShoutemApiImpl">
+    <property name="capConnection" ref="connection"/>
+    <property name="contentBeanFactory" ref="contentBeanFactory"/>
+    <property name="resultFactory" ref="resultFactory"/>
+    <property name="linkFormatter" ref="linkFormatter"/>
+    <property name="sitesService" ref="sitesService"/>
+  </bean>
+
+</beans>

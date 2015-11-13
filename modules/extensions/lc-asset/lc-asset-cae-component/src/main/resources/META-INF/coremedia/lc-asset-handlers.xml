@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <import resource="classpath:/framework/spring/blueprint-handlers.xml"/>
+  <import resource="classpath:/META-INF/coremedia/livecontext-site-services.xml"/>
+  <import resource="classpath:/META-INF/coremedia/livecontext-handler-interceptors.xml"/>
+  <context:component-scan base-package="com.coremedia.livecontext.asset.license"/>
+
+  <bean id="catalogPictureHandler" class="com.coremedia.livecontext.asset.CMCatalogPictureHandler" parent="handlerBase">
+    <description>
+      Handles catalog images
+    </description>
+    <property name="contentBeanFactory" ref="contentBeanFactory"/>
+    <property name="siteResolver" ref="liveContextSiteResolver"/>
+    <property name="settingsService" ref="settingsService"/>
+    <property name="pictureFormats">
+      <map>
+        <entry value="portrait_ratio20x31/200/310">
+          <key>
+            <util:constant static-field="com.coremedia.livecontext.asset.CMCatalogPictureHandler.FORMAT_KEY_THUMBNAIL"/>
+          </key>
+        </entry>
+        <entry value="portrait_ratio20x31/646/1000">
+          <key>
+            <util:constant static-field="com.coremedia.livecontext.asset.CMCatalogPictureHandler.FORMAT_KEY_FULL"/>
+          </key>
+        </entry>
+      </map>
+    </property>
+    <property name="licenseInspector" ref="lcAssetManagementLicenseInspector"/>
+  </bean>
+
+  <bean id="assetCommerceContextInterceptor" class="com.coremedia.livecontext.asset.AssetCommerceContextInterceptor" parent="storeContextInterceptor">
+    <property name="initUserContext" value="false"/>
+    <property name="liveContextSiteResolver" ref="liveContextSiteResolver"/>
+  </bean>
+
+  <bean class="com.coremedia.objectserver.web.MappedInterceptor" id="mappedAssetCommerceContextInterceptor">
+      <property name="interceptor" ref="assetCommerceContextInterceptor"/>
+      <property name="includePatterns">
+        <list>
+          <util:constant static-field="com.coremedia.livecontext.asset.CMCatalogPictureHandler.URI_PATTERN"/>
+        </list>
+      </property>
+    </bean>
+
+  <!-- add commerce context interceptors to the beginning -->
+  <customize:prepend id="appendLcAssetManagementInterceptors" bean="handlerInterceptors" order="9999999">
+    <list>
+      <ref bean="mappedAssetCommerceContextInterceptor"/>
+      <ref bean="lcAssetManagementLicenseInterceptor"/>
+    </list>
+  </customize:prepend>
+
+  <bean class="org.springframework.web.servlet.handler.MappedInterceptor" id="mappedAssetNoCacheHeaderInterceptor">
+    <constructor-arg index="0">
+      <array value-type="java.lang.String">
+        <util:constant static-field="com.coremedia.livecontext.asset.CMCatalogPictureHandler.URI_PATTERN"/>
+      </array>
+    </constructor-arg>
+    <constructor-arg index="1" ref="assetNoCacheHeaderInterceptor"/>
+  </bean>
+
+  <bean class="com.coremedia.livecontext.handler.NoCacheHeaderInterceptor" id="assetNoCacheHeaderInterceptor" />
+
+</beans>

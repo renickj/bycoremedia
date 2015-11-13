@@ -1,0 +1,53 @@
+!tape
+name: ssi_testFindSegmentsByUser
+interactions:
+- recorded: 2014-09-05T09:08:26.457Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/segment?q=byUserId&qUserId=4&catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2c7ypAleQXonOHVfk86FP0x4Nowr1VuEYYNtY%2bHxyjHlJIZYIgE0vNENQQ4HgH6TEwisXonrErEGBkOCXz2Nh3Kz1zJMgQKWmA7RBY%2fGaqCZsQ4XAo%2fhFz5ud%2b6eA4GV5K%2fJd24XQMrXYHlJIUjJPDp%2bCoQkb1BCZN13WiPUpQvX4qevtKus%2fQc2buYMCEjlH4
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Fri, 05 Sep 2014 09:08:26 GMT
+      Expires: Fri, 05 Sep 2014 10:08:26 GMT
+      Vary: Accept
+      X-Betamax: PLAY
+    body: "{\n\t\"MemberGroup\": [\n\t\t{\n\t\t\t\"description\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Customers who have registered with the store\"\n\t\t\t},\n\t\t\t\"displayName\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"\
+      Registered Customers\"\n\t\t\t},\n\t\t\t\"id\": \"8000000000000000601\",\n\t\t\t\"usage\": [\n\t\t\t\t\"GeneralPurpose\"\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"description\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Male Customers\"\n\t\t\t},\n\
+      \t\t\t\"displayName\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Male Customers\"\n\t\t\t},\n\t\t\t\"id\": \"8000000000000000604\",\n\t\t\t\"usage\": [\n\t\t\t\t\"GeneralPurpose\"\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"description\": {\n\t\t\t\t\
+      \"language\": \"-1\",\n\t\t\t\t\"value\": \"Frequent Buyer\"\n\t\t\t},\n\t\t\t\"displayName\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Frequent Buyer\"\n\t\t\t},\n\t\t\t\"id\": \"8000000000000000652\",\n\t\t\t\"usage\": [\n\t\t\t\t\"GeneralPurpose\"\
+      \n\t\t\t]\n\t\t}\n\t],\n\t\"recordSetComplete\": true,\n\t\"recordSetCount\": 3,\n\t\"recordSetStartNumber\": 0,\n\t\"recordSetTotal\": 3,\n\t\"resourceId\": \"http:\\/\\/toko-wcs-01.coremedia.vm\\/wcs\\/resources\\/store\\/10202\\/segment\",\n\t\"resourceName\"\
+      : \"segment\"\n}"
+- recorded: 2014-09-08T17:47:49.752Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/loginidentity
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '60'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+    body: '{"logonId":"cmadmin","logonPassword":"VTJjyo0AYSnXFHI201yo"}'
+  response:
+    status: 201
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:47:49 GMT
+      Expires: Mon, 08 Sep 2014 18:47:49 GMT
+      Vary: Accept
+    body: "{\n\t\"WCToken\": \"2%2cz78D7kqm2JEaDGGo6Ez0aNGXHnQ5UEfm7rEKeAkaObgqzGvjBGXZfq67FNKpzWtL0GdFp7dp25D86URXGXesRTUXXYapsyq5XvLU7qEH%2fZpe3E3pn0DGDON4j3bLTRbpPuStWzU4UuO86D1cTBw3DlbJhdksWWd4jjslGhAvIqNq0c6AF4ArV4sKQIhgG9wTfDWGFuBYMirzmsH0B1x5DQ%3d%3d\"\
+      ,\n\t\"WCTrustedToken\": \"2%2cB%2f2Um9NlEoXBdeQF%2fUlXR44ief4%3d\",\n\t\"personalizationID\": \"1409924907387-1\",\n\t\"userId\": \"2\"\n}"

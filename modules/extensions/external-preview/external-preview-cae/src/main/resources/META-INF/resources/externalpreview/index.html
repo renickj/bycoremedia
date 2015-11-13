@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Coremedia - External Studio Preview</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="scripts/login.js"></script>
+</head>
+<body>
+<div class="accelerator-container"></div>
+<div class="login">
+    <div>
+        <div class="cmlogo"></div>
+        <div class="title">external preview</div>
+        <div class="clearfix"></div>
+    </div>
+    <div id="loginError" class="error">
+        <div class="error-text">
+            The key you have entered is invalid.<br/>
+            <span class="optional-text">You can find the correct key in the Studio. Please try again.</span>
+        </div>
+    </div>
+    <div class="input">
+        <label for="previewToken">Key</label>
+        <input type="tel" id="previewToken" name="token" maxlength="4" autocomplete="on" autofocus placeholder="1234" />
+        <button type="button" id="loginButton">Start</button>
+    </div>
+</div>
+</body>
+</html>

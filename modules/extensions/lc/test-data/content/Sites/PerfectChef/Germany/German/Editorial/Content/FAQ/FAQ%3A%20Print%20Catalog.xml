@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/FAQ" name="FAQ: Print Catalog" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Print%20Catalog.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Print%20Catalog"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>free-catalog-newsletter</segment>
+<title>Können Sie mir bitte Ihren Print-Katalog schicken?</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Sehr gerne! Um unsere aktuellen Print-Katalog bekommen, schicken Sie uns bitte eine E-Mail an <a xlink:href="mailto:free-catalog@perfect-chef.com" xlink:show="replace" xlink:type="simple">free-catalog@perfect-chef.com</a> mit Ihrem Namen und Adresse.</p><p>Wir bieten auch einen wöchentlichen Newsletter mit aktuelle Angebote. Bitte melden Sie sich per E-Mail an <a xlink:href="mailto:newsletter@perfect-chef.com" xlink:show="replace" xlink:type="simple">newsletter@perfect-chef.com</a> und folgen Sie den Anweisungen.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Sehr gerne! Um unsere aktuellen Print-Katalog zu bekommen, schicken Sie uns bitte eine E-Mail an <a xlink:href="mailto:free-catalog@perfect-chef.com" xlink:show="replace" xlink:type="simple">free-catalog@perfect-chef.com</a> mit Ihrem Namen und Ihrer kompletten Adresse.</p><p>Wir bieten Ihnen auch einen wöchentlichen Newsletter mit aktuellen Angeboten. Bitte abonnieren Sie sich per E-Mail an <a xlink:href="mailto:newsletter@perfect-chef.com" xlink:show="replace" xlink:type="simple">newsletter@perfect-chef.com</a> und folgen Sie den Anweisungen.</p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

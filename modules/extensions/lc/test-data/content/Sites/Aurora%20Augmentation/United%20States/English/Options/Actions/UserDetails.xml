@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMAction folder="/Sites/Aurora Augmentation/United States/English/Options/Actions" name="UserDetails" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>userdetails</segment>
+<title>User Details</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+<link href="../../Pictures/Sitewide%20Pictures/Sign-In%20-%20Replace%20with%20Seasonal%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Sitewide%20Pictures/Sign-In%20-%20Replace%20with%20Seasonal%20Picture"/>
+</pictures>
+<notSearchable>0</notSearchable>
+<related>
+</related>
+<id>com.coremedia.blueprint.elastic.social.cae.flows.UserDetails</id>
+<type>webflow</type>
+</CMAction>

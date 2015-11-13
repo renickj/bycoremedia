@@ -1,0 +1,107 @@
+// Provides a set of mixins for custom elements.
+
+//
+// Generates an aspect ratio box. Elements within the aspect ratio box need to be positioned absolute otherwise
+// they will extend the box.
+//
+// @param: {x} The x-coordinate for the aspect ratio
+// @param: {y} The y-coordinate for the aspect ratio
+// @param: {overflow} By default overflow is hidden, this can be adjusted if not wanted
+// @example:
+//
+// @include aspect-ratio-box(4, 3) {
+//    background-color: red;
+// }
+//
+@mixin aspect-ratio-box($x, $y, $overflow: hidden) {
+  position: relative;
+  overflow: $overflow;
+
+  &:before {
+    display: block;
+    padding-top: percentage($y / $x);
+    content: "";
+  }
+}
+
+//
+// Applies styles to stretch to parent container using position absolute.
+//
+// @param: {boolean} vertically stretched? default: true
+// @param: {boolean} horizontally stretched? default: true
+//
+// @example:
+// img {
+//   @include center-absolute();
+// }
+//
+@mixin stretch-absolute($vertical: true, $horizontal: true) {
+  position: absolute;
+  @if $vertical {
+    top: 0;
+    bottom: 0;
+  }
+  @if $horizontal {
+    left: 0;
+    right: 0;
+  }
+}
+
+//
+// Applies styles to center using position absolute.
+//
+// @param: {boolean} vertically centered? default: true
+// @param: {boolean} horizontally centered? default: true
+//
+// @example:
+// .popup {
+//   @include center-absolute();
+// }
+//
+@mixin center-absolute($vertical: true, $horizontal: true) {
+  position: absolute;
+  @if $vertical {
+    top: 50%;
+  }
+  @if $horizontal {
+    left: 50%;
+  }
+  @if $vertical and not $horizontal {
+    transform: translateY(-50%);
+  }
+  @if not $vertical and $horizontal {
+    transform: translateX(-50%);
+  }
+  @if $vertical and $horizontal {
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+//
+// Centers element using margin auto.
+// 
+// @param: {string} xy (default) all margin are set
+// @param: {string} x  margin-right and margin-left are set
+// @param: {string} y  margin-top and margin-bottom are set
+//
+// @example:
+// .wrapper {
+//   @include center-margin(x);
+// }
+//
+@mixin center-margin($xy:'xy') {
+  @if $xy == 'x' {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @if $xy == 'y' {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+   @if $xy == 'xy' {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Corporate" name="Imprint" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>imprint</segment>
+<title>Imprint</title>
+<htmlTitle></htmlTitle>
+<keywords>CoreMedia imprint</keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+<link href="../../../Navigation/Site-Wide/Corporate%20Hidden%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Corporate%20Hidden%20Page"/>
+</contexts>
+<teaserTitle>Imprint</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>This is a demonstration website for the CoreMedia Digital Experience Platform by CoreMedia</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">This is a demonstration website for the <a xlink:href="http://www.coremedia.com/cm8" xlink:show="new" xlink:type="simple">CoreMedia Digital Experience Platform</a> by <strong>CoreMedia</strong></p><p><br/></p><table><tbody><tr valign="top"><td colspan="1" rowspan="1"><p>Hamburg, Germany<br/><strong>CoreMedia AG</strong></p><p>Ludwig-Erhard-Straße 18<br/>20459 Hamburg</p><p>Germany<br/><a xlink:href="http://tel:+49.40.3255.870" xlink:show="replace" xlink:type="simple">+49.40.3255.870</a><br/><a xlink:href="mailto:info@coremedia.com" xlink:show="replace" xlink:type="simple">info@coremedia.com</a></p></td><td colspan="1" rowspan="1"><p>London, UK<br/><strong>CoreMedia Ltd.</strong></p><p>90 Long Acre<br/>Covent Garden<br/>London WC2E 9RZ<br/>United Kingdom<br/><a xlink:href="http://tel:+44.207.849.3317" xlink:show="replace" xlink:type="simple">+44.207.849.3317</a><br/><a xlink:href="mailto:uk-info@coremedia.com" xlink:show="replace" xlink:type="simple">uk-info@coremedia.com</a></p></td><td colspan="1" rowspan="1"><p>San Francisco, USA<br/><strong>CoreMedia Corporation</strong></p><p>114 Sansome Street, Suite 1300<br/>San Francisco, CA 94104<br/><a xlink:href="http://tel:+1.415.371.0400" xlink:show="replace" xlink:type="simple">+1.415.371.0400</a><br/><a xlink:href="mailto:usa-info@coremedia.com" xlink:show="replace" xlink:type="simple">usa-info@coremedia.com</a></p></td></tr></tbody></table><p><strong>Registered with the trade registry of Hamburg under the number</strong><br/>HR B 76277</p><p><strong>Representatives:</strong> Dr. Klemens Kleiminger</p><p><strong>Value Added Tax Identification Number</strong><br/>DE 179 733 607</p><p><strong>Provider pursuant to the German Teleservices Act (TDG):</strong><br/>CoreMedia AG, Ludwig-Erhard-Straße 18, 20459 Hamburg</p><p><br/></p><p>All images are licensed by CoreMedia AG under copyright by <a xlink:href="http://www.shutterstock.com" xlink:show="new" xlink:type="simple">ShutterStock</a> unless noted otherwise, no redistribution of images is allowed without separate licensing.</p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Legal%20-%20Chef%20holding%20papers%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Sitewide%20Pictures/Legal%20-%20Chef%20holding%20papers%20Picture"/>
+</pictures>
+<notSearchable>1</notSearchable>
+<related>
+</related>
+</CMArticle>

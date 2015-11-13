@@ -1,0 +1,101 @@
+!tape
+name: csi_testFindMarketingSpotByExternalTechId
+interactions:
+- recorded: 2014-09-08T17:33:10.872Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/languagemap
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:10 GMT
+      Expires: Mon, 08 Sep 2014 18:33:10 GMT
+      Vary: Accept
+    body: "{\n\t\"ar\": \"-23\",\n\t\"de\": \"-3\",\n\t\"en\": \"-1\",\n\t\"es\": \"-5\",\n\t\"fr\": \"-2\",\n\t\"it\": \"-4\",\n\t\"ja\": \"-10\",\n\t\"ko\": \"-9\",\n\t\"pl\": \"-22\",\n\t\"pt\": \"-6\",\n\t\"ro\": \"-21\",\n\t\"ru\": \"-20\",\n\t\"zh\": \"\
+      -8\"\n}"
+- recorded: 2014-09-08T17:33:10.947Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/loginidentity
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '60'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+    body: '{"logonId":"cmadmin","logonPassword":"VTJjyo0AYSnXFHI201yo"}'
+  response:
+    status: 201
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:10 GMT
+      Expires: Mon, 08 Sep 2014 18:33:10 GMT
+      Vary: Accept
+    body: "{\n\t\"WCToken\": \"2%2cn95SdmTie6NqywiVMy6aRSnJVpWuf4clgguA3kP%2b5EjlPSYZUa0u0MvYv%2fdYtjoyfLx9MAwDgx5lXClaY9jusr6P%2behX5BbNYsfJF0nEoo8L4VeqEIa1LDqLFv9xsW%2fq8F6MWbBn426sTBYvDBT7JEP4T1b9RkhKNcryqypI%2bTdXuNq3ARoWZV591XNMrPuEwH6%2fBM%2fn2YJsksYmx1IPvA%3d%3d\"\
+      ,\n\t\"WCTrustedToken\": \"2%2cJNn%2bnUEY0pgKVDfxkPhCkHqAqq4%3d\",\n\t\"personalizationID\": \"1409924907387-1\",\n\t\"userId\": \"2\"\n}"
+- recorded: 2014-09-08T17:33:11.035Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/espot/ApparelRow1_Content?catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2cn95SdmTie6NqywiVMy6aRSnJVpWuf4clgguA3kP%2b5EjlPSYZUa0u0MvYv%2fdYtjoyfLx9MAwDgx5lXClaY9jusr6P%2behX5BbNYsfJF0nEoo8L4VeqEIa1LDqLFv9xsW%2fq8F6MWbBn426sTBYvDBT7JEP4T1b9RkhKNcryqypI%2bTdXuNq3ARoWZV591XNMrPuEwH6%2fBM%2fn2YJsksYmx1IPvA%3d%3d
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:10 GMT
+      Expires: Mon, 08 Sep 2014 18:33:11 GMT
+      Vary: Accept
+    body: "{\n\t\"MarketingSpotData\": [\n\t\t{\n\t\t\t\"baseMarketingSpotActivityData\": [\n\t\t\t\t{\n\t\t\t\t\t\"activityIdentifierID\": \"0\",\n\t\t\t\t\t\"activityPriority\": \"1\",\n\t\t\t\t\t\"baseMarketingSpotActivityID\": \"10475\",\n\t\t\t\t\t\"baseMarketingSpotActivityName\"\
+      : \"ApparelHeroImage\",\n\t\t\t\t\t\"baseMarketingSpotDataType\": \"MarketingContent\",\n\t\t\t\t\t\"contentFormatId\": \"2\",\n\t\t\t\t\t\"contentFormatName\": \"Text\",\n\t\t\t\t\t\"contentId\": \"10475\",\n\t\t\t\t\t\"contentName\": \"ApparelHeroImage\"\
+      ,\n\t\t\t\t\t\"contentStoreId\": \"10701\",\n\t\t\t\t\t\"marketingContentDescription\": [\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\t\t\t\"maketingText\": \"<link rel=\\\"stylesheet\\\" href=\\\"[imagePath]rwdWebAssets\\/deptMainESpot\\\
+      /styles.css\\\" \\/> <div id=\\\"deptMainESpot\\\" class=\\\"container\\\">    <div id=\\\"deptMainESpot-bkgrd\\\">       <div id=\\\"deptMainESpot-bkgrd-couple\\\">          <div><\\/div>       <\\/div>       <div id=\\\"deptMainESpot-container\\\" class=\\\
+      \"espotCont\\\">          <div id=\\\"deptMainESpot-girl2\\\">    <!--[if IE 8]>       <img src=\\\"[imagePath]rwdWebAssets\\/deptMainESpot\\/female.png\\\"\\/>    <![endif]-->    <!--[if gte IE 9]><!-->          <div><\\/div>    <!--<![endif]-->     \
+      \     <\\/div>          <div id=\\\"deptMainESpot-titleCont\\\">             <div class=\\\"title\\\">Fashionable <\\/div>             <div class=\\\"title2\\\">Evening Wear<\\/div>             <div class=\\\"title4\\\">Save on women's dresses <br\\/>and\
+      \ men's suits<\\/div>          <\\/div>          <div id=\\\"deptMainESpot-multiImgCont\\\">             <div id=\\\"deptMainESpot-couple\\\">                <!--[if IE 8]>      <img src=\\\"[imagePath]rwdWebAssets\\/deptMainESpot\\/couple.png\\\"\\/>\
+      \     <![endif]-->     <!--[if gte IE 9]><!-->           <div><\\/div>     <!--<![endif]-->             <\\/div>             <div id=\\\"deptMainESpot-male\\\">                <div><\\/div>             <\\/div>          <\\/div>       <\\/div>    <\\/div>\
+      \ <\\/div>\"\n\t\t\t\t\t\t}\n\t\t\t\t\t],\n\t\t\t\t\t\"properties\": [\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"baseMarketingKey\": \"mktActivityDescription\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"baseMarketingKey\": \"displaySequence\",\n\t\t\t\t\t\t\
+      \t\"baseMarketingValue\": \"1.0\"\n\t\t\t\t\t\t}\n\t\t\t\t\t]\n\t\t\t\t}\n\t\t\t],\n\t\t\t\"behavior\": \"0\",\n\t\t\t\"eSpotName\": \"ApparelRow1_Content\",\n\t\t\t\"marketingSpotIdentifier\": \"11620\",\n\t\t\t\"nextTimeLimit\": \"-1\"\n\t\t}\n\t],\n\
+      \t\"resourceId\": \"http:\\/\\/toko-wcs-02.coremedia.vm\\/wcs\\/resources\\/store\\/10202\\/espot\\/ApparelRow1_Content\",\n\t\"resourceName\": \"espot\"\n}"
+- recorded: 2014-09-08T17:33:11.119Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/spot/11620?catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2cn95SdmTie6NqywiVMy6aRSnJVpWuf4clgguA3kP%2b5EjlPSYZUa0u0MvYv%2fdYtjoyfLx9MAwDgx5lXClaY9jusr6P%2behX5BbNYsfJF0nEoo8L4VeqEIa1LDqLFv9xsW%2fq8F6MWbBn426sTBYvDBT7JEP4T1b9RkhKNcryqypI%2bTdXuNq3ARoWZV591XNMrPuEwH6%2fBM%2fn2YJsksYmx1IPvA%3d%3d
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:11 GMT
+      Expires: Mon, 08 Sep 2014 18:33:11 GMT
+      Vary: Accept
+    body: "{\n\t\"MarketingSpot\": [\n\t\t{\n\t\t\t\"description\": \"Display the main ad on Apparel department page\",\n\t\t\t\"spotId\": \"11620\",\n\t\t\t\"spotName\": \"ApparelRow1_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\
+      \t}\n\t],\n\t\"recordSetComplete\": true,\n\t\"recordSetCount\": 1,\n\t\"recordSetStartNumber\": 0,\n\t\"recordSetTotal\": 1,\n\t\"resourceId\": \"http:\\/\\/toko-wcs-02.coremedia.vm\\/wcs\\/resources\\/store\\/10202\\/spot\\/11620\",\n\t\"resourceName\"\
+      : \"spot\"\n}"

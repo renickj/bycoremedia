@@ -1,0 +1,50 @@
+!tape
+name: wcws_testUnknownUser
+interactions:
+- recorded: 2014-09-08T17:33:32.280Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/loginidentity
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '60'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+    body: '{"logonId":"cmadmin","logonPassword":"VTJjyo0AYSnXFHI201yo"}'
+  response:
+    status: 201
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:32 GMT
+      Expires: Mon, 08 Sep 2014 18:33:32 GMT
+      Vary: Accept
+    body: "{\n\t\"WCToken\": \"2%2cJPalOSEWm7gMwuQbP76b%2bft6o4MLHEu%2fvXS5urxTlTsZ5LgigwfZ1oHY2BfuHdSMIo%2b%2bHt18p4fPuvoG1kNmclwf%2bDSwAsVWadbDpqoJrL9CAbGBHQWvvfW50EgAYCL%2fsis3Ddv5AmXOK6nUNZs2mwE%2bSQBxaEvyXSUjugKhGomLu%2bqses5FZXoQQV4DPnWTyR4OHQvb82H6rzfR9%2fpFPg%3d%3d\"\
+      ,\n\t\"WCTrustedToken\": \"2%2cbjryoInMjtwlTnFnYFDU6MnIncU%3d\",\n\t\"personalizationID\": \"1409924907387-1\",\n\t\"userId\": \"2\"\n}"
+- recorded: 2014-09-08T17:33:32.370Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/price?catalogId=10051&currency=USD&forUser=mr.unknown&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '96'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2cJPalOSEWm7gMwuQbP76b%2bft6o4MLHEu%2fvXS5urxTlTsZ5LgigwfZ1oHY2BfuHdSMIo%2b%2bHt18p4fPuvoG1kNmclwf%2bDSwAsVWadbDpqoJrL9CAbGBHQWvvfW50EgAYCL%2fsis3Ddv5AmXOK6nUNZs2mwE%2bSQBxaEvyXSUjugKhGomLu%2bqses5FZXoQQV4DPnWTyR4OHQvb82H6rzfR9%2fpFPg%3d%3d
+    body: '{"query":{"name":"byPartNumber","currencies":["USD"],"products":[{"partNumber":"CLA022_2203"}]}}'
+  response:
+    status: 400
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:32 GMT
+      Expires: Mon, 08 Sep 2014 18:33:32 GMT
+      Vary: Accept
+    body: "{\n\t\"errors\": [\n\t\t{\n\t\t\t\"errorCode\": \"The following finder exception has occurred during processing: \\\"javax.ejb.ObjectNotFoundException\\\".\",\n\t\t\t\"errorKey\": \"The following finder exception has occurred during processing: \\\
+      \"javax.ejb.ObjectNotFoundException\\\".\",\n\t\t\t\"errorMessage\": \"An error has occurred.  If this problem persists, contact product support.\",\n\t\t\t\"errorParameters\": \"\"\n\t\t}\n\t]\n}"

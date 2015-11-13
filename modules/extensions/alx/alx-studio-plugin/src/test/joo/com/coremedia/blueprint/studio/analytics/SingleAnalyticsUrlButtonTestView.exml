@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:alx="exml:com.coremedia.blueprint.studio.config.analytics">
+
+  <viewport>
+    <items>
+      <alx:contentProvidingTestContainer itemId="contentContainer">
+        <items>
+          <alx:analyticsDeepLinkButtonContainer itemId="alxDeepLinkButtonContainer">
+            <items>
+              <alx:openAnalyticsDeepLinkUrlButton serviceName="testService2"/>
+            </items>
+          </alx:analyticsDeepLinkButtonContainer>
+        </items>
+      </alx:contentProvidingTestContainer>
+    </items>
+  </viewport>
+</exml:component>

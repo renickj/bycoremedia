@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- this file enables Tomcat to reload changed resources (= templates) from the given directories while running. -->
+<Context logEffectiveWebXml="false" sessionCookieName="CM_SESSIONID" useHttpOnly="false" reloadable="true">
+
+  <!-- Enable this parameter to skip redundant imports -->
+  <!--<Parameter name="skip.redundant.spring.imports" value="true"-->
+      <!--override="false"/>-->
+  <!-- Enable this parameter to disallow spring bean overrides -->
+  <!--<Parameter name="disallow.spring.bean.overrides" value="true"-->
+      <!--override="false"/>-->
+
+  <!--
+    value for Resources#extraResourcePaths MUST NOT contain any separating character other than a "," and MUST be ended after the
+     last character by a " directly !!!
+
+    this will work: extraResourcePaths="/=a,/=b"
+    this will NOT work: extraResourcePaths="/=a,/=b "
+    this will NOT work: extraResourcePaths="/=a, /=b"
+
+
+    Following modules are always enabled:
+
+    Blueprint
+    /=${project.basedir}/src/main/webapp
+    /=${project.basedir}/../cae-base-lib/src/main/resources
+    /=${project.basedir}/../cae-base-lib/src/main/resources/META-INF/resources
+
+    Basic Theme
+    Templates:    /=${project.basedir}/../cae-themes/basic-theme/src/main/resources/META-INF/resources
+    Webresources: /=${project.basedir}/../cae-themes/basic-theme/target/resources
+
+    Corporate Theme
+    Templates:    /=${project.basedir}/../../extensions/corporate/corporate-theme/src/main/resources/META-INF/resources
+    Webresources: /=${project.basedir}/../../extensions/corporate/corporate-theme/target/resources
+    Lib:          /=${project.basedir}/../../extensions/corporate/corporate-cae/src/main/resources
+
+    LiveContext Themes
+    Templates:    /=${project.basedir}/../../extensions/lc/lc-themes/perfectchef-theme/src/main/resources/META-INF/resources
+    Webresources: /=${project.basedir}/../../extensions/lc/lc-themes/perfectchef-theme/src
+    Webresources: /=${project.basedir}/../../extensions/lc/lc-themes/aurora-theme/src
+    Lib:          /=${project.basedir}/../../extensions/lc/lc-cae/src/main/resources
+
+    Elastic Social
+    Templates:    /=${project.basedir}/../../extensions/es/es-theme/src/main/resources/META-INF/resources
+    Webresources: /=${project.basedir}/../../extensions/es/es-theme/src
+    Lib:          /=${project.basedir}/../../extensions/es/es-cae/src/main/resources
+
+    LiveContext Elastic Social
+    Templates:    /=${project.basedir}/../../extensions/lc-es/lc-es-templates/src/main/resources/META-INF/resources
+    Lib:          /=${project.basedir}/../../extensions/lc-es/lc-cae/src/main/resources
+
+    Analytics
+    /=${project.basedir}/../../extensions/alx/alx-cae/src/main/resources/META-INF/resources
+
+    Elastic Social ALX
+    /=${project.basedir}/../../extensions/es-alx/es-alx-templates/src/main/resources/META-INF/resources
+
+    Personalization
+    /=${project.basedir}/../../extensions/p13n/p13n-preview-cae/src/main/resources/META-INF/resources
+
+    Asset Management
+    /=${project.basedir}/../../extensions/lc-asset/lc-asset-cae-component/src/main/resources/META-INF/resources
+    /=${project.basedir}/../../extensions/am/am-cae/src/main/resources/META-INF/resources
+  -->
+  <Resources className="org.apache.naming.resources.VirtualDirContext"
+             extraResourcePaths="/=${project.basedir}/src/main/webapp,/=${project.basedir}/../cae-base-lib/src/main/resources,/=${project.basedir}/../cae-base-lib/src/main/resources/META-INF/resources,/=${project.basedir}/../cae-themes/theme-basic/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/corporate/corporate-theme/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/corporate/corporate-theme/target/resources,/=${project.basedir}/../../extensions/corporate/corporate-cae/src/main/resources,/=${project.basedir}/../../extensions/lc/lc-theme-perfectchef/templates/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/lc/lc-theme-perfectchef/webresources/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/lc/lc-theme-aurora/webresources/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/lc/lc-cae/src/main/resources,/=${project.basedir}/../../extensions/es/es-cae/src/main/resources,/=${project.basedir}/../../extensions/es/es-webresources/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/es/es-templates/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/alx/alx-cae/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/es-alx/es-alx-templates/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/lc/lc-cae/src/main/resources,/=${project.basedir}/../../extensions/lc-es/lc-es-webresources/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/lc-es/lc-es-templates/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/p13n/p13n-preview-cae/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/lc-asset/lc-asset-cae-component/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/estore/estore-theme-perfectchef/webresources/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/estore/estore-theme-perfectchef/templates/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/es/es-themes/target/resources,/=${project.basedir}/../../extensions/es/es-themes/src/main/resources/META-INF/resources,/=${project.basedir}/../../extensions/lc-es/lc-cae/src/main/resources,/=${project.basedir}/../../extensions/am/am-cae/src/main/resources/META-INF/resources" />" />
+
+</Context>

@@ -1,0 +1,23 @@
+!tape
+name: commercecache_testPollCacheInvalidationsWithEntries
+interactions:
+- recorded: 2014-09-08T17:32:51.818Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/cacheinvalidation/1403708220082?maxWait=20000&chunkSize=5000
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:32:51 GMT
+      Expires: Mon, 08 Sep 2014 18:32:51 GMT
+      Vary: Accept
+    body: "{\n\t\"invalidations\": [\n\t\t{\n\t\t\t\"contentType\": \"clearall\",\n\t\t\t\"techId\": \"0\"\n\t\t}\n\t],\n\t\"lastInvalidation\": 1409066986192\n}"

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/01_On The Table" name="On The Table Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>On The Table</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Here at Perfect Chef, we love to host parties and to decorate our tables accordingly. Find elegant designer pieces or colorful items to make your table special and unforgettable. Browse our selection of Plates, Glasses and other tableware as well as Decoration items.</p></div></detailText>
+<pictures>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Friends%20enc929a35d.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Friends%20enjoying%20a%20spring%20salad%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

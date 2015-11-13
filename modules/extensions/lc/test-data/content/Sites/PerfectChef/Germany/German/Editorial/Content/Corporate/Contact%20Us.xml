@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate" name="Contact Us" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/Corporate/Contact%20Us.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Corporate/Contact%20Us"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>kontakt</segment>
+<title>Kontaktieren Sie uns</title>
+<htmlTitle></htmlTitle>
+<keywords>Coremedia Kontakt</keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Kontaktieren Sie uns</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">CoreMedia hat Büros in Hamburg; San Francisco; Arlington, Virginia; London und Singapur.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>CoreMedia hat Büros in Hamburg; San Francisco; Arlington, Virginia; London und Singapur.</p><table><tbody><tr><td><p class="p--heading-4"><strong>Deutschland, Schweiz, Österreich</strong></p><p>CoreMedia AG (Headquarters)<br/>Ludwig-Erhard-Str. 18<br/>Hamburg 20459<br/>Telefon: <a xlink:href="http://tel:+49.40.325587.0" xlink:show="replace" xlink:type="simple">+49.40.325587.0</a><br/><br/><a xlink:href="http://www.coremedia.com/webflow/coremedia-de/27304/contact.html?targetId=6908" xlink:type="simple">E-Mail an CoreMedia</a></p></td><td><p class="p--heading-4"><strong>Europa, Mittlerer Osten, Afrika</strong></p><p>CoreMedia UK Ltd.<br/>90 Long Acre, Covent Garden<br/>London WC2E 9RZ<br/>Telefon: <a xlink:href="http://tel:+44.207.849.3317" xlink:show="replace" xlink:type="simple">+44.207.849.3317</a><br/><br/><a xlink:href="http://www.coremedia.com/webflow/coremedia-de/27304/contact.html?targetId=6910" xlink:type="simple">E-Mail an CoreMedia</a></p></td></tr><tr><td><p class="p--heading-4"><strong>Nord- und Südamerika</strong></p><p>CoreMedia Corporation<br/>114 Sansome Street, Suite 1300<br/>San Francisco, CA 94104<br/>Telefon: <a xlink:href="http://tel:+1.415.371.0400" xlink:show="replace" xlink:type="simple">+1.415.371.0400</a><br/><br/><a xlink:href="http://www.coremedia.com/webflow/coremedia-de/27304/contact.html?targetId=6906" xlink:type="simple">E-Mail an CoreMedia</a></p></td><td><p class="p--heading-4"><strong>Nord- und Südamerika</strong></p><p>CoreMedia Corporation<br/>1001 N. 19th Street, Suite 1200<br/>Arlington, VA 22209<br/>Telefon: <a xlink:href="http://tel:+1.703.945.1079" xlink:show="replace" xlink:type="simple">+1.703.945.1079 </a><br/><br/><a xlink:href="http://www.coremedia.com/webflow/coremedia-de/27304/contact.html?targetId=32182" xlink:type="simple">Email an CoreMedia</a></p></td></tr><tr><td><p class="p--heading-4"><strong>Asien Pazifik</strong></p><p>CoreMedia Asia Pacific Pte. Ltd.<br/>25 International Business Park, #03-106<br/>Singapur 609916<br/><br/><a xlink:href="http://www.coremedia.com/webflow/coremedia-de/27304/contact.html?targetId=6912" xlink:type="simple">E-Mail an CoreMedia</a></p></td><td><br/></td></tr></tbody></table><p><br/></p><p/><p/></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<notSearchable>1</notSearchable>
+<related>
+</related>
+</CMArticle>

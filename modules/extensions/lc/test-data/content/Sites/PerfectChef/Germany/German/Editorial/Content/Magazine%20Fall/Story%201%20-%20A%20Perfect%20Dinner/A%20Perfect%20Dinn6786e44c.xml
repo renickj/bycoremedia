@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine Fall/Story 1 - A Perfect Dinner" name="A Perfect Dinner Related Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner/A%20Perfe208d14f5.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner/A%20Perfect%20Dinner%20Related%20Collection"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMCollection/unboxed.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/unboxed"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Ensembles kaufen</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../Navigation/Categories/01_On%20The%20Table/Glasses%20Category%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/01_On%20The%20Table/Glasses%20Category%20Teaser"/>
+<link href="../../../../Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipes%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipes%20Teaser"/>
+<link href="Evening%20Dresses%b0dccf3a.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner/Evening%20Dresses%20Landing%20Page%20Teaser"/>
+<link href="../../Recipes/Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article"/>
+<link href="../../../Products/Fall%20Campaign/Berry%20Macaroons%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Berry%20Macaroons%20Product%20Teaser"/>
+<link href="A%20Perfect%20Dinn6ca6591c.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner/A%20Perfect%20Dinner%20Gallery"/>
+</items>
+</CMCollection>

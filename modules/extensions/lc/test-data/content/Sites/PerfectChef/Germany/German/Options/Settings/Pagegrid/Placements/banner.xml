@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSymbol folder="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements" name="banner" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Options/Settings/Pagegrid/Placements/banner.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/banner"/>
+</master>
+<masterVersion>1</masterVersion>
+<description>Sidebar Content</description>
+</CMSymbol>

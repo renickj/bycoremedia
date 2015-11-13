@@ -1,0 +1,86 @@
+/* =====================================================================================================================
+   Layout for LiveContext with Elastic Social functionality
+   Contains styling rules used for Elastic Social integration in theme "perfectchef"
+   ================================================================================================================== */
+
+/* mobile */
+@media only screen  and (max-width: 599px) {
+
+  /* --- form ------------------------------------------------------------------------------------------------------- */
+  .cm-form__notification {
+    margin-top: 13px;
+  }
+
+  .cm-form__notification,
+  .cm-fieldset__item,
+  .cm-field__notification {
+    margin-bottom: 13px;
+  }
+}
+
+/* tablet portrait */
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+  .cm-form__notification {
+    margin-top: 8px;
+  }
+
+  .cm-form__notification,
+  .cm-fieldset__item,
+  .cm-field__notification {
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .cm-form__notification {
+    margin-top: 13px;
+  }
+
+  .cm-form__notification,
+  .cm-fieldset__item,
+  .cm-field__notification {
+    margin-bottom: 13px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1025px) {
+
+  /* --- form ------------------------------------------------------------------------------------------------------- */
+  .cm-form-facebook,
+  .cm-form-twitter {
+    text-align: right;
+  }
+
+  .cm-field-group {
+    font-size: 0;
+  }
+
+  .cm-field-group__item {
+    font-size: 1rem;
+    display: inline-block;
+    width: 47.5%;
+    width: calc(50% - 5px);
+  }
+
+  .cm-field-group__item:nth-child(2n) {
+    margin-left: 2.5%;
+    margin-left: calc(5px);
+  }
+
+  .cm-field-group__item:nth-child(2n + 1) {
+    margin-right: 2.5%;
+    margin-right: calc(5px);
+  }
+
+  .cm-form__notification {
+    margin-top: 13px;
+  }
+
+  .cm-form__notification,
+  .cm-fieldset__item,
+  .cm-field__notification {
+    margin-bottom: 13px;
+  }
+}

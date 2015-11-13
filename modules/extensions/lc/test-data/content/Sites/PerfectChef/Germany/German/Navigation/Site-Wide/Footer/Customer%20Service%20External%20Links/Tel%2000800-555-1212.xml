@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalLink folder="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer/Customer Service External Links" name="Tel 00800-555-1212" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Navigation/Site-Wide/Footer/Customer%20Service%20External%20Links/Tel%20%2B1-800-555-1212.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Footer/Customer%20Service%20External%20Links/Tel%20%2B1-800-555-1212"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Tel. 00800-555-1212</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<url>tel:00800-555-1212</url>
+</CMExternalLink>

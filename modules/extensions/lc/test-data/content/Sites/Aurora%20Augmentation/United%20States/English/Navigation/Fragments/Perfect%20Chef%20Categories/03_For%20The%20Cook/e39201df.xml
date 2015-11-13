@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/03_For The Cook/Apparel/Men/Men Elegant" name="A Perfect Dinner - Men Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>A Perfect Dinner</teaserTitle>
+<pictures>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinnd6bb0b7.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2003%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../../../Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner7d43d2c.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner/A%20Perfect%20Dinner%20Article"/>
+</target>
+</CMTeaser>

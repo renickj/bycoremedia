@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                xmlns:bpb-components="exml:com.coremedia.blueprint.base.components.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config">
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression"/>
+  <exml:cfg name="forceReadOnlyValueExpression" type="com.coremedia.ui.data.ValueExpression"/>
+
+  <exml:constant name="ITEMS_PROPERTY_NAME" value="items">
+    <exml:description>A constant for the linklist property name</exml:description>
+  </exml:constant>
+
+  <container autoWidth="true">
+    <plugins>
+      <editor:setPropertyLabelPlugin bindTo="{config.bindTo}" propertyName="{ITEMS_PROPERTY_NAME}"/>
+    </plugins>
+    <items>
+      <container layout="hbox">
+        <items>
+          <bp:imageLinkListPropertyField contentType="CMPicture"
+                                         propertyName="{ITEMS_PROPERTY_NAME}"
+                                         bindTo="{config.bindTo}"
+                                         forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}">
+            <bp:additionalToolbarItems>
+              <tbseparator/>
+              <bpb-components:quickCreateToolbarButton contentType="CMPicture" propertyName="{ITEMS_PROPERTY_NAME}"
+                                           bindTo="{config.bindTo}"/>
+            </bp:additionalToolbarItems>
+          </bp:imageLinkListPropertyField>
+        </items>
+      </container>
+    </items>
+  </container>
+
+</exml:component>

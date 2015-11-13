@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Microsites/06_Magazine Spring/Reviews" name="Spring Video Reviews Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Watch: Video Product Reviews</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Check out our video reviews of kitchen equipment for spring.</p></div></teaserText>
+<pictures>
+<link href="../../../../Videos/Product%20Reviews/Best%20Coolers%20Review%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Product%20Reviews/Best%20Coolers%20Review%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Spring%20Video%20Re92030c24.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/06_Magazine%20Spring/Reviews/Spring%20Video%20Reviews%20Page"/>
+</target>
+</CMTeaser>

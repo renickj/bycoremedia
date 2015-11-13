@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/Campaigns/Spring Dresses Campaign" name="Red Evening Gown Video 16:9" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Share the Experience</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+<link href="Red%20Evening%20Gown%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/Red%20Evening%20Gown%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Red Evening Gown Video 16:9</alt>
+<copyright></copyright>
+<data md5="915c0b421eec321fecb9f02dc4ce4545" href="../../../../../../../__blob/915c0b421eec321fecb9f02dc4ce4545.blob" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

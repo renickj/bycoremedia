@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Startpage" name="Spring Glasses Sale Category Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>SALE: Glasses</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>For a limited time, receive a 20% discount off all our Glasses.</p></div></teaserText>
+<pictures>
+<link href="../../Pictures/Product%20Category%20Pictures/On%20The%20Table/Glasses%20Category%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Category%20Pictures/On%20The%20Table/Glasses%20Category%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../Categories/01_On%20The%20Table/Glasses/Glasses%20External%20Category%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/Glasses/Glasses%20External%20Category%20Page"/>
+</target>
+</CMTeaser>

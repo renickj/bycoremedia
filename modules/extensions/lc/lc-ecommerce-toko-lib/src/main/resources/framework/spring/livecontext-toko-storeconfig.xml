@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+  <context:property-placeholder ignore-unresolvable="true" location="classpath:/framework/spring/lc-ecommerce-toko.properties"/>
+
+  <util:map id="tokoAuroraStoreConfig">
+    <entry key="store.id" value="${livecontext.toko.store.id.aurora}"/>
+    <entry key="store.name" value="${livecontext.toko.store.name.aurora}"/>
+    <entry key="catalog.id" value="${livecontext.toko.catalog.id.aurora}"/>
+    <entry key="currency" value="${livecontext.toko.currency.aurora}"/>
+    <entry key="catalog.asset.store" value="${livecontext.toko.catalog.asset.store.aurora}"/>
+  </util:map>
+
+  <util:map id="tokoPerfectChefStoreConfig">
+    <entry key="store.id" value="${livecontext.toko.store.id.perfectchef}"/>
+    <entry key="store.name" value="${livecontext.toko.store.name.perfectchef}"/>
+    <entry key="catalog.id" value="${livecontext.toko.catalog.id.perfectchef}"/>
+    <entry key="currency" value="${livecontext.toko.currency.perfectchef}"/>
+    <entry key="catalog.asset.store" value="${livecontext.toko.catalog.asset.store.perfectchef}"/>
+  </util:map>
+
+  <customize:append id="tokoStoreConfigurationsCustomizer" bean="tokoStoreConfigurations">
+    <map>
+      <entry key="tokoAurora" value-ref="tokoAuroraStoreConfig"/>
+      <entry key="tokoPerfectChef" value-ref="tokoPerfectChefStoreConfig"/>
+    </map>
+  </customize:append>
+
+  <util:map id="tokoStoreConfigurations">
+    <description>
+      List of store configurations. Add your own configs via customizers.
+    </description>
+    <!--empty by default-->
+  </util:map>
+</beans>

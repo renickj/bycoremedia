@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                                  http://www.springframework.org/schema/beans/spring-beans.xsd
+                                  http://www.springframework.org/schema/util
+                                  http://www.springframework.org/schema/util/spring-util.xsd">
+
+  <import resource="classpath:/com/coremedia/transform/blob-transformer.xml"/>
+  <import resource="classpath:/com/coremedia/image/image-service.xml"/>
+
+  <bean id="mediaTransformer" class="com.coremedia.transform.impl.ExpressionBasedBeanBlobTransformer">
+    <property name="blobTransformer" ref="blobTransformer"/>
+
+    <property name="dataExpression" value="data">
+      <description>
+        Spring EL expression to return the Blob to transform the bean passed to the transformer.
+      </description>
+    </property>
+
+    <property name="transformMapExpression" value="transformMap">
+      <description>
+        Spring EL expression to return the transform map (mapping transform names to operation strings)
+        for the bean passed to the transformer.
+      </description>
+    </property>
+  </bean>
+
+  <bean id="transformationMapBuilder" class="com.coremedia.blueprint.common.transformation.TransformationMapBuilder">
+    <property name="defaultTransformations" ref="transformations"/>
+    <property name="imageDimensionsExtractor" ref="imageDimensionsExtractor"/>
+  </bean>
+
+  <util:list id="transformations" value-type="com.coremedia.blueprint.common.transformation.Transformation">
+    <bean class="com.coremedia.blueprint.common.transformation.Transformation">
+      <property name="name" value="landscape_ratio4x3"/>
+      <property name="widthRatio" value="4"/>
+      <property name="heightRatio" value="3"/>
+    </bean>
+    <bean class="com.coremedia.blueprint.common.transformation.Transformation">
+      <property name="name" value="landscape_ratio16x9"/>
+      <property name="widthRatio" value="16"/>
+      <property name="heightRatio" value="9"/>
+    </bean>
+    <bean class="com.coremedia.blueprint.common.transformation.Transformation">
+      <property name="name" value="landscape_ratio2x1"/>
+      <property name="widthRatio" value="2"/>
+      <property name="heightRatio" value="1"/>
+    </bean>
+    <bean class="com.coremedia.blueprint.common.transformation.Transformation">
+      <property name="name" value="landscape_ratio5x2"/>
+      <property name="widthRatio" value="5"/>
+      <property name="heightRatio" value="2"/>
+    </bean>
+    <bean class="com.coremedia.blueprint.common.transformation.Transformation">
+      <property name="name" value="landscape_ratio8x3"/>
+      <property name="widthRatio" value="8"/>
+      <property name="heightRatio" value="3"/>
+    </bean>
+    <bean class="com.coremedia.blueprint.common.transformation.Transformation">
+      <property name="name" value="landscape_ratio4x1"/>
+      <property name="widthRatio" value="4"/>
+      <property name="heightRatio" value="1"/>
+    </bean>
+    <bean class="com.coremedia.blueprint.common.transformation.Transformation">
+      <property name="name" value="portrait_ratio1x1"/>
+      <property name="widthRatio" value="1"/>
+      <property name="heightRatio" value="1"/>
+    </bean>
+    <bean class="com.coremedia.blueprint.common.transformation.Transformation">
+      <property name="name" value="portrait_ratio20x31"/>
+      <property name="widthRatio" value="20"/>
+      <property name="heightRatio" value="31"/>
+    </bean>
+    <bean class="com.coremedia.blueprint.common.transformation.Transformation">
+      <property name="name" value="portrait_ratio3x4"/>
+      <property name="widthRatio" value="3"/>
+      <property name="heightRatio" value="4"/>
+    </bean>
+    <bean class="com.coremedia.blueprint.common.transformation.Transformation">
+      <property name="name" value="uncropped"/>
+      <property name="widthRatio" value="-1"/>
+      <property name="heightRatio" value="-1"/>
+    </bean>
+  </util:list>
+
+</beans>

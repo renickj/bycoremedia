@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>modules</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>shared</artifactId>
+  <packaging>pom</packaging>
+
+  <description>Shared Library Module</description>
+
+  <modules>
+    <module>content-services</module>
+    <module>taxonomies</module>
+    <module>test-util</module>
+    <module>search-api</module>
+    <module>solr-search</module>
+    <module>database-drivers</module>
+    <module>workflow-lib</module>
+    <module>coremedia-tomcat</module>
+    <module>tomcat-common-libs</module>
+    <module>tomcat-server-libs</module>
+  </modules>
+</project>
+

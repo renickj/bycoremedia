@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMUserProfile folder="/Sites/Aurora B2B Augmentation/United States/English/Options/Personalization/Profiles" name="Exterior Architects" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<profileSettings href="Exterior%20Architec301eff7d.plain" mimetype="text/plain"/>
+<profileExtensions>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="properties">
+<Struct>
+<LinkListProperty Name="explicit" LinkType="coremedia:///cap/contenttype/CMTaxonomy">
+</LinkListProperty>
+<LinkListProperty Name="subjectTaxonomies" LinkType="coremedia:///cap/contenttype/CMTaxonomy">
+</LinkListProperty>
+<LinkListProperty Name="profileImage" LinkType="coremedia:///cap/contenttype/CMPicture">
+<Link xlink:href="coremedia:///cap/resources/Exterior%20Architects%20-%20Bra686f650c.xml" cmexport:path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Personalization/Profiles/Exterior%20Architects%20-%20Brad%20Miller%20Persona%20Picture"/>
+</LinkListProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="usersegments">
+<String>ibm:///catalog/segment/8000000000000001252</String>
+</StringListProperty>
+<StringListProperty Name="usercontracts">
+<String>ibm:///catalog/contract/4000000000000000507</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</profileExtensions>
+</CMUserProfile>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For The Cook/Apparel/Casual" name="Women Casual Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Navigation/Categories/03_For%20The%20Cook/Apparel/Casual/Women%20Casual%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/03_For%20The%20Cook/Apparel/Casual/Women%20Casual%20Teaser"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Frauen</teaserTitle>
+<pictures>
+<link href="../../../../../Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Spring/For%20Herbfa3a9b7.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Spring/For%20Her/PC_SUMMER_DRESS%20white%20Actionshot%201"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Casual%20Women/Women%20Casual%2090f6de2b.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For%20The%20Cook/Apparel/Casual/Casual%20Women/Women%20Casual%20-%20Summer%20Dresses%20External%20Page"/>
+</target>
+</CMTeaser>

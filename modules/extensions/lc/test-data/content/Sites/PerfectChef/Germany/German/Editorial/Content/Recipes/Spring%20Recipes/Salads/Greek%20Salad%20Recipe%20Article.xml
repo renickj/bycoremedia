@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring Recipes/Salads" name="Greek Salad Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Salads/Greek%20Salad%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Salads/Greek%20Salad%20Recipe%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Griechischer Salat mit Feta-Käse</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Recipes.xml" path="/Settings/Taxonomies/Subject/Recipes"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salad%282%29.xml" path="/Settings/Taxonomies/Subject/Salad%282%29"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Griechischer Salat</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Ein griechischer Salat mit Tomaten und Feta-Käse - mit frisch gemahlenem schwarzen Pfeffer bestreut. </p> <p><br/></p> </div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Diese Vorspeise aus der griechischen Küche lässt sich schnell und einfach für ein <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article">Picknick</a> vorbereiten. Schneiden Sie das Gemüse mit unseren <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser">super scharfen japanischen Messern</a> und würzen Sie es mit <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser">frisch gemahlenen Pfeffer.</a> Am besten passen frische Baguettes dazu.</p><p class="p--heading-2">Zutaten</p><ul><li>1 Stk. Kopfsalat</li><li>1 große Gurke</li><li>600g Tomaten</li><li>1 Stk. Paprika</li><li>50g Oliven</li><li>150g Fetakäse</li><li>1 Stk. Zwiebel</li><li>4 EL Olivenöl</li></ul><p class="p--heading-2">Zubereitung</p><p/><ul><li>Salat waschen und trockenschütteln und auf einem großen Teller auslegen</li><li>Gurke und Tomaten waschen, in Scheiben schneiden und auf dem Salat legen</li><li>Paprika und Zwiebel schneiden und auf die Tomaten verteilen</li><li>Essig, Salz, Pfeffer, Zucker und Senf zugeben</li><li>Olivenöl darüber gießen und vorsichtig untermischen</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Mit Scharfkäse bestreut servieren.</p><p>Je nach Geschmack lässt sich der griechische Salat mit Kräutern wie Oregano, Majoran und Zitronensaft verfeinern.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Greek%20Salad%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Greek%20Salad%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+<link href="../../../../../Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video"/>
+</related>
+</CMArticle>

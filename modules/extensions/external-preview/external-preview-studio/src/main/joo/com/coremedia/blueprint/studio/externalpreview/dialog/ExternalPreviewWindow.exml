@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                baseClass="com.coremedia.blueprint.studio.externalpreview.dialog.ExternalPreviewWindowBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.externalpreview.ExternalPreviewStudioPlugin_properties" />
+  <exml:import class="com.coremedia.blueprint.studio.externalpreview.ExternalPreviewStudioPluginBase" />
+  <exml:import class="com.coremedia.blueprint.studio.externalpreview.ExternalPreviewPlugin" />
+  <exml:import class="com.coremedia.blueprint.studio.Blueprint_properties"/>
+
+  <window id="externalPreviewDialog"
+          cls="modal-window-base"
+          title="{ExternalPreviewStudioPlugin_properties.INSTANCE.ExternalPreview_dialog_title}"
+          width="490"
+          height="346"
+          hideBorders="true"
+          modal="false"
+          resizable="false"
+          constrainHeader="true"
+          layout="form">
+    <items>
+      <editor:documentForm>
+        <items>
+          <editor:propertyFieldGroup fieldLabel="{ExternalPreviewStudioPlugin_properties.INSTANCE.ExternalPreview_dialog_step_1}">
+            <items>
+              <label text="{ExternalPreviewStudioPlugin_properties.INSTANCE.ExternalPreview_dialog_step_1_text}"/>
+              <spacer height="12"/>
+              <container layout="hbox">
+                <items>
+                  <label cls="x-form-item-label"
+                         text="{ExternalPreviewStudioPlugin_properties.INSTANCE.ExternalPreview_dialog_url}"/>
+                  <ui:textLink text="{formatText(ExternalPreviewStudioPluginBase.PREVIEW_URL)}"
+                               tooltip="{formatText(ExternalPreviewStudioPluginBase.PREVIEW_URL)}"
+                               handler="{openInBrowser()}"/>
+                </items>
+              </container>
+              <container height="32">
+                <items>
+                  <ui:inlineButton itemId="mailLinkButton"
+                                   margins="2 2 2 2"
+                                   hideLabel="true"
+                                   text="{ExternalPreviewStudioPlugin_properties.INSTANCE.ExternalPreview_dialog_mail_button}"
+                                   handler="{mailPreviewLink}"/>
+                </items>
+                <layout>
+                  <hboxlayout pack="end"/>
+                </layout>
+              </container>
+              <container layout="hbox">
+                <items>
+                  <label cls="x-form-item-label"
+                         text="{ExternalPreviewStudioPlugin_properties.INSTANCE.ExternalPreview_dialog_tip}"/>
+                  <label text="{ExternalPreviewStudioPlugin_properties.INSTANCE.ExternalPreview_dialog_tip_text}"/>
+                </items>
+              </container>
+            </items>
+          </editor:propertyFieldGroup>
+          <editor:propertyFieldGroup fieldLabel="{ExternalPreviewStudioPlugin_properties.INSTANCE.ExternalPreview_dialog_step_2}">
+            <items>
+              <label text="{ExternalPreviewStudioPlugin_properties.INSTANCE.ExternalPreview_dialog_step_2_text}"/>
+              <spacer height="12"/>
+              <container layout="hbox">
+                <items>
+                  <label cls="x-form-item-label"
+                         text="{ExternalPreviewStudioPlugin_properties.INSTANCE.ExternalPreview_dialog_key}"/>
+                  <label text="{ExternalPreviewPlugin.getPreviewToken()}"/>
+                </items>
+              </container>
+            </items>
+          </editor:propertyFieldGroup>
+          <spacer height="10"/>
+        </items>
+      </editor:documentForm>
+    </items>
+    <buttons>
+      <ui:footerButton text="{Blueprint_properties.INSTANCE.btn_ok}"
+                       handler="{closeDialog}"
+                       itemId="closeBtn"/>
+    </buttons>
+  </window>
+
+</exml:component>

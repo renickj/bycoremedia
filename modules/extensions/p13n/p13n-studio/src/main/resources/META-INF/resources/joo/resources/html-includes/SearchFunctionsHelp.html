@@ -1,0 +1,153 @@
+<div id="sqHelper-window-body">
+  <p>
+    The search query is used to dynamically determine a set of contents, e.g the
+    top 3 news of a certain domain. So, as an editor, you don't have to manually
+    change content of an area of your website any more. This can happen via a saved
+    search query.<br/>
+    The search query string can contain standard parameters (e.g. &quot;keyword: Sport&quot;) as
+    well as personalized Search Functions (e.g. &quot;userKeywords(...)&quot;). Concatenation
+    with &quot;AND&quot;/&quot;OR&quot; is also possible. Further information about the
+    valid search query language is available at
+    <a href="http://wiki.apache.org/solr/SolrQuerySyntax" target="solr_query_syntax">http://wiki.apache.org/solr/SolrQuerySyntax</a>.
+    Which fields your search index contains, depends on your CoreMedia installation and the
+    applied configuration. Therefore, please contact your system administrator and/or have a look
+    at the configuration of the CoreMedia search engine.
+  </p>
+
+  <p>
+    The personalized Search Functions dynamically generate a part of the search query string for a
+    concrete website visitor. For example the Search Function &quot;userKeywords(...)&quot;, that
+    can integrate the most clicked keywords of a user into a search query. This way, only those
+    contents will be found, that match the interests of a user.
+  </p>
+
+  <p>
+    The following table contains a list of installed Search Functions:
+  </p>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>
+        contextProperty
+      </td>
+      <td>
+        <p>
+          A search function, that adds the value of a single context property to a search string.
+        </p>
+
+        Parameters:
+        <dl>
+          <dt>property</dt>
+          <dd>the property of the context. Should be in the form: &lt;context&gt;.&lt;property&gt;</dd>
+          <dt>field</dt>
+          <dd>the search engine field which should be searched</dd>
+        </dl>
+
+        <p>
+          Example: Assume there is a property &quot;foo&quot; of context &quot;bar&quot; of value &quot;42&quot;.
+          Then the call &quot;contextProperty(property:bar.foo, field:field)&quot; will be evaluated to &quot;field:42&quot;.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        userKeywords
+      </td>
+      <td>
+        <p>
+          A search function, that selects from a user's context a set of keys that fulfill a weight constraint.
+        </p>
+
+        Parameters:
+        <dl>
+          <dt>limit</dt>
+          <dd>Limits the number of returned keys (a negative or missing value means no limit)</dd>
+          <dt>field</dt>
+          <dd>the search engine field which should be searched</dd>
+          <dt>threshold</dt>
+          <dd>The minimum weight of keys to be returned</dd>
+          <dt>context</dt>
+          <dd>The context containing the keys</dd>
+        </dl>
+
+        <p>
+          Example: Assume you've got context object named &quot;myContext&quot; with properties (&quot;foo&quot;, 0.8),
+          (&quot;bar&quot;, 0.5), (&quot;zork&quot;, 0.1). Then, &quot;userKeywords(threshold:0.5, limit:-1,
+          field:field, context:myContext)&quot; will be replaced by &quot;field:(foo bar)&quot; and
+          &quot;userKeywords(threshold:0.5, limit:1, field:field, context:myContext)&quot; by &quot;field:(foo)&quot;.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        userSegments
+      </td>
+      <td>
+        <p>
+          A search function, that selects the set of user segments the active user belongs to.
+        </p>
+
+        Parameters:
+        <dl>
+          <dt>field</dt>
+          <dd>the search engine field which should be searched</dd>
+          <dt>context</dt>
+          <dd>The context containing segment properties</dd>
+        </dl>
+
+        <p>
+          Example: Assume you've got a context object named &quot;myContext&quot; with properties
+          (&quot;content:42&quot;, true), (&quot;content:44&quot;, false), (&quot;content:46&quot;, true). Then,
+          &quot;userSegments(field:field, context:myContext)&quot; will be replaced by &quot;field:(42 46)&quot;. This
+          function is intended to be used with the user segmentation feature of CoreMedia Adaptive Personalization,
+          which uses property keys of the form content:&lt;segmentId&gt; (where segmentId is the numeric content id
+          a user segment) to represent segments in a user's context.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        userVisitedPages
+      </td>
+      <td>
+        <p>
+          A search function, that tracks content items a user has visited.
+        </p>
+
+        <p>
+          Example: Assume you want to display a list of items a user has already visited. This can be archived by using
+          this search function.
+          Furthermore it can be used to remove items from a list which a user has already viewed(NOT
+          userVisitedPages()).
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        userSegmentTaxonomies
+      </td>
+      <td>
+        <p>
+          A search function, that checks the segments a user is in and retrieves the linked taxonomies. Afterwards a
+          list of items is generated based on these taxonomies.
+        </p>
+
+        Parameters:
+        <dl>
+          <dt>field</dt>
+          <dd>the field the taxonomy is linked under</dd>
+        </dl>
+
+        <p>
+          Example: A user belongs to the segment sports because he entered the website with the referrer sport. The
+          segment sports is defined by users who searched for sports or who have viewed content that is tagged with the
+          taxonomy sports. Therefore the search function userSegmentTaxonomies will now return content items that are
+          tagged with this taxonomy.
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>

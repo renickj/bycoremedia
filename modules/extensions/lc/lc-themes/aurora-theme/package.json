@@ -1,0 +1,18 @@
+{
+  "name": "aurora-theme",
+  "version": "1.0.0",
+  "description": "CoreMedia Blueprint - LiveContext 2.0 - Aurora Theme",
+  "private": true,
+  "scripts": {
+    "prebuild": "npm install",
+    "build": "grunt build"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "load-grunt-tasks": "^3.2.0",
+    "time-grunt": "^1.2.1"
+  }
+}

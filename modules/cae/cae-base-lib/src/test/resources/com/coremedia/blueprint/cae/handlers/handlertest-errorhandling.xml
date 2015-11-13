@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util.xsd">
+
+  <description>
+    Yhis configuration file contains error handling configuration necessary for Handler implementations
+  </description>
+
+  <bean id="errorAndExceptionMappingResolver"
+        class="com.coremedia.blueprint.cae.exception.resolver.ErrorAndExceptionMappingResolver">
+   <property name="exceptionHandler">
+      <util:list>
+        <ref bean="conversionFailedExceptionHandler"/>
+      </util:list>
+    </property>
+  </bean>
+
+  <bean id="conversionFailedExceptionHandler"
+        class="com.coremedia.blueprint.cae.exception.handler.ConversionFailedExceptionHandler">
+    <description>
+      Handles path variable value and request parameter conversion errors, turing them into NOT_FOUND (404)
+      responses.
+    </description>
+  </bean>
+
+</beans>

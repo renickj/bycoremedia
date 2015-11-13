@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Chef Corp./United States/English/Assets/Pictures/Company" name="Press Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0.029315960912052116</StringProperty>
+<StringProperty Name="y1">0.0975609756097561</StringProperty>
+<StringProperty Name="x2">0.9641693811074918</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=620;y=107;width=814;height=1259</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=554;y=133;width=927;height=1233</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=447;y=13;width=1181;height=1179</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=180;y=133;width=1648;height=1233</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=155;width=2048;height=1150</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=60;y=273;width=1915;height=960</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=60;y=307;width=1921;height=766</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=73;y=287;width=1921;height=720</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=47;y=307;width=1921;height=480</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.30293159609120524;y1=0.07804878048780488;x2=0.7003257328990228;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.2703583061889251;y1=0.0975609756097561;x2=0.7231270358306189;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.2182410423452769;y1=0.00975609756097561;x2=0.7947882736156352;y2=0.8731707317073171</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.08794788273615635;y1=0.0975609756097561;x2=0.8925081433224755;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.11320754716981132;x2=1;y2=0.9547169811320755</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.029315960912052116;y1=0.2;x2=0.9641693811074918;y2=0.9024390243902439</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.029315960912052116;y1=0.22439024390243903;x2=0.9674267100977199;y2=0.7853658536585366</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.035830618892508145;y1=0.2097560975609756;x2=0.9739413680781759;y2=0.7365853658536585</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.02280130293159609;y1=0.22439024390243903;x2=0.9609120521172638;y2=0.5756097560975609</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Press</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Symbolic picture for Chef Corp. press and media relations</alt>
+<copyright>photomak/Shutterstock 63188920</copyright>
+<data md5="d282a4d4aac991333993837e750c7377" href="../../../../../../../__blob/d282a4d4aac991333993837e750c7377.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>2048</width>
+<height>1366</height>
+</CMPicture>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <import resource="classpath:/framework/spring/blueprint-contentbeans.xml"/>
+
+  <bean id="nuggAdSource" class="com.coremedia.blueprint.nuggad.sources.NuggAdSource">
+    <description>
+      tbd
+    </description>
+    <property name="contextName" value="nuggad"/>
+    <property name="parameterNames">
+      <list>
+        <value>age</value>
+        <value>gender</value>
+        <value>employmentStatus</value>
+        <value>personalIncome</value>
+        <value>householdIncome</value>
+        <value>householdSize</value>
+        <value>education</value>
+        <value>householdResponsability</value>
+        <value>mainIncomeEarner</value>
+      </list>
+    </property>
+  </bean>
+
+  <customize:append id="addNuggadSource" bean="contextSources" order="10000">
+    <list>
+      <ref bean="nuggAdSource"/>
+    </list>
+  </customize:append>
+
+  <bean name="nuggadPlugin:com.coremedia.blueprint.common.contentbeans.Page"
+        class="com.coremedia.blueprint.nuggad.NuggAdPageAspectImpl" scope="prototype">
+    <property name="settingsService" ref="settingsService"/>
+  </bean>
+
+  <bean id="nuggadPlugin" class="com.coremedia.cae.aspect.provider.BeanFactoryAspectsProvider"/>
+
+  <customize:append id="addNuggadAspectProvider" bean="aspectsProviders">
+    <list>
+      <ref bean="nuggadPlugin"/>
+    </list>
+  </customize:append>
+
+  <customize:prepend id="addNuggadRepositoryName" bean="viewRepositories" order="1100">
+    <list>
+      <value>nuggad-plugin</value>
+    </list>
+  </customize:prepend>
+
+</beans>

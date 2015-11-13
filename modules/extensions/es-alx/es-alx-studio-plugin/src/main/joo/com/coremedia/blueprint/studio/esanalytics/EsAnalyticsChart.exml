@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:u="exml:untyped"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:esalx="exml:com.coremedia.blueprint.studio.config.esanalytics"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                baseClass="com.coremedia.blueprint.studio.esanalytics.EsAnalyticsChartBase">
+
+  <exml:import class="com.coremedia.ui.data.ValueExpression"/>
+  <exml:import class="com.coremedia.ui.data.ValueExpressionFactory"/>
+
+  <exml:constant name="TIME_RANGE_WEEK" value="7" type="int"/>
+  <exml:constant name="TIME_RANGE_MONTH" value="30" type="int"/>
+  <exml:constant name="TIME_RANGE_COMBO_ITEM_ID" value="esAlxTimeRangeComboId" type="String"/>
+  <exml:constant name="TITLE_FIELD_ITEM_ID" value="titleItemId" type="String"/>
+  <exml:constant name="NO_TITLE_FIELD_ITEM_ID" value="noTitleItemId" type="String"/>
+  <exml:constant name="ES_CHART_ITEM_ID" value="esChartItemId" type="String"/>
+
+  <exml:cfg name="bindTo" type="ValueExpression"/>
+  <exml:cfg name="timeRangeValueExpression" type="ValueExpression"/>
+  <exml:cfg name="timeStampValueExpression" type="ValueExpression"/>
+  <exml:cfg name="chartTitle" type="String"/>
+  <exml:cfg name="chartHeight" type="Number" default="250"/>
+
+  <panel u:labelAlign="left">
+    <items>
+      <ui:localComboBox itemId="{TIME_RANGE_COMBO_ITEM_ID}"
+                        u:labelWidth="-1"
+                        u:labelPad="0"
+                        displayField="value"
+                        valueField="id"
+                        encodeItems="true"
+                        fieldLabel="{EsAnalyticsStudioPlugin_properties.INSTANCE.chart_time_range_label}"
+                        value="{TIME_RANGE_WEEK}">
+        <plugins mode="append">
+          <ui:bindPropertyPlugin bindTo="{config.timeRangeValueExpression}"
+                                 ifUndefined=""
+                                 bidirectional="true"
+                                 componentEvent="select"/>
+          <editor:comboBoxAutoWidthPlugin/>
+        </plugins>
+        <store>
+          <jsonstore fields="{['id', 'value']}"
+                     data="{[
+                             { id : TIME_RANGE_WEEK, value: EsAnalyticsStudioPlugin_properties.INSTANCE.chart_last_7_days },
+                             { id : TIME_RANGE_MONTH, value: EsAnalyticsStudioPlugin_properties.INSTANCE.chart_last_30_days}
+                           ]}"/>
+        </store>
+      </ui:localComboBox>
+      <!-- chart label, only visible when chart title is defined -->
+      <label itemId="{TITLE_FIELD_ITEM_ID}"
+             cls="x-form-item-label"
+             hidden="{config.chartTitle == undefined}"
+             text="{config.chartTitle}"/>
+      <esalx:esChart bindTo="{config.bindTo}"
+                     chartHeight="{config.chartHeight}"
+                     emptyChartHeight="{config.chartTitle ? 100 : 70}"
+                     timeStampValueExpression="{config.timeStampValueExpression}"
+                     itemId="{ES_CHART_ITEM_ID}"/>
+    </items>
+    <layout>
+      <formlayout labelSeparator=""/>
+    </layout>
+  </panel>
+</exml:component>

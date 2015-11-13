@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:u="exml:untyped"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                baseClass="com.coremedia.livecontext.studio.components.product.ViewSettingsRadioGroupBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+  <exml:import class="com.coremedia.livecontext.studio.LivecontextStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.ecommerce.studio.CatalogModel" />
+  <exml:import class="com.coremedia.cms.editor.sdk.config.documentForm"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="com.coremedia.cap.content.Content"/>
+  <exml:import class="com.coremedia.ui.data.ValueExpressionFactory"/>
+  <exml:import class="ext.form.Radio"/>
+
+  <exml:constant name="INHERITED_SETTING" value="inherited"/>
+  <exml:constant name="ENABLED_SETTING" value="enabled"/>
+  <exml:constant name="DISABLED_SETTING" value="disabled"/>
+
+  <exml:var name="radioButtonFormName" value="{getNameId()}" />
+
+  <exml:cfg name="propertyName" type="String" default="localSettings.shopNow">
+    <exml:description>
+       The name of the sting property of the Bean to bind in this field.
+       The string property holds the id of the catalog product
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       A property path expression leading to the Bean whose property is edited.
+       This property editor assumes that this bean has a property 'properties'.
+    </exml:description>
+  </exml:cfg>
+
+  <radiogroup columns="1"
+              itemId="viewSettingsPropertyField"
+              autoWidth="true">
+    <plugins>
+      <editor:setPropertyLabelPlugin bindTo="{config.bindTo}"
+                                     propertyName="{config.propertyName}"/>
+      <ui:bindPropertyPlugin componentProperty="value"
+                             bindTo="{getRadioGroupValueExpression()}"
+                             transformer="{function stateToRadio(state:String):Array {
+                              return [state];}
+                             }"
+                             reverseTransformer="{function radioToState(radio:Radio):String {
+                              return (radio ? radio.inputValue : '');}
+                             }"
+                             bidirectional="true"/>
+    </plugins>
+    <items>
+      <radio inputValue="{INHERITED_SETTING}"
+             itemId="{INHERITED_SETTING}"
+             name="{radioButtonFormName}"
+             boxLabel="{LivecontextStudioPlugin_properties.INSTANCE.CMProductTeaser_settings_inherit}"
+             hideLabel="true"
+             u:inGroup="true">
+        <plugins>
+          <editor:bindDisablePlugin bindTo="{config.bindTo}"
+                                    forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+          <ui:bindVisibilityPlugin bindTo="{getInheritOptionVisibleExpression(config.bindTo)}"/>
+        </plugins>
+      </radio>
+      <radio inputValue="{ENABLED_SETTING}"
+             itemId="{ENABLED_SETTING}"
+             name="{radioButtonFormName}"
+             hideLabel="true"
+             boxLabel="{LivecontextStudioPlugin_properties.INSTANCE.CMProductTeaser_settings_enabled}"
+             u:inGroup="true">
+        <plugins>
+          <editor:bindDisablePlugin bindTo="{config.bindTo}"
+                                    forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+        </plugins>
+      </radio>
+      <radio inputValue="{DISABLED_SETTING}"
+             itemId="{DISABLED_SETTING}"
+             name="{radioButtonFormName}"
+             hideLabel="true"
+             boxLabel="{LivecontextStudioPlugin_properties.INSTANCE.CMProductTeaser_settings_disabled}"
+             u:inGroup="true">
+        <plugins>
+          <editor:bindDisablePlugin bindTo="{config.bindTo}"
+                                    forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+        </plugins>
+      </radio>
+    </items>
+  </radiogroup>
+
+</exml:component>

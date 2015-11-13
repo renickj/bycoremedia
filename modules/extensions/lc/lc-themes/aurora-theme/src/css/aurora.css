@@ -1,0 +1,794 @@
+/* =====================================================================================================================
+   Layout for AAS
+   Contains styling rules used for fragments in Aurora shop (WCS FEP7)
+   ================================================================================================================== */
+
+html, body, button, input, select, textarea {
+  font-family: sans-serif;
+}
+
+/*  --- teaser ------------------------------------------------------------------------------------------------------ */
+/* attach border to teasers and change base color of fonts */
+.cm-teaser {
+  border: 1px solid #CCCBCB;
+  border-radius: 4px;
+}
+
+.cm-teaser__content ~ .cm-teaser__title {
+  top: auto;
+  right: 0;
+  bottom: 0;
+}
+
+.cm-teaser--product .cm-teaser__content ~ .cm-teaser__title,
+.cm-teaser--hero .cm-teaser__content ~ .cm-teaser__title {
+  top: 0;
+  right: auto;
+  bottom: auto;
+}
+
+/* --- headings ----------------------------------------------------------------------------------------------------- */
+.cm-heading2 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #010F1C;
+}
+
+.cm-heading4 {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.cm-heading2--boxed,
+.cm-teaser--video .cm-heading2--boxed {
+  background-color: #F8F8F8;
+}
+
+/* --- hero banner -------------------------------------------------------------------------------------------------- */
+.cm-headline {
+  border: 1px solid #CCCBCB;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.cm-headline__title,
+.cm-teaser--hero .cm-teaser__title {
+  color: #4D4D4D;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* --- product teaser ----------------------------------------------------------------------------------------------- */
+.cm-teaser--product .cm-heading2--boxed {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #373737;
+}
+
+.cm-teaser__content ~ .cm-teaser__info {
+  background-color: #F8F8F8;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.cm-product-info {
+  display: block;
+  width: 100%;
+  line-height: 1.4rem;
+}
+
+.cm-product-info__pricing {
+  margin-left: 1rem;
+}
+
+.cm-product-info__title,
+.cm-product-info__pricing {
+  display: table-cell;
+}
+
+.cm-product-info__title > *,
+.cm-product-info__pricing > * {
+  background: transparent;
+}
+
+.cm-product-info__offerprice {
+  position: absolute;
+  top: -2rem;
+  left: 0;
+  background-color: #f8f8f8;
+}
+
+.cm-price--teaser,
+.cm-price--quickinfo {
+  font-size: 1.2rem;
+}
+
+.cm-price--quickinfo.cm-price--special {
+  font-size: 1.46rem;
+}
+
+.cm-price--teaser.cm-price--special {
+  font-size: 1.4rem;
+}
+
+.cm-price--category-item {
+  font-size: 1.4rem;
+}
+
+.cm-price--category-item.cm-price--old {
+  font-size: 1.2rem;
+}
+
+/* Add to cart button in teaser */
+.cm-teaser__button-group {
+  background-color: transparent;
+  top: auto;
+  left: auto;
+  right: 3px;
+  bottom: 3px;
+  margin-top: 0;
+}
+
+.cm-button-group--overlay {
+  text-align: left;
+  width: auto;
+}
+
+/* Button styling in overlay */
+.cm-button-group--linked-large .cm-button--primary,
+.cm-button-group--overlay .cm-button--primary {
+  background-image: linear-gradient(#FBBB0B, #EE9505);
+  border: 1px solid #BFBFBF;
+  border-radius: 4px;
+  color: #333333;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 29px;
+  min-height: 29px;
+  text-align: center;
+}
+
+.cm-button-group--linked-large .cm-button--primary:hover,
+.cm-button-group--overlay .cm-button--primary:hover {
+  background-image: linear-gradient(#FED60C, #F8AF06);
+}
+
+/* --- video teaser ------------------------------------------------------------------------------------------------- */
+.cm-teaser--video .cm-visuallyhidden {
+  height: 0;
+  margin: 0;
+}
+
+.cm-teaser--video iframe {
+  display: block;
+}
+
+/* --- collections -------------------------------------------------------------------------------------------------- */
+/* do not let teasers break layouts for certain masonry grids with adjusted width/height if using borders */
+.cm-collection--masonry .cm-collection__item > .cm-teaser {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* --- slideshow ---------------------------------------------------------------------------------------------------- */
+.cm-collection--slideshow {
+  border: 1px solid #CCCBCB;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.cm-collection--slideshow .cm-teaser {
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* --- imagemap ----------------------------------------------------------------------------------------------------- */
+.cm-imagemap button {
+  cursor: pointer;
+}
+
+.cm-imagemap__hotzone--hover.cm-imagemap__hotzone--icon {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* --- marketing spot ----------------------------------------------------------------------------------------------- */
+.cm-collection--marketingspot .cm-teaser {
+  border: none;
+}
+
+/* --- preview for aurora ------------------------------------------------------------------------------------------- */
+.cm-preview-item__container {
+  display: block;
+  max-width: 1200px;
+  padding: 15px 20px 40px 20px;
+}
+
+/* --- mobile ------------------------------------------------------------------------------------------------------ */
+@media only screen and (max-width: 599px) {
+
+  .cm-placement-main > * {
+    margin-bottom: 10px;
+  }
+
+  .cm-teaser .cm-teaser__title {
+    width: auto;
+  }
+
+  /* article title overlay in headline */
+  .cm-box .cm-headline__title {
+    display: none;
+  }
+
+  /* ... also if inside slideshow (stronger rule necessary) */
+  .cm-box .cm-collection--slideshow .cm-headline__title {
+    display: none;
+  }
+
+  /* --- collection ------------------------------------------------------------------------------------------------- */
+  .cm-collection--masonry__grid-gutter {
+    width: calc(10px);
+  }
+
+  .cm-collection--masonry > .cm-collection__item {
+    margin-bottom: calc(10px);
+  }
+
+    /* --- tiles 50:50 collection ------------------------------------------------------------------------------------- */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item,
+  .cm-collection--tiles-50-50-portrait > .cm-collection--masonry__grid-sizer {
+    /* calc((100% - 10px) / 2)*/
+    width: calc(50% - 5px);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--tiles-50-50-portrait > .cm-collection--masonry__grid-sizer {
+    /* calc((100% - 10px) / 2)*/
+    width: calc(50% - 5px - 1px / 100);
+  }
+
+  /* elements in cm-collection--tiles-50-50-landscape are at 100% in contrast to cm-collection--tiles-50-50-portrait */
+}
+
+/* --- mobile portrait ---------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 599px) and (orientation: portrait) {
+  /* --- productlisting collection ---------------------------------------------------------------------------------- */
+  .cm-collection--productlisting > .cm-collection__item,
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* (100% - 10px) / 2 */
+    width: calc(50% - 5px);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* (100% - 10px) / 2 */
+    width: calc(50% - 5px - 1px / 100);
+  }
+}
+
+/* --- mobile landscape --------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 599px) and (orientation: landscape) {
+
+  .cm-placement-sidebar > *,
+  .cm-box--related > * {
+    width: calc(50% - 5px);
+  }
+
+  .cm-placement-sidebar > :nth-child(2n + 1),
+  .cm-box--related > :nth-child(2n + 1) {
+    margin-right: calc(5px);
+  }
+
+  .cm-placement-sidebar > :nth-child(2n),
+  .cm-box--related > :nth-child(2n) {
+    margin-left: calc(5px);
+  }
+
+  /* --- collection ------------------------------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--masonry > .cm-collection__item,
+  .cm-collection--masonry__grid-sizer {
+    width: calc(50% - 5px);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--masonry__grid-sizer {
+    width: calc(50% - 5px - 1px / 100);
+  }
+
+  /* --- productlisting collection ---------------------------------------------------------------------------------- */
+  .cm-collection--productlisting > .cm-collection__item,
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* (100% - 20px) / 3 */
+    width: calc(100% / 3 - 20px / 3);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* (100% - 20px) / 3 */
+    width: calc(100% / 3 - 20px / 3 - 1px / 100);
+  }
+
+  /* --- tiles layout left collection ------------------------------------------------------------------------------- */
+  .cm-collection--tiles-left > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box {
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 20px / 3);
+  }
+
+  /* --- tiles layout center collection ----------------------------------------------------------------------------- */
+  .cm-collection--tiles-center > .cm-collection__item:nth-child(2) .cm-aspect-ratio-box {
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 20px / 3);
+  }
+
+  /* --- tiles layout right collection ------------------------------------------------------------------------------ */
+  .cm-collection--tiles-right > .cm-collection__item:nth-child(3) .cm-aspect-ratio-box {
+    margin-right: 0;
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 20px / 3);
+  }
+}
+
+/* --- tablet ------------------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+  .cm-placement-sidebar > *,
+  .cm-box--related > * {
+    width: 100%;
+  }
+
+  .cm-placement-sidebar > :nth-child(2n + 1),
+  .cm-box--related > :nth-child(2n + 1) {
+    margin-right: 0;
+  }
+
+  .cm-placement-sidebar > :nth-child(2n),
+  .cm-box--related > :nth-child(2n) {
+    margin-left: 0;
+  }
+
+  /* REVERT: remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-placement-sidebar > :nth-of-type(2n+1):nth-last-of-type(-n+2),
+  .cm-box--related > :nth-of-type(2n+1):nth-last-of-type(-n+2),
+    /* and for all following elements */
+  .cm-placement-sidebar > :nth-of-type(2n+1):nth-last-of-type(-n+2) ~ *,
+  .cm-box--related > .cm-teaser:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ * {
+    margin-bottom: 10px;
+  }
+
+  /* Teaser */
+  .cm-teaser .cm-heading2 {
+    line-height: 1.6rem;
+  }
+
+  /* Imagemap */
+  .cm-quickinfo__property {
+    padding-bottom: 10px;
+  }
+
+  .cm-placement-main > * {
+    margin-bottom: 10px;
+  }
+
+  /* Video Teaser */
+  .cm-teaser--video .cm-visuallyhidden {
+    margin: 0;
+  }
+
+  /* --- collection ------------------------------------------------------------------------------------------------- */
+  .cm-collection--masonry__grid-gutter {
+    width: calc(10px);
+  }
+
+  .cm-collection--masonry > .cm-collection__item {
+    margin-bottom: calc(10px);
+  }
+
+  .cm-collection--masonry > .cm-collection__item,
+  .cm-collection--masonry__grid-sizer {
+    width: calc(50% - 5px);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--masonry__grid-sizer {
+    width: calc(50% - 5px - 1px / 100);
+  }
+
+  /* --- tiles layout left collection ------------------------------------------------------------------------------- */
+  .cm-collection--tiles-left > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box {
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 20px / 3);
+  }
+
+  /* --- titles layout center  collection --------------------------------------------------------------------------- */
+  .cm-collection--tiles-center > .cm-collection__item:nth-child(2) .cm-aspect-ratio-box {
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 20px / 3);
+  }
+
+  /* --- titles layout right  collection ---------------------------------------------------------------------------- */
+  .cm-collection--tiles-right > .cm-collection__item:nth-child(3) .cm-aspect-ratio-box {
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 20px / 3);
+  }
+
+  /* marketing spot collection -------------------------------------------------------------------------------------- */
+  .cm-collection--marketingspot-single > .cm-collection__item {
+    width: 100%;
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item {
+    width: calc(50% - 10px / 2);
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item:nth-child(2n+2) {
+    margin-left: calc(10px);
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item:nth-child(n+3) {
+    margin-top: calc(10px);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item {
+    width: calc(33.3333% - 20px / 3);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(3n+2),
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(3n+3) {
+    margin-left: calc(10px);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(n+4) {
+    margin-top: calc(10px);
+  }
+}
+
+/* --- tablet portrait ---------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+  /* --- productlisting collection ---------------------------------------------------------------------------------- */
+  .cm-collection--productlisting > .cm-collection__item,
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* (100% - 20px) / 3 */
+    width: calc(100% / 3 - 20px / 3);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* (100% - 20px) / 3 */
+    width: calc(100% / 3 - 20px / 3 - 1px / 100);
+  }
+
+  /* --- Subcategory Teaser Category Page --------------------------------------------------------------------------- */
+  .cm-collection--categories > .cm-collection__item,
+  .cm-collection--categories > .cm-collection--masonry__grid-sizer {
+    /* (100% - 10px) / 2  */
+    width: calc(100% / 2 - 5px);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--categories > .cm-collection--masonry__grid-sizer {
+    /* (100% - 10px) / 2  */
+    width: calc(100% / 2 - 5px - 1px / 100);
+  }
+}
+
+/* --- tablet landscape --------------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+  /* --- productlisting collection ---------------------------------------------------------------------------------- */
+  .cm-collection--productlisting > .cm-collection__item,
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* (100% - 30px) / 4 */
+    width: calc(25% - 15px / 2);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* (100% - 30px) / 4 */
+    width: calc(25% - 15px / 2 - 1px / 100);
+  }
+
+  /* --- Subcategory Teaser Category Page --------------------------------------------------------------------------- */
+  .cm-collection--categories > .cm-collection__item,
+  .cm-collection--categories > .cm-collection--masonry__grid-sizer {
+    /* (100% - 20px) / 3  */
+    width: calc(100% / 3 - 20px / 3);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--categories > .cm-collection--masonry__grid-sizer {
+    /* (100% - 20px) / 3  */
+    width: calc(100% / 3 - 20px / 3 - 1px / 100);
+  }
+}
+
+/* --- desktop ------------------------------------------------------------------------------------------------------ */
+@media only screen and (min-width: 1025px) {
+
+  /* --- layout ----------------------------------------------------------------------------------------------------- */
+  /* lc-two-column layout */
+  .cm-grid--lc-two-column > .cm-grid__item,
+  .cm-grid--lc-two-column > .cm-grid__sizer {
+    width: 33.3333%;
+    /* (100% - 40px) / 3 */
+    width: calc(100% / 3 - 40px / 3);
+  }
+
+  /*
+   * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+   * css rule can be deleted as soon as fixed on browser side or handled by masonry
+   */
+  .cm-grid--lc-two-column > .cm-grid__sizer {
+    width: 33.3333%;
+    width: calc(100% / 3 - 40px / 3 - 1px / 100);
+  }
+
+  /* gutter */
+  .cm-grid--lc-two-column > .cm-grid__gutter {
+    width: 0;
+    width: calc(20px);
+  }
+
+  /* main placement */
+  .cm-grid--lc-two-column > .cm-placement-main {
+    width: 66.6667%;
+    /* (100% - 40px) * (2 / 3) + 10px */
+    width: calc(200% / 3 - 20px / 3);
+  }
+
+  .cm-placement-main > * {
+    margin-bottom: 20px;
+  }
+
+  .cm-placement-sidebar > :not(:last-child),
+  .cm-box--related > :not(:last-child),
+  .cm-frame--teaser > :not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  /* article with related content */
+  .cm-box--has-related {
+    padding-right: 10px;
+  }
+
+  .cm-box--related {
+    padding-left: 10px;
+  }
+
+  .cm-heading2--boxed {
+    padding: 0.433333rem 0.93333rem 0.566667rem 0.93333rem;
+  }
+
+  /* prevent zooming */
+  .cm-teaser__content, .cm-teaser:hover .cm-teaser__content {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  /* Imagemap */
+  .cm-teaser.cm-teaser--hero.cm-imagemap {
+    overflow: visible;
+  }
+
+  .cm-imagemap__button-group {
+    right: 4px;
+    bottom: 4px;
+  }
+
+  .cm-quickinfo__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .cm-quickinfo__close .cm-icon__symbol {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    height: 20px;
+    width: 20px;
+  }
+
+  .cm-quickinfo__close .cm-icon__symbol:before {
+    line-height: 1;
+  }
+
+  /* Video Teaser, smaller version */
+  .cm-teaser--video__play {
+    background-image: url(../img/button_video_play.png);
+    height: 90px;
+    width: 90px;
+  }
+
+  /* --- collection ------------------------------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--masonry__grid-gutter {
+    width: calc(20px);
+  }
+
+  .cm-collection--masonry > .cm-collection__item {
+    margin-bottom: calc(20px);
+  }
+
+  .cm-collection--masonry > .cm-collection__item,
+  .cm-collection--masonry__grid-sizer {
+    /* (100% - 40px) / 3 */
+    width: calc(100% / 3 - 40px / 3);
+  }
+
+  /*
+   * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+   * css rule can be deleted as soon as fixed on browser side or handled by masonry
+   */
+  .cm-collection--masonry__grid-sizer {
+    width: calc(100% / 3 - 40px / 3 - 1px / 100);
+  }
+
+  /* --- promo collection ------------------------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-child(1) {
+    /* (100% - 40px) * (2 / 3) + 20px */
+    width: calc(200% / 3 - 20px / 3);
+  }
+
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box {
+    /* -20px / 8 * 3 (see layout.css - adaption of height) */
+    margin-bottom: calc(0px - 15px / 2); /* there is no negator, so calc(-15px / 2) is invalid */
+  }
+
+  /* --- tiles left collection -------------------------------------------------------------------------------------- */
+  .cm-collection--tiles-left > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box {
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 40px / 3);
+  }
+
+  /* --- tiles center collection ------------------------------------------------------------------------------------ */
+  .cm-collection--tiles-center > .cm-collection__item:nth-child(2) .cm-aspect-ratio-box {
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 40px / 3);
+  }
+
+  /* --- tiles right collection ------------------------------------------------------------------------------------- */
+  .cm-collection--tiles-right > .cm-collection__item:nth-child(3) .cm-aspect-ratio-box {
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 40px / 3);
+  }
+
+  /* --- tiles 50:50 portrait collection ---------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item,
+  .cm-collection--tiles-50-50-portrait > .cm-collection--masonry__grid-sizer {
+    /* (100% - 20px) / 2 */
+    width: calc(50% - 10px);
+  }
+
+  /*
+   * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+   * css rule can be deleted as soon as fixed on browser side or handled by masonry
+   */
+  .cm-collection--tiles-50-50-portrait > .cm-collection--masonry__grid-sizer {
+    /* (100% - 20px) / 2 */
+    width: calc(50% - 10px - 1px / 100);
+  }
+
+  /* --- tiles 50:50 landscape collection --------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item,
+  .cm-collection--tiles-50-50-landscape > .cm-collection--masonry__grid-sizer {
+    /* (100% - 20px) / 2 */
+    width: calc(50% - 10px);
+  }
+
+  /*
+   * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+   * css rule can be deleted as soon as fixed on browser side or handled by masonry
+   */
+  .cm-collection--tiles-50-50-landscape > .cm-collection--masonry__grid-sizer {
+    /* (100% - 20px) / 2 */
+    width: calc(50% - 10px - 1px / 100);
+  }
+
+  /* --- productlisting collection ---------------------------------------------------------------------------------- */
+  .cm-collection--productlisting > .cm-collection__item,
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* (100% - 80px) / 5 */
+    width: calc(100% / 5 - 80px / 5);
+  }
+
+
+  /* --- Subcategory Teaser Category Page --------------------------------------------------------------------------- */
+  .cm-collection--categories > .cm-collection__item,
+  .cm-collection--categories > .cm-collection--masonry__grid-sizer {
+    /* (100% - 40px) / 5 */
+    width: calc(100% / 5 - 40px / 5);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--categories > .cm-collection--masonry__grid-sizer {
+    /* (100% - 40px) / 5 */
+    width: calc(100% / 5 - 40px / 5 - 1px / 100);
+  }
+
+  /*
+    * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+    * css rule can be deleted as soon as fixed on browser side or handled by masonry
+    */
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* (100% - 80px) / 5 */
+    width: calc(100% / 5 - 80px / 5 - 1px / 100);
+  }
+
+  /* e-marketingspot ------------------------------------------------------------------------------------------------ */
+  .cm-collection--marketingspot-two > .cm-collection__item {
+    width: calc(50% - 20px / 2);
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item:nth-child(2n+2) {
+    margin-left: calc(20px);
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item:nth-child(n+3) {
+    margin-top: calc(20px);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item {
+    width: calc(33.3333% - 40px / 3);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(3n+2),
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(3n+3) {
+    margin-left: calc(20px);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(n+4) {
+    margin-top: calc(20px);
+  }
+}
+
+
+/* --- reverts/fixes of Aurora/PerfectChef problems ----------------------------------------------------------------- */
+#contentWrapper .cm-grid {
+  margin: 0 8px;
+}
+
+.button a {
+  color: #FFFFFF;
+}
+
+#footerRow1 > .section > ul > li > a {
+  color: #FFFFFF;
+}

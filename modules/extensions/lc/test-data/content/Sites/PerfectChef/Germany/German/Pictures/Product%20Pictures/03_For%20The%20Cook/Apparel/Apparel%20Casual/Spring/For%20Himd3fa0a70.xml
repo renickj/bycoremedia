@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Product Pictures/03_For The Cook/Apparel/Apparel Casual/Spring/For Him" name="PC_TSHIRT orange Actionshot 2" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../../United%20States/English/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Spring/67b74ec2.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Spring/For%20Him/PC_TSHIRT%20orange%20Actionshot%202"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=139;y=328;width=1632;height=2528</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=77;y=359;width=1863;height=2482</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=164;y=308;width=1766;height=1764</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=128;y=323;width=1848;height=1385</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=169;y=744;width=1879;height=1056</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=231;y=836;width=1817;height=908</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=862;width=2048;height=821</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=882;width=2048;height=769</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=856;width=2048;height=513</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.06766917293233082;y1=0.10666666666666667;x2=0.8646616541353384;y2=0.9283333333333333</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.03759398496240601;y1=0.11666666666666667;x2=0.9473684210526315;y2=0.9233333333333333</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.08020050125313283;y1=0.1;x2=0.9423558897243107;y2=0.6733333333333333</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.06265664160401002;y1=0.105;x2=0.9649122807017544;y2=0.555</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.08270676691729323;y1=0.24166666666666667;x2=1;y2=0.585</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.11278195488721804;y1=0.27166666666666667;x2=1;y2=0.5666666666666667</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.28;x2=1;y2=0.5466666666666666</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.2866666666666667;x2=1;y2=0.5366666666666666</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.2783333333333333;x2=1;y2=0.445</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/sku/PC_TSHIRT-ORANGE-M</String>
+<String>ibm:///catalog/sku/PC_TSHIRT-ORANGE-L</String>
+<String>ibm:///catalog/sku/PC_TSHIRT-ORANGE-XL</String>
+<String>ibm:///catalog/sku/PC_TSHIRT-ORANGE-XXL</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Orange T-Shirt</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../../Settings/Taxonomies/Subject/Orange%282%29.xml" path="/Settings/Taxonomies/Subject/Orange%282%29"/>
+<link href="../../../../../../../../../../Settings/Taxonomies/Subject/Men%20Spring%20Casual.xml" path="/Settings/Taxonomies/Subject/Men%20Spring%20Casual"/>
+<link href="../../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Orange T-Shirt</alt>
+<copyright>Alexander Bild / Shutterstock 170292725</copyright>
+<data md5="47b7b11924d835edecb49cffa08752e0" href="../../../../../../../../../../__blob/47b7b11924d835edecb49cffa08752e0.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

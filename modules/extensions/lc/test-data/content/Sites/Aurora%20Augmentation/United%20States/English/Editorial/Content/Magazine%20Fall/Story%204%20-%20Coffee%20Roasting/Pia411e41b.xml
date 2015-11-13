@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Magazine Fall/Story 4 - Coffee Roasting/Pictures" name="French Roast Coffee Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=227;y=0;width=826;height=1280</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=160;y=0;width=959;height=1280</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=0;y=0;width=1280;height=1280</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=160;width=1280;height=959</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=281;width=1280;height=720</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=321;width=1280;height=641</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=385;width=1280;height=513</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=400;width=1280;height=481</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=481;width=1280;height=321</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.17726396917148363;y1=0;x2=0.8227360308285164;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.1252408477842004;y1=0;x2=0.8747591522157996;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.1252408477842004;x2=1;y2=0.8747591522157996</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.21965317919075145;x2=1;y2=0.7822736030828517</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.2504816955684008;x2=1;y2=0.7514450867052023</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.30057803468208094;x2=1;y2=0.7013487475915221</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.31213872832369943;x2=1;y2=0.6878612716763006</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.37572254335260113;x2=1;y2=0.626204238921002</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>460 Degrees French Roast Coffee</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>460 Degrees French Roast Coffee</alt>
+<copyright>Dan Bollinger, License: CC-BY-SA 3.0</copyright>
+<data md5="b3fe47f686b234c888f966ed85b3ea27" href="../../../../../../../../__blob/b3fe47f686b234c888f966ed85b3ea27.blob" mimetype="image/png"/>
+<dataUrl></dataUrl>
+<width>1280</width>
+<height>1280</height>
+</CMPicture>

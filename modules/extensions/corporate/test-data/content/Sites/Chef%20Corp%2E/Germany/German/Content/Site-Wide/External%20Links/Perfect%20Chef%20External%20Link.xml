@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalLink folder="/Sites/Chef Corp./Germany/German/Content/Site-Wide/External Links" name="Perfect Chef External Link" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Content/Site-Wide/External%20Links/Perfect%20Chef%20External%20Link.xml" path="/Sites/Chef%20Corp%2E/United%20States/English/Content/Site-Wide/External%20Links/Perfect%20Chef%20External%20Link"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Perfect Chef</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Inspiration, Rezepte und Produkte für Kenner.</p></div></teaserText>
+<pictures>
+<link href="../../../Assets/Pictures/Consumers/Home%20-%20Perfect%20Chef%20Picture.xml" path="/Sites/Chef%20Corp%2E/Germany/German/Assets/Pictures/Consumers/Home%20-%20Perfect%20Chef%20Picture"/>
+</pictures>
+<related>
+</related>
+<url>//{perfectchef.host}/blueprint/servlet/perfectchef-de-de</url>
+</CMExternalLink>

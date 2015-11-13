@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+        >
+
+  <exml:description>
+     A content type property field that can be restricted to subtypes of a given baseType
+  </exml:description>
+
+  <exml:cfg name="baseType" type="String" default="_Document">
+    <exml:description>
+      The name of the base content type to restrict the combo box to
+    </exml:description>
+  </exml:cfg>
+
+  <exml:var name="contentType" value="{session.getConnection().getContentRepository().getContentType(config.baseType)}"
+            type="ContentType" >
+    <exml:description>
+      The base content type
+    </exml:description>
+            </exml:var>
+
+  <exml:var name="filterFunction" value="{function(record:Record):*{return session.getConnection().getContentRepository().getContentType(String(record.get('name'))).isSubtypeOf(contentType)}}" type="Function">
+    <exml:description>
+      Filter content types matching the configured baseType.
+    </exml:description>
+  </exml:var>
+
+  <exml:import class="com.coremedia.cap.content.ContentType"/>
+  <exml:import class="com.coremedia.cap.common.session"/>
+  <exml:import class="ext.data.Record"/>
+  <exml:import class="ext.data.Store"/>
+
+  <exml:description>
+     A contentTypeStringPropertyField instance that restricts the list of available content types to those matching 'filterFunction'
+  </exml:description>
+  <editor:contentTypeStringPropertyField>
+    <listeners>
+      <exml:object afterRender="{
+                    function():void{
+                      getStore().addListener('datachanged', function():void{var store:Store = getStore();store.suspendEvents(false);store.filterBy(filterFunction); store.resumeEvents()})
+                      }
+                    }"/>
+    </listeners>
+    </editor:contentTypeStringPropertyField>
+</exml:component>

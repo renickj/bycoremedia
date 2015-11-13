@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring Recipes/Starters" name="Prosciutto with Melon Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Prosciutto%20with%20Melon%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Prosciutto%20with%20Melon%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Prosciutto mit Melone</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Ham.xml" path="/Settings/Taxonomies/Subject/Ham"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Melon.xml" path="/Settings/Taxonomies/Subject/Melon"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Mediterranean.xml" path="/Settings/Taxonomies/Subject/Mediterranean"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Prosciutto Melone</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><br/></p> </div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Melone mit Prosciutto ist eine erfrischende, mediterrane Vorspeise für heiße Sommertage, die sich ganz schnell und leicht zubereiten lässt. Das Schneiden der Honigmelone ist mit einem <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Navigation/Categories/02_In%20The%20Kitchen/Knives/Knives%20External%20Category%20Page.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In%20The%20Kitchen/Knives/Knives%20External%20Category%20Page">unserer super-scharfen Messer</a> keine Herausforderung mehr!</p><p class="p--heading-2">Zutaten</p><ul><li>1 vollreife, aromatische Honigmelone</li><li>8 Scheiben Parmaschinken</li><li>Grüner Salat, Ruccola zur Dekoration</li></ul><p><br/></p><p class="p--heading-2">Zubereitung</p><p/><ul><li>Die Melone achteln und von der Schale und dem Kerngehäuse befreien</li><li>Die Melonenschiffchen auf 4 separate Teller (je 2 Stück) bzw. einer Platte anrichten</li><li>Auf jedes der Melonenstücke je 1 Scheibe Parmaschinken drapieren</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Wichtig ist es diese Vorspeise sofort zu servieren. Zu dieser Vorspeise reicht man am besten Weißbrot. Das Aroma aus der Süße der Melone und dem würzigen Schinken, wird zum Beispiel von einem Prosecco sehr gut untermalt.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Prosciutto%20with%20Melon%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Prosciutto%20with%20Melon%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../../Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser"/>
+<link href="../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+</related>
+</CMArticle>

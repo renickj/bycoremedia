@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/FAQ" name="FAQ: Local Stores" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>local-stores</segment>
+<title>Do you have any local stores?</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Yes, we do. These are our addresses:</p><p><br/></p><table><tbody><tr><td><p class="p--heading-4">Germany</p><p>CoreMedia AG (Headquarters)       <br/>Ludwig-Erhard-Str. 18<br/>Hamburg 20459<br/>Phone: <a xlink:href="http://tel:+49403255870" xlink:show="replace" xlink:type="simple">+49.40.325587.0</a></p></td><td><p class="p--heading-4">UK</p><p>CoreMedia UK Ltd.<br/>90 Long Acre, Covent Garden<br/>London WC2E 9RZ<br/>Phone: <a xlink:href="http://tel:+442078493317" xlink:show="replace" xlink:type="simple">+44.207.849.3317</a></p></td></tr></tbody></table><p><br/></p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

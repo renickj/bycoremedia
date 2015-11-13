@@ -1,0 +1,114 @@
+{
+  "topCategories":  [
+    {
+      "externalId" : "TokoApparel",
+      "name": "Toko Apparel Name",
+      "title": "Toko Apparel Title",
+      "shortDescription": "Toko Apparel Description",
+      "subCategories" : [
+        {
+          "externalId" : "TokoWomen",
+          "name": "Toko Women Name",
+          "title": "Toko Women Title",
+          "shortDescription": "Toko Women Description"
+        },
+        {
+          "externalId" : "TokoBoys",
+          "name": "Toko Boys Name",
+          "title": "Toko Boys Title",
+          "shortDescription": "Toko Boys Description",
+          "products":
+            [
+              {
+                "externalId" : "TokoBoysPants",
+                "name": "Toko Boys Pants Name",
+                "title": "Toko Boys Pants Title",
+                "shortDescription": "Toko Boys Pants Description",
+                "defaultImageUrl": "http://www.coremedia.com/image/view/-/2668/data/14/-/_en0sku/-/Company-Article-Image.png",
+                "thumbnailImageUrl": "http://www.coremedia.com/image/view/-/2668/data/14/-/_en0sku/-/Company-Article-Image.png",
+                "variants":
+                  [
+                    {
+                      "externalId": "TokoBoysPants-S",
+                      "name": "Toko Boys Pants Small Name",
+                      "title": "Toko Boys Pants Small Title",
+                      "shortDescription": "Toko Boys Pants Small Description"
+                    },
+                    {
+                      "externalId": "TokoBoysPants-M"
+                    },
+                    {
+                      "externalId": "TokoBoysPants-L"
+                    }
+                  ]
+              },
+              {
+                "externalId" : "TokoBoysShirt",
+                "name": "Toko Boys Shirt Name",
+                "title": "Toko Boys Shirt Title",
+                "shortDescription": "Toko Boys Shirt Description"
+              },
+              {
+                "externalId" : "TokoBoysToy",
+                "name": "Toko Boys Toy Name",
+                "title": "Toko Boys Toy Title",
+                "shortDescription": "Toko Boys Toy Description"
+              },
+              {
+                "externalId" : "TokoBoysShoes",
+                "name": "Toko Boys Shoes Name",
+                "title": "Toko Boys Shoes Title",
+                "shortDescription": "Toko Boys Shoes Description"
+              }
+            ]
+        }
+
+      ]
+    },
+    {
+      "externalId" : "TokoComputer",
+      "name": "Toko Computer Name",
+      "title": "Toko Computer Title",
+      "shortDescription": "Toko Computer Description"
+    },
+    {
+      "externalId" : "10101",
+      "name": "PC_OnTheTable",
+      "title": "On The Table (Toko)",
+      "shortDescription": "One The Table Category via Toko",
+      "subCategories" : [
+        {
+          "externalId" : "10105",
+          "name": "PC_Glasses",
+          "title": "Glasses (Toko)",
+          "shortDescription": "Glasses Category via Toko"
+        },
+        {
+          "externalId" : "10106",
+          "name": "PC_Cutlery",
+          "title": "Cutlery (Toko)",
+          "shortDescription": "Cutlery Category via Toko"
+        },
+        {
+          "externalId" : "10107",
+          "name": "PC_Tableware",
+          "title": "Tableware (Toko)",
+          "shortDescription": "Tableware Category via Toko"
+        },
+        {
+          "externalId" : "10108",
+          "name": "PC_Decoration",
+          "title": "Decoration (Toko)",
+          "shortDescription": "Decoration Category via Toko"
+        },
+        {
+          "externalId" : "10109",
+          "name": "PC_Outdoor",
+          "title": "Outdoor (Toko)",
+          "shortDescription": "Outdoor Category via Toko"
+        }
+       ]
+    }
+
+  ]
+}

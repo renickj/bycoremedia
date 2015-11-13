@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                baseClass="com.coremedia.ecommerce.studio.ECommerceStudioPluginBase">
+
+  <exml:import class="com.coremedia.cms.editor.ContentTypes_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.config.searchArea"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.CategoryImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.ProductImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.ProductVariantImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.SegmentImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.SegmentsImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.ContractImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.ContractsImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.WorkspaceImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.WorkspacesImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.MarketingSpotImpl" />
+  <exml:import class="com.coremedia.ecommerce.studio.model.StoreImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.CatalogImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.MarketingImpl"/>
+  <exml:import class="com.coremedia.ecommerce.studio.CatalogModel"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="ext.Container"/>
+  <exml:import class="ext.Panel"/>
+  <exml:import class="com.coremedia.ecommerce.studio.ECommerceStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.config.headerToolbarUserMenu"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.collectionview.CollectionView"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.config.collectionView"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.config.registerLibraryDocumentFilter" />
+  <exml:import class="com.coremedia.cms.editor.sdk.validation.Validators_properties"/>
+
+
+  <exml:constant name="OPEN_IN_TAB_BUTTON_ITEM_ID" value="openInTab">
+    <exml:description>
+       The itemId of the open in tab button.
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="CREATE_CATEGORY_BUTTON_ITEM_ID" value="createCategory">
+    <exml:description>
+       The itemId of the create category button.
+    </exml:description>
+  </exml:constant>
+  <exml:constant name="CREATE_PRODUCT_BUTTON_ITEM_ID" value="createProduct">
+    <exml:description>
+       The itemId of the create product button.
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="REMOVE_LINK_BUTTON_ITEM_ID" value="removeLinkButton">
+    <exml:description>
+       The itemId of the remove button.
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="REMOVE_LINK_MENU_ITEM_ID" value="removeLink">
+    <exml:description>
+       The itemId of the remove link menu item.
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="OPEN_MENU_ITEM_ID" value="open">
+    <exml:description>
+       The itemId of the open menu item.
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="OPEN_IN_TAB_MENU_ITEM_ID" value="openInTab">
+    <exml:description>
+       The itemId of the open in tab menu item.
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="COPY_TO_CLIPBOARD_ITEM_ID" value="copyToClipboard">
+    <exml:description>
+       The itemId of the copy menu item.
+    </exml:description>
+  </exml:constant>
+
+
+  <!-- Extend the standard Studio and Blueprint components for Live Context -->
+  <editor:studioPlugin>
+    <ui:rules>
+
+      <!--Show the commerce store and the workspace selector for the preferred site-->
+      <editor:headerToolbarUserMenu>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <label text="Shop" cls="commerce-shop-label">
+                <plugins>
+                  <ui:bindVisibilityPlugin bindTo="{getShopExpression()}" />
+                </plugins>
+              </label>
+              <spacer height="1">
+                <plugins>
+                  <ui:bindVisibilityPlugin bindTo="{getShopExpression()}" />
+                </plugins>
+              </spacer>
+              <label cls="commerce-shop-text">
+                <plugins>
+                  <ui:bindPropertyPlugin componentProperty="text" bindTo="{getShopExpression()}"/>
+                  <ui:bindVisibilityPlugin bindTo="{getShopExpression()}" />
+                </plugins>
+              </label>
+            </ui:items>
+            <ui:after>
+              <component itemId="{headerToolbarUserMenu.SITE_SELECTOR_ITEM_ID}"/>
+            </ui:after>
+          </ui:addItemsPlugin>
+        </plugins>
+      </editor:headerToolbarUserMenu>
+
+    </ui:rules>
+
+    <editor:configuration>
+      <editor:copyResourceBundleProperties destination="{ContentTypes_properties}"
+                                           source="{ECommerceStudioPlugin_properties}"/>
+      <editor:copyResourceBundleProperties destination="{Validators_properties}"
+                                           source="{ECommerceStudioPlugin_properties}"/>
+
+      <editor:registerRestResource beanClass="{CategoryImpl}"/>
+      <editor:registerRestResource beanClass="{StoreImpl}"/>
+      <editor:registerRestResource beanClass="{ProductImpl}"/>
+      <editor:registerRestResource beanClass="{ProductVariantImpl}"/>
+      <editor:registerRestResource beanClass="{SegmentImpl}"/>
+      <editor:registerRestResource beanClass="{SegmentsImpl}"/>
+      <editor:registerRestResource beanClass="{ContractImpl}"/>
+      <editor:registerRestResource beanClass="{ContractsImpl}"/>
+      <editor:registerRestResource beanClass="{WorkspaceImpl}"/>
+      <editor:registerRestResource beanClass="{WorkspacesImpl}"/>
+      <editor:registerRestResource beanClass="{MarketingSpotImpl}"/>
+      <editor:registerRestResource beanClass="{MarketingImpl}"/>
+      <editor:registerRestResource beanClass="{CatalogImpl}"/>
+    </editor:configuration>
+
+  </editor:studioPlugin>
+</exml:component>

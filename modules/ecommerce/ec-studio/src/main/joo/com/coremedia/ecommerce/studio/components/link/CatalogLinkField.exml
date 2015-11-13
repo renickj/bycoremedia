@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config"
+                baseClass="com.coremedia.ecommerce.studio.components.link.CatalogLinkFieldBase">
+
+  <exml:import class="com.coremedia.ecommerce.studio.CatalogModel"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.CatalogObject"/>
+  <exml:import class="com.coremedia.ecommerce.studio.ECommerceStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.columns.grid.GridColumns_properties"/>
+  <exml:import class="com.coremedia.ui.data.Bean" />
+  <exml:import class="com.coremedia.blueprint.studio.property.ImageLinkListRenderer" />
+  <exml:import class="com.coremedia.ui.data.ValueExpressionFactory" />
+  <exml:import class="com.coremedia.ui.data.ValueExpression" />
+
+  <exml:cfg name="multiple" type="Boolean">
+    <exml:description>
+       Set to true for multiple links. Default is false, i.e. single link.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="model" type="Bean">
+    <exml:description>
+      The bean whose property is being edited.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="openLinkSources" type="Function">
+    <exml:description>
+      Function to perform when clicking on the empty link field.
+      It e.g. opens the collection view e.g.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="catalogObjectType" type="String">
+    <exml:description>
+      The type of the catalog item that can be dropped here.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="createStructFunction" type="Function">
+    <exml:description>
+       Optional: The function to create necessary structs before storing the links
+    </exml:description>
+  </exml:cfg>
+
+  <exml:description>
+    Catalog product property field. It can be assigned to a string property of a content which holds the product id.
+  </exml:description>
+
+  <exml:var name="forceReadOnlyValueExpression" type="ValueExpression" value="{config.forceReadOnlyValueExpression || getReadOnlyExpression(config)}"/>
+
+  <ec:catalogLink forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"
+                           readOnlyValueExpression="{getReadOnlyExpression(config)}">
+    <plugins mode="append">
+      <ec:catalogLinkDropTargetPlugin valueExpression="{getPropertyExpression(config)}"
+                                               catalogObjectType="{config.catalogObjectType}"
+                                               createStructFunction="{config.createStructFunction}"
+                                               forceReadOnlyValueExpression="{forceReadOnlyValueExpression}"
+                                               multiple="{config.multiple}"/>
+    </plugins>
+  </ec:catalogLink>
+</exml:component>

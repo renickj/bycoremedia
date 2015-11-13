@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalChannel folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In The Kitchen" name="In The Kitchen External Page" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Categories/02_In%20The%20Kitchen/In%20The%20Kitchen%20External%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/02_In%20The%20Kitchen/In%20The%20Kitchen%20External%20Page"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>in-der-kueche</segment>
+<title>In der Küche</title>
+<htmlTitle></htmlTitle>
+<keywords>in der Küche, Kochen</keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/In%20the%20Kitchen.xml" path="/Settings/Taxonomies/Subject/In%20the%20Kitchen"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+<link href="Knives/Knives%20External%20Category%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In%20The%20Kitchen/Knives/Knives%20External%20Category%20Page"/>
+<link href="Baking%20Pans/Baking%20Pans%20External%20Catef126ba43.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In%20The%20Kitchen/Baking%20Pans/Baking%20Pans%20External%20Category%20Page"/>
+<link href="Pans/Pans%20External%20Category%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In%20The%20Kitchen/Pans/Pans%20External%20Category%20Page"/>
+<link href="Pots/Pots%20External%20Category%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In%20The%20Kitchen/Pots/Pots%20External%20Category%20Page"/>
+<link href="Appliances/Blenders%20External%20Category%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In%20The%20Kitchen/Appliances/Blenders%20External%20Category%20Page"/>
+<link href="Appliances/Mixers%20External%20Category%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In%20The%20Kitchen/Appliances/Mixers%20External%20Category%20Page"/>
+</children>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<StructProperty Name="placements">
+<Struct>
+<StructProperty Name="3904">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/main"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/In%20The%20Kitchen%20Main%20Collection.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In%20The%20Kitchen/In%20The%20Kitchen%20Main%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/../../Site-Wide/Category%20Pages/Productlist-Placeholder%20Listing.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Category%20Pages/Productlist-Placeholder%20Listing"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+<externalId>ibm:///catalog/category/PC_InTheKitchen</externalId>
+</CMExternalChannel>

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/**
+  * coremedia external preview ui
+  *
+  * @copyright       CoreMedia
+  * @author          SEC/MFA
+  *
+  * @lastmodified    mon 17.12.2012
+  */
+
+.btn-external-preview {
+  background-image: url('../images/external-preview-ui/img/external_preview_24_a.png') !important;
+  background-position: left 0 !important;
+  opacity: 0.8;
+}
+
+.step-container {
+  background-color: #dcdbdb;
+  padding: 5px;
+  border-style: none;
+  border-radius: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.tip-container {
+  height:100%;
+  background-color: #ecf3fc;
+  border: solid 1px #4189dd;
+  padding: 5px;
+  border-radius: 2px;
+  color: #000;
+}
+
+.tip-label {
+  color: #4189dd;
+  font-weight: bold;
+}
+
+.tip-description {
+  margin-left: 35px;
+}
+
+
+.external-preview-panel {
+  background-color: #fff !important;
+}
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+       <import resource="classpath:com/coremedia/rest/cap/cap-rest-service.xml"/>
+
+       <bean id="catalogProductValidator" parent="contentTypeValidator" class="com.coremedia.catalog.studio.lib.validators.CatalogProductValidator">
+              <property name="contentType" value="CMProduct"/>
+       </bean>
+
+       <bean id="catalogCategoryValidator" parent="contentTypeValidator" class="com.coremedia.catalog.studio.lib.validators.CatalogCategoryValidator">
+              <property name="contentType" value="CMCategory"/>
+              <property name="liveContextSettingName" value="LiveContext"/>
+       </bean>
+</beans>

@@ -1,0 +1,86 @@
+!tape
+name: csi_testFindSubCategories_search
+interactions:
+- recorded: 2015-03-26T10:07:15.743Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/languagemap
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Thu, 26 Mar 2015 10:07:15 GMT
+      Vary: Accept
+    body: '{"de":"-3","ru":"-20","ko":"-9","pt":"-6","en":"-1","it":"-4","fr":"-2","zh":"-8","es":"-5","ar":"-23","ja":"-10","pl":"-22","ro":"-21"}'
+- recorded: 2015-03-26T10:07:16.032Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com:3737/search/resources/store/10202/categoryview/@top?profileName=CoreMedia_findSubCategories&catalogId=10051&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com:3737
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Thu, 26 Mar 2015 10:07:16 GMT
+      Expires: Thu, 26 Mar 2015 11:07:16 GMT
+    body: '{"recordSetTotal":10,"resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/@top?profileName=CoreMedia_findSubCategories&catalogId=10051&langId=-1","resourceName":"categoryview","recordSetComplete":"true","recordSetStartNumber":0,"catalogGroupView":[{"shortDescription":"On
+      The Table","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10101","identifier":"PC_OnTheTable","parentCatalogGroupID":"-1","name":"On The Table","uniqueID":"10101","storeID":"10101","seo_token_ntk":"pc-on-the-table","childCatalogGroupID":["10051_10105","10051_10106","10051_10107","10051_10108","10051_10109"]},{"shortDescription":"In
+      The Kitchen","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10102","identifier":"PC_InTheKitchen","parentCatalogGroupID":"-1","name":"In The Kitchen","uniqueID":"10102","storeID":"10101","seo_token_ntk":"pc-in-the-kitchen","childCatalogGroupID":["10051_10110","10051_10111","10051_10112","10051_10113","10051_10114"]},{"shortDescription":"For
+      The Cook","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10103","identifier":"PC_ForTheCook","parentCatalogGroupID":"-1","name":"For The Cook","uniqueID":"10103","storeID":"10101","seo_token_ntk":"pc-for-the-cook","childCatalogGroupID":["10051_10117","10051_10118"]},{"shortDescription":"Deli","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10104","identifier":"PC_Deli","parentCatalogGroupID":"-1","name":"Deli","uniqueID":"10104","storeID":"10101","seo_token_ntk":"pc-deli","childCatalogGroupID":["10051_10125","10051_10126"]},{"shortDescription":"The
+      latest styles for the entire family.","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10051","identifier":"Apparel","parentCatalogGroupID":"-1","name":"Apparel","uniqueID":"10051","storeID":"10101","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/apparel\/women\/category\/catr_wcl_pants.png","seo_token_ntk":"apparel","childCatalogGroupID":["10051_10055","10051_10054","10051_10053","10051_10052"]},{"shortDescription":"Electronics","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10077","identifier":"Electronics","parentCatalogGroupID":"-1","name":"Electronics","uniqueID":"10077","storeID":"10101","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/category\/catr_cta_tablets.png","seo_token_ntk":"electronics","childCatalogGroupID":["10051_10078","10051_10079","10051_10080","10051_10081","10051_10082"]},{"shortDescription":"Grocery","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10083","identifier":"Grocery","parentCatalogGroupID":"-1","name":"Grocery","uniqueID":"10083","storeID":"10101","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/grocery\/category\/catr_gda_dairy.png","seo_token_ntk":"grocery","childCatalogGroupID":["10051_10084","10051_10085","10051_10086","10051_10087"]},{"shortDescription":"Health","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10088","identifier":"Health","parentCatalogGroupID":"-1","name":"Health","uniqueID":"10088","storeID":"10101","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/health\/category\/catr_hme_medicine.png","seo_token_ntk":"health","childCatalogGroupID":["10051_10089","10051_10090"]},{"shortDescription":"Home
+      & Furnishing","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10091","identifier":"Home Furnishings","parentCatalogGroupID":"-1","name":"Home & Furnishing","uniqueID":"10091","storeID":"10101","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/homefurnishings\/category\/catr_hap_appliances.png","seo_token_ntk":"home---furnishing","childCatalogGroupID":["10051_10092","10051_10093","10051_10094","10051_10095","10051_10096","10051_10097"]},{"shortDescription":"Newsletters
+      & Magazines","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10098","identifier":"NewslettersAndMagazines","parentCatalogGroupID":"-1","name":"Newsletters & Magazines","uniqueID":"10098","storeID":"10101","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/newslettersmagazines\/category\/catr_nma_magazines.png","seo_token_ntk":"newsletters---magazines","childCatalogGroupID":["10051_10099","10051_10100"]}],"recordSetCount":10}'
+- recorded: 2015-03-26T10:07:16.178Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com:3737/search/resources/store/10202/categoryview/byParentCategory/10051?profileName=CoreMedia_findSubCategories&catalogId=10051&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com:3737
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Thu, 26 Mar 2015 10:07:16 GMT
+      Expires: Thu, 26 Mar 2015 11:07:16 GMT
+    body: '{"recordSetTotal":4,"resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byParentCategory\/10051?profileName=CoreMedia_findSubCategories&catalogId=10051&langId=-1","resourceName":"categoryview","recordSetComplete":"true","recordSetStartNumber":0,"catalogGroupView":[{"shortDescription":"Girls","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10055","identifier":"Girls","parentCatalogGroupID":"10051","name":"Girls","uniqueID":"10055","storeID":"10101","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/apparel\/girls\/category\/catr_app_girls.png","seo_token_ntk":"girls","childCatalogGroupID":["10051_10070","10051_10071","10051_10072","10051_10073"]},{"shortDescription":"boys","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10054","identifier":"Boys","parentCatalogGroupID":"10051","name":"Boys","uniqueID":"10054","storeID":"10101","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/apparel\/boys\/category\/catr_app_boys.png","seo_token_ntk":"boys","childCatalogGroupID":["10051_10074","10051_10075","10051_10076"]},{"shortDescription":"Women","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10053","identifier":"Women","parentCatalogGroupID":"10051","name":"Women","uniqueID":"10053","storeID":"10101","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/apparel\/women\/category\/catr_app_women.png","seo_token_ntk":"women","childCatalogGroupID":["10051_10056","10051_10057","10051_10058","10051_10059","10051_10060","10051_10061","10051_10062","10051_10063"]},{"shortDescription":"Men","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10052","identifier":"Men","parentCatalogGroupID":"10051","name":"Men","uniqueID":"10052","storeID":"10101","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/apparel\/men\/category\/catr_app_men.png","seo_token_ntk":"men","childCatalogGroupID":["10051_10064","10051_10065","10051_10066","10051_10067","10051_10068","10051_10069"]}],"recordSetCount":4}'
+- recorded: 2015-03-26T10:07:16.232Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com:3737/search/resources/store/10202/categoryview/byId/10051?profileName=CoreMedia_findCategoryByUniqueIds&catalogId=10051&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com:3737
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Thu, 26 Mar 2015 10:07:16 GMT
+      Expires: Thu, 26 Mar 2015 11:07:16 GMT
+      X-Betamax: PLAY
+    body: '{"recordSetTotal":1,"resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10051?profileName=CoreMedia_findCategoryByUniqueIds&catalogId=10051&langId=-1","resourceName":"categoryview","recordSetComplete":"true","recordSetStartNumber":0,"catalogGroupView":[{"shortDescription":"The
+      latest styles for the entire family.","resourceId":"http:\/\/shop-ref.ecommerce.coremedia.com:3737\/search\/resources\/store\/10202\/categoryview\/byId\/10051","identifier":"Apparel","parentCatalogGroupID":"-1","name":"Apparel","uniqueID":"10051","storeID":"10101","fullImage":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/apparel\/women\/category\/catr_wcl_pants.png","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/apparel\/women\/category\/catr_wcl_pants.png","seo_token_ntk":"apparel","childCatalogGroupID":["10051_10055","10051_10054","10051_10053","10051_10052"]}],"recordSetCount":1}'

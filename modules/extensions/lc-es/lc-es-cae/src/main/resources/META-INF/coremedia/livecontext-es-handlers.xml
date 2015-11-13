@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.coremedia.com/2007/coremedia-spring-beans-customization http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd
+         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+
+  <import resource="classpath:/META-INF/coremedia/livecontext-handlers.xml"/>
+  <import resource="classpath:/META-INF/coremedia/es-cae-controller.xml"/>
+
+  <bean id="liveContextUserService" class="com.coremedia.livecontext.elastic.social.cae.services.impl.LiveContextUserServiceImpl">
+    <property name="loginHelper" ref="loginHelper"/>
+    <property name="registrationHelper" ref="registrationHelper"/>
+    <property name="userMapper" ref="userMapper"/>
+    <property name="communityUserService" ref="communityUserService"/>
+    <property name="securityContextLogoutHandler" ref="securityContextLogoutHandler"/>
+  </bean>
+
+  <util:list id="lcPermittedLinkParameterNames" value-type="java.lang.String" list-class="java.util.ArrayList">
+    <value>next</value>
+    <value>nextUrl</value>
+    <value>externalRedirect</value>
+    <value>userName</value>
+    <value>targetView</value>
+    <value>fragmentConnector</value>
+    <value>webflow</value>
+  </util:list>
+
+  <customize:replace id="liveContextAuthenticationHandler" bean="authenticationHandler" property="passwordExpiryPolicy">
+    <bean class="com.coremedia.livecontext.elastic.social.cae.LiveContextPasswordExpiryPolicy">
+      <property name="userService" ref="commerceUserService"/>
+    </bean>
+  </customize:replace>
+
+
+  <customize:replace id="setLcPermittedLinkParameterNames"
+                     bean="authenticationHandler"
+                     property="permittedLinkParameterNames"
+                     custom-ref="lcPermittedLinkParameterNames"/>
+
+
+</beans>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:dcqe="exml:com.coremedia.cms.studio.queryeditor.config"
+                baseClass="com.coremedia.cms.studio.queryeditor.conditions.ContextConditionEditorBase">
+
+  <exml:import class="com.coremedia.cms.studio.queryeditor.QueryEditor_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.actions.Actions_properties" />
+  <exml:import class="com.coremedia.cms.editor.sdk.premular.fields.LinkListPropertyFieldBase" />
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Content bean value expression</exml:description>
+  </exml:cfg>
+  <exml:cfg name="contentType" type="String">
+    <exml:description>Content type of the taxonomy</exml:description>
+  </exml:cfg>
+  <exml:cfg name="propertyName" type="String">
+    <exml:description>The property name of the struct to write into. Note that not the full path
+     is passed here but the relative substruct path that maybe does not exist yet.</exml:description>
+  </exml:cfg>
+
+  <dcqe:conditionEditorBase>
+    <items>
+      <container cls="context-condition-editor">
+        <items>
+          <label text="{QueryEditor_properties.INSTANCE.DCQE_text_docs_should_be_linked_by}"/>
+          <editor:linkListPropertyField bindTo="{config.bindTo}"
+                                        propertyName="{resolvePropertyName(config.propertyName)}"
+                                        forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+        </items>
+      </container>
+    </items>
+  </dcqe:conditionEditorBase>
+</exml:component>

@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                baseClass="CatalogThumbDataViewBase">
+  <exml:import class="ext.LoadMask"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.CatalogObject"/>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Value expression describing the bound data source.</exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="selectedItemsValueExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>A value expression that specifies where to set the multiply selected items</exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="initialViewLimit" type="int">
+    <exml:description>
+      <![CDATA[
+      The initial limit for the number of search results for to show initially.
+      This avoids big and sluggish DOM rendering of empty rows or divs.
+      When the user scrolls to the end of the list, the view limit is automatically incremented by the
+      value given in config option <code>viewLimitIncrement</code>.
+      Default is to not limit the view.
+      ]]>
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="viewLimitIncrement" type="int">
+    <exml:description>
+      <![CDATA[
+      The maximum number of additional search results to show every time the user scrolls to the end of
+      the list. Default is 100.
+      @see #initialViewLimit
+      ]]>
+    </exml:description>
+  </exml:cfg>
+
+  <dataview multiSelect="true"
+            cls="x-thumbnail-list"
+            overClass="x-view-over"
+            itemSelector="div.thumb-wrap"
+            deferEmptyText="false"
+            loadingText="{ext.LoadMask['prototype']['msg']}">
+    <plugins>
+      <ui:bindListPlugin bindTo="{config.bindTo}"
+                         lazy="true"
+                         initialViewLimit="{config.initialViewLimit}"
+                         viewLimitIncrement="{config.viewLimitIncrement}">
+        <ui:fields>
+          <ui:dataField name="type"
+                        mapping="name"
+                        convert="{function(v:String, catalogObject:CatalogObject):String {
+                          return CatalogHelper.getInstance().getTypeLabel(catalogObject)}}"/>
+          <ui:dataField name="typeCls"
+                        mapping="name"
+                        convert="{function(v:String, catalogObject:CatalogObject):String {
+                          return CatalogHelper.getInstance().getTypeCls(catalogObject)}}"/>
+          <ui:dataField name="id"
+                        mapping="externalId"/>
+          <ui:dataField name="name"/>
+          <datafield name="imageUri"
+                     mapping="name"
+                     convert="{function(v:String, catalogObject:CatalogObject):String {
+                          return CatalogHelper.getInstance().getImageUrl(catalogObject)}}"/>
+          <datafield name="shortName"
+                     mapping="name"/>
+        </ui:fields>
+      </ui:bindListPlugin>
+      <ui:bindSelectionPlugin selectedValues="{config.selectedItemsValueExpression}"/>
+    </plugins>
+  </dataview>
+</exml:component>

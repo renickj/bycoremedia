@@ -1,0 +1,72 @@
+!tape
+name: contract_testInvalidContract
+interactions:
+- recorded: 2015-07-08T13:49:05.067Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/languagemap
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-cache="set-cookie, set-cookie2"
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Wed, 08 Jul 2015 13:49:04 GMT
+      Expires: Thu, 01 Dec 1994 16:00:00 GMT
+      Set-Cookie: JSESSIONID=000018qjSuDzhA9qx3sKdk3v_gd:-1; Path=/; Domain=.toko-test-03.coremedia.vm
+      Surrogate-Control: no-store
+      Vary: Accept
+    body: '{"de":"-3","ru":"-20","pt":"-6","ko":"-9","en":"-1","it":"-4","fr":"-2","es":"-5","zh":"-8","ar":"-23","ja":"-10","pl":"-22","ro":"-21"}'
+- recorded: 2015-07-08T13:49:05.647Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10303/loginidentity
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '60'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+    body: '{"logonId":"cmadmin","logonPassword":"VTJjyo0AYSnXFHI201yo"}'
+  response:
+    status: 201
+    headers:
+      Cache-Control: no-cache="set-cookie, set-cookie2"
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Wed, 08 Jul 2015 13:49:05 GMT
+      Expires: Thu, 01 Dec 1994 16:00:00 GMT
+      Set-Cookie: JSESSIONID=0000LQxSgipXNoX3M91jXCNoaMx:-1; Path=/; Domain=.toko-test-03.coremedia.vm
+      Surrogate-Control: no-store
+      Vary: Accept
+    body: '{"userId":"2","WCToken":"2%2CJXWaekUxDebeVFTT%2FgToEOPgwzsal0WvL1i2ewvm3q8vCpQeO9H9ajY8wLmqQZC4MEJJjq%2BelUXOZxfKLJQmE1wztLbVYTSYNIrJfj6%2BNRmonc5Mtb0wpmnlXfYl5Dp1Sif9yKJjQvRvvjYPwGb6fK4LRwl6poD5EW5ipfkazaCKAa8vJK6ubt%2Ba5Sosc4wqkxB2bJswzFDJx%2Bf%2BHY3HTw%3D%3D","WCTrustedToken":"2%2CMs12u8uRUeuifFoPJIWruNSC7jk%3D","personalizationID":"1436268054729-1"}'
+- recorded: 2015-07-08T13:49:05.817Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10303/contract/xxxx?profileName=IBM_Contract_Usage&catalogId=10101&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2CJXWaekUxDebeVFTT%2FgToEOPgwzsal0WvL1i2ewvm3q8vCpQeO9H9ajY8wLmqQZC4MEJJjq%2BelUXOZxfKLJQmE1wztLbVYTSYNIrJfj6%2BNRmonc5Mtb0wpmnlXfYl5Dp1Sif9yKJjQvRvvjYPwGb6fK4LRwl6poD5EW5ipfkazaCKAa8vJK6ubt%2Ba5Sosc4wqkxB2bJswzFDJx%2Bf%2BHY3HTw%3D%3D
+  response:
+    status: 400
+    headers:
+      Cache-Control: no-cache="set-cookie, set-cookie2"
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Wed, 08 Jul 2015 13:49:05 GMT
+      Expires: Thu, 01 Dec 1994 16:00:00 GMT
+      Set-Cookie: JSESSIONID=0000zl8cIUUGBjHECpmLvJROMdp:-1; Path=/; Domain=.toko-test-03.coremedia.vm
+      Surrogate-Control: no-store
+      Vary: Accept
+    body: '{"errors":[{"errorParameters":"contractId,xxxx","errorCode":"CMN0207E","errorKey":"_ERR_CMD_INVALID_PARAM","errorLevel":"SEVERE","errorMessage":"CMN0207E The value of the parameter \"contractId\" is not correct."}]}'

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSymbol folder="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/Article Page" name="Descriptor_de" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Options/Settings/Templates/CMChannel/Article%20Page/Descriptor_de.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Templates/CMChannel/Article%20Page/Descriptor_de"/>
+</master>
+<masterVersion>1</masterVersion>
+<description>Artikel-Seite</description>
+<icon md5="7821696fb1d56611100f6d592fcad235" href="../../../../../../../../../__blob/7821696fb1d56611100f6d592fcad235.blob" mimetype="image/png"/>
+</CMSymbol>

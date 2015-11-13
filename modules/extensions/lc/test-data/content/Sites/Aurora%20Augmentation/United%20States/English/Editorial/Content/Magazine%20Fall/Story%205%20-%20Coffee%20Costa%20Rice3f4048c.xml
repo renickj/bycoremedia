@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMGallery folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Magazine Fall/Story 5 - Coffee Costa Rica" name="Costa Rica Coffee Gallery" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Costa Rica Coffee Gallery</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Costa Rica Coffees</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><br/></p></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Story%205%20-%20Coffee%20Costa%20Ric6338df7d.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Pictures/Coffee%20Farms%20in%20Tarrazu%20Picture"/>
+<link href="Story%205%20-%20Coffee%20Costa%20Ricc843bc27.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Pictures/Orosi%20Valley%20Picture"/>
+<link href="Story%205%20-%20Coffee%20Costa%20Ric3dadfcc8.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Pictures/Coffee%20Cherry%20Picker%20Picture"/>
+<link href="Story%205%20-%20Coffee%20Costa%20Ric86d072c3.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Pictures/Plantation%20Workers%20Picture"/>
+<link href="Story%205%20-%20Coffee%20Costa%20Ric50a8d0e.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Pictures/Harvested%20Coffee%20Picture"/>
+<link href="Story%204%20-%20Coffee%20Roasting/Pibaefd8d9.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Fall/Story%204%20-%20Coffee%20Roasting/Pictures/Roasted%20Coffee%20Beans%20Picture"/>
+</items>
+</CMGallery>

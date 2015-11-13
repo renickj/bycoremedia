@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Product Reviews" name="Best Stand Mixers Review YouTube Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Product%20Reviews/Best%20Stand%20Mixers%20Review%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Stand%20Mixers%20Review%20Video"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-review-best-stand-mixers</segment>
+<title>Beste Küchenmaschinen</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Review.xml" path="/Settings/Taxonomies/Subject/Review"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Food%20Processors%20Mixers.xml" path="/Settings/Taxonomies/Subject/Food%20Processors%20Mixers"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Beste Küchenmaschinen</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Eine Küchenmaschine ist eines der teuersten Geräte in der Küche, daher sollte sie am besten ein Alleskönner sein.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Eine Küchenmaschine ist eines der teuersten Geräte in der Küche, daher sollte sie am besten ein Alleskönner sein - von Eischnee rühren bis dicken Pizzateig kneten. Wir haben neun Modelle getestet, mit Preisen von 150 bis hin zu atemberaubenden 700 Euro, um herauszufinden, welche Küchenmaschine das beste Preis-Leistungsverhältnis bietet.</p></div></detailText>
+<pictures>
+<link href="Best%20Stand%20Mixers%20Review%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Product%20Reviews/Best%20Stand%20Mixers%20Review%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Ausstattung der Bewertung: Best Standmixer</alt>
+<copyright>America's Test Kitchen / YouTube embedded</copyright>
+<dataUrl>//www.youtube.com/embed/F5mBOGte5Zo?rel=0</dataUrl>
+</CMVideo>

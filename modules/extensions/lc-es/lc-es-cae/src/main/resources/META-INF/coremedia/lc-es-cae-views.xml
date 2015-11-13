@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <description>
+    View registration.
+  </description>
+
+  <import resource="classpath:/framework/spring/blueprint-views.xml"/>
+
+  <customize:prepend id="addLcElasticsocialRepositoryName" bean="viewRepositories" order="1201">
+    <list>
+      <value>lc-es-freemarker</value>
+    </list>
+  </customize:prepend>
+
+</beans>

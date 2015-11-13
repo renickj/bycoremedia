@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/security
+                           http://www.springframework.org/schema/security/spring-security.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <import resource="classpath:/META-INF/coremedia/livecontext-handlers.xml"/>
+
+  <bean id="lcAuthenticationProvider" class="com.coremedia.livecontext.elastic.social.cae.springsecurity.LiveContextUserAuthenticationProvider">
+    <property name="communityUserService" ref="communityUserService" />
+    <property name="commerceUserSessionService" ref="commerceUserSessionService" />
+  </bean>
+
+  <customize:replace id="lcAuthenticationProviderCustomizer" bean="authenticationProvider" custom-ref="lcAuthenticationProvider"/>
+
+</beans>

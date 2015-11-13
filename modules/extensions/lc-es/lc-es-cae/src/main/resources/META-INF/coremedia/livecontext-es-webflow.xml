@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xmlns:webflow="http://www.springframework.org/schema/webflow-config"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd
+                           http://www.springframework.org/schema/webflow-config
+                           http://www.springframework.org/schema/webflow-config/spring-webflow-config-2.3.xsd">
+  <import resource="classpath:/com/coremedia/cae/handler-services.xml"/>
+  <import resource="classpath:/com/coremedia/blueprint/base/settings/impl/bpbase-settings-services.xml"/>
+  <import resource="classpath:META-INF/coremedia/component-lc-ecommerce-ibm.xml"/>
+
+  <!--
+    <description>
+      Add this location pattern to flowBuilderServices that are provided by the CAE.
+
+      Custom webflows can be added without customizations to a package
+      "/com/coremedia/blueprint/customername/webflow/".
+
+      Multiple flow-location-pattern may coexist, but only one flow-registry (with the id "flowRegistry")
+      is used by the webflow engine.
+
+      If a custom pattern should be registered, it's necessary to "customize:replace" this bean and add
+      both the pattern configured here, and the custom pattern, for example:
+
+      <customize:replace id="overwriteFlowRegistry" bean="flowRegistry" custom-ref="myFlowRegistry"/>
+
+      <webflow:flow-registry id="myFlowRegistry" flow-builder-services="flowBuilderServices">
+        <webflow:flow-location-pattern value="classpath*:/com/coremedia/blueprint/**/webflow/*.xml"/>
+        <webflow:flow-location-pattern value="classpath*:/my/package/**/*.xml"/>
+      </webflow:flow-registry>
+    </description>
+   -->
+  <customize:replace id="overwriteFlowRegistry" bean="flowRegistry" custom-ref="myFlowRegistry"/>
+  <webflow:flow-registry
+          id="myFlowRegistry"
+          flow-builder-services="flowBuilderServices">
+    <webflow:flow-location-pattern value="classpath*:/com/coremedia/blueprint/**/webflow/*.xml"/>
+    <webflow:flow-location-pattern value="classpath*:/com/coremedia/livecontext/**/webflow/*.xml"/>
+  </webflow:flow-registry>
+
+  <bean id="lcUserDetailsHelper" class="com.coremedia.livecontext.elastic.social.cae.LiveContextUserDetailsHelper">
+    <property name="userService" ref="liveContextUserService" />
+  </bean>
+
+  <bean id="lcRegistrationHelper" class="com.coremedia.livecontext.elastic.social.cae.LiveContextRegistrationHelper">
+    <property name="registrationHelper" ref="registrationHelper"/>
+    <property name="communityUserService" ref="communityUserService"/>
+    <property name="loginHelper" ref="loginHelper"/>
+  </bean>
+
+  <bean id="lcWebflowUrlHelper" class="com.coremedia.livecontext.elastic.social.cae.LiveContextUrlFlowHelper">
+    <property name="commerceUrl" value="${livecontext.apache.wcs.url}" />
+    <property name="commerceUserSessionService" ref="commerceUserSessionService"/>
+  </bean>
+
+  <bean id="userMapper" class="com.coremedia.livecontext.elastic.social.cae.UserMapper">
+    <property name="communityUserService" ref="communityUserService"/>
+    <property name="commentService" ref="commentService" />
+    <property name="ratingService" ref="ratingService" />
+    <property name="likeService" ref="likeService" />
+  </bean>
+
+</beans>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Recipes" name="Chicken Cordon Bleu Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Recipes/Chicken%20Cordon%20Bleu%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/Chicken%20Cordon%20Bleu%20Video"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-recipe-chicken-cordon-bleu</segment>
+<title>Hähnchen-Cordon-Bleu</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Chicken.xml" path="/Settings/Taxonomies/Subject/Chicken"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipes.xml" path="/Settings/Taxonomies/Subject/Recipes"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Cheese.xml" path="/Settings/Taxonomies/Subject/Cheese"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Ham.xml" path="/Settings/Taxonomies/Subject/Ham"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pans.xml" path="/Settings/Taxonomies/Subject/Pans"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/France.xml" path="/Settings/Taxonomies/Subject/France"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Cordon Bleu</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Hähnchen-Cordon-Bleu ist einfach zuzubereiten und ein leckeres Abendessen. Unsere Variante aus dem Backofen ist noch dazu viel gesünder!</p></div></detailText>
+<pictures>
+<link href="Chicken%20Cordon%20Bleu%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Chicken%20Cordon%20Bleu%20Picture"/>
+</pictures>
+<related>
+<link href="Breaded%20Chicken%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Breaded%20Chicken%20Video"/>
+</related>
+<alt>Hähnchen-Cordon-Bleu</alt>
+<copyright>cooksmarts.com / Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/64246916</dataUrl>
+</CMVideo>

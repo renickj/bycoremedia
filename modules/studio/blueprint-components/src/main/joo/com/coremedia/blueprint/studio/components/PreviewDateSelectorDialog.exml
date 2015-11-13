@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                baseClass="com.coremedia.blueprint.studio.components.PreviewDateSelectorDialogBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.Blueprint_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.util.StudioPluginUtils_properties"/>
+
+  <exml:description>
+    Configures the preview date and time.
+  </exml:description>
+
+  <exml:cfg name="previewPanel" type="com.coremedia.cms.editor.sdk.preview.PreviewPanel" />
+  <exml:cfg name="dateValueExpression" type="com.coremedia.ui.data.ValueExpression" />
+  <exml:cfg name="dummyValueExpression" type="com.coremedia.ui.data.ValueExpression" />
+
+  <window cls="modal-window-base"
+          title="{Blueprint_properties.INSTANCE.DateTimeSelector_title}"
+          width="480"
+          height="130"
+          hideBorders="true"
+          modal="true"
+          resizable="false"
+          constrainHeader="true"
+          layout="border">
+    <items>
+      <container style="padding:5px;"
+                 region="center">
+        <items>
+          <container>
+            <items>
+              <label text="{Blueprint_properties.INSTANCE.DateTimeSelector_description}" />
+            </items>
+          </container>
+          <bp:previewDateSelector itemId="previewDateSelector"
+                                  previewPanel="{config.previewPanel}"
+                                  dateValueExpression="{config.dateValueExpression}"
+                                  dummyValueExpression="{config.dummyValueExpression}"
+                                  cls="container-height-spacer" />
+        </items>
+      </container>
+    </items>
+    <buttons>
+      <ui:footerButton text="{StudioPluginUtils_properties.INSTANCE.btn_ok}"
+              handler="{okPressed}"
+              itemId="okBtn"/>
+    </buttons>
+  </window>
+
+</exml:component>

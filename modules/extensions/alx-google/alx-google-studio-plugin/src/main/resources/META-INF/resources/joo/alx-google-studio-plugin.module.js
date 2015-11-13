@@ -1,0 +1,2 @@
+joo.loadModule("${project.groupId}", "${project.artifactId}");
+coremediaEditorPlugins.push({mainClass:"com.coremedia.blueprint.studio.googleanalytics.GoogleAnalyticsStudioPlugin",name:"Google Analytics Integration"});

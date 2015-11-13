@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd
+       ">
+
+  <import resource="classpath:/com/coremedia/cae/uapi-services.xml"/>
+
+  <import resource="classpath:/framework/spring/blueprint-handlers.xml"/>
+  <import resource="classpath:/framework/spring/blueprint-views.xml"/>
+  <import resource="es-p13n-contexts.xml"/>
+
+  <customize:prepend id="addEsP13nCAERepositoryName" bean="viewRepositories" order="2000">
+    <description>
+      Make sure that this extension's view repository has higher priority than that of es-cae
+      so that our CMAction.explicitInterestsForm.jsp wins
+    </description>
+    <list>
+      <value>es-p13n-cae</value>
+    </list>
+  </customize:prepend>
+
+  <bean id="personalizationResource"
+        class="com.coremedia.blueprint.personalization.forms.PersonalizationPageActionHandler"
+        parent="pageHandlerBase">
+    <description>
+      Handles personalization requests and builds links
+    </description>
+    <property name="interestsService" ref="interestsService"/>
+  </bean>
+
+
+</beans>

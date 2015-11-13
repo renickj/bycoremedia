@@ -1,0 +1,288 @@
+/* =====================================================================================================================
+   Layout for Elastic Social functionality
+   Contains styling rules used for Elastic Social integration in Blueprint
+   ================================================================================================================== */
+
+/* --- forms -------------------------------------------------------------------------------------------------------- */
+
+.cm-form--progress {
+  position: relative;
+}
+
+.cm-form--progress:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* --- toolbars ----------------------------------------------------------------------------------------------------- */
+
+.cm-toolbar {
+  text-align: right;
+  font-size: 0;
+}
+
+.cm-toolbar--inactive {
+  display: none;
+}
+
+.cm-toolbar > * {
+  font-size: 1rem;
+}
+
+.cm-toolbar {
+  text-align: right;
+  font-size: 0;
+}
+
+/* --- quotes ------------------------------------------------------------------------------------------------------- */
+.cm-quote__header {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+/* --- comments ----------------------------------------------------------------------------------------------------- */
+
+/* comment form */
+.cm-new-comment {
+  display: none;
+}
+
+.cm-new-comment--active {
+  display: block;
+}
+
+.cm-new-comment .cm-toolbar {
+  border: 1px solid transparent; /* buttons should be inline with textarea */
+}
+
+/* widget */
+
+.cm-comments {
+  color: #3C3C3C;
+}
+
+.cm-comments > .cm-toolbar {
+  text-align: left;
+}
+
+/* list */
+
+.cm-collection--comments {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* comment */
+
+.cm-comment__header,
+.cm-comment__deleted {
+  border-top: 1px solid #919191;
+}
+
+.cm-comment__header {
+  font-size: 1.2rem;
+}
+
+.cm-comment__date {
+  font-size: 1rem;
+  color: #787878;
+}
+
+.cm-comment__text {
+  text-align: justify;
+  word-wrap: break-word; /* legacy */
+  overflow-wrap: break-word;
+  line-height: 1.25;
+}
+
+.cm-comment__deleted {
+  font-style: italic;
+  color: gray;
+}
+
+/* --- ratings ------------------------------------------------------------------------------------------------------ */
+
+.cm-rating {
+  display: inline-block;
+  cursor: default;
+}
+
+.cm-rating__option {
+  float: right;
+  vertical-align: middle;
+}
+
+.cm-rating__option:before {
+  vertical-align: middle;
+}
+
+/* rating indicators */
+
+.cm-rating-indicator {
+  font-size: 0;
+}
+
+.cm-rating-indicator:before {
+  content: "-";
+  font-size: 2rem;
+  color: #BABABA;
+}
+
+.cm-rating--highlighted .cm-rating-indicator:before {
+  font-size: 2.5rem;
+}
+
+.cm-rating-indicator--active:before,
+.cm-rating .cm-rating-indicator--active ~ .cm-rating-indicator:before {
+  content: "+";
+  color: #E10716;
+}
+
+.cm-rating-bar {
+  border: 1px solid #4d4d4d;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.cm-rating-bar__filled {
+  height: 100%;
+  background: #575759;
+  background: -moz-linear-gradient(left, #ededed 0%, #c7c7c7 100%);
+  background: -webkit-gradient(linear, left, right, color-stop(0%, #ededed), color-stop(100%, #c7c7c7));
+  background: -webkit-linear-gradient(left, #ededed 0%, #c7c7c7 100%);
+  background: -o-linear-gradient(left, #ededed 0%, #c7c7c7 100%);
+  background: -ms-linear-gradient(left, #ededed 0%, #c7c7c7 100%);
+  background: linear-gradient(to right, #ededed 0%, #c7c7c7 100%);
+  background-color: #c7c7c7;
+}
+
+.cm-rating-statistics {
+  display: table;
+  border: none;
+}
+
+.cm-rating-statistic {
+  display: table-row;
+}
+
+.cm-rating-statistic__column {
+  display: table-cell;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.cm-rating-statistic__column--rating-bar {
+  width: 100%;
+}
+
+.cm-ratings-average__switch {
+  cursor: pointer;
+}
+
+/* changeable rating indicator */
+
+.cm-field__value.cm-rating {
+  vertical-align: middle;
+}
+
+.cm-field input[name="rating"] {
+  display: none;
+}
+
+.cm-field input[name="rating"]:checked ~ .cm-rating-indicator:before,
+.cm-field input[name="rating"] ~ .cm-rating-indicator:hover:before,
+.cm-field input[name="rating"] + .cm-rating-indicator:hover ~ .cm-rating-indicator:before {
+  content: "+";
+  color: #E10716;
+}
+
+/* --- reviews ------------------------------------------------------------------------------------------------------ */
+
+/* review form */
+
+.cm-new-review__form .cm-field {
+  padding: 0;
+}
+
+.cm-new-review {
+  display: none;
+}
+
+.cm-new-review--active {
+  display: block;
+}
+
+.cm-new-review .cm-rating-indicator:before {
+  font-size: 2.5rem;
+}
+
+.cm-new-review .cm-form legend {
+  display: none;
+}
+
+.cm-new-review .cm-form label.cm-rating-indicator {
+  display: block;
+}
+
+.cm-new-review .cm-toolbar {
+  border: 1px solid transparent; /* buttons should be inline with textarea */
+}
+
+/* review */
+
+.cm-review {
+  border-top: 1px solid #919191;
+}
+
+.cm-review__rating,
+.cm-review__title {
+  vertical-align: middle;
+}
+
+.cm-review__author-date {
+  margin-left: 10px;
+}
+
+.cm-review__date {
+  color: #787878;
+  font-size: 1rem;
+}
+
+.cm-review__header {
+  font-size: 1.2rem;
+}
+
+.cm-review__title {
+  display: block;
+}
+
+.cm-review__text {
+  text-align: justify;
+  word-wrap: break-word; /* legacy */
+  overflow-wrap: break-word;
+  line-height: 1.25;
+}
+
+/* list */
+
+.cm-collection--reviews {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* widget */
+
+.cm-reviews {
+  color: #3C3C3C;
+}
+
+.cm-reviews > .cm-toolbar {
+  text-align: left;
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:dcqe="exml:com.coremedia.cms.studio.queryeditor.config"
+                baseClass="com.coremedia.cms.studio.queryeditor.conditions.LinkingTaxonomyConditionEditorBase">
+
+  <exml:import class="com.coremedia.cms.studio.queryeditor.QueryEditor_properties"/>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Content bean value expression</exml:description>
+  </exml:cfg>
+  <exml:cfg name="propertyName" type="String">
+    <exml:description>The property name of the struct to write into. Note that not the full path
+     is passed here but the relative substruct path that maybe does not exist yet.</exml:description>
+  </exml:cfg>
+
+
+  <dcqe:conditionEditorBase>
+    <items>
+      <container cls="content">
+        <items>
+          <label text="{QueryEditor_properties.INSTANCE.DCQE_text_linking_taxonomies_linked_by}"/>
+        </items>
+      </container>
+    </items>
+  </dcqe:conditionEditorBase>
+
+</exml:component>

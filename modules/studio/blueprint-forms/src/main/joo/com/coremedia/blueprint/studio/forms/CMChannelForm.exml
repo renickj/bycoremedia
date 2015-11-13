@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                xmlns:bpforms="exml:com.coremedia.blueprint.studio.config"
+                xmlns:bppm="exml:com.coremedia.blueprint.base.pagegrid.config"
+                xmlns:bpb-components="exml:com.coremedia.blueprint.base.components.config"
+                baseClass="CMChannelFormBase">
+
+  <exml:constant name="PAGE_GRID_TAB_ITEM_ID" value="pageGridTab"/>
+
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.CustomLabels_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.renderer.ViewtypeRenderer"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintDocumentTypes_properties"/>
+
+  <editor:documentTabPanel>
+    <items>
+      <editor:documentForm itemId="{PAGE_GRID_TAB_ITEM_ID}"
+                           title="{BlueprintTabs_properties.INSTANCE.Tab_content_title}">
+        <items>
+          <bpforms:collapsibleStringPropertyForm propertyName="title"
+                                                 title="{BlueprintDocumentTypes_properties.INSTANCE.CMChannel_title_text}"/>
+          <editor:collapsibleFormPanel itemId="cmChannelPageGridForm"
+                                       title="{CustomLabels_properties.INSTANCE.PropertyGroup_Placements_label}">
+            <items>
+              <bppm:pageGridPropertyField propertyName="placement"
+                                          hideLabel="true">
+                <bppm:fields>
+                  <ui:dataField name="viewtypeStatus"
+                                ifUnreadable=""
+                                mapping=""
+                                convert="{ViewtypeRenderer.convert}"/>
+                </bppm:fields>
+                <bppm:columns>
+                  <editor:typeIconColumn/>
+                  <editor:nameColumn/>
+                  <gridcolumn id="viewTypeUrl"
+                              width="40"
+                              sortable="false"
+                              dataIndex="viewtypeStatus"
+                              fixed="true"
+                              renderer="{ViewtypeRenderer.renderer}"/>
+                  <editor:statusColumn/>
+                </bppm:columns>
+              </bppm:pageGridPropertyField>
+            </items>
+          </editor:collapsibleFormPanel>
+          <bpforms:cmChannelTeaserDocumentForm/>
+          <bpforms:validityDocumentForm/>
+        </items>
+      </editor:documentForm>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_navigation_title}"
+                           itemId="navigationTab">
+        <items>
+          <editor:collapsibleFormPanel itemId="cmChannelChildrenForm"
+                                       title="{CustomLabels_properties.INSTANCE.PropertyGroup_Navigation_label}"
+                                       cls="padding-bottom-5">
+            <items>
+              <bp:extendedLinkListPropertyField bindTo="{config.bindTo}"
+                                                hideLabel="true"
+                                                propertyName="children">
+                <bp:additionalToolbarItems>
+                  <tbseparator/>
+                  <bpb-components:quickCreateLinklistMenu bindTo="{config.bindTo}"
+                                              contentTypes="CMChannel,CMExternalChannel"
+                                              propertyName="children"/>
+                </bp:additionalToolbarItems>
+              </bp:extendedLinkListPropertyField>
+              <spacer height="6"/>
+              <bpforms:visibilityDocumentForm bindTo="{config.bindTo}">
+                <plugins>
+                  <ui:bindPropertyPlugin bidirectional="true"
+                                         bindTo="{getIsRootChannelValueExpression(config.bindTo)}"
+                                         componentProperty="hidden"/>
+                </plugins>
+              </bpforms:visibilityDocumentForm>
+            </items>
+          </editor:collapsibleFormPanel>
+        </items>
+      </editor:documentForm>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_extras_title}">
+        <items>
+          <bpforms:categoryDocumentForm bindTo="{config.bindTo}"/>
+          <bpforms:channelSEOForm bindTo="{config.bindTo}"/>
+          <bpforms:collapsibleBlobPropertyForm bindTo="{config.bindTo}"
+                                               title="{BlueprintDocumentTypes_properties.INSTANCE.CMNavigation_favicon_text}"
+                                               propertyName="favicon">
+            <plugins>
+              <ui:bindPropertyPlugin bidirectional="true"
+                                     transformer="{function(hidden:Boolean):Boolean {return !hidden;}}"
+                                     reverseTransformer="{function(hidden:Boolean):Boolean {return !hidden;}}"
+                                     bindTo="{getIsRootChannelValueExpression(config.bindTo)}"
+                                     componentProperty="hidden"/>
+            </plugins>
+          </bpforms:collapsibleBlobPropertyForm>
+        </items>
+      </editor:documentForm>
+      <bpforms:multiLanguageDocumentForm/>
+      <bpforms:channelMetaDataInformationForm/>
+    </items>
+  </editor:documentTabPanel>
+
+</exml:component>

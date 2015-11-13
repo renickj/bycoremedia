@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Editorial/Content/Microsites/Meat Lovers/Pictures" name="BBQ Skewer Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=846;y=0;width=2317;height=3589</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=655;y=0;width=2690;height=3589</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=212;y=0;width=3587;height=3589</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=292;width=4000;height=3004</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=524;width=4000;height=2248</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=796;width=4000;height=2006</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=998;width=4000;height=1603</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=1048;width=4000;height=1502</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=1301;width=4000;height=998</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.21158690176322417;y1=0;x2=0.7909319899244333;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.163727959697733;y1=0;x2=0.836272040302267;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.05289672544080604;y1=0;x2=0.9496221662468514;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.08146067415730338;x2=1;y2=0.9185393258426966</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.14606741573033707;x2=1;y2=0.7724719101123596</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.22191011235955055;x2=1;y2=0.7808988764044944</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.27808988764044945;x2=1;y2=0.7247191011235955</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.29213483146067415;x2=1;y2=0.7106741573033708</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.36235955056179775;x2=1;y2=0.6404494382022472</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>BBQ Skewer</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><br/></p></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>BBQ Skewer</alt>
+<copyright></copyright>
+<data md5="c0c0958009961697aa34b23335fccbef" href="../../../../../../../../../__blob/c0c0958009961697aa34b23335fccbef.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>4000</width>
+<height>3590</height>
+</CMPicture>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Landing Pages/Spring" name="Spring Recipes Landing Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>spring-recipes-landingpage</segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Our Best Spring Recipes</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Enjoy the sunny season with a Picnic outdoors with your friends. Prepare fresh Spring salads to take along. Try our Quiches that also taste great when eaten cold in Summer. Learn how to make a perfect chicken roast. Find barbeque recipes for steaks and burgers. Check out our reviews for blenders to make healthy, refreshing smoothies.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Recipes/Spring%20Recipes/Avocado%20with%20Shrimp%20Appetizer%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Spring%20Recipes/Avocado%20with%20Shrimp%20Appetizer%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../Categories/05_Recipes/Spring%20Recipes/Spring%20Recipes.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Spring%20Recipes/Spring%20Recipes"/>
+</target>
+</CMTeaser>

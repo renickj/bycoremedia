@@ -1,0 +1,40 @@
+/* =====================================================================================================================
+   Layout for PCS
+   Contains styling rules used for fragments in WCS FEP7
+   use #page prefix to add these styles only to fragments
+   ================================================================================================================== */
+
+/* Page */
+#page {
+  overflow: hidden;
+  /* for smallest mobile screen */
+  margin: 0 auto;
+  min-width: 320px;
+  /* if there is no content in cm-placement-main megamenu will break due to overflow hidden otherwise */
+  min-height: 500px;
+  /* for 1280px screens - scrollbar */
+  max-width: 1200px;
+}
+
+#page .cm-placement-header {
+  background: #ffffff;
+}
+
+#page .cm-placement-footer {
+  width: 100%;
+}
+
+/* --- WCS Overrides ------------------------------------------------------------------------------------------------ */
+#page .rowContainer > .row.margin-true {
+  padding: 0;
+}
+
+#page .rowContainer,
+#page .rowContainer > .row {
+  padding: 0;
+}
+
+/* hide ibm breadcrumb, use our own instead */
+#page #widget_breadcrumb {
+  display: none;
+}

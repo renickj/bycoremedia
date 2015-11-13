@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Fall Recipes/Desserts" name="Cooked Pears Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Cooked Pears with Flaked Almonds and Chocolate Sauce</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Sugar.xml" path="/Settings/Taxonomies/Subject/Sugar"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Butter.xml" path="/Settings/Taxonomies/Subject/Butter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Sweet.xml" path="/Settings/Taxonomies/Subject/Sweet"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dessert.xml" path="/Settings/Taxonomies/Subject/Dessert"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/American.xml" path="/Settings/Taxonomies/Subject/American"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Apple.xml" path="/Settings/Taxonomies/Subject/Apple"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Pears</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Pears can easily be turned into a simple, yet scrumptious fall dessert.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>Pears can easily be turned into a simple dessert with less than 10 minutes preparation.</p><p class="p--heading-2">Ingredients</p><ul><li>2 large pears</li><li>1/2l milk</li><li>3 tablespoons rum</li><li>2 tablespoons sugar</li><li>2 tablespoons unsalted butter</li><li>1 pack of vanilla pudding</li><li>Cinnamon</li><li>Chocolate sauce</li><li>30g flaked almonds</li></ul><p class="p--heading-2">Preparation</p><p/><ul><li>Peel the pears and cut them into small cubes</li><li>Mix the vanilla pudding with the milk and sugar </li><li>Core and thinly slice the pears</li><li>Sauté the pears in the butter for 3 minutes</li><li>Add the chocolate sauce and the rum</li><li>Sprinkle with 2 tablespoons sugar and cook, stirring, until the sugar turns golden, 3 minutes</li><li>Spoon the pudding into cups and top with the warm pears; sprinkle with some ground cinnamon</li></ul><p class="p--heading-2">Serving Suggestion</p><p>Serve the pears warm or at room temperature. Accompany with perhaps a scoop of Vanilla ice cream and some dark chocolate sauce, a spoonful of crème fraîche, Milk chocolate &amp; black pepper ice cream, fresh raspberries, or alongside a wedge of spice cake or gingerbread.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Cooked%20Pears%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Cooked%20Pears%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../../Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Relatecb383b24.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Related%20Sidebar%20Collection"/>
+</related>
+</CMArticle>

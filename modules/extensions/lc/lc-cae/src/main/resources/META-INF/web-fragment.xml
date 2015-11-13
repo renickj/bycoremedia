@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-fragment version="3.0"
+              xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+              http://java.sun.com/xml/ns/javaee/web-fragment_3_0.xsd">
+
+  <name>livecontext_plugin_cae</name>
+
+  <filter>
+    <filter-name>FragmentContext Provider</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    <init-param>
+      <param-name>targetBeanName</param-name>
+      <param-value>fragmentContextProvider</param-value>
+    </init-param>
+  </filter>
+  <filter>
+    <filter-name>Cookie Leveler</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    <init-param>
+      <param-name>targetBeanName</param-name>
+      <param-value>cookieLeveler</param-value>
+    </init-param>
+  </filter>
+
+
+  <filter-mapping>
+    <filter-name>Cookie Leveler</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>FragmentContext Provider</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+</web-fragment>

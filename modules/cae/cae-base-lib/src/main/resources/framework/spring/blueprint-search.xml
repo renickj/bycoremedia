@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <description>
+    Search specific bean definitions
+  </description>
+
+  <import resource="classpath:/com/coremedia/cae/uapi-services.xml"/>
+  <import resource="classpath:/framework/spring/search/solr-search.xml"/>
+  <import resource="classpath:/com/coremedia/cap/multisite/multisite-services.xml"/>
+
+  <!-- The search service -->
+  <bean id="searchActionService" class="com.coremedia.blueprint.cae.action.search.SearchService">
+    <property name="resultFactory" ref="resultFactory"/>
+    <property name="highlightingEnabled" value="true"/>
+    <property name="contentBeanFactory" ref="contentBeanFactory"/>
+    <property name="contentRepository" ref="contentRepository"/>
+    <property name="sitesService" ref="sitesService"/>
+    <property name="settingsService" ref="settingsService"/>
+  </bean>
+
+</beans>

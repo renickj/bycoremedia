@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:bpforms="exml:com.coremedia.blueprint.studio.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config">
+
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintDocumentTypes_properties"/>
+  <exml:import class="com.coremedia.livecontext.studio.LivecontextStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.ecommerce.studio.CatalogModel" />
+  <exml:import class="com.coremedia.blueprint.studio.CustomLabels_properties"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+
+  <editor:documentTabPanel>
+    <items>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_content_title}">
+        <items>
+          <bpforms:teaserDocumentForm/>
+          <editor:collapsibleFormPanel title="{LivecontextStudioPlugin_properties.INSTANCE.CMMarketingSpot_text}"
+                                       itemId="cmMarketingSpotExternalIdForm">
+            <items>
+              <ec:catalogLinkPropertyField hideLabel="true"
+                                                    ddGroup="ContentDD"
+                                                    propertyName="externalId"
+                                                    openLinkSources="{CatalogHelper.getInstance().openMarketingSpots}"
+                                                    catalogObjectType="{CatalogModel.TYPE_MARKETING_SPOT}"
+                                                    emptyText="{LivecontextStudioPlugin_properties.INSTANCE.MarketingSpot_Link_empty_text}"/>
+            </items>
+          </editor:collapsibleFormPanel>
+          <editor:collapsibleFormPanel title="{BlueprintDocumentTypes_properties.INSTANCE.CMDynamicList_maxLength_text}"
+                                       itemId="cmMarketingSpotLengthForm">
+            <items>
+              <editor:integerPropertyField propertyName="maxLength" hideLabel="true"/>
+            </items>
+          </editor:collapsibleFormPanel>
+          <bpforms:viewTypeSelectorForm/>
+        </items>
+      </editor:documentForm>
+      <bpforms:multiLanguageDocumentForm/>
+      <bpforms:metaDataInformationForm/>
+    </items>
+  </editor:documentTabPanel>
+
+</exml:component>

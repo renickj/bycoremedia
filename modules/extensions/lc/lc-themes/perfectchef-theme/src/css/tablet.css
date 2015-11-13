@@ -1,0 +1,598 @@
+/* =====================================================================================================================
+   Tablet
+   ================================================================================================================== */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+  /* hidden flags defining screen type and orientation for javascript */
+  body:after {
+    content: 'tablet';
+  }
+
+  /* --- layout ----------------------------------------------------------------------------------------------------- */
+  /* heading */
+  .cm-heading2 {
+    font-size: 1.46rem;
+    line-height: 1.8rem;
+  }
+
+  .cm-heading2--boxed {
+    padding: 0.36rem 0.54em;
+  }
+
+  .cm-heading3 {
+    font-size: 1.125rem;
+  }
+
+  .cm-heading3--boxed {
+    padding: 10px 25px;
+  }
+
+  .cm-heading4 {
+    font-size: 1.2rem;
+  }
+
+  .cm-heading4--boxed {
+    padding: 0.36rem 0.50em;
+    line-height: 1.6rem;
+  }
+
+  .cm-heading5 {
+    font-size: 1.3333rem;
+    line-height: 2rem;
+  }
+
+  .cm-heading5--boxed {
+    padding: 0.3rem 0.4rem;
+  }
+
+  /* headline */
+  .cm-headline .cm-aspect-ratio-box:before {
+    padding-top: 37.5%; /* 8:3 */
+  }
+
+  .cm-headline--small .cm-aspect-ratio-box:before {
+    padding-top: 25%; /* 4:1 */
+  }
+
+  /* --- icon ------------------------------------------------------------------------------------------------------- */
+  .cm-icon__symbol {
+    width: 70px;
+    font-size: 2.6rem;
+  }
+
+  /* --- header ----------------------------------------------------------------------------------------------------- */
+  .cm-placement-header {
+    line-height: 70px;
+  }
+
+  .cm-logo a {
+    width: 250px;
+    height: 70px;
+    background-image: url(../img/logo_tablet.png);
+  }
+
+  /* --- search ----------------------------------------------------------------------------------------------------- */
+  .cm-popup-button--search.cm-popup-button--active:before {
+    height: 70px;
+  }
+
+  .cm-popup-button--search.cm-popup-button--active:after {
+    top: 70px;
+  }
+
+  .cm-popup--search-suggestions {
+    margin-left: 10px;
+    margin-right: 45px;
+    top: 43px;
+  }
+
+  .cm-search-form__field {
+    display: inline-block;
+    width: 100%;
+    font-size: 1rem;
+    margin-right: -49px;
+    padding: 3px 45px 3px 10px;
+    vertical-align: middle;
+  }
+
+  /* -- article ----------------------------------------------------------------------------------------------------- */
+  .cm-box__content {
+    margin: 14px 16px;
+  }
+
+  /* --- button ----------------------------------------------------------------------------------------------------- */
+  .cm-button {
+    font-size: 1.125rem;
+    line-height: 2.26667rem;
+  }
+
+  .cm-button-group--overlay .cm-button-group__button {
+    display: none;
+  }
+
+  .cm-icon--cart-add-item .cm-icon__symbol {
+    font-size: 1.5rem;
+  }
+
+  /* --- teaser ----------------------------------------------------------------------------------------------------- */
+  .cm-price--teaser {
+    font-size: 1.2rem;
+  }
+
+  .cm-price--teaser.cm-price--special,
+  .cm-price--quickinfo.cm-price--special {
+    font-size: 1.46rem;
+  }
+
+  .cm-product-info__title > *,
+  .cm-product-info__pricing > * {
+    padding: 0.36rem 0.50em;
+  }
+
+  /* --- collection ------------------------------------------------------------------------------------------------- */
+  .cm-collection--masonry__grid-gutter {
+    width: 0;
+    width: calc(8px);
+  }
+
+  .cm-collection--masonry > .cm-collection__item {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    margin-bottom: 0;
+    margin-bottom: calc(8px);
+  }
+
+  .cm-collection--masonry > .cm-collection__item,
+  .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    width: calc(50% - 4px);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    width: calc(50% - 4px - 1px / 100);
+  }
+
+  .cm-collection--masonry > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 75%; /* 4:3 */
+  }
+
+  /* --- default collection ----------------------------------------------------------------------------------------- */
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--default > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--default > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- promo collection ------------------------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-child(1) {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 100%;
+    width: calc(100%);
+  }
+
+  /* boxes */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box:before {
+    padding-top: 37.5%; /* 8:3 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* element 1 */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-of-type(1):nth-last-of-type(1),
+  /* first element of last row */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-of-type(2n+2):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-of-type(2n+2):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles layout left collection ------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-left > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box:before {
+    padding-top: 150%; /* 2:3 */
+  }
+
+  .cm-collection--tiles-left > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box {
+    margin-right: 0;
+    /* -8px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 16px / 3);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* element 1 */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(1):nth-last-of-type(-n+3),
+  /* element 2 does not matter, it can keep its margin due to element 1 being larger */
+  /* element 3 */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(3):nth-last-of-type(1),
+  /* first element of last row */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(2n+4):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(2n+4):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- titles layout center  collection --------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-center > .cm-collection__item:nth-child(2) .cm-aspect-ratio-box:before {
+    padding-top: 150%; /* 2:3 */
+  }
+
+  .cm-collection--tiles-center > .cm-collection__item:nth-child(2) .cm-aspect-ratio-box {
+    margin-right: 0;
+    /* -8px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 16px / 3);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* element 1 */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(1):nth-last-of-type(1),
+  /* element 2 */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(2):nth-last-of-type(-n+2),
+  /* element 3 */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(3):nth-last-of-type(1),
+  /* first element of last row */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(2n+4):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(2n+4):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- titles layout right  collection ---------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-right > .cm-collection__item:nth-child(3) .cm-aspect-ratio-box:before {
+    padding-top: 150%; /* 2:3 */
+  }
+
+  .cm-collection--tiles-right > .cm-collection__item:nth-child(3) .cm-aspect-ratio-box {
+    margin-right: 0;
+    /* -8px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 16px / 3);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* element 1 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(1):nth-last-of-type(-n+2),
+  /* element 2 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(2):nth-last-of-type(1),
+  /* element 3 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(3):nth-last-of-type(-n+3),
+  /* element 4 does not matter, it can keep its margin due to element 3 being larger */
+  /* element 5 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(5):nth-last-of-type(1),
+  /* first element of last row */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(2n+6):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(2n+6):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles portrait collection ---------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-portrait > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 133.3333%; /* 3:4 */
+    padding-top: calc(400% / 3); /* 3:4 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-portrait > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-portrait > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles landscape collection --------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-landscape > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 56.25%; /* 16:9 */
+    padding-top: calc(900% / 16); /* 16:9 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-landscape > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-landscape > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles 50-50 portrait collection ---------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 133.3333%; /* 3:4 */
+    padding-top: calc(400% / 3); /* 3:4 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles 50-50 landscape collection --------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 56.25%; /* 16:9 */
+    padding-top: calc(900% / 16); /* 16:9 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- productlisting collection ---------------------------------------------------------------------------------- */
+  .cm-category-item__title {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    /* Height of 2 lines */
+    min-height: 2.8rem;
+  }
+
+  .cm-category-item__pricing {
+    line-height: 1.8rem;
+  }
+
+  .cm-category-item .cm-category-item__image.cm-aspect-ratio-box:before {
+    padding-top: 155%;
+  }
+
+  .cm-price--category-item {
+    font-size: 1.4rem;
+  }
+
+  .cm-price--category-item.cm-price--old {
+    font-size: 1.2rem;
+  }
+
+  /* marketing spot collection -------------------------------------------------------------------------------------- */
+  .cm-collection--marketingspot-single > .cm-collection__item {
+    width: 100%;
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item {
+    width: calc(50% - 8px / 2);
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item:nth-child(2n+2) {
+    margin-left: calc(8px);
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item:nth-child(n+3) {
+    margin-top: calc(8px);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item {
+    width: calc(33.3333% - 16px / 3);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(3n+2),
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(3n+3) {
+    margin-left: calc(8px);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(n+4) {
+    margin-top: calc(8px);
+  }
+
+  /* --- titled collections ----------------------------------------------------------------------------------------- */
+
+  .cm-frame {
+    padding: 8px;
+  }
+
+  .cm-frame--teaser {
+    padding: 8px;
+  }
+
+  .cm-frame__title {
+    margin-bottom: 8px;
+    font-size: 1.46rem;
+  }
+
+  /* adapt to 4:3 aspect ratio */
+  .cm-frame > .cm-teaser {
+    margin: 0 32px;
+  }
+
+  /* --- teasers ---------------------------------------------------------------------------------------------------- */
+
+  .cm-teaser__content ~ .cm-teaser__info {
+    margin: 4px;
+  }
+
+  .cm-teaser--text .cm-teaser__content {
+    font-size: 1.22rem;
+  }
+
+  .cm-teaser__button-group,
+  .cm-teaser__quickinfo {
+    display: none;
+  }
+
+  .cm-imagemap__quickinfo {
+    width: 100%;
+  }
+
+  .cm-quickinfo {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 8px;
+  }
+
+  .cm-quickinfo__image {
+    vertical-align: top;
+    width: 100px;
+  }
+
+  .cm-quickinfo__close {
+    display: none;
+  }
+
+  .cm-quickinfo__title {
+    margin: 0;
+  }
+
+  .cm-quickinfo__text p {
+    margin: 0;
+  }
+
+  .cm-quickinfo__listprice,
+  .cm-quickinfo__offerprice {
+    text-align: right;
+    padding: 0;
+  }
+
+  .cm-quickinfo__property {
+    display: table-cell;
+    width: 100%;
+    height: 75px; /* acts as min-height in table-cell */
+    vertical-align: top;
+    padding-left: 20px;
+  }
+
+  .cm-quickinfo__property--image {
+    padding-left: 0;
+    width: 100px;
+  }
+
+  .cm-quickinfo__property--add-to-cart {
+    background: #FFFFFF;
+    height: auto;
+    margin-top: -5rem;
+    position: absolute;
+    right: 1rem;
+    width: auto;
+  }
+
+  .cm-quickinfo__property--add-to-cart a {
+    display: block;
+    padding: 0.5rem;
+  }
+
+  .cm-quickinfo__property--controls {
+    vertical-align: bottom;
+  }
+
+  /* --- navigation ------------------------------------------------------------------------------------------------- */
+  /* dropdown-menu */
+  /* general size for buttons in dropdown */
+  .cm-dropdown .cm-dropdown-button,
+    /* keep space although button is absolute for cm-placement-header */
+  .cm-placement-header .cm-dropdown .cm-dropdown-item--level1 {
+    width: 70px;
+    height: 70px;
+    font-size: 2.6rem;
+  }
+
+  .cm-dropdown .cm-dropdown-item > a {
+    padding: 0 15px;
+    font-size: 1.375rem;
+    line-height: 70px;
+  }
+
+  .cm-dropdown .cm-dropdown-item.cm-dropdown-menu--opened > a {
+    padding-left: 84px; /* 69px + 15px */
+  }
+
+  .cm-dropdown .cm-dropdown-item > a:after {
+    top: 14px;
+    right: 69px;
+    bottom: 14px;
+    width: 1px;
+    height: 42px;
+  }
+
+  /* if opened border is positioned differently */
+  .cm-dropdown .cm-dropdown-item.cm-dropdown-menu--opened > a:after {
+    left: 70px;
+  }
+
+  /* header specific */
+  /* place absolute menu level 2 */
+  .cm-placement-header .cm-dropdown .cm-dropdown-menu--level2 {
+    top: 69px;
+  }
+
+  /* background on open in header */
+  .cm-placement-header .cm-dropdown .cm-dropdown-item--level1.cm-dropdown-menu--opened:before {
+    top: 70px;
+  }
+
+  .cm-placement-header .cm-dropdown .cm-dropdown-item--level1.cm-dropdown-menu--opened:after {
+    height: 70px;
+  }
+
+  .cm-navigation--footer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 15px;
+    width: 60%;
+    text-align: left;
+  }
+
+  .cm-navigation--footer > li {
+    float: left;
+    margin-bottom: 30px;
+    width: 50%;
+  }
+
+  .cm-navigation--footer > li > ul > li > ul {
+    margin-top: 10px;
+  }
+
+  .cm-placement-footer > .cm-mailinglist,
+  .cm-placement-footer > .cm-followus {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .cm-mailinglist__title,
+  .cm-followus__title {
+    font-size: 1.375rem;
+  }
+
+  .cm-mailinglist__form input {
+    width: 40%;
+  }
+
+  .cm-placement-footer .cm-navigation--footer > li > a {
+    font-size: 1.375rem;
+  }
+
+  .cm-placement-footer .cm-navigation--footer > li > a {
+    display: block;
+    margin-bottom: 16px;
+    color: #373737;
+  }
+
+  /* hide dropdown buttons in footer */
+  .cm-placement-footer .cm-dropdown-button {
+    display: none !important; /* must be overridden due to use of pseudo elements for icons */
+  }
+}
+
+/* --- highres/retina styles ---------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 600px) and (max-width: 1024px) and (min-resolution: 192dpi) {
+
+  .cm-logo > a {
+    background-image: url(../img/logo_tablet_highres.png);
+  }
+}

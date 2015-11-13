@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>modules</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>extension-config</artifactId>
+  <packaging>pom</packaging>
+
+  <properties>
+    <!--
+     | these poms are generated so we can safely skip this
+     -->
+    <enforcer.skip>true</enforcer.skip>
+  </properties>
+
+
+  <modules>
+    <module>server-extension-dependencies</module>
+    <module>contentfeeder-extension-dependencies</module>
+    <module>cae-extension-dependencies</module>
+    <module>caefeeder-extension-dependencies</module>
+    <module>studio-extension-dependencies</module>
+    <module>studio-lib-extension-dependencies</module>
+    <module>editor-lib-extension-dependencies</module>
+    <module>preview-cae-extension-dependencies</module>
+    <module>elastic-worker-extension-dependencies</module>
+    <module>workflow-server-extension-dependencies</module>
+    <module>user-changes-extension-dependencies</module>
+  </modules>
+
+</project>

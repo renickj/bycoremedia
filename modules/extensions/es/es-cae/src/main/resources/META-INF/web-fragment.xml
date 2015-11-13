@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-fragment version="3.0"
+              xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+              http://java.sun.com/xml/ns/javaee/web-fragment_3_0.xsd">
+
+  <name>elastic_social_plugin_cae</name>
+
+  <ordering>
+    <after>
+      <name>blueprint_cae</name>
+    </after>
+  </ordering>
+
+  <filter>
+    <filter-name>tenantFilter</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>tenantFilter</filter-name>
+    <url-pattern>/servlet/dynamic/*</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>springSecurityFilterChain</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>springSecurityFilterChain</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>userFilter</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>userFilter</filter-name>
+    <url-pattern>/servlet/dynamic/*</url-pattern>
+    <url-pattern>/servlet/resource/elastic/*</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>guidFilter</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>guidFilter</filter-name>
+    <url-pattern>/servlet/dynamic/*</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>sessionSiteFilter</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>sessionSiteFilter</filter-name>
+    <url-pattern>/servlet/dynamic/*</url-pattern>
+  </filter-mapping>
+
+  <listener>
+    <description>Publishing HTTP session events to spring's root web application context</description>
+    <listener-class>org.springframework.security.web.session.HttpSessionEventPublisher</listener-class>
+  </listener>
+
+</web-fragment>

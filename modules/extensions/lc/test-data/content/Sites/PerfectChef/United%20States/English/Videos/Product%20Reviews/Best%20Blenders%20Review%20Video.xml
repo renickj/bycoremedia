@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/United States/English/Videos/Product Reviews" name="Best Blenders Review Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-review-best-blenders</segment>
+<title>Equipment Review: Best Blenders</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Review.xml" path="/Settings/Taxonomies/Subject/Review"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Blenders.xml" path="/Settings/Taxonomies/Subject/Blenders"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Best Blenders</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>We wanted crushed ice and smooth puree. Was that too much to ask?</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>We wanted crushed ice and smooth puree. Was that too much to ask? To find out, we corralled 9 blenders—everything from an affordable $40 appliance to our luxe benchmark, the Vitamix, as well as a new copy of the KitchenAid. Hummus, crushed ice, margarita, and milkshake tests were givens, but to separate the workhorses from the wimps, every day for a month we also made smoothies in each one with fibrous frozen pineapple and stringy raw kale. Glimpse behind the scenes of our testing process, and learn which blender came out on top.</p></div></detailText>
+<pictures>
+<link href="Best%20Blenders%20Review%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Blenders%20Review%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Equipment Review: Best Blenders</alt>
+<copyright>Copyright: America's Test Kitchen/YouTube embedded</copyright>
+<dataUrl>//www.youtube.com/embed/QZArusuuQrc?rel=0</dataUrl>
+</CMVideo>

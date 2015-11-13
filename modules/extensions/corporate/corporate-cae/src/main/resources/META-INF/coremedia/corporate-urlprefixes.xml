@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd http://www.coremedia.com/2007/coremedia-spring-beans-customization http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+  <import resource="classpath:/com/coremedia/blueprint/base/links/bpbase-links-services.xml"/>
+  <customize:append id="corporateSitePrefixMapping" bean="siteMappings">
+    <map>
+      <entry key="1cc6f00b7e1b77a49caf7e72f5fe10c0" value="${blueprint.site.mapping.corporate:}"/>
+      <entry key="abffe57734feeee" value="${blueprint.site.mapping.corporate:}"/>
+    </map>
+  </customize:append>
+</beans>

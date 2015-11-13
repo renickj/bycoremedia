@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="classpath:/framework/spring/livecontext-services.xml"/>
+    <import resource="classpath:/framework/spring/livecontext-commercebeans.xml"/>
+
+  <bean id="productHandler" class="com.coremedia.livecontext.incubator.handler.ProductHandler">
+    <description>
+      Handles vanilla product detail page
+    </description>
+    <property name="catalogService" ref="catalogService"/>
+    <property name="storeContextProvider" ref="storeContextProvider"/>
+    <property name="userContextProvider" ref="userContextProvider"/>
+    <property name="sitesService" ref="sitesService"/>
+    <property name="settingsService" ref="settingsService"/>
+  </bean>
+  <bean id="categoryHandler" class="com.coremedia.livecontext.incubator.handler.CategoryHandler">
+    <description>
+      Handles vanilla category pages
+    </description>
+    <property name="catalogService" ref="catalogService"/>
+    <property name="storeContextProvider" ref="storeContextProvider"/>
+  </bean>
+  <bean id="productSearchHandler" class="com.coremedia.livecontext.incubator.handler.ProductSearchHandler">
+    <description>
+      Handles vanilla search page
+    </description>
+    <property name="catalogService" ref="catalogService"/>
+    <property name="storeContextProvider" ref="storeContextProvider"/>
+  </bean>
+  <bean id="cacheInvalidateHandler" class="com.coremedia.livecontext.incubator.handler.CommerceCacheInvalidationHandler">
+    <property name="cache" ref="cache"/>
+  </bean>
+</beans>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Product Reviews" name="Best Coolers Review YouTube Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Product%20Reviews/Best%20Coolers%20Review%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Coolers%20Review%20Video"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-review-the-best-coolers</segment>
+<title>Beste Kühlboxen</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Review.xml" path="/Settings/Taxonomies/Subject/Review"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Outdoor.xml" path="/Settings/Taxonomies/Subject/Outdoor"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Beste Kühlboxen</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Unsere Küchen-Expertin Lisa stellt Kühlboxen auf die Probe.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Unsere Küchen-Expertin Lisa stellt Kühlboxen auf die Probe. Welche Modelle werden Sieger und welche müssen sich geschlagen geben?</p></div></detailText>
+<pictures>
+<link href="Best%20Coolers%20Review%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Product%20Reviews/Best%20Coolers%20Review%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Ausstattung der Bewertung: Best-Kühler</alt>
+<copyright>America's Test Kitchen / YouTube embedded</copyright>
+<dataUrl>//www.youtube.com/embed/uweI5sR53uw?rel=0</dataUrl>
+</CMVideo>

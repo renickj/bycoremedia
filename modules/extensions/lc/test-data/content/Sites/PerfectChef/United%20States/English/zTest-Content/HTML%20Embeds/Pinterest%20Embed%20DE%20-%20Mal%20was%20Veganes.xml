@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMHTML folder="/Sites/PerfectChef/United States/English/zTest-Content/HTML Embeds" name="Pinterest Embed DE - Mal was Veganes" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Pinterest Board Embed</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Our favorite recipes from Pinterest</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Our favorite recipes from Pinterest</p></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt></alt>
+<copyright></copyright>
+<description>Description</description>
+<data grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>&lt;a data-pin-do="embedBoard" href="http://www.pinterest.com/perfectchefde/unsere-liebsten-rezepte-auf-pinterest/" data-pin-scale-width="80" data-pin-scale-height="400" data-pin-board-width="320"&gt;Folgen Sie Perfect Chef Deutschland - Unseren liebsten Rezepte auf Pinterest.&lt;/a&gt;<br/></p><p><br/></p></div></data>
+</CMHTML>

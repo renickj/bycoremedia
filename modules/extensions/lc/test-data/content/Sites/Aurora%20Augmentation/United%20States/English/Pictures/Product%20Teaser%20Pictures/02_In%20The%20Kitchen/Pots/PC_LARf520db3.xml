@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Product Teaser Pictures/02_In The Kitchen/Pots" name="PC_LARGE_ENAMEL_POT Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=118;y=0;width=919;height=1423</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=103;y=0;width=1069;height=1423</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=114;y=0;width=1425;height=1423</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=75;y=0;width=1898;height=1423</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=201;width=2048;height=1151</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=244;width=2048;height=1025</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=244;width=2048;height=820</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=244;width=2048;height=769</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=280;width=2048;height=512</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.057803468208092484;y1=0;x2=0.5067437379576107;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.05009633911368015;y1=0;x2=0.5722543352601156;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.055876685934489405;y1=0;x2=0.7514450867052023;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.036608863198458574;y1=0;x2=0.9633911368015414;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.14127423822714683;x2=1;y2=0.9501385041551247</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.17174515235457063;x2=1;y2=0.8919667590027701</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.17174515235457063;x2=1;y2=0.7479224376731302</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.17174515235457063;x2=1;y2=0.7119113573407202</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.19667590027700832;x2=1;y2=0.556786703601108</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_LARGE_ENAMEL_POT</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Large, Red Enamel Pot with Black Coating</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Pots.xml" path="/Settings/Taxonomies/Subject/Pots"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Large, Red Enamel Pot with Black Coating</alt>
+<copyright>minadezhda/Shutterstock 168893699</copyright>
+<data md5="e7f40a6205877943cfd2c6a8c6a851ac" href="../../../../../../../../__blob/e7f40a6205877943cfd2c6a8c6a851ac.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

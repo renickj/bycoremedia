@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns="exml:ext.config">
+
+  <exml:import class="com.coremedia.blueprint.studio.struct.StructEditor_properties"/>
+
+  <exml:cfg name="forceReadOnlyValueExpression" type="com.coremedia.ui.data.ValueExpression"/>
+  <exml:cfg name="bindToMin" type="com.coremedia.ui.data.ValueExpression"/>
+  <exml:cfg name="bindToMax" type="com.coremedia.ui.data.ValueExpression"/>
+
+  <container layout="border"
+             height="52">
+    <items>
+      <container region="west"
+                 layout="border"
+                 width="48%"
+                 cls="background-grey-box">
+        <items>
+          <label text="{StructEditor_properties.INSTANCE['Struct_attribute_Min']}" region="north" cls="struct-editor-title"/>
+          <numberfield anchor="100%"
+                       style="height:21px;"
+                       region="center"
+                       cls="string-property-field">
+            <plugins>
+              <ui:bindPropertyPlugin bindTo="{config.bindToMin}" ifUndefined="" bidirectional="true"/>
+              <ui:immediateChangeEventsPlugin/>
+              <editor:bindReadOnlyPlugin forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"
+                                         bindTo="{config.bindTo}"/>
+            </plugins>
+          </numberfield>
+        </items>
+      </container>
+      <spacer region="center"
+              width="4%"
+              cls="background-grey-box"/>
+      <container region="east"
+                 layout="border"
+                 width="48%"
+                 cls="background-grey-box">
+        <items>
+          <label text="{StructEditor_properties.INSTANCE['Struct_attribute_Max']}" region="north" cls="struct-editor-title"/>
+          <numberfield anchor="100%"
+                       style="height:21px;"
+                       region="center"
+                       cls="string-property-field">
+            <plugins>
+              <ui:bindPropertyPlugin bindTo="{config.bindToMax}" ifUndefined="" bidirectional="true"/>
+              <ui:immediateChangeEventsPlugin/>
+              <editor:bindReadOnlyPlugin forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"
+                                         bindTo="{config.bindTo}"/>
+            </plugins>
+          </numberfield>
+        </items>
+      </container>
+    </items>
+  </container>
+</exml:component>

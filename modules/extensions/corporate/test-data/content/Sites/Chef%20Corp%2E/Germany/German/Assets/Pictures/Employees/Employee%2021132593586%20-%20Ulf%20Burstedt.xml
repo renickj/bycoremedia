@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Chef Corp./Germany/German/Assets/Pictures/Employees" name="Employee 21132593586 - Ulf Burstedt" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Assets/Pictures/Employees/Employee%2021132593586%20-%20Gustavo%20White.xml" path="/Sites/Chef%20Corp%2E/United%20States/English/Assets/Pictures/Employees/Employee%2021132593586%20-%20Gustavo%20White"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0.022670025188916875</StringProperty>
+<StringProperty Name="y1">0.010075566750629723</StringProperty>
+<StringProperty Name="x2">0.9848866498740554</StringProperty>
+<StringProperty Name="y2">0.982367758186398</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=151;y=8;width=502;height=778</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=111;y=8;width=582;height=778</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=18;y=12;width=770;height=770</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=18;y=109;width=770;height=578</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=18;y=181;width=770;height=433</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=18;y=206;width=770;height=385</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=18;y=244;width=770;height=308</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=18;y=254;width=770;height=288</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=18;y=302;width=770;height=191</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.1889168765743073;y1=0.010075566750629723;x2=0.8161209068010076;y2=0.982367758186398</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.1385390428211587;y1=0.010075566750629723;x2=0.8664987405541562;y2=0.982367758186398</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.022670025188916875;y1=0.015113350125944584;x2=0.9848866498740554;y2=0.9773299748110831</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.022670025188916875;y1=0.13602015113350127;x2=0.9848866498740554;y2=0.8589420654911839</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.022670025188916875;y1=0.22670025188916876;x2=0.9848866498740554;y2=0.7682619647355163</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.022670025188916875;y1=0.25692695214105793;x2=0.9848866498740554;y2=0.7380352644836272</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.022670025188916875;y1=0.3047858942065491;x2=0.9848866498740554;y2=0.690176322418136</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.022670025188916875;y1=0.31738035264483627;x2=0.9848866498740554;y2=0.6775818639798489</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.022670025188916875;y1=0.3778337531486146;x2=0.9848866498740554;y2=0.6171284634760705</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Ulf Burstedt</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Porträt von Ulf Burstedt</alt>
+<copyright>Andrey_Popov/Shutterstock 211325935</copyright>
+<data md5="d55bf055922893549f8d3742e6103ff3" href="../../../../../../../__blob/d55bf055922893549f8d3742e6103ff3.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>800</width>
+<height>800</height>
+</CMPicture>

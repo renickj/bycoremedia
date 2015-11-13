@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Chef Corp./United States/English/Assets/Pictures/Careers" name="Hands placed on top of each other Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=521;y=0;width=1011;height=1566</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=438;y=0;width=1176;height=1566</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=242;y=0;width=1568;height=1566</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=15;width=2048;height=1535</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=211;width=2048;height=1149</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=273;width=2048;height=1025</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=376;width=2048;height=819</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=402;width=2048;height=768</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=531;width=2048;height=510</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.25440806045340053;y1=0;x2=0.7481108312342569;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.2141057934508816;y1=0;x2=0.7884130982367759;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.11838790931989925;y1=0;x2=0.8841309823677582;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.009868421052631578;x2=1;y2=0.9901315789473685</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.13486842105263158;x2=1;y2=0.868421052631579</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.17434210526315788;x2=1;y2=0.8289473684210527</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.24013157894736842;x2=1;y2=0.7631578947368421</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.2565789473684211;x2=1;y2=0.7467105263157895</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.33881578947368424;x2=1;y2=0.6644736842105263</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Hands placed on top of each other</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Symbolic picture of hands placed on top of each other</alt>
+<copyright>Andrey_Popov/Shutterstock 125874806</copyright>
+<data md5="128bc92c6c33c7a4c0fcea442408ff4f" href="../../../../../../../__blob/128bc92c6c33c7a4c0fcea442408ff4f.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>2048</width>
+<height>1566</height>
+</CMPicture>

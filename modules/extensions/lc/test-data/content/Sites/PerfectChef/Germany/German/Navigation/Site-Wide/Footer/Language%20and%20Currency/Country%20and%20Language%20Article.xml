@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer/Language and Currency" name="Country and Language Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Navigation/Site-Wide/Footer/Language%20and%20Currency/Country%20and%20Language%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Footer/Language%20and%20Currency/Country%20and%20Language%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Wählen Sie Land und Sprache</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Land und Sprache</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Bitte wählen Sie Ihr Land und Sprache:</p><p class="p--heading-3"><a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../../United%20States/English/Navigation/Perfect%20Chef%20USA.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Perfect%20Chef%20USA">Vereinigte Staaten</a></p><p class="p--heading-3"><a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Perfect%20Chef%20Deutschland.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Perfect%20Chef%20Deutschland">Deutschland</a></p><p class="p--heading-3">Kanada</p><ul><li>Englisch</li><li>Französisch</li></ul><p class="p--heading-3">Frankreich</p><p class="p--heading-3">Spanien</p><p class="p--heading-3">Japan</p><ul><li>Japanisch</li><li>Englisch</li></ul></div></detailText>
+<pictures>
+<link href="../../../../Pictures/Sitewide%20Pictures/Country%20Flags%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Country%20Flags%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

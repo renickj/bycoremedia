@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection" name="unboxed" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMCollection/unboxed.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/unboxed"/>
+</master>
+<masterVersion>1</masterVersion>
+<description>Displays a collection as unboxed collection</description>
+<icon md5="4fec0eae01b125f5fa5e0ff0e8c7fca4" href="../../../../../../../__blob/4fec0eae01b125f5fa5e0ff0e8c7fca4.blob" mimetype="image/png"/>
+<layout>unboxed</layout>
+</CMViewtype>

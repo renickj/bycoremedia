@@ -1,0 +1,110 @@
+// Imports
+@import "../base/imports";
+@import "../utils/imports";
+
+/*
+Fonts
+========================================================================================================================
+
+*/
+
+// Default Font, font-weight: 400 (normal)
+@include font-face("Raleway", "raleway-medium", 400);
+@include font-face("Raleway", "raleway-mediumitalic", 400, italic);
+
+// Default Font, font-weight: 600 (semi-bold)
+@include font-face("Raleway", "raleway-semibold", 600);
+@include font-face("Raleway", "raleway-semibolditalic", 600, italic);
+
+// Extra Font
+@include font-face("SansBullshitSans", "SansBullshitSans");
+
+// 
+// 1. Prevent certain mobile browsers from automatically zooming fonts.
+// 2. Fonts on OSX will look more consistent with other systems that do not
+//    render text using sub-pixel anti-aliasing.
+//
+html {
+  -webkit-text-size-adjust: 100%; // [1] //
+  -ms-text-size-adjust: 100%; // [1] //
+  -moz-osx-font-smoothing: grayscale; // [2] //
+  -webkit-font-smoothing: antialiased; // [2] //
+}
+
+body.cm-bs {
+  font-family: "SansBullshitSans", "Raleway", sans-serif;
+  font-weight: normal;
+  font-variant-ligatures: common-ligatures;
+  font-feature-settings: "liga" 1, "dlig" 1;
+}
+
+// calls the mixin to render the headings
+// see utils/helper => headings
+@include headings;
+
+// add glyphicons of bootstrap before links depending on file endings
+.cm-glyphicon-before {
+
+  &:before {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    padding-right: $padding-base-vertical;
+    color: $brand-primary;
+
+    // default icon, see glyphicon-download-alt
+    content: "\e025";
+  }
+
+  // documents, see glyphicon-file
+  &[href$=".doc"]:before,
+  &[href$=".docx"]:before,
+  &[href$=".odt"]:before,
+  &[href$=".pdf"]:before,
+  &[href$=".rtf"]:before {
+    content: "\e022";
+  }
+
+  // images, see glyphicon-picture
+  &[href$=".bmp"]:before,
+  &[href$=".gif"]:before,
+  &[href$=".jpg"]:before,
+  &[href$=".jpeg"]:before,
+  &[href$=".svg"]:before,
+  &[href$=".tif"]:before,
+  &[href$=".tiff"]:before,
+  &[href$=".png"]:before {
+    content: "\e060";
+  }
+
+  // music, see glyphicon-music
+  &[href$=".mp3"]:before,
+  &[href$=".ogg"]:before,
+  &[href$=".wav"]:before {
+    content: "\e002";
+  }
+
+  // videos, see glyphicon-film
+  &[href$=".avi"]:before,
+  &[href$=".mp4"]:before,
+  &[href$=".mpg"]:before,
+  &[href$=".mpeg"]:before,
+  &[href$=".mkv"]:before {
+    content: "\e009";
+  }
+
+  // archive, see glyphicon-compressed
+  &[href$=".7z"]:before,
+  &[href$=".gz"]:before,
+  &[href$=".tar"]:before,
+  &[href$=".rar"]:before,
+  &[href$=".zip"]:before {
+    content: "\e181";
+  }
+}

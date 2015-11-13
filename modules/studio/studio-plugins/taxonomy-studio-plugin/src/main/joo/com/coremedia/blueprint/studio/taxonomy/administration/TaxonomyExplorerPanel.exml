@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:taxonomy="exml:com.coremedia.blueprint.studio.config.taxonomy"
+                xmlns:u="exml:untyped"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                baseClass="com.coremedia.blueprint.studio.taxonomy.administration.TaxonomyExplorerPanelBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.util.StudioUtil"/>
+  <exml:import class="com.coremedia.blueprint.studio.taxonomy.TaxonomyStudioPlugin_properties"/>
+
+  <exml:cfg name="siteSelectionExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+      Contains the active selected site, selected by site chooser component.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="searchResultExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+      Contains a node list with the path of the of the selected node.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:constant name="TAXONOMY_EXPLORER_SEP_FIRST_ITEM_ID"
+                 value="taxonomyExplorerSepFirst">
+    <exml:description>
+       The itemId of the first taxonomy explorer toolbar separator.
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="TAXONOMY_EXPLORER_SEP_SECOND_ITEM_ID"
+                 value="taxonomyExplorerSepSecond">
+    <exml:description>
+       The itemId of the second taxonomy explorer toolbar separator.
+    </exml:description>
+  </exml:constant>
+
+  <panel layout="fit"
+         cls="document-form-wrapper"
+         border="false">
+    <items>
+      <container layout="border"
+                 region="center"
+                 id="taxonomySplitPanelWrapper"
+                 cls="taxonomySplitPanel">
+        <items>
+          <!--Tree Panel Left-->
+          <container layout="border"
+                     id="taxSplitPanelLeft"
+                     region="center">
+            <items>
+              <!--Fix Root items panel-->
+              <taxonomy:taxonomyExplorerColumn region="west"
+                                               width="200"
+                                               id="taxonomyRootsColumn"
+                                               itemId="taxonomyRootsColumn" cls="taxonomy-roots-column"
+                                               siteSelectionExpression="{config.siteSelectionExpression}"
+                                               clipboardValueExpression="{getClipboardValueExpression()}"
+                                               selectedNodeExpression="{getSelectedValueExpression()}"/>
+              <!--Dynamic columns panel-->
+              <container itemId="columnsContainer"
+                         id="columnsContainer"
+                         region="center"
+                         autoScroll="false"
+                         cls="dynamicTaxonomyColumnsPanel">
+                <defaults>
+                  <taxonomy:taxonomyExplorerColumn width="200"
+                                                   cls="explorerColumn"/>
+                </defaults>
+                <items/>
+                <layout>
+                  <hboxlayout pack="start"
+                              align="stretch"
+                              padding="0 0 0 0"/>
+                </layout>
+              </container>
+            </items>
+          </container>
+          <!--Display Panel Right-->
+          <editor:standAloneDocumentView id="taxSplitPanelRight"
+                                         width="400"
+                                         u:minWidth="200"
+                                         region="east"
+                                         u:split="true"
+                                         bindTo="{getDisplayedTaxonomyContentExpression()}"/>
+        </items>
+        <layout>
+          <borderlayout u:split="true"
+                        u:frame="false"/>
+        </layout>
+      </container>
+    </items>
+    <tbar>
+      <toolbar cls="custom-toolbar-xs">
+        <items>
+          <ui:iconButton itemId="delete"
+                         disabled="true"
+                         tooltip="{TaxonomyStudioPlugin_properties.INSTANCE.TaxonomyExplorerPanel_remove_button_label}"
+                         handler="{deleteNode}"
+                         iconCls="delete-icon"/>
+          <ui:iconButton itemId="add"
+                         disabled="true"
+                         tooltip="{TaxonomyStudioPlugin_properties.INSTANCE.TaxonomyExplorerPanel_add_button_label}"
+                         iconCls="add-taxonomies-icon"
+                         handler="{createChildNode}"/>
+          <tbseparator itemId="{TAXONOMY_EXPLORER_SEP_FIRST_ITEM_ID}"/>
+          <ui:iconButton itemId="reload"
+                         disabled="false"
+                         id="taxonomy-reload-button"
+                         tooltip="{TaxonomyStudioPlugin_properties.INSTANCE.TaxonomyExplorerPanel_reload_button_label}"
+                         iconCls="reload-icon"
+                         handler="{reload}"/>
+          <tbseparator itemId="{TAXONOMY_EXPLORER_SEP_SECOND_ITEM_ID}"/>
+          <ui:iconButton itemId="cut"
+                         disabled="true"
+                         tooltip="{TaxonomyStudioPlugin_properties.INSTANCE.TaxonomyExplorerPanel_cut_button_label}"
+                         iconCls="cut-icon">
+            <baseAction>
+              <taxonomy:cutKeywordAction clipboardValueExpression="{getClipboardValueExpression()}"
+                                         selectionExpression="{getSelectedValueExpression()}"/>
+            </baseAction>
+          </ui:iconButton>
+          <ui:iconButton itemId="paste"
+                         disabled="true"
+                         tooltip="{TaxonomyStudioPlugin_properties.INSTANCE.TaxonomyExplorerPanel_paste_button_label}"
+                         iconCls="paste-icon">
+            <baseAction>
+              <taxonomy:pasteKeywordAction clipboardValueExpression="{getClipboardValueExpression()}"
+                                           selectionExpression="{getSelectedValueExpression()}"/>
+            </baseAction>
+          </ui:iconButton>
+        </items>
+      </toolbar>
+    </tbar>
+  </panel>
+</exml:component>

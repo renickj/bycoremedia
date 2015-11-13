@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For The Cook" name="For The Cook Hero Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Categories/03_For%20The%20Cook/For%20The%20Cook%20Hero%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/03_For%20The%20Cook/For%20The%20Cook%20Hero%20Teaser"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Genießen Sie den Frühling</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../../Videos/Campaigns/Spring%20Dresses%20Campaign/Blue%20Summer%20Dress%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Spring%20Dresses%20Campaign/Blue%20Summer%20Dress%20Video"/>
+</target>
+</CMTeaser>

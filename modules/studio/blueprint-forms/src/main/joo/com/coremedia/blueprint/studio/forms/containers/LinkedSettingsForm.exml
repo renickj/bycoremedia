@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:contentchooser="exml:com.coremedia.blueprint.base.contentchooser.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                xmlns:ui="exml:com.coremedia.ui.config">
+
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintStudio_properties"/>
+  <exml:import class="com.coremedia.ui.data.ValueExpression"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+  <exml:import class="com.coremedia.blueprint.base.contentchooser.ContentchooserStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.CustomLabels_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.config.standardCollapsibleFormPanel"/>
+
+  <exml:cfg name="folders" type="String"/>
+  <exml:cfg name="contentType" type="String"/>
+
+  <exml:cfg name="bindTo" type="ValueExpression">
+    <exml:description>A property path expression leading to the document.</exml:description>
+  </exml:cfg>
+
+
+  <editor:collapsibleFormPanel title="{CustomLabels_properties.INSTANCE.PropertyGroup_LinkedSettings_label}"
+                               cls="linked-setting-panel"
+                               itemId="linkedSettings">
+    <items>
+      <bp:extendedLinkListPropertyField propertyName="linkedSettings"
+                                        hideLabel="true">
+        <bp:additionalToolbarItems>
+          <tbseparator/>
+          <ui:iconButton tooltip="{ContentchooserStudioPlugin_properties.INSTANCE.Settings_action_tooltip}">
+            <baseAction>
+              <contentchooser:openContentChooserAction rootNodeName="{ContentchooserStudioPlugin_properties.INSTANCE.Settings_root_name}"
+                                                       dialogTitle="{ContentchooserStudioPlugin_properties.INSTANCE.Settings_dialog_title}"
+                                                       iconCls="btn-linked-settings"
+                                                       bindTo="{config.bindTo}"
+                                                       valuesExpression="{config.bindTo.extendBy('properties', 'linkedSettings')}"
+                                                       folders="{config.folders || '/Settings/Options/Settings/CMChannel/,Options/Settings/CMChannel/,/Settings/Options/Bundles/,Options/Bundles/'}"
+                                                       contentType="{config.contentType ||'CMSettings'}"
+                                                       singleSelection="false"/>
+            </baseAction>
+            <plugins>
+              <editor:bindDisablePlugin forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"
+                                        bindTo="{config.bindTo}"/>
+            </plugins>
+          </ui:iconButton>
+        </bp:additionalToolbarItems>
+      </bp:extendedLinkListPropertyField>
+    </items>
+  </editor:collapsibleFormPanel>
+
+</exml:component>

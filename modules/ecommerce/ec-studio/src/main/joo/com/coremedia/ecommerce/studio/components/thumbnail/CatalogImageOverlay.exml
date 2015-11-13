@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config"
+                baseClass="CatalogImageOverlayBase">
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>a property path to the CatalogObject</exml:description>
+  </exml:cfg>
+
+  <container cls="image-overlay-container"
+             layout="fit">
+    <items>
+      <!--Make the overlay image explicitly center-aligned-->
+      <ui:image cls="x-thumbnail-overlay-image"
+                itemId="{IMAGE_ITEM_ID}">
+        <plugins>
+          <ui:bindPlugin bindTo="{imageBindTo(config)}"
+                         boundValueChanged="{imageBoundValueChanged}" />
+        </plugins>
+      </ui:image>
+      <menuseparator cls="catalog-menu-separator"/>
+      <ec:catalogOverlayInfo bindTo="{config.bindTo}"
+                             itemId="{INFO_ITEM_ID}"/>
+    </items>
+  </container>
+</exml:component>

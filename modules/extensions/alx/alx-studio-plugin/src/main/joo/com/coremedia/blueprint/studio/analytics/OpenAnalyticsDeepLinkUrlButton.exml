@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                baseClass="com.coremedia.blueprint.studio.analytics.OpenAnalyticsDeepLinkUrlButtonBase"
+        >
+
+  <exml:description>
+     Button to open a new browser window with the analytics report deep link for the current preview document.
+  </exml:description>
+
+  <exml:cfg name="windowName" type="String">
+    <exml:description>The name of the window to open.</exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="serviceName" type="String">
+    <exml:description>The name of the service that this button is bound to</exml:description>
+  </exml:cfg>
+
+  <button iconCls="btn-analytics"
+          disabled="true"/>
+</exml:component>

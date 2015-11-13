@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:class xmlns:exml="http://www.jangaroo.net/exml/0.8"
+            xmlns:livecontext="exml:com.coremedia.livecontext.studio.config">
+  <exml:import class="com.coremedia.ecommerce.studio.model.Category"/>
+  <livecontext:createCatalogObjectDocumentAction actionName="createExternalPage"
+                                                 contentType="CMExternalChannel"
+                                                 catalogObjectType="{Category}"
+                                                 inheritEditors="false"/>
+</exml:class>

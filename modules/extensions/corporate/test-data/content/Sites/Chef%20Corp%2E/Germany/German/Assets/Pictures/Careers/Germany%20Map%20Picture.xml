@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Chef Corp./Germany/German/Assets/Pictures/Careers" name="Germany Map Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Assets/Pictures/Careers/Germany%20Map%20Picture.xml" path="/Sites/Chef%20Corp%2E/United%20States/English/Assets/Pictures/Careers/Germany%20Map%20Picture"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=1354;y=990;width=1300;height=2019</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=1323;y=1106;width=1338;height=1787</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=1145;y=1137;width=1710;height=1710</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=921;y=1191;width=2166;height=1625</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=464;y=1137;width=3079;height=1733</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=379;y=1191;width=3250;height=1625</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=1199;width=4000;height=1602</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=1207;width=4000;height=1501</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=1199;width=4000;height=998</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.33849129593810445;y1=0.24758220502901354;x2=0.6634429400386848;y2=0.7524177949709865</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.3307543520309478;y1=0.2765957446808511;x2=0.6653771760154739;y2=0.723404255319149</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.2862669245647969;y1=0.28433268858800775;x2=0.7137330754352031;y2=0.7117988394584139</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.23017408123791103;y1=0.2978723404255319;x2=0.7717601547388782;y2=0.7040618955512572</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.11605415860735009;y1=0.28433268858800775;x2=0.8858800773694391;y2=0.7176015473887815</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.09477756286266925;y1=0.2978723404255319;x2=0.90715667311412;y2=0.7040618955512572</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.29980657640232106;x2=1;y2=0.7001934235976789</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.30174081237911027;x2=1;y2=0.6769825918762089</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.29980657640232106;x2=1;y2=0.5493230174081238</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Deutschland Karte</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Symbol-Bild: Karte von Deutschland</alt>
+<copyright>Filip Bjorkman/Shutterstock 151001624</copyright>
+<data md5="4f4e372d43259d65039edfd6a4587afa" href="../../../../../../../__blob/4f4e372d43259d65039edfd6a4587afa.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>4000</width>
+<height>4000</height>
+</CMPicture>

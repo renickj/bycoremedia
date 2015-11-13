@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Navigation/Categories/03_For The Cook/Anniversary" name="Anniversary Header Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Perfect Chef celebrates the First Anniversary</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Celebrate with Perfect Chef!</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>We have selected a variety of Anniversary products for you - at a special price.<br/>Enjoy our selection of Perfect Chef branded accessories and grab our goodies while they last.</p></div></detailText>
+<pictures>
+<link href="../../../../Pictures/Anniversary%20Campaign/Chef%20with%20Birthday%20Cake%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Anniversary%20Campaign/Chef%20with%20Birthday%20Cake%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

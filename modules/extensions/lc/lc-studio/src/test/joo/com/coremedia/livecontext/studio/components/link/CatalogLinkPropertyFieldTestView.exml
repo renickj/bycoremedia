@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config" xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:livecontext="exml:com.coremedia.livecontext.studio.config">
+
+  <exml:import class="com.coremedia.livecontext.studio.LivecontextStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="com.coremedia.ecommerce.studio.config.catalogLink"/>
+  <exml:import class="com.coremedia.livecontext.studio.config.livecontextStudioPlugin"/>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression"/>
+  <exml:cfg name="forceReadOnlyValueExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       An optional ValueExpression which makes the component read-only if it is evaluated to true.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:constant name="CATALOG_LINK_PROPERTY_FIELD_ITEM_ID" value="catalogLinkPropertyField"/>
+  <viewport>
+    <items>
+      <ec:catalogLinkPropertyField itemId="{CATALOG_LINK_PROPERTY_FIELD_ITEM_ID}"
+                                            bindTo="{config.bindTo}"
+                                            ddGroup="ContentDD"
+                                            propertyName="externalId"
+                                            openLinkSources="{CatalogHelper.getInstance().openCatalog}"
+                                            emptyText="{LivecontextStudioPlugin_properties.INSTANCE.Product_Link_empty_text}"
+                                            forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}">
+        <ec:contextMenu>
+          <ec:catalogLinkContextMenu propertyName="externalId"
+                                              bindTo="{config.bindTo}"
+                                              forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}">
+            <plugins>
+              <ui:addItemsPlugin index="1">
+                <ui:items>
+                  <menuitem itemId="{livecontextStudioPlugin.OPEN_IN_MCENTER_MENU_ITEM_ID}">
+                    <baseAction>
+                      <livecontext:openInManagementCenterAction
+                        catalogObjectVariableName="{catalogLink.SELECTED_ITEMS_VARIABLE_NAME}"/>
+                    </baseAction>
+                  </menuitem>
+                </ui:items>
+              </ui:addItemsPlugin>
+            </plugins>
+          </ec:catalogLinkContextMenu>
+        </ec:contextMenu>
+      </ec:catalogLinkPropertyField>
+    </items>
+  </viewport>
+</exml:component>

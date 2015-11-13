@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:dcqe="exml:com.coremedia.cms.studio.queryeditor.config"
+                baseClass="com.coremedia.cms.studio.queryeditor.components.DocumentTypesFilterBase">
+
+  <exml:import class="com.coremedia.cms.studio.queryeditor.QueryEditor_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.premular.fields.BooleanPropertyField"/>
+
+  <exml:cfg name="documentTypesFilterHeight" type="Number">
+    <exml:description>A default height in pixels for the document types filter container.</exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Content bean value expression</exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="forceReadOnlyValueExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       An optional ValueExpression which makes the component read-only if it is evaluated to true.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="propertyName" type="String">
+    <exml:description>
+      Name of the property containing the information about document types included in the query.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="documentTypes" type="Array">
+    <exml:description>
+      Array of objects containing available document type's name and conditions applicable to that document type.
+    </exml:description>
+  </exml:cfg>
+
+  <panel itemId="documentTypesFilter"
+         cls="query-editor-types-filter">
+    <items>
+      <container>
+        <items>
+          <label text="{QueryEditor_properties.INSTANCE.DCQE_label_selection_of_document_types}"
+                 cls="x-form-item-label"/>
+          <container cls="query-editor-checkboxgroup-top">
+            <items>
+              <checkbox boxLabel="{QueryEditor_properties.INSTANCE.DCQE_label_all}"
+                        itemId="all"
+                        ctCls="{BooleanPropertyField.BOOLEAN_PROPERTY_FIELD_CSS}"
+                        checked="true"/>
+            </items>
+          </container>
+          <!--document types-->
+          <dcqe:resizableCheckboxGroup columns="1"
+                                       autoWidth="true"
+                                       cls="query-editor-checkboxgroup-bottom"
+                                       itemId="types"
+                                       autoScroll="true"
+                                       documentTypesFilterHeight="{config.documentTypesFilterHeight}">
+            <items>
+              <!--Dynamically created <checkbox boxLabel="Articles"/>-->
+            </items>
+          </dcqe:resizableCheckboxGroup>
+        </items>
+      </container>
+    </items>
+  </panel>
+</exml:component>

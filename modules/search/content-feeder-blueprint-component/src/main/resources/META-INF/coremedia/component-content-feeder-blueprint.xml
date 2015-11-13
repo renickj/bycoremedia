@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.coremedia.com/2007/coremedia-spring-beans-customization http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <context:annotation-config/>
+
+  <import resource="classpath:/com/coremedia/blueprint/base/tree/bpbase-treerelation-services.xml"/>
+  <import resource="classpath:/com/coremedia/blueprint/base/multisite/bpbase-multisite-services.xml"/>
+
+  <!-- === Customize feeding === -->
+
+<!--
+  <customize:append id="feederContentPropertyIncludesCustomizer" bean="feederContentPropertyIncludes">
+    <description>
+      Mapping from document types to comma-separated list of indexed properties. Properties are only indexed if
+      document type and property type are configured for indexing as well. See configuration in feeder.properties
+      (properties starting with 'feeder.content.').
+      Note that for a certain document type you can either configure included properties in this map or excluded
+      properties in map 'feederContentPropertyExcludes' but not in both. Mappings for more specific types override
+      rules for less specific types. Property lists from different entries will not be merged.
+      The default is to include all properties.
+    </description>
+    <map>
+      &lt;!&ndash;
+      Example:
+      <entry key="Text" value="Text,Label"/>
+      &ndash;&gt;
+    </map>
+  </customize:append>-->
+
+  <customize:append id="feederContentPropertyExcludesCustomizer" bean="feederContentPropertyExcludes">
+    <description>
+      Mapping from document types to comma-separated list of properties excluded from indexing. Properties are only
+      indexed if document type and property type are configured for indexing as well. See configuration in
+      feeder.properties (properties starting with 'feeder.content.').
+      Note that for a certain document type you can either configure excluded properties in this map or included
+      properties in map 'feederContentPropertyIncludes' but not in both. Mappings for more specific types override
+      rules for less specific types. Property lists from different entries will not be merged.
+      The default is to include all properties.
+    </description>
+    <map>
+      <!-- exclude locale from textbody, a LanguageFeedablePopulator feeds the language to field 'language' -->
+      <entry key="CMLocalized" value="locale"/>
+    </map>
+  </customize:append>
+
+<!--
+  <customize:append id="feederContentBlobMaxSizePerMimeTypeCustomizer" bean="feederContentBlobMaxSizePerMimeType">
+    <description>
+      Mapping from MIME-type to maximum blob size in bytes.
+      In this map, you can override the configuration property 'feeder.content.propertyType.blobMaxSize' from
+      feeder.properties for given MIME-types. Only entries whose MIME-types are included with regard to the
+      configuration in properties 'feeder.content.propertyType.blobMimeType.includes' and
+      'feeder.content.propertyType.blobMimeType.excludes' are taken in account.
+      Values must be greater than 0. If you want to exclude a MIME-type from feeding, use property
+      'feeder.content.propertyType.blobMimeType.excludes' instead.
+      Rules for more specific types override rules for less specific types.
+    </description>
+    <map>
+      &lt;!&ndash;
+        Example:
+        <entry key="text/plain" value="10485760"/>
+      &ndash;&gt;
+    </map>
+  </customize:append>
+-->
+
+  <customize:append id="addCustomPropertyFields" bean="contentConfiguration" property="propertyFields">
+    <description>
+      Configures feeding of document properties into special index fields.
+    </description>
+    <list>
+
+      <bean class="com.coremedia.cms.feeder.content.PropertyField">
+        <description>
+          Set index field 'keywords' to the value of property 'keywords' of content type 'CMLinkable'
+          and append the keywords to the index field 'textbody'.
+        </description>
+        <property name="name" value="keywords"/>
+        <property name="doctype" value="CMLinkable"/>
+        <property name="property" value="keywords"/>
+        <property name="textBody" value="true"/>
+      </bean>
+
+      <!--
+        Add custom PropertyField definitions here.
+      -->
+
+    </list>
+  </customize:append>
+
+  <customize:append id="addFeedablePopulators" bean="index" property="feedablePopulators">
+    <description>
+      Configures FeedablePopulator implementations that run when adding or replacing index documents
+      (full update) and all elements are set in the Feedable.
+
+      The method FeedablePopulator#populate will be called with a com.coremedia.cap.content.Content object,
+      that is the type parameter T of FeedablePopulator implementations must be Content or a super type of Content.
+    </description>
+    <list>
+      <!--
+        The following ImageDimensionFeedablePopulator is used to set the index fields imageOrientation,
+        imageSizeCategory, imageWidth, imageHeight and imageMaxLength.
+        For a detailed description of the field values see the Javadoc or Solr schema.xml file.
+
+        To categorize image orientation (portrait, square, landscape) and image size (small, medium, large), some
+        properties must be configured:
+
+        docType                  : the document type of the content to be indexed, including subtypes
+        widthPropertyName        : the property name of the content which holds the width value
+        heightPropertyName       : the property name of the content which holds the height value
+        dataPropertyName         : the property name of the content which holds the image data. The value of this
+                                   object must be of type com.coremedia.cap.common.Blob.
+        You must set either widthPropertyName and heightPropertyName or dataPropertyName or both.
+
+        largeWidth               : lower bound width of large images.
+        largeHeight              : lower bound height of large images.
+        mediumWidth              : lower bound width of medium images.
+        mediumHeight             : lower bound height of medium images.
+
+        An image is categorized as large(as medium) if its width is larger than or equal to the configured
+        largeWidth(mediumWidth) property and its height is also larger than or equal to the configured
+        largeHeight(mediumHeight) property. The image is small, if its width is smaller than mediumWidth or
+        its height is smaller than mediumHeight.
+      -->
+      <bean class="com.coremedia.cap.feeder.populate.ImageDimensionFeedablePopulator">
+        <property name="largeWidth" value="${feeder.populator.imageDimension.largeWidth}"/>
+        <property name="largeHeight" value="${feeder.populator.imageDimension.largeHeight}"/>
+        <property name="mediumWidth" value="${feeder.populator.imageDimension.mediumWidth}"/>
+        <property name="mediumHeight" value="${feeder.populator.imageDimension.mediumHeight}"/>
+        <property name="docType" value="${feeder.populator.imageDimension.docType}"/>
+        <property name="widthPropertyName" value="${feeder.populator.imageDimension.widthPropertyName}"/>
+        <property name="heightPropertyName" value="${feeder.populator.imageDimension.heightPropertyName}"/>
+        <property name="dataPropertyName" value="${feeder.populator.imageDimension.dataPropertyName}"/>
+      </bean>
+
+      <!--
+        The following FeedablePopulator sets an additional field 'tabletext' with text that
+        appears in tables of the richtext property 'Text' of documents of type 'Text'.
+      -->
+      <!--
+      <bean class="com.coremedia.cap.feeder.populate.XPathFeedablePopulator">
+        <property name="element" value="tabletext"/>
+        <property name="contentType" value="Text"/>
+        <property name="property" value="Text"/>
+        <property name="textBody" value="false"/>
+        <property name="XPath" value="/r:div/r:table"/>
+        <property name="namespaces">
+          <map>
+            <entry key="r" value="http://www.coremedia.com/2003/richtext-1.0"/>
+          </map>
+        </property>
+      </bean>
+      -->
+
+      <!--
+        The following FeedablePopulator feeds content of struct-properties to textbody field.
+      -->
+      <bean class="com.coremedia.blueprint.feeder.populate.StructFeedablePopulator">
+        <property name="solrFieldName" value="textbody"/>
+        <property name="propertyNames">
+          <list>
+            <value>settings</value>
+            <value>localSettings</value>
+          </list>
+        </property>
+      </bean>
+
+      <ref bean="contentFeederLanguageFeedablePopulator"/>
+      <ref bean="contentFeederSiteFeedablePopulator"/>
+
+      <!--
+        Feeds the numeric id of taxonomies.
+      -->
+      <bean class="com.coremedia.blueprint.feeder.populate.TaxonomyIdsFeedablePopulator">
+        <property name="solrFieldName" value="locationtaxonomy"/>
+        <property name="propertyName" value="locationTaxonomy" />
+        <property name="taxonomyTreeRelation" ref="locationTaxonomyTreeRelation"/>
+      </bean>
+      <bean class="com.coremedia.blueprint.feeder.populate.TaxonomyIdsFeedablePopulator">
+        <property name="solrFieldName" value="subjecttaxonomy"/>
+        <property name="propertyName" value="subjectTaxonomy" />
+        <property name="taxonomyTreeRelation" ref="taxonomyTreeRelation"/>
+      </bean>
+
+    </list>
+  </customize:append>
+
+  <customize:append id="addPartialUpdateFeedablePopulators" bean="index" property="partialUpdateFeedablePopulators">
+    <description>
+      Configures FeedablePopulator implementations that run when only some fields of index documents get updated
+      (partial update) and the Feedable contains only those possibly changed elements. This list is only used if
+      partial updates have been enabled (solr.partialUpdates=true).
+
+      The method FeedablePopulator#populate will be called with a com.coremedia.cap.content.Content object,
+      that is the type parameter T of FeedablePopulator implementations must be Content or a super type of Content.
+    </description>
+    <list>
+      <ref bean="contentFeederSiteFeedablePopulator"/>
+    </list>
+  </customize:append>
+
+
+  <bean id="contentFeederLanguageFeedablePopulator"
+        class="com.coremedia.blueprint.feeder.populate.LanguageFeedablePopulator">
+    <property name="sitesService" ref="sitesService"/>
+  </bean>
+
+  <bean id="contentFeederSiteFeedablePopulator"
+        class="com.coremedia.blueprint.feeder.populate.SiteFeedablePopulator">
+    <property name="sitesService" ref="sitesService"/>
+  </bean>
+
+</beans>

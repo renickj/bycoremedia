@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Chef Corp./Germany/German/Assets/Pictures/Management Board/Portraits" name="Sonya Schwartz (VP HR) Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Assets/Pictures/Management%20Board/Portraits/Sonya%20Schwartz%20%28VP%20HR%29fefc665b.xml" path="/Sites/Chef%20Corp%2E/United%20States/English/Assets/Pictures/Management%20Board/Portraits/Sonya%20Schwartz%20%28VP%20HR%29%20Picture"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=115;y=12;width=504;height=781</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=97;y=9;width=585;height=781</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=9;y=11;width=783;height=783</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=6;y=73;width=785;height=588</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=14;y=170;width=774;height=435</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=14;y=212;width=771;height=385</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=280;width=800;height=320</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=292;width=800;height=300</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=314;width=800;height=200</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.14313346228239845;y1=0.015473887814313346;x2=0.7736943907156673;y2=0.9922630560928434</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.1218568665377176;y1=0.01160541586073501;x2=0.8529980657640233;y2=0.988394584139265</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.01160541586073501;y1=0.013539651837524178;x2=0.9903288201160542;y2=0.9922630560928434</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.007736943907156673;y1=0.09090909090909091;x2=0.988394584139265;y2=0.8259187620889749</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.017408123791102514;y1=0.2127659574468085;x2=0.9845261121856866;y2=0.7562862669245648</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.017408123791102514;y1=0.26499032882011603;x2=0.9806576402321083;y2=0.746615087040619</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.35009671179883944;x2=1;y2=0.7504835589941973</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.3655705996131528;x2=1;y2=0.7408123791102514</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.39264990328820115;x2=1;y2=0.6421663442940039</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Sonya Schwartz (VP HR)</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Portrait Foto von Sonya Schwartz (VP HR)</alt>
+<copyright>Andrey_Popov/Shutterstock 211325935</copyright>
+<data md5="030202dffb37c212e9e4ce8c7fb35c9e" href="../../../../../../../../__blob/030202dffb37c212e9e4ce8c7fb35c9e.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>800</width>
+<height>800</height>
+</CMPicture>

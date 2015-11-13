@@ -1,0 +1,145 @@
+/* =====================================================================================================================
+   Mobile, Portrait
+   ================================================================================================================== */
+@media only screen and (max-width: 599px) and (orientation: portrait) {
+
+  /* hidden flags defining screen type and orientation for javascript */
+  body:before {
+    content: 'portrait';
+  }
+
+  /* --- header ----------------------------------------------------------------------------------------------------- */
+  .cm-icon--login,
+  .cm-icon--logout,
+  .cm-icon--user-details,
+  .cm-icon--store-locator {
+    display: none;
+  }
+
+  /* --- teaser hero ------------------------------------------------------------------------------------------------ */
+  /* boxes */
+  .cm-teaser--hero .cm-aspect-ratio-box:before {
+    /* fallback for older browsers */
+    padding-top: 133.3333%; /* 3:4 */
+    /* 100% * 4 / 3 */
+    padding-top: calc(400% / 3); /* 3:4 */
+  }
+
+  /* --- promo collection ------------------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box:before {
+    padding-top: 100%; /* 1:1 */
+  }
+
+  /* remove gutter for elements in the last row */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+
+  /* --- productlisting collection ---------------------------------------------------------------------------------- */
+  .cm-collection--productlisting > .cm-collection__item,
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    /* (100% - 8px) / 2 */
+    width: calc(50% - 4px);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    /* (100% - 8px) / 2 */
+    width: calc(50% - 4px - 1px / 100);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--productlisting > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--productlisting > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles layout left collection ------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-left > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box:before {
+    padding-top: 100%; /* 1:1 */
+  }
+
+  /* remove gutter for elements in the last row */
+  .cm-collection--tiles-left > .cm-collection__item:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles layout center collection ----------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-center > .cm-collection__item:nth-child(2) .cm-aspect-ratio-box:before {
+    padding-top: 100%; /* 1:1 */
+  }
+
+  /* remove gutter for elements in the last row */
+  .cm-collection--tiles-center > .cm-collection__item:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles layout right collection ------------------------------------------------------------------------------ */
+  /* boxes */
+  .cm-collection--tiles-right > .cm-collection__item:nth-child(3) .cm-aspect-ratio-box:before {
+    padding-top: 100%; /* 1:1 */
+  }
+
+  /* remove gutter for elements in the last row */
+  .cm-collection--tiles-right > .cm-collection__item:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles portrait collection ---------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-portrait > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 133.3333%; /* 3:4 */
+    padding-top: calc(400% / 3); /* 3:4 */
+  }
+
+  /* remove gutter for elements in the last row */
+  .cm-collection--tiles-portrait > .cm-collection__item:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles landscape collection --------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-landscape > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 56.25%; /* 16:9 */
+    padding-top: calc(900% / 16); /* 16:9 */
+  }
+
+  /* remove gutter for elements in the last row */
+  .cm-collection--tiles-landscape > .cm-collection__item:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles layout 50:50 portrait collection --------------------------------------------------------------------- */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 133.3333%; /* 3:4 */
+    padding-top: calc(400% / 3); /* 3:4 */
+  }
+
+  /* remove gutter for elements in the last row */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles layout 50:50 landscape collection -------------------------------------------------------------------- */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 56.25%; /* 16:9 */
+    padding-top: calc(900% / 16); /* 16:9 */
+  }
+
+  /* remove gutter for elements in the last row */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item:nth-last-of-type(1) {
+    margin-bottom: 0;
+  }
+}

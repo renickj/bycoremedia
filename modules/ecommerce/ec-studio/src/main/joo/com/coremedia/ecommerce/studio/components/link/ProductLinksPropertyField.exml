@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config"
+                baseClass="com.coremedia.ecommerce.studio.components.link.ProductLinksPropertyFieldBase">
+  <exml:import class="com.coremedia.ecommerce.studio.ECommerceStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="com.coremedia.ecommerce.studio.CatalogModel"/>
+
+  <ec:catalogLinkPropertyField multiple="true"
+                                        showThumbnails="false"
+                                        ddGroup="ContentDD"
+                                        propertyName="{PROPERTY_NAME}"
+                                        createStructFunction="{createStructs}"
+                                        openLinkSources="{CatalogHelper.getInstance().openCatalog}"
+                                        catalogObjectType="{CatalogModel.TYPE_PRODUCT}"
+                                        emptyText="{ECommerceStudioPlugin_properties.INSTANCE.Products_Link_empty_text}"/>
+</exml:component>

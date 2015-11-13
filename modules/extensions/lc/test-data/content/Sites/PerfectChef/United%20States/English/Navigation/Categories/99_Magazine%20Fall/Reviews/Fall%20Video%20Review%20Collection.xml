@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/United States/English/Navigation/Categories/99_Magazine Fall/Reviews" name="Fall Video Review Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>spring-learn-videos</segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Learn Videos</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../Videos/Product%20Reviews/Best%20Non%20Stick%20Skillets%20Review%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Non%20Stick%20Skillets%20Review%20Video"/>
+<link href="../../../../Videos/Product%20Reviews/Best%20Traditional%20Skillets%20Review%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Traditional%20Skillets%20Review%20Video"/>
+<link href="../../../../Videos/Product%20Reviews/Best%20Stand%20Mixers%20Review%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Stand%20Mixers%20Review%20Video"/>
+<link href="../../../../Videos/Product%20Reviews/Best%20Baking%20Pans%20Review%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Baking%20Pans%20Review%20Video"/>
+<link href="../../../../Videos/Product%20Reviews/Best%20Knives%20Review%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Knives%20Review%20Video"/>
+</items>
+</CMCollection>

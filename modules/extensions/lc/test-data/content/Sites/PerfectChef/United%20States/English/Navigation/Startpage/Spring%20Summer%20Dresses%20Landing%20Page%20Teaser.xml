@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Startpage" name="Spring Summer Dresses Landing Page Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Summer in the Field</teaserTitle>
+<pictures>
+<link href="../../Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Summer%20Dresses/Youngf76e94b7.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Summer%20Dresses/Young%20beautiful%20girl%20in%20the%20field%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../Fragments/Search%20Landing%20Pages/Spring%20Summer%20Dresses%20Hidden25d9d05e.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Fragments/Search%20Landing%20Pages/Spring%20Summer%20Dresses%20Hidden%20Landing%20Page"/>
+</target>
+</CMTeaser>

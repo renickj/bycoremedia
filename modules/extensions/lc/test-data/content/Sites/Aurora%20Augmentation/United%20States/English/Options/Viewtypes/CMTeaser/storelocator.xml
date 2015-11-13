@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/Aurora Augmentation/United States/English/Options/Viewtypes/CMTeaser" name="storelocator" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>Viewtype for a Store Locator</description>
+<icon md5="4d9db3bc3fc33692a72a55890696c750" href="../../../../../../../__blob/4d9db3bc3fc33692a72a55890696c750.blob" mimetype="image/png"/>
+<layout>storelocator</layout>
+</CMViewtype>

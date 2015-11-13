@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Microsites/Meat Lovers" name="Meat Sidebar Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMCollection/unboxed.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/unboxed"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Meat Lovers Sidebar</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../Videos/How-To/How%20to%20sear%20and%20roast%20meats%20Vimeo%20Video.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/How-To/How%20to%20sear%20and%20roast%20meats%20Vimeo%20Video"/>
+<link href="BBQ%20Skewer%20Article.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Microsites/Meat%20Lovers/BBQ%20Skewer%20Article"/>
+<link href="Herb-Crusted%20Fillet%20Migc25d24e0.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Microsites/Meat%20Lovers/Herb-Crusted%20Fillet%20Mignon%20Article"/>
+<link href="London%20Broil%20Article.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Microsites/Meat%20Lovers/London%20Broil%20Article"/>
+<link href="Carne%20Asada%20Article.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Microsites/Meat%20Lovers/Carne%20Asada%20Article"/>
+<link href="Strip%20Steak%20Article.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Microsites/Meat%20Lovers/Strip%20Steak%20Article"/>
+</items>
+</CMCollection>

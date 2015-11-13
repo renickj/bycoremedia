@@ -1,0 +1,51 @@
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
+
+  <var name="registration" class="com.coremedia.livecontext.elastic.social.cae.LiveContextRegistration"/>
+
+  <input name="next"/>
+  <input name="redirectUrl"/>
+
+  <on-start>
+    <set name="flowScope.nextUrl" value="webflowUrlHelper.getNextUrl(next, flowRequestContext)"/>
+    <set name="flowScope.redirectUrl" value="lcWebflowUrlHelper.getExternalRedirectUrl(flowRequestContext)" />
+    <evaluate expression="registrationHelper.preProcess(registration, flowRequestContext)"/>
+  </on-start>
+
+  <view-state id="enterUserDetails" model="registration">
+    <transition on="submit" to="validateAge" bind="true" validate="true"/>
+  </view-state>
+
+  <decision-state id="validateAge">
+    <if test="registration.isYoungerThan(12)"
+        then="acceptTooYoungPolicy"
+        else="register"/>
+  </decision-state>
+
+  <view-state id="acceptTooYoungPolicy" model="registration">
+    <transition on="submit" to="register" bind="true" validate="true">
+      <set name="requestScope.emailAddress" value="registration.emailAddress"/>
+    </transition>
+  </view-state>
+
+  <action-state id="register">
+    <evaluate expression="liveContextUserService.registerUser(registration, flowRequestContext)"/>
+    <transition on="yes" to="registrationSuccess">
+      <set name="requestScope.emailAddress" value="registration.emailAddress"/>
+    </transition>
+    <transition on="no" to="enterUserDetails"/>
+  </action-state>
+
+  <decision-state id="registrationSuccess">
+    <if test="lcWebflowUrlHelper.isCheckoutFlow(flowRequestContext)"
+        then="registrationFinishedForCheckout"
+        else="registrationFinished"/>
+  </decision-state>
+
+  <end-state id="registrationFinishedForCheckout" view="continueCheckout" />
+  <end-state id="registrationFinished" view="externalRedirect:#{nextUrl}"/>
+  <end-state id="registrationFailure" view="failure"/>
+
+</flow>

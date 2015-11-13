@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/United States/English/Videos/Product Reviews" name="Best Non Stick Skillets Review Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-review-best-non-stick-skillets-teflon-ceramics</segment>
+<title>Equipment Review: Best Nonstick Skillets</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Review.xml" path="/Settings/Taxonomies/Subject/Review"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pans.xml" path="/Settings/Taxonomies/Subject/Pans"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Best Nonstick Skillets</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>We tested seven large nonstick skillets under $50.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>A 12-inch skillet should last a lifetime and cook almost anything. But does quality construction have to cost top dollar? For years we have paid top dollar for a nonstick skillet, only to throw it out when food starts sticking. Could a cheaper pan work just as well? We tested seven large nonstick skillets under $50.</p></div></detailText>
+<pictures>
+<link href="Best%20Non%20Stick%20Skillets%20Review%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Non%20Stick%20Skillets%20Review%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Equipment Review: Best Nonstick Skillets</alt>
+<copyright>Copyright: America's Test Kitchen/YouTube embedded</copyright>
+<dataUrl>//www.youtube.com/embed/HwJKDD6E7M0?rel=0</dataUrl>
+</CMVideo>

@@ -1,0 +1,44 @@
+!tape
+name: csi_testFindProductByPartNumberIsNull
+interactions:
+- recorded: 2014-09-08T17:33:19.129Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/languagemap
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:19 GMT
+      Expires: Mon, 08 Sep 2014 18:33:19 GMT
+      Vary: Accept
+    body: "{\n\t\"ar\": \"-23\",\n\t\"de\": \"-3\",\n\t\"en\": \"-1\",\n\t\"es\": \"-5\",\n\t\"fr\": \"-2\",\n\t\"it\": \"-4\",\n\t\"ja\": \"-10\",\n\t\"ko\": \"-9\",\n\t\"pl\": \"-22\",\n\t\"pt\": \"-6\",\n\t\"ro\": \"-21\",\n\t\"ru\": \"-20\",\n\t\"zh\": \"\
+      -8\"\n}"
+- recorded: 2014-09-08T17:33:19.210Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/productview/blablablub?catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 404
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:19 GMT
+      Expires: Mon, 08 Sep 2014 18:33:19 GMT
+      Vary: Accept
+    body: ''

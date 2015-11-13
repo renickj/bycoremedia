@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMALXPageList folder="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Analytics Lists" name="Google Top 5 Landscape Tiles Analytics List" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="master-version-destroyed">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Site-Wide/Analytics%20Lists/Google%20Top%203%20Landscape%20Tiles%20An7f0734ae.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Analytics%20Lists/Google%20Top%203%20Landscape%20Tiles%20Analytics%20List"/>
+</master>
+<masterVersion>0</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="googleAnalytics">
+<Struct>
+<IntProperty Name="limit">666</IntProperty>
+<IntProperty Name="interval">20</IntProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Populär auf Perfect Chef</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+<maxLength>5</maxLength>
+<timeRange>14</timeRange>
+<analyticsProvider>googleAnalytics</analyticsProvider>
+<documentType>CMArticle</documentType>
+<baseChannel>
+<link href="../../Perfect%20Chef%20Deutschland.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Perfect%20Chef%20Deutschland"/>
+</baseChannel>
+<defaultContent>
+<link href="../../../Editorial/Content/Recipes/Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article"/>
+<link href="../../../Editorial/Content/Recipes/Fall%20Recipes/Desserts/Black%20Bean%20Brownies%20Recipe%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Black%20Bean%20Brownies%20Recipe%20Article"/>
+<link href="../../../Editorial/Content/Recipes/Fall%20Recipes/Desserts/Cooked%20Pears%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Cooked%20Pears%20Article"/>
+</defaultContent>
+</CMALXPageList>

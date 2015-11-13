@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Spring Recipes/Starters" name="Tomato Soup Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Tomato Soup</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Tomato.xml" path="/Settings/Taxonomies/Subject/Tomato"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cream.xml" path="/Settings/Taxonomies/Subject/Cream"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Basil.xml" path="/Settings/Taxonomies/Subject/Basil"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Preparing tomato soup is really easy - in less then 10 minutes you can make this tasty starter. </p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>Preparing tomato soup is really easy - in less then 10 minutes you can make this tasty starter. You can also reheat tomato soup and take it along in a thermos bottle to your picnic outdoors.</p><p class="p--heading-2">Ingredients</p><ul><li>1 tablespoon vegetable oil</li><li>1 cup chopped onion</li><li>2 cloves garlic, minced</li><li>1/2 cup chopped carrot</li><li>1/4 cup chopped celery</li><li>2 (28 ounce) cans crushed tomatoes</li><li>3 1/2 cups vegetable broth</li><li>1 tablespoon vegetarian Worcestershire sauce</li><li>1 teaspoon salt</li><li>1/2 teaspoon dried thyme</li><li>1/2 teaspoon ground black pepper</li><li>4 drops hot pepper sauce</li></ul><p class="p--heading-2">Preparation</p><ul><li>Heat oil over medium-high heat</li><li>Saute onion and garlic until onion is tender</li><li>Add carrot and celery</li><li>Cook 7 to 9 minutes until tender, stirring frequently</li><li>Stir in tomatoes, broth, Worcestershire sauce, salt, thyme, pepper and hot pepper sauce</li><li>Reduce heat to low, cover and simmer 20 minutes, stirring frequently</li></ul><p class="p--heading-2">Serving Suggestion</p><p>Mozzarella fits perfectly as a supplement to the tomato soup.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Tomato%20Soup%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Spring%20Recipes/Tomato%20Soup%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../../Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video"/>
+<link href="../../../../../Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Per94b228e4.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+</related>
+</CMArticle>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMChannel folder="/Sites/PerfectChef/United States/English/Navigation" name="Perfect Chef USA" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<IntProperty Name="publicationHistoryInterval">60</IntProperty>
+<BooleanProperty Name="displayPdf">true</BooleanProperty>
+<LinkProperty Name="mediaelementplayer_flash" LinkType="coremedia:///cap/contenttype/CMInteractive" xlink:href="coremedia:///cap/resources/../../../../../Themes/basic/vendor/mediaelement/flashmediaelement%2Eswf.xml" cmexport:path="/Themes/basic/vendor/mediaelement/flashmediaelement%2Eswf"/>
+<StructProperty Name="livecontext.relatedpage.pdp">
+<Struct>
+<LinkProperty Name="pagegrid" LinkType="coremedia:///cap/contenttype/CMChannel" xlink:href="coremedia:///cap/resources/Perfect%20Chef%20USA%20PDP%20Template%20Page.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Perfect%20Chef%20USA%20PDP%20Template%20Page"/>
+<StructProperty Name="settings">
+<Struct>
+<StructProperty Name="elasticSocial">
+<Struct>
+<StringProperty Name="reviewType">REGISTERED</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<LinkProperty Name="livecontext.default.product.picture" LinkType="coremedia:///cap/contenttype/CMPicture" xlink:href="coremedia:///cap/resources/../Pictures/Picture%20Missing%20Product%20Picture.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Pictures/Picture%20Missing%20Product%20Picture"/>
+</Struct>
+</localSettings>
+<linkedSettings>
+<link href="../../../../../Settings/Options/Settings/AnalyticsSettings.xml" path="/Settings/Options/Settings/AnalyticsSettings"/>
+<link href="../../../../../Settings/Options/Settings/Elastic%20Social%20Credentials.xml" path="/Settings/Options/Settings/Elastic%20Social%20Credentials"/>
+<link href="../../../../../Settings/Options/Bundles/Bundle_en.xml" path="/Settings/Options/Bundles/Bundle_en"/>
+<link href="../../../../../Settings/Options/Bundles/Elastic%20Social_en.xml" path="/Settings/Options/Bundles/Elastic%20Social_en"/>
+<link href="../../../../../Settings/Options/Bundles/Livecontext_en.xml" path="/Settings/Options/Bundles/Livecontext_en"/>
+<link href="../../../../../Settings/Options/Settings/OpenCalais.xml" path="/Settings/Options/Settings/OpenCalais"/>
+<link href="../Options/Settings/CMChannel/Vanity%20URLs.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/CMChannel/Vanity%20URLs"/>
+<link href="../Options/Settings/LiveContext.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/LiveContext"/>
+<link href="../Options/Settings/CAEConfig.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/CAEConfig"/>
+<link href="../Options/Settings/Elastic%20Social.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Elastic%20Social"/>
+<link href="../Options/Settings/CMChannel/Robots%2Etxt.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/CMChannel/Robots%2Etxt"/>
+<link href="../Options/Settings/CMChannel/Responsive%20Image%20Settings.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/CMChannel/Responsive%20Image%20Settings"/>
+<link href="../Options/Settings/CMChannel/Preview.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/CMChannel/Preview"/>
+<link href="../Options/Settings/Studio%20Preview.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Studio%20Preview"/>
+</linkedSettings>
+<segment>perfectchef</segment>
+<title>Perfect Chef</title>
+<htmlTitle></htmlTitle>
+<keywords>CoreMedia,Perfect Chef,PerfectChef,Demo,Blueprint,LiveContext,CoreMedia LiveContext 2.0 for IBM WebSphere Commerce</keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+<link href="Categories/01_On%20The%20Table/On%20The%20Table%20External%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/On%20The%20Table%20External%20Page"/>
+<link href="Categories/02_In%20The%20Kitchen/In%20The%20Kitchen%20External%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/02_In%20The%20Kitchen/In%20The%20Kitchen%20External%20Page"/>
+<link href="Categories/03_For%20The%20Cook/For%20The%20Cook%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/03_For%20The%20Cook/For%20The%20Cook%20Page"/>
+<link href="Categories/05_Recipes/Recipes%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Recipes%20Page"/>
+<link href="Categories/06_Magazine%20Spring/Magazine%20Spring%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/06_Magazine%20Spring/Magazine%20Spring%20Page"/>
+<link href="Startpage/Spring%20Glasses%20Sale%20Category%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Startpage/Spring%20Glasses%20Sale%20Category%20Teaser"/>
+<link href="Site-Wide/Corporate%20Hidden%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Corporate%20Hidden%20Page"/>
+<link href="Fragments/LiveContext%20Fragments%20Hidden%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Fragments/LiveContext%20Fragments%20Hidden%20Page"/>
+<link href="Microsites/All%20Microsites%20Root%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Microsites/All%20Microsites%20Root%20Page"/>
+<link href="Perfect%20Chef%20USA%20PDP%20Template%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Perfect%20Chef%20USA%20PDP%20Template%20Page"/>
+</children>
+<hidden>1</hidden>
+<hiddenInSitemap>1</hiddenInSitemap>
+<javaScript>
+<link href="../../../../../Themes/perfectchef/perfectchef%2Ejs.xml" path="/Themes/perfectchef/perfectchef%2Ejs"/>
+</javaScript>
+<css>
+<link href="../../../../../Themes/perfectchef/perfectchef%2Ecss.xml" path="/Themes/perfectchef/perfectchef%2Ecss"/>
+</css>
+<favicon md5="643239844b449a09c19441abc0d9f805" href="../../../../../__blob/643239844b449a09c19441abc0d9f805.blob" mimetype="image/x-icon"/>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<LinkProperty Name="layout" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../Options/Settings/Pagegrid/Layouts/PagegridNavigation.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Layouts/PagegridNavigation"/>
+<StructProperty Name="placements">
+<Struct>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<StructListProperty Name="placements">
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Header/Startpage.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Header/Startpage"/>
+<Link xlink:href="coremedia:///cap/resources/../Options/Actions/Search.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Actions/Search"/>
+<Link xlink:href="coremedia:///cap/resources/../Options/Actions/Login.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Actions/Login"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Header/Cart.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Header/Cart"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Header/Navigation.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Header/Navigation"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Header/Breadcrumb.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Header/Breadcrumb"/>
+</LinkListProperty>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Options/Settings/Pagegrid/Placements/header.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/header"/>
+</Struct>
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Footer/Social%20Sharing%20Bar.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Footer/Social%20Sharing%20Bar"/>
+</LinkListProperty>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Options/Settings/Pagegrid/Placements/footer-advertisement.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/footer-advertisement"/>
+</Struct>
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Footer/Footer%20Navigation.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Footer/Footer%20Navigation"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Footer/Follow%20Us.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Footer/Follow%20Us"/>
+</LinkListProperty>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Options/Settings/Pagegrid/Placements/footer.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/footer"/>
+</Struct>
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+<Link xlink:href="coremedia:///cap/resources/Perfect%20Chef%20Anniversary%20Teaser%20%28Anniversary%20Workspace%29.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Perfect%20Chef%20Anniversary%20Teaser%20%28Anniversary%20Workspace%29"/>
+<Link xlink:href="coremedia:///cap/resources/Startpage/Spring%20Hero%20Banner%20Collection.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Startpage/Spring%20Hero%20Banner%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/e-Marketing%20Spots/Startpage%20Offer%20Textbanner%20e-Marketing%20Spot.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/e-Marketing%20Spots/Startpage%20Offer%20Textbanner%20e-Marketing%20Spot"/>
+<Link xlink:href="coremedia:///cap/resources/Startpage/Spring%20Main%20Promo%20Collection.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Startpage/Spring%20Main%20Promo%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Analytics%20Lists/Google%20Top%203%20Landscape%20Tiles%20An7f0734ae.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Analytics%20Lists/Google%20Top%203%20Landscape%20Tiles%20Analytics%20List"/>
+<Link xlink:href="coremedia:///cap/resources/Personalization/Startpage/Your%20Content%20Recommendations.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Personalization/Startpage/Your%20Content%20Recommendations"/>
+</LinkListProperty>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/main"/>
+</Struct>
+</StructListProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+</CMChannel>

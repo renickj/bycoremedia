@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Magazine Pictures/Magazine Fall Pictures/Cocktail Dresses" name="Cocktail Dresses and Champagne Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">flip;d=h/b;a=0;c=1/crop;x=704;y=0;width=882;height=1365</StringProperty>
+<StringProperty Name="portrait_ratio3x4">flip;d=h/b;a=0;c=1/crop;x=628;y=0;width=1024;height=1365</StringProperty>
+<StringProperty Name="portrait_ratio1x1">flip;d=h/b;a=0;c=1/crop;x=601;y=0;width=1354;height=1352</StringProperty>
+<StringProperty Name="landscape_ratio4x3">flip;d=h/b;a=0;c=1/crop;x=185;y=0;width=1797;height=1345</StringProperty>
+<StringProperty Name="landscape_ratio16x9">flip;d=h/b;a=0;c=1/crop;x=0;y=99;width=1962;height=1101</StringProperty>
+<StringProperty Name="landscape_ratio2x1">flip;d=h/b;a=0;c=1/crop;x=0;y=185;width=1929;height=963</StringProperty>
+<StringProperty Name="landscape_ratio5x2">flip;d=h/b;a=0;c=1/crop;x=0;y=293;width=2048;height=819</StringProperty>
+<StringProperty Name="landscape_ratio8x3">flip;d=h/b;a=0;c=1/crop;x=0;y=297;width=2048;height=765</StringProperty>
+<StringProperty Name="landscape_ratio4x1">flip;d=h/b;a=0;c=1/crop;x=0;y=178;width=2048;height=514</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.3436293436293436;y1=0;x2=0.7741312741312741;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.3064516129032258;y1=0;x2=0.8064516129032258;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.29354838709677417;y1=0;x2=0.9548387096774194;y2=0.9903381642512077</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.09032258064516129;y1=0;x2=0.967741935483871;y2=0.9855072463768116</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.07246376811594203;x2=0.9580645161290322;y2=0.8792270531400966</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.13526570048309178;x2=0.9419354838709677;y2=0.8405797101449275</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.2144927536231884;x2=1;y2=0.8144927536231884</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.21739130434782608;x2=1;y2=0.7777777777777778</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.13043478260869565;x2=1;y2=0.5072463768115942</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">true</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Cocktail Dresses and Champagne</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Cocktail Dresses and Champagne</alt>
+<copyright>A.KaZaK/Shutterstock 159828107</copyright>
+<data md5="c62a6ff8e7ea2cc670069cdf0208000b" href="../../../../../../../__blob/c62a6ff8e7ea2cc670069cdf0208000b.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

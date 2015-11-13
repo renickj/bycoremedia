@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:u="exml:untyped"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config">
+
+  <exml:import class="com.coremedia.cap.content.ContentPropertyNames"/>
+  <exml:import class="com.coremedia.cms.editor.Editor_properties"/>
+
+  <exml:cfg name="state" type="Object">
+    <exml:description>
+       The initial State of the view.
+    </exml:description>
+  </exml:cfg>
+
+  <panel title="{Editor_properties.INSTANCE.Filters}"
+         width="198"
+         cls="collection-view-search-filters"
+         u:floatable="false"
+         u:minSize="196"
+         u:maxSize="500"
+         u:split="true"
+         collapsible="true"
+         collapsed="true"
+         titleCollapse="true"
+         autoScroll="true"
+         border="false">
+    <items>
+      <!--<editor:searchFilters/>-->
+    </items>
+    <layout>
+      <formlayout/>
+    </layout>
+  </panel>
+</exml:component>

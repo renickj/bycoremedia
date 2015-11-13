@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Magazine Pictures/Magazine Fall Pictures/Autumn Dishes" name="Roast Duck Confit Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=713;y=0;width=879;height=1361</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=634;y=0;width=1022;height=1361</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=471;y=0;width=1363;height=1361</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=424;y=71;width=1458;height=1092</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=444;y=79;width=1604;height=902</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=467;y=55;width=1497;height=748</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=305;y=59;width=1743;height=696</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=103;y=83;width=1945;height=728</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=427;width=2048;height=510</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.3481624758220503;y1=0;x2=0.7775628626692457;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.30947775628626695;y1=0;x2=0.8085106382978723;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.23017408123791103;y1=0;x2=0.8955512572533849;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.20696324951644102;y1=0.05232558139534884;x2=0.9187620889748549;y2=0.8546511627906976</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.21663442940038685;y1=0.05813953488372093;x2=1;y2=0.7209302325581395</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.22823984526112184;y1=0.040697674418604654;x2=0.9593810444874274;y2=0.5901162790697675</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.14893617021276595;y1=0.0436046511627907;x2=1;y2=0.5552325581395349</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.05029013539651837;y1=0.061046511627906974;x2=1;y2=0.5959302325581395</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.313953488372093;x2=1;y2=0.688953488372093</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Roast Duck Confit</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Roast Duck Confit</alt>
+<copyright>Cyril Hou/Shutterstock 50176723</copyright>
+<data md5="c8a977d8b706d225186baf8f75e8f774" href="../../../../../../../__blob/c8a977d8b706d225186baf8f75e8f774.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>2048</width>
+<height>1361</height>
+</CMPicture>

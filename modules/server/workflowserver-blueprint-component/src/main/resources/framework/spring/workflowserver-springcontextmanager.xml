@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <!--obey the ordering:
+   1. imports
+   2. beans & customizer-->
+
+  <!-- Import Framework Configuration -->
+  <import resource="classpath:/framework/spring/workflowserver.xml"/>
+  <import resource="classpath:/com/coremedia/blueprint/base/multisite/bpbase-sitemodel.xml"/>
+  <import resource="classpath:/com/coremedia/blueprint/base/workflow/bpbase-workflowserver.xml"/>
+  <!-- import whatever archive implementations might be on the class path -->
+  <import resource="${workflow.archive.configuration:classpath:/framework/spring/workflow-archive-*.xml}"/>
+
+  <!-- Place your beans here  -->
+
+  <!--
+    Provide a SitesServices backed by the workflowserver's connection.
+    (The translation workflows need it.)
+  -->
+  <bean id="sitesService" class="com.coremedia.cap.multisite.impl.SitesServiceImpl">
+    <property name="capConnection" ref="connection"/>
+    <property name="siteModel" ref="siteModel"/>
+  </bean>
+
+</beans>

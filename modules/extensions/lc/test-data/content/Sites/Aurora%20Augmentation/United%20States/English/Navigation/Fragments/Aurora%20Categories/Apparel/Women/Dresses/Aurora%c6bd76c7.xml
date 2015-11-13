@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Aurora Categories/Apparel/Women/Dresses" name="Aurora Dresses PDP Related Tab Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../../../Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picn93a7e59e.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+<link href="../../../../../../Editorial/Content/Downloads/PC_SUMMER_DRESS%20White%20Summer%20Dress%2a1697895.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Downloads/PC_SUMMER_DRESS%20White%20Summer%20Dress%20Care%20Instructions%20PDF%20Download"/>
+</items>
+</CMCollection>

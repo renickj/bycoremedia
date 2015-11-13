@@ -1,0 +1,18 @@
+/*
+ * Toolbar Source Favourites
+ */
+.btn-optimizely {
+  background-image: url('../images/optimizely-ui/icon-sprites/cm-32-optimizely.png') !important;
+}
+
+.btn-optimizely {
+  background-position: center 0 !important;
+}
+
+.x-btn-over .btn-optimizely {
+  background-position: center -72px !important;
+}
+
+.x-btn-click .btn-optimizely {
+  background-position: center -144px !important;
+}

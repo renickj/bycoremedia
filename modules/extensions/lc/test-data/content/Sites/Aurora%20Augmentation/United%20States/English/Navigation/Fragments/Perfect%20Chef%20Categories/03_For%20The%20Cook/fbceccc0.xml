@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/03_For The Cook/Apparel/Women/Women Elegant" name="Women Elegant Hero Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMCollection/slideshow.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/slideshow"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Elegant</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Cocktail%20Dre87e685e8.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Cocktail%20Dresses/Enjoy%20a%20Glamorous%20Party%20Picture%20ImageMap"/>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Cocktail%20Dreb66b5a0f.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Cocktail%20Dresses/Cocktail%20Dresses%20and%20Champagne%20Picture"/>
+<link href="../../../../Editorial/Products/Fall%20Campaign/Evening%20Gown%20Red%20Product%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Evening%20Gown%20Red%20Product%20Teaser"/>
+</items>
+</CMCollection>

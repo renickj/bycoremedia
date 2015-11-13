@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>ecommerce</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>ec-studio-test-helper</artifactId>
+  <packaging>jangaroo</packaging>
+  <name>ec-studio-test-helper</name>
+  <description>Internally reused test helpers for commerce-studio</description>
+
+  <properties>
+    <selenium.host>localhost</selenium.host>
+    <jooUnitSeleniumBrowserStartCommand>*firefox</jooUnitSeleniumBrowserStartCommand>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.coremedia.ui.sdk</groupId>
+      <artifactId>editor-components</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.coremedia.ui.toolkit</groupId>
+      <artifactId>client-core-test-helper</artifactId>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>net.jangaroo</groupId>
+        <artifactId>jangaroo-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <verbose>true</verbose>
+          <jooUnitSeleniumBrowserStartCommand>${jooUnitSeleniumBrowserStartCommand}</jooUnitSeleniumBrowserStartCommand>
+          <jooUnitSeleniumRCHost>${selenium.host}</jooUnitSeleniumRCHost>
+          <jooUnitTestExecutionTimeout>30000</jooUnitTestExecutionTimeout>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <configuration>
+          <usedDependencies>
+            <usedDependency>com.coremedia.ui.sdk:editor-components</usedDependency>
+            <usedDependency>com.coremedia.ui.toolkit:client-core-test-helper</usedDependency>
+          </usedDependencies>
+        </configuration>
+      </plugin>
+    </plugins>
+
+    <sourceDirectory>src/main/joo</sourceDirectory>
+  </build>
+</project>
+

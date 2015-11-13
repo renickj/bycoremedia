@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMUserProfile folder="/Sites/PerfectChef/United States/English/Options/Personalization/Profiles" name="Matt Weller (BBQ Meat Lover) Persona" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<profileSettings href="Matt%20Weller%20%28BBQ%20Meat%20Lova90016a6.plain" mimetype="text/plain"/>
+<profileExtensions>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="properties">
+<Struct>
+<IntListProperty Name="subjectTaxonomies_count">
+<Int>75</Int>
+<Int>40</Int>
+<Int>35</Int>
+<Int>90</Int>
+</IntListProperty>
+<LinkListProperty Name="explicit" LinkType="coremedia:///cap/contenttype/CMTaxonomy">
+<Link xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Meat.xml" cmexport:path="/Settings/Taxonomies/Subject/Meat"/>
+<Link xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Recipes.xml" cmexport:path="/Settings/Taxonomies/Subject/Recipes"/>
+<Link xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Male.xml" cmexport:path="/Settings/Taxonomies/Subject/Male"/>
+</LinkListProperty>
+<LinkListProperty Name="subjectTaxonomies" LinkType="coremedia:///cap/contenttype/CMTaxonomy">
+<Link xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Sriracha%20sauce.xml" cmexport:path="/Settings/Taxonomies/Subject/Sriracha%20sauce"/>
+<Link xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Soy%20sauce.xml" cmexport:path="/Settings/Taxonomies/Subject/Soy%20sauce"/>
+<Link xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Cayenne%20Pepper.xml" cmexport:path="/Settings/Taxonomies/Subject/Cayenne%20Pepper"/>
+<Link xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Meat.xml" cmexport:path="/Settings/Taxonomies/Subject/Meat"/>
+</LinkListProperty>
+<LinkListProperty Name="profileImage" LinkType="coremedia:///cap/contenttype/CMPicture">
+<Link xlink:href="coremedia:///cap/resources/Matt%20Weller%20Picture.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Personalization/Profiles/Matt%20Weller%20Picture"/>
+</LinkListProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="usersegments">
+<String>ibm:///catalog/segment/8000000000000000604</String>
+<String>ibm:///catalog/segment/8000000000000000601</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</profileExtensions>
+</CMUserProfile>

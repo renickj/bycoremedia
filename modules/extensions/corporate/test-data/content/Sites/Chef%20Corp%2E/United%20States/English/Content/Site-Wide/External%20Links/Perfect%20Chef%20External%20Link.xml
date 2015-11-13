@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalLink folder="/Sites/Chef Corp./United States/English/Content/Site-Wide/External Links" name="Perfect Chef External Link" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Perfect Chef</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Discover inspiration, recipes and great products.</p></div></teaserText>
+<pictures>
+<link href="../../../Assets/Pictures/Consumers/Home%20-%20Perfect%20Chef%20Picture.xml" path="/Sites/Chef%20Corp%2E/United%20States/English/Assets/Pictures/Consumers/Home%20-%20Perfect%20Chef%20Picture"/>
+</pictures>
+<related>
+</related>
+<url>//{perfectchef.host}/blueprint/servlet/perfectchef</url>
+</CMExternalLink>

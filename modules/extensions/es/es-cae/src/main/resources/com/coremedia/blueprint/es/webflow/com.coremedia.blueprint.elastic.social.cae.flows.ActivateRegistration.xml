@@ -1,0 +1,26 @@
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
+
+  <input name="activationKey" type="java.lang.String" required="false"/>
+
+  <on-start>
+    <set name="flowScope.nextUrl" value="webflowUrlHelper.getRootPageUrl(flowRequestContext)"/>
+  </on-start>
+
+  <decision-state id="test">
+    <if test="T(org.springframework.util.StringUtils).hasText(activationKey)" then="activateRegistration" else="invalid"/>
+  </decision-state>
+
+  <action-state id="activateRegistration">
+    <evaluate expression="registrationHelper.activate(activationKey, flowRequestContext)"/>
+    <transition on="yes" to="activateRegistrationSuccess"/>
+    <transition on="no" to="activateRegistrationFailure"/>
+  </action-state>
+
+  <end-state id="invalid" view="externalRedirect:serverRelative:#{nextUrl}"/>
+  <end-state id="activateRegistrationSuccess" view="success"/>
+  <end-state id="activateRegistrationFailure" view="failure"/>
+
+</flow>

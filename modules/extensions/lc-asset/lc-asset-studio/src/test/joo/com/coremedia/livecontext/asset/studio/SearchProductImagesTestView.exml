@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config">
+
+  <exml:constant name="TEST_VIEW_ID" value="viewport"/>
+  <exml:constant name="CATALOG_COLLECTION_VIEW_ITEM_ID" value="catalogCollectionView"/>
+
+  <viewport id="{TEST_VIEW_ID}">
+    <items>
+      <editor:collectionViewContainer height="400"/>
+    </items>
+  </viewport>
+</exml:component>

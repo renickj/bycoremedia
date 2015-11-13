@@ -1,0 +1,25 @@
+// Imports
+@import "../base/imports";
+@import "../utils/imports";
+
+/* Overrides for Preview in Studio to fix Longscroller and Parallax Effect Issues */
+.cm-container--superhero {
+  max-height: 667px;
+
+  @include breakpoint(sm-and-up) {
+    max-height: 1024px;
+  }
+
+  /* Override vh and vw units and height, set by javascript */
+  .cm-superhero,
+  .cm-superhero__image,
+  & .cm-carousel,
+  & .cm-carousel-inner {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+.cm-gap {
+  max-height: 300px;
+}

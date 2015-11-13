@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themeDefinition modelVersion="1">
+
+  <name>corporate</name>
+  <description>Corporate Theme</description>
+
+  <javaScripts>
+    <!-- Vendor JavaScripts -->
+    <javaScript>js/jquery.js</javaScript>
+    <javaScript>js/bootstrap.js</javaScript>
+    <javaScript>js/carousel-swipe.js</javaScript>
+    <!-- CoreMedia Basic JavaScripts -->
+    <javaScript>../basic/js/noconflict.js</javaScript>
+    <javaScript>../basic/js/com.coremedia.blueprint.logger.js</javaScript>
+    <javaScript>../basic/js/jquery.coremedia.smartresize.js</javaScript>
+    <javaScript>../basic/js/jquery.coremedia.responsiveimages.js</javaScript>
+    <!-- CoreMedia Corporate JavaScripts -->
+    <javaScript>js/coremedia.blueprint.corporate.js</javaScript>
+  </javaScripts>
+
+  <styleSheets>
+    <css>css/bootstrap.css</css>
+    <css>css/corporate.css</css>
+  </styleSheets>
+</themeDefinition>

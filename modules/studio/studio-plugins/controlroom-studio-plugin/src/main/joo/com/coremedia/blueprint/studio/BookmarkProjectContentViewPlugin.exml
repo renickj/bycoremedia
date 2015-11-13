@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:plugin xmlns:exml="http://www.jangaroo.net/exml/0.8"
+             xmlns="exml:ext.config"
+             xmlns:ui="exml:com.coremedia.ui.config"
+             xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+             xmlns:collab="exml:com.coremedia.cms.editor.controlroom.config">
+
+  <exml:import class="com.coremedia.cms.editor.controlroom.project.components.ProjectContentContainer"/>
+  <!-- plugging into sub-extension points of <collab:projectContentContainer>: -->
+
+  <exml:var name="projectContentContainer"
+            type="ProjectContentContainer"
+            value="{config.component as ProjectContentContainer}"/>
+
+  <ui:nestedRulesPlugin>
+    <ui:rules>
+      <collab:projectContentContextMenu>
+        <plugins>
+          <ui:addItemsPlugin index="2">
+            <ui:items>
+              <editor:bookmarkMenuItem contentValueExpression="{projectContentContainer.selectedItemsVE}"/>
+              <menuseparator/>
+            </ui:items>
+          </ui:addItemsPlugin>
+        </plugins>
+      </collab:projectContentContextMenu>
+    </ui:rules>
+  </ui:nestedRulesPlugin>
+</exml:plugin>

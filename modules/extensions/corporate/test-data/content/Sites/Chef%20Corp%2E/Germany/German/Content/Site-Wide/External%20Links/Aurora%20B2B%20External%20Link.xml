@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalLink folder="/Sites/Chef Corp./Germany/German/Content/Site-Wide/External Links" name="Aurora B2B External Link" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Content/Site-Wide/External%20Links/Aurora%20B2B%20External%20Link.xml" path="/Sites/Chef%20Corp%2E/United%20States/English/Content/Site-Wide/External%20Links/Aurora%20B2B%20External%20Link"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<BooleanProperty Name="callToActionDisabled">false</BooleanProperty>
+<StringProperty Name="callToActionCustomText">Shop B2B Now!</StringProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Aurora B2B Shop</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Internetshop für Unternehmen.</p></div></teaserText>
+<pictures>
+<link href="../../../Assets/Pictures/Professionals/Lighting%20-%20AuroraB2B%20Picture.xml" path="/Sites/Chef%20Corp%2E/Germany/German/Assets/Pictures/Professionals/Lighting%20-%20AuroraB2B%20Picture"/>
+</pictures>
+<related>
+</related>
+<url>//{aurorab2b.host}/webapp/wcs/stores/servlet/en/aurorab2besite</url>
+</CMExternalLink>

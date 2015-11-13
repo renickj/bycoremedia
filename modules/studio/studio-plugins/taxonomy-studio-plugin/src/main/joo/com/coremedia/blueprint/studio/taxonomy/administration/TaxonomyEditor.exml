@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:taxonomy="exml:com.coremedia.blueprint.studio.config.taxonomy"
+                baseClass="com.coremedia.blueprint.studio.taxonomy.administration.TaxonomyEditorBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.taxonomy.TaxonomyStudioPlugin_properties"/>
+
+  <panel title="{TaxonomyStudioPlugin_properties.INSTANCE.TaxonomyEditor_title}"
+         closable="true"
+         header="true"
+         id="taxonomyEditor"
+         iconCls="cm-icon-taxonomies-tab"
+         itemId="taxonomyEditor"
+         layout="border">
+    <items>
+      <container region="north"
+                 height="34"
+                 cls="x-panel-tbar cookie-toolbar"
+                 layout="border">
+        <items>
+          <toolbar cls="moderationHeader"
+                   layout="hbox"
+                   region="center"/>
+          <!--another "fake"-toolbar used to add the round border at the end of the moderationPanelToolbar-->
+          <toolbar ctCls="previewToolbar"
+                   cls="right-corner-fix-toolbar"
+                   region="east"
+                   width="30"/>
+        </items>
+      </container>
+      <panel layout="border"
+             region="center"
+             cls="form-properties-panel">
+        <items>
+          <container region="north"
+                     height="70">
+            <items>
+              <container layout="hbox"
+                         cls="filter-container">
+                <items>
+                  <label text="{TaxonomyStudioPlugin_properties.INSTANCE.TaxonomyEditor_search_field_text}"
+                         cls="x-form-item-label" width="200"/>
+                </items>
+              </container>
+              <container layout="hbox"
+                         cls="filter-container">
+                <items>
+                  <taxonomy:taxonomySearchField searchResultExpression="{getSearchResultExpression()}"
+                                                siteSelectionExpression="{getSiteSelectionExpression()}"
+                                                resetOnBlur="true"
+                                                itemId="taxonomySearchField" id="taxonomySearchField" width="350"/>
+                </items>
+              </container>
+              <container layout="hbox"
+                         cls="filter-container"
+                         height="40"
+                         width="550">
+                <items>
+                  <spacer width="230"/>
+                  <label cls="taxonomy-search-error-message"
+                         id="taxonomySearchErrorMessage"
+                         width="350"
+                         height="30"/>
+                </items>
+              </container>
+            </items>
+          </container>
+          <container region="center"
+                     layout="fit"
+                     cls="taxonomy-center-panel">
+            <items>
+              <container layout="border">
+                <items>
+                  <label text="{TaxonomyStudioPlugin_properties.INSTANCE.TaxonomyEditor_explorerPanel_label}"
+                         cls="x-form-item-label"
+                         region="north"
+                         height="20"/>
+                  <taxonomy:taxonomyExplorerPanel region="center"
+                                                  id="taxonomyExplorerPanel"
+                                                  searchResultExpression="{getSearchResultExpression()}"
+                                                  siteSelectionExpression="{getSiteSelectionExpression()}"/>
+                </items>
+              </container>
+            </items>
+          </container>
+        </items>
+      </panel>
+    </items>
+  </panel>
+</exml:component>

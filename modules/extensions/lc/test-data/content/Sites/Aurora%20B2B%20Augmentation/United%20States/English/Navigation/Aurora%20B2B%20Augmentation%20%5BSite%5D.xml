@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSite folder="/Sites/Aurora B2B Augmentation/United States/English/Navigation" name="Aurora B2B Augmentation [Site]" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<id>33c8ef576f385bc322564d5694df6fc2</id>
+<name>Aurora B2B Augmentation</name>
+<root>
+<link href="Fragments/Aurora%20B2B%20Homepage/Aurora%20B2B%20Home%20Page.xml" path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Navigation/Fragments/Aurora%20B2B%20Homepage/Aurora%20B2B%20Home%20Page"/>
+</root>
+<siteManagerGroup>manager-en-US</siteManagerGroup>
+</CMSite>

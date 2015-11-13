@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Spring Recipes" name="Spring Salad Recipes Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Spring Salads</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Salads/Greek%20Salad%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Salads/Greek%20Salad%20Recipe%20Article"/>
+<link href="../../../../Videos/How-To/How%20to%20dice%20cucumbers%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20dice%20cucumbers%20Video"/>
+<link href="Salads/Insalata%20Caprese%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Salads/Insalata%20Caprese%20Recipe%20Article"/>
+<link href="../../../../Pictures/Recipes/Spring%20Recipes/Garden%20Salad%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Spring%20Recipes/Garden%20Salad%20Picture"/>
+<link href="../../../../Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video"/>
+</items>
+</CMCollection>

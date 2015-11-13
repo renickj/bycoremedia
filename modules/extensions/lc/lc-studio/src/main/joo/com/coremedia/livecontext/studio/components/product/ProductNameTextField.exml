@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config">
+  <exml:import class="com.coremedia.ui.data.ValueExpression"/>
+  <exml:import class="com.coremedia.ui.data.ValueExpressionFactory"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.CatalogObjectPropertyNames"/>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       The bean value expression pointing to a product teaser.
+    </exml:description>
+  </exml:cfg>
+
+  <textfield hideLabel="true"
+             height="23"
+             anchor="100%"
+             readOnly="true"
+             cls="string-property-field">
+    <plugins>
+      <ui:bindPropertyPlugin bindTo="{CatalogHelper.getInstance().getProductPropertyExpression(config.bindTo, CatalogObjectPropertyNames.NAME)}"/>
+    </plugins>
+  </textfield>
+</exml:component>

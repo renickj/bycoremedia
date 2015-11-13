@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+  <import resource="classpath:/com/coremedia/blueprint/base/settings/impl/bpbase-settings-services.xml"/>
+  <import resource="classpath:/com/coremedia/blueprint/base/multisite/bpbase-multisite-services.xml"/>
+  <import resource="classpath:/com/coremedia/cae/contentbean-services.xml"/>
+  <import resource="classpath:/framework/spring/search/solr-search.xml"/>
+  <import resource="classpath:/framework/spring/blueprint-services.xml"/>
+
+  <context:property-placeholder location="classpath:/framework/spring/lc-asset-services.properties"
+                                ignore-unresolvable="true"/>
+
+  <context:annotation-config/>
+  <context:component-scan base-package="com.coremedia.livecontext.asset.license"/>
+
+  <bean id="assetService" class="com.coremedia.livecontext.asset.AssetServiceImpl">
+    <property name="sitesService" ref="sitesService"/>
+    <property name="settingsService" ref="settingsService"/>
+    <property name="assetChanges" ref="assetChanges"/>
+  </bean>
+
+  <bean id="assetChanges" class="com.coremedia.livecontext.asset.AssetChanges">
+    <property name="sitesService" ref="sitesService"/>
+    <property name="maximumSize" value="${livecontext.assetService.changeEvents.maximumSize}"/>
+    <property name="expireAfterWriteInSeconds" value="${livecontext.assetService.changeEvents.expireAfterWriteInSeconds}"/>
+  </bean>
+
+  <bean id="assetChangesRepositoryListener" class="com.coremedia.livecontext.asset.AssetChangesRepositoryListener">
+    <property name="repository" ref="contentRepository"/>
+    <property name="assetChanges" ref="assetChanges"/>
+  </bean>
+
+</beans>

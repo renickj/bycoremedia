@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall Campaign" name="Red Enamel Pot Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Products/Fall%20Campaign/Red%20Enamel%20Pot%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Red%20Enamel%20Pot%20Product%20Teaser"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Feuerrot</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>In diesem klassischen, feuerroten Email-Topf gelingen Ihnen Schmorgerichte perfekt.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/02_In%20The%20Kitchen/Pots/PC_ENAMEL_POT%20Frontshot.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/02_In%20The%20Kitchen/Pots/PC_ENAMEL_POT%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/product/PC_ENAMEL_POT</externalId>
+</CMProductTeaser>

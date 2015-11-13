@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/United States/English/Navigation/Categories/06_Magazine Spring/Learn" name="Spring Learn Video Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Learn Videos</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../Videos/How-To/How%20to%20dice%20cucumbers%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20dice%20cucumbers%20Video"/>
+<link href="../../../../Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video"/>
+<link href="../../../../Videos/How-To/How%20to%20roast%20veggies%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20roast%20veggies%20Video"/>
+<link href="../../../../Videos/How-To/How%20to%20sear%20and%20roast%20meats%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20sear%20and%20roast%20meats%20Video"/>
+<link href="../../../../Videos/How-To/How%20to%20stir-fry%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20stir-fry%20Video"/>
+</items>
+</CMCollection>

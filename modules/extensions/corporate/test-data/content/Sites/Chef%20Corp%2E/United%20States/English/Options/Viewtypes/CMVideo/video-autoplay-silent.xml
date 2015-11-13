@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/Chef Corp./United States/English/Options/Viewtypes/CMVideo" name="video-autoplay-silent" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>Renders videos as a silent, autoplaying inline teaser</description>
+<icon md5="bd69feaad7b2d322ac71ce08aaf088ad" href="../../../../../../../__blob/bd69feaad7b2d322ac71ce08aaf088ad.blob" mimetype="image/png"/>
+<layout>video-autoplay-silent</layout>
+</CMViewtype>

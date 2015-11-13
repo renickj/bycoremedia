@@ -1,0 +1,453 @@
+@charset "UTF-8";
+
+/**
+  * blueprint-components
+  *
+  * @copyright       CoreMedia
+  * @author          SEC/MFA
+  *
+  * @lastmodified    thu 06.11.2014
+  */
+
+/*
+ *  no need an additional space at the bottom of the new content menu
+ */
+#new-content-toolbar-menu.fav-menu {
+  padding-bottom: 0;
+}
+
+/*
+ *  fix for the combined formulars
+ */
+.blueprint-form-item {
+  margin: 0 0 0 0 !important;
+}
+.form-properties-panel .document-form-wrapper .blueprint-form-item .x-panel-header .x-panel-header-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #646060;
+  margin-left: 10px !important;
+}
+.form-properties-panel .document-tab-panel .blueprint-form-item .x-panel-header {
+  background-image: none !important;
+  background: transparent !important;
+}
+.document-tab-panel .x-panel-header {
+  font-size: 12px;
+  color: #646060;
+  background-image: none !important;
+  background: transparent !important;
+}
+.blueprint-form-item .x-form-item .x-form-element {
+  padding: 0 !important;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+}
+.form-properties-panel .document-form-wrapper .blueprint-form-item .grey-box {
+  padding-top: 1px;
+  padding-bottom: 15px !important;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.form-properties-panel .document-form-wrapper .x-tool-toggle {
+  margin-left: 10px;
+}
+
+/*
+ * preview panel selectors
+ */
+.preview-date-selector-combo {
+  margin-left: 5px !important;
+  padding-right: 10px !important;
+}
+.preview-date-profile-selector-combo {
+  margin-left: 10px !important;
+  margin-right: -10px !important;
+}
+
+/*
+ * add top padding
+ */
+.container-height-spacer {
+  padding-top: 5px;
+}
+
+/*
+ * preview date selector menu
+ */
+.preview-date-selector-menu {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F1F1F1), to(#F1F1F1));
+  background: -moz-linear-gradient(top, #F1F1F1, #F1F1F1);
+  background-image: -o-linear-gradient(270deg, #F1F1F1, #F1F1F1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#F1F1F1', endColorstr = '#F1F1F1');
+}
+.preview-date-selected .x-btn-mc em.x-btn-arrow {
+  margin-bottom: -2px;
+  margin-top: 2px !important;
+}
+
+/*
+ * help
+ */
+.icon-help {
+  background: transparent url(../images/help_16.png) no-repeat;
+  top: 3px;
+  left: 3px;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+}
+.x-menu-list-item.row-insert-above {
+  border-top: 1px solid #FFFFFF;
+}
+
+/*
+ * thumbnail formatting
+ *
+ * @see ImageLinkListPropertyField.exml
+ */
+.image-link-list-grid .x-grid3-body,
+.image-link-list-grid .x-grid3-row,
+.image-link-list-grid .x-grid3-row-table {
+  width: auto !important;
+}
+.image-link-list-grid .thumb-wrapper {
+  border: 1px solid #BCBCBC;
+  padding: 3px;
+  width: 100px;
+  min-height: 67px;
+  background: none no-repeat center center #F1F1F1;
+}
+.image-link-list-grid .thumb-wrapper.loading {
+  background-image: url('../images/loader-circle-lite.gif');
+}
+.image-thumb-wrapper {
+  border: 1px solid #BCBCBC;
+  background-color: #F1F1F1;
+  padding: 2px;
+  width: 80px;
+  height: 54px;
+  text-align: center;
+  margin: 3px 0;
+  -moz-box-shadow: 0 1px 2px -2px #787878;
+  -webkit-box-shadow: 0 1px 2px -2px #787878;
+  box-shadow: 0 1px 2px -2px #787878;
+}
+.context-thumb-wrapper {
+  border: 1px solid #BCBCBC;
+  background-color: #F1F1F1;
+  padding: 2px;
+  width: 360px;
+  height: 250px;
+  text-align: center;
+  -moz-box-shadow: 0 1px 2px -2px #787878;
+  -webkit-box-shadow: 0 1px 2px -2px #787878;
+  box-shadow: 0 1px 2px -2px #787878;
+}
+.imagelist-icon-no-picture {
+  background: #F1F1F1 url('../images/no_picture_32.png') no-repeat scroll center center;
+  border: 1px solid #BCBCBC;
+  padding: 2px;
+  width: 80px;
+  height: 54px;
+  text-align: center;
+  margin: 3px 0;
+  -moz-box-shadow: 0 1px 2px -2px #787878;
+  -webkit-box-shadow: 0 1px 2px -2px #787878;
+  box-shadow: 0 1px 2px -2px #787878;
+}
+.image-link-list-grid.issue-change {
+  box-shadow: none;
+}
+.image-link-list-grid-property .x-grid3-scroller .x-grid3-row table:after,
+.image-link-list-grid-property .x-grid3-scroller .x-grid3-row.x-grid3-row-selected table:after,
+.issue-error .image-link-list-grid-property .x-grid3-row table:after,
+.issue-error .image-link-list-grid-property .x-grid3-row.x-grid3-row-selected table:after,
+.issue-warn .image-link-list-grid-property .x-grid3-row table:after,
+.issue-warn .image-link-list-grid-property .x-grid3-row.x-grid3-row-selected table:after {
+  position: absolute;
+  top: 7px;
+  right: -1px;
+}
+
+/*
+ * library preview
+ */
+.image-link-list-grid .library-wrapper.loading {
+  width: 80px;
+  min-height: 54px;
+  background: url('../images/loader-circle-lite.gif') no-repeat center center #F1F1F1;
+}
+.image-link-list-grid div.thumb-wrapper.loading {
+  height: 52px;
+  background: url('../images/loader-circle-lite.gif') no-repeat center center #F1F1F1;
+}
+
+/*
+ * Toolbar Source Favourites
+ */
+input.input-tree-filter.x-form-text {
+  height: 18px !important;
+}
+.content-search-area .remove-icon {
+  filter: alpha(opacity = 30);
+  opacity: .3;
+  -moz-opacity: .3;
+}
+.content-search-area .remove-icon:hover {
+  cursor: pointer;
+  filter: alpha(opacity=100);
+  opacity: 1;
+  -moz-opacity: 1;
+  transition: opacity 0.2s;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+}
+.content-search-area-toolbar {
+  background-color: #EFEFEF;
+  height: 28px !important;
+  border-bottom: 1px solid #D1D0D0;
+}
+.btn-extensions,
+.x-btn-over .btn-workflows,
+.x-btn-click .btn-extensions {
+  background-image: url('../images/cm-32-extensions.png') !important;
+}
+.btn-extensions {
+  background-position: center 0 !important;
+}
+.x-btn-over .btn-extensions {
+  background-position: center -72px !important;
+}
+.x-btn-click .btn-extensions {
+  background-position: center -144px !important;
+}
+
+/*
+* Settings Dialog
+*/
+.btn-linked-settings {
+  background-image: url("../images/add_setting_16.png") !important;
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+}
+.btn-add-image {
+  background: transparent url(../images/add_image_16.png) no-repeat left 0 !important;
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+.btn-show-in-library {
+  background-position: left 0 !important;
+}
+.btn-create-from-linklist {
+  background-position: left -16px !important;
+}
+.btn-show-in-library,
+.btn-create-from-linklist {
+  background: url("../images/cm-16-property-field-toolbar-custom.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+/* Style for rendering the selected item in ComboBox*/
+.cm-icon-combo-input {
+  padding-left: 30px !important;
+}
+.cm-icon-combo-img {
+  position: absolute;
+  left: 6px;
+  top: 3px
+}
+.properties-editor {
+  background-color: #DCDBDB;
+  border-radius: 2px;
+  margin: 0;
+  padding: 6px 0;
+}
+.switching-container .document-form-wrapper .properties-editor .x-form-item {
+  margin: 0 !important;
+  padding: 6px 0 0;
+}
+.cm-main-tab-panel-bwrap .properties-editor .x-panel-body,
+.switching-container .document-form-wrapper .properties-editor .x-panel-bwrap {
+  background-color: transparent;
+}
+.form-properties-panel .document-form-wrapper .x-panel-header {
+  background: none;
+  height: 18px;
+}
+.form-properties-panel .document-form-wrapper .x-panel-header .x-panel-header-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #646060;
+}
+.switching-container .document-form-container .content-editor .x-form-item {
+  margin: 0 12px !important;
+}
+.content-editor .x-form-label-top .x-form-item {
+  padding-bottom: 12px;
+}
+.form-properties-panel .x-panel-noborder .x-panel-tbar-noborder .x-toolbar {
+  border-style: solid solid none;
+  border-width: 2px 2px medium 1px;
+}
+.settings-form-node-label {
+  font-weight: bold !important;
+  color: #8B8E8E;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+.multipath-viewtype-combo {
+  height: 56px;
+}
+.viewtype-icon-warning {
+  height: 50px;
+  background: url('../images/viewtype_default.png') no-repeat scroll center center transparent;
+  display: block;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+  width: 82px;
+  min-height: 50px;
+}
+.list-icon-no-picture {
+  height: 52px;
+  background: url('../images/no_picture_32.png') no-repeat scroll center center transparent;
+  display: block;
+  margin: 0;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+  position: relative;
+  opacity: 0.5;
+  border: 1px solid #BCBCBC;
+  padding: 3px;
+  float: right;
+  width: 100px;
+  min-height: 67px;
+}
+.icon-warning {
+  background-image: url('../images/warn_32.png') !important;
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 36px;
+  height: 36px;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.icon-warning_16 {
+  background: transparent url(../images/warn_16.png) no-repeat left 0 !important;
+  width: 16px;
+  height: 16px;
+  display: block;
+  text-decoration: none;
+  cursor: default;
+  opacity: 0.8;
+  outline: none;
+  position: relative;
+}
+.cm-metadata-formpanel {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  width: 100% !important;
+}
+.cm-metadata-formpanel .properties-editor {
+  margin: 6px 0;
+}
+.properties-editor {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  width: 100% !important;
+  padding: 6px 12px;
+}
+.upload-blob-placeholder .default_contenttype_icon {
+  background: url(../images/2_6_40_External_Content_pos_64_0.png) no-repeat center !important;
+}
+
+/******* Media Property Editors *********/
+.meta-data-container {
+  padding-bottom: 10px;
+}
+.meta-data-container-label {
+  margin-left: 2px;
+}
+audio {
+  color: #F1F1F1;
+  width: 100%;
+}
+
+/******* /Media Property Editors *********/
+
+
+/******* Context Link List *********/
+.context-link-list-label {
+  font-weight: bold;
+  font-size: 14px;
+  font-style: italic;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.context-link-list-default-label {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.x-grid3-row-selected .context-link-list-default-label {
+  color: white !important;
+}
+.x-grid3-row-selected .context-link-list-label {
+  color: white !important;
+}
+/******* /Context Link List *********/
+
+.btn-inherit {
+  background-image: url('../images/inherit.png') !important;
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+  cursor: default;
+  outline: none;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}

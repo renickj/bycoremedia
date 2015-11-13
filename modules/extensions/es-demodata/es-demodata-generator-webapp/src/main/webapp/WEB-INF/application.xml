@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <import resource="classpath:/framework/spring/blueprint-handlers.xml"/>
+
+  <customize:replace bean="dataViewDefinitionLocations" id="esDataViewDefinitionLocationsCustomizer">
+    <description>
+      Make sure not to load any dataviews
+    </description>
+    <list />
+  </customize:replace>
+
+  <bean id="contentBeanFactory" class="com.coremedia.objectserver.beans.SpringContentBeanFactory">
+    <description>
+      Do not prepare any contentbeans
+    </description>
+  </bean>
+
+  <bean id="siteFilter" class="com.coremedia.blueprint.cae.filter.SiteFilter">
+    <!-- just to make sure that there really is a siteFilter bean -->
+    <property name="siteResolver" ref="siteResolver"/>
+  </bean>
+
+  <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver"/>
+
+</beans>

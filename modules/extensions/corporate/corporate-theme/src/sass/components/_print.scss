@@ -1,0 +1,27 @@
+// Imports
+@import "../base/imports";
+@import "../utils/imports";
+
+@include breakpoint(pt) {
+
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+
+  a[href]:after {
+    display: none;
+  }
+
+  abbr[title]:after {
+    display: none;
+  }
+
+  .cm-button {
+    border: none;
+  }
+
+  .cm-container--gap {
+    border: none;
+  }
+}

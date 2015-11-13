@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora B2B Augmentation/United States/English/Options/Settings/Templates/CMChannel/.Example Category Page" name="Main Teaser Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../Viewtypes/CMCollection/tiles-layout-left.xml" path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-left"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Main Placement (Override Inheritance)</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><strong>This is the collection which sits below the Hero banner image.</strong><br/></p><p>It is placed below the Hero Collection in the Page "Main" placement.</p><p>It can be used to link to various items, such as Products, Pages, Articles, Videos etc.</p><p>Drag content items from the Library into the "Items" field below.<br/></p><p>Select a Layout Variant at the bottom and notice that the preview to the right changes.<br/></p><p>Set the slider to the desired output device: Mobile - Tablet - Desktop</p></div></teaserText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="%2EExample%20Category%20Pag490e6d1f.xml" path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page/Sample%20Teaser"/>
+<link href="%2EExample%20Category%20Pag490e6d1f.xml" path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page/Sample%20Teaser"/>
+<link href="%2EExample%20Category%20Pag490e6d1f.xml" path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page/Sample%20Teaser"/>
+</items>
+</CMCollection>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/Recipes" name="Our 3 Favorite Vinaigrettes Vimeo Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-recipe-favorite-vinaigrettes</segment>
+<title>Our 3 Favorite Vinaigrettes</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Salad.xml" path="/Settings/Taxonomies/Subject/Salad"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Vinegar.xml" path="/Settings/Taxonomies/Subject/Vinegar"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Oil.xml" path="/Settings/Taxonomies/Subject/Oil"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Bowls.xml" path="/Settings/Taxonomies/Subject/Bowls"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/France.xml" path="/Settings/Taxonomies/Subject/France"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Fish%20and%20Seafood.xml" path="/Settings/Taxonomies/Subject/Fish%20and%20Seafood"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Meat.xml" path="/Settings/Taxonomies/Subject/Meat"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Onion.xml" path="/Settings/Taxonomies/Subject/Onion"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Mustard.xml" path="/Settings/Taxonomies/Subject/Mustard"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Sugar.xml" path="/Settings/Taxonomies/Subject/Sugar"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Salt.xml" path="/Settings/Taxonomies/Subject/Salt"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pepper.xml" path="/Settings/Taxonomies/Subject/Pepper"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Cayenne%20Pepper.xml" path="/Settings/Taxonomies/Subject/Cayenne%20Pepper"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/White%20Pepper.xml" path="/Settings/Taxonomies/Subject/White%20Pepper"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Garlic.xml" path="/Settings/Taxonomies/Subject/Garlic"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Soy%20sauce.xml" path="/Settings/Taxonomies/Subject/Soy%20sauce"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>3 Vinaigrettes</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>We show you our 3 favorites that we make almost every week and use as salad dressings, marinades for meat, sauces, and really just about anywhere I need some flavor.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>We know how easily bottles of salad dressing can clutter our fridge. Solve this problem by making your own vinaigrettes with ingredients you probably already have in your fridge and pantry. We show you our 3 favorites that we make almost every week and use as salad dressings, marinades for meat, sauces, and really just about anywhere I need some flavor.</p></div></detailText>
+<pictures>
+<link href="Our%203%20Favorite%20Vinaigrettes%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Our 3 Favorite Vinaigrettes</alt>
+<copyright>Copyright: cooksmarts.com/Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/56403483</dataUrl>
+</CMVideo>

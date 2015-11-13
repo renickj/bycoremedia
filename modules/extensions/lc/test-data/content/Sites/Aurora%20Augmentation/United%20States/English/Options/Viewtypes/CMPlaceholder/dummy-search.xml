@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/Aurora Augmentation/United States/English/Options/Viewtypes/CMPlaceholder" name="dummy-search" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>Search Dummy</description>
+<icon md5="dfaafc1c993980056e76e45fdf429092" href="../../../../../../../__blob/dfaafc1c993980056e76e45fdf429092.blob" mimetype="image/png"/>
+<layout>dummy-search</layout>
+</CMViewtype>

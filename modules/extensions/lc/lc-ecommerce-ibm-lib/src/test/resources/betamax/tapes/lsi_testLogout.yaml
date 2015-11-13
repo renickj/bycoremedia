@@ -1,0 +1,46 @@
+!tape
+name: lsi_testLogout
+interactions:
+- recorded: 2014-09-08T17:33:33.240Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/loginidentity
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '60'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+    body: '{"logonId":"cmadmin","logonPassword":"VTJjyo0AYSnXFHI201yo"}'
+  response:
+    status: 201
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:33 GMT
+      Expires: Mon, 08 Sep 2014 18:33:33 GMT
+      Vary: Accept
+    body: "{\n\t\"WCToken\": \"2%2cLwwMSMpmQQLSHUB1NzgKu9uU2Vc2PYTkGQ8yjz8xzqIy7L5V5Vr9u%2fvOi5KS5hUjplAamKEPCYpB4WKYD0uBB%2b5OeSss5xfiipSEZrRF6J9xbEYr70T0LPnYzT5ZwFnyroy7hyEEtjC%2fgBrSM67QBAeF97krm4DC%2fXHkiF9rV5i33hVB8XOR1qNMqnlff3S%2fwu41cXtJfzd5p2TdK%2f7kwg%3d%3d\"\
+      ,\n\t\"WCTrustedToken\": \"2%2ceMFD6r9wIxNw1uwCAD4SlqAWoL8%3d\",\n\t\"personalizationID\": \"1409924907387-1\",\n\t\"userId\": \"2\"\n}"
+- recorded: 2014-09-08T17:33:33.286Z
+  request:
+    method: DELETE
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/loginidentity/@self
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:33 GMT
+      Expires: Mon, 08 Sep 2014 18:33:33 GMT
+      Vary: Accept
+    body: ''

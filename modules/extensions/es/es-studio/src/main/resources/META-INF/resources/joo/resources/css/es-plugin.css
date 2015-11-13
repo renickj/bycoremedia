@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/**
+  * coremedia blueprint extensions
+  *
+  * @copyright       CoreMedia
+  * @author          SEC
+  *
+  * @lastmodified    thu 09.10.2014
+  */
+
+#cmmail-help-window .x-window-body {
+  background-color: #FFF;
+  padding: 10px;
+  text-align: justify;
+  color: #3D4242;
+}
+#cmmail-help-window .x-window-body table {
+  border: solid 1px #000;
+  border-collapse: collapse;
+  width: 478px;
+  margin-top: 10px;
+}
+#cmmail-help-window .x-window-body thead {
+  font-weight: bold;
+}
+#cmmail-help-window .x-window-body td {
+  padding: 5px;
+  border: solid 1px #3D4242;
+}
+.elastic-extensionTab {
+  padding: 10px;
+  background-color: #F0F0F0;
+}

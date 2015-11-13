@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMQueryList folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments" name="Elegant Dresses Related Query List" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="fq">
+<Struct>
+<StringProperty Name="documenttype">CMArticle,CMVideo</StringProperty>
+<BooleanProperty Name="contextTaxonomies">true</BooleanProperty>
+</Struct>
+</StructProperty>
+<IntProperty Name="limit">5</IntProperty>
+<StringProperty Name="order">freshness desc</StringProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Elegant Dresses Query List</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+</CMQueryList>

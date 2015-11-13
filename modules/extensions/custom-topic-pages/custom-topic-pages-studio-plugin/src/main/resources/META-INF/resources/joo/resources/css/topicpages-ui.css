@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/**
+  * com.coremedia.blueprint.studio.topicpages
+  *
+  * @copyright       CoreMedia
+  * @author          SEC/MFA
+  *
+  * @lastmodified    tue 21.07.2015
+  */
+.btn-search {
+  background: transparent url(../images/search.png) no-repeat left 0 !important;
+  background-position: left 0 !important;
+  filter: alpha(opacity = 80);
+  opacity: .8;
+  -moz-opacity: .8;
+  padding: 0;
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+  outline: none;
+  position: absolute;
+  top: 6px;
+  left: 4px;
+}
+
+/**
+  * tab icons
+  */
+.x-tab-strip-active .cm-icon-topicpages-tab {
+  background: url("../images/Topicpages_neg_16_0.png") no-repeat left center !important;
+}
+
+.cm-icon-topicpages-tab {
+  background: url("../images/Topicpages_pos_16_0.png") no-repeat left center !important;
+}
+
+/**
+  * @see TopicsPanel.exml
+  *
+  * prevent misalignment for combobox
+  */
+#topicPagesTaxonomyCombo,
+.topics-panel-combo-wrapper img.x-form-arrow-trigger {
+  margin-top: 1px;
+}
+#topicPagesTaxonomyCombo {
+  height: 19px;
+}
+.topic-pages-combo-form,
+.topic-pages-combo-form .x-panel-body.x-form{
+  height: 42px !important;
+}
+.topics-panel-combo-wrapper img.x-form-arrow-trigger {
+  height: 22px;
+}
+#topicPagesFilterPanel {
+  height: 23px !important;
+}
+#topicPagesFilteredLabel {
+  top: 44px !important;
+}

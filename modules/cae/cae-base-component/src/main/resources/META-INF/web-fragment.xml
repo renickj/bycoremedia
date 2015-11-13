@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-fragment version="3.0"
+              xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+              http://java.sun.com/xml/ns/javaee/web-fragment_3_0.xsd">
+
+  <name>blueprint_cae</name>
+
+  <ordering>
+    <after>
+      <!-- logging should be initialized first -->
+      <name>coremedia_logging_component</name>
+    </after>
+  </ordering>
+
+  <!-- disable asynchronous loading if any of the following is configured
+    com.coremedia.springframework.web.context.AsyncContextServlet
+    com.coremedia.springframework.web.context.AsyncContextFilter
+    -->
+  <context-param>
+    <param-name>com.coremedia.springframework.web.context.disableAsynchronousLoading</param-name>
+    <param-value>true</param-value>
+  </context-param>
+
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <trim-directive-whitespaces>true</trim-directive-whitespaces>
+    </jsp-property-group>
+  </jsp-config>
+
+  <filter>
+    <filter-name>Character Encoding Filter</filter-name>
+    <filter-class>com.coremedia.blueprint.cae.filter.UnknownMimetypeCharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+    <init-param>
+      <param-name>forceEncoding</param-name>
+      <param-value>true</param-value>
+    </init-param>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>Character Encoding Filter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>siteFilter</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>siteFilter</filter-name>
+    <url-pattern>/servlet/*</url-pattern>
+  </filter-mapping>
+
+  <!--
+    This filter puts the SettingsService into the request so that templates can pass
+    it to static taglib functions.
+  -->
+  <filter>
+    <filter-name>settingsServiceFilter</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>settingsServiceFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>previewViewFilter</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>previewViewFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <error-page>
+    <error-code>404</error-code>
+    <location>/WEB-INF/templates/error/default-error-404.jsp</location>
+  </error-page>
+
+  <error-page>
+    <location>/WEB-INF/templates/error/default-error.jsp</location>
+  </error-page>
+</web-fragment>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>cae</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+
+  <artifactId>cae-preview-webapp</artifactId>
+  <packaging>war</packaging>
+
+  <description>
+    CAE webapp for to be used in a content management environment for preview purposes.
+  </description>
+
+  <properties>
+    <finalName>blueprint</finalName>
+    <!-- always true if preview webapp is started with local tomcat plugin -->
+    <cae.use.local.resources>true</cae.use.local.resources>
+    <cae.developer.mode>true</cae.developer.mode>
+    <filter.viewlookup.by.predicate>true</filter.viewlookup.by.predicate>
+    <!-- force periodic reload of CAE view CacheKeys -->
+    <viewdispatcher.cache.enabled>false</viewdispatcher.cache.enabled>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>cae-base-component</artifactId>
+      <version>${project.version}</version>
+      <type>jar</type>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>preview-cae-extension-dependencies</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.coremedia.cms</groupId>
+      <artifactId>cae-preview-component</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>${finalName}</finalName>
+    <plugins>
+      <!--
+         invoke "mvn tomcat7:run" for running this webapp locally using a tomcat
+      -->
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <configuration>
+          <ajpPort>${PREVIEW_PORT_PREFIX}${PREVIEW_AJP_PORT_SUFFIX}</ajpPort>
+          <path>/${project.build.finalName}</path>
+          <port>${PREVIEW_PORT_PREFIX}${PREVIEW_HTTP_PORT_SUFFIX}</port>
+          <warSourceDirectory>${project.basedir}/src/main/webapp</warSourceDirectory>
+          <contextFile>${project.basedir}/src/main/servletengine/tomcat-context.xml</contextFile>
+          <systemProperties>
+            <coremedia.application.repository.url>http://${cms.host}:${CMS_PORT_PREFIX}${HTTP_PORT_SUFFIX}/coremedia/ior</coremedia.application.repository.url>
+            <coremedia.application.solr.search.url>http://${solr.host}:${SOLR_MASTER_PORT_PREFIX}${HTTP_PORT_SUFFIX}/solr/preview</coremedia.application.solr.search.url>
+            <coremedia.application.mongoDb.clientURI>mongodb://${mongo.db.host}:27017</coremedia.application.mongoDb.clientURI>
+            <coremedia.application.elastic.solr.url>http://${solr.host}:${SOLR_MASTER_PORT_PREFIX}${HTTP_PORT_SUFFIX}/solr</coremedia.application.elastic.solr.url>
+            <coremedia.application.signCookie.publicKey>${signCookie.publicKey}</coremedia.application.signCookie.publicKey>
+            <coremedia.application.signCookie.privateKey>${signCookie.privateKey}</coremedia.application.signCookie.privateKey>
+            <!--
+               Sets a JMX remote url so that the webapp can be accessed via JMX when running with tomcat plugin.
+               When running this application in a standalone tomcat, then the tomcat's built-in remote connector server
+               can be used instead.
+            -->
+            <coremedia.application.management.server.remote.url>service:jmx:rmi:///jndi/rmi://localhost:1098/cae-preview</coremedia.application.management.server.remote.url>
+            <!--
+               Storing logs below target so that they will be cleaned on "mvn clean", too
+            -->
+            <coremedia.logging.directory>${project.build.directory}/logs</coremedia.logging.directory>
+
+            <tenant.default>${tenant.default}</tenant.default>
+            <elastic.social.mail.smtp.server>${elastic.social.mail.smtp.server}</elastic.social.mail.smtp.server>
+            <coremedia.application.cae.use.local.resources>${cae.use.local.resources}</coremedia.application.cae.use.local.resources>
+            <coremedia.application.cae.developer.mode>${cae.developer.mode}</coremedia.application.cae.developer.mode>
+            <coremedia.application.view.debug.enabled>${view.debug.enabled}</coremedia.application.view.debug.enabled>
+            <coremedia.application.filter.viewlookup.by.predicate>${filter.viewlookup.by.predicate}</coremedia.application.filter.viewlookup.by.predicate>
+            <coremedia.application.viewdispatcher.cache.enabled>${viewdispatcher.cache.enabled}</coremedia.application.viewdispatcher.cache.enabled>
+            <cae.is.standalone>${cae.is.standalone}</cae.is.standalone>
+            <blueprint.site.mapping.helios>${blueprint.site.mapping.helios}</blueprint.site.mapping.helios>
+            <blueprint.site.mapping.corporate>${blueprint.site.mapping.corporate}</blueprint.site.mapping.corporate>
+            <!--
+                CoreMedia LiveContext Configuration
+            -->
+            <livecontext.ibm.wcs.host>${livecontext.ibm.wcs.host}</livecontext.ibm.wcs.host>
+            <blueprint.host.helios>${blueprint.host.helios}</blueprint.host.helios>
+            <livecontext.apache.preview.production.wcs.host>${livecontext.apache.preview.production.wcs.host}</livecontext.apache.preview.production.wcs.host>
+            <livecontext.ibm.wcs.rest.search.url>${livecontext.ibm.wcs.rest.search.url}</livecontext.ibm.wcs.rest.search.url>
+            <livecontext.ibm.wcs.rest.search.secureUrl>${livecontext.ibm.wcs.rest.search.secureUrl}</livecontext.ibm.wcs.rest.search.secureUrl>
+            <livecontext.ibm.wcs.cache.invalidation.enabled>${livecontext.ibm.wcs.cache.invalidation.enabled}</livecontext.ibm.wcs.cache.invalidation.enabled>
+            <livecontext.ibm.wcs.version>${livecontext.ibm.wcs.version}</livecontext.ibm.wcs.version>
+            <livecontext.ibm.wcs.store.id.aurora>${livecontext.ibm.wcs.store.id.aurora}</livecontext.ibm.wcs.store.id.aurora>
+            <livecontext.ibm.wcs.store.id.perfectchef>${livecontext.ibm.wcs.store.id.perfectchef}</livecontext.ibm.wcs.store.id.perfectchef>
+            <livecontext.ibm.wcs.catalog.id.aurora>${livecontext.ibm.wcs.catalog.id.aurora}</livecontext.ibm.wcs.catalog.id.aurora>
+            <livecontext.ibm.wcs.catalog.id.perfectchef>${livecontext.ibm.wcs.catalog.id.perfectchef}</livecontext.ibm.wcs.catalog.id.perfectchef>
+            <!--
+                CoreMedia Corporate Configuration
+            -->
+            <blueprint.host.corporate>${blueprint.host.corporate}</blueprint.host.corporate>
+          </systemProperties>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>websphere</id>
+      <!-- workaround Websphere's unperformant resource loading -->
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>websphere-war-exploded</id>
+                <goals>
+                  <goal>war</goal>
+                </goals>
+                <configuration>
+                  <webappDirectory>${project.build.directory}/${project.build.finalName}-websphere</webappDirectory>
+                  <classifier>websphere</classifier>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>net.jangaroo</groupId>
+            <artifactId>webjars-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>unpack</goal>
+                </goals>
+                <configuration>
+                  <webappDirectory>${project.build.directory}/${project.build.finalName}-websphere</webappDirectory>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>turbojpeg</id>
+      <dependencies>
+        <dependency>
+          <groupId>com.coremedia.com.sun.media.imageio</groupId>
+          <artifactId>jai-imageio</artifactId>
+          <version>1.1</version>
+          <scope>runtime</scope>
+        </dependency>
+        <dependency>
+          <groupId>com.coremedia.org.libjpegturbo</groupId>
+          <artifactId>turbojpeg-wrapper</artifactId>
+          <version>1.2.1.1</version>
+          <scope>runtime</scope>
+        </dependency>
+        <dependency>
+          <groupId>com.coremedia.it.geosolutions.imageio-ext</groupId>
+          <artifactId>imageio-ext-turbojpeg</artifactId>
+          <version>1.1.10</version>
+          <scope>runtime</scope>
+        </dependency>
+      </dependencies>
+    </profile>
+  </profiles>
+
+</project>

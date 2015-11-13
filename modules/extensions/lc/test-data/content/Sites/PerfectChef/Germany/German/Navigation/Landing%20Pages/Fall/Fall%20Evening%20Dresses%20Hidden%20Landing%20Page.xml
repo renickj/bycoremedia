@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMChannel folder="/Sites/PerfectChef/Germany/German/Navigation/Landing Pages/Fall" name="Fall Evening Dresses Hidden Landing Page" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Landing%20Pages/Fall%20Evening%20Dresses%20Hidden%20Landing%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Landing%20Pages/Fall%20Evening%20Dresses%20Hidden%20Landing%20Page"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>fall-dresses-landingpage</segment>
+<title>Elegant zum Cocktail</title>
+<htmlTitle></htmlTitle>
+<keywords>evening dresses</keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-1.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-1"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-19.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-19"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+</children>
+<hidden>1</hidden>
+<hiddenInSitemap>1</hiddenInSitemap>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<LinkProperty Name="layout" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../../Options/Settings/Pagegrid/Layouts/PagegridNavigation.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Layouts/PagegridNavigation"/>
+<StructProperty Name="placements">
+<Struct>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<StructListProperty Name="placements">
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+<Link xlink:href="coremedia:///cap/resources/Fall%20Evening%20Dresses%20Landing%20Page/Fall%20Cocktailba6cba0.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Landing%20Pages/Fall/Fall%20Evening%20Dresses%20Landing%20Page/Fall%20Cocktail%20Dresses%20Landing%20Page%20Hero%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/Fall%20Evening%20Dresses%20Landing%20Page/Fall%20Cocktaile1c2441.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Landing%20Pages/Fall/Fall%20Evening%20Dresses%20Landing%20Page/Fall%20Cocktail%20Dresses%20Landing%20Page%20Main%20Collection"/>
+</LinkListProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/main"/>
+</Struct>
+</StructListProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+</CMChannel>

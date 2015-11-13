@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                baseClass="com.coremedia.blueprint.studio.dialog.editors.NavigationLinkFieldBase">
+
+  <exml:import class="com.coremedia.cms.editor.Editor_properties"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.util.PropertyEditorUtil"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.util.ContentLocalizationUtil"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.util.ContentLifecycleIcons"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.actions.Actions_properties"/>
+  <exml:import class="com.coremedia.ui.ckeditor.CKEditor_properties"/>
+  <exml:import class="com.coremedia.ui.data.ValueExpressionFactory"/>
+
+  <exml:cfg name="propertyName" type="String" />
+  <exml:cfg name="label" type="String" />
+  <exml:cfg name="valueExpression" type="com.coremedia.ui.data.ValueExpression" />
+  <exml:cfg name="doctype" type="String"/>
+  <exml:cfg name="navigationPath" type="String" default="Navigation">
+    <exml:description>The path to the navigation folder, relative to the active site root folder</exml:description>
+  </exml:cfg>
+
+  <exml:description>
+    A field containing a link (or nothing). The value expression
+    associated with this field should result in an array containing
+    zero or one contents.
+  </exml:description>
+
+  <exml:var name="selectedNavigationItemsVE" type="ValueExpression" value="{ValueExpressionFactory.createFromValue([])}"/>
+
+  <grid hideHeaders="true"
+        forceLayout="true"
+        autoWidth="true"
+        autoExpandColumn="name"
+        ddGroup="ContentLinkDD">
+    <plugins>
+      <ui:bindListPlugin bindTo="{getListExpression(config.valueExpression)}">
+        <ui:fields>
+          <ui:dataField name="name"
+                        mapping="name"/>
+        </ui:fields>
+      </ui:bindListPlugin>
+      <editor:linkDropTargetPlugin valueExpression="{getListExpression(config.valueExpression)}" linkContentType="{config.doctype}"/>
+      <ui:bindSelectionPlugin selectedValues="{selectedNavigationItemsVE}"/>
+      <ui:contextMenuPlugin>
+        <ui:contextMenu>
+          <editor:propertyFieldContextMenu selectedItemsVE="{selectedNavigationItemsVE}"/>
+        </ui:contextMenu>
+      </ui:contextMenuPlugin>
+    </plugins>
+    <tbar>
+      <toolbar cls="custom-toolbar-xs">
+        <items>
+          <ui:iconButton itemId="clearParentList"
+                         handler="{clearList}"
+                         disabled="true"
+                         iconCls="{Actions_properties.INSTANCE.Action_deleteSelectedLinks_icon}"
+                         tooltip="{NavigationLinkField_properties.INSTANCE.delete_link_btn_tooltip_text}"/>
+          <ui:iconButton itemId="editParent">
+            <baseAction>
+              <editor:openInTabAction contentValueExpression="{getListExpression(config.valueExpression)}"/>
+            </baseAction>
+          </ui:iconButton>
+          <tbseparator/>
+          <ui:iconButton itemId="copy"
+                         iconCls="{NavigationLinkField_properties.INSTANCE.copy_link_btn_icon}"
+                         tooltip="{NavigationLinkField_properties.INSTANCE.copy_link_btn_tooltip_text}">
+            <baseAction>
+              <editor:copyToClipboardAction contentValueExpression="{getListExpression(config.valueExpression)}"/>
+            </baseAction>
+          </ui:iconButton>
+          <ui:iconButton itemId="paste"
+                         iconCls="{NavigationLinkField_properties.INSTANCE.paste_link_btn_icon}"
+                         tooltip="{NavigationLinkField_properties.INSTANCE.paste_link_btn_tooltip_text}">
+            <baseAction>
+              <bp:pasteLinkAction allowedDocTypes="{config.doctype}"
+                                  contentValueExpression="{getListExpression(config.valueExpression)}"/>
+            </baseAction>
+          </ui:iconButton>
+        </items>
+      </toolbar>
+    </tbar>
+    <columns>
+      <gridcolumn id="name"
+                  sortable="false"
+                  dataIndex="name"
+                  renderer="{pathRenderer}"/>
+    </columns>
+    <viewConfig>
+      <exml:object autoFill="true"
+                   deferEmptyText="false"
+                   emptyText="{getEmptyText()}"/>
+    </viewConfig>
+  </grid>
+</exml:component>

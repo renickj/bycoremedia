@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="
+               http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+               http://www.coremedia.com/2007/coremedia-spring-beans-customization http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd
+               http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+               ">
+
+  <bean class="com.coremedia.blueprint.personalization.preview.TestContextCollectorBean" />
+
+  <customize:append id="appendPersoInterceptors" bean="handlerInterceptors" order="601">
+    <list>
+      <ref bean="contextCollectorInterceptor"/>
+    </list>
+  </customize:append>
+
+</beans>

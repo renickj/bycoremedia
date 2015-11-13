@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall Recipes/Desserts" name="Black Bean Brownies Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Black%20Bean%20Brownies%20Reci11b7b608.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Black%20Bean%20Brownies%20Recipe%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Schwarze-Bohnen-Brownies mit Himbeeren </title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cocoa.xml" path="/Settings/Taxonomies/Subject/Cocoa"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Coffee.xml" path="/Settings/Taxonomies/Subject/Coffee"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Vanilla.xml" path="/Settings/Taxonomies/Subject/Vanilla"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Sweet.xml" path="/Settings/Taxonomies/Subject/Sweet"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/60%20mins.xml" path="/Settings/Taxonomies/Subject/60%20mins"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dessert.xml" path="/Settings/Taxonomies/Subject/Dessert"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Brownies </teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Ein Rezept für Brownies ohne Mehl, das Ihrer ganzen Familie schmecken wird!</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Ein Rezept für Brownies ohne Mehl, das Ihrer ganzen Familie schmecken wird!</p><p class="p--heading-2">Zutaten</p><ul><li>4 Eier</li><li>1 TL Vanille-Extrakt</li><li>2 EL fettarme Speiseöl</li><li>425g schwarze Bohnen</li><li>3 EL Kakao (zum Backen)</li><li>1/2 Tasse Zucker</li><li>1 TL Backpulver</li><li>200g Himbeeren</li></ul><p class="p--heading-2">Zubereitung</p><ul><li>Den Backofen auf 180°C vorheizen</li><li>Alle Zutaten gut mischen</li><li>Die Mischung in eine quadratische Backform verteilen</li><li>Auf der mittleren Einschubleiste etwa 30 Minuten ausbacken</li><li>Erstmal abkühlen lassen, dann genießen</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Die Schwarze Bohnen Brownies lassen sich gut mit einem <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Navigation/Categories/04_Deli/To%20Drink/To%20Drink%20External%20Page.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Categories/04_Deli/To%20Drink/To%20Drink%20External%20Page">leckeren Espresso-Kaffee oder heißem schwarzen Tee</a> kombinieren.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Brownies%20with%20Raspberries%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Brownies%20with%20Raspberries%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../Products/Fall%20Campaign/Espresso%20Cups%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Espresso%20Cups%20Product%20Teaser"/>
+<link href="../../../../Products/Fall%20Campaign/Tea%20Pot%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Tea%20Pot%20Product%20Teaser"/>
+<link href="../../../../../Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Related%20Sideb94725790.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Related%20Sidebar%20Collection"/>
+</related>
+</CMArticle>

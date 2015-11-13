@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Spring Dresses Campaign" name="White Summer Dress Video 5:2" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Video%205%3A2.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Video%205%3A2"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Weißes Sommerkleid</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+<link href="White%20Summer%20Dress%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>White Simmer Dress Video 5:2</alt>
+<copyright>Mamba100/Shutterstock 5292356</copyright>
+<data md5="41d13d2e1869d9e16bbcc9371729bc3f" href="../../../../../../../__blob/41d13d2e1869d9e16bbcc9371729bc3f.blob" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

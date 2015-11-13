@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <description>
+    Internationalization (i18n) features
+  </description>
+
+  <import resource="classpath:/com/coremedia/cae/handler-services.xml"/>
+  <import resource="classpath:/com/coremedia/cache/cache-services.xml"/>
+
+  <bean id="pageResourceBundlesInterceptor" class="com.coremedia.blueprint.cae.web.i18n.ResourceBundleInterceptor">
+    <description>
+      Makes a Page's resource bundle available to &lt;spring:message&gt; and &lt;fmt:message&gt;
+    </description>
+    <property name="cache" ref="cache"/>
+  </bean>
+
+  <customize:append id="i18nInterceptors" bean="handlerInterceptors">
+    <description>
+      Registers pageResourceBundlesInterceptor. This interceptor's #postHandle method should be invoked
+      quite early so that other interceptors can make use of the registered message source. This
+      can be achieved by putting the other interceptors IN FRONT of this one, i.e by prepending them.
+    </description>
+    <list>
+      <ref bean="pageResourceBundlesInterceptor"/>
+    </list>
+  </customize:append>
+
+  <bean id="messageSource" class="com.coremedia.blueprint.cae.web.i18n.RequestMessageSource">
+    <description>
+      A special message source that is able to delegate to a message source that is stored in the current request.
+
+    </description>
+    <!--
+     A parent message source can be injected here like this.
+    <property name="parentMessageSource" ref="yourMessageSource"/>
+    -->
+  </bean>
+
+  <bean id="localeResolver" class="com.coremedia.blueprint.cae.web.i18n.RequestLocaleResolver">
+    <description>
+      Enables modifying the current locale per request, but does not store cookie or create a session.
+    </description>
+  </bean>
+
+</beans>

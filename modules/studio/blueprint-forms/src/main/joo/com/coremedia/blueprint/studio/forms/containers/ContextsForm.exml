@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config">
+
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintDocumentTypes_properties"/>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Content bean value expression</exml:description>
+  </exml:cfg>
+
+  <editor:collapsibleFormPanel title="{BlueprintDocumentTypes_properties.INSTANCE.CMHasContexts_contexts_text}"
+                               itemId="contextsForm">
+    <items>
+      <editor:linkListPropertyField propertyName="contexts"
+                                    hideLabel="true"
+                                    itemId="contextsPropertyField"
+                                    bindTo="{config.bindTo}"/>
+    </items>
+  </editor:collapsibleFormPanel>
+
+</exml:component>

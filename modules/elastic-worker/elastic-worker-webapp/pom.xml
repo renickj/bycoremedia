@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>elastic-worker</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>elastic-worker-webapp</artifactId>
+  <packaging>war</packaging>
+
+  <description>Elastic Worker Webapp.</description>
+
+  <properties>
+    <finalName>elastic-worker</finalName>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.coremedia.cms</groupId>
+      <artifactId>base-component</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.coremedia.cms</groupId>
+      <artifactId>cap-client-component</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.coremedia.cms</groupId>
+      <artifactId>management-component</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.coremedia.blueprint.base</groupId>
+      <artifactId>bpbase-uapi-client</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>elastic-worker-component</artifactId>
+      <version>${project.version}</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>elastic-worker-extension-dependencies</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>${finalName}</finalName>
+    <plugins>
+      <!--
+         invoke "mvn tomcat7:run" for running this webapp locally using a tomcat
+      -->
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <configuration>
+          <path>/${project.build.finalName}</path>
+          <port>40082</port>
+          <warSourceDirectory>${project.basedir}/src/main/webapp</warSourceDirectory>
+          <systemProperties>
+            <repository.url>http://${cms.host}:${CMS_PORT_PREFIX}${HTTP_PORT_SUFFIX}/coremedia/ior</repository.url>
+            <mongoDb.clientURI>mongodb://${mongo.db.host}:27017</mongoDb.clientURI>
+            <elastic.solr.url>http://${solr.host}:${SOLR_MASTER_PORT_PREFIX}${HTTP_PORT_SUFFIX}/solr</elastic.solr.url>
+            <!--
+               Sets a JMX remote url so that the webapp can be accessed via JMX when running with tomcat plugin.
+               When running this application in a standalone tomcat, then the tomcat's built-in remote connector server
+               can be used instead.
+            -->
+            <management.server.remote.url>service:jmx:rmi:///jndi/rmi://localhost:40582/elastic-worker</management.server.remote.url>
+            <!--
+               Storing logs below target so that they will be cleaned on "mvn clean", too
+            -->
+            <coremedia.logging.directory>${project.build.directory}/logs</coremedia.logging.directory>
+            <tenant.default>${tenant.default}</tenant.default>
+            <installation.host>${installation.host}</installation.host>
+          </systemProperties>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>websphere</id>
+      <!-- workaround Websphere's unperformant resource loading -->
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>websphere-war-exploded</id>
+                <goals>
+                  <goal>war</goal>
+                </goals>
+                <configuration>
+                  <webappDirectory>${project.build.directory}/${project.build.finalName}-websphere</webappDirectory>
+                  <classifier>websphere</classifier>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>net.jangaroo</groupId>
+            <artifactId>webjars-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>unpack</goal>
+                </goals>
+                <configuration>
+                  <webappDirectory>${project.build.directory}/${project.build.finalName}-websphere</webappDirectory>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd http://www.coremedia.com/2007/coremedia-spring-beans-customization http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+  <import resource="classpath:/com/coremedia/blueprint/base/links/bpbase-links-services.xml"/>
+  <customize:append id="livecontextSitePrefixMapping" bean="siteMappings">
+    <map>
+      <entry key="83289cc492e6e12df0b3d87d84a460bb" value="${blueprint.site.mapping.helios:}"/>
+      <entry key="928fd4c3c00f01e3580ce73140aecdf8" value="${blueprint.site.mapping.helios:}"/>
+      <entry key="99c8ef576f385bc322564d5694df6fc2" value="${blueprint.site.mapping.helios:}"/>
+      <entry key="33c8ef576f385bc322564d5694df6fc2" value="${blueprint.site.mapping.helios:}"/>
+    </map>
+  </customize:append>
+</beans>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Chef Corp./United States/English/Options/Settings/Templates/CMChannel/Hero Page" name="New Hero Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=420;y=4;width=871;height=1350</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=460;y=36;width=990;height=1318</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=313;y=103;width=1252;height=1251</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=194;y=123;width=1636;height=1227</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=202;width=2048;height=1152</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=218;width=2048;height=1025</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=269;width=2048;height=820</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=293;width=2048;height=768</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=325;width=2048;height=511</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.20502901353965183;y1=0.0029239766081871343;x2=0.6305609284332688;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.22437137330754353;y1=0.02631578947368421;x2=0.7079303675048356;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.1528046421663443;y1=0.07602339181286549;x2=0.7640232108317214;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.09477756286266925;y1=0.09064327485380116;x2=0.8936170212765957;y2=0.9970760233918129</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.14912280701754385;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.1608187134502924;x2=1;y2=0.9181286549707602</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.19883040935672514;x2=1;y2=0.804093567251462</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.21637426900584794;x2=1;y2=0.783625730994152</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.23976608187134502;x2=1;y2=0.6169590643274854</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>About Chef Corp.</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>About Chef Corp.</alt>
+<copyright>kurhan/Shutterstock 124222000</copyright>
+<data md5="b41d6d33681ad3e24ace2e524d52c2d1" href="../../../../../../../../../__blob/b41d6d33681ad3e24ace2e524d52c2d1.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>2048</width>
+<height>1354</height>
+</CMPicture>

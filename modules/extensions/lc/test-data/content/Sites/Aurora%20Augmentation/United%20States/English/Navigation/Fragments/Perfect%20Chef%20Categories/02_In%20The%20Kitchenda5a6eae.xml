@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/02_In The Kitchen" name="Pans Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Pans</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Iron cast or teflon coated - we have got your pans covered.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Category%20Pictures/In%20The%20Kitchen/Pans%20Categ370059d1.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Category%20Pictures/In%20The%20Kitchen/Pans%20Category%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="02_In%20The%20Kitchen7d76135f.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/02_In%20The%20Kitchen/Pans/Pans%20External%20Category%20Page"/>
+</target>
+</CMTeaser>

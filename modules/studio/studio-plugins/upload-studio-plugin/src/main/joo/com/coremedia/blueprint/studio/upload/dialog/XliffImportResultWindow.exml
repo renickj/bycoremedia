@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config">
+
+  <exml:import class="com.coremedia.blueprint.studio.UploadStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.upload.XliffImportResultCodes"/>
+
+  <editor:bulkResultWindow
+          bulkResultItems="{config.bulkResultItems}"
+          resourceBundle="{UploadStudioPlugin_properties.INSTANCE}"
+          errorCodes="{[
+                XliffImportResultCodes.FAILED,
+                XliffImportResultCodes.DOES_NOT_EXIST,
+                XliffImportResultCodes.MASTER_CHANGED,
+                XliffImportResultCodes.MASTER_VERSION_OUTDATED,
+                XliffImportResultCodes.INVALID_XLIFF,
+                XliffImportResultCodes.EMPTY_TRANSUNIT_TARGET,
+                XliffImportResultCodes.INVALID_CONTENT_ID,
+                XliffImportResultCodes.NO_SUCH_PROPERTY,
+                XliffImportResultCodes.ALREADY_CHECKED_OUT,
+                XliffImportResultCodes.STRING_TOO_LONG,
+                XliffImportResultCodes.STRING_LIST_TOO_LONG,
+                XliffImportResultCodes.INVALID_MARKUP,
+
+                XliffImportResultCodes.DUPLICATE_NAME,
+                XliffImportResultCodes.INVALID_INTERNAL_LINK,
+                XliffImportResultCodes.INVALID_LOCALE
+              ]}"/>
+
+</exml:component>

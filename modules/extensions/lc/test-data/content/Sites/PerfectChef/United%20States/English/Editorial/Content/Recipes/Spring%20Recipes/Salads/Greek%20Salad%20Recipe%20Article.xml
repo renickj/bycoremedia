@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Spring Recipes/Salads" name="Greek Salad Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Greek Salad with Feta Cheese</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Recipes.xml" path="/Settings/Taxonomies/Subject/Recipes"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salad%282%29.xml" path="/Settings/Taxonomies/Subject/Salad%282%29"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Greek Salad</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>A Greek salad made with tomatos and feta cheese - sprinkled with freshly ground black pepper.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>Each <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Per94b228e4.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article">picnic</a> deserves the Perfect Chef Greek salad made of tomatoes and feta cheese - sprinkled with olive oil, white wine vinegar and freshly ground black pepper. Cut the vegetables with our <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser">super sharp Japanese knives</a> and add some <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser">some freshly ground pepper</a>. Serve with fresh baguettes.</p><p class="p--heading-2">Ingredients</p><ul><li>6 tablespoons extra-virgin olive oil</li><li>3 tablespoons red wine vinegar</li><li>1 tablespoon chopped oregano</li><li>Salt and pepper to taste</li><li>2 cucumbers, peeled, halved lengthwise, seeded and cut into bite-size chunks</li><li>4 ripe tomatoes, cored and cut into bite-size pieces</li><li>1 green bell pepper, cored, seeded and roughly chopped</li><li>1 small red onion, peeled and thinly sliced</li><li>4 ounces feta cheese, cut into cubes</li><li>1/2 cup pitted Kalamata olives</li></ul><p class="p--heading-2">Preparation</p><ul><li>In a large bowl, whisk together oil, vinegar, oregano, salt and pepper to make a dressing</li><li>Add cucumbers, tomatoes, peppers, onions, feta cheese and olives and toss gently to combine</li><li>Serve immediately</li></ul><p class="p--heading-2">Serving Suggestion</p><p>Common additions include the pickled leaves, buds or berries of capers.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Greek%20Salad%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Spring%20Recipes/Greek%20Salad%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Per94b228e4.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+<link href="../../../../../Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video"/>
+</related>
+</CMArticle>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:mgmt="exml:com.coremedia.livecontext.studio.config">
+
+  <exml:import class="com.coremedia.livecontext.studio.LivecontextStudioPlugin_properties"/>
+  <exml:import class="ext.Ext"/>
+
+  <exml:description>
+    A window containing the Management Center of the IBM WebSphere Commerce Server.
+  </exml:description>
+
+  <exml:constant name="MANAGEMENT_CENTER_WINDOW_ID" value="managementCenterWindow">
+    <exml:description>
+       The id of the management center window
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="MANAGEMENT_CENTER_FRAME_ID" value="managementCenterFrame">
+    <exml:description>
+       The id of the management center frame
+    </exml:description>
+  </exml:constant>
+
+  <window title="{LivecontextStudioPlugin_properties.INSTANCE.Window_ManagementCenter_title}"
+          layout="fit"
+          id="{MANAGEMENT_CENTER_WINDOW_ID}"
+          closeAction="hide"
+          footer="false"
+          resizable="true"
+          cls="management-center-window"
+          constrainHeader="true"
+          stateful="true"
+          stateId="{MANAGEMENT_CENTER_WINDOW_ID}"
+          stateEvents="{['hide', 'show', 'resize', 'move']}">
+    <defaults>
+      <exml:object
+              stateful="true"
+              stateEvents="{['collapse', 'expand', 'resize', 'move']}"
+              getState="{function():Object {return {visible: this.visible, collapsed: this.collapsed, height : this.getHeight(), width : this.getWidth(), x : this.x, y : this.y}}}"
+              />
+    </defaults>
+    <items>
+      <mgmt:managementCenterFrame id="{MANAGEMENT_CENTER_FRAME_ID}"
+                                  cls="visible"
+                                  stateful="false"/>
+    </items>
+  </window>
+</exml:component>

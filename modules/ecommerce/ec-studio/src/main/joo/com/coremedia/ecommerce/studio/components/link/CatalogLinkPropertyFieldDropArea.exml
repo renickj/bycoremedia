@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config" xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                baseClass="CatalogLinkPropertyFieldDropAreaBase">
+  <exml:import class="com.coremedia.cms.editor.Editor_properties"/>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+      A property path expression leading to the Bean whose property is edited. This property editor assumes that this
+      bean has a property 'properties'.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="propertyName" type="String">
+    <exml:description>
+      The name of the link list property.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="propertyFieldName" type="String">
+    <exml:description>
+       The name under which to register this property field.
+       Defaults to propertyName.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="linkType" type="String">
+    <exml:description>
+       The allowed type of links is usually derived from the link property descriptor found through bindTo and propertyName,
+       but to override this or provide an initial value for link properties in Structs that are created by this
+       property field, you may specify a custom link type.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="maxCardinality" type="int">
+    <exml:description>Optional. The maximum cardinality that the link list property should hold.
+     If not specified the maximum cardinality of the property descriptor of the link list property will be applied.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="droppingRowValueExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+      Value expression for the row where an item will be dropped.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="forceReadOnlyValueExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       An optional ValueExpression which makes the component read-only if it is evaluated to true.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="createStructFunction" type="Function">
+    <exml:description>
+       Optional: The function to create necessary structs before storing the links
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="multiple" type="Boolean">
+    <exml:description>
+       Set to true for multiple links. Default is false, i.e. single link.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="openLinkSources" type="Function">
+    <exml:description>
+       Function to perform when clicking on the empty link field.
+       It e.g. opens the collection view e.g.
+    </exml:description>
+  </exml:cfg>
+
+  <ui:iconLabel iconCls="{Editor_properties.INSTANCE.LinkListPropertyField_icon}"
+                iconMargin="{Editor_properties.INSTANCE.LinkListPropertyField_icon_margin}"
+                cls="{Editor_properties.INSTANCE.LinkListPropertyField_class}"/>
+
+</exml:component>

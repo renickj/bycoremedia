@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Landing Pages/Fall" name="Fall Cocktail Dresses Category Main Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Cocktail Dresses</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Discover all our elegant evening gowns and cocktail dresses.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Category%20Pictures/For%20The%20Cook/Apparel/Cocktail%20Dresseacef189.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Category%20Pictures/For%20The%20Cook/Apparel/Cocktail%20Dresses%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../Categories/03_For%20The%20Cook/Apparel/Elegant/Elegant%20Women/Women%288c823.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/03_For%20The%20Cook/Apparel/Elegant/Elegant%20Women/Women%20Elegant%20-%20Cocktail%20Dresses%20External%20Page"/>
+</target>
+</CMTeaser>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Recipes/Fall Recipes/Main" name="Spicy Duck Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Spicy Duck with Black Rice</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/France.xml" path="/Settings/Taxonomies/Subject/France"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spicy.xml" path="/Settings/Taxonomies/Subject/Spicy"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salt.xml" path="/Settings/Taxonomies/Subject/Salt"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Pepper.xml" path="/Settings/Taxonomies/Subject/Pepper"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Ginger.xml" path="/Settings/Taxonomies/Subject/Ginger"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Oil.xml" path="/Settings/Taxonomies/Subject/Oil"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Bacon.xml" path="/Settings/Taxonomies/Subject/Bacon"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Onion.xml" path="/Settings/Taxonomies/Subject/Onion"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Butter.xml" path="/Settings/Taxonomies/Subject/Butter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/4%20people.xml" path="/Settings/Taxonomies/Subject/4%20people"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/60%20mins.xml" path="/Settings/Taxonomies/Subject/60%20mins"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Location/France.xml" path="/Settings/Taxonomies/Location/France"/>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Spicy Duck</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>A wonderful and tasty dish from Asia - perfect for a dinner party.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Sarah Johnson's winning recipe of our Fall Edition</p><p>This is a wonderful and tasty dish. I first tasted it during one cool fall evening in southern France. Whenever I cook it, the memories of the beautiful mountainside and the very special scent of the landscape come to my mind. By the way, the dish is perfect for a dinner party (if you prepare the oven a little in advance).</p><p class="p--heading-2">Ingredients (makes 4 servings)</p><p class="p--heading-3">Duck<br/></p><ul><li>2 cups red wine</li><li>2 5-pound ducks</li><li>1 teaspoons salt</li><li>1/2 teaspoon black pepper</li><li>1/2 teaspoon ginger</li><li>1 tablespoon olive oil</li></ul><p class="p--heading-3">Black Rice</p><ul><li>10 ounces basmati rice </li><li>7 ounces smoked bacon, chopped</li><li>1 large sweet onion, thinly sliced</li><li>2 tablespoons butter</li><li>1 pack of squid ink</li></ul><p class="p--heading-2">Preparation</p><p class="p--heading-3">Duck</p><ul><li>Boil the redwine in a heavy sauce pan until it is reduced to about 1/3 of a cup.</li><li>Cut each duck in half (lengthwise) and cut away the back bone.</li><li>Cut off leg and breast pieces with a <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser">sharp meat knife</a></li><li>Put all pieces on a platter.</li><li>Preheat oven to 200°C.</li><li>Mix salt, black pepper, and ginger in a small bowl.</li><li>Rub mixture all over duck pieces.</li><li>Heat olive oil in a pan over medium-high heat.</li><li>Add leg pieces, cook until medium brown.</li><li>Cover pan and roast duck for 40 minutes.</li><li>Transfer the duck to a plate and cover it with foil to keep it warm.</li><li>Use the same pan and add duck breasts.</li><li>Cook for about 10 minutes per side.</li></ul><p><br/></p><p class="p--heading-3">Black Rice</p><ul><li>Cook the rice in a large pot of boiling water (slightly salted) and add the squid ink.</li><li>Stir occasionally.</li><li>Cook the bacon in a large pan until crisp.</li><li>Place the bacon on a paper towel.</li><li>Leave 2 tablespoons drippings in the pan and add the onions.</li><li>Heat until they are tender and golden brown.</li><li>Stir in the bacon and season with salt and pepper.</li><li>Make 4 servings out of the rice mixture, and add the duck pieces atop.</li><li>Drizzle with the redwine syrup.</li></ul><p class="p--heading-3">Wine Recommendation</p><ul><li>Californian Syrah - a strong red wine with berry flavours</li></ul></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Spicy%20Duck%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Recipes/Fall%20Recipes/Spicy%20Duck%20Picture"/>
+</pictures>
+<related>
+<link href="../../../Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner7d43d2c.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner/A%20Perfect%20Dinner%20Article"/>
+<link href="../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser"/>
+</related>
+</CMArticle>

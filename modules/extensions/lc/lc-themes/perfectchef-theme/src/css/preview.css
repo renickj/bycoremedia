@@ -1,0 +1,56 @@
+/* =====================================================================================================================
+   Preview classes
+   The classes are used for the preview of fragmented items in CoreMedia Studio
+   ================================================================================================================== */
+
+/* if multiple teasers are rendered next to each other simulate sidebar layout */
+.cm-preview-content > .content > .cm-teaser + .cm-teaser {
+  margin-top: 8px;
+}
+
+/* hero teasers always render at full width */
+.cm-preview-content > .content > .cm-teaser.cm-teaser--hero {
+  max-width: none;
+}
+
+/* normal teaser's width depends on the selected device */
+@media only screen  and (max-width: 599px) and (orientation: portrait) {
+  .cm-preview-content > .content > .cm-teaser,
+  .cm-preview-content > .content > .cm-frame--teaser {
+    max-width: 320px;
+  }
+}
+
+@media only screen  and (max-width: 599px) and (orientation: landscape) {
+  .cm-preview-content > .content > .cm-teaser,
+  .cm-preview-content > .content > .cm-frame--teaser {
+    max-width: 280px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+  .cm-preview-content > .content > .cm-teaser,
+  .cm-preview-content > .content > .cm-frame--teaser {
+    max-width: 380px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+  .cm-preview-content > .content > .cm-teaser,
+  .cm-preview-content > .content > .cm-frame--teaser {
+    max-width: 508px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+
+  .cm-preview-content > .content > .cm-teaser,
+  .cm-preview-content > .content > .cm-frame--teaser {
+    max-width: 395px;
+  }
+
+  /* if multiple teasers are rendered next to each other simulate sidebar layout */
+  .cm-preview-content > .content > .cm-teaser + .cm-teaser {
+    margin-top: 10px;
+  }
+}

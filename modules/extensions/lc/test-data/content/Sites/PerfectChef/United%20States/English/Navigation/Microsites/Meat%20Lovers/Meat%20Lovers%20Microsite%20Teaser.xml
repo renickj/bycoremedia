@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Microsites/Meat Lovers" name="Meat Lovers Microsite Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Meat Lovers Unite</teaserTitle>
+<pictures>
+<link href="../../../Editorial/Content/Microsites/Meat%20Lovers/Pictures/BBQ%20Skewer%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Microsites/Meat%20Lovers/Pictures/BBQ%20Skewer%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Meat%20Lovers%20Microsite%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Microsites/Meat%20Lovers/Meat%20Lovers%20Microsite%20Page"/>
+</target>
+</CMTeaser>

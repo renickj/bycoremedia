@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Recipes" name="Roast Vegetables Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Recipes/Roast%20Vegetables%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/Roast%20Vegetables%20Video"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Gebratene Gemüse</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Vegetable.xml" path="/Settings/Taxonomies/Subject/Vegetable"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Outdoor.xml" path="/Settings/Taxonomies/Subject/Outdoor"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Oil.xml" path="/Settings/Taxonomies/Subject/Oil"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spices%281%29.xml" path="/Settings/Taxonomies/Subject/Spices%281%29"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spices.xml" path="/Settings/Taxonomies/Subject/Spices"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+<link href="Roast%20Vegetables%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Roast%20Vegetables%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Gebratene Gemüse (1)</alt>
+<copyright></copyright>
+<data md5="b55f41d002d16594256e7e61a38ca305" href="../../../../../../__blob/b55f41d002d16594256e7e61a38ca305.blob" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

@@ -1,0 +1,1040 @@
+/* =====================================================================================================================
+   Desktop
+   These classes belong to the perfectchef theme and include all different and additional styles for a desktop version.
+   Min-Width: 1025
+   Max-Width: infinite
+   ================================================================================================================== */
+@media only screen and (min-width: 1025px) {
+
+  /* hidden flags defining screen type and orientation for javascript */
+  body:after {
+    content: 'desktop';
+  }
+
+  /* --- layout ----------------------------------------------------------------------------------------------------- */
+  /* lc-two-column layout */
+  .cm-grid--lc-two-column > .cm-grid__item,
+  .cm-grid--lc-two-column > .cm-grid__sizer {
+    width: 33.3333%;
+    /* (100% - 20px) / 3 */
+    width: calc(100% / 3 - 20px / 3);
+  }
+
+  /*
+   * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+   * css rule can be deleted as soon as fixed on browser side or handled by masonry
+   */
+  .cm-grid--lc-two-column > .cm-grid__sizer {
+    width: 33.3333%;
+    width: calc(100% / 3 - 20px / 3 - 1px / 100);
+  }
+
+  /* gutter */
+  .cm-grid--lc-two-column > .cm-grid__gutter {
+    width: 0;
+    width: calc(10px);
+  }
+
+  /* main placement */
+  .cm-grid--lc-two-column > .cm-placement-main {
+    width: 66.6667%;
+    /* (100% - 20px) * (2 / 3) + 10px */
+    width: calc(200% / 3 - 10px / 3);
+  }
+
+  .cm-placement-main > * {
+    margin-bottom: 10px;
+  }
+
+  /* header and footer */
+  .cm-grid--lc-two-column > .cm-placement-header,
+  .cm-grid--lc-two-column > .cm-placement-footer,
+  .cm-grid--lc-two-column > .cm-placement-header-advertisement,
+  .cm-grid--lc-two-column > .cm-placement-footer-advertisement {
+    width: 100%;
+  }
+
+  .cm-logo a {
+    width: 303px;
+    height: 60px;
+    background-image: url(../img/logo_desktop.png);
+  }
+
+  /* headings */
+  .cm-heading2 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+
+  .cm-heading2--boxed {
+    padding: 0.433333rem 0.93333rem 0.566667rem 0.93333rem;
+  }
+
+  .cm-heading3 {
+    font-size: 1.25rem;
+  }
+
+  .cm-heading3--boxed {
+    padding: 7px 13px;
+  }
+
+  .cm-heading4 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+
+  .cm-heading4--boxed {
+    padding: 0.5rem 0.7rem;
+  }
+
+  .cm-heading5 {
+    font-size: 1.13333rem;
+    line-height: 2rem;
+  }
+
+  .cm-heading5--boxed {
+    padding: 0.5rem 0.7rem;
+  }
+
+  /* --- header ----------------------------------------------------------------------------------------------------- */
+  .cm-placement-header {
+    line-height: 37px;
+  }
+
+  .cm-placement-header__item {
+    margin-top: 5px;
+    margin-bottom: 18px;
+    border-left: 1px solid #919191;
+  }
+
+  /* remove border from search, the element after search and navigation */
+  .cm-placement-header__item.cm-search,
+  .cm-placement-header__item.cm-icon--search + .cm-placement-header__item,
+  .cm-placement-header__item.cm-icon--navigation {
+    border-left: none;
+  }
+
+  .cm-placement-header__item.cm-icon--navigation {
+    display: block;
+    margin: 0;
+  }
+
+  /* -- icon -------------------------------------------------------------------------------------------------------- */
+  .cm-icon__symbol {
+    margin: 0 23px 2px 25px;
+    font-size: 1.6rem;
+    width: 2rem;
+  }
+
+  .cm-icon__info {
+    line-height: 2rem;
+    margin-left: -25px;
+    margin-right: 25px;
+  }
+
+  .cm-icon__symbol--badged {
+    position: relative;
+  }
+
+  .cm-icon__symbol--badged__badge {
+    top: -10px;
+    right: -15px;
+  }
+
+  /* --- footer ----------------------------------------------------------------------------------------------------- */
+  .cm-placement-footer {
+
+  }
+
+  .cm-placement-footer > .cm-navigation--footer {
+    float: left;
+    width: 80%;
+  }
+
+  .cm-placement-footer > .cm-mailinglist,
+  .cm-placement-footer > .cm-followus {
+    float: left;
+    margin: 0 0 20px 0;
+    width: 20%;
+  }
+
+  .cm-mailinglist__title,
+  .cm-followus__title {
+    font-size: 1.25rem;
+  }
+
+  .cm-navigation--footer {
+    text-align: left;
+  }
+
+  .cm-navigation--footer > li {
+    float: left;
+    margin-bottom: 30px;
+    width: 25%;
+  }
+
+  .cm-placement-footer .cm-navigation--footer > li > a {
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+
+  .cm-placement-footer .cm-navigation--footer > li > a {
+    display: block;
+    margin-bottom: 16px;
+    color: #373737;
+  }
+
+  /* --- collection ------------------------------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--masonry__grid-gutter {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 0;
+    width: calc(10px);
+  }
+
+  .cm-collection--masonry > .cm-collection__item {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    margin-bottom: 0;
+    margin-bottom: calc(10px);
+  }
+
+  .cm-collection--masonry > .cm-collection__item,
+  .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 33%;
+    /* (100% - 20px) / 3 */
+    width: calc(100% / 3 - 20px / 3);
+  }
+
+  /*
+   * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+   * css rule can be deleted as soon as fixed on browser side or handled by masonry
+   */
+  .cm-collection--masonry__grid-sizer {
+    width: 33%;
+    width: calc(100% / 3 - 20px / 3 - 1px / 100);
+  }
+
+  /* boxes */
+  .cm-collection--masonry > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 75%; /* 4:3 */
+  }
+
+  /* --- default collection ----------------------------------------------------------------------------------------- */
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--default > .cm-collection__item:nth-of-type(3n+1):nth-last-of-type(-n+3),
+  /* and for all following elements */
+  .cm-collection--default > .cm-collection__item:nth-of-type(3n+1):nth-last-of-type(-n+3) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- promo collection ------------------------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-child(1) {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 66%;
+    /* (100% - 20px) * (2 / 3) + 10px */
+    width: calc(200% / 3 - 10px / 3);
+  }
+
+  /* boxes */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box:before {
+    padding-top: 37.5%; /* 8:3 */
+  }
+
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    margin-bottom: 0;
+    /* -10px / 8 * 3 (see layout.css - adaption of height) */
+    margin-bottom: calc(0px - 15px / 4); /* there is no negator, so calc(-15px / 4) is invalid */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* special case for first row */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-of-type(1):nth-last-of-type(-n+2),
+  /* and for the following element */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-of-type(1):nth-last-of-type(-n+2) + .cm-collection__item,
+  /* last rows first element */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-of-type(3n+3):nth-last-of-type(-n+3),
+  /* and for all following elements */
+  .cm-collection--tiles-highlight > .cm-collection__item:nth-of-type(3n+3):nth-last-of-type(-n+3) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles left collection -------------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-left > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box:before {
+    padding-top: 150%; /* 2:3 */
+  }
+
+  .cm-collection--tiles-left > .cm-collection__item:nth-child(1) .cm-aspect-ratio-box {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    margin-right: 0;
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 20px / 3);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* special case for first element if it belongs to the last fifth elements */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(1):nth-last-of-type(-n+5),
+  /* element 2 and 3 do not matter, they can keep their margin due to element 1 being larger */
+  /* element 4 and 5 */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(4):nth-last-of-type(-n+2),
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(5):nth-last-of-type(1),
+  /* other rows */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(3n+6):nth-last-of-type(-n+3),
+  /* and for all following elements */
+  .cm-collection--tiles-left > .cm-collection__item:nth-of-type(3n+6):nth-last-of-type(-n+3) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles center collection ------------------------------------------------------------------------------------ */
+  /* boxes */
+  .cm-collection--tiles-center > .cm-collection__item:nth-child(2) .cm-aspect-ratio-box:before {
+    padding-top: 150%; /* 2:3  */
+  }
+
+  .cm-collection--tiles-center > .cm-collection__item:nth-child(2) .cm-aspect-ratio-box {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    margin-right: 0;
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 20px / 3);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* element 1 */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(1):nth-last-of-type(1),
+  /* special case for second element if it belongs to the last four elements */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(2):nth-last-of-type(-n+4),
+  /* element 3 does not matter, it can keep its margin due to element 2 being larger */
+  /* element 4 and 5 */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(4):nth-last-of-type(-n+2),
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(5):nth-last-of-type(1),
+  /* other rows */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(3n+6):nth-last-of-type(-n+3),
+  /* and for all following elements */
+  .cm-collection--tiles-center > .cm-collection__item:nth-of-type(3n+6):nth-last-of-type(-n+3) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles right collection ------------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-right > .cm-collection__item:nth-child(3) .cm-aspect-ratio-box:before {
+    padding-top: 150%; /* 2:3*/
+  }
+
+  .cm-collection--tiles-right > .cm-collection__item:nth-child(3) .cm-aspect-ratio-box {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    margin-right: 0;
+    /* -10px * 2 / 3 (see layout.css - adaption of width) */
+    margin-right: calc(0px - 20px / 3);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* element 1 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(1):nth-last-of-type(-n+2),
+  /* element 2 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(2):nth-last-of-type(1),
+  /* special case for third element if it belongs to the last four elements */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(3):nth-last-of-type(-n+3),
+  /* element 4 and 5 */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(4):nth-last-of-type(-n+2),
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(5):nth-last-of-type(1),
+  /* other rows */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(3n+6):nth-last-of-type(-n+3),
+  /* and for all following elements */
+  .cm-collection--tiles-right > .cm-collection__item:nth-of-type(3n+6):nth-last-of-type(-n+3) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles portrait collection ---------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-portrait > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 133.3333%; /* 3:4 */
+    padding-top: calc(400% / 3); /* 3:4 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-portrait > .cm-collection__item:nth-of-type(3n+1):nth-last-of-type(-n+3),
+  /* and for all following elements */
+  .cm-collection--tiles-portrait > .cm-collection__item:nth-of-type(3n+1):nth-last-of-type(-n+3) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles landscape collection --------------------------------------------------------------------------------- */
+  /* boxes */
+  .cm-collection--tiles-landscape > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 56.25%; /* 16:9 */
+    padding-top: calc(900% / 16); /* 16:9 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-landscape > .cm-collection__item:nth-of-type(3n+1):nth-last-of-type(-n+3),
+  /* and for all following elements */
+  .cm-collection--tiles-landscape > .cm-collection__item:nth-of-type(3n+1):nth-last-of-type(-n+3) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles 50:50 portrait collection ---------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item,
+  .cm-collection--tiles-50-50-portrait > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    /* (100% - 10px) / 2 */
+    width: calc(50% - 5px);
+  }
+
+  /*
+   * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+   * css rule can be deleted as soon as fixed on browser side or handled by masonry
+   */
+  .cm-collection--tiles-50-50-portrait > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    /* (100% - 10px) / 2 */
+    width: calc(50% - 5px - 1px / 100);
+  }
+
+  /* boxes */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 133.3333%; /* 3:4 */
+    padding-top: calc(400% / 3); /* 3:4 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-50-50-portrait > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- tiles 50:50 landscape collection --------------------------------------------------------------------------- */
+  /* grid */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item,
+  .cm-collection--tiles-50-50-landscape > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    /* (100% - 10px) / 2 */
+    width: calc(50% - 5px);
+  }
+
+  /*
+   * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+   * css rule can be deleted as soon as fixed on browser side or handled by masonry
+   */
+  .cm-collection--tiles-50-50-landscape > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    /* (100% - 10px) / 2 */
+    width: calc(50% - 5px - 1px / 100);
+  }
+
+  /* boxes */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item .cm-aspect-ratio-box:before {
+    padding-top: 56.25%; /* 16:9 */
+    padding-top: calc(900% / 16); /* 16:9 */
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--tiles-50-50-landscape > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- productlisting collection ---------------------------------------------------------------------------------- */
+  .cm-collection--productlisting > .cm-collection__item,
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 20%;
+    /* (100% - 40px) / 5 */
+    width: calc(100% / 5 - 40px / 5);
+  }
+
+  /*
+    * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+    * css rule can be deleted as soon as fixed on browser side or handled by masonry
+    */
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 20%;
+    /* (100% - 40px) / 5 */
+    width: calc(100% / 5 - 40px / 5 - 1px / 100);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--productlisting > .cm-collection__item:nth-of-type(5n+1):nth-last-of-type(-n+5),
+  /* and for all following elements */
+  .cm-collection--productlisting > .cm-collection__item:nth-of-type(5n+1):nth-last-of-type(-n+5) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- Subcategory Teaser Category Page --------------------------------------------------------------------------- */
+  .cm-collection--categories > .cm-collection__item,
+  .cm-collection--categories > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 20%;
+    /* (100% - 32px) / 5 */
+    width: calc(100% / 5 - 32px / 5);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--categories > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 20%;
+    /* (100% - 32px) / 5 */
+    width: calc(100% / 5 - 32px / 5 - 1px / 100);
+  }
+
+  .cm-collection--categories > .cm-collection__item .cm-heading2 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--productlisting > .cm-collection__item:nth-of-type(5n+1):nth-last-of-type(-n+5),
+  /* and for all following elements */
+  .cm-collection--productlisting > .cm-collection__item:nth-of-type(5n+1):nth-last-of-type(-n+5) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- titled collections ----------------------------------------------------------------------------------------- */
+
+  .cm-frame {
+    padding: 10px;
+  }
+
+  .cm-frame--teaser {
+    padding: 10px;
+  }
+
+  .cm-frame__title {
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+
+  /* adapt to 4:3 aspect ratio */
+  /*.cm-frame > .cm-teaser {
+    margin: 0 37px;
+  }*/
+
+  /* --- teaser ----------------------------------------------------------------------------------------------------- */
+  .cm-price--teaser {
+    font-weight: normal;
+    font-size: 1.7rem;
+  }
+
+  .cm-price--teaser.cm-price--special {
+    font-size: 2rem;
+  }
+
+  .cm-price--quickinfo {
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+  .cm-price--quickinfo.cm-price--special {
+    font-size: 1.2rem;
+  }
+
+  .cm-category-item__title {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    /* Height of 2 lines */
+    min-height: 3.2rem;
+  }
+
+  .cm-category-item__pricing {
+    line-height: 2rem;
+  }
+
+  .cm-category-item .cm-category-item__image.cm-aspect-ratio-box:before {
+    padding-top: 155%;
+  }
+
+  .cm-price--category-item {
+    font-size: 1.46rem;
+  }
+
+  .cm-price--category-item.cm-price--old {
+    font-size: 1.2rem;
+  }
+
+  .cm-product-info__title > *,
+  .cm-product-info__pricing > * {
+    padding: 0.5rem 0.933333rem;
+  }
+
+  /* e-marketingspot ------------------------------------------------------------------------------------------------ */
+  .cm-collection--marketingspot-single > .cm-collection__item {
+    width: 100%;
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item {
+    width: calc(50% - 10px / 2);
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item:nth-child(2n+2) {
+    margin-left: calc(10px);
+  }
+
+  .cm-collection--marketingspot-two > .cm-collection__item:nth-child(n+3) {
+    margin-top: calc(10px);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item {
+    width: calc(33.3333% - 20px / 3);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(3n+2),
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(3n+3) {
+    margin-left: calc(10px);
+  }
+
+  .cm-collection--marketingspot-multi > .cm-collection__item:nth-child(n+4) {
+    margin-top: calc(10px);
+  }
+
+  /* --- box -------------------------------------------------------------------------------------------------------- */
+  .cm-box__header {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .cm-headline .cm-aspect-ratio-box:before {
+    padding-top: 37.5%; /* 8:3 */
+  }
+
+  .cm-headline--small .cm-aspect-ratio-box:before {
+    padding-top: 25%; /* 4:1 */
+  }
+
+  .cm-text {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .cm-popup-button--active {
+    background-color: transparent;
+  }
+
+  /* article with related content */
+  .cm-box--has-related {
+    float: left;
+    padding-right: 5px;
+    width: 66%;
+    width: calc(200% / 3);
+  }
+
+  .cm-box__content {
+    margin: 23px 16px 13px;
+  }
+
+  .cm-box--related {
+    padding-left: 5px;
+    float: right;
+    width: 33%;
+    width: calc(100% / 3);
+  }
+
+  /* article single column */
+  .cm-text--single-column {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+
+  /* --- button ----------------------------------------------------------------------------------------------------- */
+  /* "top" button */
+  .cm-icon--button-top {
+    right: 50px;
+    bottom: 0;
+    padding: 5px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    border-radius: 0;
+  }
+
+  .cm-icon--button-top .cm-icon__symbol {
+    font-size: 1.6rem;
+    width: 2rem;
+    margin-left: 8px;
+  }
+
+  .cm-icon--button-top .cm-icon__info {
+    margin-right: 10px;
+  }
+
+  /* button */
+  .cm-button {
+    font-size: 1.25rem;
+    line-height: 2.13333rem;
+    -webkit-transition: background 0.5s ease-in-out 0s, border-color 0.5s ease-in-out 0s;
+    -moz-transition: background 0.5s ease-in-out 0s, border-color 0.5s ease-in-out 0s;
+    -o-transition: background 0.5s ease-in-out 0s, border-color 0.5s ease-in-out 0s;
+    transition: background 0.5s ease-in-out 0s, border-color 0.5s ease-in-out 0s;
+  }
+
+  .cm-button--linked-large .cm-button__text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* button groups */
+  .cm-button-group--default .cm-button-group__button {
+    display: inline-block;
+    width: auto;
+  }
+
+  .cm-button-group--default .cm-button-group__button + .cm-button-group__button,
+  .cm-button-group--equal .cm-button-group__button + .cm-button-group__button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .cm-button-group--linked-large {
+    width: 100%;
+  }
+
+  .cm-button-group--linked-large .cm-button-group__button {
+    display: block;
+    width: 100%;
+  }
+
+  .cm-icon--cart-add-item .cm-icon__symbol {
+    font-size: 1.8rem;
+  }
+
+  /* --- search ----------------------------------------------------------------------------------------------------- */
+  .cm-search > .cm-popup-button {
+    display: none;
+  }
+
+  .cm-search > .cm-popup--search {
+    display: none;
+  }
+
+  .cm-search-form {
+    position: relative;
+  }
+
+  .cm-search-form__fieldset {
+    padding-left: 30px;
+  }
+
+  /* different name, because it is used by wcs */
+  .search_input {
+    padding: 0 30px 0 12px;
+    width: 282px;
+    color: #373736;
+  }
+
+  .cm-search-form__button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #373736;
+  }
+
+  .cm-search-form__button > i {
+    margin: 3px 3px 2px 2px;
+    font-size: 1.6rem;
+  }
+
+  .cm-popup--search-suggestions {
+    margin-left: 30px;
+    top: 41px;
+  }
+
+  /* --- teaser ----------------------------------------------------------------------------------------------------- */
+  .cm-teaser {
+    overflow: hidden;
+  }
+
+  .cm-teaser__content ~ .cm-teaser__info {
+    margin: 5px;
+  }
+
+  .cm-teaser__content {
+    /* faster zoom out after leaving the hover*/
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+
+  .cm-teaser:hover .cm-teaser__content {
+    /* smooth zoom in during hover, after a small delay */
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 1s 0.2s ease;
+    -moz-transition: all 1s 0.2s ease;
+    -o-transition: all 1s 0.2s ease;
+    transition: all 1s 0.2s ease;
+  }
+
+  .cm-collection--slideshow .cm-teaser:hover .cm-teaser__content,
+  .cm-teaser--image:hover .cm-teaser__content,
+  .cm-teaser--text:hover .cm-teaser__content,
+  .cm-teaser--video:hover .cm-teaser__content {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  .cm-teaser--picture, .cm-teaser--video {
+    cursor: pointer;
+  }
+
+  .cm-teaser--video__play {
+    width: 120px;
+    height: 120px;
+    background-image: url(../img/button_video_play_desktop.png);
+  }
+
+  .cm-teaser {
+    position: relative;
+  }
+
+  .cm-teaser__button-group {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .cm-teaser:hover .cm-teaser__button-group {
+    display: block;
+  }
+
+  .mfp-content .cm-teaser__quickinfo {
+    margin: 0 auto;
+    position: relative;
+    width: 514px;
+  }
+
+  .mfp-content .cm-teaser__quickinfo .cm-quickinfo__property--pricing,
+  .mfp-content .cm-teaser__quickinfo .cm-quickinfo__property--pricing + .cm-quickinfo__property--controls {
+    display: table-cell;
+    vertical-align: middle;
+    width: 254px; /* 50% does not work */
+  }
+
+  /* sidebar / related content / frame */
+
+  .cm-placement-sidebar > :not(:last-child),
+  .cm-box--related > :not(:last-child),
+  .cm-frame--teaser > :not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  /* dropdown menu */
+  /* hide dropdown buttons */
+  .cm-dropdown-button {
+    display: none !important; /* must be overridden due to use of pseudo elements for icons */
+  }
+
+  .cm-navigation--footer ul {
+    margin-top: 10px;
+  }
+
+  .cm-navigation--footer ul li {
+    margin-bottom: 10px;
+  }
+
+  /* --- teaser-hero ------------------------------------------------------------------------------------------------ */
+  .cm-teaser--hero .cm-aspect-ratio-box:before {
+    padding-top: 40%; /* 5:2 */
+  }
+
+  .cm-imagemap {
+    position: relative; /* for quickinfo element */
+  }
+
+  /* disable zoom effect for imagemaps having hotzone functionality (indicated by cm-imagemap__wrapper) */
+  .cm-imagemap .cm-imagemap__wrapper .cm-teaser__content {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  .cm-imagemap:hover .cm-imagemap__wrapper .cm-teaser__content {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  .cm-imagemap__quickinfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 4;
+  }
+
+  .cm-imagemap__button-group {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .cm-quickinfo {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 306px;
+    background: #fff;
+    padding: 43px 3px 3px; /* leave space for absolute positioned title, which is always shown */
+    box-shadow: 0 0 10px #000;
+  }
+
+  .cm-quickinfo--main.cm-quickinfo--active {
+    display: none;
+  }
+
+  /* in two-column-layout the quickinfo has to be smaller */
+  .cm-grid--lc-two-column .cm-quickinfo {
+    width: 246px;
+  }
+
+  /* hide the text of quickinfos in in two-column-layout */
+  .cm-grid--lc-two-column .cm-quickinfo__text {
+    display: none;
+  }
+
+  .cm-quickinfo .cm-aspect-ratio-box:before,
+    /* more specific so masonry collections cannot overwrite this */
+  .cm-collection .cm-collection__item .cm-quickinfo .cm-aspect-ratio-box:before {
+    /* 4:3*/
+    padding-top: 75%;
+  }
+
+  .cm-quickinfo__title {
+    position: absolute;
+    font-weight: normal;
+    top: 0;
+    left: 0;
+    margin: 8px 13px;
+  }
+
+  .cm-quickinfo__text {
+    margin: 0.5rem;
+  }
+
+  .cm-quickinfo__text p {
+    margin: 0;
+  }
+
+  .cm-quickinfo__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .cm-quickinfo__listprice,
+  .cm-quickinfo__offerprice {
+    display: table-cell;
+    /* margin is ignored in table-cell */
+    padding: 8px;
+  }
+
+  .cm-quickinfo__button {
+    margin: 8px 0;
+  }
+
+  .cm-quickinfo__property {
+    display: block;
+    text-align: left;
+  }
+
+  .cm-quickinfo__property--add-to-cart {
+    position: absolute;
+    right: 0.5rem;
+    top: 14.75rem;
+    background: #fff;
+  }
+
+  .cm-quickinfo__property--add-to-cart a {
+    display: block;
+    padding: 0.5rem;
+  }
+
+  .cm-quickinfo__property--image,
+  .cm-quickinfo__property--general {
+    display: block;
+  }
+
+  .cm-quickinfo__property--controls {
+    text-align: right;
+  }
+
+  .cm-quickinfo--compact .cm-quickinfo__property--pricing,
+  /* only if pricing is present */
+  .cm-quickinfo--compact .cm-quickinfo__property--pricing + .cm-quickinfo__property--controls {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .cm-quickinfo--compact .cm-quickinfo__listprice,
+  .cm-quickinfo--compact .cm-quickinfo__offerprice {
+    display: block;
+    /* see base implementation */
+    padding: 0;
+    margin: 0 0.5rem;
+  }
+}
+
+/* --- highres/retina styles ---------------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1025px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 1025px) and (min-resolution: 192dpi) {
+
+  .cm-logo > a {
+    background-image: url(../img/logo_desktop_highres.png);
+  }
+}
+
+/* websphere commcere changes */
+#articleListing li.item h1,
+#articleListing li.item h2 {
+  margin: 0;
+}
+
+#articleListing li.item .content {
+  padding: 5px 20px 15px 65px;
+}

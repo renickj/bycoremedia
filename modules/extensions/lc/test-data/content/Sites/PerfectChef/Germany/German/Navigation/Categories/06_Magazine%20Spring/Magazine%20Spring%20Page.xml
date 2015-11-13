@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMChannel folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/06_Magazine Spring" name="Magazine Spring Page" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Categories/06_Magazine%20Spring/Magazine%20Spring%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/06_Magazine%20Spring/Magazine%20Spring%20Page"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="elasticSocial">
+<Struct>
+<StringProperty Name="commentType">REGISTERED</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment>magazin-fruehling</segment>
+<title>Magazin</title>
+<htmlTitle></htmlTitle>
+<keywords>Frühling,Frühjahr,Picknick,Picnic,Picnick,Salate,Sommermode,Sonne,Draussen</keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/new%20tag.xml" path="/Settings/Taxonomies/Subject/new%20tag"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+<link href="Theme%20Special%3A%20Picknick/Perfect%20Picnic%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/06_Magazine%20Spring/Theme%20Special%3A%20Picknick/Perfect%20Picnic%20Page"/>
+<link href="Season%20Special%3A%20Salads/Spring%20Salads%2f598a8ec.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/06_Magazine%20Spring/Season%20Special%3A%20Salads/Spring%20Salads%20Article%20Page"/>
+<link href="Reviews/Spring%20Reviews%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/06_Magazine%20Spring/Reviews/Spring%20Reviews%20Page"/>
+<link href="Learn/Spring%20Learn%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/06_Magazine%20Spring/Learn/Spring%20Learn%20Page"/>
+<link href="../99_Magazine%20Fall/Magazine%20Fall%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/99_Magazine%20Fall/Magazine%20Fall%20Page"/>
+<link href="../04_Deli/Deli%20External%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/04_Deli/Deli%20External%20Page"/>
+</children>
+<hidden>0</hidden>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<StructProperty Name="placements">
+<Struct>
+<StructProperty Name="998">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/main"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/Magazine%20Spring%20Main%20Collection.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Categories/06_Magazine%20Spring/Magazine%20Spring%20Main%20Collection"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<LinkProperty Name="layout" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../../Options/Settings/Pagegrid/Layouts/PagegridNavigation.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Layouts/PagegridNavigation"/>
+</Struct>
+</StructProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+</CMChannel>

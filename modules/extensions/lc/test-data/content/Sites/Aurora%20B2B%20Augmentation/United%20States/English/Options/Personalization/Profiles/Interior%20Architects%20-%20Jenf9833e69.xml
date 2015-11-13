@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora B2B Augmentation/United States/English/Options/Personalization/Profiles" name="Interior Architects - Jennifer Cooper Persona Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=304;y=0;width=1096;height=1700</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=214;y=0;width=1273;height=1700</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=0;y=0;width=1700;height=1700</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=214;width=1700;height=1277</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=374;width=1700;height=957</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=427;width=1700;height=850</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=509;width=1700;height=682</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=534;width=1700;height=636</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=636;width=1700;height=427</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.178743961352657;y1=0;x2=0.8236714975845411;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.12560386473429952;y1=0;x2=0.8743961352657005;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.12560386473429952;x2=1;y2=0.8768115942028986</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.21980676328502416;x2=1;y2=0.782608695652174</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.25120772946859904;x2=1;y2=0.751207729468599</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.2995169082125604;x2=1;y2=0.7004830917874396</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.3140096618357488;x2=1;y2=0.6884057971014492</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.3743961352657005;x2=1;y2=0.6256038647342995</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Jennifer-Cooper-129390947</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p/></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Jennifer-Cooper-129390947</alt>
+<copyright></copyright>
+<data md5="ee7a1187b8f54a8bc92ce35afa16d2f8" href="../../../../../../../__blob/ee7a1187b8f54a8bc92ce35afa16d2f8.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>1700</width>
+<height>1700</height>
+</CMPicture>

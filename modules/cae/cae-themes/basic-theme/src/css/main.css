@@ -1,0 +1,161 @@
+/**
+ * Main classes
+ * =====================================================================================================================
+ *
+ * Some generic Coremedia styles and classes for responsive images, navigation, quickinfo and imagemap
+ */
+
+
+/**
+ * Responsive Images Plugin
+ * ---------------------------------------------------------------------------------------------------------------------
+ *
+ * Basic styles to allow functionality to work
+ */
+
+/**
+ * Always take full width of parent container
+ */
+.cm-image--responsive {
+  vertical-align: middle;
+  width: 100%;
+}
+
+/**
+ * Dropdown Navigation
+ * ---------------------------------------------------------------------------------------------------------------------
+ *
+ * Basic styles to allow functionality to work
+ */
+
+/**
+ * hide dropdown-buttons if .cm-dropdown is not set
+ */
+.cm-dropdown-button {
+  display: none;
+}
+
+.cm-dropdown .cm-dropdown-button {
+  display: inherit;
+}
+
+/**
+ * hide all menus and items except for:
+ * - items containing opened menus
+ * - opened menus
+ * - items in active menus (root level and sublevels)
+ */
+.cm-dropdown .cm-dropdown-menu,
+.cm-dropdown .cm-dropdown-item {
+  display: none;
+}
+
+.cm-dropdown .cm-dropdown-item.cm-dropdown-menu--opened,
+.cm-dropdown .cm-dropdown-menu.cm-dropdown-menu--opened,
+.cm-dropdown.cm-dropdown-menu.cm-dropdown-menu--active > .cm-dropdown-item,
+.cm-dropdown .cm-dropdown-menu.cm-dropdown-menu--active > .cm-dropdown-item {
+  display: inherit;
+}
+
+/**
+ * Read More / Read Less functionality
+ * ---------------------------------------------------------------------------------------------------------------------
+ *
+ * Basic styles to allow functionality to work
+ */
+.cm-readmore__wrapper {
+  overflow: hidden;
+}
+
+.cm-readmore__buttonbar {
+  display: none;
+  text-align: right;
+}
+
+.cm-readmore__button-more,
+.cm-readmore__button-less {
+  background: #ffffff;
+  border: none;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+.cm-readmore--enabled > .cm-readmore__buttonbar {
+  display: block;
+}
+
+.cm-readmore--more > .cm-readmore__buttonbar > .cm-readmore__button-more {
+  display: none;
+}
+
+.cm-readmore--less > .cm-readmore__buttonbar > .cm-readmore__button-less {
+  display: none;
+}
+
+/**
+ * Quickinfo
+ * ---------------------------------------------------------------------------------------------------------------------
+ *
+ * Basic styles to allow functionality to work
+ */
+
+/**
+ * quickinfo is not visible by default (display: none is not used due to technical reasons)
+ */
+.cm-quickinfo {
+  visibility: hidden;
+  position: absolute;
+}
+
+/**
+ * activated quickinfo is visible
+ */
+.cm-quickinfo--active {
+  visibility: visible;
+  position: static;
+}
+
+/**
+ * ImageMap
+ * ---------------------------------------------------------------------------------------------------------------------
+ *
+ * Basic styles to allow functionality to work
+ */
+.cm-imagemap__wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.cm-imagemap__hotzone {
+  position: absolute;
+  z-index: 2;
+  border: 0;
+  padding: 0;
+  display: block;
+}
+
+/**
+ * Text-Overlay (part of ImageMap feature)
+ * ---------------------------------------------------------------------------------------------------------------------
+ *
+ * Basic styling for each theme provided
+ */
+.cm-overlay--theme-dark {
+  color: black;
+  background-color: transparent;
+}
+
+.cm-overlay--theme-light {
+  color: white;
+  background-color: transparent;
+}
+
+.cm-overlay--theme-light-on-dark {
+  color: white;
+  background-color: black;
+}
+
+.cm-overlay--theme-dark-on-light {
+  color: black;
+  background-color: white;
+}

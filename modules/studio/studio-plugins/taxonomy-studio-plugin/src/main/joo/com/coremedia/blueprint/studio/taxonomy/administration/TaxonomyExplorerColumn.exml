@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:taxonomy="exml:com.coremedia.blueprint.studio.config.taxonomy"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                baseClass="com.coremedia.blueprint.studio.taxonomy.administration.TaxonomyExplorerColumnBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.taxonomy.TaxonomyStudioPlugin_properties"/>
+
+  <exml:cfg name="siteSelectionExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+      Contains the active selected site, selected by site chooser component.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="clipboardValueExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+      The clipboard for cut and paste
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="selectedNodeExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+      Contains the active selected node.
+    </exml:description>
+  </exml:cfg>
+
+  <grid hideHeaders="true"
+        enableDragDrop="true"
+        ddGroup="taxonomies">
+    <plugins>
+      <ui:bindListPlugin bindTo="{getEntriesValueExpression()}">
+        <ui:fields>
+          <ui:dataField name="name"/>
+          <ui:dataField name="siteId"/>
+          <ui:dataField name="type"/>
+          <ui:dataField name="ref" />
+          <ui:dataField name="level" />
+          <ui:dataField name="root"/>
+          <ui:dataField name="leaf"/>
+          <ui:dataField name="taxonomyId"/>
+          <ui:dataField name="selectable"/>
+          <ui:dataField name="extendable"/>
+        </ui:fields>
+      </ui:bindListPlugin>
+      <ui:contextMenuPlugin disableDoubleClick="true">
+        <ui:contextMenu>
+          <ui:contextMenuNoIcon>
+            <items>
+              <menuitem itemId="cutNode"
+                        iconCls="cut-icon">
+                <baseAction>
+                  <taxonomy:cutKeywordAction clipboardValueExpression="{config.clipboardValueExpression}"
+                                             selectionExpression="{config.selectedNodeExpression}"/>
+                </baseAction>
+              </menuitem>
+              <menuitem itemId="pasteNode"
+                        iconCls="paste-icon">
+                <baseAction>
+                  <taxonomy:pasteKeywordAction clipboardValueExpression="{config.clipboardValueExpression}"
+                                               selectionExpression="{config.selectedNodeExpression}"/>
+                </baseAction>
+              </menuitem>
+            </items>
+          </ui:contextMenuNoIcon>
+        </ui:contextMenu>
+      </ui:contextMenuPlugin>
+    </plugins>
+    <columns>
+      <gridcolumn id="name"
+                  width="178"
+                  sortable="false"
+                  dataIndex="name"
+                  renderer="{nameColRenderer}"/>
+      <gridcolumn id="leaf"
+                  width="20"
+                  sortable="false"
+                  dataIndex="leaf"
+                  renderer="{pointerColRenderer}"/>
+    </columns>
+    <view>
+      <gridview scrollOffset="2"
+                forceFit="true"
+                deferEmptyText="false"
+                emptyText="{TaxonomyStudioPlugin_properties.INSTANCE.TaxonomyExplorerColumn_emptyText_loading}"/>
+    </view>
+  </grid>
+</exml:component>

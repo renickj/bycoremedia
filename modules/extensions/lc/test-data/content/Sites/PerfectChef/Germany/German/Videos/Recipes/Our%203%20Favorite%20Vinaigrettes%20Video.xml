@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Recipes" name="Our 3 Favorite Vinaigrettes Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Video"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-recipe-favorite-vinaigrettes</segment>
+<title>Unsere drei Lieblings Salatsossen</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Salad.xml" path="/Settings/Taxonomies/Subject/Salad"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Vinegar.xml" path="/Settings/Taxonomies/Subject/Vinegar"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Oil.xml" path="/Settings/Taxonomies/Subject/Oil"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Bowls.xml" path="/Settings/Taxonomies/Subject/Bowls"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/France.xml" path="/Settings/Taxonomies/Subject/France"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Fish%20and%20Seafood.xml" path="/Settings/Taxonomies/Subject/Fish%20and%20Seafood"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Meat.xml" path="/Settings/Taxonomies/Subject/Meat"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Onion.xml" path="/Settings/Taxonomies/Subject/Onion"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Mustard.xml" path="/Settings/Taxonomies/Subject/Mustard"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Sugar.xml" path="/Settings/Taxonomies/Subject/Sugar"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Salt.xml" path="/Settings/Taxonomies/Subject/Salt"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pepper.xml" path="/Settings/Taxonomies/Subject/Pepper"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Cayenne%20Pepper.xml" path="/Settings/Taxonomies/Subject/Cayenne%20Pepper"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/White%20Pepper.xml" path="/Settings/Taxonomies/Subject/White%20Pepper"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Garlic.xml" path="/Settings/Taxonomies/Subject/Garlic"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Soy%20sauce.xml" path="/Settings/Taxonomies/Subject/Soy%20sauce"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>3 Salatsossen</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Wir zeigen Ihnen unsere drei Favoriten, die wir fast jede Woche zubereiten. Sie eignen sich als Salat-Dressings, Marinaden für Fleisch und als Würzsossen.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Ist auch Ihr Kühlschank mit Salatsossen-Flaschen vollgeräumt? Lösen Sie dieses Problem, indem Sie Ihre eigenen Vinaigrettes mit Zutaten machen, die Sie wahrscheinlich schon in Ihrem Kühlschrank und in ihren Vorräten haben. Wir zeigen Ihnen unsere drei Favoriten, die wir fast jede Woche zubereiten. Sie eignen sich als Salat-Dressings, Marinaden für Fleisch und als Würzsossen.</p></div></detailText>
+<pictures>
+<link href="Our%203%20Favorite%20Vinaigrettes%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Unsere drei Lieblings Vinaigrettes</alt>
+<copyright>cooksmarts.com / Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/56403483</dataUrl>
+</CMVideo>

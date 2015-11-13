@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall Recipes" name="Fall Desserts Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Fall%20Desserts%20Collection.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Fall%20Desserts%20Collection"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Herbst Desserts</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Desserts/Upside%20Down%20Apple%20Cake%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Upside%20Down%20Apple%20Cake%20Article"/>
+<link href="../../../../Videos/Recipes/The%20Sexiest%20Bread%20Pudding%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/Recipes/The%20Sexiest%20Bread%20Pudding%20Video"/>
+<link href="Desserts/Cooked%20Pears%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Cooked%20Pears%20Article"/>
+<link href="Desserts/Black%20Bean%20Brownies%20Recipe%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Black%20Bean%20Brownies%20Recipe%20Article"/>
+<link href="../../../../Videos/How-To/How%20to%20segment%20%28supreme%29%20citrus%20fruit%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/How-To/How%20to%20segment%20%28supreme%29%20citrus%20fruit%20Video"/>
+</items>
+</CMCollection>

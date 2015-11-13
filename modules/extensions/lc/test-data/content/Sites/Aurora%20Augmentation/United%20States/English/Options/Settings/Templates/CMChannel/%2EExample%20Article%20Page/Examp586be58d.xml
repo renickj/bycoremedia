@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Options/Settings/Templates/CMChannel/.Example Article Page" name="Example Article Related Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../../Viewtypes/CMCollection/unboxed.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/unboxed"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Related Content</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../%2EExample%20Category%20Page%201/cb478093.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%201/Sample%201%20Picture"/>
+<link href="../%2EExample%20Category%20Page%201/602c3354.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%201/Sample%202%20Picture"/>
+<link href="../%2EExample%20Category%20Page%201/f510e615.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%201/Sample%203%20Picture"/>
+</items>
+</CMCollection>

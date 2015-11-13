@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring Campaign" name="Summer Dress Product Teaser - yellow" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Products/Spring%20Campaign/Summer%20Dress%20Product%20Teaser%20-%20yellow.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/Summer%20Dress%20Product%20Teaser%20-%20yellow"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Gelb</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Leicht und luftig, dennoch voller UV-Schutz - eine lässiges Sommerkleid - in gelb.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Spring/For%20Here0f0d26e.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Spring/For%20Her/PC_SUMMER_DRESS%20yellow%20Actionshot%201"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/sku/PC_SUMMER_DRESS-YELLOW-M</externalId>
+</CMProductTeaser>

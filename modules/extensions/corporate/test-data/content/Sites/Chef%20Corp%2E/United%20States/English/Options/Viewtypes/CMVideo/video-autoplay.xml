@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/Chef Corp./United States/English/Options/Viewtypes/CMVideo" name="video-autoplay" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>Renders videos as an autoplaying inline teaser</description>
+<icon md5="39557bb2454a4b32e540dc90771ab442" href="../../../../../../../__blob/39557bb2454a4b32e540dc90771ab442.blob" mimetype="image/png"/>
+<layout>video-autoplay</layout>
+</CMViewtype>

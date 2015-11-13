@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/United States/English/Videos/Campaigns/Spring Dresses Campaign" name="Red Summer Dress Video 4:3" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Red Summer Dress</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Dance</teaserTitle>
+<pictures>
+<link href="Red%20Summer%20Dress%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/Red%20Summer%20Dress%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Red Summer Dress</alt>
+<copyright>Hotelfoxtrot/Shutterstock 4533299</copyright>
+<data md5="50807cc0c9c952cf95118c96b879d2e2" href="../../../../../../../__blob/50807cc0c9c952cf95118c96b879d2e2.blob" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

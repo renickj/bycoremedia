@@ -1,0 +1,158 @@
+!tape
+name: livecontext_navi_getParentOf
+interactions:
+- recorded: 2013-11-25T10:18:35.835Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/languagemap
+    headers:
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 25 Nov 2013 10:18:29 GMT
+      Vary: Accept
+    body: "{\n\t\"ar\": \"-23\",\n\t\"de\": \"-3\",\n\t\"en\": \"-1\",\n\t\"es\": \"-5\",\n\t\"fr\": \"-2\",\n\t\"it\": \"-4\",\n\t\"ja\": \"-10\",\n\t\"ko\": \"-9\",\n\t\"pl\": \"-22\",\n\t\"pt\": \"-6\",\n\t\"ro\": \"-21\",\n\t\"ru\": \"-20\",\n\t\"zh\": \"\
+      -8\"\n}"
+- recorded: 2013-11-25T10:18:36.220Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10001/categoryview/@top?langId=-1
+    headers:
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 25 Nov 2013 10:18:29 GMT
+      Expires: Mon, 25 Nov 2013 11:18:30 GMT
+      Vary: Accept
+    body: "{\n\t\"CatalogGroupView\": [\n\t\t{\n\t\t\t\"fullImageAltDescription\": \"Image for Apparel from Aurora\",\n\t\t\t\"identifier\": \"Apparel\",\n\t\t\t\"metaDescription\": \"Apparel\",\n\t\t\t\"metaKeyword\": \"CategoryKeyword\",\n\t\
+      \t\t\"name\": \"Apparel\",\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/productview\\/byCategory\\/10051\",\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\\
+      /store\\/10001\\/categoryview\\/byId\\/10051\",\n\t\t\t\"shortDescription\": \"Apparel\",\n\t\t\t\"title\": \"Apparel | Aurora\",\n\t\t\t\"uniqueID\": \"10051\",\n\t\t\t\"xcatgroup_seoSegment\": \"ralph-lauren\"\n\t\t},\n\t\t{\n\t\t\t\"fullImage\"\
+      : \"images\\/catalog\\/apparel\\/en_US\\/Kids_clothing.jpg\",\n\t\t\t\"fullImageAltDescription\": \"Image for Apparel from Aurora\",\n\t\t\t\"identifier\": \"Apparel\",\n\t\t\t\"metaDescription\": \"The latest styles for the entire family.\",\n\t\t\t\"\
+      metaKeyword\": \"family apparel, cloths, shirt, pants, tops, bottoms, dresses, dress\",\n\t\t\t\"name\": \"Apparel\",\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/productview\\/byCategory\\/10001\"\
+      ,\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10001\",\n\t\t\t\"shortDescription\": \"The latest styles for the entire family.\",\n\t\t\t\"thumbnail\": \"images\\/catalog\\\
+      /apparel\\/Kids_clothing_sm.jpg\",\n\t\t\t\"title\": \"Apparel | Aurora\",\n\t\t\t\"uniqueID\": \"10001\",\n\t\t\t\"xcatgroup_seoSegment\": \"apparel\"\n\t\t},\n\t\t{\n\t\t\t\"fullImage\": \"images\\/catalog\\/electronics\\/tablets.png\",\n\t\t\t\"fullImageAltDescription\"\
+      : \"Image for Electronics from Aurora\",\n\t\t\t\"identifier\": \"Electronics\",\n\t\t\t\"metaDescription\": \"Electronics\",\n\t\t\t\"metaKeyword\": \"Electronics\",\n\t\t\t\"name\": \"Electronics\",\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\\
+      /wcs\\/resources\\/store\\/10001\\/productview\\/byCategory\\/10027\",\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10027\",\n\t\t\t\"shortDescription\": \"Electronics\",\n\
+      \t\t\t\"thumbnail\": \"images\\/catalog\\/electronics\\/tablets.png\",\n\t\t\t\"title\": \"Electronics | Aurora\",\n\t\t\t\"uniqueID\": \"10027\",\n\t\t\t\"xcatgroup_seoSegment\": \"electronics\"\n\t\t},\n\t\t{\n\t\t\t\"fullImage\": \"images\\/catalog\\\
+      /grocery\\/dairy.png\",\n\t\t\t\"fullImageAltDescription\": \"Image for Grocery from Aurora\",\n\t\t\t\"identifier\": \"Grocery\",\n\t\t\t\"metaDescription\": \"Grocery\",\n\t\t\t\"metaKeyword\": \"Grocery\",\n\t\t\t\"name\": \"Grocery\",\n\t\t\t\"productsURL\"\
+      : \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/productview\\/byCategory\\/10033\",\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10033\"\
+      ,\n\t\t\t\"shortDescription\": \"Grocery\",\n\t\t\t\"thumbnail\": \"images\\/catalog\\/grocery\\/dairy.png\",\n\t\t\t\"title\": \"Grocery | Aurora\",\n\t\t\t\"uniqueID\": \"10033\",\n\t\t\t\"xcatgroup_seoSegment\": \"grocery\"\n\t\t},\n\t\t{\n\t\t\t\"\
+      fullImage\": \"images\\/catalog\\/health\\/medicine.png\",\n\t\t\t\"fullImageAltDescription\": \"Image for Health from Aurora\",\n\t\t\t\"identifier\": \"Health\",\n\t\t\t\"metaDescription\": \"Health\",\n\t\t\t\"metaKeyword\": \"Health\",\n\t\t\t\"name\"\
+      : \"Health\",\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/productview\\/byCategory\\/10038\",\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\\
+      /categoryview\\/byId\\/10038\",\n\t\t\t\"shortDescription\": \"Health\",\n\t\t\t\"thumbnail\": \"images\\/catalog\\/health\\/medicine.png\",\n\t\t\t\"title\": \"Health | Aurora\",\n\t\t\t\"uniqueID\": \"10038\",\n\t\t\t\"xcatgroup_seoSegment\": \"health\"\
+      \n\t\t},\n\t\t{\n\t\t\t\"fullImage\": \"images\\/catalog\\/homefurnishings\\/appliances.png\",\n\t\t\t\"fullImageAltDescription\": \"Image for Home & Furnishing from Aurora\",\n\t\t\t\"identifier\": \"Home Furnishings\",\n\t\t\t\"metaDescription\": \"\
+      Home & Furnishing\",\n\t\t\t\"metaKeyword\": \"Home & Furnishing\",\n\t\t\t\"name\": \"Home & Furnishing\",\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/productview\\/byCategory\\/10041\",\n\t\
+      \t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10041\",\n\t\t\t\"shortDescription\": \"Home & Furnishing\",\n\t\t\t\"thumbnail\": \"images\\/catalog\\/homefurnishings\\/appliances.png\"\
+      ,\n\t\t\t\"title\": \"Home & Furnishing | Aurora\",\n\t\t\t\"uniqueID\": \"10041\",\n\t\t\t\"xcatgroup_seoSegment\": \"home---furnishing\"\n\t\t},\n\t\t{\n\t\t\t\"fullImage\": \"images\\/catalog\\/newslettersmagazines\\/magazines.png\",\n\t\t\t\"fullImageAltDescription\"\
+      : \"Image for Newsletters & Magazines from Aurora\",\n\t\t\t\"identifier\": \"NewslettersAndMagazines\",\n\t\t\t\"metaDescription\": \"Newsletters & Magazines\",\n\t\t\t\"metaKeyword\": \"Newsletters & Magazines\",\n\t\t\t\"name\": \"Newsletters & Magazines\"\
+      ,\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/productview\\/byCategory\\/10048\",\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\\
+      /byId\\/10048\",\n\t\t\t\"shortDescription\": \"Newsletters & Magazines\",\n\t\t\t\"thumbnail\": \"images\\/catalog\\/newslettersmagazines\\/magazines.png\",\n\t\t\t\"title\": \"Newsletters & Magazines | Aurora\",\n\t\t\t\"uniqueID\": \"10048\",\n\t\t\t\
+      \"xcatgroup_seoSegment\": \"newsletters---magazines\"\n\t\t}\n\t],\n\t\"MetaData\": [\n\t\t{\n\t\t\t\"metaData\": \"1\",\n\t\t\t\"metaKey\": \"price\"\n\t\t}\n\t],\n\t\"recordSetComplete\": \"true\",\n\t\"recordSetCount\": \"7\",\n\t\"recordSetStartNumber\"\
+      : \"0\",\n\t\"recordSetTotal\": \"7\",\n\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/@top\",\n\t\"resourceName\": \"categoryview\"\n}"
+- recorded: 2013-11-25T10:18:36.330Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10001/categoryview/byParentCategory/10051?langId=-1
+    headers:
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 25 Nov 2013 10:18:29 GMT
+      Expires: Mon, 25 Nov 2013 11:18:30 GMT
+      Vary: Accept
+    body: "{\n\t\"CatalogGroupView\": [\n\t\t{\n\t\t\t\"identifier\": \"men\",\n\t\t\t\"name\": \"Men\",\n\t\t\t\"parentCatalogGroupID\": [\n\t\t\t\t\"10051\"\n\t\t\t],\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\\
+      /store\\/10001\\/productview\\/byCategory\\/10052\",\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10052\",\n\t\t\t\"uniqueID\": \"10052\",\n\t\t\t\"xcatgroup_seoSegment\"\
+      : \"men--1\"\n\t\t},\n\t\t{\n\t\t\t\"identifier\": \"women\",\n\t\t\t\"name\": \"women\",\n\t\t\t\"parentCatalogGroupID\": [\n\t\t\t\t\"10051\"\n\t\t\t],\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\\
+      /productview\\/byCategory\\/10551\",\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10551\",\n\t\t\t\"uniqueID\": \"10551\",\n\t\t\t\"xcatgroup_seoSegment\": \"women--1\"\n\t\
+      \t}\n\t],\n\t\"MetaData\": [\n\t\t{\n\t\t\t\"metaData\": \"1\",\n\t\t\t\"metaKey\": \"price\"\n\t\t}\n\t],\n\t\"recordSetComplete\": \"true\",\n\t\"recordSetCount\": \"2\",\n\t\"recordSetStartNumber\": \"0\",\n\t\"recordSetTotal\": \"2\",\n\t\"resourceId\"\
+      : \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byParentCategory\\/10051\",\n\t\"resourceName\": \"categoryview\"\n}"
+- recorded: 2013-11-25T10:18:36.426Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10001/categoryview/byParentCategory/10052?langId=-1
+    headers:
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 25 Nov 2013 10:18:29 GMT
+      Expires: Mon, 25 Nov 2013 11:18:30 GMT
+      Vary: Accept
+    body: "{\n\t\"CatalogGroupView\": [\n\t\t{\n\t\t\t\"identifier\": \"highlights\",\n\t\t\t\"name\": \"Highlights\",\n\t\t\t\"parentCatalogGroupID\": [\n\t\t\t\t\"10052\"\n\t\t\t],\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\\
+      /resources\\/store\\/10001\\/productview\\/byCategory\\/10053\",\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10053\",\n\t\t\t\"uniqueID\": \"10053\",\n\t\t\t\"xcatgroup_seoSegment\"\
+      : \"highlights\"\n\t\t},\n\t\t{\n\t\t\t\"identifier\": \"rlessentials\",\n\t\t\t\"name\": \"Essentials\",\n\t\t\t\"parentCatalogGroupID\": [\n\t\t\t\t\"10052\"\n\t\t\t],\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\\
+      /store\\/10001\\/productview\\/byCategory\\/10055\",\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10055\",\n\t\t\t\"shortDescription\": \"Essentials\",\n\t\t\t\"uniqueID\"\
+      : \"10055\",\n\t\t\t\"xcatgroup_seoSegment\": \"essentials\"\n\t\t}\n\t],\n\t\"MetaData\": [\n\t\t{\n\t\t\t\"metaData\": \"1\",\n\t\t\t\"metaKey\": \"price\"\n\t\t}\n\t],\n\t\"recordSetComplete\": \"true\",\n\t\"recordSetCount\": \"2\",\n\t\"recordSetStartNumber\"\
+      : \"0\",\n\t\"recordSetTotal\": \"2\",\n\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byParentCategory\\/10052\",\n\t\"resourceName\": \"categoryview\"\n}"
+- recorded: 2013-11-25T10:18:36.536Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10001/categoryview/byId/10052?langId=-1
+    headers:
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 25 Nov 2013 10:18:30 GMT
+      Expires: Mon, 25 Nov 2013 11:18:30 GMT
+      Vary: Accept
+    body: "{\n\t\"CatalogGroupView\": [\n\t\t{\n\t\t\t\"fullImageAltDescription\": \"Image for Men from Aurora\",\n\t\t\t\"identifier\": \"men\",\n\t\t\t\"metaDescription\": \"CategoryShortDescription\",\n\t\t\t\"metaKeyword\": \"CategoryKeyword\",\n\t\t\t\"\
+      name\": \"Men\",\n\t\t\t\"parentCatalogGroupID\": [\n\t\t\t\t\"10051\"\n\t\t\t],\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/productview\\/byCategory\\/10052\",\n\t\t\t\"resourceId\": \"http:\\\
+      /\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10052\",\n\t\t\t\"title\": \"Men | Aurora\",\n\t\t\t\"uniqueID\": \"10052\",\n\t\t\t\"xcatgroup_seoSegment\": \"men--1\"\n\t\t}\n\t],\n\t\"MetaData\": [\n\t\t\
+      {\n\t\t\t\"metaData\": \"1\",\n\t\t\t\"metaKey\": \"price\"\n\t\t}\n\t],\n\t\"recordSetComplete\": \"true\",\n\t\"recordSetCount\": \"1\",\n\t\"recordSetStartNumber\": \"0\",\n\t\"recordSetTotal\": \"1\",\n\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\\
+      /wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10052\",\n\t\"resourceName\": \"categoryview\"\n}"
+- recorded: 2013-11-25T10:18:36.736Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10001/categoryview/byId/10051?langId=-1
+    headers:
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 25 Nov 2013 10:18:30 GMT
+      Expires: Mon, 25 Nov 2013 11:18:30 GMT
+      Vary: Accept
+    body: "{\n\t\"CatalogGroupView\": [\n\t\t{\n\t\t\t\"fullImageAltDescription\": \"Image for Apparel from Aurora\",\n\t\t\t\"identifier\": \"Apparel\",\n\t\t\t\"metaDescription\": \"Apparel\",\n\t\t\t\"metaKeyword\": \"CategoryKeyword\",\n\t\
+      \t\t\"name\": \"Apparel\",\n\t\t\t\"productsURL\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\/store\\/10001\\/productview\\/byCategory\\/10051\",\n\t\t\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\/wcs\\/resources\\\
+      /store\\/10001\\/categoryview\\/byId\\/10051\",\n\t\t\t\"shortDescription\": \"Apparel\",\n\t\t\t\"title\": \"Apparel | Aurora\",\n\t\t\t\"uniqueID\": \"10051\",\n\t\t\t\"xcatgroup_seoSegment\": \"ralph-lauren\"\n\t\t}\n\t],\n\t\"MetaData\":\
+      \ [\n\t\t{\n\t\t\t\"metaData\": \"1\",\n\t\t\t\"metaKey\": \"price\"\n\t\t}\n\t],\n\t\"recordSetComplete\": \"true\",\n\t\"recordSetCount\": \"1\",\n\t\"recordSetStartNumber\": \"0\",\n\t\"recordSetTotal\": \"1\",\n\t\"resourceId\": \"http:\\/\\/shop-ref.ecommerce.coremedia.com:80\\\
+      /wcs\\/resources\\/store\\/10001\\/categoryview\\/byId\\/10051\",\n\t\"resourceName\": \"categoryview\"\n}"

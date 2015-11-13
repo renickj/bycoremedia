@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!-- boms should use the bom-parent -->
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>bom-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <relativePath>../../bom-parent/pom.xml</relativePath>
+  </parent>
+
+  <artifactId>alx-webtrends-bom</artifactId>
+  <packaging>pom</packaging>
+
+  <properties>
+    <coremedia.project.extension.name>Webtrends Plugin</coremedia.project.extension.name>
+    <coremedia.project.extension.modelVersion>1.0</coremedia.project.extension.modelVersion>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- implicitly enable alx extension -->
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>alx-bom</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>alx-webtrends-cae</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>alx-webtrends-studio-lib</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>alx-webtrends-studio-plugin</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

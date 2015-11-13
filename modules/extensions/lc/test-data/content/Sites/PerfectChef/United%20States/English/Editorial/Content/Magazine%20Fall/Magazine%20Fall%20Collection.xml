@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/United States/English/Editorial/Content/Magazine Fall" name="Magazine Fall Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Perfect Chef Fall Edition</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Story%202%20-%20Autumn%20Dishes/Autumn%20Dished8812306.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Fall/Story%202%20-%20Autumn%20Dishes/Autumn%20Dishes%20Article"/>
+<link href="../../Products/Fall%20Campaign/Evening%20Gown%20Red%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Evening%20Gown%20Red%20Product%20Teaser"/>
+<link href="../../../Navigation/Startpage/Fall%20Cocktail%20Dress%20Mainpage%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Startpage/Fall%20Cocktail%20Dress%20Mainpage%20Teaser"/>
+<link href="../../Products/Fall%20Campaign/Square%20Plate%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Square%20Plate%20Product%20Teaser"/>
+<link href="../../Products/Fall%20Campaign/Champagne%20Flutes%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Champagne%20Flutes%20Product%20Teaser"/>
+</items>
+</CMCollection>

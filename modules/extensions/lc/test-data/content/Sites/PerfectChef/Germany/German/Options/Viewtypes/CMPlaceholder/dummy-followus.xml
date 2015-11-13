@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMPlaceholder" name="dummy-followus" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMPlaceholder/dummy-followus.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMPlaceholder/dummy-followus"/>
+</master>
+<masterVersion>1</masterVersion>
+<description>Dummy ViewType for Shopping Cart</description>
+<icon md5="dfaafc1c993980056e76e45fdf429092" href="../../../../../../../__blob/dfaafc1c993980056e76e45fdf429092.blob" mimetype="image/png"/>
+<layout>dummy-followus</layout>
+</CMViewtype>

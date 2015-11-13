@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Microsites/Perfect Dinner" name="Cocktail Dresses Category Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Cocktail Dresses New Collection</teaserTitle>
+<pictures>
+<link href="../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Cocktail%20Dreb66b5a0f.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Cocktail%20Dresses/Cocktail%20Dresses%20and%20Champagne%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/b3c8bcc0.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Women/Women%20Elegant/Women%20Elegant%20External%20Page"/>
+</target>
+</CMTeaser>

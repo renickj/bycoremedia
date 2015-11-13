@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalChannel folder="/Sites/Aurora Augmentation/United States/English/Navigation" name="Aurora Augmentation" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<LinkProperty Name="mediaelementplayer_flash" LinkType="coremedia:///cap/contenttype/CMInteractive" xlink:href="coremedia:///cap/resources/../../../../../Themes/basic/vendor/mediaelement/flashmediaelement%2Eswf.xml" cmexport:path="/Themes/basic/vendor/mediaelement/flashmediaelement%2Eswf"/>
+<StructProperty Name="livecontext.relatedpage.pdp">
+<Struct>
+<LinkProperty Name="pagegrid" LinkType="coremedia:///cap/contenttype/CMChannel" xlink:href="coremedia:///cap/resources/Aurora%20Augmentation%20PDP%20Template%20Page.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Aurora%20Augmentation%20PDP%20Template%20Page"/>
+<StructProperty Name="settings">
+<Struct>
+<StructProperty Name="elasticSocial">
+<Struct>
+<StringProperty Name="reviewType">REGISTERED</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<LinkProperty Name="livecontext.default.product.picture" LinkType="coremedia:///cap/contenttype/CMPicture" xlink:href="coremedia:///cap/resources/../Pictures/Picture%20Missing%20Product%20Picture.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Picture%20Missing%20Product%20Picture"/>
+<StructProperty Name="COP">
+<Struct>
+<LinkProperty Name="root" LinkType="coremedia:///cap/contenttype/CMChannel" xlink:href="coremedia:///cap/resources/Fragments/LiveContext%20Fragments%20Root%20Page.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/LiveContext%20Fragments%20Root%20Page"/>
+</Struct>
+</StructProperty>
+<BooleanProperty Name="catalog">false</BooleanProperty>
+<StringProperty Name="externalUriPath"/>
+<StringProperty Name="shopNow">disabled</StringProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+<link href="../../../../../Settings/Options/Bundles/Bundle_en.xml" path="/Settings/Options/Bundles/Bundle_en"/>
+<link href="../../../../../Settings/Options/Bundles/Elastic%20Social_en.xml" path="/Settings/Options/Bundles/Elastic%20Social_en"/>
+<link href="../../../../../Settings/Options/Bundles/Livecontext_en.xml" path="/Settings/Options/Bundles/Livecontext_en"/>
+<link href="../../../../../Settings/Options/Settings/OpenCalais.xml" path="/Settings/Options/Settings/OpenCalais"/>
+<link href="../Options/Settings/LiveContext.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/LiveContext"/>
+<link href="../Options/Settings/CAEConfig.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/CAEConfig"/>
+<link href="../Options/Settings/Elastic%20Social.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Elastic%20Social"/>
+<link href="../Options/Settings/CMChannel/Robots%2Etxt.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/CMChannel/Robots%2Etxt"/>
+<link href="../Options/Settings/CMChannel/Responsive%20Image%20Settings.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/CMChannel/Responsive%20Image%20Settings"/>
+<link href="../Options/Settings/CMChannel/Preview.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/CMChannel/Preview"/>
+</linkedSettings>
+<segment>aurora</segment>
+<title>Home</title>
+<htmlTitle></htmlTitle>
+<keywords>CoreMedia,Aurora,Aurora Augmentation,Demo,Blueprint,LiveContext,CoreMedia LiveContext 2.0 for IBM WebSphere Commerce</keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+<link href="Fragments/LiveContext%20Fragments%20Root%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/LiveContext%20Fragments%20Root%20Page"/>
+<link href="Microsites/Microsite%20Root%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/Microsite%20Root%20Page"/>
+<link href="Aurora%20Augmentation%20PDP%20Template%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Aurora%20Augmentation%20PDP%20Template%20Page"/>
+</children>
+<hidden>1</hidden>
+<hiddenInSitemap>1</hiddenInSitemap>
+<javaScript>
+<link href="../../../../../Themes/aurora/aurora%2Ejs.xml" path="/Themes/aurora/aurora%2Ejs"/>
+</javaScript>
+<css>
+<link href="../../../../../Themes/aurora/aurora%2Ecss.xml" path="/Themes/aurora/aurora%2Ecss"/>
+</css>
+<favicon md5="b01ec1d815971bfb59a29dbb80c6fdcc" href="../../../../../__blob/b01ec1d815971bfb59a29dbb80c6fdcc.blob" mimetype="image/x-icon"/>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<StructProperty Name="placements">
+<Struct>
+<StructProperty Name="4502">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Options/Settings/Pagegrid/Placements/header.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Placements/header"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+</LinkListProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="3832">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Placements/main"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+</LinkListProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="4504">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Options/Settings/Pagegrid/Placements/footer.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Placements/footer"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<LinkProperty Name="layout" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../Options/Settings/Pagegrid/Layouts/PagegridNavigation.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Layouts/PagegridNavigation"/>
+</Struct>
+</StructProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+<externalId></externalId>
+</CMExternalChannel>

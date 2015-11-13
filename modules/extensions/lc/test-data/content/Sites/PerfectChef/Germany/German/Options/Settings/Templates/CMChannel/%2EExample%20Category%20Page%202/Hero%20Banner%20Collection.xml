@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/.Example Category Page 2" name="Hero Banner Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%202/Hero%20Bane88d5666.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%202/Hero%20Banner%20Collection"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+<link href="../../../../Viewtypes/CMCollection/slideshow.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/slideshow"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Held Collection (Override für Text)</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> <strong>Dies ist die Sammlung, die direkt unter der Kopfzeile sitzt und zeigt die Helden-Banner Bilder als Diashow.</strong> <br/></p> <p> Es wird als das erste Element in der Seite "Main" Platzierung. </p> <p> Es kann benutzt werden, um auf verschiedene Gegenstände, wie Produkte, Seiten, Artikel, Videos, etc. zu verknüpfen </p> <p> Die Helden-Bilder werden als Bildschirm Füllen 03.04 Verhältnis auf mobilen, 1:1-Verhältnis auf Tabletten und 05.02 Verhältnis auf dem Desktop angezeigt werden. </p> <p> Ziehen Teaser Elemente aus der Bibliothek in das Feld "Titel" unten. <br/></p> <p> Wählen Sie ein Layout-Variante an der Unterseite und bemerken, dass die Vorschau auf die richtigen Veränderungen. <br/></p> <p> Stellen Sie den Schieberegler auf die gewünschte Ausgabegerät: Mobile - Tablet - Desktop </p> <p> <strong>Bitte beachten Sie, dass die Layout-Variante muss "Hero Diashow" eingestellt werden.</strong> </p> </div></teaserText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Sample%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%202/Sample%20Teaser"/>
+<link href="../../../../../Editorial/Products/Fall%20Campaign/Evening%20Gown%20Red%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Evening%20Gown%20Red%20Product%20Teaser"/>
+<link href="Sample%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%202/Sample%20Teaser"/>
+<link href="../../../../../Editorial/Products/Fall%20Campaign/Evening%20Gown%20Black%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Evening%20Gown%20Black%20Product%20Teaser"/>
+</items>
+</CMCollection>

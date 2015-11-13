@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Sites/PerfectChef/Germany/German/Options/Settings" name="LiveContext" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Options/Settings/LiveContext.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/LiveContext"/>
+</master>
+<masterVersion>1</masterVersion>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<BooleanProperty Name="livecontext.displayAvailability">true</BooleanProperty>
+<BooleanProperty Name="livecontext.contentLed">true</BooleanProperty>
+<StringProperty Name="livecontext.connectionId">wcs1</StringProperty>
+<StructProperty Name="livecontext.store.config">
+<Struct>
+<StringProperty Name="config.id">perfectchef</StringProperty>
+<StringProperty Name="currency">EUR</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

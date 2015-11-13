@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Spring Recipes" name="Spring Recipes Main Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Navigation/Categories/05_Recipes/Spring%20Recipes/Spring%20Recipes%20Main%20Collection.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Spring%20Recipes/Spring%20Recipes%20Main%20Collection"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Frühling Rezepte</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Starters/Starters%20Spring%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser"/>
+<link href="Main/Main%20Spring%20Page%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Spring%20Recipes/Main/Main%20Spring%20Page%20Teaser"/>
+<link href="../../../../Editorial/Content/Recipes/Spring%20Recipes/Salads/Insalata%20Caprese%20Recipe%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring%20Recipes/Salads/Insalata%20Caprese%20Recipe%20Article"/>
+<link href="../../../../Videos/Recipes/Shrimp%20Pad%20Thai%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Shrimp%20Pad%20Thai%20Video"/>
+<link href="../../../../Editorial/Content/Recipes/Spring%20Recipes/Main/Mushroom%20Quiche%20Recipe%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring%20Recipes/Main/Mushroom%20Quiche%20Recipe%20Article"/>
+</items>
+</CMCollection>

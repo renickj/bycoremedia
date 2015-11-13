@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Microsites/06_Magazine Spring/Learn" name="Spring Learn Video Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Watch: How-to prepare Spring Dishes</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Watch our best how-to videos to prepare your favourite spring dishes easily.</p></div></teaserText>
+<pictures>
+<link href="../../../../Videos/How-To/How%20to%3A%20Knife%20Basics%20101%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/How-To/How%20to%3A%20Knife%20Basics%20101%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Spring%20Learn%20Video%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/06_Magazine%20Spring/Learn/Spring%20Learn%20Video%20Page"/>
+</target>
+</CMTeaser>

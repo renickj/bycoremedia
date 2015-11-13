@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Fall Dresses Campaign" name="Red and White Cocktail Dress Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="master-version-destroyed">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Videos/Campaigns/Fall%20Dresses%20Campaign/Red%20and%20White%20Cocktail%20Dress%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Campaigns/Fall%20Dresses%20Campaign/Red%20and%20White%20Cocktail%20Dress%20Video"/>
+</master>
+<masterVersion>0</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Cocktailkleid in rot und weiß</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-1.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-1"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-13.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-13"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-19.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-19"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-20.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-20"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-23.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-23"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-30.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-30"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-34.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-34"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Genießen Sie!</teaserTitle>
+<pictures>
+<link href="Red%20and%20White%20Cocktail%20Dress%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Fall%20Dresses%20Campaign/Red%20and%20White%20Cocktail%20Dress%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Cocktailkleid in rot und weiß</alt>
+<copyright>motion.pl / Shutterstock 3189532</copyright>
+<data md5="a01b18e1a0d3cd89fa5634291166fe37" href="../../../../../../../__blob/a01b18e1a0d3cd89fa5634291166fe37.blob" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

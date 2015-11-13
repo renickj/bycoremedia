@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>extensions</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>nuggad</artifactId>
+  <packaging>pom</packaging>
+
+  <properties>
+    <workspace.configuration.dir>../../../../workspace-configuration</workspace.configuration.dir>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- this extension depends on p13n extension -->
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>p13n-bom</artifactId>
+        <version>${project.version}</version>
+        <scope>import</scope>
+        <type>pom</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <modules>
+    <module>nuggad-bom</module>
+    <module>nuggad-cae</module>
+    <module>nuggad-studio</module>
+  </modules>
+
+</project>

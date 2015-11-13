@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                xmlns:template="exml:com.coremedia.blueprint.studio.template.config"
+                xmlns:ui="exml:com.coremedia.ui.config">
+
+  <exml:import class="com.coremedia.cms.editor.sdk.util.ContentLocalizationUtil" />
+  <exml:import class="com.coremedia.blueprint.studio.template.CreateFromTemplateStudioPlugin_properties" />
+  <exml:import class="com.coremedia.blueprint.studio.template.CreateFromTemplateStudioPluginSettings_properties" />
+
+  <exml:cfg name="propertyName" type="String">
+    <exml:description>The content property name of the list to bind the newly created content to.</exml:description>
+  </exml:cfg>
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Contains the active content.</exml:description>
+  </exml:cfg>
+
+  <menuitem cls="fav-menu-item"
+            itemId="createFromTemplate">
+    <baseAction>
+      <ui:openDialogAction iconCls="{'content-type-xs content-type-' + CreateFromTemplateStudioPluginSettings_properties.INSTANCE.doctype + '-icon'}"
+                           toggleDialog="true"
+                           text="{CreateFromTemplateStudioPlugin_properties.INSTANCE.text}">
+        <ui:dialog>
+          <template:createFromTemplateDialog />
+        </ui:dialog>
+      </ui:openDialogAction>
+    </baseAction>
+  </menuitem>
+
+
+</exml:component>

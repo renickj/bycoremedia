@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:struct="exml:com.coremedia.blueprint.studio.struct.config"
+                xmlns="exml:ext.config">
+
+  <exml:import class="com.coremedia.blueprint.studio.util.StudioUtil"/>
+  <exml:import class="com.coremedia.blueprint.studio.struct.StructEditor_properties"/>
+
+  <exml:cfg name="nodeType" type="int">
+    <exml:description>The type of node action to display.</exml:description>
+  </exml:cfg>
+  <exml:cfg name="selectedNodeExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>The selected node to render the input fields for.</exml:description>
+  </exml:cfg>
+  <exml:cfg name="structHandler" type="com.coremedia.blueprint.studio.struct.editor.StructHandler">
+    <exml:description>The data handler.</exml:description>
+  </exml:cfg>
+
+  <ui:iconButton itemId="{'btn-struct-' + config.nodeType}"
+                 iconCls="{'btn-struct-' + config.nodeType}"
+                 tooltip="{StructEditor_properties.INSTANCE['Struct_btn_tooltip_'+config.nodeType]}">
+    <baseAction>
+      <struct:addElementAction nodeType="{config.nodeType}"
+                           selectedNodeExpression="{config.selectedNodeExpression}"
+                           structHandler="{config.structHandler}"  />
+    </baseAction>
+  </ui:iconButton>
+</exml:component>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Pictures/Product Pictures/02_In The Kitchen/Appliances/Mixers" name="PC_BROWNE_HM250_HANDMIXER Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=562;y=0;width=950;height=1470</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=413;y=0;width=1102;height=1470</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=260;y=0;width=1470;height=1470</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=45;y=0;width=1961;height=1470</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=103;width=2048;height=1152</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=107;width=2048;height=1024</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=116;width=2048;height=818</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=103;width=2048;height=768</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=219;y=116;width=1222;height=306</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.27419354838709675;y1=0;x2=0.7379032258064516;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.20161290322580644;y1=0;x2=0.7399193548387096;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.12701612903225806;y1=0;x2=0.844758064516129;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.02217741935483871;y1=0;x2=0.9798387096774194;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.0702247191011236;x2=1;y2=0.8539325842696629</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.07303370786516854;x2=1;y2=0.7696629213483146</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.07865168539325842;x2=1;y2=0.6348314606741573</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.0702247191011236;x2=1;y2=0.5926966292134831</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.10685483870967742;y1=0.07865168539325842;x2=0.7036290322580645;y2=0.28651685393258425</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_BROWNE_HM250_HANDMIXER</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Browne HM250 Hand Mixer</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Food%20Processors%20Mixers.xml" path="/Settings/Taxonomies/Subject/Food%20Processors%20Mixers"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Browne HM250 Hand Mixer</alt>
+<copyright>Laboko/Shutterstock 139870678</copyright>
+<data md5="972168abb4666015273debe648e3c604" href="../../../../../../../../../__blob/972168abb4666015273debe648e3c604.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

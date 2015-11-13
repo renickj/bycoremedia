@@ -1,0 +1,19 @@
+/* =====================================================================================================================
+   Fall theme
+   Contains styling rules used for atoms/molecules used in perfectchef fall theme
+   ================================================================================================================== */
+
+body {
+  background: #ff953e url(../img/autumn.jpg) repeat-x fixed;
+}
+
+.cm-placement-footer {
+  background-color: #fbf3e0;
+}
+
+#cm-page {
+  background: #ffffff;
+  -moz-box-shadow: 30px -30px 80px 20px rgba(255, 255, 255, 1), -30px -30px 80px 20px rgba(255, 255, 255, 1), 30px 30px 80px 20px rgba(255, 255, 255, 1), -30px 30px 80px 20px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 30px -30px 80px 20px rgba(255, 255, 255, 1), -30px -30px 80px 20px rgba(255, 255, 255, 1), 30px 30px 80px 20px rgba(255, 255, 255, 1), -30px 30px 80px 20px rgba(255, 255, 255, 1);
+  box-shadow: 30px -30px 80px 20px rgba(255, 255, 255, 1), -30px -30px 80px 20px rgba(255, 255, 255, 1), 30px 30px 80px 20px rgba(255, 255, 255, 1), -30px 30px 80px 20px rgba(255, 255, 255, 1);
+}

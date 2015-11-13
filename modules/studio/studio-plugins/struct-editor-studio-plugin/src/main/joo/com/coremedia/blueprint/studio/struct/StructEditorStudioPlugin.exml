@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:class xmlns:exml="http://www.jangaroo.net/exml/0.8"
+            xmlns:ui="exml:com.coremedia.ui.config"
+            xmlns:editor="exml:com.coremedia.cms.editor.sdk.config">
+
+  <editor:studioPlugin>
+    <ui:rules>
+    </ui:rules>
+  </editor:studioPlugin>
+
+</exml:class>

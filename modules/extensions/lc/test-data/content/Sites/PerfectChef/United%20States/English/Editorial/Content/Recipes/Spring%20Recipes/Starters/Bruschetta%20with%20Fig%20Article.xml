@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Spring Recipes/Starters" name="Bruschetta with Fig Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Bruschetta with Fig and Goat Cheese</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Tomato.xml" path="/Settings/Taxonomies/Subject/Tomato"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cream.xml" path="/Settings/Taxonomies/Subject/Cream"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Basil.xml" path="/Settings/Taxonomies/Subject/Basil"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Fig Bruschetta</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Another mediterranean favorite is Bruschetta - toasted white bread spread with tomato sauce and other delicacies such as goat cheese and figs.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>Another mediterranean favorite is Bruschetta - toasted white bread spread with tomato sauce and other delicacies such as goat cheese and figs.</p><p class="p--heading-2">Ingredients</p><ul><li>1/2 coles rustic baguette</li><li>1 tablespoon coles finest australian extra virgin olive oil</li><li>4 Fresh Figs, quartered</li><li>3 tablespoons finest red gum honey</li><li>16 slices goat cheese with italian black truffle</li></ul><p class="p--heading-2">Preparation</p><ul><li>Thinly slice the baguette</li><li>Drizzle with oil and bake at 180°c for 5-10 minutes or until golden and crunchy</li><li>Set aside to cool</li><li>Heat a non-stick pan over a medium heat</li><li>Dip figs cut-side down in honey and cook until honey has caramelised</li><li>Top each slice of bread with coles finest australian goats cheese rolled in italian black truffle, and a fig quarter then drizzle with remaining honey to serve.</li></ul><p class="p--heading-2">Serving Suggestion</p><p>The bruschetta should be served immediately, otherwise the delicious crispness is lost.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Bruschetta%20with%20Figs%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Spring%20Recipes/Bruschetta%20with%20Figs%20Picture"/>
+</pictures>
+<related>
+<link href="Prosciutto%20with%20Melon%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Prosciutto%20with%20Melon%20Article"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Per94b228e4.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+<link href="Tomato%20Soup%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Tomato%20Soup%20Recipe%20Article"/>
+</related>
+</CMArticle>

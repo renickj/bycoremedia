@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:plugin xmlns:exml="http://www.jangaroo.net/exml/0.8"
+             xmlns:ep="exml:com.coremedia.blueprint.studio.externalpreview.config"
+             xmlns="exml:ext.config"
+             xmlns:ui="exml:com.coremedia.ui.config"
+             xmlns:editor="exml:com.coremedia.cms.editor.sdk.config">
+
+  <exml:constant name="EXTERNAL_PREVIEW_TOOLBAR_SEP_ITEM_ID" type="String" 
+                 value="externalPreviewToolbarSeparator"/>
+
+  <exml:description>
+     Add an external preview button to a preview panel.
+  </exml:description>
+
+  <ui:nestedRulesPlugin>
+    <ui:rules>
+      <editor:previewPanelToolbar>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <tbseparator itemId="{EXTERNAL_PREVIEW_TOOLBAR_SEP_ITEM_ID}"/>
+              <ep:externalPreviewButton/>
+            </ui:items>
+            <ui:before>
+              <component itemId="{previewPanelToolbar.SEND_LINK_BUTTON_ITEM_ID}"/>
+              <component itemId="bookmarkPreviewToolbarSeparator"/>
+            </ui:before>
+          </ui:addItemsPlugin>
+        </plugins>
+      </editor:previewPanelToolbar>
+    </ui:rules>
+  </ui:nestedRulesPlugin>
+</exml:plugin>

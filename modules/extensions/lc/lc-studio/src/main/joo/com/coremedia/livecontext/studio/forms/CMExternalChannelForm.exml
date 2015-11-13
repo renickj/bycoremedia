@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:bpforms="exml:com.coremedia.blueprint.studio.config"
+                xmlns:bppm="exml:com.coremedia.blueprint.base.pagegrid.config"
+                xmlns:livecontext="exml:com.coremedia.livecontext.studio.config"
+                baseClass="com.coremedia.livecontext.studio.forms.CMExternalChannelFormBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintStudio_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.CustomLabels_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintDocumentTypes_properties"/>
+  <exml:import class="com.coremedia.livecontext.studio.LivecontextStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.ui.data.beanFactory"/>
+  <exml:import class="com.coremedia.ecommerce.studio.CatalogModel"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.editorContext"/>
+  <exml:import class="com.coremedia.ui.data.ValueExpressionFactory"/>
+  <exml:import class="com.coremedia.cap.content.Content"/>
+  <exml:import class="com.coremedia.blueprint.studio.forms.CMChannelFormBase"/>
+  <exml:import class="com.coremedia.livecontext.studio.components.link.ExternalNavigation"/>
+
+  <editor:documentTabPanel>
+    <items>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_content_title}">
+        <items>
+          <bpforms:collapsibleStringPropertyForm propertyName="title"
+                                                 title="{BlueprintDocumentTypes_properties.INSTANCE.CMChannel_title_text}"/>
+          <editor:collapsibleFormPanel title="{CustomLabels_properties.INSTANCE.PropertyGroup_Placements_label}"
+                                       itemId="cmExternalChannelPlacementForm"
+                                       cls="padding-bottom-5">
+            <items>
+              <bppm:pageGridPropertyField propertyName="placement"/>
+            </items>
+          </editor:collapsibleFormPanel>
+          <bpforms:cmChannelTeaserDocumentForm/>
+          <bpforms:validityDocumentForm/>
+        </items>
+      </editor:documentForm>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_navigation_title}">
+        <items>
+          <livecontext:externalNavigationForm/>
+        </items>
+      </editor:documentForm>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_extras_title}">
+        <items>
+          <bpforms:categoryDocumentForm/>
+          <bpforms:channelSEOForm/>
+          <bpforms:collapsibleBlobPropertyForm title="{BlueprintDocumentTypes_properties.INSTANCE.CMNavigation_favicon_text}"
+                                               propertyName="favicon"
+                                               cls="padding-bottom-5"/>
+        </items>
+      </editor:documentForm>
+      <bpforms:multiLanguageDocumentForm/>
+      <bpforms:channelMetaDataInformationForm/>
+    </items>
+  </editor:documentTabPanel>
+
+</exml:component>

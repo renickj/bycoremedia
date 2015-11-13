@@ -1,0 +1,59 @@
+/* =====================================================================================================================
+   Layout for AAS with Elastic Social functionality
+   Contains styling rules used for Elastic Social integration in Aurora shop (WCS FEP7)
+   ================================================================================================================== */
+
+/* if review widget is rendered in slot 8 of pdp page, add margins */
+.product_pageDesign_pageGroup [data-slot-id="8"] .cm-reviews {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cm-reviews .cm-heading3 {
+  color: #767676;
+  font-size: 17px
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* buttons in aurora style */
+.cm-reviews .cm-button {
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FBBB0B), to(#EE9505));
+  background-image: linear-gradient(#FBBB0B, #EE9505);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FBBB0B', endColorStr='#EE9505')";
+  border-radius: 4px;
+  min-width: 200px;
+  max-width: 100%;
+  line-height: 29px;
+  min-height: 29px;
+  text-align: center;
+  border: 1px solid #BFBFBF;
+  color: #333333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cm-reviews .cm-button:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FED60C), to(#F8AF06));
+  background-image: linear-gradient(#FED60C, #F8AF06)
+-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FED60C', endColorStr='#F8AF06')";
+}
+
+.cm-reviews .cm-button:hover .cm-button__text {
+  text-decoration: underline;
+}
+
+.cm-reviews .cm-button--disabled {
+  background: #919191 none;
+  color: #dbdbdb;
+  cursor: default;
+}
+
+.cm-reviews .cm-button--disabled:hover {
+  background: #919191 none;
+}
+
+.cm-reviews .cm-button--disabled:hover .cm-button__text {
+  text-decoration: none;
+}

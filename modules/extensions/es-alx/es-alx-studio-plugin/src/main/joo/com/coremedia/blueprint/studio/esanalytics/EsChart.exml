@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                baseClass="com.coremedia.blueprint.studio.esanalytics.EsChartBase">
+
+  <exml:import class="com.coremedia.ui.data.ValueExpression"/>
+
+  <exml:constant name="NO_DATA_FIELD_ITEM_ID" value="noDataLabelItemId" type="String"/>
+  <exml:constant name="CHART_PANEL_ITEM_ID" value="chartContainerItemId" type="String"/>
+  <exml:constant name="ES_CHART_SWITCHER_ITEM_ID" value="esChartSwitcher" type="String"/>
+  <exml:constant name="TIME_STAMP_ITEM_ID" value="timeStampItemId" type="String"/>
+
+  <exml:cfg name="bindTo" type="ValueExpression"/>
+  <exml:cfg name="timeStampValueExpression" type="ValueExpression"/>
+  <exml:cfg name="color" type="String"/>
+  <exml:cfg name="chartLabelName" type="String"/>
+  <exml:cfg name="chartHeight" type="Number" default="250"/>
+  <exml:cfg name="emptyChartHeight" type="Number" default="70"/>
+
+  <panel layout="anchor"
+         autoHeight="true"
+         bodyStyle="height:auto">
+    <plugins>
+      <ui:bindPropertyPlugin bindTo="{config.bindTo}"
+                             componentProperty="lineChartData"/>
+    </plugins>
+    <items>
+      <ui:switchingContainer autoHeight="true"
+                             itemId="{ES_CHART_SWITCHER_ITEM_ID}"
+                             style="padding-top:5px"
+                             activeItemValueExpression="{config.bindTo}"
+                             transformer="{getActiveItemId}">
+        <items>
+          <!-- this label is only visible when there is no analytics data -->
+          <label itemId="{NO_DATA_FIELD_ITEM_ID}"
+                 style="margin:0 0 0 5px"
+                 cls="x-form-empty-field"
+                 text="{EsAnalyticsStudioPlugin_properties.INSTANCE.chart_data_unavailable}"/>
+          <!-- this chart panel is only visible when there is valid analytics data -->
+          <panel itemId="{CHART_PANEL_ITEM_ID}"
+                 cls="alxChart"
+                 height="{config.chartHeight}"/>
+        </items>
+      </ui:switchingContainer>
+      <!-- last fetched timestamp -->
+      <container anchor="100%">
+        <items>
+          <label text="{EsAnalyticsStudioPlugin_properties.INSTANCE.chart_time_stamp_update}"/>
+          <label itemId="{TIME_STAMP_ITEM_ID}"
+                 margins="0 0 0 5">
+            <plugins>
+              <ui:bindPropertyPlugin bindTo="{config.timeStampValueExpression}"
+                                     componentProperty="text"
+                                     transformer="{transformTime}"/>
+            </plugins>
+          </label>
+        </items>
+        <layout>
+          <hboxlayout/>
+        </layout>
+      </container>
+    </items>
+  </panel>
+</exml:component>

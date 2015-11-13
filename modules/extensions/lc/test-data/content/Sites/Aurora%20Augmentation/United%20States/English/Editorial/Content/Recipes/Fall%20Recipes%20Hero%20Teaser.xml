@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Recipes" name="Fall Recipes Hero Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Fall in Love with Spicy Duck</teaserTitle>
+<pictures>
+<link href="../../../Pictures/Recipes/Fall%20Recipes/Spicy%20Duck%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Recipes/Fall%20Recipes/Spicy%20Duck%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article"/>
+</target>
+</CMTeaser>

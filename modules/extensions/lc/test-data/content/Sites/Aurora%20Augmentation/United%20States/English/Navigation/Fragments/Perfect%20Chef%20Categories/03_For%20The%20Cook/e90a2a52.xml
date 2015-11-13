@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/03_For The Cook/Literature" name="Magazines Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Magazines</teaserTitle>
+<pictures>
+<link href="../../../../Pictures/Product%20Category%20Pictures/For%20The%20Cook/Literature/Mag30832390.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Category%20Pictures/For%20The%20Cook/Literature/Magazines%20Category%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="40cb5515.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Literature/Magazines/Magazines%20External%20Page"/>
+</target>
+</CMTeaser>

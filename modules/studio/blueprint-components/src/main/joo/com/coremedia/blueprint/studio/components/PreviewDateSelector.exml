@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns="exml:ext.config"
+                baseClass="com.coremedia.blueprint.studio.components.PreviewDateSelectorBase">
+
+  <exml:import class="com.coremedia.ui.data.beanFactory"/>
+  <exml:import class="com.coremedia.ui.data.Bean"/>
+
+  <exml:cfg name="previewPanel" type="com.coremedia.cms.editor.sdk.preview.PreviewPanel" />
+  <exml:cfg name="dateValueExpression" type="com.coremedia.ui.data.ValueExpression" />
+  <exml:cfg name="dummyValueExpression" type="com.coremedia.ui.data.ValueExpression" />
+
+  <exml:constant name="DATE_TIME_FIELD_ITEM_ID" value="dateTimeFieldItemId"/>
+
+  <exml:var name="model" value="{beanFactory.createLocalBean()}" type="Bean"/>
+  <container>
+    <defaults>
+      <exml:object model="{model}"
+                   previewPanel="{config.previewPanel}"/>
+    </defaults>
+    <items>
+      <editor:dateTimePropertyField itemId="{DATE_TIME_FIELD_ITEM_ID}"
+                                    flex="1"
+                                    bindTo="{config.dummyValueExpression}"
+                                    propertyName="previewDate"
+                                    style="z-index:100000;"/>
+    </items>
+  </container>
+
+</exml:component>

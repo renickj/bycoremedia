@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer" name="Customer Service Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Site-Wide/Footer/Customer%20Service.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Footer/Customer%20Service"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="transforms">
+<Struct>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Kundenservice</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Help%20and%20F%2EA%2EQ%2E%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer/Help%20and%20F%2EA%2EQ%2E%20Teaser"/>
+<link href="../../../Editorial/Content/Corporate/Contact%20Us.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/Contact%20Us"/>
+<link href="../../../Editorial/Content/Corporate/Return%20Policy.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/Return%20Policy"/>
+<link href="Customer%20Service%20External%20Links/Tel%2000800-555-1212.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer/Customer%20Service%20External%20Links/Tel%2000800-555-1212"/>
+</items>
+</CMCollection>

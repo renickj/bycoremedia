@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Options/Personalization/Profiles" name="Analisa Rover Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=200;y=0;width=718;height=1114</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=142;y=0;width=835;height=1114</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=163;y=0;width=845;height=845</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=0;width=1114;height=835</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=156;width=1114;height=628</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=210;width=1114;height=559</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=210;width=1114;height=446</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=229;width=1114;height=417</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=243;width=1114;height=279</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.1791530944625407;y1=0;x2=0.8241042345276873;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.1270358306188925;y1=0;x2=0.8762214983713354;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.1465798045602606;y1=0;x2=0.9055374592833876;y2=0.758957654723127</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0;x2=1;y2=0.749185667752443</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.14006514657980457;x2=1;y2=0.7035830618892508</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.18892508143322476;x2=1;y2=0.6905537459283387</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.18892508143322476;x2=1;y2=0.5895765472312704</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.20521172638436483;x2=1;y2=0.5798045602605864</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.2182410423452769;x2=1;y2=0.46905537459283386</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Consuelo Ramos</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Picture of Analisa Rover - Consumer Persona</alt>
+<copyright>Nina Buday/Shutterstock 237800350</copyright>
+<data md5="8c0440f1296fdfc49ba3a61e237f3a9c" href="../../../../../../../__blob/8c0440f1296fdfc49ba3a61e237f3a9c.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>1114</width>
+<height>1114</height>
+</CMPicture>

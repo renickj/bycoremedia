@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Fall Recipes/Starters" name="Pumpkin Cream Soup Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Pumpkin Cream Soup</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Pumpkin.xml" path="/Settings/Taxonomies/Subject/Pumpkin"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spicy.xml" path="/Settings/Taxonomies/Subject/Spicy"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Ginger.xml" path="/Settings/Taxonomies/Subject/Ginger"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cream.xml" path="/Settings/Taxonomies/Subject/Cream"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Pumpkin Soup</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Fall and winter are the perfect seasons for a heart warming pumpkin soup.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>Fall and winter are the perfect seasons for a heart warming pumpkin soup. Let us show you how easy it is to slice and dice the pumpkin and to turn it into a delicious cream soup. You can also add ginger to heighten the taste and to spice things up a bit.</p><p> </p><p class="p--heading-2">Ingredients</p><ul><li>2 tablespoons olive oil, plus extra to serve</li><li>1 onion, roughly chopped</li><li>2 garlic cloves, roughly chopped</li><li>600g peeled, chopped pumpkin</li><li>1 potato</li><li>2 carrots</li><li>1 leek (white part only)</li><li>1/2 teaspoon ground nutmeg</li><li>3 cups (750ml) chicken stock</li><li>1/2 cup (125ml) pure cream</li><li>1 tablespoon pumpkin seeds </li></ul><p>Preparation</p><p/><ul><li>Heat oil in a large saucepan over medium heat</li><li>Add onion and cook for 2-3 minutes until soft</li><li>Add garlic, vegetables and nutmeg, then toss to coat</li><li>Add stock and 2 cups water, then bring to the boil</li><li>Reduce heat to low, cover and cook for 25 minutes or until the vegetables are tender</li><li>Transfer to a blender and whiz until smooth</li><li>Return soup to the saucepan and place over low heat</li><li>Stir in cream, then season</li></ul><p class="p--heading-2">Serving Suggestion</p><p>To serve, ladle into bowls and top with seeds, cranberries and parsley, then drizzle with extra oil.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Pumpkin%20Soup%2001%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Pumpkin%20Soup%2001%20Picture"/>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Pumpkin%20Soup%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Pumpkin%20Soup%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../../Videos/How-To/How%20to%20prep%20butternut%20squash%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20prep%20butternut%20squash%20Video"/>
+<link href="../../../../../Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video"/>
+<link href="../../../../../Navigation/Categories/05_Recipes/Fall%20Recipes/Starters/Starters%20Fall%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Fall%20Recipes/Starters/Starters%20Fall%20Teaser"/>
+</related>
+</CMArticle>

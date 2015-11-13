@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                baseClass="com.coremedia.livecontext.studio.components.link.CatalogAssetsBase">
+
+  <exml:import class="com.coremedia.cms.editor.sdk.editorContext"/>
+  <exml:import class="com.coremedia.blueprint.studio.property.ImageLinkListRenderer"/>
+
+  <exml:constant name="SELECTED_ITEMS_VARIABLE_NAME" value="selectedItems">
+    <exml:description>
+       The context property name for the selected items.
+       The context value is an array of catalog objects
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="OPEN_IN_TAB_BUTTON_ITEM_ID" value="openInTab">
+    <exml:description>
+       The itemId of the open in tab button.
+    </exml:description>
+  </exml:constant>
+
+  <exml:cfg name="propertyName" type="String">
+    <exml:description>
+       The name of the pictures property of the Bean to bind in this field.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       A property path expression leading to the Bean whose property is being displayed
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="assetContentTypes" type="Array"/>
+
+  <exml:cfg name="forceReadOnlyValueExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       An optional ValueExpression which forces the component to read-only if it is evaluated to true.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:description>
+     Catalog Pictures property field.
+  </exml:description>
+
+  <grid hideHeaders="true"
+        forceLayout="true"
+        cls="link-list-property catalog-link-grid"
+        ctCls="image-link-list-grid"
+        autoHeight="true"
+        autoWidth="true"
+        autoExpandColumn="name">
+    <plugins>
+      <ui:bindListPlugin bindTo="{config.bindTo.extendBy(config.propertyName)}">
+        <ui:fields>
+          <ui:dataField name="thumbnailUrl"
+                        mapping=""
+                        ifUnreadable="" convert="{editorContext.getThumbnailUri}"/>
+        </ui:fields>
+      </ui:bindListPlugin>
+      <editor:linkListBindListPlugin bindTo="{config.bindTo.extendBy(config.propertyName)}"
+                                     transformer="{transformToArray}">
+        <editor:additionalFields>
+          <ui:dataField name="thumbnailUrl"
+                        mapping=""
+                        ifUnreadable="" convert="{editorContext.getThumbnailUri}"/>
+        </editor:additionalFields>
+      </editor:linkListBindListPlugin>
+      <editor:bindReadOnlyStyleClassPlugin bindTo="{config.bindTo}"
+                                           forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+      <ui:contextMenuPlugin>
+        <ui:contextMenu>
+          <ui:contextMenuNoIcon>
+            <items>
+              <menuitem>
+                <baseAction>
+                  <editor:openInTabAction contentVariableName="{SELECTED_ITEMS_VARIABLE_NAME}"/>
+                </baseAction>
+              </menuitem>
+            </items>
+          </ui:contextMenuNoIcon>
+        </ui:contextMenu>
+      </ui:contextMenuPlugin>
+      <ui:bindSelectionPlugin selectedValues="{getSelectedValuesExpression()}"/>
+    </plugins>
+    <tbar>
+      <toolbar cls="custom-toolbar-xs"
+               autoWidth="true">
+        <items>
+          <ui:iconButton itemId="{OPEN_IN_TAB_BUTTON_ITEM_ID}">
+            <baseAction>
+              <editor:openInTabAction
+                contentVariableName="{SELECTED_ITEMS_VARIABLE_NAME}"/>
+            </baseAction>
+          </ui:iconButton>
+        </items>
+      </toolbar>
+    </tbar>
+    <columns>
+      <gridcolumn id="thumbnail"
+                  width="110"
+                  sortable="false"
+                  dataIndex="thumbnailUrl"
+                  renderer="{ImageLinkListRenderer.thumbColRenderer}"/>
+      <editor:typeIconColumn/>
+      <editor:nameColumn/>
+      <editor:statusColumn/>
+    </columns>
+  </grid>
+</exml:component>

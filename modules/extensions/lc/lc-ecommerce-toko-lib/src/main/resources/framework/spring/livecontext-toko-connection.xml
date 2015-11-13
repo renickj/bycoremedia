@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <import resource="classpath:/framework/spring/livecontext-toko-services.xml"/>
+
+  <bean name="commerce:toko1" class="com.coremedia.blueprint.base.livecontext.ecommerce.common.BaseCommerceConnection" scope="prototype">
+    <property name="storeContextProvider" ref="tokoStoreContextProvider"/>
+    <property name="userContextProvider" ref="tokoUserContextProvider"/>
+    <property name="catalogService" ref="tokoCatalogService"/>
+    <property name="priceService" ref="tokoPriceService"/>
+    <property name="idProvider" ref="tokoIdProvider"/>
+    <property name="commerceBeanFactory" ref="tokoCommerceBeanFactory"/>
+  </bean>
+
+</beans>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:dcqe="exml:com.coremedia.cms.studio.queryeditor.config"
+                baseClass="com.coremedia.cms.studio.queryeditor.components.ContentQueryEditorBase">
+
+  <exml:import class="com.coremedia.cms.studio.queryeditor.QueryEditor_properties"/>
+  <exml:import class="com.coremedia.cms.studio.queryeditor.QueryEditorSettings_properties" />
+
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Content bean value expression</exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="documentTypesFilterHeight" type="Number">
+    <exml:description>A default height in pixels for the document types filter container.</exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="queryPropertyName" type="String">
+    <exml:description>Name of the property containing the struct that defines the query.</exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="documentTypesPropertyName" type="String">
+    <exml:description>
+       Name of the filter query subproperty containing the information about document types included in the query.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="sortingPropertyName" type="String">
+    <exml:description>
+       Name of the query property containing the information about the query results sorting.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="conditions" type="Array">
+    <exml:description>Array of condition editor configuration objects for all applicable condition editors.</exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="forceReadOnlyValueExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       An optional ValueExpression which makes the component read-only if it is evaluated to true.
+    </exml:description>
+  </exml:cfg>
+
+  <!-- container that will vertically split header and two column main content section -->
+  <container layout="border"
+             cls="dcqe">
+    <plugins>
+      <editor:propertyFieldPlugin propertyName="{config.queryPropertyName}" />
+    </plugins>
+    <items>
+      <!-- link to an assistant / expert view - header -->
+      <!--<container cls="switch-condition-view"-->
+                 <!--region="north"-->
+                 <!--height="24">-->
+        <!--<items>-->
+          <!--<ui:textLink cls="x-form-item"-->
+                       <!--itemId="conditionViewSwitch"-->
+                       <!--text="{QueryEditor_properties.INSTANCE.DCQE_label_switch_to_expert_view}"-->
+                       <!--handler="{switchView}">-->
+            <!--<plugins>-->
+              <!--<ui:bindPropertyPlugin componentProperty="text"-->
+                                     <!--transformer="{getSwitchLinkText}"-->
+                                     <!--bindTo="{getConditionViewValueExpression()}"></ui:bindPropertyPlugin>-->
+              <!--<ui:bindPropertyPlugin componentProperty="disabled"-->
+                                     <!--bindTo="{getConditionViewValueExpression()}">-->
+                <!--<ui:bindTo>-->
+                  <!--<ui:valueExpression expression="{IS_EXPERT_EDITED}" context="{getCommonModel()}"/>-->
+                <!--</ui:bindTo>-->
+              <!--</ui:bindPropertyPlugin>-->
+            <!--</plugins>-->
+          <!--</ui:textLink>-->
+          <!--<ui:textLink cls="x-form-item"-->
+                       <!--itemId="revertExpertChanges"-->
+                       <!--text="{QueryEditor_properties.INSTANCE.DCQE_label_revert_expert_changes}"-->
+                       <!--handler="{revertExpertChanges}">-->
+            <!--<plugins>-->
+              <!--<ui:bindPropertyPlugin componentProperty="disabled"-->
+                                     <!--transformer="{resolveRevertExpertChangesDisabled}">-->
+                <!--<ui:bindTo>-->
+                  <!--<ui:valueExpression expression="{IS_EXPERT_EDITED}" context="{getCommonModel()}"/>-->
+                <!--</ui:bindTo>-->
+              <!--</ui:bindPropertyPlugin>-->
+              <!--<ui:bindPropertyPlugin componentProperty="visible"-->
+                                     <!--bindTo="{getConditionViewValueExpression()}"-->
+                                     <!--transformer="{function(view:String){ return view == 'expert'; }}"/>-->
+            <!--</plugins>-->
+          <!--</ui:textLink>-->
+        <!--</items>-->
+      <!--</container>-->
+      <!-- start vertical split -->
+      <container layout="card"
+                 region="center"
+                 activeItem="0"
+                 itemId="switch">
+            <items>
+              <!-- assistant view -->
+              <container itemId="assistant"
+                         cls="dcqe-assistant-view">
+                <items>
+                  <!-- left column, applicable conditions -->
+                  <container width="160"
+                             autoHeight="true"
+                             cls="query-editor-conditions-left"
+                             margins="12 0 12 12">
+                    <items>
+                      <dcqe:applicableConditions bindTo="{config.bindTo}"
+                                                 conditions="{config.conditions}"/>
+                      <container margins="15 0 0 0">
+                        <items>
+                          <ui:textLink itemId="conditionHelp"
+                                       iconCls="flat-help-btn"
+                                       text="{QueryEditor_properties.INSTANCE.DCQE_label_show_help}">
+                            <baseAction>
+                              <editor:openReferenceWindowAction>
+                                <ui:dialog>
+                                  <window title="{QueryEditor_properties.INSTANCE.DCQE_help_title}"
+                                          autoLoad="{QueryEditorSettings_properties.INSTANCE.query_editor_window_htmlContentURL}"
+                                          cls="helper-window"
+                                          width="530"
+                                          minWidth="300"
+                                          height="300"
+                                          minHeight="265"
+                                          layout="fit"
+                                          autoScroll="true"
+                                          collapsible="false"
+                                          border="false"
+                                          closeAction="close"
+                                          constrain="true"
+                                          constrainHeader="true"
+                                          plain="true">
+                                  </window>
+                                </ui:dialog>
+                              </editor:openReferenceWindowAction>
+                            </baseAction>
+                          </ui:textLink>
+                        </items>
+                        <layout>
+                          <hboxlayout align="middle"
+                                      defaultMargins="0 5 0 0"/>
+                        </layout>
+                      </container>
+                    </items>
+                  </container>
+                  <!-- right column -->
+                  <editor:documentForm flex="1"
+                                       cls="query-editor-conditions-right"
+                                       autoScroll="true"
+                                       boxMinWidth="380">
+                    <items>
+                      <!-- document types selection -->
+                      <dcqe:documentTypesFilter bindTo="{config.bindTo}"
+                                                forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"
+                                                documentTypes="{getAllDocumentTypes(config.conditions)}"
+                                                propertyName="{config.documentTypesPropertyName}"
+                                                documentTypesFilterHeight="{config.documentTypesFilterHeight}"/>
+                      <!-- applied conditions / search query -->
+                      <dcqe:queryConditionsField bindTo="{config.bindTo}"
+                                                 forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+                      <dcqe:sortingField bindTo="{config.bindTo}"
+                                         forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"
+                                         query="{getQuery(config)}"
+                                         propertyName="{config.sortingPropertyName}"/>
+                    </items>
+                  </editor:documentForm>
+                  <!-- end right column -->
+                </items>
+                <!--Hbox layout for the main content beneath the header -->
+                <layout>
+                  <hboxlayout align="stretch"/>
+                </layout>
+              </container>
+              <!-- expert view -->
+              <dcqe:expertView itemId="expert"
+                               bindTo="{config.bindTo}"
+                               documentTypesPropertyName="{config.documentTypesPropertyName}"
+                               sortingPropertyName="{config.sortingPropertyName}"
+                               allFilterQueryPropertiesNames="{getAllFilterQueryProperties(config.conditions)}"
+                               expertPropertyNameSuffix="{EXPERT_SUFFIX}"/>
+            </items>
+          </container>
+      <!-- end vertical split -->
+    </items>
+  </container>
+</exml:component>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Recipes/Spring Recipes" name="Bruschetta with Figs Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">flip;d=h/b;a=0;c=1/crop;x=769;y=0;width=789;height=1223</StringProperty>
+<StringProperty Name="portrait_ratio3x4">flip;d=h/b;a=0;c=1/crop;x=777;y=0;width=959;height=1278</StringProperty>
+<StringProperty Name="portrait_ratio1x1">flip;d=h/b;a=0;c=1/crop;x=726;y=0;width=1279;height=1278</StringProperty>
+<StringProperty Name="landscape_ratio4x3">flip;d=h/b;a=0;c=1/crop;x=170;y=0;width=1819;height=1365</StringProperty>
+<StringProperty Name="landscape_ratio16x9">flip;d=h/b;a=0;c=1/crop;x=0;y=110;width=2048;height=1152</StringProperty>
+<StringProperty Name="landscape_ratio2x1">flip;d=h/b;a=0;c=1/crop;x=0;y=260;width=2048;height=1026</StringProperty>
+<StringProperty Name="landscape_ratio5x2">flip;d=h/b;a=0;c=1/crop;x=0;y=446;width=2048;height=821</StringProperty>
+<StringProperty Name="landscape_ratio8x3">flip;d=h/b;a=0;c=1/crop;x=0;y=493;width=2048;height=769</StringProperty>
+<StringProperty Name="landscape_ratio4x1">flip;d=h/b;a=0;c=1/crop;x=0;y=679;width=2048;height=513</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.37572254335260113;y1=0;x2=0.7610789980732178;y2=0.8959537572254336</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.37957610789980734;y1=0;x2=0.8477842003853564;y2=0.9364161849710982</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.35452793834296725;y1=0;x2=0.9788053949903661;y2=0.9364161849710982</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.08285163776493254;y1=0;x2=0.9710982658959537;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.08092485549132948;x2=1;y2=0.9248554913294798</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.1907514450867052;x2=1;y2=0.9421965317919075</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.3265895953757225;x2=1;y2=0.9277456647398844</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.36127167630057805;x2=1;y2=0.9248554913294798</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.49710982658959535;x2=1;y2=0.8728323699421965</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">true</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Bruschetta with figs, goat cheese and caramelized tomatoes</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Bruschetta with figs, goat cheese and caramelized tomatoes</alt>
+<copyright>Mariontxa/Shutterstock 157281101</copyright>
+<data md5="89e68c9e7b592d23f891ba9245e79f29" href="../../../../../../../__blob/89e68c9e7b592d23f891ba9245e79f29.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

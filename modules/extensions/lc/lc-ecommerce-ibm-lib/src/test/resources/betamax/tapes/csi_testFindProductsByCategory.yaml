@@ -1,0 +1,177 @@
+!tape
+name: csi_testFindProductsByCategory
+interactions:
+- recorded: 2014-12-19T13:19:54.778Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/languagemap
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Fri, 19 Dec 2014 13:19:54 GMT
+      Expires: Fri, 19 Dec 2014 14:19:54 GMT
+      Vary: Accept
+    body: '{"de":"-3","ru":"-20","ko":"-9","pt":"-6","en":"-1","it":"-4","fr":"-2","zh":"-8","es":"-5","ar":"-23","ja":"-10","pl":"-22","ro":"-21"}'
+- recorded: 2014-12-19T13:19:55.094Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/productview/CLA022_2203?catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Fri, 19 Dec 2014 13:19:54 GMT
+      Expires: Fri, 19 Dec 2014 14:19:54 GMT
+      Vary: Accept
+    body: '{"recordSetTotal":"1","resourceName":"productview","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/CLA022_2203","recordSetStartNumber":"0","recordSetComplete":"true","recordSetCount":"1","CatalogEntryView":[{"singleSKUUniqueID":"15865","productType":"ProductBean","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byId\/15864","name":"Travel
+      Laptop","fullImage":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/646x1000\/cla022_2203.jpg","manufacturer":"DVR Technics","SKUs":[{"Attributes":[{"usage":"Defining","Values":[{"values":"DVR Technics","identifier":"DVR
+      Technics","uniqueID":"7000000000000004173"}],"searchable":"false","identifier":"ComputersLaptopsBrand","comparable":"false","name":"Brand","displayable":"true","uniqueID":"7000000000000000235"},{"usage":"Defining","Values":[{"values":"2 GB","identifier":"2
+      GB","uniqueID":"7000000000000004178"}],"searchable":"false","identifier":"ComputersLaptopsMemory","comparable":"true","name":"Memory","displayable":"true","uniqueID":"7000000000000000237"},{"usage":"Defining","Values":[{"values":"6 hours","identifier":"6
+      hours","uniqueID":"7000000000000004176"}],"searchable":"false","identifier":"ComputersLaptopsBattery Life","comparable":"true","name":"Battery Life","displayable":"true","uniqueID":"7000000000000000236"},{"usage":"Defining","Values":[{"values":"1 lb","identifier":"1
+      lb","uniqueID":"7000000000000004181"}],"searchable":"false","identifier":"ComputersLaptopsWeight","comparable":"true","name":"Weight","displayable":"true","uniqueID":"7000000000000000238"}],"SKUUniqueID":"15865","Price":[{"SKUPriceDescription":"I","SKUPriceValue":"575.0","SKUPriceUsage":"Offer"}]}],"numberOfSKUs":"1","title":"Travel
+      Laptop | Perfect Chef Site","partNumber":"CLA022_2203","shortDescription":"A lightweight and portable laptop with excellent battery life.","buyable":"true","longDescription":"This tiny laptop is made with portability and battery life in mind, so that you
+      can take it anywhere and not have to worry about running low on power.  Read those important work e-mails on the go, or put the finishing touches on a late project with this travel companion.","xcatentry_seoSegment":"travel-laptop","parentCategoryID":"10080","metaKeyword":"
+      DVR Technics","Price":[{"priceDescription":"I","priceUsage":"Offer","priceValue":"575.0"}],"uniqueID":"15864","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/200x310\/cla022_2203.jpg","Attributes":[{"usage":"Defining","Values":[{"values":"2
+      GB","extendedValue":[{"value":"C62","key":"UnitOfMeasure"}],"identifier":"2 GB","uniqueID":"7000000000000004178"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"ComputersLaptopsMemory","comparable":"true","name":"Memory","description":"Memory","displayable":"true","uniqueID":"7000000000000000237"},{"usage":"Defining","Values":[{"values":"DVR
+      Technics","extendedValue":[{"value":"C62","key":"UnitOfMeasure"}],"identifier":"DVR Technics","uniqueID":"7000000000000004173"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"ComputersLaptopsBrand","comparable":"false","name":"Brand","description":"Brand","displayable":"true","uniqueID":"7000000000000000235"},{"usage":"Defining","Values":[{"values":"1
+      lb","extendedValue":[{"value":"C62","key":"UnitOfMeasure"}],"identifier":"1 lb","uniqueID":"7000000000000004181"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"ComputersLaptopsWeight","comparable":"true","name":"Weight","description":"Weight","displayable":"true","uniqueID":"7000000000000000238"},{"usage":"Defining","Values":[{"values":"6
+      hours","extendedValue":[{"value":"C62","key":"UnitOfMeasure"}],"identifier":"6 hours","uniqueID":"7000000000000004176"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"ComputersLaptopsBattery Life","comparable":"true","name":"Battery
+      Life","description":"Battery Life","displayable":"true","uniqueID":"7000000000000000236"},{"usage":"Descriptive","Values":[{"values":"2 GB","identifier":"CLA022_2203","uniqueID":"7000000000000004185"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"Memory","comparable":"false","name":"Memory","description":"Memory","displayable":"true","uniqueID":"7000000000000000233"},{"usage":"Descriptive","Values":[{"values":"1
+      lb","identifier":"CLA022_2203","uniqueID":"7000000000000004197"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"Weight","comparable":"false","name":"Weight","description":"Weight","displayable":"true","uniqueID":"7000000000000000240"},{"usage":"Descriptive","Values":[{"values":"6
+      hours","identifier":"CLA022_2203","uniqueID":"7000000000000004194"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"Battery Life","comparable":"false","name":"Battery Life","description":"Battery Life","displayable":"true","uniqueID":"7000000000000000239"}],"subscriptionType":"NONE","metaDescription":"A
+      lightweight and portable laptop with excellent battery life.","disallowRecOrder":"true","hasSingleSKU":"true","storeID":"10101","fullImageAltDescription":"Image for Travel Laptop from Perfect Chef Site"}],"MetaData":[{"metaKey":"price","metaData":"1"}]}'
+- recorded: 2014-12-19T13:19:55.228Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/categoryview/byId/10080?catalogId=10051&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Fri, 19 Dec 2014 13:19:55 GMT
+      Expires: Fri, 19 Dec 2014 14:19:55 GMT
+      Vary: Accept
+    body: '{"recordSetTotal":"1","resourceName":"categoryview","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/categoryview\/byId\/10080","recordSetComplete":"true","recordSetStartNumber":"0","CatalogGroupView":[{"shortDescription":"Laptops","metaKeyword":"Laptops","identifier":"Computers
+      Laptops","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/categoryview\/byId\/10080","productsURL":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byCategory\/10080","parentCatalogGroupID":["10077"],"name":"Laptops","thumbnail":"images\/catalog\/electronics\/category\/catr_cla_laptops.png","fullImage":"images\/catalog\/electronics\/category\/catr_cla_laptops.png","uniqueID":"10080","xcatgroup_seoSegment":"laptops-10080--1","metaDescription":"Laptops","title":"Laptops
+      | Perfect Chef Site","fullImageAltDescription":"Image for Laptops from Perfect Chef Site"}],"recordSetCount":"1","MetaData":[{"metaKey":"price","metaData":"1"}]}'
+- recorded: 2014-12-19T13:19:55.365Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/productview/byCategory/10080?catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Fri, 19 Dec 2014 13:19:55 GMT
+      Expires: Fri, 19 Dec 2014 14:19:55 GMT
+      Vary: Accept
+    body: '{"recordSetTotal":"6","BreadCrumbTrailEntryView":[{"value":"10077","label":"Electronics","type":"FACET_ENTRY_CATEGORY"},{"value":"10080","label":"Laptops","type":"FACET_ENTRY_CATEGORY"}],"resourceName":"productview","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byCategory\/10080","recordSetComplete":"true","recordSetStartNumber":"0","FacetView":[{"value":"price_USD","Entry":[{"label":"({*
+      100} 100)","count":"0","entryValue":"price_USD%3A%28%7B*+100%7D+100%29"},{"label":"({100 200} 200)","count":"0","entryValue":"price_USD%3A%28%7B100+200%7D+200%29"},{"label":"({200 300} 300)","count":"0","entryValue":"price_USD%3A%28%7B200+300%7D+300%29"},{"label":"({300
+      400} 400)","count":"1","entryValue":"price_USD%3A%28%7B300+400%7D+400%29"},{"label":"({400 500} 500)","count":"1","entryValue":"price_USD%3A%28%7B400+500%7D+500%29"},{"label":"({500 *})","count":"4","entryValue":"price_USD%3A%28%7B500+*%7D%29"}],"name":"OfferPrice_USD"},{"value":"mfName_ntk_cs","Entry":[{"label":"Adelee
+      Plus","count":"2","entryValue":"mfName_ntk_cs%3A%22Adelee+Plus%22"},{"label":"DVR Technics","count":"2","entryValue":"mfName_ntk_cs%3A%22DVR+Technics%22"},{"label":"Eye Dee Team","count":"2","entryValue":"mfName_ntk_cs%3A%22Eye+Dee+Team%22"}],"name":"ManufacturerName"}],"recordSetCount":"6","CatalogEntryView":[{"longDescription":"This
+      fun laptop is a great complement to a child''s bedroom. It''s small and lightweight, and can handle everyday tasks like reading stories and watching videos.","buyable":"true","shortDescription":"A fun and colorful laptop for children.","xcatentry_seoSegment":"child-laptop","parentCategoryID":"10080","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byId\/15860","Price":[{"priceDescription":"I","priceUsage":"Offer","priceValue":"500.0"}],"productType":"ProductBean","name":"Child
+      Laptop","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/200x310\/cla022_2201.jpg","uniqueID":"15860","fullImage":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/646x1000\/cla022_2201.jpg","storeID":"10101","partNumber":"CLA022_2201"},{"longDescription":"This
+      casual laptop is perfect for everyday use, whether it be for checking e-mails, or browsing the Internet.  Use this laptop to work on all your important documents, and share photos with your family.","buyable":"true","shortDescription":"A powerful laptop
+      capable of everyday use.","xcatentry_seoSegment":"bedroom-laptop","parentCategoryID":"10080","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byId\/15862","Price":[{"priceDescription":"I","priceUsage":"Offer","priceValue":"750.0"}],"productType":"ProductBean","name":"Bedroom
+      Laptop","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/200x310\/cla022_2202.jpg","uniqueID":"15862","fullImage":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/646x1000\/cla022_2202.jpg","storeID":"10101","partNumber":"CLA022_2202"},{"longDescription":"This
+      tiny laptop is made with portability and battery life in mind, so that you can take it anywhere and not have to worry about running low on power.  Read those important work e-mails on the go, or put the finishing touches on a late project with this travel
+      companion.","buyable":"true","shortDescription":"A lightweight and portable laptop with excellent battery life.","xcatentry_seoSegment":"travel-laptop","parentCategoryID":"10080","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byId\/15864","Price":[{"priceDescription":"I","priceUsage":"Offer","priceValue":"575.0"}],"productType":"ProductBean","name":"Travel
+      Laptop","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/200x310\/cla022_2203.jpg","uniqueID":"15864","fullImage":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/646x1000\/cla022_2203.jpg","storeID":"10101","partNumber":"CLA022_2203"},{"longDescription":"This
+      portable laptop can last hours on end, so that you don''t need to sit on the loud, busy side of the lecture hall, just to be near a power source.  Take all the notes you need, whether you''re in class, or at home studying.","buyable":"true","shortDescription":"A
+      lightweight laptop for students on the go.","xcatentry_seoSegment":"student-laptop","parentCategoryID":"10080","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byId\/15866","Price":[{"priceDescription":"I","priceUsage":"Offer","priceValue":"680.0"}],"productType":"ProductBean","name":"Student
+      Laptop","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/200x310\/cla022_2204.jpg","uniqueID":"15866","fullImage":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/646x1000\/cla022_2204.jpg","storeID":"10101","partNumber":"CLA022_2204"},{"longDescription":"This
+      home and office laptop is ideal for creating and working with all your important documents. You can work on everything your personal or business needs might require. Your home office has never been more efficient, and more portable!","buyable":"true","shortDescription":"The
+      perfect portable workstation for the home office.","xcatentry_seoSegment":"office-laptop","parentCategoryID":"10080","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byId\/15868","Price":[{"priceDescription":"I","priceUsage":"Offer","priceValue":"720.0"}],"productType":"ProductBean","name":"Office
+      Laptop","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/200x310\/cla022_2205.jpg","uniqueID":"15868","fullImage":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/646x1000\/cla022_2205.jpg","storeID":"10101","partNumber":"CLA022_2205"},{"longDescription":"This
+      average laptop will get you from point A to point B, without having to worry about spending a fortune to get things done.  This is the perfect laptop to perform lightweight tasks like checking e-mail and browsing the Web.","buyable":"true","shortDescription":"An
+      overall decent laptop for casual use.","xcatentry_seoSegment":"budget-laptop","parentCategoryID":"10080","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byId\/15870","Price":[{"priceDescription":"I","priceUsage":"Offer","priceValue":"400.0"}],"productType":"ProductBean","name":"Budget
+      Laptop","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/200x310\/cla022_2206.jpg","uniqueID":"15870","fullImage":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/646x1000\/cla022_2206.jpg","storeID":"10101","partNumber":"CLA022_2206"}],"MetaData":[{"metaKey":"price","metaData":"1"}]}'
+- recorded: 2014-12-19T13:19:55.529Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/productview/byId/15862?catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Fri, 19 Dec 2014 13:19:55 GMT
+      Expires: Fri, 19 Dec 2014 14:19:55 GMT
+      Vary: Accept
+    body: '{"recordSetTotal":"1","resourceName":"productview","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byId\/15862","recordSetStartNumber":"0","recordSetComplete":"true","recordSetCount":"1","CatalogEntryView":[{"singleSKUUniqueID":"15863","productType":"ProductBean","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byId\/15862","name":"Bedroom
+      Laptop","fullImage":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/646x1000\/cla022_2202.jpg","manufacturer":"Adelee Plus","SKUs":[{"Attributes":[{"usage":"Defining","Values":[{"values":"Adelee Plus","identifier":"Adelee
+      Plus","uniqueID":"7000000000000004172"}],"searchable":"false","identifier":"ComputersLaptopsBrand","comparable":"false","name":"Brand","displayable":"true","uniqueID":"7000000000000000235"},{"usage":"Defining","Values":[{"values":"4 GB","identifier":"4
+      GB","uniqueID":"7000000000000004179"}],"searchable":"false","identifier":"ComputersLaptopsMemory","comparable":"true","name":"Memory","displayable":"true","uniqueID":"7000000000000000237"},{"usage":"Defining","Values":[{"values":"3 hours","identifier":"3
+      hours","uniqueID":"7000000000000004175"}],"searchable":"false","identifier":"ComputersLaptopsBattery Life","comparable":"true","name":"Battery Life","displayable":"true","uniqueID":"7000000000000000236"},{"usage":"Defining","Values":[{"values":"2 lb","identifier":"2
+      lb","uniqueID":"7000000000000004182"}],"searchable":"false","identifier":"ComputersLaptopsWeight","comparable":"true","name":"Weight","displayable":"true","uniqueID":"7000000000000000238"}],"SKUUniqueID":"15863","Price":[{"SKUPriceDescription":"I","SKUPriceValue":"750.0","SKUPriceUsage":"Offer"}]}],"numberOfSKUs":"1","title":"Bedroom
+      Laptop | Perfect Chef Site","partNumber":"CLA022_2202","shortDescription":"A powerful laptop capable of everyday use.","buyable":"true","longDescription":"This casual laptop is perfect for everyday use, whether it be for checking e-mails, or browsing the
+      Internet.  Use this laptop to work on all your important documents, and share photos with your family.","xcatentry_seoSegment":"bedroom-laptop","parentCategoryID":"10080","metaKeyword":" Adelee Plus","Price":[{"priceDescription":"I","priceUsage":"Offer","priceValue":"750.0"}],"uniqueID":"15862","thumbnail":"\/wcsstore\/ExtendedSitesCatalogAssetStore\/images\/catalog\/electronics\/cla022_laptops\/200x310\/cla022_2202.jpg","Attributes":[{"usage":"Defining","Values":[{"values":"4
+      GB","extendedValue":[{"value":"C62","key":"UnitOfMeasure"}],"identifier":"4 GB","uniqueID":"7000000000000004179"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"ComputersLaptopsMemory","comparable":"true","name":"Memory","description":"Memory","displayable":"true","uniqueID":"7000000000000000237"},{"usage":"Defining","Values":[{"values":"Adelee
+      Plus","extendedValue":[{"value":"C62","key":"UnitOfMeasure"}],"identifier":"Adelee Plus","uniqueID":"7000000000000004172"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"ComputersLaptopsBrand","comparable":"false","name":"Brand","description":"Brand","displayable":"true","uniqueID":"7000000000000000235"},{"usage":"Defining","Values":[{"values":"2
+      lb","extendedValue":[{"value":"C62","key":"UnitOfMeasure"}],"identifier":"2 lb","uniqueID":"7000000000000004182"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"ComputersLaptopsWeight","comparable":"true","name":"Weight","description":"Weight","displayable":"true","uniqueID":"7000000000000000238"},{"usage":"Defining","Values":[{"values":"3
+      hours","extendedValue":[{"value":"C62","key":"UnitOfMeasure"}],"identifier":"3 hours","uniqueID":"7000000000000004175"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"ComputersLaptopsBattery Life","comparable":"true","name":"Battery
+      Life","description":"Battery Life","displayable":"true","uniqueID":"7000000000000000236"},{"usage":"Descriptive","Values":[{"values":"4 GB","identifier":"CLA022_2202","uniqueID":"7000000000000004188"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"Memory","comparable":"false","name":"Memory","description":"Memory","displayable":"true","uniqueID":"7000000000000000233"},{"usage":"Descriptive","Values":[{"values":"2
+      lb","identifier":"CLA022_2202","uniqueID":"7000000000000004199"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"Weight","comparable":"false","name":"Weight","description":"Weight","displayable":"true","uniqueID":"7000000000000000240"},{"usage":"Descriptive","Values":[{"values":"3
+      hours","identifier":"CLA022_2202","uniqueID":"7000000000000004193"}],"searchable":"false","dataType":"STRING","ExtendedValue":[{"extValue":"C62"}],"identifier":"Battery Life","comparable":"false","name":"Battery Life","description":"Battery Life","displayable":"true","uniqueID":"7000000000000000239"}],"subscriptionType":"NONE","metaDescription":"A
+      powerful laptop capable of everyday use.","disallowRecOrder":"true","hasSingleSKU":"true","storeID":"10101","fullImageAltDescription":"Image for Bedroom Laptop from Perfect Chef Site"}],"MetaData":[{"metaKey":"price","metaData":"1"}]}'
+- recorded: 2014-12-19T13:19:55.653Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/categoryview/byId/10077?catalogId=10051&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-transform
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Fri, 19 Dec 2014 13:19:55 GMT
+      Expires: Fri, 19 Dec 2014 14:19:55 GMT
+      Vary: Accept
+    body: '{"recordSetTotal":"1","resourceName":"categoryview","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/categoryview\/byId\/10077","recordSetComplete":"true","recordSetStartNumber":"0","CatalogGroupView":[{"shortDescription":"Electronics","metaKeyword":"Electronics","identifier":"Electronics","resourceId":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/categoryview\/byId\/10077","name":"Electronics","productsURL":"http:\/\/toko-wcs-06.coremedia.vm\/wcs\/resources\/store\/10202\/productview\/byCategory\/10077","thumbnail":"images\/catalog\/electronics\/category\/catr_cta_tablets.png","fullImage":"images\/catalog\/electronics\/category\/catr_cta_tablets.png","uniqueID":"10077","xcatgroup_seoSegment":"electronics","metaDescription":"Electronics","title":"Electronics
+      | Perfect Chef Site","fullImageAltDescription":"Image for Electronics from Perfect Chef Site"}],"recordSetCount":"1","MetaData":[{"metaKey":"price","metaData":"1"}]}'

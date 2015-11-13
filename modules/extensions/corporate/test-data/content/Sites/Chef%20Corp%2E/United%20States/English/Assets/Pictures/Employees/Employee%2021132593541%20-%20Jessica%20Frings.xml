@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Chef Corp./United States/English/Assets/Pictures/Employees" name="Employee 21132593541 - Jessica Frings" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0.012594458438287154</StringProperty>
+<StringProperty Name="y1">0.012594458438287154</StringProperty>
+<StringProperty Name="x2">0.9848866498740554</StringProperty>
+<StringProperty Name="y2">0.9848866498740554</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=149;y=10;width=502;height=778</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=109;y=10;width=582;height=778</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=10;y=10;width=778;height=778</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=10;y=107;width=778;height=584</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=10;y=181;width=778;height=437</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=10;y=206;width=778;height=389</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=10;y=244;width=778;height=310</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=10;y=254;width=778;height=292</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=10;y=302;width=778;height=195</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.18639798488664988;y1=0.012594458438287154;x2=0.8136020151133502;y2=0.9848866498740554</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.13602015113350127;y1=0.012594458438287154;x2=0.8639798488664987;y2=0.9848866498740554</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.012594458438287154;y1=0.012594458438287154;x2=0.9848866498740554;y2=0.9848866498740554</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.012594458438287154;y1=0.13350125944584382;x2=0.9848866498740554;y2=0.8639798488664987</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.012594458438287154;y1=0.22670025188916876;x2=0.9848866498740554;y2=0.7732997481108312</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.012594458438287154;y1=0.25692695214105793;x2=0.9848866498740554;y2=0.743073047858942</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.012594458438287154;y1=0.3047858942065491;x2=0.9848866498740554;y2=0.6926952141057935</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.012594458438287154;y1=0.31738035264483627;x2=0.9848866498740554;y2=0.6826196473551638</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.012594458438287154;y1=0.3778337531486146;x2=0.9848866498740554;y2=0.6221662468513854</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Jessica Frings</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Portrait of Jessica Frings</alt>
+<copyright>Andrey_Popov/Shutterstock 211325935</copyright>
+<data md5="b47e2ae651f3e5f6b2ac6e2a0ccc7949" href="../../../../../../../__blob/b47e2ae651f3e5f6b2ac6e2a0ccc7949.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>800</width>
+<height>800</height>
+</CMPicture>

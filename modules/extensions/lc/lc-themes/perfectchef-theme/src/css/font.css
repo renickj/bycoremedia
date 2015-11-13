@@ -1,0 +1,184 @@
+/* =====================================================================================================================
+   Fonts
+   declare all used fonts as font-families in this file. All used icons, too.
+   ================================================================================================================== */
+
+/* This is the regular font for text in the perfectchef site */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans/pt-sans.eot");
+  src: local('PT Sans'), local('PTSans-Regular'), url("../fonts/pt-sans/pt-sans.eot") format('embedded-opentype'), url("../fonts/pt-sans/pt-sans.woff") format('woff'), url("../fonts/pt-sans/pt-sans.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans/pt-sans-bold.eot");
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url("../fonts/pt-sans/pt-sans-bold.eot") format('embedded-opentype'), url("../fonts/pt-sans/pt-sans-bold.woff") format('woff'), url("../fonts/pt-sans/pt-sans-bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/pt-sans/pt-sans-italic.eot");
+  src: local('PT Sans Italic'), local('PTSans-Italic'), url("../fonts/pt-sans/pt-sans-italic.eot") format('embedded-opentype'), url("../fonts/pt-sans/pt-sans-italic.woff") format('woff'), url("../fonts/pt-sans/pt-sans-italic.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/pt-sans/pt-sans-bold-italic.eot");
+  src: local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url("../fonts/pt-sans/pt-sans-bold-italic.eot") format('embedded-opentype'), url("../fonts/pt-sans/pt-sans-bold-italic.woff") format('woff'), url("../fonts/pt-sans/pt-sans-bold-italic.ttf") format('truetype');
+}
+
+/* This is the icon font */
+@font-face {
+  font-family: 'perfectchef';
+  src: url('../fonts/perfectchef.eot');
+  src: url("../fonts/perfectchef.eot") format('embedded-opentype'), url('../fonts/perfectchef.woff') format('woff'), url('../fonts/perfectchef.ttf') format('truetype'), url('../fonts/perfectchef.svg#perfectchef') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-family: 'perfectchef';
+  line-height: 1;
+  speak: none;
+
+  /* Better Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rating-full:before {
+  content: "\e623";
+}
+.icon-rating-empty:before {
+  content: "\e624";
+}
+.icon-imagemap:before {
+  content: "\e620";
+}
+.icon-play:before {
+  content: "\e614";
+}
+.icon-arrow-down:before {
+  content: "\e601";
+}
+.icon-arrow-up:before {
+  content: "\e61f";
+}
+.icon-arrow-left:before {
+  content: "\e61e";
+}
+.icon-arrow-right:before {
+  content: "\e61d";
+}
+.icon-warning:before {
+  content: "\e611";
+}
+.icon-store-locator:before {
+  content: "\e600";
+}
+.icon-search:before {
+  content: "\e602";
+}
+.icon-menu-next:before {
+  content: "\e603";
+}
+.icon-menu-back:before {
+  content: "\e604";
+}
+.icon-menu:before {
+  content: "\e605";
+}
+.icon-cart-with-items:before {
+  content: "\e606";
+}
+.icon-cart-empty:before {
+  content: "\e607";
+}
+.icon-add-to-cart:before {
+  content: "\e608";
+}
+.icon-instagram-social:before {
+  content: "\e61a";
+}
+.icon-profile-unlocked:before {
+  content: "\e619";
+}
+.icon-quotes:before {
+  content: "\e626";
+}
+.icon-profile-locked:before {
+  content: "\e612";
+}
+.icon-profile-unlocked-alternative:before {
+  content: "\e613";
+}
+.icon-wrench:before {
+  content: "\e61b";
+}
+.icon-attachment:before {
+  content: "\e617";
+}
+.icon-info-circle:before {
+  content: "\e60d";
+}
+.icon-cancel-circle:before {
+  content: "\e60e";
+}
+.icon-checkmark-circle:before {
+  content: "\e60f";
+}
+.icon-close:before {
+  content: "\e610";
+}
+.icon-checkmark:before {
+  content: "\e628";
+}
+.icon-bold:before {
+  content: "\e618";
+}
+.icon-italic:before {
+  content: "\e61c";
+}
+.icon-googleplus-social:before {
+  content: "\e621";
+}
+.icon-googleplus-social-full:before {
+  content: "\e622";
+}
+.icon-facebook-social:before {
+  content: "\e615";
+}
+.icon-facebook-social-full:before {
+  content: "\e60a";
+}
+.icon-instagram-social-full:before {
+  content: "\e60c";
+}
+.icon-twitter-social:before {
+  content: "\e616";
+}
+.icon-twitter-social-full:before {
+  content: "\e609";
+}
+.icon-pinterest-social-full:before {
+  content: "\e60b";
+}
+.icon-pencil:before {
+  content: "\e627";
+}
+.icon-pinterest-social:before {
+  content: "\e625";
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Chef Corp./Germany/German/Assets/Pictures/Employees" name="Employee 21132593533 - Nicole Nübel" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Assets/Pictures/Employees/Employee%2021132593533%20-%20Lydia%20Alquist.xml" path="/Sites/Chef%20Corp%2E/United%20States/English/Assets/Pictures/Employees/Employee%2021132593533%20-%20Lydia%20Alquist"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0.015113350125944584</StringProperty>
+<StringProperty Name="y1">0.020151133501259445</StringProperty>
+<StringProperty Name="x2">0.982367758186398</StringProperty>
+<StringProperty Name="y2">0.9899244332493703</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=149;y=16;width=500;height=776</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=109;y=16;width=582;height=778</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=12;y=18;width=774;height=774</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=12;y=115;width=774;height=580</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=6;y=222;width=782;height=439</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=12;y=212;width=774;height=387</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=12;y=250;width=776;height=310</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=12;y=260;width=774;height=290</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=12;y=308;width=774;height=193</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.18639798488664988;y1=0.020151133501259445;x2=0.8110831234256927;y2=0.9899244332493703</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.13602015113350127;y1=0.020151133501259445;x2=0.8639798488664987;y2=0.9924433249370277</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.015113350125944584;y1=0.022670025188916875;x2=0.982367758186398;y2=0.9899244332493703</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.015113350125944584;y1=0.14357682619647355;x2=0.982367758186398;y2=0.8690176322418136</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.007556675062972292;y1=0.2770780856423174;x2=0.9848866498740554;y2=0.8261964735516373</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.015113350125944584;y1=0.26448362720403024;x2=0.982367758186398;y2=0.7481108312342569</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.015113350125944584;y1=0.3123425692695214;x2=0.9848866498740554;y2=0.7002518891687658</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.015113350125944584;y1=0.3249370277078086;x2=0.982367758186398;y2=0.6876574307304786</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.015113350125944584;y1=0.3853904282115869;x2=0.982367758186398;y2=0.6272040302267002</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Dr. Nicole Nübel</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Porträt von Dr. Nicole Nübel</alt>
+<copyright>Andrey_Popov/Shutterstock 211325935</copyright>
+<data md5="e99cd25409872c4f1242cd2b3ff74ea2" href="../../../../../../../__blob/e99cd25409872c4f1242cd2b3ff74ea2.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>800</width>
+<height>800</height>
+</CMPicture>

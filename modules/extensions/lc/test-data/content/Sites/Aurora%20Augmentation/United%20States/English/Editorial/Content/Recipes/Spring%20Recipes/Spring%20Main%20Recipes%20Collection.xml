@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Recipes/Spring Recipes" name="Spring Main Recipes Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Spring Recipes</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../Videos/Recipes/The%20Perfect%20Chicken%20Breast%20Vimeo%20Video.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/The%20Perfect%20Chicken%20Breast%20Vimeo%20Video"/>
+<link href="../../../../Videos/Recipes/Breaded%20Chicken%20Vimeo%20Video.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Breaded%20Chicken%20Vimeo%20Video"/>
+<link href="../../../../Videos/Recipes/Shrimp%20Pad%20Thai%20Vimeo%20Video.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Shrimp%20Pad%20Thai%20Vimeo%20Video"/>
+<link href="Main/Mushroom%20Quiche%20Re3e3a596e.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Main/Mushroom%20Quiche%20Recipe%20Article"/>
+<link href="../../../../Videos/Recipes/Chicken%20Cordon%20Bleu%20Vimeo%20Video.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Chicken%20Cordon%20Bleu%20Vimeo%20Video"/>
+</items>
+</CMCollection>

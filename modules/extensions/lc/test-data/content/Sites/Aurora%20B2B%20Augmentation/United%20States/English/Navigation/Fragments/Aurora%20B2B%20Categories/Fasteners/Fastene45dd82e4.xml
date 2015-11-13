@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalChannel folder="/Sites/Aurora B2B Augmentation/United States/English/Navigation/Fragments/Aurora B2B Categories/Fasteners" name="Fasteners Category External Page" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>fasteners</segment>
+<title>Fasteners</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+<link href="../../../../Pictures/Product%20Category%20Pictures/Fasteners/Fasteners%20Cat90ac992f.xml" path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Pictures/Product%20Category%20Pictures/Fasteners/Fasteners%20Category%20Promotion%20Picture"/>
+</pictures>
+<related>
+</related>
+<children>
+</children>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<header>
+</header>
+<footer>
+</footer>
+<externalId>ibm:///catalog/category/Fasteners</externalId>
+</CMExternalChannel>

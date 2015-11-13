@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring Recipes/Salads" name="Insalata Caprese Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Salads/Insalata%20Caprese%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Salads/Insalata%20Caprese%20Recipe%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Insalata Caprese</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Recipes.xml" path="/Settings/Taxonomies/Subject/Recipes"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salad%282%29.xml" path="/Settings/Taxonomies/Subject/Salad%282%29"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Caprese</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Ein italienischer Salat aus Mozzarella-Käse, Tomaten, frischem Basilikum und Olivenöl - mit frisch gemahlenem schwarzen Pfeffer bestreut. </p> <p><br/></p> </div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Der italienische Salat aus Mozzarella-Käse, Tomaten, frischem Basilikum und Olivenöl ist eine weiter Idee für <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article">Ihr perfektes Picknick</a>. Mit unseren <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser">super-scharfen japanischen Messern</a> schneiden Sie den weichen Käsen und die Tomaten wie Butter. </p><p class="p--heading-2">Zutaten</p><ul><li>2 große Tomaten</li><li>450g Mozzarella</li><li>4 Basilikum Blätter</li></ul><p class="p--heading-2">Zubereitung</p><p/><ul><li>Die Tomaten und die Mozzarella in dünnen Scheiben schneiden</li><li>Basilikum putzen</li><li>Die Blätter abzupfen und in dünne Streifen schneiden</li><li>Tomaten und Mozzarella auf einer Platte anrichten</li><li>Mit Salz und <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser">frisch gemahlenem Pfeffer</a> würzen</li><li>Mit kalt gepresstem Olivenöl beträufeln und mit dem Basilikum garnieren</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Da der Salat so einfach ist, brauchen Sie ganz frische, reifer leckere Tomaten und am besten Büffel-Mozzarella für ein richtiges Geschmackserlebnis.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2001%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2001%20Picture"/>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2003%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2003%20Picture"/>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2002%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2002%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+<link href="../../../../Products/Spring%20Campaign/Picnic%20Basket%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Picnic%20Basket%20Product%20Teaser"/>
+</related>
+</CMArticle>

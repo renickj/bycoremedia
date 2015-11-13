@@ -1,0 +1,256 @@
+/* =====================================================================================================================
+   Teaser
+   Contains styling rules used for atoms/molecules used in teasers.
+   ================================================================================================================== */
+
+/* --- teaser ------------------------------------------------------------------------------------------------------- */
+.cm-teaser {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cm-teaser__content {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/* if content is attached title will be overlayed */
+.cm-teaser__content ~ .cm-teaser__title {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* if content is attached info will be overlayed */
+.cm-teaser__content ~ .cm-teaser__info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* avoid underlining for active and hover states */
+.cm-teaser > a:focus,
+.cm-teaser > a:active {
+  text-decoration: none;
+}
+
+/* --- video teaser ------------------------------------------------------------------------------------------------- */
+.cm-teaser--video__play {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 90px;
+  height: 90px;
+  background-image: url(../img/button_video_play.png);
+}
+
+.cm-teaser--video__video {
+  background-color: #3d3d3d;
+}
+
+/* --- non adaptive image, adjusting to parent ---------------------------------------------------------------------- */
+.cm-non-adaptive-content {
+  /*top: -16.667% !important; /* for 1:1 */
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+/* variant fitting to parent height */
+.cm-non-adaptive-content--fit-height {
+  height: 100%;
+  width: auto;
+}
+
+/* --- product information ------------------------------------------------------------------------------------------ */
+.cm-product-info {
+  display: table;
+  font-size: 0; /* remove whitespace */
+}
+
+.cm-product-info__title,
+.cm-product-info__pricing {
+  display: table-cell;
+  font-size: 1rem; /* reset font */
+  vertical-align: bottom;
+}
+
+.cm-product-info__title > *,
+.cm-product-info__pricing > * {
+  background-color: #ffffff;
+}
+
+.cm-product-info__title > * {
+  vertical-align: bottom;
+  margin: 0;
+}
+
+.cm-product-info__pricing {
+  text-align: right;
+}
+
+/* --- product price ------------------------------------------------------------------------------------------------ */
+.cm-price {
+  color: #373737;
+}
+
+.cm-price--overlay {
+  color: inherit;
+}
+
+.cm-price--old {
+  text-decoration: line-through;
+}
+
+.cm-price--special {
+  color: #b54850;
+}
+
+/* currently, for all devices the same */
+.cm-teaser .cm-aspect-ratio-box:before {
+  padding-top: 75%; /* 4:3 */
+}
+
+/* --- Plain Teaser ------------------------------------------------------------------------------------------------- */
+
+.cm-teaser--plain .cm-aspect-ratio-box:before {
+  padding-top: 100%;
+}
+
+/*noinspection CssOptimizeSimilarProperties*/
+.cm-teaser--plain.cm-teaser--video .cm-teaser--video__play {
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cm-lightbox .cm-aspect-ratio-box:before {
+  padding-top: 100%;
+}
+
+.cm-lightbox--portrait .cm-aspect-ratio-box:before {
+  padding-top: calc(400% / 3);
+}
+
+.cm-lightbox--landscape .cm-aspect-ratio-box:before {
+  padding-top: calc(300% / 4);
+}
+
+.cm-frame {
+  background-color: #a8a8a8;
+}
+
+.cm-frame .cm-frame {
+  background-color: #bfbfbf;
+}
+
+.cm-frame__title {
+  margin: 0;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.cm-frame > .cm-teaser {
+  width: auto;
+}
+
+
+/* --- headlines ---------------------------------------------------------------------------------------------------- */
+.cm-teaser--hero .cm-heading2--boxed {
+  background-color: #80a3bf;
+}
+
+.cm-teaser--product .cm-heading2--boxed {
+  background-color: #bf8080;
+}
+
+.cm-teaser--category .cm-heading2--boxed {
+  background-color: #80bf8a;
+}
+
+.cm-teaser--picture .cm-heading2--boxed {
+  background-color: #bfbfbf;
+}
+
+.cm-teaser--video .cm-heading2--boxed {
+  background-color: #bfb180;
+}
+
+/* --- teaser product in productlisting ----------------------------------------------------------------------------- */
+.cm-category-item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.cm-category-item > a:hover {
+  text-decoration: none;
+}
+
+.cm-category-item__info {
+  background-color: #e6e6e6;
+  padding: 0.6rem;
+}
+
+.cm-category-item__title,
+.cm-category-item__pricing,
+.cm-category-item__cart {
+  display: block;
+}
+
+.cm-category-item__image + .cm-category-item__info {
+  margin-top: 5px;
+}
+
+.cm-category-item__title + .cm-category-item__pricing,
+.cm-category-item__pricing + .cm-category-item__cart {
+  margin-top: 0.6rem;
+}
+
+.cm-category-item__title {
+  font-weight: normal;
+  margin: 0;
+  color: #373737;
+}
+
+.cm-category-item__pricing {
+  font-size: 0;
+  text-align: right;
+}
+
+.cm-category-item__offer-price {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  width: 50%;
+}
+
+.cm-category-item__list-price {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  width: 50%;
+}
+
+.cm-category-item .cm-category-item__image.cm-aspect-ratio-box:before {
+  padding-top: 155%;
+}
+
+/* --- category teaser ---------------------------------------------------------------------------------------------- */
+.cm-collection--categories .cm-teaser__content ~ .cm-teaser__title {
+  position: relative;
+}
+
+.cm-collection--categories .cm-teaser--category .cm-heading2--boxed {
+  background-color: #E6E6E6;
+  color: #373737;
+}

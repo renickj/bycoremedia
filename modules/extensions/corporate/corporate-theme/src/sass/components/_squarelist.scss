@@ -1,0 +1,60 @@
+// Imports
+@import "../base/imports";
+@import "../utils/imports";
+
+/*
+Squarelist
+=====================================================================================================================
+
+Contains styling definitions for all content types as cm-medialist.
+- cm-squarelist
+*/
+
+.cm-squarelist {
+  margin: 0;
+  padding: $padding-base-vertical $padding-base-horizontal;
+
+  @include breakpoint(sm-and-up) {
+    padding: $padding-large-vertical $padding-large-vertical;
+  }
+
+  &__box {
+    position: relative;
+  }
+
+  &__picture-box {
+    @include aspect-ratio-box(1, 1);
+  }
+
+  &__picture {
+    @include stretch-absolute();
+  }
+
+  &__dimmer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: palette(black);
+    transition: opacity $transition-duration ease(in-out-quad);
+  }
+
+  &__headline {
+    font-size: font-format(h4, mobile);
+    text-align: center;
+    margin: 0;
+    padding: $padding-base-vertical 0;
+  }
+
+  a:hover {
+    .cm-squarelist__dimmer {
+      opacity: 0.33;
+    }
+
+    .cm-squarelist__headline {
+      text-decoration: underline;
+    }
+  }
+}

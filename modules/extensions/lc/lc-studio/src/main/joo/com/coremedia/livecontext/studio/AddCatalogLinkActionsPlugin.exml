@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:plugin xmlns:exml="http://www.jangaroo.net/exml/0.8"
+             xmlns="exml:ext.config"
+             xmlns:ui="exml:com.coremedia.ui.config"
+             xmlns:livecontext="exml:com.coremedia.livecontext.studio.config"
+             xmlns:ec="exml:com.coremedia.ecommerce.studio.config">
+
+  <exml:import class="com.coremedia.livecontext.studio.config.livecontextStudioPlugin"/>
+  <exml:import class="com.coremedia.ecommerce.studio.config.catalogLink"/>
+  <exml:import class="com.coremedia.ecommerce.studio.config.eCommerceStudioPlugin"/>
+
+  <ui:nestedRulesPlugin>
+    <ui:rules>
+      <ec:catalogLinkToolbar>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <ui:iconButton itemId="{livecontextStudioPlugin.OPEN_IN_MCENTER_BUTTON_ITEM_ID}">
+                <baseAction>
+                  <livecontext:openInManagementCenterAction
+                          catalogObjectVariableName="{catalogLink.SELECTED_ITEMS_VARIABLE_NAME}"/>
+                </baseAction>
+              </ui:iconButton>
+            </ui:items>
+            <ui:after>
+              <component itemId="{eCommerceStudioPlugin.OPEN_IN_TAB_BUTTON_ITEM_ID}"/>
+            </ui:after>
+          </ui:addItemsPlugin>
+        </plugins>
+      </ec:catalogLinkToolbar>
+
+      <ec:catalogLinkContextMenu>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <menuitem itemId="{livecontextStudioPlugin.OPEN_IN_MCENTER_MENU_ITEM_ID}">
+                <baseAction>
+                  <livecontext:openInManagementCenterAction
+                          catalogObjectVariableName="{catalogLink.SELECTED_ITEMS_VARIABLE_NAME}"/>
+                </baseAction>
+              </menuitem>
+            </ui:items>
+            <ui:after>
+              <component itemId="{eCommerceStudioPlugin.OPEN_IN_TAB_MENU_ITEM_ID}"/>
+            </ui:after>
+          </ui:addItemsPlugin>
+        </plugins>
+      </ec:catalogLinkContextMenu>
+    </ui:rules>
+  </ui:nestedRulesPlugin>
+
+</exml:plugin>

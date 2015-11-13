@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                baseClass="ProductInformationContainerBase"
+                xmlns:ui="exml:com.coremedia.ui.config">
+
+  <exml:import class="com.coremedia.cms.editor.sdk.util.RichTextPlainTextTransformer"/>
+  <exml:import class="com.coremedia.elastic.social.studio.model.utils.ValueExpressionUtil"/>
+  <exml:import class="com.coremedia.elastic.social.studio.model.ModerationPropertyNames"/>
+  <exml:import class="com.coremedia.elastic.social.studio.model.ContributionPropertyNames"/>
+  <exml:import class="com.coremedia.elastic.social.studio.model.ContributionAdministrationPropertyNames"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.util.ContentLocalizationUtil"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.ProductImpl"/>
+  <exml:import class="ext.Template"/>
+
+  <exml:cfg name="contributionAdministration" type="com.coremedia.elastic.social.studio.model.impl.AbstractContributionAdministration"/>
+
+  <container itemId="{ProductImpl['$class'].toString()}"
+             cls="leftGreyBorder"
+             height="70"
+             layout="border"
+             margins="0 0 0 5">
+    <items>
+      <ui:iconLabel region="west"
+                    itemId="{TARGET_BUTTON_ICON_ITEM_ID}"
+                    margins="0 2 0 10"
+                    width="20"
+                    height="20"/>
+      <ui:textLink region="center"
+              itemId="{TARGET_BUTTON_ID}"
+              buttonSelector="a"
+              margins="0 0 0 1"
+              width="150">
+        <plugins>
+          <ui:bindPropertyPlugin componentProperty="text">
+            <ui:bindTo>
+              <ui:valueExpression context="{config.contributionAdministration}"
+                                  expression="{ValueExpressionUtil.createPath([
+                                                ContributionAdministrationPropertyNames.DISPLAYED,
+                                                ContributionPropertyNames.TARGET,
+                                                'name'])}"/>
+            </ui:bindTo>
+          </ui:bindPropertyPlugin>
+        </plugins>
+      </ui:textLink>
+      <label region="south"
+             height="38"
+             margins="0 1 0 10"
+             style="font-weight: normal;">
+        <plugins>
+          <ui:bindPropertyPlugin componentProperty="text"
+                                 transformer="{RichTextPlainTextTransformer.convertToPlainText}"
+                                 ifUndefined="">
+            <ui:bindTo>
+              <ui:valueExpression context="{config.contributionAdministration}"
+                                  expression="{ValueExpressionUtil.createPath([
+                                                ContributionAdministrationPropertyNames.DISPLAYED,
+                                                ContributionPropertyNames.TARGET,
+                                                'shortDescription'])}"/>
+            </ui:bindTo>
+          </ui:bindPropertyPlugin>
+        </plugins>
+      </label>
+    </items>
+  </container>
+</exml:component>

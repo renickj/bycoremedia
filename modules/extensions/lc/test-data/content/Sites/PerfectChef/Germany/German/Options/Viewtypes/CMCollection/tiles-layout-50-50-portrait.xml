@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection" name="tiles-layout-50-50-portrait" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-50-50-portrait.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-50-50-portrait"/>
+</master>
+<masterVersion>1</masterVersion>
+<description>Displays a collection in 50:50 tiles layout (portrait).</description>
+<icon md5="7d772666f119af81d83ef7d80a62a5da" href="../../../../../../../__blob/7d772666f119af81d83ef7d80a62a5da.blob" mimetype="image/png"/>
+<layout>tiles-layout-50-50-portrait</layout>
+</CMViewtype>

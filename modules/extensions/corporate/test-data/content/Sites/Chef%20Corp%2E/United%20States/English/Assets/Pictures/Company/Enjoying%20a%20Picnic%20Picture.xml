@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Chef Corp./United States/English/Assets/Pictures/Company" name="Enjoying a Picnic Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">0.9971830985915493</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=NaN;y=NaN;width=NaN;height=NaN</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=860;y=248;width=1705;height=2279</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=667;y=194;width=2295;height=2294</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=372;y=349;width=2860;height=2147</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=326;y=426;width=3333;height=1875</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=240;y=488;width=3426;height=1713</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=574;width=4000;height=1596</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=457;width=4000;height=1504</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=155;y=426;width=3132;height=783</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=NaN;y1=NaN;x2=NaN;y2=NaN</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.21511627906976744;y1=0.09302325581395349;x2=0.6414728682170543;y2=0.9476744186046512</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.16666666666666666;y1=0.07267441860465117;x2=0.7403100775193798;y2=0.9331395348837209</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.09302325581395349;y1=0.1308139534883721;x2=0.8081395348837209;y2=0.936046511627907</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.08139534883720931;y1=0.15988372093023256;x2=0.9147286821705426;y2=0.8633720930232558</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.060077519379844964;y1=0.18313953488372092;x2=0.9166666666666666;y2=0.8255813953488372</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.21511627906976744;x2=1;y2=0.813953488372093</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.17151162790697674;x2=1;y2=0.7354651162790697</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.03875968992248062;y1=0.15988372093023256;x2=0.8217054263565892;y2=0.45348837209302323</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Enjoying a Picnic</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Enjoying a Picnic</alt>
+<copyright>altafulla/Shutterstock 77524825</copyright>
+<data md5="2f55aae10f14bc180edd73657c78a10e" href="../../../../../../../__blob/2f55aae10f14bc180edd73657c78a10e.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>4000</width>
+<height>2667</height>
+</CMPicture>

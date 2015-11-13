@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:u="exml:untyped"
+                baseClass="com.coremedia.blueprint.studio.topicpages.administration.TopicPreviewPanelBase">
+
+  <exml:import class="com.coremedia.ui.data.ValueExpression" />
+
+  <exml:cfg name="selectionExpression" type="ValueExpression">
+    <exml:description>The value expression that contains the selected topic record.</exml:description>
+  </exml:cfg>
+
+  <panel layout="border"
+         collapsible="true"
+         header="false"
+         height="100%"
+         itemId="topic-pages-preview"
+         u:minWidth="300">
+    <items>
+      <label itemId="{PREVIEW_FRAME}"
+                 width="100%"
+                 height="100%"
+                 region="center"
+                 flex="1"/>
+    </items>
+  </panel>
+</exml:component>

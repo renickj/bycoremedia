@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true" scanPeriod="30 seconds">
+
+  <property name="log.pattern" value="%d{yyyy-MM-dd HH:mm:ss} %-7([%level]) %logger [%X{tenant}] - %message \\(%thread\\)%n" />
+
+  <include resource="logging-common.xml"/>
+
+  <logger name="com.coremedia" additivity="false" level="info">
+    <appender-ref ref="file"/>
+  </logger>
+
+  <!-- uncomment to see all View Lookups. Produces _massive_ log output(!) -->
+  <!--<logger name="com.coremedia.objectserver.view" additivity="false" level="debug">-->
+    <!--<appender-ref ref="file"/>-->
+  <!--</logger>-->
+
+  <root level="warn">
+    <appender-ref ref="file"/>
+  </root>
+
+</configuration>

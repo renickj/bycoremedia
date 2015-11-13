@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalLink folder="/Sites/Chef Corp./Germany/German/Content/Site-Wide/External Links" name="Aurora B2C External Link" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Content/Site-Wide/External%20Links/Aurora%20B2C%20External%20Link.xml" path="/Sites/Chef%20Corp%2E/United%20States/English/Content/Site-Wide/External%20Links/Aurora%20B2C%20External%20Link"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Aurora B2C Shop</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Küchengeräte für Ihr Heim.  </p></div></teaserText>
+<pictures>
+<link href="../../../Assets/Pictures/Professionals/In%20The%20Kitchen%20-%20Aurora%20B2C.xml" path="/Sites/Chef%20Corp%2E/Germany/German/Assets/Pictures/Professionals/In%20The%20Kitchen%20-%20Aurora%20B2C"/>
+</pictures>
+<related>
+</related>
+<url>//{aurora.host}/webapp/wcs/stores/servlet/en/auroraesite</url>
+</CMExternalLink>

@@ -1,0 +1,87 @@
+!tape
+name: wcws_testFindDynamicProductPriceByExternalId
+interactions:
+- recorded: 2014-09-08T17:33:32.590Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/price?catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '96'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2cJPalOSEWm7gMwuQbP76b%2bft6o4MLHEu%2fvXS5urxTlTsZ5LgigwfZ1oHY2BfuHdSMIo%2b%2bHt18p4fPuvoG1kNmclwf%2bDSwAsVWadbDpqoJrL9CAbGBHQWvvfW50EgAYCL%2fsis3Ddv5AmXOK6nUNZs2mwE%2bSQBxaEvyXSUjugKhGomLu%2bqses5FZXoQQV4DPnWTyR4OHQvb82H6rzfR9%2fpFPg%3d%3d
+    body: '{"query":{"name":"byPartNumber","currencies":["USD"],"products":[{"partNumber":"CLA022_2203"}]}}'
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:32 GMT
+      Expires: Mon, 08 Sep 2014 18:33:32 GMT
+      Vary: Accept
+    body: "{\n\t\"EntitledPrice\": [\n\t\t{\n\t\t\t\"UnitPrice\": [\n\t\t\t\t{\n\t\t\t\t\t\"price\": {\n\t\t\t\t\t\t\"currency\": \"USD\",\n\t\t\t\t\t\t\"value\": 575.00\n\t\t\t\t\t},\n\t\t\t\t\t\"quantity\": {\n\t\t\t\t\t\t\"uom\": \"C62\",\n\t\t\t\t\t\t\"\
+      value\": 1.0\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t],\n\t\t\t\"contractId\": \"4000000000000000007\",\n\t\t\t\"partNumber\": \"CLA022_2203\",\n\t\t\t\"productId\": \"15864\"\n\t\t}\n\t],\n\t\"resourceId\": \"http:\\/\\/toko-wcs-02.coremedia.vm\\/wcs\\/resources\\\
+      /store\\/10202\\/price\",\n\t\"resourceName\": \"price\"\n}"
+- recorded: 2015-04-29T14:50:08.842Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/languagemap
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Wed, 29 Apr 2015 14:50:08 GMT
+      Vary: Accept
+    body: '{"de":"-3","ru":"-20","ko":"-9","pt":"-6","en":"-1","it":"-4","fr":"-2","zh":"-8","es":"-5","ar":"-23","ja":"-10","pl":"-22","ro":"-21"}'
+- recorded: 2015-04-29T14:50:21.736Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/loginidentity
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '60'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+    body: '{"logonId":"cmadmin","logonPassword":"VTJjyo0AYSnXFHI201yo"}'
+  response:
+    status: 201
+    headers:
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Wed, 29 Apr 2015 14:50:21 GMT
+      Vary: Accept
+    body: '{"userId":"2","WCToken":"2%2cr67OD8Gilg7n0BZboCBwVrsTytOsuHIzQ6VOb5nl28jcSnss%2f1%2fKCw2jWaxSoW6Yja8NC6xLPYwyCZWSTg8e%2bsVGkms8erPLNBCJ977Qq4O%2fPUrfcfkBYcR4whjahQgSGqd3niOmCVdgoXx%2bnZm1TiQFPCiPXrRq8s4xxnC8jBo6jwQwdNYxLeonrQcDeiV3uQem4qHZQJrmgR%2br7gK6jA%3d%3d","WCTrustedToken":"2%2cBGUAYFJhqnc1VkM0fYdcXCbIFnw%3d","personalizationID":"1428669222535-1"}'
+- recorded: 2015-04-29T14:52:35.352Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/price?catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '113'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2cr67OD8Gilg7n0BZboCBwVrsTytOsuHIzQ6VOb5nl28jcSnss%2f1%2fKCw2jWaxSoW6Yja8NC6xLPYwyCZWSTg8e%2bsVGkms8erPLNBCJ977Qq4O%2fPUrfcfkBYcR4whjahQgSGqd3niOmCVdgoXx%2bnZm1TiQFPCiPXrRq8s4xxnC8jBo6jwQwdNYxLeonrQcDeiV3uQem4qHZQJrmgR%2br7gK6jA%3d%3d
+    body: '{"query":{"name":"byPartNumber","currencies":["USD"],"products":[{"partNumber":"CLA022_2203"}],"contractIds":[]}}'
+  response:
+    status: 500
+    headers:
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Wed, 29 Apr 2015 14:52:35 GMT
+      Vary: Accept
+    body: '{"errors":[{"errorCode":"CWXFR0230E","errorKey":"ERR_INTERNAL_SERVER_ERROR","errorLevel":"SEVERE","errorMessage":"CWXFR0230E: Internal server error. Details will be stored within the server logs."}]}'

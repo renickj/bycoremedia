@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall Recipes/Desserts" name="Upside Down Apple Cake Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Upside%20Down%20Apple%20Cake%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Upside%20Down%20Apple%20Cake%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Gestürzter Apfelkuchen</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Sugar.xml" path="/Settings/Taxonomies/Subject/Sugar"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Butter.xml" path="/Settings/Taxonomies/Subject/Butter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Sweet.xml" path="/Settings/Taxonomies/Subject/Sweet"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dessert.xml" path="/Settings/Taxonomies/Subject/Dessert"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/American.xml" path="/Settings/Taxonomies/Subject/American"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Apple.xml" path="/Settings/Taxonomies/Subject/Apple"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Verkehrt herum</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><br/></p> </div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Was ist ein Herbst ohne frisch gebackenen Apfelkuchen? Diese Spezialität läßt sich nach Ihrem Geschmack mit verschiedenen Zutaten wie Mandeln und Calvados verfeinern. Der gestürzte, karamelisierte Apfelkuchen wird Sie mit seinen Zimt-, Karamell- und braunen Zuckeraromen begeistern.</p><p class="p--heading-2">Zutaten</p><ul><li>600g Äpfel</li><li>4 Eier</li><li>220g Zucker</li><li>125g Butter</li><li>250g Mehl</li><li>1/2 Pck. Backpulver</li><li>1 EL Zitronensaft</li></ul><p class="p--heading-2">Zubereitung</p><ul><li>Äpfel schälen, halbieren und Kerngehäuse entfernen</li><li>Eier mit Zucker schaumig rühren, Mehl mit Backpulver und Salz vermischen</li><li>Teig in eine Springform hineinfüllen</li><li>Apfelhälfte mit der eingeschnitteten Seite nach oben darauf verteilen und leicht hineindrücken</li><li>Im vorgeheizten Backofen bei 200 Grad etwa 50 Min. backen</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Frisch aus dem Ofen und noch lauwarm auf den Teller, so schmeckt ein Apfelkuchen am besten! Servieren Sie Vanilleeis oder eine <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Navigation/Categories/04_Deli/To%20Drink/To%20Drink%20External%20Page.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Categories/04_Deli/To%20Drink/To%20Drink%20External%20Page">Tasse Tee oder Kaffee</a> dazu. Probieren Sie auch  starken, dunkel gerösteten Espresso dazu.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Upside%20Down%20Apple%20Cake%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Upside%20Down%20Apple%20Cake%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../../Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Related%20Sideb94725790.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Related%20Sidebar%20Collection"/>
+</related>
+</CMArticle>

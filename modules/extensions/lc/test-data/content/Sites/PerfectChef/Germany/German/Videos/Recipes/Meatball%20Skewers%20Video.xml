@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Recipes" name="Meatball Skewers Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Recipes/Meatball%20Skewers%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/Meatball%20Skewers%20Video"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Meatball Spieße</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Meat.xml" path="/Settings/Taxonomies/Subject/Meat"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Outdoor.xml" path="/Settings/Taxonomies/Subject/Outdoor"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/American.xml" path="/Settings/Taxonomies/Subject/American"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Beef.xml" path="/Settings/Taxonomies/Subject/Beef"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Onion.xml" path="/Settings/Taxonomies/Subject/Onion"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+<link href="Meatball%20Skewers%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Recipes/Meatball%20Skewers%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Meatball Spieße (1)</alt>
+<copyright></copyright>
+<data md5="ecb20c6e75dde0c552481af837758d90" href="../../../../../../__blob/ecb20c6e75dde0c552481af837758d90.blob" mimetype="video/mp4"/>
+<dataUrl>//player.vimeo.com/video/84178736</dataUrl>
+</CMVideo>

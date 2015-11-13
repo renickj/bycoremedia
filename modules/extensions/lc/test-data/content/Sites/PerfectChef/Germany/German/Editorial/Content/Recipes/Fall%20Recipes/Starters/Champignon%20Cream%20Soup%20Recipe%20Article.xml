@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall Recipes/Starters" name="Champignon Cream Soup Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Champignon%20Cream%20Soup%20Re3e3a596e.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Champignon%20Cream%20Soup%20Recipe%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Champignon-Cremesuppe</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cream.xml" path="/Settings/Taxonomies/Subject/Cream"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Champignon.xml" path="/Settings/Taxonomies/Subject/Champignon"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spicy.xml" path="/Settings/Taxonomies/Subject/Spicy"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Asia.xml" path="/Settings/Taxonomies/Subject/Asia"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Champignon-Suppe</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Champignons sind eine Grundzutat für die Wintersuppen.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Suppen können lecker, kräftig und deftig, aber auch erlesene Feinschmecker-Erlebnisse sein. Man muss nur die richtigen Zutaten zur Hand haben und diese dann richtig verwenden.</p><p>Champignons sind eine Grundzutat für die Wintersuppen, wobei die braunen Champignons geschmacksvoller sind. Man kann diese Suppe auch noch zusätzlich mit einer Stange Lauch oder 1 - 2 Stangen Staudensellerie aufpeppen, indem man sie mit der Zwiebel und den Pilzen anröstet.</p><p/><p class="p--heading-2">Zutaten</p><ul><li>450g Chamignons</li><li>1 El Butter</li><li>1 Zwiebel</li><li>¾ l Brühe</li><li>1 Tasse Milch</li><li>200g Schlagsahne</li><li>3 El Mehl</li></ul><p class="p--heading-2">Zubereitung</p><ul><li>Butter in einem Topf erhitzen</li><li>Klein geschnittene Zwiebel darin hellbgelb anrösten </li><li>Die gereinigten, in Scheiben geschnittenen Champignons dazu geben</li><li>Die Champignons mit einem EL Mehl bestäuben, unterrühren und mit Brühe und Milch ablöschen</li><li>Die Suppe ca. 8-10 Min. kochen lassen </li><li>Sahne mit 2 El Mehl in einer kleinen Schüssel verquirlen, dann unterheben</li><li>Nochmals gut 5 Minuten kochen lassen</li></ul><p/><p class="p--heading-2">Serviervorschlag</p><p/><p>Wer eine reine Champignon-Cremesuppe bevorzugt, kann die fertige Suppe mit dem Stabmixer, kurz vor dem Servieren pürieren und schaumig aufschlagen, dabei zuvor ein paar Champignonscheiben für die Dekoration herausfischen und zur Seite legen.</p><p>Für abenteuerlustige Köche: ersetzen Sie die Sahne durch Kokosmilch und probieren Sie einige orientalische Gewürze wie Thai-Basilikum oder Kaffern, um einen überraschend frischen und asiatischen Geschmack zu bekommen.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Champignon%20Cream%20Soup%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Champignon%20Cream%20Soup%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

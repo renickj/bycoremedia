@@ -1,0 +1,120 @@
+// Imports
+@import "../base/imports";
+@import "../utils/helper";
+
+//
+// Create a banderole with absolute position from bottom
+// @param: {string} distance to bottom, default is 10%
+//
+// @example:
+// .wrapper {
+//   @include banderole();
+// }
+//
+@mixin banderole($bottom: 10%) {
+  position: absolute;
+  width: 100%;
+  bottom: $bottom;
+  text-align: center;
+}
+
+//
+// Creates the button layout, choice between a button or textlink
+//
+// @param: {string} The color for the text.
+// @param: {string} The color for the hover effect.
+// @param: {boolean} If it should be a textlink.
+// @description: Returns button layout variant
+// @example:
+// ```
+//   @include transparent-button(#fff, #000, true | false(default))
+// ```
+//
+@mixin transparent-button($color, $hover, $isTextLink: false) {
+  color: $color;
+  background-color: transparent;
+
+  @if $isTextLink == true {
+    border: none;
+  } @else {
+    border: $button-border solid $color;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $hover;
+
+    @if $isTextLink == true {
+      background-color: transparent;
+    } @else {
+      background-color: $color;
+      border-color: $color;
+    }
+  }
+  &:active {
+    background-image: none;
+  }
+}
+
+//
+// Add a dot spacer after element for mobile devices
+// @param: {string} The color of the dot
+// @example:
+// ```
+//   @include spacer(#fff, 10px)
+// ```
+//
+@mixin spacer($color: $brand-primary, $size: 22px) {
+  @include breakpoint("xs") {
+    position: relative;
+
+    /* add spacer (centered dot) between claim in mobile view */
+    &::after {
+      position: absolute;
+      left: 0;
+      bottom: -($size / 2);
+      width: 100%;
+      content: "\25CF";
+      color: $color;
+      text-align: center;
+      font-size: $size;
+      line-height: $size;
+    }
+
+    //hide last one
+    &.is-last::after {
+      display: none;
+    }
+  }
+}
+
+//
+// Add a small arrow to a box
+//
+@mixin arrow($position: right, $color: palette(white)) {
+  position: absolute;
+
+  //attach to the right
+  @if $position == right {
+    top: 50%;
+    left: 100%;
+  // attach to the top
+  } @else if $position == top {
+    top: 0;
+    left: 50%;
+  // default: attach to the left
+  } @else {
+    top: 50%;
+    left: 0;
+  }
+
+  display: block;
+  margin-left: -$padding-base-vertical;
+  margin-top: -$padding-base-vertical;
+  background-color: $color;
+  width: 2*$padding-base-vertical;
+  height: 2*$padding-base-vertical;
+  content: "";
+  transform: rotate(45deg);
+}

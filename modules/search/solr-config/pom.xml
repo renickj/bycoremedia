@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>search</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>solr-config</artifactId>
+
+  <description>Configuration of the Solr search engine</description>
+
+  <packaging>coremedia-application</packaging>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- SOLR BOM IMPORT -->
+      <dependency>
+        <groupId>com.coremedia.cms</groupId>
+        <artifactId>solr-bom</artifactId>
+        <version>${cms.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.coremedia.cms</groupId>
+      <artifactId>solr-configuration</artifactId>
+      <type>coremedia-application</type>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.coremedia.cms</groupId>
+      <artifactId>solr-configuration</artifactId>
+      <type>pom</type>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <finalName>solr-config</finalName>
+    <plugins>
+      <plugin>
+        <groupId>com.coremedia.maven</groupId>
+        <artifactId>coremedia-application-maven-plugin</artifactId>
+        <configuration>
+          <libDir>solr-home/lib</libDir>
+          <!--exclude the empty lib dir we get from the skinny solr-configuration artifact-->
+          <overlays>
+            <overlay>
+              <groupId>com.coremedia.cms</groupId>
+              <artifactId>solr-configuration</artifactId>
+              <excludes>
+                <exclude>lib</exclude>
+              </excludes>
+            </overlay>
+          </overlays>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

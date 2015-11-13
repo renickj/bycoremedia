@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/United States/English/Editorial/Products" name="Spring Campaign Products Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Spring Campaign Products Collection</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Spring%20Campaign/Fruit%20Bowl%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/Fruit%20Bowl%20Product%20Teaser"/>
+<link href="Spring%20Campaign/Men%20T-Shirt%20Product%20Teaser%20-%20orange.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/Men%20T-Shirt%20Product%20Teaser%20-%20orange"/>
+<link href="Spring%20Campaign/Oval%20Picnic%20Basket%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/Oval%20Picnic%20Basket%20Product%20Teaser"/>
+<link href="Spring%20Campaign/Picnic%20Basket%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/Picnic%20Basket%20Product%20Teaser"/>
+<link href="Spring%20Campaign/Striped%20T-Shirt%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/Striped%20T-Shirt%20Product%20Teaser"/>
+<link href="Spring%20Campaign/White%20Polo%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/White%20Polo%20Product%20Teaser"/>
+<link href="Spring%20Campaign/Spring%20Wine%20Glasses%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/Spring%20Wine%20Glasses%20Product%20Teaser"/>
+</items>
+</CMCollection>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring Recipes/Main" name="Mushroom Quiche Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Main/Mushroom%20Quiche%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Main/Mushroom%20Quiche%20Recipe%20Article"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Pilz-Quiche</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Main.xml" path="/Settings/Taxonomies/Subject/Main"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Pilz-Quiche</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Probieren Sie unser Rezept für eine herzhafte Quiche mit Eiern, Zwiebeln und Champignons. </p> </div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Dieses einfaches Rezept lässt sich schnell und einfach für einen entspannten Brunch am Wochenende zubereiten - und Sie können die Quiche auch zu einem <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article">Picknick</a> mitnehmen. 15 Minuten Vorbereitung, 45 Minuten im Ofen und los geht's!</p><p class="p--heading-2"><strong>Pilz-Quiche</strong></p><p>Für 4-6 Personen</p><p class="p--heading-3">Zutaten</p><ul><li>Ein ca. 30cm Teigboden</li><li>300 Gramm geriebener Emmentaler Käse</li><li>1 mittelgroße Zwiebel</li><li>1 Esslöffel Butter</li><li>120 Gramm Champignons</li><li>eine Messerspitze Thymian</li><li>ein wenig Paprikapulver</li><li>4 Eier</li><li>350 ml Milch</li><li>3 Esslöffel Mehl</li><li>1/4 Teelöffel Salz</li><li>1/4 Teelöffel Senfpulver</li></ul><p class="p--heading-3">Zubereitung</p><p/><ul><li>Belegen Sie den Teigboden mit dem geriebenen Emmentalerkäse</li><li>In einer Pfanne die Butter schmelzen und die Zwiebeln anbraten </li><li>Die Champignons und den Thymian hinfügen und mit Salz und Pfeffer abschmecken, etwa 5 Minuten braten lassen</li><li>Die angebratenen Champignons auf den Teigboden verteilen</li><li>In einem mittelgroßen Schüssel die restlichen Zutaten zusammenmischen</li><li>Die Eimasse über die Champignons giessen, bis die Form voll ist</li><li>Mit Paprikapulver für eine schöne, braune Kruste bestreuen</li><li>Etwa 40-45 Minuten im Ofen bei 190 Grad backen lassen</li><li>Mit einer Gabel testen, ob die Eimasse durchgebacken ist</li></ul><p/><p class="p--heading-3">Serviervorschlag</p><p>Servieren Sie die Quiche am Besten mit frischem, in Scheiben geschnittenen Obst und grünem Salat dazu.</p><p>Als Weinbegleitung empfehlen wir einen Pinot Blanc. Oder probieren Sie einen Sekt Orange beim Brunch!</p><blockquote><p class="p--heading-3">Wir empfehlen ...</p><p><a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Spring%20Campaign/Enamel%20Baking%20Pan%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Enamel%20Baking%20Pan%20Product%20Teaser"><img alt="" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Pictures/Product%20Pictures/02_In%20The%20Kitchen/Baking%20Pans/PC_ENAMEL_BAKING_PAN%20Frontshot.xml#data" cmexport:path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/02_In%20The%20Kitchen/Baking%20Pans/PC_ENAMEL_BAKING_PAN%20Frontshot"/></a></p><p><a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Spring%20Campaign/Enamel%20Baking%20Pan%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Enamel%20Baking%20Pan%20Product%20Teaser">Diese runde Antihaft-Aluminium Backform</a> ist ideal für Quiches.</p><p><a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Square%20Plate%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Square%20Plate%20Product%20Teaser"><img alt="" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Pictures/Product%20Pictures/01_On%20The%20Table/Plates%2C%20Tableware/PC_SQUARE_PLATE%20Frontshot.xml#data" cmexport:path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/01_On%20The%20Table/Plates%2C%20Tableware/PC_SQUARE_PLATE%20Frontshot"/></a><br/></p><p><a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Square%20Plate%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Square%20Plate%20Product%20Teaser">Auf unseren schönen, quadratischen weißen Tellern</a> präsentieren Sie Ihre kulinarischen Kreationen perfekt.</p></blockquote><p/></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Mushroom%20Quiche%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Mushroom%20Quiche%20Picture"/>
+<link href="../../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Autumn%20Dishes/Mushrooms%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Autumn%20Dishes/Mushrooms%20Picture"/>
+</pictures>
+<related>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Pi87248ed8.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+<link href="../../../../Products/Spring%20Campaign/Picnic%20Basket%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Picnic%20Basket%20Product%20Teaser"/>
+<link href="../../../../../Navigation/Landing%20Pages/Spring/Summer%20Dresses%20Landing%20Page/Spring%20Summer%20Dre939d0043.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Landing%20Pages/Spring/Summer%20Dresses%20Landing%20Page/Spring%20Summer%20Dresses%20Landing%20Page%20Teaser"/>
+<link href="../../../../../Navigation/Landing%20Pages/Spring/Spring%20Recipes%20Landing%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Landing%20Pages/Spring/Spring%20Recipes%20Landing%20Teaser"/>
+</related>
+</CMArticle>

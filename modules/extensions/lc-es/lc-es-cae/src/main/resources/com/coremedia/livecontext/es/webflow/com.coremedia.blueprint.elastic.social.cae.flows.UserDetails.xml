@@ -1,0 +1,46 @@
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+                          http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
+
+  <var name="userDetails" class="com.coremedia.livecontext.elastic.social.cae.LiveContextUserDetails"/>
+
+  <on-start>
+    <set name="flowScope.nextUrl" value="webflowUrlHelper.getNextUrl(null, flowRequestContext)"/>
+    <evaluate expression="lcUserDetailsHelper.getCommentAuthorName(flowRequestContext)" result="flowScope.authorName"/>
+    <evaluate expression="lcUserDetailsHelper.redirectOnLogout(flowRequestContext, authorName)"
+              result="flowScope.userDetails"/>
+    <set name="flowScope.locales" value="lcUserDetailsHelper.getLocales(flowRequestContext)"/>
+    <set name="flowScope.timeZones" value="lcUserDetailsHelper.getTimeZones()"/>
+  </on-start>
+
+  <view-state id="userDetails" model="userDetails">
+    <on-entry>
+      <evaluate expression="lcUserDetailsHelper.postProcessProviderConnection(flowRequestContext)"/>
+    </on-entry>
+    <on-render>
+      <evaluate expression="lcUserDetailsHelper.getUserDetails(flowRequestContext, null, authorName)"
+                result="flowScope.userDetails"/>
+    </on-render>
+    <transition on="editUser" to="userDetailsForm">
+      <evaluate expression="lcUserDetailsHelper.getUserDetails(flowRequestContext, null)" result="flowScope.userDetails"/>
+    </transition>
+  </view-state>
+
+  <view-state id="userDetailsForm" model="userDetails">
+    <transition on="saveUser" to="userDetails" validate="false">
+      <evaluate expression="lcUserDetailsHelper.save(userDetails, flowRequestContext, requestParameters.imageFile)"/>
+      <evaluate expression="lcUserDetailsHelper.getUserDetails(flowRequestContext, null)" result="flowScope.userDetails"/>
+    </transition>
+    <transition on="deleteUser" to="logout" validate="false">
+      <evaluate expression="lcUserDetailsHelper.deleteUser()"/>
+    </transition>
+    <transition on="cancel" to="userDetails" validate="false">
+      <evaluate expression="lcUserDetailsHelper.getUserDetails(flowRequestContext, null)" result="flowScope.userDetails"/>
+    </transition>
+  </view-state>
+
+  <end-state id="logout"
+             view="externalRedirect:contextRelative:/j_spring_security_logout?spring-security-redirect=#{nextUrl}"/>
+
+</flow>

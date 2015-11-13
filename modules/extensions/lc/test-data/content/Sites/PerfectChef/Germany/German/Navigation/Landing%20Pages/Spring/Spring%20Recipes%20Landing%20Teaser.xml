@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Navigation/Landing Pages/Spring" name="Spring Recipes Landing Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Landing%20Pages/Spring/Spring%20Recipes%20Landing%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Landing%20Pages/Spring/Spring%20Recipes%20Landing%20Teaser"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>spring-recipes-landingpage</segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Unser Bestes Frühlings-Rezepte</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Genießen Sie die sonnige Saison mit einem Picknick im Freien mit Ihren Freunden. Bereiten Sie frischen Frühlingssalaten zum Mitnehmen. Probieren Sie unsere Quiches, die auch schmecken, wenn im Sommer kalt gegessen. Erfahren Sie, wie eine perfekte Hühnerbraten zu machen. Finden Sie Grill-Rezepte für Steaks und Burger. Schauen Sie sich unsere Bewertungen für Mixer, gesund zu machen, erfrischenden Smoothies. </p> </div></teaserText>
+<pictures>
+<link href="../../../Pictures/Recipes/Spring%20Recipes/Avocado%20with%20Shrimp%20Appetizer%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Avocado%20with%20Shrimp%20Appetizer%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../Categories/05_Recipes/Spring%20Recipes/Spring%20Recipes.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Spring%20Recipes/Spring%20Recipes"/>
+</target>
+</CMTeaser>

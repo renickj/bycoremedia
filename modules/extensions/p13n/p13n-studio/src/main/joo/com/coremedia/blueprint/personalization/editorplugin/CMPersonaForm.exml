@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns:u="exml:untyped"
+                xmlns="exml:ext.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:perso="exml:com.coremedia.personalization.ui.config"
+                xmlns:bpforms="exml:com.coremedia.blueprint.studio.config"
+                xmlns:p13n="exml:com.coremedia.blueprint.personalization.editorplugin.config"
+                xmlns:taxonomy="exml:com.coremedia.blueprint.studio.config.taxonomy"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                baseClass="com.coremedia.blueprint.personalization.editorplugin.CMPersonaFormBase">
+
+  <exml:import class="com.coremedia.personalization.ui.Personalization_properties"/>
+  <exml:import class="com.coremedia.blueprint.personalization.editorplugin.PersonalizationPlugIn_properties"/>
+  <exml:import class="com.coremedia.blueprint.personalization.editorplugin.PersonalizationContext_properties"/>
+  <exml:import class="ext.ComponentMgr"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.CustomLabels_properties"/>
+
+  <exml:constant name="PERSONA_IMAGE_ITEM_ID" value="persona.image"/>
+  <!--
+  HOW TO STRUCTURE:
+  <perso:personaMainContainer>                -> define the valueExpression
+        <perso:personaUiContainer>            -> visible when properties are VALID
+            <editor:collapsibleFormPanel>     -> nested propertyFields are grouped with grey background
+                <perso:*propertiefield/>
+                <perso:*propertiefield/>
+                <perso:*propertiefield/>
+                ...
+            </editor:collapsibleFormPanel>
+
+           <editor:collapsibleFormPanel>       -> nested propertyFields are grouped with grey background
+                <perso:*propertiefield/>
+                <perso:*propertiefield/>
+                <perso:*propertiefield/>
+                ...
+            </editor:collapsibleFormPanel>
+        </perso:personaUiContainer>
+
+        <perso:personaErrorScreen/>            -> visible when properties are INVALID
+  </perso:personaMainContainer>
+  -->
+
+  <editor:documentTabPanel autoScroll="false">
+    <items>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_standard_title}"
+                           autoScroll="false">
+        <items>
+          <perso:personaMainContainer profileSettingsExpression="{config.bindTo.extendBy('properties.profileSettings')}"
+                                      layout="card"
+                                      activeItem="0">
+            <items>
+              <!--First Element in Cardlayout. This contains the UI which is visible on valid profile-syntax-->
+              <perso:personaUiContainer u:labelAlign="top"
+                                        autoHeight="true">
+                <items>
+                  <!--Persona Image-->
+                  <editor:collapsibleFormPanel itemId="{PERSONA_IMAGE_ITEM_ID}"
+                                               title="{PersonalizationContext_properties.INSTANCE.p13n_context_testuser_profile_image}">
+                    <items>
+                      <bp:imageLinkListPropertyField hideLabel="true"
+                                                     contentType="CMPicture"
+                                                     propertyName="{'profileExtensions.properties.'+ PROFILE_IMAGE_NAME}"
+                                                     maxCardinality="1"
+                                                     bindTo="{config.bindTo}"/>
+                    </items>
+                  </editor:collapsibleFormPanel>
+                  <!--GroupContainer: Elastic Social-->
+                  <editor:collapsibleFormPanel itemId="elasticSocial"
+                                               title="{PersonalizationContext_properties.INSTANCE.p13n_context_testuser_profile_socialsoftware}">
+                    <plugins>
+                      <editor:bindDisablePlugin bindTo="{config.bindTo}"/>
+                    </plugins>
+                    <items>
+                      <perso:personaStringPropertyField fieldLabel="{PersonalizationContext_properties.INSTANCE.p13n_context_testuser_profile_givenname}"
+                                                        propertyName="givenname"
+                                                        propertyContext="personal"
+                                                        emptyText="{PersonalizationContext_properties.INSTANCE.p13n_context_testuser_profile_givenname_emptyText}"/>
+                      <perso:personaStringPropertyField fieldLabel="{PersonalizationContext_properties.INSTANCE.p13n_context_testuser_profile_name}"
+                                                        propertyName="familyname"
+                                                        propertyContext="personal"
+                                                        emptyText="{PersonalizationContext_properties.INSTANCE.p13n_context_testuser_profile_name_emptyText}"/>
+                      <perso:personaDatePropertyField fieldLabel="{PersonalizationContext_properties.INSTANCE.p13n_context_testuser_profile_birthday}"
+                                                      propertyName="dateofbirth"
+                                                      propertyContext="personal"/>
+                      <perso:personaStringPropertyField fieldLabel="{PersonalizationContext_properties.INSTANCE.p13n_context_testuser_profile_email}"
+                                                        propertyName="emailaddress"
+                                                        propertyContext="personal"/>
+                      <perso:personaStringPropertyField fieldLabel="{PersonalizationPlugIn_properties.INSTANCE.con_number_of_comments}"
+                                                        propertyName="numberOfComments"
+                                                        propertyContext="es_check"/>
+                      <perso:personaStringPropertyField fieldLabel="{PersonalizationPlugIn_properties.INSTANCE.con_number_of_ratings}"
+                                                        propertyName="numberOfRatings"
+                                                        propertyContext="es_check"/>
+                      <perso:personaStringPropertyField fieldLabel="{PersonalizationPlugIn_properties.INSTANCE.con_number_of_likes}"
+                                                        propertyName="numberOfLikes"
+                                                        propertyContext="es_check"/>
+                      <perso:personaStringPropertyField fieldLabel="{PersonalizationPlugIn_properties.INSTANCE.con_number_of_explicit_interests}"
+                                                        propertyName="numberOfExplicitInterests"
+                                                        propertyContext="explicit"/>
+                      <p13n:cmPersonaFormComboBoxField fieldLabel="{PersonalizationContext_properties.INSTANCE.p13n_context_gender}"
+                                                       hideLabel="true"
+                                                       propertyName="gender"
+                                                       propertyContext="socialuser"
+                                                       values="{[
+                                                                ['male', PersonalizationPlugIn_properties.INSTANCE.con_gender_male],
+                                                                ['female', PersonalizationPlugIn_properties.INSTANCE.con_gender_female]]}"/>
+                      <p13n:cmPersonaFormCheckboxField fieldLabel="{PersonalizationPlugIn_properties.INSTANCE.con_social_background_login}"
+                                                       hideLabel="true"
+                                                       propertyName="userLoggedIn"
+                                                       propertyContext="es_check"/>
+                    </items>
+                  </editor:collapsibleFormPanel>
+                  <!--GroupContainer: Geolocation-->
+                  <editor:collapsibleFormPanel itemId="geoLocation"
+                                               title="Geolocation">
+                    <plugins>
+                      <editor:bindDisablePlugin bindTo="{config.bindTo}"/>
+                    </plugins>
+                    <items>
+                      <p13n:cmPersonaFormComboBoxField fieldLabel="{PersonalizationContext_properties.INSTANCE.p13n_context_location_city}"
+                                                       hideLabel="true"
+                                                       propertyName="city"
+                                                       propertyContext="location"
+                                                       values="{[
+                                                                ['&quot;Hamburg&quot;', 'Hamburg'],
+                                                                ['&quot;SanFrancisco&quot;', 'San Francisco'],
+                                                                ['&quot;London&quot;', 'London'],
+                                                                ['&quot;Singapore&quot;', 'Singapore']]}"/>
+                    </items>
+                  </editor:collapsibleFormPanel>
+                  <!--GroupContainer: Search Engine-->
+                  <editor:collapsibleFormPanel itemId="search"
+                                               title="Search">
+                    <plugins>
+                      <editor:bindDisablePlugin bindTo="{config.bindTo}"/>
+                    </plugins>
+                    <items>
+                      <perso:personaStringPropertyField fieldLabel="{PersonalizationContext_properties.INSTANCE.p13n_context_referrer}"
+                                                        propertyName="url"
+                                                        propertyContext="referrer"
+                                                        emptyText="{PersonalizationContext_properties.INSTANCE.p13n_context_referrer_emptyText}"/>
+                      <p13n:cmPersonaFormComboBoxField fieldLabel="{PersonalizationContext_properties.INSTANCE.p13n_context_referrer_searchengine}"
+                                                       hideLabel="true"
+                                                       propertyName="searchengine" propertyContext="referrer"
+                                                       values="{[
+                                                                ['', ' '],
+                                                                ['bing', 'Bing'],
+                                                                ['google', 'Google'],
+                                                                ['yahoo', 'Yahoo!']
+                                                                ]}"/>
+                    </items>
+                  </editor:collapsibleFormPanel>
+                  <!--GroupContainer: Date and Time-->
+                  <editor:collapsibleFormPanel itemId="dateAndTime"
+                                               title="{PersonalizationContext_properties.INSTANCE.p13n_context_testuser_profile_systemproperties}">
+                    <plugins>
+                      <editor:bindDisablePlugin bindTo="{config.bindTo}"/>
+                    </plugins>
+                    <items>
+                      <perso:personaDateTimeProperty fieldLabel="{PersonalizationContext_properties.INSTANCE.p13n_context_testuser_profile_date_and_time}"
+                                                     propertyName="dateTime"
+                                                     propertyContext="system"/>
+                    </items>
+                  </editor:collapsibleFormPanel>
+                  <!--Explicit Taxonomy Container -->
+                  <editor:collapsibleFormPanel itemId="explictTaxonomy"
+                                               title="{PersonalizationPlugIn_properties.INSTANCE.p13n_context_taxonomy_explicit_interests_label}">
+                    <items>
+                      <taxonomy:taxonomyLinkListPropertyField bindTo="{config.bindTo}"
+                                                              hideLabel="true"
+                                                              taxonomyId="Subject"
+                                                              propertyName="{'profileExtensions.properties.' + TAXONOMY_PROPERTY_NAME_EXPLICIT}"
+                                                              forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+                    </items>
+                  </editor:collapsibleFormPanel>
+                  <!--Implicit Taxonomy Container -->
+                  <editor:collapsibleFormPanel itemId="implicitTaxonomy"
+                                               title="{PersonalizationPlugIn_properties.INSTANCE.p13n_context_taxonomy_implicit_interests_label}">
+                    <items>
+                      <taxonomy:taxonomyLinkListPropertyField bindTo="{config.bindTo}"
+                                                              hideLabel="true"
+                                                              taxonomyId="Subject"
+                                                              propertyName="{'profileExtensions.properties.' + TAXONOMY_PROPERTY_NAME_IMPLICIT}"
+                                                              forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+                    </items>
+                  </editor:collapsibleFormPanel>
+                </items>
+                <layout>
+                  <formlayout labelSeparator=""/>
+                </layout>
+              </perso:personaUiContainer>
+              <!--Second Element in Cardlayout. This contains the ErrorScreen which is visible on invalid profile-syntax-->
+              <perso:personaErrorScreen u:labelAlign="top">
+                <defaults>
+                  <editor:propertyField bindTo="{config.bindTo}"/>
+                </defaults>
+                <layout>
+                  <formlayout labelSeparator=""/>
+                </layout>
+              </perso:personaErrorScreen>
+            </items>
+          </perso:personaMainContainer>
+        </items>
+      </editor:documentForm>
+
+      <bpforms:multiLanguageDocumentForm/>
+      <bpforms:metaDataWithoutSettingsForm bindTo="{config.bindTo}">
+          <plugins>
+              <ui:addItemsPlugin>
+                  <ui:items>
+                      <editor:collapsibleFormPanel title="{PersonalizationPlugIn_properties.INSTANCE.Tab_test_user_profile_raw_title}"
+                                                   itemId="cmPersonaProfileSettingsForm"
+                                                   collapsed="true">
+                          <items>
+                              <editor:textBlobPropertyField propertyName="profileSettings"
+                                                            height="550"/>
+                          </items>
+                      </editor:collapsibleFormPanel>
+                      <editor:collapsibleFormPanel title="{PersonalizationPlugIn_properties.INSTANCE.Tab_test_user_profile_struct_title}"
+                                                   itemId="cmPersonaProfileExtensionsForm"
+                                                   collapsed="true">
+                          <items>
+                              <editor:structPropertyField propertyName="profileExtensions" hideLabel="true"/>
+                          </items>
+                      </editor:collapsibleFormPanel>
+                  </ui:items>
+              </ui:addItemsPlugin>
+          </plugins>
+      </bpforms:metaDataWithoutSettingsForm>
+
+    </items>
+  </editor:documentTabPanel>
+
+</exml:component>

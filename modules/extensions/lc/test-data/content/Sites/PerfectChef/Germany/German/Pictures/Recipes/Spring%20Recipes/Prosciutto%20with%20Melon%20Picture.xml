@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring Recipes" name="Prosciutto with Melon Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Pictures/Recipes/Spring%20Recipes/Prosciutto%20with%20Melon%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Spring%20Recipes/Prosciutto%20with%20Melon%20Picture"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=1272;y=0;width=1649;height=2551</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=1017;y=0;width=1911;height=2551</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=863;y=0;width=2551;height=2551</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=301;y=0;width=3399;height=2551</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=0;width=4000;height=2250</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=62;width=4000;height=2004</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=108;width=4000;height=1603</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=262;width=3800;height=1426</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=617;width=3792;height=948</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.3179190751445087;y1=0;x2=0.7302504816955684;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.2543352601156069;y1=0;x2=0.7321772639691715;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.21579961464354527;y1=0;x2=0.8535645472061657;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.07514450867052024;y1=0;x2=0.9248554913294798;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0;x2=1;y2=0.8821752265861027</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.02416918429003021;x2=1;y2=0.8096676737160121</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.04229607250755287;x2=1;y2=0.6706948640483383</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.1027190332326284;x2=0.9499036608863198;y2=0.6616314199395771</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.24169184290030213;x2=0.9479768786127167;y2=0.6132930513595166</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Prosciutto mit Melone</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Prosciutto mit Melone</alt>
+<copyright>Igor Dutina / Shutterstock 152826869</copyright>
+<data md5="9a1af2dc11ab0effc0a7ae07f19fe105" href="../../../../../../../__blob/9a1af2dc11ab0effc0a7ae07f19fe105.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>4000</width>
+<height>2551</height>
+</CMPicture>

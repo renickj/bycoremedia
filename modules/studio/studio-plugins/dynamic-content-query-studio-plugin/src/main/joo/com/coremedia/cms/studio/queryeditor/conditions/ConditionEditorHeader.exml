@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:dcqe="exml:com.coremedia.cms.studio.queryeditor.config">
+
+  <exml:import class="ext.Template"/>
+  <exml:import class="com.coremedia.cms.studio.queryeditor.QueryEditor_properties"/>
+
+  <exml:cfg name="headerText" type="String"/>
+  <exml:cfg name="propertyName" type="String"/>
+  <exml:cfg name="bindTo" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>Content bean value expression</exml:description>
+  </exml:cfg>
+  <exml:cfg name="forceReadOnlyValueExpression" type="com.coremedia.ui.data.ValueExpression">
+    <exml:description>
+       An optional ValueExpression which makes the component read-only if it is evaluated to true.
+    </exml:description>
+  </exml:cfg>
+
+
+  <dcqe:conditionEditorHeaderBase cls="condition-editor-header"
+                                  height="32">
+    <items>
+      <label text="{config.headerText}"
+             cls="x-form-item-label"
+             flex="1"/>
+      <ui:iconButton itemId="delete-button"
+                     iconCls="remove-icon"
+                     tooltip="{QueryEditor_properties.INSTANCE.DCQE_tooltip_deletethis}">
+        <plugins>
+          <editor:bindDisablePlugin bindTo="{config.bindTo}"
+                                    forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+        </plugins>
+      </ui:iconButton>
+    </items>
+    <layout>
+      <hboxlayout align="middle"
+                  defaultMargins="0 6 0 6"/>
+    </layout>
+  </dcqe:conditionEditorHeaderBase>
+</exml:component>

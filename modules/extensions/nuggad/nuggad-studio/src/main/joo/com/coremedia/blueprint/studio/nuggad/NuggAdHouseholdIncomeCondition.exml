@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:perso="exml:com.coremedia.personalization.ui.config">
+  <exml:import class="com.coremedia.blueprint.studio.NuggadStudioPlugin_properties"/>
+
+  <perso:enumCondition conditionName="{NuggadStudioPlugin_properties.INSTANCE.p13n_context_nuggad_household_income}"
+                       propertyName="nuggad.householdIncome"
+                       operators="{['eq']}"
+                       operatorNames="{{
+                                  eq: NuggadStudioPlugin_properties.INSTANCE.p13n_context_nuggad_household_income_eq
+                               }}"
+                       value="{[
+                                [1, NuggadStudioPlugin_properties.INSTANCE.p13n_context_nuggad_household_income_1],
+                                [2, NuggadStudioPlugin_properties.INSTANCE.p13n_context_nuggad_household_income_2],
+                                [3, NuggadStudioPlugin_properties.INSTANCE.p13n_context_nuggad_household_income_3],
+                                [4, NuggadStudioPlugin_properties.INSTANCE.p13n_context_nuggad_household_income_4],
+                                [5, NuggadStudioPlugin_properties.INSTANCE.p13n_context_nuggad_household_income_5],
+                                [9, NuggadStudioPlugin_properties.INSTANCE.p13n_context_nuggad_household_income_9]]}"
+          />
+</exml:component>

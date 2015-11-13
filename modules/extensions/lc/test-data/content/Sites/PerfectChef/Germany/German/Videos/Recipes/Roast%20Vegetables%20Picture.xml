@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Videos/Recipes" name="Roast Vegetables Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Recipes/Roast%20Vegetables%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/Roast%20Vegetables%20Picture"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=409;y=0;width=464;height=720</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=281;y=0;width=540;height=720</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=237;y=0;width=720;height=720</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=224;y=0;width=959;height=720</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=242;y=0;width=1038;height=584</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=229;y=0;width=1051;height=525</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=215;y=153;width=1065;height=427</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=222;y=192;width=1058;height=397</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=215;y=249;width=1065;height=266</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.3198458574181118;y1=0;x2=0.6820809248554913;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.21965317919075145;y1=0;x2=0.6416184971098265;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.18497109826589594;y1=0;x2=0.7475915221579962;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.17533718689788053;y1=0;x2=0.9248554913294798;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.18882466281310212;y1=0;x2=1;y2=0.8116438356164384</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.1791907514450867;y1=0;x2=1;y2=0.7294520547945206</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.1676300578034682;y1=0.21232876712328766;x2=1;y2=0.8047945205479452</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.17341040462427745;y1=0.2671232876712329;x2=1;y2=0.8184931506849316</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.1676300578034682;y1=0.3458904109589041;x2=1;y2=0.7157534246575342</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Gebratenes Gemüse</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Gebratenes Gemüse</alt>
+<copyright>cooksmarts.com / Vimeo CC-BY-SA 3.0</copyright>
+<data md5="e4760a41894eac1d625009416f3a7183" href="../../../../../../__blob/e4760a41894eac1d625009416f3a7183.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

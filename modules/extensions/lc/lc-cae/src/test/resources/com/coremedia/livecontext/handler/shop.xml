@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentRepository xmlns="http://www.coremedia.com/2010/content"
+                   xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="classpath:com/coremedia/blueprint/base/testing/blueprint-doctypes-xmlrepo.xml"/>
+
+  <!--
+    Test content for ShopUtil
+  -->
+  <content>
+    <folder id="1" name="">
+      <folder id="11" name="Sites">
+        <folder id="111" name="Helios">
+          <folder id="1111" name="Navigation">
+            <document id="504" name="HeliosSite" type="CMSite">
+              <version number="1">
+                <linkProperty name="root">
+                  <link id="124"/>
+                </linkProperty>
+              </version>
+            </document>
+            <!-- Convention: shop name -->
+            <document id="124" name="Helios" type="CMChannel">
+              <version number="1">
+                <stringProperty name="segment" value="helios"/>
+              </version>
+            </document>
+
+            <!-- Convention: "Category-Page" -->
+            <document id="126" name="Category-Page" type="CMChannel">
+              <version number="1">
+                <stringProperty name="segment" value="category"/>
+              </version>
+            </document>
+          </folder>
+        </folder>
+      </folder>
+    </folder>
+  </content>
+</contentRepository>

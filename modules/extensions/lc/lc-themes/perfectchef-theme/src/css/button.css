@@ -1,0 +1,190 @@
+/* =====================================================================================================================
+   Buttons classes
+   Contains styling definitions for button elements.
+   ================================================================================================================== */
+
+/* general */
+.cm-button {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  border: 3px solid #919191;
+  background-color: #919191;
+  color: #ffffff;
+  padding: 0;
+}
+
+.cm-button__icon {
+  font-size: 1.25rem;
+  width: 2rem;
+  height: 1em;
+}
+
+.cm-button--with-text .cm-button__icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.cm-button--with-icon .cm-button__text {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.cm-button__text {
+  padding: 0 21px;
+  display: inline-block;
+}
+
+.cm-button--linked .cm-button__text {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.cm-button:active,
+.cm-button:hover {
+  text-decoration: none;
+}
+
+.cm-button:hover {
+  background-color: #80A3BF;
+  border-color: #80A3BF;
+}
+
+.cm-button:active {
+  background-color: #5B7F9B;
+  border-color: #5B7F9B;
+}
+
+/* button disabled */
+.cm-button--disabled {
+  color: #dbdbdb;
+}
+
+.cm-button--disabled:hover {
+  background-color: #919191;
+  border-color: #919191;
+}
+
+/* button loading (waitung for ajax response) */
+.cm-button--loading {
+  background-color: #5B7F9B;
+  border-color: #5B7F9B;
+  cursor: progress;
+}
+
+.cm-button--loading .cm-button__icon {
+  background: url("../img/loader_small.gif") no-repeat center center;
+}
+
+/* disable other icons */
+.cm-button--loading .cm-button__icon:before {
+  content: "";
+}
+
+/* button primary */
+.cm-button--primary {
+  background-color: #b54850;
+  border-color: #b54850;
+}
+
+.cm-button--primary:hover,
+.cm-button--primary:active {
+  background-color: #e30613;
+  border-color: #e30613;
+}
+
+.cm-button--shadow {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* groups */
+.cm-button-group {
+  display: block;
+  text-align: right;
+  font-size: 0;
+}
+
+.cm-button-group__button {
+  font-size: 1rem;
+  max-width: 100%;
+}
+
+.cm-button-group--linked {
+  width: 100%;
+}
+
+.cm-button-group--default .cm-button-group__button,
+.cm-button-group--linked .cm-button-group__button {
+  display: block;
+  width: 100%;
+}
+
+.cm-button-group--overlay {
+  text-align: center;
+}
+
+/* "top" button */
+.cm-icon--button-top {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  border-radius: 50%;
+  background-color: #373737;
+  cursor: pointer;
+  padding: 0.3rem 0.5rem 0.5rem 0.5rem;
+  box-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  line-height: 0;
+  z-index: 2;
+}
+
+.cm-icon--button-top:hover {
+  text-decoration: none;
+}
+
+.cm-icon--button-top .cm-icon__symbol {
+  color: #fff;
+  font-size: 3rem;
+  width: 3rem;
+}
+
+.cm-icon--button-top .cm-icon__info {
+  color: #fff;
+}
+
+.cm-icon > a {
+  display: block;
+}
+
+.cm-icon__symbol--badged {
+  position: relative;
+}
+
+.cm-icon__symbol--badged__badge {
+  position: absolute;
+  padding: 0.2em 0.425em 0.4em;
+  color: #fff;
+  background-color: #e10716;
+  top: -32%;
+  right: 10%;
+  border-radius: 0.4em;
+  line-height: 1;
+  font-size: 0.5em;
+}
+
+.cm-icon__symbol--badged.icon-cart-empty .cm-icon__symbol--badged__badge {
+  display: none;
+}
+
+/* remove from cart */
+.cm-icon--cart-remove-item .cm-icon__symbol {
+  font-size: 1.3rem;
+  color: #fff;
+}

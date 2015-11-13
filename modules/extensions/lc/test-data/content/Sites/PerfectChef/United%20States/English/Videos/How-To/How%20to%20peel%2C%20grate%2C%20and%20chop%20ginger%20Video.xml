@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/United States/English/Videos/How-To" name="How to peel, grate, and chop ginger Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-how-to-peel-grate-chop-ginger</segment>
+<title>How to peel, grate, and chop ginger</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Smoothie.xml" path="/Settings/Taxonomies/Subject/Smoothie"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/How%20To.xml" path="/Settings/Taxonomies/Subject/How%20To"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Ginger.xml" path="/Settings/Taxonomies/Subject/Ginger"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spices.xml" path="/Settings/Taxonomies/Subject/Spices"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Knives.xml" path="/Settings/Taxonomies/Subject/Knives"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Cutting%20Boards.xml" path="/Settings/Taxonomies/Subject/Cutting%20Boards"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Grate Ginger</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Working with ginger can be a bit of a mystery. See how easily we peel ginger and then grate it or chop it. Use this aromatic for sautes, stir-fries, and sauces or throw it into a smoothie.</p></div></detailText>
+<pictures>
+<link href="How%20to%20peel%2C%20grate%2C%20and%20chop%20ginger%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20peel%2C%20grate%2C%20and%20chop%20ginger%20Picture"/>
+</pictures>
+<related>
+<link href="How%20to%20stir-fry%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20stir-fry%20Video"/>
+<link href="How%20to%20make%20pureed%20vegetable%20soups%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video"/>
+</related>
+<alt>How to peel, grate, and chop ginger</alt>
+<copyright>Copyright: cooksmarts.com/Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/78378954</dataUrl>
+</CMVideo>

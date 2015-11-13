@@ -1,0 +1,132 @@
+// Imports
+@import "../base/imports";
+@import "../utils/imports";
+
+/*
+Square
+========================================================================================================================
+
+Contains styling definitions for all content types as cm-square.
+- cm-square
+*/
+
+.cm-square {
+  padding: 0 $padding-base-horizontal $padding-base-horizontal 0;
+  margin: 0;
+
+  @include breakpoint(sm-and-up) {
+    padding: 0 $padding-large-vertical $padding-large-vertical 0;
+
+    &.is-last {
+      padding: 0 $padding-large-vertical $padding-large-horizontal 0;
+    }
+  }
+
+  &:hover {
+    a .cm-square {
+
+      &__dimmer {
+        opacity: 0.44;
+      }
+
+      &__headline {
+        transform: translate3d(0, 5px, 0);
+        & > span {
+          &:after {
+            opacity: 1;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    a .cm-button {
+      transform: translate3d(0, -5px, 0);
+    }
+  }
+
+  // if teaser text
+  &.is-text {
+
+    &:hover {
+      a .cm-square {
+        &__headline {
+          transform: translate3d(0, 10px, 0);
+          & > span {
+            &:after {
+              opacity: 1;
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      a .cm-button {
+        transform: translate3d(0, -10px, 0);
+      }
+    }
+  }
+
+  &__wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__picture-box {
+    @include aspect-ratio-box(1, 1);
+  }
+
+  &__picture {
+    background: #B04747 none; /* no loading spinner */
+    @include stretch-absolute();
+  }
+
+  &__dimmer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.33;
+    background-color: palette(black);
+    transition: all $transition-duration ease(in-out-quad);
+  }
+
+  &__caption {
+    @include center-absolute(true, false);
+    width: 100%;
+    padding-left: 12.6%;
+    padding-right: 12.6%;
+    text-align: center;
+  }
+
+  &__text,
+  &__headline {
+    color: palette(white);
+    margin: 0;
+    padding-bottom: $padding-large-vertical;
+    transition: all $transition-duration ease(in-out-quad);
+  }
+
+  &__headline {
+
+    & > span {
+      display: inline-block;
+      @include flickeringFix(true);
+
+      &:after {
+        content: '';
+        position: relative;
+        display: block;
+        bottom: -5px;
+        margin: auto;
+        width: 0;
+        opacity: 0;
+        height: 1px;
+        background-color: palette(white);
+        transition: all $transition-duration ease(in-out-quad);
+      }
+    }
+  }
+}

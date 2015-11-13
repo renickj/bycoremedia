@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/Aurora Augmentation/United States/English/Options/Viewtypes/CMTeaser" name="logo" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>Displays the Shop Logo in the Header</description>
+<icon md5="8c9d9c347ca05b7e9bf32effbb7f3bc0" href="../../../../../../../__blob/8c9d9c347ca05b7e9bf32effbb7f3bc0.blob" mimetype="image/png"/>
+<layout>logo</layout>
+</CMViewtype>

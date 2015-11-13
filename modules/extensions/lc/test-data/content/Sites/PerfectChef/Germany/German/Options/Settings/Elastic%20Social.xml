@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Sites/PerfectChef/Germany/German/Options/Settings" name="Elastic Social" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Options/Settings/Elastic%20Social.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Elastic%20Social"/>
+</master>
+<masterVersion>1</masterVersion>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="elasticSocial">
+<Struct>
+<BooleanProperty Name="enabled">true</BooleanProperty>
+<StringProperty Name="commentType">DISABLED</StringProperty>
+<StringProperty Name="reviewType">DISABLED</StringProperty>
+<StringProperty Name="userModerationType">NONE</StringProperty>
+<StringProperty Name="commentModerationType">POST_MODERATION</StringProperty>
+<StringProperty Name="reviewModerationType">POST_MODERATION</StringProperty>
+<StringProperty Name="tenant">helios</StringProperty>
+</Struct>
+</StructProperty>
+<LinkProperty Name="flowLogin" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/Login.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Actions/Login"/>
+<LinkProperty Name="flowLogout" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/Logout.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Actions/Logout"/>
+<LinkProperty Name="flowUserDetails" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/UserDetails.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Actions/UserDetails"/>
+<LinkProperty Name="action.userDetailsView" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/UserDetails.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Actions/UserDetails"/>
+<LinkProperty Name="action.registrationActivationView" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/ActivateRegistration.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Actions/ActivateRegistration"/>
+<LinkProperty Name="action.confirmPasswordResetView" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/ConfirmPasswordReset.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Actions/ConfirmPasswordReset"/>
+<LinkProperty Name="linkTermsOfUse" LinkType="coremedia:///cap/contenttype/CMArticle" xlink:href="coremedia:///cap/resources/../../Editorial/Content/Corporate/Terms%20of%20Use.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/Terms%20of%20Use"/>
+<LinkProperty Name="linkPrivacyPolicy" LinkType="coremedia:///cap/contenttype/CMArticle" xlink:href="coremedia:///cap/resources/../../Editorial/Content/Corporate/Privacy%20Policy.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/Privacy%20Policy"/>
+<LinkProperty Name="linkTooYoungPolicy" LinkType="coremedia:///cap/contenttype/CMArticle" xlink:href="coremedia:///cap/resources/../../Editorial/Content/Corporate/Age%20Policy.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/Age%20Policy"/>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

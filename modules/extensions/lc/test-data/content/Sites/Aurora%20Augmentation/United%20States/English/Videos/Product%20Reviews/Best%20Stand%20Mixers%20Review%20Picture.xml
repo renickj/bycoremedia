@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Videos/Product Reviews" name="Best Stand Mixers Review Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=629;y=39;width=348;height=540</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=528;y=0;width=464;height=619</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=461;y=52;width=525;height=525</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=224;y=2;width=762;height=572</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=187;y=76;width=868;height=488</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=126;y=39;width=1070;height=535</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=39;y=84;width=1208;height=483</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=94;width=1280;height=481</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=15;y=254;width=1245;height=311</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.4913294797687861;y1=0.0547945205479452;x2=0.7630057803468208;y2=0.8047945205479452</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.4123314065510597;y1=0;x2=0.7745664739884393;y2=0.8595890410958904</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.36030828516377644;y1=0.07191780821917808;x2=0.7707129094412332;y2=0.8013698630136986</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.17533718689788053;y1=0.003424657534246575;x2=0.7707129094412332;y2=0.797945205479452</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.1464354527938343;y1=0.10616438356164383;x2=0.8246628131021194;y2=0.7842465753424658</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.09826589595375723;y1=0.0547945205479452;x2=0.9344894026974951;y2=0.797945205479452</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.030828516377649273;y1=0.11643835616438356;x2=0.9749518304431599;y2=0.7876712328767124</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.13013698630136986;x2=1;y2=0.797945205479452</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.011560693641618491;y1=0.3527397260273973;x2=0.9845857418111753;y2=0.7842465753424658</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Best Stand Mixers Review</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Best Stand Mixers Review</alt>
+<copyright>America's Test Kitchen/YouTube embedded</copyright>
+<data md5="9cf6f82217c4fbdb320894a9fb382512" href="../../../../../../__blob/9cf6f82217c4fbdb320894a9fb382512.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

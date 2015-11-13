@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/**
+  * coremedia external library studio plugin
+  *
+  * @copyright       CoreMedia
+  * @author          SEC/MFA
+  *
+  * @lastmodified    fri 07.12.2012
+  */
+
+/**
+  * icons
+  */
+.icon-extensions {
+  display: block;
+  text-decoration: none;
+  background: transparent url("../images/cm-16-extensions.png") center right no-repeat;
+}
+.btn-search-data {
+  background: transparent url(../images/search.png) no-repeat left 0 !important;
+}
+.btn-search-data {
+  background-position: left -0px !important;
+  filter: alpha(opacity = 80);
+  opacity: .8;
+  -moz-opacity: .8;
+  padding: 0;
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+  outline: none;
+  position: absolute;
+  top: 6px;
+  left: 4px;
+}
+
+/**
+  * @see PreviewPanel.exml
+  *
+  * special small create document button
+  */
+.filter-panel {
+  background-color: #F1F1F1 !important;
+}
+.preview-panel {
+  background-color: #FFFFFF;
+}
+.external-library-create .wrapper-btn-simple {
+  width: 18px;
+  height: 18px;
+}
+.wrapper-btn-simple a.btn-3rd-party-create {
+  background: transparent url(../images/new_document.png) no-repeat left 0 !important;
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+  outline: none;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+.btn-3rd-party-reset-filter {
+  background: transparent url(../images/reset.png) no-repeat left 0 !important;
+  padding: 0;
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  text-decoration: none;
+  outline: none;
+  position: absolute;
+  top: 5px;
+  left: 2px;
+}
+.data-title {
+  font-size: 13px;
+  font-weight: bold;
+}
+.data-preview {
+  background-color: #FFFFFF;
+}
+.data-footer {
+  font-size: 11px;
+}
+.data-time {
+  font-size: 11px;
+  font-style: italic;
+}
+.data-title {
+  font-weight: bold;
+}
+.createFromItemDialog {
+  z-index: 500;
+}
+
+/**
+  * @see FilterPanel.exml
+  *
+  * special history buttons
+  */
+.external-library-hisory-forward .wrapper-btn-m a,
+.external-library-hisory-backward .wrapper-btn-m a {
+  left: 0;
+}
+.btn-3rd-party-forward,
+.btn-3rd-party-backward {
+  padding: 0;
+  margin: 0;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  outline: none;
+}
+.btn-3rd-party-forward {
+  background: transparent url(../images/forward.png) no-repeat left 0 !important;
+}
+.btn-3rd-party-backward {
+  background: transparent url(../images/backward.png) no-repeat left 0 !important;
+}
+
+/**
+  * @see ListPanel.exml
+  *
+  * empty text field with loader
+  */
+.external-library-item-list-panel .x-grid-empty {
+  border: none;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <import resource="classpath:com/coremedia/cap/common/uapi-services.xml"/>
+
+  <context:component-scan base-package="com.coremedia.livecontext.asset"/>
+  <import resource="lc-asset-views.xml"/>
+  <import resource="lc-asset-handlers.xml"/>
+  <import resource="classpath:/framework/spring/lc-asset-services.xml"/>
+  <import resource="classpath:/framework/spring/search/solr-search.xml"/>
+
+  <bean id="caeAssetSearchService" class="com.coremedia.livecontext.asset.CaeAssetSearchService">
+    <property name="searchResultFactory" ref="resultFactory"/>
+    <property name="cacheForSeconds" value="${livecontext.assetService.searchCacheDurationInSeconds}"/>
+  </bean>
+
+  <bean id="caeAssetValidationService" class="com.coremedia.livecontext.asset.CaeAssetValidationService">
+    <property name="contentBeanFactory" ref="contentBeanFactory"/>
+    <property name="validationService" ref="validationService"/>
+  </bean>
+
+  <!--the asset service in cae uses the CaeAssetSearchService -->
+  <customize:replace id="assetSearchServiceCustomizer" bean="assetService" property="assetSearchService" custom-ref="caeAssetSearchService"/>
+  <!--the asset service in cae uses the CaeAssetValidationService -->
+  <customize:replace id="assetValidationServiceCustomizer" bean="assetService" property="assetValidationService" custom-ref="caeAssetValidationService"/>
+
+</beans>

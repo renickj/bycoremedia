@@ -1,0 +1,80 @@
+!tape
+name: ssi_testFindAllSegments
+interactions:
+- recorded: 2014-09-05T09:08:24.078Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/languagemap
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Fri, 05 Sep 2014 09:08:23 GMT
+      Expires: Fri, 05 Sep 2014 10:08:23 GMT
+      Vary: Accept
+    body: "{\n\t\"ar\": \"-23\",\n\t\"de\": \"-3\",\n\t\"en\": \"-1\",\n\t\"es\": \"-5\",\n\t\"fr\": \"-2\",\n\t\"it\": \"-4\",\n\t\"ja\": \"-10\",\n\t\"ko\": \"-9\",\n\t\"pl\": \"-22\",\n\t\"pt\": \"-6\",\n\t\"ro\": \"-21\",\n\t\"ru\": \"-20\",\n\t\"zh\": \"\
+      -8\"\n}"
+- recorded: 2014-09-05T09:08:24.522Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/loginidentity
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '60'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+    body: '{"logonId":"cmadmin","logonPassword":"VTJjyo0AYSnXFHI201yo"}'
+  response:
+    status: 201
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Fri, 05 Sep 2014 09:08:24 GMT
+      Expires: Fri, 05 Sep 2014 10:08:24 GMT
+      Vary: Accept
+    body: "{\n\t\"WCToken\": \"2%2c7ypAleQXonOHVfk86FP0x4Nowr1VuEYYNtY%2bHxyjHlJIZYIgE0vNENQQ4HgH6TEwisXonrErEGBkOCXz2Nh3Kz1zJMgQKWmA7RBY%2fGaqCZsQ4XAo%2fhFz5ud%2b6eA4GV5K%2fJd24XQMrXYHlJIUjJPDp%2bCoQkb1BCZN13WiPUpQvX4qevtKus%2fQc2buYMCEjlH4\",\n\t\"WCTrustedToken\"\
+      : \"2%2c6UiWWSinx1nMGdVYP3KDATn5ZpY%3d\",\n\t\"personalizationID\": \"1409837028330-1\",\n\t\"userId\": \"2\"\n}"
+- recorded: 2014-09-05T09:08:24.648Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/segment?catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2c7ypAleQXonOHVfk86FP0x4Nowr1VuEYYNtY%2bHxyjHlJIZYIgE0vNENQQ4HgH6TEwisXonrErEGBkOCXz2Nh3Kz1zJMgQKWmA7RBY%2fGaqCZsQ4XAo%2fhFz5ud%2b6eA4GV5K%2fJd24XQMrXYHlJIUjJPDp%2bCoQkb1BCZN13WiPUpQvX4qevtKus%2fQc2buYMCEjlH4
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Fri, 05 Sep 2014 09:08:24 GMT
+      Expires: Fri, 05 Sep 2014 10:08:24 GMT
+      Vary: Accept
+    body: "{\n\t\"MemberGroup\": [\n\t\t{\n\t\t\t\"description\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Customers who are 40 years of age or older\"\n\t\t\t},\n\t\t\t\"displayName\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Customers\
+      \ who are 40 years of age or older\"\n\t\t\t},\n\t\t\t\"id\": \"8000000000000000607\",\n\t\t\t\"usage\": [\n\t\t\t\t\"GeneralPurpose\"\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"description\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Customers who\
+      \ are under 40 years of age\"\n\t\t\t},\n\t\t\t\"displayName\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Customers who are under 40 years of age\"\n\t\t\t},\n\t\t\t\"id\": \"8000000000000000606\",\n\t\t\t\"usage\": [\n\t\t\t\t\"GeneralPurpose\"\
+      \n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"description\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Female Customers\"\n\t\t\t},\n\t\t\t\"displayName\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Female Customers\"\n\t\t\t},\n\t\t\t\"id\"\
+      : \"8000000000000000605\",\n\t\t\t\"usage\": [\n\t\t\t\t\"GeneralPurpose\"\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"description\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Frequent Buyer\"\n\t\t\t},\n\t\t\t\"displayName\": {\n\t\t\t\t\"language\"\
+      : \"-1\",\n\t\t\t\t\"value\": \"Frequent Buyer\"\n\t\t\t},\n\t\t\t\"id\": \"8000000000000000652\",\n\t\t\t\"usage\": [\n\t\t\t\t\"GeneralPurpose\"\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"description\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Guest\
+      \ Shoppers\"\n\t\t\t},\n\t\t\t\"displayName\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Guest Shoppers\"\n\t\t\t},\n\t\t\t\"id\": \"8000000000000000603\",\n\t\t\t\"usage\": [\n\t\t\t\t\"GeneralPurpose\"\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Male Customers\"\n\t\t\t},\n\t\t\t\"displayName\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Male Customers\"\n\t\t\t},\n\t\t\t\"id\": \"8000000000000000604\",\n\t\t\t\"usage\": [\n\t\
+      \t\t\t\"GeneralPurpose\"\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"description\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Customers who have registered with the store\"\n\t\t\t},\n\t\t\t\"displayName\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"\
+      value\": \"Registered Customers\"\n\t\t\t},\n\t\t\t\"id\": \"8000000000000000601\",\n\t\t\t\"usage\": [\n\t\t\t\t\"GeneralPurpose\"\n\t\t\t]\n\t\t},\n\t\t{\n\t\t\t\"description\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Customers who have\
+      \ placed at least one order with the store\"\n\t\t\t},\n\t\t\t\"displayName\": {\n\t\t\t\t\"language\": \"-1\",\n\t\t\t\t\"value\": \"Repeat Customers\"\n\t\t\t},\n\t\t\t\"id\": \"8000000000000000602\",\n\t\t\t\"usage\": [\n\t\t\t\t\"GeneralPurpose\"\n\
+      \t\t\t]\n\t\t}\n\t],\n\t\"recordSetComplete\": true,\n\t\"recordSetCount\": 8,\n\t\"recordSetStartNumber\": 0,\n\t\"recordSetTotal\": 8,\n\t\"resourceId\": \"http:\\/\\/toko-wcs-01.coremedia.vm\\/wcs\\/resources\\/store\\/10202\\/segment\",\n\t\"resourceName\"\
+      : \"segment\"\n}"

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:taxonomy="exml:com.coremedia.blueprint.studio.config.taxonomy"
+                xmlns:dcqe="exml:com.coremedia.cms.studio.queryeditor.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:bpforms="exml:com.coremedia.blueprint.studio.config">
+
+  <exml:import class="com.coremedia.cms.studio.queryeditor.QueryEditor_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+
+
+  <editor:documentTabPanel>
+    <items>
+      <editor:documentForm title="{QueryEditor_properties.INSTANCE.DCQE_label_conditions}">
+        <items>
+          <dcqe:contentQueryEditor bindTo="{config.bindTo}"
+                                   queryPropertyName="localSettings"
+                                   documentTypesPropertyName="documenttype"
+                                   sortingPropertyName="order">
+            <dcqe:conditions>
+              <dcqe:modificationDateConditionEditor bindTo="{config.bindTo}"
+                                                    propertyName="freshness"
+                                                    group="attributes"
+                                                    documentTypes="{['CMArticle', 'CMVideo', 'CMPicture']}"
+                                                    forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"
+                                                    sortable="true">
+                <dcqe:timeSlots>
+                  <exml:object name="sameDay"
+                               text="{QueryEditor_properties.INSTANCE.DCQE_text_modification_date_same_day}"
+                               expression="TODAY"/>
+                  <exml:object name="sevenDays"
+                               text="{QueryEditor_properties.INSTANCE.DCQE_text_modification_date_seven_days}"
+                               expression="7 DAYS TO NOW"/>
+                  <exml:object name="thirtyDays"
+                               text="{QueryEditor_properties.INSTANCE.DCQE_text_modification_date_thirty_days}"
+                               expression="30 DAYS TO NOW"/>
+                </dcqe:timeSlots>
+              </dcqe:modificationDateConditionEditor>
+              <dcqe:contextConditionEditor bindTo="{config.bindTo}"
+                                           propertyName="documents"
+                                           group="attributes"
+                                           contentType="CMChannel"
+                                           documentTypes="{['CMArticle', 'CMVideo', 'CMPicture']}"
+                                           forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+              <taxonomy:taxonomyConditionEditor bindTo="{config.bindTo}"
+                                                propertyName="subjecttaxonomy"
+                                                group="attributes"
+                                                contentType="CMTaxonomy"
+                                                documentTypes="{['CMArticle', 'CMVideo', 'CMPicture']}"
+                                                forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+              <taxonomy:locationTaxonomyConditionEditor bindTo="{config.bindTo}"
+                                                        propertyName="locationtaxonomy"
+                                                        group="attributes"
+                                                        contentType="CMLocTaxonomy"
+                                                        documentTypes="{['CMArticle', 'CMVideo', 'CMPicture']}"
+                                                        forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+              <dcqe:linkingTaxonomyConditionEditor bindTo="{config.bindTo}"
+                                                   group="attributes"
+                                                   propertyName="contextTaxonomies"
+                                                   documentTypes="{['CMArticle', 'CMVideo', 'CMPicture']}"
+                                                   forceReadOnlyValueExpression="{config.forceReadOnlyValueExpression}"/>
+            </dcqe:conditions>
+          </dcqe:contentQueryEditor>
+        </items>
+      </editor:documentForm>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_content_title}">
+        <items>
+          <bpforms:teaserDocumentForm/>
+          <bpforms:pictureDocumentForm/>
+          <bpforms:itemsForm/>
+          <bpforms:viewTypeSelectorForm paths="{['Options/Viewtypes/CMChannel/']}" collapsed="false"/>
+          <bpforms:validityDocumentForm/>
+        </items>
+      </editor:documentForm>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_extras_title}">
+        <items>
+          <bpforms:seoForm/>
+        </items>
+      </editor:documentForm>
+      <bpforms:multiLanguageDocumentForm/>
+      <bpforms:metaDataWithoutSearchableForm/>
+    </items>
+  </editor:documentTabPanel>
+</exml:component>

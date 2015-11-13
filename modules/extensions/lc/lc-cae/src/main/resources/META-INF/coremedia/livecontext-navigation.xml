@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <import resource="classpath:/com/coremedia/cae/uapi-services.xml"/>
+  <import resource="classpath:/com/coremedia/cap/multisite/multisite-services.xml"/>
+  <import resource="livecontext-cae-services.xml"/>
+
+  <bean id="liveContextNavigationTreeRelation" class="com.coremedia.livecontext.navigation.LiveContextNavigationTreeRelation">
+    <property name="contentBeanFactory" ref="contentBeanFactory"/>
+    <property name="navigationFactory" ref="liveContextNavigationFactory" />
+    <property name="settingsService" ref="settingsService" />
+    <property name="contentBasedTreeRelation" ref="childrenTreeRelation"/>
+    <property name="contentRepository" ref="contentRepository"/>
+    <property name="cache" ref="cache"/>
+  </bean>
+
+  <bean id="liveContextNavigationFactory" class="com.coremedia.livecontext.navigation.LiveContextNavigationFactory">
+    <property name="liveContextNavigationTreeRelation" ref="liveContextNavigationTreeRelation" />
+    <property name="sitesService" ref="sitesService"/>
+  </bean>
+
+  <bean id="categoryNavigationSettingsFinder" class="com.coremedia.livecontext.navigation.LiveContextCategoryNavigationSettingsFinder">
+    <property name="treeRelation" ref="liveContextNavigationTreeRelation"/>
+  </bean>
+
+  <bean id="compositeNameSettingsFinder" class="com.coremedia.livecontext.navigation.CompositeNameSettingsFinder">
+    <property name="delegate" ref="cmlinkableSettingsFinder"/>
+    <property name="hierarchy" ref="navigationTreeRelation"/>
+  </bean>
+
+  <customize:append id="liveContextNavigationSettingsServiceConfigurer" bean="settingsFinders">
+    <description>
+      Adds the liveContextNavigationSettingsFinder to the SettingsService.
+    </description>
+    <map>
+      <entry key="com.coremedia.livecontext.navigation.LiveContextCategoryNavigation" value-ref="categoryNavigationSettingsFinder"/>
+      <entry key="com.coremedia.cap.content.Content" value-ref="compositeNameSettingsFinder"/>
+    </map>
+  </customize:append>
+
+</beans>

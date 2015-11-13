@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ec="exml:com.coremedia.ecommerce.studio.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                baseClass="com.coremedia.ecommerce.studio.components.search.CatalogSearchListContainerBase">
+
+  <exml:import class="com.coremedia.cms.editor.sdk.collectionview.CollectionViewConstants"/>
+  <exml:import class="com.coremedia.ui.data.ValueExpression"/>
+
+  <exml:constant name="VIEW_CONTAINER_ITEM_ID" value="catalogSearchListContainer"/>
+
+  <exml:cfg name="searchResultHitsValueExpression" type="ValueExpression"/>
+  <exml:cfg name="selectedItemsValueExpression" type="ValueExpression"/>
+
+
+  <ui:switchingContainer itemId="{VIEW_CONTAINER_ITEM_ID}"
+                         id="catalogSearchListContainer"
+                         hideBorders="true"
+                         activeItemValueExpression="{getActiveItemExpression()}">
+    <items>
+      <ec:catalogSearchList itemId="{CollectionViewConstants.LIST_VIEW}"
+                                     searchResultHitsValueExpression="{config.searchResultHitsValueExpression}"
+                                     selectedItemsValueExpression="{config.selectedItemsValueExpression}"/>
+      <ec:catalogSearchThumbnails itemId="{CollectionViewConstants.THUMBNAILS_VIEW}"
+                                           searchResultHitsValueExpression="{config.searchResultHitsValueExpression}"
+                                           selectedItemsValueExpression="{config.selectedItemsValueExpression}"/>
+    </items>
+  </ui:switchingContainer>
+
+</exml:component>

@@ -1,0 +1,117 @@
+/* =====================================================================================================================
+   Tablet, Portrait
+   ================================================================================================================== */
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+
+  /* hidden flags defining screen type and orientation for javascript */
+  body:before {
+    content: 'portrait';
+  }
+
+  /* --- header ----------------------------------------------------------------------------------------------------- */
+  .cm-icon--store-locator {
+    display: none;
+  }
+
+  /* --- teaser hero ------------------------------------------------------------------------------------------------ */
+  .cm-teaser--hero .cm-aspect-ratio-box:before {
+    /* 1:1 */
+    padding-top: 100%;
+  }
+
+  /* --- button ----------------------------------------------------------------------------------------------------- */
+  .cm-button-group--default .cm-button-group__button + .cm-button-group__button {
+    margin-top: 10px;
+  }
+
+  .cm-button-group--equal .cm-button-group__button:nth-child(n+2) {
+    margin-left: 10px;
+  }
+
+  .cm-button-group--equal .cm-button-group__button:nth-child(n+2) {
+    display: none;
+  }
+
+  /* --- search ----------------------------------------------------------------------------------------------------- */
+  .cm-search-form__button {
+    width: auto;
+  }
+
+  .cm-search-form__fieldset {
+    padding: 0;
+  }
+
+  /* --- accordion -------------------------------------------------------------------------------------------------- */
+  .cm-accordion-item__content {
+    padding-left: 63px;
+  }
+
+  /* --- productlisting collection ---------------------------------------------------------------------------------- */
+  .cm-collection--productlisting > .cm-collection__item,
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 33%;
+    /* (100% - 16px) / 3 */
+    width: calc(100% / 3 - 16px / 3);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--productlisting > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 33%;
+    /* (100% - 16px) / 3 */
+    width: calc(100% / 3 - 16px / 3 - 1px / 100);
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--productlisting > .cm-collection__item:nth-of-type(3n+1):nth-last-of-type(-n+3),
+  /* and for all following elements */
+  .cm-collection--productlisting > .cm-collection__item:nth-of-type(3n+1):nth-last-of-type(-n+3) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  /* --- Subcategory Teaser Category Page --------------------------------------------------------------------------- */
+  .cm-collection--categories > .cm-collection__item,
+  .cm-collection--categories > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    /* (100% - 8px) / 2  */
+    width: calc(100% / 2 - 4px);
+  }
+
+  /*
+  * fix for inaccuracy in float calculation coming from browser breaking masonry on certain container widths,
+  * css rule can be deleted as soon as fixed on browser side or handled by masonry
+  */
+  .cm-collection--categories > .cm-collection--masonry__grid-sizer {
+    /* fallback for older browsers, meaning they should not have a gutter */
+    width: 50%;
+    /* (100% - 8px) / 2  */
+    width: calc(100% / 2 - 4px - 1px / 100);
+  }
+
+  .cm-collection--categories .cm-collection__item:first-child .cm-teaser--category, .cm-collection--categories .cm-collection__item:nth-child(3) .cm-teaser--category {
+    padding: 0 20px 10px 60px;
+  }
+
+  .cm-collection--categories .cm-collection__item:nth-child(2) .cm-teaser--category {
+    padding: 0 60px 10px 20px;
+  }
+
+  /* remove gutter for elements in the last row */
+  /* first element of last row */
+  .cm-collection--categories > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2),
+  /* and for all following elements */
+  .cm-collection--categories > .cm-collection__item:nth-of-type(2n+1):nth-last-of-type(-n+2) ~ .cm-collection__item {
+    margin-bottom: 0;
+  }
+
+  .cm-quickinfo__image.cm-aspect-ratio-box:before {
+    /* 4:3*/
+    padding-top: 75%;
+  }
+}

@@ -1,0 +1,219 @@
+!tape
+name: csi_testFindMarketingSpots
+interactions:
+- recorded: 2014-09-08T17:33:00.390Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/languagemap
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:00 GMT
+      Expires: Mon, 08 Sep 2014 18:33:00 GMT
+      Vary: Accept
+    body: "{\n\t\"ar\": \"-23\",\n\t\"de\": \"-3\",\n\t\"en\": \"-1\",\n\t\"es\": \"-5\",\n\t\"fr\": \"-2\",\n\t\"it\": \"-4\",\n\t\"ja\": \"-10\",\n\t\"ko\": \"-9\",\n\t\"pl\": \"-22\",\n\t\"pt\": \"-6\",\n\t\"ro\": \"-21\",\n\t\"ru\": \"-20\",\n\t\"zh\": \"\
+      -8\"\n}"
+- recorded: 2014-09-08T17:33:00.449Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/loginidentity
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '60'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+    body: '{"logonId":"cmadmin","logonPassword":"VTJjyo0AYSnXFHI201yo"}'
+  response:
+    status: 201
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:00 GMT
+      Expires: Mon, 08 Sep 2014 18:33:00 GMT
+      Vary: Accept
+    body: "{\n\t\"WCToken\": \"2%2cvFzTSQjfZGGpOwdhLkARjE%2fYhsQFRCI7JtiIHJn0MSpwAdSIPU%2fedQQnhcZtrK7dGYGiLYf8i3tgT4C9cX1UPceA5zrtzqmP%2bIMhAzT4xZFI3zpfFD3f7buNspRvVZsFgddL5IfqVX4XRnVqI66Rtol%2bV%2fHijy1cjPtYsefgJQA5KXR8s1Hiiruhqigmwl4Qpja3pB9hxeKO1OaJ6qOCGw%3d%3d\"\
+      ,\n\t\"WCTrustedToken\": \"2%2cGlKtkTtpBFrjHqM1fsJ1592IHAM%3d\",\n\t\"personalizationID\": \"1409924907387-1\",\n\t\"userId\": \"2\"\n}"
+- recorded: 2014-09-08T17:33:00.973Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10202/spot?q=byType&qType=MARKETING&catalogId=10051&currency=USD&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2cvFzTSQjfZGGpOwdhLkARjE%2fYhsQFRCI7JtiIHJn0MSpwAdSIPU%2fedQQnhcZtrK7dGYGiLYf8i3tgT4C9cX1UPceA5zrtzqmP%2bIMhAzT4xZFI3zpfFD3f7buNspRvVZsFgddL5IfqVX4XRnVqI66Rtol%2bV%2fHijy1cjPtYsefgJQA5KXR8s1Hiiruhqigmwl4Qpja3pB9hxeKO1OaJ6qOCGw%3d%3d
+  response:
+    status: 200
+    headers:
+      Cache-Control: max-age=3600
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Mon, 08 Sep 2014 17:33:00 GMT
+      Expires: Mon, 08 Sep 2014 18:33:00 GMT
+      Vary: Accept
+    body: "{\n\t\"MarketingSpot\": [\n\t\t{\n\t\t\t\"description\": \"Display the main ad on About Dress Designer page\",\n\t\t\t\"spotId\": \"11621\",\n\t\t\t\"spotName\": \"AboutDressDesignerPageMainAd\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\"\
+      : 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display the main ad on Apparel department page\",\n\t\t\t\"spotId\": \"11620\",\n\t\t\t\"spotName\": \"ApparelRow1_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\
+      \"description\": \"Display ads on Apparel department page\",\n\t\t\t\"spotId\": \"11624\",\n\t\t\t\"spotName\": \"ApparelRow2_Content_Left\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads\
+      \ on Apparel department page\",\n\t\t\t\"spotId\": \"11625\",\n\t\t\t\"spotName\": \"ApparelRow2_Content_Right\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display category recommendations on Apparel\
+      \ department page.\",\n\t\t\t\"spotId\": \"11704\",\n\t\t\t\"spotName\": \"ApparelRow3_Categories\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display catalog entry recommendations on Apparel department\
+      \ page. If more than four catalog entries are displayed, this e-Marketing Spot will have pagination.\",\n\t\t\t\"spotId\": \"11706\",\n\t\t\t\"spotName\": \"ApparelRow4_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\
+      \t\t{\n\t\t\t\"description\": \"Product Recommendation in Appliances\",\n\t\t\t\"spotId\": \"11656\",\n\t\t\t\"spotName\": \"AppliancesProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Display ads on Appliances category page\",\n\t\t\t\"spotId\": \"11709\",\n\t\t\t\"spotName\": \"AppliancesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display the main ad on Style\
+      \ Guide page\",\n\t\t\t\"spotId\": \"11623\",\n\t\t\t\"spotName\": \"AuroraStyleGuidePageMainAd\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in BathAccessories\",\n\t\t\t\
+      \"spotId\": \"11660\",\n\t\t\t\"spotName\": \"BathAccessoriesProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Bath Accessories category page\",\n\t\t\t\"spotId\"\
+      : \"11710\",\n\t\t\t\"spotName\": \"BathAccessoriesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display a list of the best selling catalog entries for a category. This e-Marketing\
+      \ Spot can also display other types of catalog entry recommendations, just like any e-Marketing Spot with a name that ends with _CatEntries\",\n\t\t\t\"spotId\": \"11507\",\n\t\t\t\"spotName\": \"BestSellers_CatEntries\",\n\t\t\t\"type\": \"MARKETING\"\
+      ,\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Pants for Boys\",\n\t\t\t\"spotId\": \"11643\",\n\t\t\t\"spotName\": \"BoysPantsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\"\
+      : 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Pants category page\",\n\t\t\t\"spotId\": \"11673\",\n\t\t\t\"spotName\": \"BoysPantsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Display the main ad on Boys category page\",\n\t\t\t\"spotId\": \"11676\",\n\t\t\t\"spotName\": \"BoysRow1_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"BoysCategoryRecommendationForStores\"\
+      ,\n\t\t\t\"spotId\": \"11677\",\n\t\t\t\"spotName\": \"BoysRow3_Categories\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation for Boys\",\n\t\t\t\"spotId\": \"11647\",\n\t\t\t\"\
+      spotName\": \"BoysRow4_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Shoes for Boys\",\n\t\t\t\"spotId\": \"11645\",\n\t\t\t\"spotName\": \"BoysShoesProductRight_CatEntries\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Shoes category page\",\n\t\t\t\"spotId\": \"11674\",\n\t\t\t\"spotName\": \"BoysShoesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\
+      \t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Tops for Boys\",\n\t\t\t\"spotId\": \"11644\",\n\t\t\t\"spotName\": \"BoysTopsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\"\
+      : 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Tops category page\",\n\t\t\t\"spotId\": \"11675\",\n\t\t\t\"spotName\": \"BoysTopsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Display a page-wide banner ad below the header on catalog browsing pages\",\n\t\t\t\"spotId\": \"11612\",\n\t\t\t\"spotName\": \"CatalogBanner_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Display a page-wide banner ad below the header on catalog browsing pages\",\n\t\t\t\"spotId\": \"11613\",\n\t\t\t\"spotName\": \"CatalogBanner_Content_Left\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Display a page-wide banner ad below the header on catalog browsing pages\",\n\t\t\t\"spotId\": \"11614\",\n\t\t\t\"spotName\": \"CatalogBanner_Content_Right\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Display catalog entry recommendations from Coremetrics Intelligent Offer on all category pages.\",\n\t\t\t\"spotId\": \"11502\",\n\t\t\t\"spotName\": \"Category_ProductRec\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t\
+      {\n\t\t\t\"description\": \"Product Recommendation in Computer Accessories\",\n\t\t\t\"spotId\": \"11652\",\n\t\t\t\"spotName\": \"ComputersAccessoriesProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t\
+      {\n\t\t\t\"description\": \"Display ads on Accessories category page\",\n\t\t\t\"spotId\": \"11708\",\n\t\t\t\"spotName\": \"ComputersAccessoriesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Product Recommendation in Computer Components\",\n\t\t\t\"spotId\": \"11653\",\n\t\t\t\"spotName\": \"ComputersComponentsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"\
+      Display ads on Components category page\",\n\t\t\t\"spotId\": \"11711\",\n\t\t\t\"spotName\": \"ComputersComponentsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation\
+      \ in Computer Desktops\",\n\t\t\t\"spotId\": \"11649\",\n\t\t\t\"spotName\": \"ComputersDesktopsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Desktops category\
+      \ page\",\n\t\t\t\"spotId\": \"11713\",\n\t\t\t\"spotName\": \"ComputersDesktopsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Computer Laptops\",\n\t\t\t\"\
+      spotId\": \"11650\",\n\t\t\t\"spotName\": \"ComputersLaptopsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Laptops category page\",\n\t\t\t\"spotId\": \"11717\"\
+      ,\n\t\t\t\"spotName\": \"ComputersLaptopsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Computer Tablets\",\n\t\t\t\"spotId\": \"11651\",\n\t\t\t\"spotName\"\
+      : \"ComputersTabletsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Tablets category page\",\n\t\t\t\"spotId\": \"11723\",\n\t\t\t\"spotName\": \"ComputersTabletsRow2_Content\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the Contact Us page.\",\n\t\t\t\"spotId\": \"11564\",\n\t\t\t\"spotName\": \"ContactUsPageCenter_Content\",\n\t\t\t\"type\": \"MARKETING\"\
+      ,\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the Corporate Info - Contact Us page.\",\n\t\t\t\"spotId\": \"11568\",\n\t\t\t\"spotName\": \"CorporateContactUsPageCenter_Content\",\n\t\t\t\"type\": \"MARKETING\"\
+      ,\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the Corporate Info - About Us page.\",\n\t\t\t\"spotId\": \"11567\",\n\t\t\t\"spotName\": \"CorporateInfoPageCenter_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\
+      \t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Dairy\",\n\t\t\t\"spotId\": \"11665\",\n\t\t\t\"spotName\": \"DairyProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t\
+      },\n\t\t{\n\t\t\t\"description\": \"Display ads on Dairy category page\",\n\t\t\t\"spotId\": \"11712\",\n\t\t\t\"spotName\": \"DairyRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display\
+      \ catalog entry recommendations on the right side of all product details pages for Dresses category\",\n\t\t\t\"spotId\": \"11615\",\n\t\t\t\"spotName\": \"DressesProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\
+      \t},\n\t\t{\n\t\t\t\"description\": \"Display responsive hero image on Dresses category page.\",\n\t\t\t\"spotId\": \"11618\",\n\t\t\t\"spotName\": \"DressesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\
+      \t\"description\": \"Display product recommendations on Dresses category page\",\n\t\t\t\"spotId\": \"11619\",\n\t\t\t\"spotName\": \"DressesRow4_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Display the main ad on Electronics department page\",\n\t\t\t\"spotId\": \"11733\",\n\t\t\t\"spotName\": \"ElectronicsRow1_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on\
+      \ Electronics department page\",\n\t\t\t\"spotId\": \"11728\",\n\t\t\t\"spotName\": \"ElectronicsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"ElectronicsCategoryRecommendationForStores\"\
+      ,\n\t\t\t\"spotId\": \"11738\",\n\t\t\t\"spotName\": \"ElectronicsRow3_Categories\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Electronics\",\n\t\t\t\"spotId\": \"11668\"\
+      ,\n\t\t\t\"spotName\": \"ElectronicsRow4_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the account activation e-mail message.\",\n\t\t\t\"spotId\": \"11572\",\n\t\t\
+      \t\"spotName\": \"EmailAccountActivation_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display your store logo as a page-wide banner in all store marketing e-mail messages.\",\n\t\t\t\"\
+      spotId\": \"11511\",\n\t\t\t\"spotName\": \"EmailBanner_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display an ad at the bottom of all store marketing e-mail messages.\",\n\t\t\t\"spotId\"\
+      : \"11512\",\n\t\t\t\"spotName\": \"EmailBottom_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the footer of all store marketing e-mail messages.\",\n\t\t\t\"spotId\":\
+      \ \"11570\",\n\t\t\t\"spotName\": \"EmailFooter_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the header of all store marketing e-mail messages.\",\n\t\t\t\"spotId\":\
+      \ \"11569\",\n\t\t\t\"spotName\": \"EmailHeader_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the order cancellation e-mail message.\",\n\t\t\t\"spotId\": \"11573\",\n\
+      \t\t\t\"spotName\": \"EmailOrderCancel_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the order ship e-mail message.\",\n\t\t\t\"spotId\": \"11574\",\n\t\t\t\"spotName\"\
+      : \"EmailOrderShip_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the forgot password e-mail message.\",\n\t\t\t\"spotId\": \"11561\",\n\t\t\t\"spotName\": \"EmailPasswordReset_Content\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the wish list created e-mail message.\",\n\t\t\t\"spotId\": \"11562\",\n\t\t\t\"spotName\": \"EmailWishlist_Content\",\n\t\t\t\"type\"\
+      : \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display the main ad on Evening Sparkle Dress page\",\n\t\t\t\"spotId\": \"11622\",\n\t\t\t\"spotName\": \"EveningSparkleDressPageMainAd\",\n\t\t\t\"type\": \"MARKETING\"\
+      ,\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Fruit\",\n\t\t\t\"spotId\": \"11662\",\n\t\t\t\"spotName\": \"FruitProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\
+      \t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Fruits category page\",\n\t\t\t\"spotId\": \"11714\",\n\t\t\t\"spotName\": \"FruitRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\":\
+      \ \"Product Recommendation in Furniture\",\n\t\t\t\"spotId\": \"11661\",\n\t\t\t\"spotName\": \"FurnitureProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Furniture\
+      \ category page\",\n\t\t\t\"spotId\": \"11715\",\n\t\t\t\"spotName\": \"FurnitureRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Dresses and Skirts for Girls\"\
+      ,\n\t\t\t\"spotId\": \"11641\",\n\t\t\t\"spotName\": \"GirlsDressesSkirtsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Dresses and Skirts category page\",\n\
+      \t\t\t\"spotId\": \"11678\",\n\t\t\t\"spotName\": \"GirlsDressesSkirtsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Pants for Girls\",\n\t\t\t\"spotId\": \"\
+      11640\",\n\t\t\t\"spotName\": \"GirlsPantsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Pants category page\",\n\t\t\t\"spotId\": \"11679\",\n\t\t\t\"spotName\"\
+      : \"GirlsPantsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display the main ad on Girls category page\",\n\t\t\t\"spotId\": \"11682\",\n\t\t\t\"spotName\": \"GirlsRow1_Content\",\n\
+      \t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"GirlsCategoryRecommendationForStores\",\n\t\t\t\"spotId\": \"11683\",\n\t\t\t\"spotName\": \"GirlsRow3_Categories\",\n\t\t\t\"type\": \"MARKETING\",\n\t\
+      \t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation for Girls\",\n\t\t\t\"spotId\": \"11648\",\n\t\t\t\"spotName\": \"GirlsRow4_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t\
+      {\n\t\t\t\"description\": \"Product Recommendation in Shoes for Girls\",\n\t\t\t\"spotId\": \"11639\",\n\t\t\t\"spotName\": \"GirlsShoesProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Display ads on Shoes category page\",\n\t\t\t\"spotId\": \"11680\",\n\t\t\t\"spotName\": \"GirlsShoesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Tops\
+      \ for Girls\",\n\t\t\t\"spotId\": \"11642\",\n\t\t\t\"spotName\": \"GirlsTopsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Tops category page\",\n\t\t\t\"\
+      spotId\": \"11681\",\n\t\t\t\"spotName\": \"GirlsTopsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display the main ad on Grocery department page\",\n\t\t\t\"spotId\": \"11734\",\n\t\
+      \t\t\"spotName\": \"GroceryRow1_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Grocery department page\",\n\t\t\t\"spotId\": \"11729\",\n\t\t\t\"spotName\": \"GroceryRow2_Content\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"GroceryCategoryRecommendationForStores\",\n\t\t\t\"spotId\": \"11739\",\n\t\t\t\"spotName\": \"GroceryRow3_Categories\",\n\t\t\t\"type\": \"MARKETING\"\
+      ,\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation for Grocery\",\n\t\t\t\"spotId\": \"11671\",\n\t\t\t\"spotName\": \"GroceryRow4_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t\
+      },\n\t\t{\n\t\t\t\"description\": \"Display text content in the header banner.\",\n\t\t\t\"spotId\": \"11616\",\n\t\t\t\"spotName\": \"HeaderBanner_Content_Left\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Display text content in the header banner.\",\n\t\t\t\"spotId\": \"11617\",\n\t\t\t\"spotName\": \"HeaderBanner_Content_Right\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display your store\
+      \ logo in the top-left corner of every store page\",\n\t\t\t\"spotId\": \"11510\",\n\t\t\t\"spotName\": \"HeaderStoreLogo_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display the main ad\
+      \ on Health department page\",\n\t\t\t\"spotId\": \"11735\",\n\t\t\t\"spotName\": \"HealthRow1_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Health department page\",\n\t\t\
+      \t\"spotId\": \"11730\",\n\t\t\t\"spotName\": \"HealthRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Health Category Recommendation For Stores\",\n\t\t\t\"spotId\": \"11740\",\n\t\t\t\
+      \"spotName\": \"HealthRow3_Categories\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation for Health\",\n\t\t\t\"spotId\": \"11672\",\n\t\t\t\"spotName\": \"HealthRow4_CatEntries\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the Help page.\",\n\t\t\t\"spotId\": \"11563\",\n\t\t\t\"spotName\": \"HelpPageCenter_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\
+      \t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display the main ad on Home And Furnishings department page\",\n\t\t\t\"spotId\": \"11736\",\n\t\t\t\"spotName\": \"HomeFurnishingsRow1_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\
+      \t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Home And Furnishings department page\",\n\t\t\t\"spotId\": \"11731\",\n\t\t\t\"spotName\": \"HomeFurnishingsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\"\
+      : 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"HomeAndFurnishingsCategoryRecommendationForStores\",\n\t\t\t\"spotId\": \"11741\",\n\t\t\t\"spotName\": \"HomeFurnishingsRow3_Categories\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\
+      \t\t{\n\t\t\t\"description\": \"Product Recommendation in Home and  Furnishings\",\n\t\t\t\"spotId\": \"11670\",\n\t\t\t\"spotName\": \"HomeFurnishingsRow4_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\
+      \"description\": \"Product Recommendation in Kitchenware\",\n\t\t\t\"spotId\": \"11659\",\n\t\t\t\"spotName\": \"KitchenwareProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"\
+      Display ads on Kitchenware category page\",\n\t\t\t\"spotId\": \"11716\",\n\t\t\t\"spotName\": \"KitchenwareRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Lighting\"\
+      ,\n\t\t\t\"spotId\": \"11657\",\n\t\t\t\"spotName\": \"LightingProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Lighting category page\",\n\t\t\t\"spotId\": \"\
+      11718\",\n\t\t\t\"spotName\": \"LightingRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Magazines\",\n\t\t\t\"spotId\": \"11655\",\n\t\t\t\"spotName\": \"MagazinesProductRight_CatEntries\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Magazines category page\",\n\t\t\t\"spotId\": \"11719\",\n\t\t\t\"spotName\": \"MagazinesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\"\
+      ,\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Meat\",\n\t\t\t\"spotId\": \"11664\",\n\t\t\t\"spotName\": \"MeatProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\
+      \t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Meat category page\",\n\t\t\t\"spotId\": \"11720\",\n\t\t\t\"spotName\": \"MeatRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product\
+      \ Recommendation in Medicine\",\n\t\t\t\"spotId\": \"11666\",\n\t\t\t\"spotName\": \"MedicineProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Medicines category\
+      \ page\",\n\t\t\t\"spotId\": \"11721\",\n\t\t\t\"spotName\": \"MedicineRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Accessories for Men\",\n\t\t\t\"spotId\"\
+      : \"11633\",\n\t\t\t\"spotName\": \"MenAccessoriesProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Accessories category page\",\n\t\t\t\"spotId\": \"11684\",\n\
+      \t\t\t\"spotName\": \"MenAccessoriesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Jackets for Men\",\n\t\t\t\"spotId\": \"11638\",\n\t\t\t\"spotName\": \"\
+      MenJacketsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Jackets category page\",\n\t\t\t\"spotId\": \"11685\",\n\t\t\t\"spotName\": \"MenJacketsRow2_Content\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Pants for Men\",\n\t\t\t\"spotId\": \"11635\",\n\t\t\t\"spotName\": \"MenPantsProductRight_CatEntries\",\n\t\t\t\"type\": \"\
+      MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Pants category page\",\n\t\t\t\"spotId\": \"11686\",\n\t\t\t\"spotName\": \"MenPantsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\"\
+      : 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display the main ad on Men category page\",\n\t\t\t\"spotId\": \"11690\",\n\t\t\t\"spotName\": \"MenRow1_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"MenCategoryRecommendationForStores\",\n\t\t\t\"spotId\": \"11691\",\n\t\t\t\"spotName\": \"MenRow3_Categories\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation for Men\",\n\
+      \t\t\t\"spotId\": \"11646\",\n\t\t\t\"spotName\": \"MenRow4_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Shirts for Men\",\n\t\t\t\"spotId\": \"11637\",\n\t\
+      \t\t\"spotName\": \"MenShirtsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Shirts category page\",\n\t\t\t\"spotId\": \"11687\",\n\t\t\t\"spotName\": \"MenShirtsRow2_Content\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Shoes for Men\",\n\t\t\t\"spotId\": \"11634\",\n\t\t\t\"spotName\": \"MenShoesProductRight_CatEntries\",\n\t\t\t\"type\": \"\
+      MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Shoes category page\",\n\t\t\t\"spotId\": \"11688\",\n\t\t\t\"spotName\": \"MenShoesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\"\
+      : 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Suits for Men\",\n\t\t\t\"spotId\": \"11636\",\n\t\t\t\"spotName\": \"MenSuitsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\
+      \t\t\t\"description\": \"Display ads on Suits category page\",\n\t\t\t\"spotId\": \"11689\",\n\t\t\t\"spotName\": \"MenSuitsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display the\
+      \ main ad on News letters And Magazines department page\",\n\t\t\t\"spotId\": \"11732\",\n\t\t\t\"spotName\": \"NewslettersAndMagazinesRow1_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"\
+      Display ads on Newsletters And Magazines department page\",\n\t\t\t\"spotId\": \"11727\",\n\t\t\t\"spotName\": \"NewslettersAndMagazinesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"\
+      NewslettersAndMagazinesCategoryRecommendationForStores\",\n\t\t\t\"spotId\": \"11737\",\n\t\t\t\"spotName\": \"NewslettersAndMagazinesRow3_Categories\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\":\
+      \ \"Product Recommendation in Magazines and Newsletters\",\n\t\t\t\"spotId\": \"11669\",\n\t\t\t\"spotName\": \"NewslettersAndMagazinesRow4_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"Product Recommendation in Newsletters\",\n\t\t\t\"spotId\": \"11654\",\n\t\t\t\"spotName\": \"NewslettersProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on\
+      \ Newsletters category page\",\n\t\t\t\"spotId\": \"11722\",\n\t\t\t\"spotName\": \"NewslettersRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display catalog entry recommendations from\
+      \ Coremetrics Intelligent Offer on the order confirmation page.\",\n\t\t\t\"spotId\": \"11504\",\n\t\t\t\"spotName\": \"OrderConf_ProductRec\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Homepage\
+      \ Text banner for Offers\",\n\t\t\t\"spotId\": \"11756\",\n\t\t\t\"spotName\": \"PC_Homepage_Offer\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"PerfectChef widget for Order Confirmation page with\
+      \ contextual content based on purchase\",\n\t\t\t\"spotId\": \"11757\",\n\t\t\t\"spotName\": \"PC_RelatedBox_OrderConfirmation\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"PerfectChef widget for\
+      \ Check-Out Thank you page with contextual content based on cart\",\n\t\t\t\"spotId\": \"11758\",\n\t\t\t\"spotName\": \"PC_RelatedBox_Recently_Viewed\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\"\
+      : \"PerfectChef related box with automated list of Top Sellers\",\n\t\t\t\"spotId\": \"11759\",\n\t\t\t\"spotName\": \"PC_RelatedBox_TopSellers\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"PerfectChef\
+      \ Sidebar that shows various activities based on login status, activity, cart content and applicable promotions (e.g. Women's dress sale targeted at women)\",\n\t\t\t\"spotId\": \"11760\",\n\t\t\t\"spotName\": \"PC_Sidebar_Personalized\",\n\t\t\t\"type\"\
+      : \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Email change password notification\",\n\t\t\t\"spotId\": \"11571\",\n\t\t\t\"spotName\": \"PasswordChangeNotifyCenter_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\
+      \t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the Privacy Policy page.\",\n\t\t\t\"spotId\": \"11566\",\n\t\t\t\"spotName\": \"PrivacyPolicyPageCenter_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\"\
+      : 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display catalog entry recommendations from Coremetrics Intelligent Offer on the product details page.\",\n\t\t\t\"spotId\": \"11501\",\n\t\t\t\"spotName\": \"Product_ProductRec\",\n\t\t\t\"type\": \"MARKETING\"\
+      ,\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display a list of the catalog entries that the customer has recently viewed. This e-Marketing Spot can also display other types of catalog entry recommendations, just like any e-Marketing\
+      \ Spot with a name that ends with _CatEntries\",\n\t\t\t\"spotId\": \"11509\",\n\t\t\t\"spotName\": \"RecViewed_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display content in the Return\
+      \ Policy page.\",\n\t\t\t\"spotId\": \"11565\",\n\t\t\t\"spotName\": \"ReturnPolicyPageCenter_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"SeachLandingClearance\",\n\t\t\t\"spotId\": \"\
+      11608\",\n\t\t\t\"spotName\": \"SeachLandingClearance\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display catalog entry recommendations on Search Results page\",\n\t\t\t\"spotId\": \"11506\",\n\
+      \t\t\t\"spotName\": \"SearchResults_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Search Results page\",\n\t\t\t\"spotId\": \"11505\",\n\t\t\t\"spotName\": \"SearchResults_Content\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display catalog entry recommendations on the right side of the shopping cart page\",\n\t\t\t\"spotId\": \"11743\",\n\t\t\t\"spotName\": \"ShoppingCartRight_CatEntries\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display catalog entry recommendations from Coremetrics Intelligent Offer on the shopping cart page.\",\n\t\t\t\"spotId\": \"11503\",\n\t\t\t\"spotName\"\
+      : \"ShoppingCart_ProductRec\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Tableware\",\n\t\t\t\"spotId\": \"11658\",\n\t\t\t\"spotName\": \"TablewareProductRight_CatEntries\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Tableware category page\",\n\t\t\t\"spotId\": \"11726\",\n\t\t\t\"spotName\": \"TablewareRow2_Content\",\n\t\t\t\"type\": \"MARKETING\"\
+      ,\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display a list of the top browsed catalog entries for a category. This e-Marketing Spot can also display other types of catalog entry recommendations, just like any e-Marketing Spot\
+      \ with a name that ends with _CatEntries\",\n\t\t\t\"spotId\": \"11508\",\n\t\t\t\"spotName\": \"TopBrowsed_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Vegetables\"\
+      ,\n\t\t\t\"spotId\": \"11663\",\n\t\t\t\"spotName\": \"VegetablesProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Vegetables category page\",\n\t\t\t\"spotId\"\
+      : \"11724\",\n\t\t\t\"spotName\": \"VegetablesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Vitamins\",\n\t\t\t\"spotId\": \"11667\",\n\t\t\t\"spotName\":\
+      \ \"VitaminsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Vitamins category page\",\n\t\t\t\"spotId\": \"11725\",\n\t\t\t\"spotName\": \"VitaminsRow2_Content\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display suggestive sellings in the wish list page.\",\n\t\t\t\"spotId\": \"11742\",\n\t\t\t\"spotName\": \"WishListCenter_CatEntries\",\n\t\t\t\"type\"\
+      : \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Accessories for Women\",\n\t\t\t\"spotId\": \"11632\",\n\t\t\t\"spotName\": \"WomenAccessoriesProductRight_CatEntries\",\n\t\t\t\"type\": \"\
+      MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Accessories category page\",\n\t\t\t\"spotId\": \"11692\",\n\t\t\t\"spotName\": \"WomenAccessoriesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"\
+      uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Handbags for Women\",\n\t\t\t\"spotId\": \"11631\",\n\t\t\t\"spotName\": \"WomenHandbagsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\"\
+      : 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Handbags category page\",\n\t\t\t\"spotId\": \"11693\",\n\t\t\t\"spotName\": \"WomenHandbagsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"\
+      description\": \"Product Recommendation in Pants for Women\",\n\t\t\t\"spotId\": \"11629\",\n\t\t\t\"spotName\": \"WomenPantsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"\
+      Display ads on Pants category page\",\n\t\t\t\"spotId\": \"11694\",\n\t\t\t\"spotName\": \"WomenPantsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display the main ad on Women category\
+      \ page\",\n\t\t\t\"spotId\": \"11703\",\n\t\t\t\"spotName\": \"WomenRow1_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display category recommendations on Women category page\",\n\t\t\t\"\
+      spotId\": \"11705\",\n\t\t\t\"spotName\": \"WomenRow3_Categories\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display catalog entry recommendations on Women category page. If more than four catalog\
+      \ entries are displayed, this e-Marketing Spot will have pagination.\",\n\t\t\t\"spotId\": \"11707\",\n\t\t\t\"spotName\": \"WomenRow4_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product\
+      \ Recommendation in Shirts and Blouses for Women\",\n\t\t\t\"spotId\": \"11626\",\n\t\t\t\"spotName\": \"WomenShirtsBlousesProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"\
+      Display ads on Shirts and Blouses category page\",\n\t\t\t\"spotId\": \"11695\",\n\t\t\t\"spotName\": \"WomenShirtsBlousesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation\
+      \ in Shoes for Women\",\n\t\t\t\"spotId\": \"11630\",\n\t\t\t\"spotName\": \"WomenShoesProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Shoes category page\"\
+      ,\n\t\t\t\"spotId\": \"11696\",\n\t\t\t\"spotName\": \"WomenShoesRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Skirts for Women\",\n\t\t\t\"spotId\": \"11628\"\
+      ,\n\t\t\t\"spotName\": \"WomenSkirtsProductRight_CatEntries\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Skirts category page\",\n\t\t\t\"spotId\": \"11697\",\n\t\t\t\"spotName\"\
+      : \"WomenSkirtsRow2_Content\",\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Product Recommendation in Sweaters for Women \",\n\t\t\t\"spotId\": \"11627\",\n\t\t\t\"spotName\": \"WomenSweatersProductRight_CatEntries\"\
+      ,\n\t\t\t\"type\": \"MARKETING\",\n\t\t\t\"uiDisplayable\": 1\n\t\t},\n\t\t{\n\t\t\t\"description\": \"Display ads on Sweaters category page\",\n\t\t\t\"spotId\": \"11698\",\n\t\t\t\"spotName\": \"WomenSweatersRow2_Content\",\n\t\t\t\"type\": \"MARKETING\"\
+      ,\n\t\t\t\"uiDisplayable\": 1\n\t\t}\n\t],\n\t\"recordSetComplete\": true,\n\t\"recordSetCount\": 160,\n\t\"recordSetStartNumber\": 0,\n\t\"recordSetTotal\": 160,\n\t\"resourceId\": \"http:\\/\\/toko-wcs-02.coremedia.vm\\/wcs\\/resources\\/store\\/10202\\\
+      /spot\",\n\t\"resourceName\": \"spot\"\n}"

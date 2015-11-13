@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contentRepository xmlns="http://www.coremedia.com/2010/content"
+                   xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="classpath:com/coremedia/blueprint/base/testing/blueprint-doctypes-xmlrepo.xml"/>
+
+  <!--
+    Test content for the SearchServiceTest
+  -->
+  <content>
+    <folder id="1" name="">
+      <folder id="11" name="Sites">
+        <folder id="111" name="LocationTaxonomySiteFolder">
+          <folder id="1111" name="Navigation">
+            <document id="2" name="LocationTaxonomySite" type="CMSite">
+              <!--
+                The Site Indicator for the site, references the Root Channel.
+                Needed to resolve the first URL segment ("root")
+              -->
+              <version number="1">
+                <linkProperty name="root">
+                  <link id="4"/>
+                </linkProperty>
+                <stringProperty name="locale" value="en"/>
+                <stringProperty name="id" value="locationTaxonomySite"/>
+                <stringProperty name="name" value="locationTaxonomySite"/>
+              </version>
+            </document>
+
+            <document id="4" name="LocationTaxonomyNavigation" type="CMChannel">
+              <!-- The Root Channel of the site. -->
+              <version number="1">
+                <stringProperty name="segment" value="locationTaxonomyNavigation"/>
+              </version>
+            </document>
+          </folder>
+
+          <folder id="1113" name="Editorial">
+            <document id="12" type="CMArticle" name="LocationTaxonomyArticle">
+              <version number="1">
+                <stringProperty name="segment" value="locationTaxonomyArticle"/>
+                <linkProperty name="contexts">
+                  <link id="4"/>
+                </linkProperty>
+                <linkProperty name="locationTaxonomy">
+                  <link id="42"/>
+                </linkProperty>
+                <linkProperty name="subjectTaxonomy">
+                  <link id="46"/>
+                </linkProperty>
+              </version>
+            </document>
+          </folder>
+        </folder>
+
+        <folder id="113" name="SubjectTaxonomySiteFolder">
+          <folder id="1131" name="Navigation">
+            <document id="22" name="SubjectTaxonomySite" type="CMSite">
+              <!--
+                The Site Indicator for the site, references the Root Channel.
+                Needed to resolve the first URL segment ("root")
+              -->
+              <version number="1">
+                <linkProperty name="root">
+                  <link id="24"/>
+                </linkProperty>
+                <stringProperty name="locale" value="en"/>
+                <stringProperty name="id" value="subjectTaxonomySite"/>
+                <stringProperty name="name" value="subjectTaxonomySite"/>
+              </version>
+            </document>
+
+            <document id="24" name="SubjectTaxonomyNavigation" type="CMChannel">
+              <!-- The Root Channel of the site. -->
+              <version number="1">
+                <stringProperty name="segment" value="subjectTaxonomyNavigation"/>
+                <linkProperty name="headerItems">
+                  <link id="22"/>
+                </linkProperty>
+              </version>
+            </document>
+          </folder>
+
+          <folder id="1133" name="Editorial">
+            <document id="32" type="CMArticle" name="SubjectTaxonomyArticle">
+              <version number="1">
+                <stringProperty name="segment" value="subjectTaxonomyArticle"/>
+                <linkProperty name="contexts">
+                  <link id="24"/>
+                </linkProperty>
+                <linkProperty name="subjectTaxonomy">
+                  <link id="44"/>
+                  <link id="46"/>
+                </linkProperty>
+              </version>
+            </document>
+          </folder>
+        </folder>
+      </folder>
+
+      <folder id="13" name="Settings">
+        <folder id="131" name="Taxomonies">
+          <folder id="1311" name="Location">
+            <folder id="13111" name="LocationTaxonomyFolder">
+              <document id="42" type="CMLocTaxonomy" name="LocationTaxonomy">
+                <version number="1">
+                  <stringProperty name="name" value="LocationTaxonomy"/>
+                </version>
+              </document>
+            </folder>
+          </folder>
+          <folder id="1313" name="Subject">
+            <folder id="13131" name="SubjectTaxonomyFolder">
+              <document id="44" type="CMTaxonomy" name="SubjectTaxonomy">
+                <version number="1">
+                  <stringProperty name="name" value="SubjectTaxonomy"/>
+                </version>
+              </document>
+            </folder>
+          </folder>
+          <folder id="1315" name="CrosslinkingTaxonomy">
+            <folder id="13151" name="CrosslinkingTaxonomyFolder">
+              <document id="46" type="CMTaxonomy" name="CrosslinkingTaxonomy">
+                <version number="1">
+                  <stringProperty name="name" value="CrosslinkingTaxonomy"/>
+                </version>
+              </document>
+            </folder>
+          </folder>
+        </folder>
+      </folder>
+
+    </folder>
+  </content>
+  <rules>
+    <rule resourceId="1" group="0" doctype="Folder_">
+      <right value="ALL"/>
+    </rule>
+    <rule resourceId="1" group="0" doctype="Document_">
+      <right value="ALL"/>
+    </rule>
+  </rules>
+</contentRepository>

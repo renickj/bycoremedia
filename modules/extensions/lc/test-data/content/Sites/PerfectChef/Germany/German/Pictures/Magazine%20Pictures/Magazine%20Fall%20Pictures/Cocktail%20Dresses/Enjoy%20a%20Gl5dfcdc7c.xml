@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Magazine Pictures/Magazine Fall Pictures/Cocktail Dresses" name="Enjoy a Glamorous Party Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Cocktail%20Dresses/Enjoy3be24f32.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Cocktail%20Dresses/Enjoy%20a%20Glamorous%20Party%20Picture"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">flip;d=h/b;a=0;c=1/crop;x=773;y=0;width=879;height=1363</StringProperty>
+<StringProperty Name="portrait_ratio3x4">flip;d=h/b;a=0;c=1/crop;x=674;y=0;width=1017;height=1363</StringProperty>
+<StringProperty Name="portrait_ratio1x1">flip;d=h/b;a=0;c=1/crop;x=509;y=0;width=1361;height=1363</StringProperty>
+<StringProperty Name="landscape_ratio4x3">flip;d=h/b;a=0;c=1/crop;x=443;y=0;width=1407;height=1059</StringProperty>
+<StringProperty Name="landscape_ratio16x9">flip;d=h/b;a=0;c=1/crop;x=297;y=106;width=1751;height=986</StringProperty>
+<StringProperty Name="landscape_ratio2x1">flip;d=h/b;a=0;c=1/crop;x=172;y=146;width=1876;height=940</StringProperty>
+<StringProperty Name="landscape_ratio5x2">flip;d=h/b;a=0;c=1/crop;x=0;y=165;width=2048;height=820</StringProperty>
+<StringProperty Name="landscape_ratio8x3">flip;d=h/b;a=0;c=1/crop;x=112;y=172;width=1936;height=728</StringProperty>
+<StringProperty Name="landscape_ratio4x1">flip;d=h/b;a=0;c=1/crop;x=172;y=112;width=1876;height=470</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.3774193548387097;y1=0;x2=0.8064516129032258;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.3290322580645161;y1=0;x2=0.8258064516129032;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.24838709677419357;y1=0;x2=0.9129032258064516;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.2161290322580645;y1=0;x2=0.9032258064516129;y2=0.7766990291262136</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.14516129032258063;y1=0.07766990291262135;x2=1;y2=0.8009708737864077</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.08387096774193548;y1=0.10679611650485436;x2=1;y2=0.7961165048543689</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.12135922330097088;x2=1;y2=0.7233009708737864</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.054838709677419356;y1=0.1262135922330097;x2=1;y2=0.6601941747572816</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.08387096774193548;y1=0.0825242718446602;x2=1;y2=0.42718446601941745</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">true</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Genießen Sie eine glamouröse Party</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Genießen Sie eine glamouröse Party</alt>
+<copyright>stockyimages / Shutterstock 136544468</copyright>
+<data md5="d082d30074678cd6d2e4c54f4e0b9c83" href="../../../../../../../../__blob/d082d30074678cd6d2e4c54f4e0b9c83.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

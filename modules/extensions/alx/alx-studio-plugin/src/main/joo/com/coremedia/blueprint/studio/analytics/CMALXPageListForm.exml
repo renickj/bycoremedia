@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:u="exml:untyped"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:alx="exml:com.coremedia.blueprint.studio.config.analytics"
+                xmlns:bpforms="exml:com.coremedia.blueprint.studio.config"
+                xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
+                xmlns:bpb-components="exml:com.coremedia.blueprint.base.components.config">
+
+  <exml:description>
+     The form used to edit a document of type CMALXPageList.
+  </exml:description>
+
+  <exml:import class="com.coremedia.blueprint.studio.analytics.AnalyticsStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.analytics.AnalyticsStudioPluginDocTypes_properties"/>
+  <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
+
+  <editor:documentTabPanel>
+    <items>
+      <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_content_title}">
+        <items>
+          <bpforms:teaserDocumentForm cls="padding-bottom-none"/>
+          <editor:collapsibleFormPanel itemId="alxPageListDefaultContentForm"
+                                       title="{AnalyticsStudioPluginDocTypes_properties.INSTANCE.CMALXPageList_defaultContent_text}">
+            <items>
+              <bp:imageLinkListPropertyField contentType="CMPicture"
+                                             hideLabel="true"
+                                             propertyName="defaultContent"
+                                             bindTo="{config.bindTo}">
+                <bp:additionalToolbarItems>
+                  <tbseparator/>
+                  <bpb-components:quickCreateLinklistMenu bindTo="{config.bindTo}"
+                                              propertyName="defaultContent"/>
+                </bp:additionalToolbarItems>
+              </bp:imageLinkListPropertyField>
+            </items>
+          </editor:collapsibleFormPanel>
+          <editor:collapsibleFormPanel itemId="alxPageListGenericForm"
+                                       title="{AnalyticsStudioPlugin_properties.INSTANCE.SpacerTitle_generic}"
+                                       cls="padding-bottom-5">
+            <items>
+              <alx:filteringContentTypeStringPropertyField propertyName="documentType"
+                                                           baseType="CMLinkable"
+                                                           anchor=""/>
+              <bp:extendedLinkListPropertyField propertyName="baseChannel">
+                <bp:additionalToolbarItems>
+                  <tbseparator/>
+                  <bpb-components:quickCreateToolbarButton bindTo="{config.bindTo}"
+                                               contentType="CMChannel"
+                                               propertyName="baseChannel"/>
+                </bp:additionalToolbarItems>
+              </bp:extendedLinkListPropertyField>
+              <editor:spinnerPropertyField propertyName="maxLength"
+                                           minValue="1"/>
+              <editor:spinnerPropertyField propertyName="timeRange"
+                                           minValue="1"/>
+              <alx:analyticsProviderComboBox propertyName="analyticsProvider"/>
+            </items>
+          </editor:collapsibleFormPanel>
+          <bpforms:viewTypeSelectorForm collapsed="false"/>
+          <bpforms:validityDocumentForm/>
+        </items>
+      </editor:documentForm>
+      <bpforms:multiLanguageDocumentForm/>
+      <bpforms:metaDataWithoutSettingsForm/>
+    </items>
+  </editor:documentTabPanel>
+</exml:component>

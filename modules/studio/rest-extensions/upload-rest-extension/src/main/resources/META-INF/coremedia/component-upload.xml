@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <import resource="classpath:com/coremedia/cap/common/uapi-services.xml"/>
+  <import resource="classpath:com/coremedia/mimetype/mimetype-service.xml"/>
+  <import resource="classpath:com/coremedia/rest/cap/cap-rest-service.xml"/>
+  <import resource="classpath:/META-INF/coremedia/component-configurations-rest-service.xml"/>
+
+  <bean id="uploadResource" class="com.coremedia.blueprint.studio.rest.UploadResource">
+    <property name="capConnection" ref="connection"/>
+    <property name="mimeTypeService" ref="mimeTypeService"/>
+    <property name="interceptService" ref="interceptService"/>
+    <property name="cache" ref="cache"/>
+    <property name="configurationService" ref="configurationService"/>
+    <property name="linkResolver" ref="linkResolver"/>
+    <property name="restBlobService" ref="restBlobService"/>
+  </bean>
+
+  <bean id="pictureUploadInterceptor" class="com.coremedia.blueprint.studio.rest.intercept.PictureUploadInterceptor">
+    <property name="type" value="CMPicture"/>
+    <property name="imageProperty" value="data"/>
+    <property name="maxDimension" value="4000"/>
+    <property name="blobTransformer" ref="blobTransformer"/>
+    <property name="extractor" ref="imageDimensionsExtractor"/>
+  </bean>
+
+</beans>

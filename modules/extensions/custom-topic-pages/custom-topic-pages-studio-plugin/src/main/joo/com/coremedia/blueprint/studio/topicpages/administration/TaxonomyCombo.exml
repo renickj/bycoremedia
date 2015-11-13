@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                baseClass="com.coremedia.blueprint.studio.topicpages.administration.TaxonomyComboBase">
+
+  <exml:import class="com.coremedia.ui.data.ValueExpression"/>
+  <exml:import class="com.coremedia.blueprint.studio.topicpages.TopicPages_properties"/>
+
+  <exml:cfg name="selectionExpression" type="ValueExpression">
+    <exml:description>Contains the selected taxonomy</exml:description>
+  </exml:cfg>
+
+  <ui:localComboBox fieldLabel="{TopicPages_properties.INSTANCE.TopicPages_taxonomy_combo_title}"
+                    anchor="100%"
+                    valueField="id"
+                    emptyText="{TopicPages_properties.INSTANCE.TopicPages_taxonomy_combo_emptyText}"
+                    displayField="path"
+                    encodeItems="true">
+    <plugins mode="append">
+      <editor:comboBoxAutoWidthPlugin/>
+      <ui:bindListPlugin bindTo="{getTaxonomiesExpression()}">
+        <ui:fields>
+          <ui:dataField name="id"/>
+          <ui:dataField name="path" convert="{formatDisplayName}" encode="false"/>
+        </ui:fields>
+      </ui:bindListPlugin>
+    </plugins>
+  </ui:localComboBox>
+</exml:component>

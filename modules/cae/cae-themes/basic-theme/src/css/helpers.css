@@ -1,0 +1,72 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/* =====================================================================================================================
+   Helper classes
+   ================================================================================================================== */
+
+/* Image replacement */
+.cm-ir {
+  overflow: hidden;
+  border: 0;
+  background-color: transparent;
+}
+
+.cm-ir:before {
+  display: block;
+  width: 0;
+  height: 150%;
+  content: "";
+}
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.cm-hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.cm-visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+}
+
+/* Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p*/
+.cm-visuallyhidden.focusable:active,
+.cm-visuallyhidden.focusable:focus {
+  position: static;
+  overflow: visible;
+  clip: auto;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+/* Hide visually and from screenreaders, but maintain layout */
+.cm-invisible {
+  visibility: hidden;
+}
+
+/* Clearfix: contain floats */
+.cm-clearfix:before,
+.cm-clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.cm-clearfix:after {
+  clear: both;
+}
+
+.cm-notselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

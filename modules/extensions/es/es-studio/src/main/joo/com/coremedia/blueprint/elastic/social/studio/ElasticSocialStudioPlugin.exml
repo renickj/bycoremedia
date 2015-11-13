@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:es="exml:com.coremedia.blueprint.elastic.social.studio.config"
+                xmlns:bpb-components="exml:com.coremedia.blueprint.base.components.config"
+                xmlns:elastic="exml:com.coremedia.elastic.social.studio.config">
+  <exml:import class="com.coremedia.blueprint.elastic.social.studio.ElasticSocialStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.elastic.social.studio.model.impl.ModerationImpl"/>
+  <exml:import class="com.coremedia.cap.content.Content"/>
+  <exml:import class="com.coremedia.ui.data.ValueExpressionFactory"/>
+  <exml:import class="com.coremedia.blueprint.studio.util.StudioUtil"/>
+  <exml:import class="com.coremedia.blueprint.elastic.social.studio.curated.CuratedUtil"/>
+  <exml:import class="com.coremedia.cms.editor.ContentTypes_properties"/>
+
+  <exml:constant name="CURATED_TRANSFER_EXTENSION_POINT_SEP_FIRST_ITEM_ID" value="curatedTransferExtensionPointSepFirst">
+    <exml:description>
+       The itemId of the first curatedTransferExtensionPoint button group separator.
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="CURATED_TRANSFER_EXTENSION_POINT_SEP_SECOND_ITEM_ID" value="curatedTransferExtensionPointSepSecond">
+    <exml:description>
+       The itemId of the second curatedTransferExtensionPoint button group separator.
+    </exml:description>
+  </exml:constant>
+
+  <exml:constant name="CURATED_TRANSFER_EXTENSION_POINT_SEP_THIRD_ITEM_ID" value="curatedTransferExtensionPointSepThird">
+    <exml:description>
+       The itemId of the third curatedTransferExtensionPoint button group separator.
+    </exml:description>
+  </exml:constant>
+
+  <editor:studioPlugin>
+    <ui:rules>
+      <editor:documentFormDispatcher>
+        <plugins>
+          <ui:addArrayItemsPlugin arrayProperty="lazyItems">
+            <ui:items>
+              <es:cmMailForm itemId="CMMail"/>
+              <es:esDynamicListForm itemId="ESDynamicList"/>
+            </ui:items>
+          </ui:addArrayItemsPlugin>
+        </plugins>
+      </editor:documentFormDispatcher>
+
+      <editor:tabbedDocumentFormDispatcher>
+        <plugins>
+          <editor:addTabbedDocumentFormsPlugin>
+            <editor:documentTabPanels>
+              <es:cmMailForm itemId="CMMail"/>
+              <es:esDynamicListForm itemId="ESDynamicList"/>
+            </editor:documentTabPanels>
+          </editor:addTabbedDocumentFormsPlugin>
+        </plugins>
+      </editor:tabbedDocumentFormDispatcher>
+
+      <elastic:commentExtensionTabPanel>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <!--
+              This is an example of how you can add custom components to the comment extension container
+              inside the moderation-tab and access the REST resource.
+              -->
+              <!-- <panel title="customStuff" layout="form" autoHeight="true"  cls="elastic-extensionTab">
+                <items>
+                  <elastic:elasticPluginLabel fieldLabel="Note"
+                                              expression="activeContributionAdministration.displayed.note"/>
+                </items>
+              </panel>-->
+            </ui:items>
+          </ui:addItemsPlugin>
+        </plugins>
+      </elastic:commentExtensionTabPanel>
+
+      <elastic:userProfileExtensionTabPanel>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <!--
+              This is an example of how you can add custom components to the user profile extension container
+              inside the moderation-tab and access the REST resource.
+              -->
+              <!-- <panel title="customProfileStuff" layout="form" autoHeight="true" cls="elastic-extensionTab">
+                <items>
+                  <elastic:elasticPluginLabel fieldLabel="Note"
+                                              expression="activeContributionAdministration.displayed.note"/>
+                </items>
+              </panel>-->
+            </ui:items>
+          </ui:addItemsPlugin>
+        </plugins>
+      </elastic:userProfileExtensionTabPanel>
+
+      <elastic:customUserInformationContainer>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <!--
+              This is an example of how you can add custom components to the user management window
+              and access the REST resource.
+              -->
+              <!--<container layout="form" autoHeight="true">
+                <items>
+                  <elastic:elasticPluginLabel fieldLabel="Note"
+                                              expression="userAdministration.edited.note"/>
+                </items>
+              </container>-->
+            </ui:items>
+          </ui:addItemsPlugin>
+        </plugins>
+      </elastic:customUserInformationContainer>
+
+      <elastic:curatedTransferExtensionPoint>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <tbseparator itemId="{CURATED_TRANSFER_EXTENSION_POINT_SEP_FIRST_ITEM_ID}"/>
+              <ui:iconButtonMedium itemId="createArticleBtn"
+                                   tooltip="{ElasticSocialStudioPlugin_properties.INSTANCE.curated_content_create_article_button_tooltip}"
+                                   iconCls="btn-add-article">
+                <baseAction>
+                  <bpb-components:openQuickCreateAction contentType="CMArticle"
+                                            skipInitializers="true"
+                                            onSuccess="{CuratedUtil.postCreateArticleFromComments}" />
+                </baseAction>
+              </ui:iconButtonMedium>
+              <tbseparator itemId="{CURATED_TRANSFER_EXTENSION_POINT_SEP_SECOND_ITEM_ID}"/>
+              <ui:iconButtonMedium itemId="createPictureBtn"
+                                   tooltip="{ElasticSocialStudioPlugin_properties.INSTANCE.curated_content_create_gallery_button_tooltip}"
+                                   iconCls="btn-add-image-gallery">
+                <baseAction>
+                  <bpb-components:openQuickCreateAction contentType="CMGallery"
+                                            skipInitializers="true"
+                                            onSuccess="{CuratedUtil.postCreateGalleryFromComments}" />
+                </baseAction>
+              </ui:iconButtonMedium>
+              <tbseparator itemId="{CURATED_TRANSFER_EXTENSION_POINT_SEP_THIRD_ITEM_ID}"/>
+            </ui:items>
+          </ui:addItemsPlugin>
+        </plugins>
+      </elastic:curatedTransferExtensionPoint>
+    </ui:rules>
+
+    <editor:configuration>
+      <editor:copyResourceBundleProperties destination="{ContentTypes_properties}"
+                                           source="{ElasticSocialStudioPlugin_properties}"/>
+    </editor:configuration>
+  </editor:studioPlugin>
+</exml:component>

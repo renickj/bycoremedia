@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:livecontext="exml:com.coremedia.livecontext.studio.config">
+  <exml:import class="com.coremedia.ecommerce.studio.model.ProductPropertyNames"/>
+  <exml:import class="com.coremedia.ecommerce.studio.model.CatalogObjectPropertyNames"/>
+  <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
+  <exml:import class="com.coremedia.ui.data.ValueExpressionFactory"/>
+  <exml:import class="com.coremedia.cms.editor.sdk.util.RichTextPlainTextTransformer"/>
+  <exml:import class="com.coremedia.livecontext.studio.LivecontextStudioPlugin_properties"/>
+
+  <exml:var name="BUNDLE" value="{LivecontextStudioPlugin_properties.INSTANCE}" type="LivecontextStudioPlugin_properties"/>
+
+  <editor:documentForm title="{BUNDLE.Commerce_Tab_content_title}">
+    <items>
+      <editor:collapsibleFormPanel title="{BUNDLE.Commerce_PropertyGroup_details_title}" itemId="productDetails">
+        <items>
+          <ui:textFieldContainer itemId="{CatalogObjectPropertyNames.NAME}"
+            fieldLabel="{BUNDLE.Commerce_Product_name_label}"
+            propertyPath="{CatalogObjectPropertyNames.NAME}"
+            readOnly="true"
+            />
+          <ui:textAreaContainer itemId="{CatalogObjectPropertyNames.LONG_DESCRIPTION}"
+            fieldLabel="{BUNDLE.Commerce_description_label}"
+            propertyValueExpression="{ValueExpressionFactory.createTransformingValueExpression(
+                config.bindTo.extendBy(CatalogObjectPropertyNames.LONG_DESCRIPTION),
+                RichTextPlainTextTransformer.convertToPlainText
+              )}"
+            readOnly="true"
+            initialHeight="{23*12}"
+            />
+          <ui:textAreaContainer itemId="{CatalogObjectPropertyNames.SHORT_DESCRIPTION}"
+            fieldLabel="{BUNDLE.Commerce_shortDescription_label}"
+            propertyValueExpression="{ValueExpressionFactory.createTransformingValueExpression(
+                config.bindTo.extendBy(CatalogObjectPropertyNames.SHORT_DESCRIPTION),
+                RichTextPlainTextTransformer.convertToPlainText
+              )}"
+            propertyPath="{CatalogObjectPropertyNames.SHORT_DESCRIPTION}"
+            readOnly="true"
+            initialHeight="{23*3}"
+            />
+        </items>
+      </editor:collapsibleFormPanel>
+
+      <editor:collapsibleFormPanel title="{BUNDLE.Commerce_Product_PropertyGroup_prices_title}" itemId="prices">
+        <defaults>
+          <component itemCls="document-info-item"/>
+        </defaults>
+        <items>
+          <label cls="document-info-label-content"
+                 itemId="listPrice"
+                 fieldLabel="{BUNDLE.Commerce_Product_listPrice_label}">
+            <plugins>
+              <ui:bindPropertyPlugin componentProperty="text"
+                                     bindTo="{CatalogHelper.getInstance().getPriceWithCurrencyExpression(config.bindTo,
+              ProductPropertyNames.LIST_PRICE)}"
+                                     ifUndefined="{BUNDLE.Commerce_Product_listPrice_emptyText}"/>
+            </plugins>
+          </label>
+          <label cls="document-info-label-content"
+                 itemId="offerPrice"
+                 fieldLabel="{BUNDLE.Commerce_Product_offerPrice_label}">
+            <plugins>
+              <ui:bindPropertyPlugin componentProperty="text"
+                                     bindTo="{CatalogHelper.getInstance().getPriceWithCurrencyExpression(config.bindTo,
+              ProductPropertyNames.OFFER_PRICE)}"
+                                     ifUndefined="{BUNDLE.Commerce_Product_offerPrice_emptyText}"/>
+            </plugins>
+          </label>
+        </items>
+        <layout>
+          <formlayout labelSeparator=":"/>
+        </layout>
+      </editor:collapsibleFormPanel>
+
+      <livecontext:commerceAssetsForm itemId="assets"/>
+    </items>
+  </editor:documentForm>
+</exml:component>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMMarketingSpot folder="/Sites/PerfectChef/Germany/German/Navigation/e-Marketing Spots" name="Sitewide Viewed Products Related Box e-Marketing Spot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Navigation/e-Marketing%20Spots/Sitewide%20Viewed%20Products%20Related%20Box%20e-5bc697ff.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/e-Marketing%20Spots/Sitewide%20Viewed%20Products%20Related%20Box%20e-Marketing%20Spot"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Zuletzt angesehene Produkte</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> PC_RelatedBox_Recently_Viewed </p> </div></teaserText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+<maxLength>3</maxLength>
+<externalId>ibm:///catalog/marketingspot/PC_RelatedBox_Recently_Viewed</externalId>
+</CMMarketingSpot>

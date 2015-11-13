@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/How-To" name="How to sear and roast meats Vimeo Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-how-to-sear-roast-meats</segment>
+<title>How to sear and roast meats</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/How%20To.xml" path="/Settings/Taxonomies/Subject/How%20To"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Video%282%29.xml" path="/Settings/Taxonomies/Subject/Video%282%29"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Beef.xml" path="/Settings/Taxonomies/Subject/Beef"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pans.xml" path="/Settings/Taxonomies/Subject/Pans"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Baking%20Pans.xml" path="/Settings/Taxonomies/Subject/Baking%20Pans"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Chicken.xml" path="/Settings/Taxonomies/Subject/Chicken"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Sear Meats</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>See how we do the sear and roast with chicken breasts here.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Searing meats gives them a golden-caramelized color and then finishing it with a roast in the oven allows meat to cook evenly. See how we do the sear and roast with chicken breasts here.</p></div></detailText>
+<pictures>
+<link href="How%20to%20sear%20and%20roast%20meats%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/How-To/How%20to%20sear%20and%20roast%20meats%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>How to sear and roast meats</alt>
+<copyright>cooksmarts.com/Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/73503582</dataUrl>
+</CMVideo>

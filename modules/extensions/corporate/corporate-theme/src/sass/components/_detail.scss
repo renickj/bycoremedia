@@ -1,0 +1,135 @@
+// Imports
+@import "../base/imports";
+@import "../utils/imports";
+
+/*
+Details
+========================================================================================================================
+
+Contains styling definitions for all content types as cm-details.
+- cm-details
+- cm-details--product
+- cm-downloads
+- cm-related
+*/
+
+.cm-details {
+  margin-bottom: $padding-large-horizontal;
+  padding-bottom: $padding-large-horizontal;
+
+  @include spacer();
+
+  &__headline {
+    margin-top: 0;
+    margin-bottom: $padding-large-vertical;
+    padding: 0 $padding-base-vertical;
+
+    @include breakpoint(md) {
+      padding: 0;
+    }
+  }
+
+  &__pictures {
+    margin-bottom: $padding-large-vertical;
+  }
+
+  &__picture-box {
+    @include aspect-ratio-box(1, 1);
+
+    @include breakpoint(sm-and-up) {
+      @include aspect-ratio-box(5, 2);
+    }
+  }
+
+  &__picture {
+    @include stretch-absolute();
+  }
+
+  &__caption {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    text-shadow: none;
+    text-align: left;
+
+    .cm-caption__title {
+      color: palette(grey, light);
+      padding-top: 7px;
+    }
+
+    .cm-caption__text {
+      color: palette(grey, light);
+    }
+  }
+
+  &__text, &__code {
+    padding: 0 $padding-base-vertical;
+
+    @include breakpoint(md) {
+      padding: 0;
+    }
+  }
+
+  &__date {
+    margin-top: $padding-base-vertical;
+    text-align: right;
+    color: palette(grey, light);
+    padding: 0 $padding-base-vertical;
+
+    @include breakpoint(md) {
+      padding: 0;
+    }
+  }
+
+  /* product detail page */
+  &--product {
+    .cm-details {
+
+      &__headline {
+        font-size: font-format(h2, mobile);
+
+        @include breakpoint(sm-and-up) {
+          font-size: font-format(h2);
+        }
+      }
+    }
+  }
+}
+
+.cm-downloads {
+  padding: 0 $padding-base-vertical;
+
+  @include breakpoint(md) {
+    padding: 0;
+  }
+
+  &__items {
+    list-style: none;
+    margin: 0;
+    padding-left: $padding-base-vertical;
+  }
+
+  &__item {
+    line-height: 2;
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    span {
+      color: palette(grey, light);
+      padding-left: $padding-base-vertical;
+    }
+  }
+}
+
+.cm-related {
+  padding: 0 $padding-base-vertical;
+  margin-bottom: $padding-large-horizontal;
+
+  @include breakpoint(md) {
+    padding: 0;
+  }
+}

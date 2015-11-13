@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Navigation/Microsites/Meat Lovers" name="Meat Lovers Microsite Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Microsites/Meat%20Lovers/Meat%20Lovers%20Microsite%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Microsites/Meat%20Lovers/Meat%20Lovers%20Microsite%20Teaser"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Meat Lovers Unite</teaserTitle>
+<pictures>
+<link href="../../../Editorial/Content/Microsites/Meat%20Lovers/Pictures/Steak%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Microsites/Meat%20Lovers/Pictures/Steak%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Meat%20Lovers%20Microsite%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Microsites/Meat%20Lovers/Meat%20Lovers%20Microsite%20Page"/>
+</target>
+</CMTeaser>

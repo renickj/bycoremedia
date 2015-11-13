@@ -1,0 +1,425 @@
+/* =====================================================================================================================
+   Navigation classes
+   Contains styling definitions for navigation.
+   ================================================================================================================== */
+
+/* --- general ------------------------------------------------------------------------------------------------------ */
+.cm-navigation,
+.cm-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left; /* fixed icon */
+}
+
+/* only show nav is either dropdown or megamenu are set */
+.cm-navigation {
+  display: none;
+}
+
+/* --- mega-menu ---------------------------------------------------------------------------------------------------- */
+.mega-menu, .mega-menu li, .mega-menu ul, .mega-menu a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Root level (don't show) */
+.mega-menu {
+  display: block;
+  border-bottom: 1px solid #919191;
+  line-height: normal;
+}
+
+/* Root level (don't show label) */
+.mega-menu > li {
+  height: 35px;
+  text-align: left;
+}
+
+.mega-menu > li > a {
+  display: none;
+}
+
+/* 1st level */
+.mega-menu > li > ul {
+  font-size: 0; /* hide space between li */
+  white-space: nowrap; /* CMS-1626, fixes break of last li while resizing  */
+}
+
+.mega-menu > li > ul > li {
+  position: relative;
+  z-index: 2;
+  /* for 1024 width */
+  display: inline-block;
+  /* for 1200 width */
+  height: 36px;
+  border-bottom: 1px solid #919191;
+  border-left: 1px solid #919191;
+  background-color: #ffffff;
+  color: #373737;
+  text-align: center;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+.mega-menu > li > ul > li:hover {
+  z-index: 1;
+}
+
+.mega-menu > li > ul > li:first-child {
+  border-left: 1px solid rgba(0, 0, 0, 0);
+}
+
+.mega-menu > li > ul > li:first-child:hover {
+  border-left: 1px solid #919191;
+}
+
+.mega-menu > li > ul > li:last-child {
+  border-right: 1px solid rgba(0, 0, 0, 0);
+}
+
+.mega-menu > li > ul > li:last-child:hover {
+  border-right: 1px solid #919191;
+}
+
+.mega-menu > li > ul > li > a {
+  display: block;
+  padding: 0 5px;
+  color: #000000;
+  white-space: nowrap;
+  font-size: 18px;
+}
+
+/* 2nd level */
+.mega-menu > li > ul > li > ul {
+  position: absolute; /* relative to parent z-index so it is absolute 99 */
+  top: 35px;
+  left: -1px;
+  z-index: 2;
+  display: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.mega-menu > li > ul > li:hover > ul {
+  display: block;
+  border: 1px solid #919191;
+  border-top: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.mega-menu > li > ul > li > ul > li {
+  width: 100%;
+  text-align: left;
+  text-transform: none;
+}
+
+.mega-menu > li > ul > li > ul > li > a {
+  display: block;
+  padding: 0 28px;
+  width: 100%;
+  height: 100%;
+  color: #000000;
+  -webkit-transition: background 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+  -moz-transition: background 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+  -o-transition: background 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+  transition: background 0.3s ease-in-out 0s, color 0.3s ease-in-out 0s;
+}
+
+.mega-menu > li > ul > li > ul > li:hover {
+  background-color:#d4d4d4;
+}
+
+/* 3rd level */
+.mega-menu > li > ul > li > ul > li > ul {
+  position: absolute;
+  top: -1px;
+  left: 200%;
+  visibility: hidden;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  min-width: 100%;
+  min-height: 100%;
+  border: 1px solid #919191;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: all 0s ease-in 0.2s;
+  -moz-transition: all 0s ease-in 0.2s;
+  -o-transition: all 0s ease-in 0.2s;
+  transition: all 0s ease-in 0.2s;
+}
+
+.mega-menu > li > ul > li > ul > li:hover > ul {
+  left: 100%;
+  visibility: visible;
+}
+
+.mega-menu > li > ul > li > ul > li > ul > li a:hover {
+  background-color:#666666;
+}
+
+/* 4th level */
+.mega-menu > li > ul > li > ul > li > ul > li > a {
+  display: block;
+  padding: 0 28px;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+}
+
+/* additional levels */
+.mega-menu > li > ul > li > ul > li > ul > li li {
+  padding: 0 10px 0 0;
+}
+
+.mega-menu > li > ul > li > ul > li > ul > li li > a {
+  display: block;
+  padding: 0 43px;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+}
+
+/* special behavoiur: the fifth and all following menu items should popup to the left */
+.mega-menu > li > ul > li:nth-child(n+5) > ul {
+  right: -1px;
+  left: inherit;
+  box-shadow: -3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.mega-menu > li > ul > li:nth-child(n+5) > ul > li {
+  text-align: right;
+}
+
+.mega-menu > li > ul > li:nth-child(n+5) > ul > li > ul {
+  right: 200%;
+  left: inherit;
+}
+
+.mega-menu > li > ul > li:nth-child(n+5) > ul > li:hover > ul {
+  right: 100%;
+  left: inherit;
+}
+
+/* --- Dropdown menu ------------------------------------------------------------------------------------------------ */
+
+/* General */
+
+.cm-dropdown.cm-dropdown-menu {
+  display: block;
+  vertical-align: top;
+}
+
+.cm-dropdown .cm-dropdown-item {
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.cm-dropdown .cm-dropdown-item--active {
+  background-color: red;
+}
+
+.cm-dropdown .cm-dropdown-item > a {
+  display: block;
+  border-bottom: 1px solid #808080;
+  line-height: 100%;
+  text-decoration: none;
+}
+
+.cm-dropdown .cm-dropdown-item {
+  background-color: #ffffff;
+}
+
+.cm-dropdown .cm-dropdown-item:nth-child(2n) {
+  background-color: #e5e5e5;
+}
+
+/* overwrite for opened sub menus */
+.cm-dropdown .cm-dropdown-item--min-level1.cm-dropdown-menu--opened {
+  background-color: #e5e5e5;
+}
+
+/* hide buttons in leaf items */
+.cm-dropdown .cm-dropdown-item--leaf .cm-dropdown-button {
+  display: none;
+}
+
+/* links in a leaf item do not have a border between hidden button and link */
+.cm-dropdown .cm-dropdown-item.cm-dropdown-item--leaf > a:after {
+  display: none;
+}
+
+.cm-dropdown .cm-dropdown-button {
+  z-index: 1;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  color: #373736;
+}
+
+/* open buttons are floating right */
+.cm-dropdown .cm-dropdown-button.cm-dropdown-button--open {
+  float: right;
+}
+
+/* close buttons are floating right */
+.cm-dropdown .cm-dropdown-button.cm-dropdown-button--close {
+  float: left;
+}
+
+/* hide all back buttons ... */
+.cm-dropdown .cm-dropdown-menu--opened > .cm-dropdown-button,
+.cm-dropdown .cm-dropdown-menu--opened > a {
+  display: none;
+}
+
+/* .. except for last opened */
+.cm-dropdown .cm-dropdown-menu--active > .cm-dropdown-button,
+.cm-dropdown .cm-dropdown-menu--active > a {
+  display: block;
+}
+
+/* 1st level */
+
+/* only first level */
+/* only for cm-placement-header */
+
+.cm-placement-header .cm-dropdown .cm-dropdown-item--level1 {
+  position: static;
+}
+
+/* only show button, not link */
+.cm-placement-header .cm-dropdown .cm-dropdown-item--level1 > a {
+  display: none;
+}
+
+.cm-placement-header .cm-dropdown .cm-dropdown-button--level1 {
+  position: absolute;
+  display: inline-block;
+  padding: 4px 0 0;
+}
+
+.cm-placement-header .cm-dropdown .cm-dropdown-button--level1.cm-dropdown-button--open {
+  float: none;
+}
+
+
+.cm-placement-header .cm-dropdown .cm-dropdown-menu--opened .cm-dropdown-button--level1 {
+  display: block; /* always show root button */
+  z-index: 2;
+}
+
+/* make everything else unclickable in header */
+.cm-placement-header .cm-dropdown .cm-dropdown-item--level1.cm-dropdown-menu--opened:before {
+  position: absolute;
+  top: 0;
+  /* to be fixed, menu should not be overlayed */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -8000px;
+  background-color: rgba(0, 0, 0, 0.75);
+  content: "";
+}
+
+.cm-placement-header .cm-dropdown .cm-dropdown-item--level1.cm-dropdown-menu--opened:after {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 0;
+  background-color: transparent;
+  content: "";
+}
+
+/* 2nd level */
+
+/* only for cm-placement-header */
+
+/* in cm-placement-header menu level-2 is an overlay */
+.cm-placement-header .cm-dropdown .cm-dropdown-menu--level2 {
+  position: absolute;
+  right: 0;
+  left: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #919191;
+  border-bottom: none;
+  background-color: #ffffff;
+}
+
+.cm-placement-header .cm-dropdown .cm-dropdown-item--level2 {
+  background-color: #e5e5e5;
+}
+
+.cm-placement-header .cm-dropdown .cm-dropdown-item--level2:nth-child(2n) {
+  background-color: #ffffff;
+}
+
+.cm-placement-header .cm-dropdown .cm-dropdown-item--level2.cm-dropdown-menu--opened {
+  background-color: #e5e5e5;
+}
+
+/* --- footer ------------------------------------------------------------------------------------------------------- */
+.cm-navigation--footer {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  text-align: left;
+}
+
+/* apply hover effect to links even if the are empty */
+.cm-placement-footer .cm-dropdown .cm-dropdown-item > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cm-placement-footer .cm-dropdown .cm-dropdown-item--min-level2 {
+  background-color: #e5e5e5;
+}
+
+.cm-placement-footer .cm-dropdown .cm-dropdown-item--min-level2:nth-child(2n) {
+  background-color: #ffffff;
+}
+
+.cm-placement-footer .cm-dropdown .cm-dropdown-item--min-level1.cm-dropdown-menu--opened {
+  background-color: #ffffff;
+}
+
+/* --- breadcrumb --------------------------------------------------------------------------------------------------- */
+
+.cm-breadcrumb {
+  padding: 0;
+  margin: 0 0 0 15px;
+  height: 40px;
+  line-height: 40px;
+  list-style: none;
+}
+
+.cm-breadcrumb > .cm-breadcrumb__item {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 200px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cm-breadcrumb > .cm-breadcrumb__item,
+.cm-breadcrumb > .cm-breadcrumb__item > a {
+  color: #000;
+}
+
+.cm-breadcrumb > .cm-breadcrumb__item:nth-child(n+2):before {
+  margin: 0 5px;
+  content: ">";
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSite folder="/Sites/PerfectChef/United States/English/Navigation" name="PerfectChef [Site]" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<id>83289cc492e6e12df0b3d87d84a460bb</id>
+<name>PerfectChef</name>
+<root>
+<link href="Perfect%20Chef%20USA.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Perfect%20Chef%20USA"/>
+</root>
+<siteManagerGroup>manager-en-US</siteManagerGroup>
+</CMSite>

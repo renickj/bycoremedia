@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util.xsd">
+  <import resource="classpath:/com/coremedia/cae/contentbean-services.xml"/>
+  <import resource="classpath:/com/coremedia/cae/dataview-services.xml"/>
+  <import resource="classpath:/com/coremedia/blueprint/base/settings/impl/bpbase-settings-services.xml"/>
+
+  <bean id="cmlinkableBeanSettingsFinder" class="com.coremedia.blueprint.cae.settings.CMLinkableBeanSettingsFinder">
+    <property name="contentBeanFactory" ref="contentBeanFactory"/>
+    <property name="dataViewFactory" ref="dataViewFactory"/>
+  </bean>
+
+  <bean id="pageSettingsFinder" class="com.coremedia.blueprint.cae.settings.PageSettingsFinder"/>
+
+  <util:list id="imageMapAreaFilters" value-type="com.coremedia.blueprint.common.imagemap.ImageMapAreaFilterable" />
+
+  <customize:append id="contentBeanSettingsFinders" bean="settingsFinders">
+    <description>
+      Registers some SettingsFinders which work on the contentbean layer.
+      These finders delegate to the UAPI layer and thus work only if additional
+      according SettingsFinders are configured. (S. settings-services.xml)
+    </description>
+    <map>
+      <entry key="com.coremedia.blueprint.common.contentbeans.CMLinkable" value-ref="cmlinkableBeanSettingsFinder"/>
+      <entry key="com.coremedia.blueprint.common.contentbeans.Page" value-ref="pageSettingsFinder"/>
+    </map>
+  </customize:append>
+
+</beans>

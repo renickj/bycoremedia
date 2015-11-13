@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                baseClass="com.coremedia.blueprint.studio.externallibrary.IFrameWindowBase">
+
+  <exml:cfg name="url" type="String"/>
+  <exml:cfg name="title" type="String"/>
+
+  <window itemId="iFrameWindow"
+          title="{config.title}"
+          cls="standard-collapsible-window"
+          width="1024"
+          height="800"
+          collapsible="true"
+          hideBorders="true"
+          layout="border">
+    <items>
+      <label itemId="embedded"
+             region="center"
+             width="100%"
+             height="100%"/>
+    </items>
+  </window>
+
+</exml:component>

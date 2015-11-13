@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config"
+                xmlns:ui="exml:com.coremedia.ui.config"
+                baseClass="com.coremedia.blueprint.studio.upload.dialog.FileContainerBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.UploadStudioPlugin_properties"/>
+  <exml:import class="com.coremedia.cms.editor.Editor_properties"/>
+  <exml:import class="ext.Template"/>
+
+  <exml:cfg name="file" type="com.coremedia.blueprint.studio.upload.FileWrapper">
+    <exml:description>The selected content if dialog opened from library or null</exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="uploadSettings" type="com.coremedia.blueprint.studio.upload.UploadSettings">
+    <exml:description>The common settings for uploads.</exml:description>
+  </exml:cfg>
+
+  <exml:constant name="NAME_PROPERTY" value="{FileWrapper.NAME_PROPERTY}">
+    <exml:description>A constant for the file name</exml:description>
+  </exml:constant>
+
+  <exml:constant name="MIME_TYPE_PROPERTY" value="{FileWrapper.MIME_TYPE_PROPERTY}">
+    <exml:description>A constant for the mime type</exml:description>
+  </exml:constant>
+
+  <exml:constant name="FILE_TYPE_PROPERTY" value="{FileWrapper.FILE_TYPE_PROPERTY}">
+    <exml:description>A constant for the extension type</exml:description>
+  </exml:constant>
+
+  <container height="77"
+             layout="border"
+             cls="file-container">
+    <items>
+      <container itemId="preview"
+                 region="west"
+                 cls="file-container-west"
+                 width="102"
+                 height="75"
+                 margins="0 6 0 0"/>
+      <container region="center"
+                 cls="file-container-center"
+                 layout="anchor">
+        <items>
+          <label cls="x-form-item-label"
+                 text="{UploadStudioPlugin_properties.INSTANCE.Upload_document_name}"/>
+
+          <textfield cls="border-box-textfield"
+                     allowBlank="false"
+                     itemId="filename">
+            <listeners>
+              <exml:object change="{filenameChanged}"/>
+            </listeners>
+            <plugins>
+              <ui:bindPropertyPlugin bidirectional="true">
+                <ui:bindTo>
+                  <ui:valueExpression context="{config.file}"
+                                      expression="{NAME_PROPERTY}"/>
+                </ui:bindTo>
+              </ui:bindPropertyPlugin>
+              <ui:immediateChangeEventsPlugin/>
+            </plugins>
+          </textfield>
+          <spacer height="8"/>
+          <container layout="hbox">
+            <items>
+              <label text="{UploadStudioPlugin_properties.INSTANCE.Upload_content_type_text}"
+                     margins="0 6 0 0"/>
+              <label flex="1"
+                     margins="0 6 0 0">
+                <plugins>
+                    <ui:bindPropertyPlugin componentProperty="text">
+                      <ui:bindTo>
+                        <ui:valueExpression context="{config.file}"
+                                            expression="{FILE_TYPE_PROPERTY}"/>
+                      </ui:bindTo>
+                    </ui:bindPropertyPlugin>
+                </plugins>
+              </label>
+              <ui:textLink text="{UploadStudioPlugin_properties.INSTANCE.Upload_remove_document}"
+                           handler="{removeContainer}"/>
+            </items>
+          </container>
+        </items>
+      </container>
+    </items>
+  </container>
+
+</exml:component>

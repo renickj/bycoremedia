@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMDownload folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Downloads" name="PC_SUMMER_DRESS White Summer Dress Care Instructions PDF Download" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_SUMMER_DRESS</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Summer Dress Care Instructions PDF</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/PC_SUMMER_DRESS.xml" path="/Settings/Taxonomies/Subject/PC_SUMMER_DRESS"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Care Instructions</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Download our Care Instructions as PDF</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Apparel/Apparb3009396.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Fall/For%20Her/PC_WHITE_STRAP_DRESS%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<data md5="dce0706446a105c2436b4d56096407ab" href="../../../../../../../__blob/dce0706446a105c2436b4d56096407ab.blob" mimetype="application/pdf"/>
+</CMDownload>

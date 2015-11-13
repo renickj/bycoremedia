@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:plugin xmlns:exml="http://www.jangaroo.net/exml/0.8"
+             xmlns:ui="exml:com.coremedia.ui.config"
+             baseClass="com.coremedia.blueprint.studio.plugins.SiteAwareVisibilityPluginBase">
+
+  <exml:import class="com.coremedia.ui.data.ValueExpression"/>
+  <exml:description>
+    Makes a component visibleif the feature is activated in the respective site of the content provided
+    in contentValueExpression. If no contentValueExpression is provided, the users preferred site is used.
+  </exml:description>
+
+  <exml:cfg name="feature" type="String">
+    <exml:description>
+      Name of the feature to control the visibility of the compontent this plugin is bound to.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="contentValueExpression" type="ValueExpression">
+    <exml:description>
+      The content to determine the site for. If not given, the users preferred site is used instead.
+    </exml:description>
+  </exml:cfg>
+
+  <exml:cfg name="ifUndefined" type="Boolean">
+    <exml:description>
+      Value to evaluate to, if State can not determined yet. Default: false
+    </exml:description>
+  </exml:cfg>
+
+  <ui:bindVisibilityPlugin bindTo="{getCalculateVisibilityValueExpression()}"/>
+</exml:plugin>

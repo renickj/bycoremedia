@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/United States/English/zTest-Content/HTML Embeds" name="Pinterest Embed Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Pinterest Boards</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Pinterest%20Embed%20-%20Basic%20JS.xml" path="/Sites/PerfectChef/United%20States/English/zTest-Content/HTML%20Embeds/Pinterest%20Embed%20-%20Basic%20JS"/>
+<link href="Pinterest%20Embed%20DE%20-%20Liebste%20Rezepte.xml" path="/Sites/PerfectChef/United%20States/English/zTest-Content/HTML%20Embeds/Pinterest%20Embed%20DE%20-%20Liebste%20Rezepte"/>
+<link href="Pinterest%20Embed%20DE%20-%20Mal%20was%20Veganes.xml" path="/Sites/PerfectChef/United%20States/English/zTest-Content/HTML%20Embeds/Pinterest%20Embed%20DE%20-%20Mal%20was%20Veganes"/>
+<link href="Pinterest%20Embed%20USA.xml" path="/Sites/PerfectChef/United%20States/English/zTest-Content/HTML%20Embeds/Pinterest%20Embed%20USA"/>
+</items>
+</CMCollection>

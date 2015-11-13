@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Navigation/Landing Pages/Spring/Summer Dresses Landing Page" name="Spring Summer Dresses Category Hero Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Navigation/Landing%20Pages/Spring/Spring%20Summer%20Dresses%20Category%20Hero%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Landing%20Pages/Spring/Spring%20Summer%20Dresses%20Category%20Hero%20Teaser"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Sommer und Sonne</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Finden Sie alle unsere bunten Sommerkleider </p> </div></teaserText>
+<pictures>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Summer%20Dresses/Young%20beauti19279ae6.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Summer%20Dresses/Young%20beautiful%20girl%20in%20the%20field%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../../Categories/03_For%20The%20Cook/Apparel/Casual/Casual%20Women/Women%20Casual%2090f6de2b.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For%20The%20Cook/Apparel/Casual/Casual%20Women/Women%20Casual%20-%20Summer%20Dresses%20External%20Page"/>
+</target>
+</CMTeaser>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Videos/Product Reviews" name="Best Non Stick Skillets Review Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Product%20Reviews/Best%20Non%20Stick%20Skillets%20Review%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Non%20Stick%20Skillets%20Review%20Picture"/>
+</master>
+<masterVersion>1</masterVersion>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=404;y=0;width=493;height=765</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=350;y=10;width=562;height=751</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=146;y=5;width=755;height=756</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=84;y=0;width=826;height=620</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=62;width=1236;height=696</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=69;width=1280;height=642</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=86;width=1280;height=514</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=106;width=1280;height=481</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=430;width=1280;height=321</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.3159922928709056;y1=0;x2=0.7013487475915221;y2=0.9567901234567902</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.27360308285163776;y1=0.012345679012345678;x2=0.7129094412331407;y2=0.9506172839506173</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.11368015414258188;y1=0.006172839506172839;x2=0.7032755298651252;y2=0.9506172839506173</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.06551059730250482;y1=0;x2=0.7109826589595376;y2=0.7746913580246914</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.07716049382716049;x2=0.9653179190751445;y2=0.9475308641975309</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.08641975308641975;x2=1;y2=0.8888888888888888</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.10802469135802469;x2=1;y2=0.75</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.13271604938271606;x2=1;y2=0.7345679012345679</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.5370370370370371;x2=1;y2=0.9382716049382716</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Beste Anti-Haft Pfannen</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Beste Anti-Haft Pfannen</alt>
+<copyright>America's Test Kitchen / YouTube embedded</copyright>
+<data md5="0e14227032f8c800d0fcb96e6fad7fbe" href="../../../../../../__blob/0e14227032f8c800d0fcb96e6fad7fbe.blob" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

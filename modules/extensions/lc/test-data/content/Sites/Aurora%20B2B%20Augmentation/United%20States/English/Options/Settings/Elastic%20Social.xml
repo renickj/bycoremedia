@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Sites/Aurora B2B Augmentation/United States/English/Options/Settings" name="Elastic Social" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="elasticSocial">
+<Struct>
+<BooleanProperty Name="enabled">true</BooleanProperty>
+<StringProperty Name="commentType">DISABLED</StringProperty>
+<StringProperty Name="reviewType">REGISTERED</StringProperty>
+<StringProperty Name="userModerationType">NONE</StringProperty>
+<StringProperty Name="commentModerationType">PRE_MODERATION</StringProperty>
+<StringProperty Name="reviewModerationType">PRE_MODERATION</StringProperty>
+<StringProperty Name="tenant">helios</StringProperty>
+</Struct>
+</StructProperty>
+<LinkProperty Name="flowLogin" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/Login.xml" cmexport:path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Actions/Login"/>
+<LinkProperty Name="flowLogout" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/Logout.xml" cmexport:path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Actions/Logout"/>
+<LinkProperty Name="flowUserDetails" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/UserDetails.xml" cmexport:path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Actions/UserDetails"/>
+<LinkProperty Name="action.userDetailsView" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/UserDetails.xml" cmexport:path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Actions/UserDetails"/>
+<LinkProperty Name="action.registrationActivationView" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/ActivateRegistration.xml" cmexport:path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Actions/ActivateRegistration"/>
+<LinkProperty Name="action.confirmPasswordResetView" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/../Actions/ConfirmPasswordReset.xml" cmexport:path="/Sites/Aurora%20B2B%20Augmentation/United%20States/English/Options/Actions/ConfirmPasswordReset"/>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

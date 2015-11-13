@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Fall Recipes/Desserts" name="Black Bean Brownies Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Black Bean Brownies</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cocoa.xml" path="/Settings/Taxonomies/Subject/Cocoa"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Coffee.xml" path="/Settings/Taxonomies/Subject/Coffee"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Vanilla.xml" path="/Settings/Taxonomies/Subject/Vanilla"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Sweet.xml" path="/Settings/Taxonomies/Subject/Sweet"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/60%20mins.xml" path="/Settings/Taxonomies/Subject/60%20mins"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dessert.xml" path="/Settings/Taxonomies/Subject/Dessert"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Brownies</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Try our special, healthier Brownies made with Black Beans.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>Your family will love this recipe - and since it contains no flour it is healthier than regular brownies.</p><p class="p--heading-2">Ingredients</p><ul><li>4 eggs</li><li>1 tsp. vanilla extract</li><li>2 tbsp. low fat cooking oil</li><li>15 oz. can black beans (almost two cups)</li><li>3 tbsp. baking cocoa</li><li>1/2 cup sugar</li><li>1 tsp. baking powder</li></ul><p class="p--heading-2">Preparation</p><p/><ul><li>Mix all ingredients in a kitchen mixer</li><li>Fill into a square baking form</li><li>Bake at 450F for 30 minutes</li><li>Let the Brownies cool down before you enjoy them</li></ul><p class="p--heading-2">Serving Suggestion</p><p>The Black Bean Brownies go well with a nice espresso coffee or hot black tea.</p><p>For extra chocolate-y indulgence, serve them with a cup of our premium hot chocolate.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Brownies%20with%20Raspberries%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Brownies%20with%20Raspberries%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../Products/Fall%20Campaign/Espresso%20Cups%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Espresso%20Cups%20Product%20Teaser"/>
+<link href="../../../../Products/Fall%20Campaign/Tea%20Pot%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Tea%20Pot%20Product%20Teaser"/>
+<link href="../../../../../Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Relatecb383b24.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Related%20Sidebar%20Collection"/>
+</related>
+</CMArticle>

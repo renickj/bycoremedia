@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exml:component xmlns:exml="http://www.jangaroo.net/exml/0.8"
+                xmlns="exml:ext.config" xmlns:ui="exml:com.coremedia.ui.config"
+                xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
+                xmlns:taxonomy="exml:com.coremedia.blueprint.studio.config.taxonomy"
+                baseClass="com.coremedia.blueprint.studio.TaxonomyStudioPluginBase">
+
+  <exml:import class="com.coremedia.blueprint.studio.taxonomy.TaxonomyStudioPlugin_properties"/>
+
+  <editor:studioPlugin>
+    <ui:rules>
+      <editor:extensionsMenu>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <button text="{TaxonomyStudioPlugin_properties.INSTANCE.TaxonomyEditor_title}" iconAlign="top"
+                      ctCls="x-fav fav-menu-extension-item fav-moved"
+                      itemId="btn-taxonomy-editor"
+                      id="btn-taxonomy-editor"
+                      iconCls="btn-taxonomies">
+                <baseAction>
+                  <taxonomy:openTaxonomyEditorAction/>
+                </baseAction>
+              </button>
+            </ui:items>
+          </ui:addItemsPlugin>
+        </plugins>
+      </editor:extensionsMenu>
+
+      <editor:preferenceWindow>
+        <plugins>
+          <taxonomy:taxonomyPreferenceWindowPlugin/>
+        </plugins>
+      </editor:preferenceWindow>
+
+      <editor:workArea>
+        <plugins>
+          <editor:workAreaTabTypesPlugin>
+            <editor:tabTypes>
+              <editor:componentBasedWorkAreaTabType>
+                <editor:tabComponent>
+                  <taxonomy:taxonomyEditor closable="true"/>
+                </editor:tabComponent>
+              </editor:componentBasedWorkAreaTabType>
+            </editor:tabTypes>
+          </editor:workAreaTabTypesPlugin>
+        </plugins>
+      </editor:workArea>
+
+      <editor:searchFilters>
+        <plugins>
+          <ui:addItemsPlugin>
+            <ui:items>
+              <!--Lower case used for the property name here, since the name must match
+              the SOLR field name that is complete lower case. The editor converts to lowercase to be sure too. -->
+              <taxonomy:taxonomyFilterFieldset taxonomyId="Location" propertyName="locationtaxonomy"/>
+              <taxonomy:taxonomyFilterFieldset taxonomyId="Subject" propertyName="subjecttaxonomy"/>
+            </ui:items>
+            <ui:after>
+              <component itemId="{searchFilters.LAST_EDITED_FILTER_ITEM_ID}"/>
+            </ui:after>
+          </ui:addItemsPlugin>
+        </plugins>
+      </editor:searchFilters>
+    </ui:rules>
+  </editor:studioPlugin>
+</exml:component>

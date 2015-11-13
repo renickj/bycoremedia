@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/How-To" name="How to prep butternut squash Vimeo Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-how-to-prepare-butternut-squash</segment>
+<title>How to prepare butternut squash</title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/How%20To.xml" path="/Settings/Taxonomies/Subject/How%20To"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Butternut.xml" path="/Settings/Taxonomies/Subject/Butternut"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Knives.xml" path="/Settings/Taxonomies/Subject/Knives"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Cutting%20Boards.xml" path="/Settings/Taxonomies/Subject/Cutting%20Boards"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Bowls.xml" path="/Settings/Taxonomies/Subject/Bowls"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Prep Butternut</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>No need to wrestle with butternut squash anymore. See our tips and video for how to easily prep and chop this delicious vegetable</p></div></detailText>
+<pictures>
+<link href="How%20to%20prep%20butternut%20squash%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/How-To/How%20to%20prep%20butternut%20squash%20Picture"/>
+</pictures>
+<related>
+<link href="How%20to%20make%20pureed%20vegetable%20soups%20Vimeo%20Video.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Vimeo%20Video"/>
+<link href="../../Editorial/Content/Recipes/Fall%20Recipes/Starters/Pumpkin%20Cream%20So49323f29.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Pumpkin%20Cream%20Soup%20Recipe%20Article"/>
+</related>
+<alt>How to prepare butternut squash</alt>
+<copyright>cooksmarts.com/Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/63765872</dataUrl>
+</CMVideo>

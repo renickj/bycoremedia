@@ -1,0 +1,95 @@
+!tape
+name: contract_testFindContractIdsForUser
+interactions:
+- recorded: 2015-07-08T13:42:45.459Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/coremedia/languagemap
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-cache="set-cookie, set-cookie2"
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Wed, 08 Jul 2015 13:42:45 GMT
+      Expires: Thu, 01 Dec 1994 16:00:00 GMT
+      Set-Cookie: JSESSIONID=0000YZvRvo-fi3FGpk5VdtdxCA3:-1; Path=/; Domain=.toko-test-03.coremedia.vm
+      Surrogate-Control: no-store
+      Vary: Accept
+    body: '{"de":"-3","ru":"-20","pt":"-6","ko":"-9","en":"-1","it":"-4","fr":"-2","es":"-5","zh":"-8","ar":"-23","ja":"-10","pl":"-22","ro":"-21"}'
+- recorded: 2015-07-08T13:42:45.935Z
+  request:
+    method: POST
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10303/loginidentity
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Length: '60'
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+    body: '{"logonId":"cmadmin","logonPassword":"VTJjyo0AYSnXFHI201yo"}'
+  response:
+    status: 201
+    headers:
+      Cache-Control: no-cache="set-cookie, set-cookie2"
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Wed, 08 Jul 2015 13:42:45 GMT
+      Expires: Thu, 01 Dec 1994 16:00:00 GMT
+      Set-Cookie: JSESSIONID=0000mz5JCmvq6ikotFC8z_HVDP-:-1; Path=/; Domain=.toko-test-03.coremedia.vm
+      Surrogate-Control: no-store
+      Vary: Accept
+    body: '{"userId":"2","WCToken":"2%2ChqCISXJZlfOcO7w3EMSWenaFhqGL5b2iq6eijfSqksfzVDTwJBVBW4cHo5OOxfGymlJ%2FwugZ6NGlN2wUkmSfuQZ0uT1u%2B9pOADkHLr91A6onqJVGAcFN55VNpG3sSx8NzTU6hPhON1s8I4jTFIPQqKBdl4Pt6x3h2NLMvylgi9ix6pz5eql1zjj8ofWMQqzyj1Y39QwXJd31AQHna9ksdA%3D%3D","WCTrustedToken":"2%2CKudgh75Oh2QRPB80FK3VOI23RQo%3D","personalizationID":"1436268054729-1"}'
+- recorded: 2015-07-08T13:42:46.028Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10303/contract?q=eligible&catalogId=10101&currency=USD&forUser=gstevens&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2ChqCISXJZlfOcO7w3EMSWenaFhqGL5b2iq6eijfSqksfzVDTwJBVBW4cHo5OOxfGymlJ%2FwugZ6NGlN2wUkmSfuQZ0uT1u%2B9pOADkHLr91A6onqJVGAcFN55VNpG3sSx8NzTU6hPhON1s8I4jTFIPQqKBdl4Pt6x3h2NLMvylgi9ix6pz5eql1zjj8ofWMQqzyj1Y39QwXJd31AQHna9ksdA%3D%3D
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-cache="set-cookie, set-cookie2"
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Wed, 08 Jul 2015 13:42:45 GMT
+      Expires: Thu, 01 Dec 1994 16:00:00 GMT
+      Set-Cookie: JSESSIONID=0000gPDEKVezQWXxx8Y1UE0ItFJ:-1; Path=/; Domain=.toko-test-03.coremedia.vm
+      Surrogate-Control: no-store
+      Vary: Accept
+    body: '{"contracts":{"4000000000000000013":"Default Contract for AuroraB2BESite"}}'
+- recorded: 2015-07-08T13:44:48.040Z
+  request:
+    method: GET
+    uri: http://shop-ref.ecommerce.coremedia.com/wcs/resources/store/10303/contract?q=eligible&catalogId=10101&currency=USD&forUser=preview&langId=-1
+    headers:
+      Accept-Encoding: gzip,deflate
+      Content-Type: application/json
+      Host: shop-ref.ecommerce.coremedia.com
+      Proxy-Connection: Keep-Alive
+      User-Agent: Apache-HttpClient/4.3.2 (java 1.5)
+      WCToken: 2%2ChqCISXJZlfOcO7w3EMSWenaFhqGL5b2iq6eijfSqksfzVDTwJBVBW4cHo5OOxfGymlJ%2FwugZ6NGlN2wUkmSfuQZ0uT1u%2B9pOADkHLr91A6onqJVGAcFN55VNpG3sSx8NzTU6hPhON1s8I4jTFIPQqKBdl4Pt6x3h2NLMvylgi9ix6pz5eql1zjj8ofWMQqzyj1Y39QwXJd31AQHna9ksdA%3D%3D
+  response:
+    status: 200
+    headers:
+      Cache-Control: no-cache="set-cookie, set-cookie2"
+      Content-Language: en-US
+      Content-Type: application/json
+      Date: Wed, 08 Jul 2015 13:44:47 GMT
+      Expires: Thu, 01 Dec 1994 16:00:00 GMT
+      Set-Cookie: JSESSIONID=0000FIl2_qcuthHKx3npWmOpWXV:-1; Path=/; Domain=.toko-test-03.coremedia.vm
+      Surrogate-Control: no-store
+      Vary: Accept
+    body: '{"contracts":{"4000000000000000507":"Exterior Architects (Preview-Contract)","4000000000000000508":"Interior Architects LLC gets 20% off lighting products and 15% off others (Preview-Contract)"}}'
