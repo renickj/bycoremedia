@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Product Pictures/03_For The Cook/Literature/Cookbooks" name="PC_COOKBOOK_5" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Pictures/Product%20Pictures/03_For%20The%20Cook/Literature/Cookbooks/PC_COOKBOOK_5.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/03_For%20The%20Cook/Literature/Cookbooks/PC_COOKBOOK_5"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=469;y=0;width=1212;height=1877</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=371;y=0;width=1383;height=1846</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=113;y=93;width=1661;height=1660</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=72;width=1857;height=1392</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=186;width=1842;height=1036</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=186;width=1795;height=897</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=248;width=2048;height=820</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=268;width=2048;height=768</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=392;width=2048;height=511</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.22921914357682618;y1=0;x2=0.8211586901763224;y2=0.8771084337349397</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.181360201511335;y1=0;x2=0.8564231738035264;y2=0.8626506024096385</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.055415617128463476;y1=0.043373493975903614;x2=0.8664987405541562;y2=0.8192771084337349</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.033734939759036145;x2=0.906801007556675;y2=0.6843373493975904</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.08674698795180723;x2=0.8992443324937027;y2=0.5710843373493976</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.08674698795180723;x2=0.8765743073047859;y2=0.5060240963855421</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.11566265060240964;x2=1;y2=0.4987951807228916</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.12530120481927712;x2=1;y2=0.4843373493975904</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.18313253012048192;x2=1;y2=0.42168674698795183</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_COOKBOOK_5</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Rosa-Kochbuch</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Pink.xml" path="/Settings/Taxonomies/Subject/Pink"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cook%20Books.xml" path="/Settings/Taxonomies/Subject/Cook%20Books"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Rosa-Kochbuch</alt>
+<copyright>Africa Studio / 97790855 Shutterstock</copyright>
+<data href="PC_COOKBOOK_5.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

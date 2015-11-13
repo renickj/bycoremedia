@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Videos/Campaigns/Spring Dresses Campaign" name="Blue Summer Dress Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=590;y=0;width=696;height=1080</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=556;y=0;width=808;height=1080</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=401;y=0;width=1078;height=1080</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=160;y=0;width=1175;height=881</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=0;width=1532;height=862</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=56;width=1526;height=762</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=63;width=1562;height=625</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=48;width=1833;height=688</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=82;width=1664;height=417</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.30730478589420657;y1=0;x2=0.6700251889168766;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.28967254408060455;y1=0;x2=0.7103274559193955;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.20906801007556675;y1=0;x2=0.7707808564231738;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.08312342569269521;y1=0;x2=0.6952141057934509;y2=0.8161434977578476</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0;x2=0.7980456026058632;y2=0.7976878612716763</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.05202312138728324;x2=0.7947882736156352;y2=0.7572254335260116</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.05829596412556054;x2=0.8136020151133502;y2=0.6367713004484304</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.04484304932735426;x2=0.9546599496221663;y2=0.6816143497757847</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.07623318385650224;x2=0.8664987405541562;y2=0.4618834080717489</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Blue Summer Dress</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Blue Summer Dress</alt>
+<copyright>Mamba100/Shutterstock 778156</copyright>
+<data href="Blue%20Summer%20Dress%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>1920</width>
+<height>1080</height>
+</CMPicture>

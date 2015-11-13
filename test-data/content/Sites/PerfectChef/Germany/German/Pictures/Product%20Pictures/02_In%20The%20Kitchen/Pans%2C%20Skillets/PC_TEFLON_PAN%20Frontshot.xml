@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Product Pictures/02_In The Kitchen/Pans, Skillets" name="PC_TEFLON_PAN Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Pictures/Product%20Pictures/02_In%20The%20Kitchen/Pans%2C%20Skillets/PC_TEFLON_PAN%20Frontshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/02_In%20The%20Kitchen/Pans%2C%20Skillets/PC_TEFLON_PAN%20Frontshot"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=864;y=0;width=738;height=1146</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=781;y=0;width=856;height=1146</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=493;y=0;width=1144;height=1146</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=134;y=0;width=1527;height=1146</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=8;y=0;width=2036;height=1146</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=0;width=2048;height=1027</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=24;width=2048;height=822</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=0;width=2048;height=771</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=95;width=2048;height=514</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.42196531791907516;y1=0;x2=0.7822736030828517;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.3815028901734104;y1=0;x2=0.7996146435452793;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.24084778420038536;y1=0;x2=0.7996146435452793;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.06551059730250482;y1=0;x2=0.8111753371868978;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.0038535645472061657;y1=0;x2=0.9980732177263969;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0;x2=1;y2=0.896551724137931</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.020689655172413793;x2=1;y2=0.7379310344827587</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0;x2=1;y2=0.6724137931034483</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.08275862068965517;x2=1;y2=0.5310344827586206</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_TEFLON_PAN</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Schwarze Teflon Pfanne</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Pans.xml" path="/Settings/Taxonomies/Subject/Pans"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Schwarze Teflon Pfanne</alt>
+<copyright>Andrii Muzyka / shutterstock 133632350</copyright>
+<data href="PC_TEFLON_PAN%20Frontshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

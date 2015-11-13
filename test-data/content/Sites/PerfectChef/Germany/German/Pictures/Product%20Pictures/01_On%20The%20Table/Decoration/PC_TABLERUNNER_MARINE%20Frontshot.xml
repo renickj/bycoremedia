@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Product Pictures/01_On The Table/Decoration" name="PC_TABLERUNNER_MARINE Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Pictures/Product%20Pictures/01_On%20The%20Table/Decoration/PC_TABLERUNNER_MARINE%20Frontshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/01_On%20The%20Table/Decoration/PC_TABLERUNNER_MARINE%20Frontshot"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=484;y=0;width=882;height=1367</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=447;y=0;width=1026;height=1367</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=443;y=0;width=1367;height=1367</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=226;y=0;width=1822;height=1367</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=107;width=2048;height=1154</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=172;width=2048;height=1026</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=341;width=2048;height=821</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=333;width=2048;height=768</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=530;width=2048;height=513</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.23647294589178355;y1=0;x2=0.6673346693386774;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.218436873747495;y1=0;x2=0.7194388777555111;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.21643286573146292;y1=0;x2=0.8837675350701403;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.11022044088176353;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.07803468208092486;x2=1;y2=0.9219653179190751</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.12612612612612611;x2=1;y2=0.8768768768768769</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.24924924924924924;x2=1;y2=0.8498498498498499</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.24324324324324326;x2=1;y2=0.8048048048048048</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.38738738738738737;x2=1;y2=0.7627627627627628</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_TABLERUNNER_MARINE</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Tischläufer marine und weiß</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/White.xml" path="/Settings/Taxonomies/Subject/White"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Decoration.xml" path="/Settings/Taxonomies/Subject/Decoration"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Blue.xml" path="/Settings/Taxonomies/Subject/Blue"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Tischläufer marine und weiß</alt>
+<copyright>ElenaKor / Shutterstock 133147835</copyright>
+<data href="PC_TABLERUNNER_MARINE%20Frontshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

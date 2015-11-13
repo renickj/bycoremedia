@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Videos/Campaigns/Spring Dresses Campaign" name="White Summer Dress Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=825;y=0;width=695;height=1080</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=782;y=0;width=814;height=1080</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=567;y=0;width=1084;height=1080</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=247;y=0;width=1443;height=1080</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=0;width=1920;height=1080</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=121;width=1920;height=959</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=193;width=1920;height=766</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=206;width=1920;height=717</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=5;y=354;width=1915;height=479</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.4296724470134875;y1=0;x2=0.791907514450867;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.40749414519906324;y1=0;x2=0.8313817330210773;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.29508196721311475;y1=0;x2=0.8594847775175644;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.1288056206088993;y1=0;x2=0.8805620608899297;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.11203319502074689;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.17842323651452283;x2=1;y2=0.8879668049792531</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.1908713692946058;x2=1;y2=0.8547717842323651</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.0025188916876574307;y1=0.3273542600896861;x2=1;y2=0.7713004484304933</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>White Summer Dress</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>White Summer Dress</alt>
+<copyright>Mamba100/Shutterstock 5292356</copyright>
+<data href="White%20Summer%20Dress%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>1920</width>
+<height>1080</height>
+</CMPicture>

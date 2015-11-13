@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCSS folder="/Themes/perfectchef/css" name="preview.css" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/* =====================================================================================================================</p><p>   Preview classes</p><p>   The classes are used for the preview of fragmented items in CoreMedia Studio</p><p>   ================================================================================================================== */</p><p>/* if multiple teasers are rendered next to each other simulate sidebar layout */</p><p>.cm-preview-content &gt; .content &gt; .cm-teaser + .cm-teaser {</p><p>  margin-top: 8px;</p><p>}</p><p>/* hero teasers always render at full width */</p><p>.cm-preview-content &gt; .content &gt; .cm-teaser.cm-teaser--hero {</p><p>  max-width: none;</p><p>}</p><p>/* normal teaser's width depends on the selected device */</p><p>@media only screen  and (max-width: 599px) and (orientation: portrait) {</p><p>  .cm-preview-content &gt; .content &gt; .cm-teaser,</p><p>  .cm-preview-content &gt; .content &gt; .cm-frame--teaser {</p><p>    max-width: 320px;</p><p>  }</p><p>}</p><p>@media only screen  and (max-width: 599px) and (orientation: landscape) {</p><p>  .cm-preview-content &gt; .content &gt; .cm-teaser,</p><p>  .cm-preview-content &gt; .content &gt; .cm-frame--teaser {</p><p>    max-width: 280px;</p><p>  }</p><p>}</p><p>@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {</p><p>  .cm-preview-content &gt; .content &gt; .cm-teaser,</p><p>  .cm-preview-content &gt; .content &gt; .cm-frame--teaser {</p><p>    max-width: 380px;</p><p>  }</p><p>}</p><p>@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {</p><p>  .cm-preview-content &gt; .content &gt; .cm-teaser,</p><p>  .cm-preview-content &gt; .content &gt; .cm-frame--teaser {</p><p>    max-width: 508px;</p><p>  }</p><p>}</p><p>@media only screen and (min-width: 1025px) {</p><p>  .cm-preview-content &gt; .content &gt; .cm-teaser,</p><p>  .cm-preview-content &gt; .content &gt; .cm-frame--teaser {</p><p>    max-width: 395px;</p><p>  }</p><p>  /* if multiple teasers are rendered next to each other simulate sidebar layout */</p><p>  .cm-preview-content &gt; .content &gt; .cm-teaser + .cm-teaser {</p><p>    margin-top: 10px;</p><p>  }</p><p>}</p></div></code>
+<ieExpression></ieExpression>
+<include>
+</include>
+<dataUrl></dataUrl>
+<media></media>
+</CMCSS>

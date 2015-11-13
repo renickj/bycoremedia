@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Recipes" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Recipes</value>
+<children>
+<link href="Cuisine.xml" path="/Settings/Taxonomies/Subject/Cuisine"/>
+<link href="Taste.xml" path="/Settings/Taxonomies/Subject/Taste"/>
+<link href="Cooking%20Time.xml" path="/Settings/Taxonomies/Subject/Cooking%20Time"/>
+<link href="Serves.xml" path="/Settings/Taxonomies/Subject/Serves"/>
+<link href="Meal.xml" path="/Settings/Taxonomies/Subject/Meal"/>
+<link href="Ingredients.xml" path="/Settings/Taxonomies/Subject/Ingredients"/>
+<link href="Occasion.xml" path="/Settings/Taxonomies/Subject/Occasion"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

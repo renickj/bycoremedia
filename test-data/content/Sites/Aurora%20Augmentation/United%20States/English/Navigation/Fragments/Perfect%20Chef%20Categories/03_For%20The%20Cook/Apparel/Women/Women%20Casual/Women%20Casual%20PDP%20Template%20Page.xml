@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMChannel folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/03_For The Cook/Apparel/Women/Women Casual" name="Women Casual PDP Template Page" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>pdp-channel</segment>
+<title>PDP Channel</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+</children>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<LinkProperty Name="layout" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../../../../../../Options/Settings/Pagegrid/Layouts/Fragment%20PDP.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Layouts/Fragment%20PDP"/>
+<StructProperty Name="placements">
+<Struct>
+<StructProperty Name="1266">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../../../../../Options/Settings/Pagegrid/Placements/banner.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Placements/banner"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/../../../../../../../Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Video%204%3A3.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Video%204%3A3"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="4148">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../../../../../Options/Settings/Pagegrid/Placements/tab.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Placements/tab"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+</LinkListProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="5696">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../../../../../Options/Settings/Pagegrid/Placements/additional.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Placements/additional"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/../../../../../../Site-Wide/Elastic%20Social/Elastic%20Social%20Reviews.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Site-Wide/Elastic%20Social/Elastic%20Social%20Reviews"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+</CMChannel>

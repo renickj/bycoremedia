@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMJavaScript folder="/Themes/aurora/js" name="com.coremedia.blueprint.aurora.js" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/* --- create own namespace in javascript for own stuff ------------------------------------------------------------- */</p><p>var coremedia = (function(module) { return module; }(coremedia || {}));</p><p>coremedia.blueprint = (function(module) { return module; }(coremedia.blueprint || {}));</p><p>coremedia.blueprint.aurora = (function(module) {</p><p>  // define specific functionality here</p><p>  return module;</p><p>}(coremedia.blueprint.aurora || {}));</p><p>/* --- document ready ----------------------------------------------------------------------------------------------- */</p><p>coremedia.blueprint.$(function () {</p><p>  // define actions performed on DOM ready</p><p>});</p></div></code>
+<ieExpression></ieExpression>
+<include>
+</include>
+<dataUrl></dataUrl>
+</CMJavaScript>

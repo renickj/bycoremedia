@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Videos/Product Reviews" name="Best Traditional Skillets Review Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=318;y=0;width=515;height=800</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=301;y=0;width=599;height=800</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=234;y=0;width=799;height=800</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=20;y=25;width=861;height=647</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=47;width=1280;height=721</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=54;width=1280;height=642</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=84;width=1280;height=514</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=319;width=1280;height=481</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=393;width=1280;height=321</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.24855491329479767;y1=0;x2=0.651252408477842;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.2350674373795761;y1=0;x2=0.7032755298651252;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.18304431599229287;y1=0;x2=0.8073217726396917;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.015414258188824663;y1=0.030864197530864196;x2=0.6878612716763006;y2=0.8395061728395061</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.05864197530864197;x2=1;y2=0.9598765432098766</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.06790123456790123;x2=1;y2=0.8703703703703703</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.10493827160493827;x2=1;y2=0.7469135802469136</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.39814814814814814;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.49074074074074076;x2=1;y2=0.8919753086419753</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Best Traditional Skillets Review</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Best Traditional Skillets Review</alt>
+<copyright>Copyright: America's Test Kitchen/YouTube embedded</copyright>
+<data href="Best%20Traditional%20Skillets%20Review%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

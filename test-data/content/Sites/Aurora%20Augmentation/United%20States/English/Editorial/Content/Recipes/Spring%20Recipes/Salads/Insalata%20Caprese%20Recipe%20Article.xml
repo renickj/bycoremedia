@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Recipes/Spring Recipes/Salads" name="Insalata Caprese Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>insalata-caprese</segment>
+<title>Insalata Caprese</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Recipes.xml" path="/Settings/Taxonomies/Subject/Recipes"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salad%282%29.xml" path="/Settings/Taxonomies/Subject/Salad%282%29"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+<link href="../../../../../Navigation/Microsites/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Page"/>
+</contexts>
+<teaserTitle>Caprese</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Insalata caprese (literally, the salad from Capri) is the perfect summertime dish for cooks in a hurry</p><p/></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>Insalata caprese (literally, the salad from Capri) is the perfect summertime dish for cooks in a hurry; slicing is the hardest part. It is made of mozzarella cheese, tomatos, fresh basil and olive oil - sprinkled with freshly ground black pepper. It's also <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article">easy to prepare at a picnic.</a> Cut the soft cheese and tomato with our <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser">super sharp Japanese knives.</a></p><ul><li>100g Mozarella di Bufala</li><li>2 beefsteak tomatos</li><li>fresh Basil</li><li>40g arugula</li><li>sea salt</li><li>coarsely ground pepper</li><li>4 tblsp native olive oil</li><li>1 tblsp caper berries</li></ul><p class="p--heading-2">Preparation</p><ul><li>Arrange tomato and mozzarella slices and basil leaves on a large platter, alternating and overlapping them</li><li>Sprinkle salad with oregano and arugula and drizzle with oil</li><li>Season salad with salt and pepper</li></ul><p class="p--heading-2">Serving Suggestion</p><p>The dressing is always a drizzle of extra-virgin olive oil — only. Vinegar would destroy the delicate flavor of the cheese and is never used. Because this salad is so simple, top-rate ingredients are imperative: Hothouse tomatoes and rubbery processed mozzarella are unacceptable.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2001%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2001%20Picture"/>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2003%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2003%20Picture"/>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2002%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Recipes/Spring%20Recipes/Insalata%20Caprese%2002%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+<link href="../../../../Products/Spring%20Campaign/Picnic%20Basket%20Product%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Spring%20Campaign/Picnic%20Basket%20Product%20Teaser"/>
+</related>
+</CMArticle>

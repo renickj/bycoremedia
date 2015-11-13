@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Pictures/Product Pictures/02_In The Kitchen/Appliances/Mixers" name="PC_KITCHENETTE_KNC20 Sideshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=31;y=0;width=1991;height=3084</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=0;y=200;width=2048;height=2729</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=0;y=211;width=2048;height=2046</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=601;width=2048;height=1537</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=607;width=2048;height=1151</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=714;width=2048;height=1023</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=961;width=2048;height=817</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=1007;width=2048;height=766</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=1228;width=2048;height=514</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.01507537688442211;y1=0;x2=0.9874371859296482;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0;y1=0.065;x2=1;y2=0.95</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0;y1=0.06833333333333333;x2=1;y2=0.7316666666666667</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.195;x2=1;y2=0.6933333333333334</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.19666666666666666;x2=1;y2=0.57</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.23166666666666666;x2=1;y2=0.5633333333333334</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.31166666666666665;x2=1;y2=0.5766666666666667</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.32666666666666666;x2=1;y2=0.575</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.3983333333333333;x2=1;y2=0.565</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_KITCHENETTE_KNC20</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Kitchenette KNC20 Mixer</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Food%20Processors%20Mixers.xml" path="/Settings/Taxonomies/Subject/Food%20Processors%20Mixers"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Kitchenette KNC20 Mixer</alt>
+<copyright>Fedor Korolevskiy/Shutterstock 150079862</copyright>
+<data href="PC_KITCHENETTE_KNC20%20Sideshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

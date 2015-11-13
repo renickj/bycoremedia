@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMDownload folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Downloads/Cook Books" name="Delicious Heart Healthy Latino Recipes PDF Download" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Deliciously Healthy Dinners (PDF)</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Download as PDF</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>The National Heart, Lung, and Blood Institute developed this cookbook to introduce Latino families to a variety of popular dishes prepared in a heart healthy way. ¡Qué viva la tradición!</p></div></teaserText>
+<pictures>
+<link href="Delicious%20Heart%20Healthy%20Latino%20Recipes%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Downloads/Cook%20Books/Delicious%20Heart%20Healthy%20Latino%20Recipes%20Picture"/>
+</pictures>
+<related>
+</related>
+<data href="Delicious%20Heart%20Healthy%20Latino%20Recipes%20PDF%20Download.data.pdf" mimetype="application/pdf"/>
+</CMDownload>

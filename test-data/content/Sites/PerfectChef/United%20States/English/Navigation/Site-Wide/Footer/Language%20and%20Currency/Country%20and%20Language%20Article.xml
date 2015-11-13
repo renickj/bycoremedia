@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Navigation/Site-Wide/Footer/Language and Currency" name="Country and Language Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Select Country and Language</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Country and Language</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Please select your country and language:</p><p class="p--heading-3"><a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Perfect%20Chef%20USA.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Navigation/Perfect%20Chef%20USA">United States</a></p><p class="p--heading-3"><a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../../Germany/German/Navigation/Perfect%20Chef%20Deutschland.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Perfect%20Chef%20Deutschland">Germany</a></p><p class="p--heading-3">Canada</p><ul><li>English</li><li>French</li></ul><p class="p--heading-3">France</p><p class="p--heading-3">Spain</p><p class="p--heading-3">Japan</p><ul><li>Japanese</li><li>English</li></ul></div></detailText>
+<pictures>
+<link href="../../../../Pictures/Sitewide%20Pictures/Country%20Flags%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Sitewide%20Pictures/Country%20Flags%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

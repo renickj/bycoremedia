@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/BetaLabs/BTYU/Navigation/Categories/99_Magazine Fall" name="Magazine Fall Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Perfekte Chef Herbst-Ausgabe</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Unser Herbst-Magazin enthält Artikel über die besten Herbst-Gerichte, wie Sie ein Perfektes Dinner geben können, und wir nehmen Sie auch nach Costa Rica, um Ihnen einige der besten Kaffees der Welt zu präsentieren.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Unser Herbst-Magazin enthält Artikel über die besten Herbst-Gerichte, wie Sie ein Perfektes Dinner geben können, und wir nehmen Sie auch nach Costa Rica, um Ihnen einige der besten Kaffees der Welt zu präsentieren.</p></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../../PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%202%20-%20Autumn%20Dishes/Autumn%20Dishes%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%202%20-%20Autumn%20Dishes/Autumn%20Dishes%20Article"/>
+<link href="../../../../../PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%204%20-%20Coffee%20Roasting/Coffee%3A%20The%20Art%20and%20Craftmanship%20of%20Roasting.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%204%20-%20Coffee%20Roasting/Coffee%3A%20The%20Art%20and%20Craftmanship%20of%20Roasting"/>
+<link href="../../../../../PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Coffee%3A%20The%20Taste%20of%20Costa%20Rica.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Coffee%3A%20The%20Taste%20of%20Costa%20Rica"/>
+<link href="../../../../../PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%203%20-%20Ginger/Ginger%20-%20The%20Magic%20Spice%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%203%20-%20Ginger/Ginger%20-%20The%20Magic%20Spice%20Article"/>
+</items>
+</CMCollection>

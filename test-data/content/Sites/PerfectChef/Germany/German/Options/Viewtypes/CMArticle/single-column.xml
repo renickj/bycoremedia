@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMArticle" name="single-column" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMArticle/single-column"/>
+</master>
+<masterVersion>3</masterVersion>
+<description>Displays article text with single column layout on every device</description>
+<icon href="single-column.icon.png" mimetype="image/png"/>
+<layout>single-column</layout>
+</CMViewtype>

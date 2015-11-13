@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMImageMap folder="/Sites/Aurora Augmentation/United States/English/Navigation/Startpage" name="Fall Dinner Image Map" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="overlay">
+<Struct>
+<BooleanProperty Name="displayTitle">true</BooleanProperty>
+<BooleanProperty Name="displayShortText">true</BooleanProperty>
+<BooleanProperty Name="displayPicture">true</BooleanProperty>
+<BooleanProperty Name="displayDefaultPrice">true</BooleanProperty>
+<BooleanProperty Name="displayDiscountedPrice">true</BooleanProperty>
+<BooleanProperty Name="displayOutOfStockLink">true</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructListProperty Name="image-map">
+<Struct>
+<StringProperty Name="id">map-area-10</StringProperty>
+<StringProperty Name="coords">959,643,1235,934</StringProperty>
+<StringProperty Name="alt"/>
+<StringProperty Name="rotation"/>
+<StringProperty Name="shape">rect</StringProperty>
+<StringProperty Name="target">_blank</StringProperty>
+<BooleanProperty Name="displayAsInlineOverlay">false</BooleanProperty>
+<StringProperty Name="inlineOverlayTheme">dark-on-light</StringProperty>
+<LinkProperty Name="linkedContent" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../Editorial/Products/Fall%20Campaign/Fall%20Wine%20Glasses%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Fall%20Wine%20Glasses%20Product%20Teaser"/>
+</Struct>
+<Struct>
+<StringProperty Name="id">map-area-1</StringProperty>
+<StringProperty Name="shape">rect</StringProperty>
+<StringProperty Name="target">_blank</StringProperty>
+<LinkProperty Name="linkedContent" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../Editorial/Products/Fall%20Campaign/Evening%20Gown%20Red%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Evening%20Gown%20Red%20Product%20Teaser"/>
+<StringProperty Name="coords">258,739,605,1365</StringProperty>
+</Struct>
+<Struct>
+<StringProperty Name="id">map-area-2</StringProperty>
+<StringProperty Name="shape">rect</StringProperty>
+<StringProperty Name="target">_blank</StringProperty>
+<LinkProperty Name="linkedContent" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../Editorial/Products/Fall%20Campaign/Blue%20Strapless%20Dress%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Blue%20Strapless%20Dress%20Product%20Teaser"/>
+<StringProperty Name="coords">662,667,914,1125</StringProperty>
+</Struct>
+<Struct>
+<StringProperty Name="id">map-area-4</StringProperty>
+<StringProperty Name="shape">rect</StringProperty>
+<StringProperty Name="target">_blank</StringProperty>
+<LinkProperty Name="linkedContent" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser"/>
+<StringProperty Name="coords">1276,694,1383,853</StringProperty>
+</Struct>
+<Struct>
+<StringProperty Name="id">map-area-5</StringProperty>
+<StringProperty Name="shape">rect</StringProperty>
+<StringProperty Name="target">_blank</StringProperty>
+<LinkProperty Name="linkedContent" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../Editorial/Products/Fall%20Campaign/Square%20Plate%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Square%20Plate%20Product%20Teaser"/>
+<StringProperty Name="coords">613,1173,1288,1334</StringProperty>
+</Struct>
+<Struct>
+<StringProperty Name="id">map-area-6</StringProperty>
+<StringProperty Name="shape">rect</StringProperty>
+<StringProperty Name="target">_blank</StringProperty>
+<LinkProperty Name="linkedContent" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../Editorial/Products/Fall%20Campaign/Square%20Plate%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Square%20Plate%20Product%20Teaser"/>
+<StringProperty Name="coords">924,1097,1148,1170</StringProperty>
+</Struct>
+<Struct>
+<StringProperty Name="id">map-area-7</StringProperty>
+<StringProperty Name="shape">rect</StringProperty>
+<StringProperty Name="target">_blank</StringProperty>
+<LinkProperty Name="linkedContent" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../Editorial/Products/Fall%20Campaign/Dark%20Blazer%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Dark%20Blazer%20Product%20Teaser"/>
+<StringProperty Name="coords">1401,584,1639,954</StringProperty>
+<BooleanProperty Name="displayAsInlineOverlay">false</BooleanProperty>
+</Struct>
+<Struct>
+<StringProperty Name="id">map-area-8</StringProperty>
+<StringProperty Name="shape">rect</StringProperty>
+<StringProperty Name="target">_blank</StringProperty>
+<LinkProperty Name="linkedContent" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../Editorial/Products/Fall%20Campaign/White%20Strap%20Dress%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/White%20Strap%20Dress%20Product%20Teaser"/>
+<StringProperty Name="coords">1654,774,2022,1350</StringProperty>
+</Struct>
+</StructListProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>A Perfect Dinner</teaserTitle>
+<pictures>
+<link href="../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%20Hero%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%20Hero%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner/A%20Perfect%20Dinner%20Article.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner/A%20Perfect%20Dinner%20Article"/>
+</target>
+</CMImageMap>

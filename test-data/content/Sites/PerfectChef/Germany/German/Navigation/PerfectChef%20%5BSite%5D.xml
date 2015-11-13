@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSite folder="/Sites/PerfectChef/Germany/German/Navigation" name="PerfectChef [Site]" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../United%20States/English/Navigation/PerfectChef%20%5BSite%5D.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/PerfectChef%20%5BSite%5D"/>
+</master>
+<masterVersion>7</masterVersion>
+<id>928fd4c3c00f01e3580ce73140aecdf8</id>
+<name>PerfectChef</name>
+<root>
+<link href="Perfect%20Chef%20Deutschland.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Perfect%20Chef%20Deutschland"/>
+</root>
+<siteManagerGroup>manager-de-DE</siteManagerGroup>
+</CMSite>

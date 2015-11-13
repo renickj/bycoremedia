@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>blueprint</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>packages</artifactId>
+  <packaging>pom</packaging>
+
+
+  <properties>
+    <!--set to true to skip rpm/zip archiving for tools,tomcat-installation,apache and services-->
+    <skipZip>false</skipZip>
+    <!--will be implemented with app plugin 2.7-->
+    <skipRpm>false</skipRpm>
+
+    <!--dont change this property-->
+    <filters.dir>${project.basedir}/src/main/filters</filters.dir>
+    <!--
+     | whether to enable postconfiguration during install scripts.
+     | do not change this property directly, overwrite it in a profile like the preconfiguration profile.
+    -->
+    <postconfiguration.enable>true</postconfiguration.enable>
+    <token-replacer.version>0.10</token-replacer.version>
+
+    <!--rpm dependency versions-->
+    <ksh.rpm.version>20100621</ksh.rpm.version>
+    <mod_ssl.rpm.version>2.2.15</mod_ssl.rpm.version>
+
+    <!--tomcat GAV coordinates for the catalina home installation-->
+    <tomcat.groupId>org.apache.tomcat</tomcat.groupId>
+    <tomcat.artifactId>tomcat-dist</tomcat.artifactId>
+
+
+    <!--switches the tomcat jsp reloading. In almost all cases this can be switched off-->
+    <TOMCAT_DEVELOPMENT>false</TOMCAT_DEVELOPMENT>
+
+
+    <!--default properties that cannot be tokenized for installation time filtering-->
+    <LOG_ROOT>/var/log/coremedia</LOG_ROOT>
+    <PID_ROOT>/var/run/coremedia</PID_ROOT>
+    <INSTALL_ROOT>/opt/coremedia</INSTALL_ROOT>
+    <DATA_ROOT>/var/lib/coremedia</DATA_ROOT>
+    <TMP_ROOT>/var/cache/coremedia</TMP_ROOT>
+    <CONFIGURE_ROOT>/etc/coremedia</CONFIGURE_ROOT>
+    <INSTALL_USER>coremedia</INSTALL_USER>
+    <INSTALL_GROUP>coremedia</INSTALL_GROUP>
+    <APPLICATION_PREFIX>cm7</APPLICATION_PREFIX>
+    <APPLICATION_INSTALL_ROOT>${INSTALL_ROOT}/${APPLICATION_NAME}</APPLICATION_INSTALL_ROOT>
+    <APPLICATION_NAME>${APPLICATION_PREFIX}-${project.artifactId}</APPLICATION_NAME>
+    <APPLICATION_LOG_DIR>${LOG_ROOT}/${APPLICATION_NAME}</APPLICATION_LOG_DIR>
+    <APPLICATION_PID>${PID_ROOT}/${APPLICATION_NAME}.pid</APPLICATION_PID>
+
+    <!--default properties that can be tokenized for installation time filtering-->
+    <!--Solr settings-->
+    <SOLR_PREVIEW_COLLECTION>preview</SOLR_PREVIEW_COLLECTION>
+    <SOLR_LIVE_COLLECTION>live</SOLR_LIVE_COLLECTION>
+    <SOLR_STUDIO_COLLECTION>studio</SOLR_STUDIO_COLLECTION>
+
+    <!--Apache specific settings-->
+    <STUDIO_APACHE_REWRITE_LOGLEVEL>0</STUDIO_APACHE_REWRITE_LOGLEVEL>
+    <DELIVERY_APACHE_REWRITE_LOGLEVEL>0</DELIVERY_APACHE_REWRITE_LOGLEVEL>
+    <WEBDAV_APACHE_REWRITE_LOGLEVEL>${STUDIO_APACHE_REWRITE_LOGLEVEL}</WEBDAV_APACHE_REWRITE_LOGLEVEL>
+
+    <!-- Storage of asset blobs; leave empty to disable separate asset blobstore -->
+    <AM_BLOBSTORE_ROOTDIR>${DATA_ROOT}/${APPLICATION_NAME}/blobstore/assets</AM_BLOBSTORE_ROOTDIR>
+
+    <!--
+      Path to the Studio webapp. This one is different for an apache that connects
+      against a development Studio or a packaged one
+    -->
+    <STUDIO_WEBAPP_NAME>studio</STUDIO_WEBAPP_NAME>
+    <!--
+      Needed to deactivate/activate certain rewrite rules in the apache configuration depending
+      on the environment the apache is executed in. The default is production.
+    -->
+    <STUDIO_ENVIRONMENT>production</STUDIO_ENVIRONMENT>
+
+    <!--Tomcat JVM routes-->
+    <CMS_JVM_ROUTE>cmsWorker</CMS_JVM_ROUTE>
+    <WFS_JVM_ROUTE>wfsWorker</WFS_JVM_ROUTE>
+    <MLS_JVM_ROUTE>mlsWorker</MLS_JVM_ROUTE>
+    <RLS_JVM_ROUTE>rlsWorker</RLS_JVM_ROUTE>
+    <SOLR_MASTER_JVM_ROUTE>solrMasterWorker</SOLR_MASTER_JVM_ROUTE>
+    <SOLR_SLAVE_JVM_ROUTE>solrSlaveWorker</SOLR_SLAVE_JVM_ROUTE>
+    <STUDIO_JVM_ROUTE>studioWorker</STUDIO_JVM_ROUTE>
+    <PREVIEW_JVM_ROUTE>studioWorker</PREVIEW_JVM_ROUTE>
+    <WEBDAV_JVM_ROUTE>${STUDIO_JVM_ROUTE}</WEBDAV_JVM_ROUTE>
+    <DELIVERY_JVM_ROUTE>deliveryWorker</DELIVERY_JVM_ROUTE>
+    <CAEFEEDER_PREVIEW_JVM_ROUTE>caefeederPreviewWorker</CAEFEEDER_PREVIEW_JVM_ROUTE>
+    <CAEFEEDER_LIVE_JVM_ROUTE>caefeederLiveWorker</CAEFEEDER_LIVE_JVM_ROUTE>
+
+    <!--Default port convention, the following properties should only be overwritten with property files or tokenized
+     if the default port convention and its possible configuration options via the application prefixes and port type
+     suffixes does not fit.
+    -->
+    <CMS_HTTP_PORT>${CMS_PORT_PREFIX}${HTTP_PORT_SUFFIX}</CMS_HTTP_PORT>
+    <CMS_HTTPS_PORT>${CMS_PORT_PREFIX}${HTTPS_PORT_SUFFIX}</CMS_HTTPS_PORT>
+    <CMS_SHUTDOWN_PORT>${CMS_PORT_PREFIX}${SHUTDOWN_PORT_SUFFIX}</CMS_SHUTDOWN_PORT>
+    <!--can be left empty-->
+    <CMS_CORBA_PORT>${CMS_PORT_PREFIX}${CORBA_PORT_SUFFIX}</CMS_CORBA_PORT>
+    <CMS_CORBA_SSL_PORT>${CMS_PORT_PREFIX}${CORBA_SSL_PORT_SUFFIX}</CMS_CORBA_SSL_PORT>
+    <CMS_JMX_REGISTRY_PORT>${CMS_PORT_PREFIX}${JMX_REGISTRY_PORT_SUFFIX}</CMS_JMX_REGISTRY_PORT>
+    <CMS_JMX_SERVER_PORT>${CMS_PORT_PREFIX}${JMX_SERVER_PORT_SUFFIX}</CMS_JMX_SERVER_PORT>
+    <CMS_DEBUG_PORT>${CMS_PORT_PREFIX}${DEBUG_PORT_SUFFIX}</CMS_DEBUG_PORT>
+
+    <WFS_HTTP_PORT>${WFS_PORT_PREFIX}${HTTP_PORT_SUFFIX}</WFS_HTTP_PORT>
+    <WFS_HTTPS_PORT>${WFS_PORT_PREFIX}${HTTPS_PORT_SUFFIX}</WFS_HTTPS_PORT>
+    <WFS_SHUTDOWN_PORT>${WFS_PORT_PREFIX}${SHUTDOWN_PORT_SUFFIX}</WFS_SHUTDOWN_PORT>
+    <!--can be left empty-->
+    <WFS_CORBA_PORT>${WFS_PORT_PREFIX}${CORBA_PORT_SUFFIX}</WFS_CORBA_PORT>
+    <WFS_CORBA_SSL_PORT>${WFS_PORT_PREFIX}${CORBA_SSL_PORT_SUFFIX}</WFS_CORBA_SSL_PORT>
+    <WFS_JMX_REGISTRY_PORT>${WFS_PORT_PREFIX}${JMX_REGISTRY_PORT_SUFFIX}</WFS_JMX_REGISTRY_PORT>
+    <WFS_JMX_SERVER_PORT>${WFS_PORT_PREFIX}${JMX_SERVER_PORT_SUFFIX}</WFS_JMX_SERVER_PORT>
+    <WFS_DEBUG_PORT>${WFS_PORT_PREFIX}${DEBUG_PORT_SUFFIX}</WFS_DEBUG_PORT>
+
+    <MLS_HTTP_PORT>${MLS_PORT_PREFIX}${HTTP_PORT_SUFFIX}</MLS_HTTP_PORT>
+    <MLS_HTTPS_PORT>${MLS_PORT_PREFIX}${HTTPS_PORT_SUFFIX}</MLS_HTTPS_PORT>
+    <MLS_SHUTDOWN_PORT>${MLS_PORT_PREFIX}${SHUTDOWN_PORT_SUFFIX}</MLS_SHUTDOWN_PORT>
+    <!--can be left empty-->
+    <MLS_CORBA_PORT>${MLS_PORT_PREFIX}${CORBA_PORT_SUFFIX}</MLS_CORBA_PORT>
+    <!--<MLS_CORBA_SSL_PORT>${MLS_PORT_PREFIX}${CORBA_SSL_PORT_SUFFIX}</MLS_CORBA_SSL_PORT>-->
+    <MLS_JMX_REGISTRY_PORT>${MLS_PORT_PREFIX}${JMX_REGISTRY_PORT_SUFFIX}</MLS_JMX_REGISTRY_PORT>
+    <MLS_JMX_SERVER_PORT>${MLS_PORT_PREFIX}${JMX_SERVER_PORT_SUFFIX}</MLS_JMX_SERVER_PORT>
+    <MLS_DEBUG_PORT>${MLS_PORT_PREFIX}${DEBUG_PORT_SUFFIX}</MLS_DEBUG_PORT>
+
+    <RLS_HTTP_PORT>${RLS_PORT_PREFIX}${HTTP_PORT_SUFFIX}</RLS_HTTP_PORT>
+    <RLS_HTTPS_PORT>${RLS_PORT_PREFIX}${HTTPS_PORT_SUFFIX}</RLS_HTTPS_PORT>
+    <RLS_SHUTDOWN_PORT>${RLS_PORT_PREFIX}${SHUTDOWN_PORT_SUFFIX}</RLS_SHUTDOWN_PORT>
+    <!--can be left empty-->
+    <RLS_CORBA_PORT>${RLS_PORT_PREFIX}${CORBA_PORT_SUFFIX}</RLS_CORBA_PORT>
+    <!--<RLS_CORBA_SSL_PORT>${RLS_PORT_PREFIX}${CORBA_SSL_PORT_SUFFIX}</RLS_CORBA_SSL_PORT>-->
+    <RLS_JMX_REGISTRY_PORT>${RLS_PORT_PREFIX}${JMX_REGISTRY_PORT_SUFFIX}</RLS_JMX_REGISTRY_PORT>
+    <RLS_JMX_SERVER_PORT>${RLS_PORT_PREFIX}${JMX_SERVER_PORT_SUFFIX}</RLS_JMX_SERVER_PORT>
+    <RLS_DEBUG_PORT>${RLS_PORT_PREFIX}${DEBUG_PORT_SUFFIX}</RLS_DEBUG_PORT>
+
+    <SOLR_MASTER_HTTP_PORT>${SOLR_MASTER_PORT_PREFIX}${HTTP_PORT_SUFFIX}</SOLR_MASTER_HTTP_PORT>
+    <SOLR_MASTER_HTTPS_PORT>${SOLR_MASTER_PORT_PREFIX}${HTTPS_PORT_SUFFIX}</SOLR_MASTER_HTTPS_PORT>
+    <SOLR_MASTER_SHUTDOWN_PORT>${SOLR_MASTER_PORT_PREFIX}${SHUTDOWN_PORT_SUFFIX}</SOLR_MASTER_SHUTDOWN_PORT>
+    <SOLR_MASTER_JMX_REGISTRY_PORT>${SOLR_MASTER_PORT_PREFIX}${JMX_REGISTRY_PORT_SUFFIX}</SOLR_MASTER_JMX_REGISTRY_PORT>
+    <SOLR_MASTER_JMX_SERVER_PORT>${SOLR_MASTER_PORT_PREFIX}${JMX_SERVER_PORT_SUFFIX}</SOLR_MASTER_JMX_SERVER_PORT>
+    <SOLR_MASTER_DEBUG_PORT>${SOLR_MASTER_PORT_PREFIX}${DEBUG_PORT_SUFFIX}</SOLR_MASTER_DEBUG_PORT>
+
+    <SOLR_SLAVE_HTTP_PORT>${SOLR_SLAVE_PORT_PREFIX}${HTTP_PORT_SUFFIX}</SOLR_SLAVE_HTTP_PORT>
+    <SOLR_SLAVE_HTTPS_PORT>${SOLR_SLAVE_PORT_PREFIX}${HTTPS_PORT_SUFFIX}</SOLR_SLAVE_HTTPS_PORT>
+    <SOLR_SLAVE_SHUTDOWN_PORT>${SOLR_SLAVE_PORT_PREFIX}${SHUTDOWN_PORT_SUFFIX}</SOLR_SLAVE_SHUTDOWN_PORT>
+    <SOLR_SLAVE_JMX_REGISTRY_PORT>${SOLR_SLAVE_PORT_PREFIX}${JMX_REGISTRY_PORT_SUFFIX}</SOLR_SLAVE_JMX_REGISTRY_PORT>
+    <SOLR_SLAVE_JMX_SERVER_PORT>${SOLR_SLAVE_PORT_PREFIX}${JMX_SERVER_PORT_SUFFIX}</SOLR_SLAVE_JMX_SERVER_PORT>
+    <SOLR_SLAVE_DEBUG_PORT>${SOLR_SLAVE_PORT_PREFIX}${DEBUG_PORT_SUFFIX}</SOLR_SLAVE_DEBUG_PORT>
+
+    <STUDIO_HTTP_PORT>${STUDIO_PORT_PREFIX}${STUDIO_HTTP_PORT_SUFFIX}</STUDIO_HTTP_PORT>
+    <STUDIO_HTTPS_PORT>${STUDIO_PORT_PREFIX}${HTTPS_PORT_SUFFIX}</STUDIO_HTTPS_PORT>
+    <STUDIO_SHUTDOWN_PORT>${STUDIO_PORT_PREFIX}${SHUTDOWN_PORT_SUFFIX}</STUDIO_SHUTDOWN_PORT>
+    <STUDIO_AJP_PORT>${STUDIO_PORT_PREFIX}${STUDIO_AJP_PORT_SUFFIX}</STUDIO_AJP_PORT>
+    <STUDIO_JMX_REGISTRY_PORT>${STUDIO_PORT_PREFIX}${JMX_REGISTRY_PORT_SUFFIX}</STUDIO_JMX_REGISTRY_PORT>
+    <STUDIO_JMX_SERVER_PORT>${STUDIO_PORT_PREFIX}${JMX_SERVER_PORT_SUFFIX}</STUDIO_JMX_SERVER_PORT>
+    <STUDIO_APACHE_HTTP_PORT>80</STUDIO_APACHE_HTTP_PORT>
+    <STUDIO_APACHE_HTTPS_PORT>443</STUDIO_APACHE_HTTPS_PORT>
+    <STUDIO_DEBUG_PORT>${STUDIO_PORT_PREFIX}${DEBUG_PORT_SUFFIX}</STUDIO_DEBUG_PORT>
+
+    <PREVIEW_AJP_PORT>${PREVIEW_PORT_PREFIX}${PREVIEW_AJP_PORT_SUFFIX}</PREVIEW_AJP_PORT>
+
+    <WEBDAV_APACHE_HTTP_PORT>${STUDIO_APACHE_HTTP_PORT}</WEBDAV_APACHE_HTTP_PORT>
+    <WEBDAV_APACHE_HTTPS_PORT>${STUDIO_APACHE_HTTPS_PORT}</WEBDAV_APACHE_HTTPS_PORT>
+    <WEBDAV_AJP_PORT>${STUDIO_AJP_PORT}</WEBDAV_AJP_PORT>
+
+    <DELIVERY_HTTP_PORT>${DELIVERY_PORT_PREFIX}${DELIVERY_HTTP_PORT_SUFFIX}</DELIVERY_HTTP_PORT>
+    <DELIVERY_HTTPS_PORT>${DELIVERY_PORT_PREFIX}${HTTPS_PORT_SUFFIX}</DELIVERY_HTTPS_PORT>
+    <DELIVERY_SHUTDOWN_PORT>${DELIVERY_PORT_PREFIX}${SHUTDOWN_PORT_SUFFIX}</DELIVERY_SHUTDOWN_PORT>
+    <DELIVERY_AJP_PORT>${DELIVERY_PORT_PREFIX}${DELIVERY_AJP_PORT_SUFFIX}</DELIVERY_AJP_PORT>
+    <DELIVERY_JMX_REGISTRY_PORT>${DELIVERY_PORT_PREFIX}${JMX_REGISTRY_PORT_SUFFIX}</DELIVERY_JMX_REGISTRY_PORT>
+    <DELIVERY_JMX_SERVER_PORT>${DELIVERY_PORT_PREFIX}${JMX_SERVER_PORT_SUFFIX}</DELIVERY_JMX_SERVER_PORT>
+    <DELIVERY_APACHE_HTTP_PORT>80</DELIVERY_APACHE_HTTP_PORT>
+    <DELIVERY_DEBUG_PORT>${DELIVERY_PORT_PREFIX}${DEBUG_PORT_SUFFIX}</DELIVERY_DEBUG_PORT>
+
+    <CAEFEEDER_PREVIEW_HTTP_PORT>${CAEFEEDER_PREVIEW_PORT_PREFIX}${HTTP_PORT_SUFFIX}</CAEFEEDER_PREVIEW_HTTP_PORT>
+    <CAEFEEDER_PREVIEW_HTTPS_PORT>${CAEFEEDER_PREVIEW_PORT_PREFIX}${HTTPS_PORT_SUFFIX}</CAEFEEDER_PREVIEW_HTTPS_PORT>
+    <CAEFEEDER_PREVIEW_SHUTDOWN_PORT>${CAEFEEDER_PREVIEW_PORT_PREFIX}${SHUTDOWN_PORT_SUFFIX}</CAEFEEDER_PREVIEW_SHUTDOWN_PORT>
+    <CAEFEEDER_PREVIEW_JMX_REGISTRY_PORT>${CAEFEEDER_PREVIEW_PORT_PREFIX}${JMX_REGISTRY_PORT_SUFFIX}</CAEFEEDER_PREVIEW_JMX_REGISTRY_PORT>
+    <CAEFEEDER_PREVIEW_JMX_SERVER_PORT>${CAEFEEDER_PREVIEW_PORT_PREFIX}${JMX_SERVER_PORT_SUFFIX}</CAEFEEDER_PREVIEW_JMX_SERVER_PORT>
+    <CAEFEEDER_PREVIEW_DEBUG_PORT>${CAEFEEDER_PREVIEW_PORT_PREFIX}${DEBUG_PORT_SUFFIX}</CAEFEEDER_PREVIEW_DEBUG_PORT>
+
+    <CAEFEEDER_LIVE_HTTP_PORT>${CAEFEEDER_LIVE_PORT_PREFIX}${HTTP_PORT_SUFFIX}</CAEFEEDER_LIVE_HTTP_PORT>
+    <CAEFEEDER_LIVE_HTTPS_PORT>${CAEFEEDER_LIVE_PORT_PREFIX}${HTTPS_PORT_SUFFIX}</CAEFEEDER_LIVE_HTTPS_PORT>
+    <CAEFEEDER_LIVE_SHUTDOWN_PORT>${CAEFEEDER_LIVE_PORT_PREFIX}${SHUTDOWN_PORT_SUFFIX}</CAEFEEDER_LIVE_SHUTDOWN_PORT>
+    <CAEFEEDER_LIVE_JMX_REGISTRY_PORT>${CAEFEEDER_LIVE_PORT_PREFIX}${JMX_REGISTRY_PORT_SUFFIX}</CAEFEEDER_LIVE_JMX_REGISTRY_PORT>
+    <CAEFEEDER_LIVE_JMX_SERVER_PORT>${CAEFEEDER_LIVE_PORT_PREFIX}${JMX_SERVER_PORT_SUFFIX}</CAEFEEDER_LIVE_JMX_SERVER_PORT>
+    <CAEFEEDER_LIVE_DEBUG_PORT>${CAEFEEDER_LIVE_PORT_PREFIX}${DEBUG_PORT_SUFFIX}</CAEFEEDER_LIVE_DEBUG_PORT>
+
+  </properties>
+
+  <modules>
+    <module>editor-webstart-webapp</module>
+    <module>package-template</module>
+    <module>tomcat</module>
+    <module>apache-overlays</module>
+    <module>services</module>
+    <module>tools</module>
+  </modules>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <configuration>
+          <!--RPMs will be deployed only by the boxes module-->
+          <skip>true</skip>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>com.coremedia.maven</groupId>
+        <artifactId>coremedia-application-maven-plugin</artifactId>
+        <configuration>
+          <rpmConfig>
+            <defaultprefix>${INSTALL_ROOT}/${APPLICATION_NAME}</defaultprefix>
+            <defaultuser>${INSTALL_USER}</defaultuser>
+            <defaultgroup>${INSTALL_GROUP}</defaultgroup>
+            <name>${APPLICATION_NAME}</name>
+            <group>coremedia/${APPLICATION_PREFIX}</group>
+          </rpmConfig>
+          <!-- allow only this pattern to be left in the template files -->
+          <allowFilterTokens>configure.[\w]*</allowFilterTokens>
+          <!-- ignore these tokens, they may be found in comments i.e. lists of email addresses, that are detected as tokens -->
+          <ignoreFilterTokens>.*[;|,|\s].*</ignoreFilterTokens>
+          <failOnFoundTokens>true</failOnFoundTokens>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>properties-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>load-filter-properties</id>
+            <goals>
+              <goal>read-project-properties</goal>
+            </goals>
+            <phase>initialize</phase>
+            <configuration>
+              <files>
+                <file>${filters.dir}/${deployment.configuration.properties}</file>
+              </files>
+              <quiet>true</quiet>
+            </configuration>
+          </execution>
+          <execution>
+            <id>write-project-properties</id>
+            <inherited>false</inherited>
+            <goals>
+              <goal>write-project-properties</goal>
+            </goals>
+            <phase>initialize</phase>
+            <configuration>
+             <outputFile>${project.build.directory}/project.properties</outputFile>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+
+    <profile>
+      <id>postconfigure</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <deployment.configuration.properties>postconfigure.properties</deployment.configuration.properties>
+      </properties>
+    </profile>
+    <profile>
+      <id>preconfigure</id>
+      <properties>
+        <postconfiguration.enable>false</postconfiguration.enable>
+        <deployment.configuration.properties>preconfigure.properties</deployment.configuration.properties>
+      </properties>
+    </profile>
+  </profiles>
+
+</project>

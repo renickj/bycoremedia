@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Cooking Time" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Cooking Time</value>
+<children>
+<link href="20%20mins.xml" path="/Settings/Taxonomies/Subject/20%20mins"/>
+<link href="40%20mins.xml" path="/Settings/Taxonomies/Subject/40%20mins"/>
+<link href="60%20mins.xml" path="/Settings/Taxonomies/Subject/60%20mins"/>
+<link href="90%20mins.xml" path="/Settings/Taxonomies/Subject/90%20mins"/>
+<link href="120%20mins.xml" path="/Settings/Taxonomies/Subject/120%20mins"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

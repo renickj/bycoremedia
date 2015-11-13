@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCSS folder="/Themes/perfectchef/css" name="fragment.css" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/* =====================================================================================================================</p><p>   Layout for PCS</p><p>   Contains styling rules used for fragments in WCS FEP7</p><p>   use #page prefix to add these styles only to fragments</p><p>   ================================================================================================================== */</p><p>/* Page */</p><p>#page {</p><p>  overflow: hidden;</p><p>  /* for smallest mobile screen */</p><p>  margin: 0 auto;</p><p>  min-width: 320px;</p><p>  /* if there is no content in cm-placement-main megamenu will break due to overflow hidden otherwise */</p><p>  min-height: 500px;</p><p>  /* for 1280px screens - scrollbar */</p><p>  max-width: 1200px;</p><p>}</p><p>#page .cm-placement-header {</p><p>  background: #ffffff;</p><p>}</p><p>#page .cm-placement-footer {</p><p>  width: 100%;</p><p>}</p><p>/* --- WCS Overrides ------------------------------------------------------------------------------------------------ */</p><p>#page .rowContainer &gt; .row.margin-true {</p><p>  padding: 0;</p><p>}</p><p>#page .rowContainer,</p><p>#page .rowContainer &gt; .row {</p><p>  padding: 0;</p><p>}</p><p>/* hide ibm breadcrumb, use our own instead */</p><p>#page #widget_breadcrumb {</p><p>  display: none;</p><p>}</p></div></code>
+<ieExpression></ieExpression>
+<include>
+</include>
+<dataUrl></dataUrl>
+<media></media>
+</CMCSS>

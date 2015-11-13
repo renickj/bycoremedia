@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMJavaScript folder="/Themes/perfectchef/js" name="perfectchef-coremedia.js" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/**</p><p> * Includes all coremedia specific javascripts required for theme perfectchef</p><p> * (this file is a placeholder, the inclusion is defined in exported content)</p><p> */</p></div></code>
+<ieExpression></ieExpression>
+<include>
+<link href="com%2Ecoremedia%2Eblueprint%2Eperfectchef%2Ejs.xml" path="/Themes/perfectchef/js/com%2Ecoremedia%2Eblueprint%2Eperfectchef%2Ejs"/>
+<link href="com%2Ecoremedia%2Eblueprint%2Eperfectchef%2EdeviceSettings%2Ejs.xml" path="/Themes/perfectchef/js/com%2Ecoremedia%2Eblueprint%2Eperfectchef%2EdeviceSettings%2Ejs"/>
+</include>
+<dataUrl></dataUrl>
+</CMJavaScript>

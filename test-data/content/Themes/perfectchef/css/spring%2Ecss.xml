@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCSS folder="/Themes/perfectchef/css" name="spring.css" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/* =====================================================================================================================</p><p>   Fall theme</p><p>   Contains styling rules used for atoms/molecules used in perfectchef spring theme</p><p>   ================================================================================================================== */</p><p>body {</p><p>  background: #c0e675 url(<img alt="" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xlink:href="coremedia:///cap/resources/../img/spring%2Ejpg.xml#data" cmexport:path="/Themes/perfectchef/img/spring%2Ejpg"/>) repeat-x fixed;</p><p>}</p><p>.cm-placement-footer {</p><p>  background-color: #d1dcb1;</p><p>}</p><p>#cm-page {</p><p>  background: #ffffff;</p><p>  -moz-box-shadow: 30px -30px 80px 20px rgba(255, 255, 255, 1), -30px -30px 80px 20px rgba(255, 255, 255, 1), 30px 30px 80px 20px rgba(255, 255, 255, 1), -30px 30px 80px 20px rgba(255, 255, 255, 1);</p><p>  -webkit-box-shadow: 30px -30px 80px 20px rgba(255, 255, 255, 1), -30px -30px 80px 20px rgba(255, 255, 255, 1), 30px 30px 80px 20px rgba(255, 255, 255, 1), -30px 30px 80px 20px rgba(255, 255, 255, 1);</p><p>  box-shadow: 30px -30px 80px 20px rgba(255, 255, 255, 1), -30px -30px 80px 20px rgba(255, 255, 255, 1), 30px 30px 80px 20px rgba(255, 255, 255, 1), -30px 30px 80px 20px rgba(255, 255, 255, 1);</p><p>}</p></div></code>
+<ieExpression></ieExpression>
+<include>
+</include>
+<dataUrl></dataUrl>
+<media></media>
+</CMCSS>

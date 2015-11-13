@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Product Pictures/02_In The Kitchen/Pots" name="PC_STAINLESS_STEEL_POT_SET Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Pictures/Product%20Pictures/02_In%20The%20Kitchen/Pots/PC_STAINLESS_STEEL_POT_SET%20Frontshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/02_In%20The%20Kitchen/Pots/PC_STAINLESS_STEEL_POT_SET%20Frontshot"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=36;y=0;width=1981;height=3072</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=0;y=56;width=2048;height=2734</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=0;y=102;width=2048;height=2048</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=742;width=2048;height=1536</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=717;width=2048;height=1152</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=799;width=2048;height=1024</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=799;width=2048;height=819</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=794;width=2048;height=768</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=783;width=2048;height=512</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.0175;y1=0;x2=0.985;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0;y1=0.018333333333333333;x2=1;y2=0.9083333333333333</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0;y1=0.03333333333333333;x2=1;y2=0.7</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.24166666666666667;x2=1;y2=0.7416666666666667</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.23333333333333334;x2=1;y2=0.6083333333333333</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.26;x2=1;y2=0.5933333333333334</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.26;x2=1;y2=0.5266666666666666</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.25833333333333336;x2=1;y2=0.5083333333333333</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.255;x2=1;y2=0.4216666666666667</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_STAINLESS_STEEL_POT_SET</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Edelstahl-Topf-Set</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Pots.xml" path="/Settings/Taxonomies/Subject/Pots"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Edelstahl-Topf-Set</alt>
+<copyright>Anton Balazh / Shutterstock 38728087</copyright>
+<data href="PC_STAINLESS_STEEL_POT_SET%20Frontshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

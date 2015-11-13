@@ -1,0 +1,8 @@
+source 'https://supermarket.chef.io'
+
+cookbook 'mongodb', '= 0.16.2'
+
+# vendored workspace cookbooks
+cookbook 'coremedia', path: 'cookbooks/coremedia'
+cookbook 'psdash', path: 'cookbooks/psdash'
+cookbook 'blueprint-yum', path: 'cookbooks/blueprint-yum'

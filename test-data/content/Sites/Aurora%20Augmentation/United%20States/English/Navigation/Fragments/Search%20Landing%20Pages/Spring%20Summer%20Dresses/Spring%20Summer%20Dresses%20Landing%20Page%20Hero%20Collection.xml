@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Search Landing Pages/Spring Summer Dresses" name="Spring Summer Dresses Landing Page Hero Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../Options/Viewtypes/CMCollection/tiles-layout-50-50-portrait.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-50-50-portrait"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Airy Summer Dresses</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Airy Dresses</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Spring%20Summer%20Dresses%20Category%20Hero%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Search%20Landing%20Pages/Spring%20Summer%20Dresses/Spring%20Summer%20Dresses%20Category%20Hero%20Teaser"/>
+<link href="../../../../Videos/Campaigns/Spring%20Dresses%20Campaign/Red%20Summer%20Dress%20Video%204%3A3.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/Red%20Summer%20Dress%20Video%204%3A3"/>
+</items>
+</CMCollection>

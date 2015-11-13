@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMGallery folder="/Sites/PerfectChef/United States/English/Editorial/Content/Magazine Fall/Story 1 - A Perfect Dinner" name="A Perfect Dinner Gallery" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Perfect Dinner Gallery</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-1.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-1"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-4.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-4"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-5.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-5"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-6.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-6"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-24.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-24"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-25.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-25"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-29.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-29"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-33.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-33"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-38.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-38"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-39.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-39"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-41.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-41"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-13.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-13"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-19.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-19"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-20.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-20"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-23.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-23"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-30.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-30"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Gallery</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2001%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2001%20Picture"/>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2002%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2002%20Picture"/>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2003%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2003%20Picture"/>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2004%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2004%20Picture"/>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2005%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2005%20Picture"/>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2006%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2006%20Picture"/>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2007%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2007%20Picture"/>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2008%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2008%20Picture"/>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%20Hero%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%20Hero%20Picture"/>
+</items>
+</CMGallery>

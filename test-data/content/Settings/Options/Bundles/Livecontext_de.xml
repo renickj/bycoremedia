@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Settings/Options/Bundles" name="Livecontext_de" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StringProperty Name="commerce.error.1000">Fehlender URL Parameter.</StringProperty>
+<StringProperty Name="commerce.error.1010">Die Antwort zur Sicherheitsfrage wurde nicht eingegeben.</StringProperty>
+<StringProperty Name="commerce.error.1020">Die Antwort zur Sicherheitsfrage ist falsch.</StringProperty>
+<StringProperty Name="commerce.error.2000">Der Benutzername wurde nicht eingegeben.</StringProperty>
+<StringProperty Name="commerce.error.2010">Der Benutzername entspricht keinem registrierten Benutzer.</StringProperty>
+<StringProperty Name="commerce.error.2030">Die eingegebenen Anmeldedaten stimmen nicht überein.</StringProperty>
+<StringProperty Name="commerce.error.2040">Das alte Kennwort wurde nicht eingegeben.</StringProperty>
+<StringProperty Name="commerce.error.2050">Der Benutzer hat ein altes Kennwort eingegeben.</StringProperty>
+<StringProperty Name="commerce.error.2060">Das Kennwort wurde nicht eingegeben.</StringProperty>
+<StringProperty Name="commerce.error.2070">Die Bestätigung des Kennwortes wurde nicht eingegeben.</StringProperty>
+<StringProperty Name="commerce.error.2080">Die eingegebenen Passwörter stimmen nicht überein.</StringProperty>
+<StringProperty Name="commerce.error.2100">Die E-Mail-Adresse zu dem eingegeben Benutzer existiert nicht.</StringProperty>
+<StringProperty Name="commerce.error.2110">Der Benutzeraccount ist inaktiv.</StringProperty>
+<StringProperty Name="commerce.error.2170">Das aktuelle Kenntwort ist ausgelaufen. Bitte geben Sie ein neues ein.</StringProperty>
+<StringProperty Name="commerce.error.2200">Das Kennwort ist zu kurz.</StringProperty>
+<StringProperty Name="commerce.error.2210">Das Kennwort enthält zuviele aufeinanderfolgende Buchstaben. Längere Buchstabenketten müssen durch eine Ziffer oder ein Sonderzeichen getrennt sein.</StringProperty>
+<StringProperty Name="commerce.error.2220">Im Kennwort wird ein Symbol zu oft verwendet.</StringProperty>
+<StringProperty Name="commerce.error.2230">Das Kennwort enthält nicht genügend Buchstaben.</StringProperty>
+<StringProperty Name="commerce.error.2240">Das Kennwort enthält nicht genügend Ziffern.</StringProperty>
+<StringProperty Name="commerce.error.2250">Das Kennwort ist falsch.</StringProperty>
+<StringProperty Name="commerce.error.2260">Das Kennwort darf nicht einem vorigen Kennwort entsprechen.</StringProperty>
+<StringProperty Name="commerce.error.2300">Anmeldeversuch erfolgte zu kurzfristig im Anschluss an den vorhergehenden fehlgeschlagenen Versuch.</StringProperty>
+<StringProperty Name="commerce.error.2400">Eine Ihrer Vorläuferorganisationen wurde gesperrt.</StringProperty>
+<StringProperty Name="commerce.error.2410">Sie besitzen keinen Aufgabenbereich innerhalb der Organisation des Geschäfts oder einer ihrer Vorläufer.</StringProperty>
+<StringProperty Name="commerce.error.2420">Sie müssen warten bis Ihre Registrierung bestätigt wurde.</StringProperty>
+<StringProperty Name="commerce.error.2430">Das Kennwort wurde zurückgesetzt. Benutzen Sie das temporäre Kennwort aus der E-Mail.</StringProperty>
+<StringProperty Name="shop_now">Jetzt kaufen</StringProperty>
+<StringProperty Name="cart">Warenkorb</StringProperty>
+<StringProperty Name="cart_title">Ihr Warenkorb</StringProperty>
+<StringProperty Name="cart_product">Produkt</StringProperty>
+<StringProperty Name="cart_quantity">Anzahl</StringProperty>
+<StringProperty Name="cart_price">Preis</StringProperty>
+<StringProperty Name="cart_description">Beschreibung</StringProperty>
+<StringProperty Name="cart_add_item">In den Warenkorb</StringProperty>
+<StringProperty Name="cart_remove_item">Aus dem Warenkorb entfernen</StringProperty>
+<StringProperty Name="cart_unavailable">Nicht verfügbar</StringProperty>
+<StringProperty Name="cart_view_variants">Details zeigen</StringProperty>
+<StringProperty Name="cart_empty">Ihr Warenkorb ist leer</StringProperty>
+<StringProperty Name="cart_go_to_cart">Zum Warenkorb</StringProperty>
+<StringProperty Name="checkout_continue">Einkauf forsetzen</StringProperty>
+<StringProperty Name="product_assets_downloads">Verfügbare Downloads</StringProperty>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

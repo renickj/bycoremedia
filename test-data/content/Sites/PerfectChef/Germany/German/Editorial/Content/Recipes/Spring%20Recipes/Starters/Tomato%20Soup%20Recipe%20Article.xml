@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Spring Recipes/Starters" name="Tomato Soup Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Tomato%20Soup%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Tomato%20Soup%20Recipe%20Article"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Tomatensuppe</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Tomato.xml" path="/Settings/Taxonomies/Subject/Tomato"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cream.xml" path="/Settings/Taxonomies/Subject/Cream"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Basil.xml" path="/Settings/Taxonomies/Subject/Basil"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Die Zubereitung einer Tomatensuppe ist wirklich einfach - in weniger als 10 Minuten können Sie diese leckere Vorspeise kochen.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Die Zubereitung einer Tomatensuppe ist wirklich einfach - in weniger als 10 Minuten können Sie diese leckere Vorspeise kochen. Die Tomatensuppe können Sie auch aufwärmen und bei <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article">Ihrem Picknick</a> in einer Thermosflasche mitnehmen.</p><p class="p--heading-2">Zutaten</p><ul><li>1kg reife Tomaten</li><li>1 EL gehackte Basilikumblättchen</li><li>500ml Wasser</li><li>1 Eigelb</li><li>1 Knoblauchzehe</li><li>1 Zwiebel</li></ul><p><br/></p><p class="p--heading-2">Zubereitung</p><p/><ul><li>Die Zwiebel und den Knoblauch würfeln und im erhitzten Öl andünsten</li><li>Die Tomaten waschen, abtrocknen, in Stücke schneiden und auch im Öl andünsten</li><li>Mit Salz und Pfeffer würzen</li><li>Die Basilikumblättchen zum Wasse hingeben und zum Kochen bringen und etwa 10 Minuten kochen lassen</li><li>Die Tomatensuppe durch ein Sieb passieren</li><li>1 Eigelb mit 1 EL Wasser verschlagen, die Suppe damit binden</li><li>Basilikumblättchen unterrühren, mit Salz und Pfeffer abschmecken</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Als Beilage zur Tomatensuppe passt Mozzarella perfekt.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Tomato%20Soup%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Tomato%20Soup%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../../Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video"/>
+<link href="../../../../../Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+</related>
+</CMArticle>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/Recipes" name="Burgers Vimeo Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Burgers</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/American.xml" path="/Settings/Taxonomies/Subject/American"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Beef.xml" path="/Settings/Taxonomies/Subject/Beef"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Avocado.xml" path="/Settings/Taxonomies/Subject/Avocado"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Outdoor.xml" path="/Settings/Taxonomies/Subject/Outdoor"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+<link href="Burgers%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Burgers%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Burgers (1)</alt>
+<copyright></copyright>
+<dataUrl>//player.vimeo.com/video/71388957</dataUrl>
+</CMVideo>

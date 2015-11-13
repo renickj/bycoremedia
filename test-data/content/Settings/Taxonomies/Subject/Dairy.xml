@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Dairy" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Dairy</value>
+<children>
+<link href="Cheese.xml" path="/Settings/Taxonomies/Subject/Cheese"/>
+<link href="Milk.xml" path="/Settings/Taxonomies/Subject/Milk"/>
+<link href="Cream.xml" path="/Settings/Taxonomies/Subject/Cream"/>
+<link href="Butter.xml" path="/Settings/Taxonomies/Subject/Butter"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

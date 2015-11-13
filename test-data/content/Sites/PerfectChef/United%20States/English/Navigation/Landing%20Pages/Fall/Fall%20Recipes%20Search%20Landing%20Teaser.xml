@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Landing Pages/Fall" name="Fall Recipes Search Landing Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Your Perfect Dinner: Find Our Best Recipes for Fall Dishes</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Enjoy seasonal mushrooms like chanterelles. Be inspired by our Asian-flavored Spicy Duck recipe. Learn how to make amazing pumpkin cream soup in a Hokkaido pumpkin to surprise your friends when hosting a Fall Dinner. Find some yummy desserts that warm the heart in Winter. Watch our reviews for the best baking equipment - from pans to mixers.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Recipes/Fall%20Recipes/Pumpkin%20Soup%2001%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Pumpkin%20Soup%2001%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../Categories/05_Recipes/Fall%20Recipes/Fall%20Recipes.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipes"/>
+</target>
+</CMTeaser>

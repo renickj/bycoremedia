@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/test" name="Boots-Main-Logo" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=51;y=0;width=65;height=100</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=46;y=0;width=75;height=100</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=33;y=0;width=100;height=100</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=17;y=0;width=133;height=100</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=4;width=166;height=93</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=9;width=166;height=83</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=17;width=166;height=66</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=19;width=166;height=62</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=29;width=166;height=42</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.3072289156626506;y1=0;x2=0.6987951807228916;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.27710843373493976;y1=0;x2=0.7289156626506024;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.19879518072289157;y1=0;x2=0.8012048192771084;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.10240963855421686;y1=0;x2=0.9036144578313253;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.04;x2=1;y2=0.97</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.09;x2=1;y2=0.92</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.17;x2=1;y2=0.83</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.19;x2=1;y2=0.81</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.29;x2=1;y2=0.71</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Boots-Main-Logo</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Boots-Main-Logo</alt>
+<copyright></copyright>
+<data href="Boots-Main-Logo.data.png" mimetype="image/png"/>
+<dataUrl></dataUrl>
+<width>166</width>
+<height>100</height>
+</CMPicture>

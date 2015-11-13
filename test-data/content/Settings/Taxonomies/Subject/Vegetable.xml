@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Vegetable" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Vegetable</value>
+<children>
+<link href="Pumpkin.xml" path="/Settings/Taxonomies/Subject/Pumpkin"/>
+<link href="Butternut.xml" path="/Settings/Taxonomies/Subject/Butternut"/>
+<link href="Tomato.xml" path="/Settings/Taxonomies/Subject/Tomato"/>
+<link href="Salad.xml" path="/Settings/Taxonomies/Subject/Salad"/>
+<link href="Cucumber.xml" path="/Settings/Taxonomies/Subject/Cucumber"/>
+<link href="Peanut.xml" path="/Settings/Taxonomies/Subject/Peanut"/>
+<link href="Corn.xml" path="/Settings/Taxonomies/Subject/Corn"/>
+<link href="Onion.xml" path="/Settings/Taxonomies/Subject/Onion"/>
+<link href="Carrot.xml" path="/Settings/Taxonomies/Subject/Carrot"/>
+<link href="Parsley.xml" path="/Settings/Taxonomies/Subject/Parsley"/>
+<link href="Basil.xml" path="/Settings/Taxonomies/Subject/Basil"/>
+<link href="Beans.xml" path="/Settings/Taxonomies/Subject/Beans"/>
+<link href="Mushroom.xml" path="/Settings/Taxonomies/Subject/Mushroom"/>
+<link href="Avocado.xml" path="/Settings/Taxonomies/Subject/Avocado"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

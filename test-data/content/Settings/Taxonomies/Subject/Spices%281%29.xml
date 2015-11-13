@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Spices(1)" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Spices</value>
+<children>
+<link href="Garlic.xml" path="/Settings/Taxonomies/Subject/Garlic"/>
+<link href="Ginger.xml" path="/Settings/Taxonomies/Subject/Ginger"/>
+<link href="Chilli.xml" path="/Settings/Taxonomies/Subject/Chilli"/>
+<link href="Soy%20sauce.xml" path="/Settings/Taxonomies/Subject/Soy%20sauce"/>
+<link href="Fish%20sauce.xml" path="/Settings/Taxonomies/Subject/Fish%20sauce"/>
+<link href="Sriracha%20sauce.xml" path="/Settings/Taxonomies/Subject/Sriracha%20sauce"/>
+<link href="Cayenne%20Pepper.xml" path="/Settings/Taxonomies/Subject/Cayenne%20Pepper"/>
+<link href="White%20Pepper.xml" path="/Settings/Taxonomies/Subject/White%20Pepper"/>
+<link href="Vanilla.xml" path="/Settings/Taxonomies/Subject/Vanilla"/>
+<link href="Cardamon.xml" path="/Settings/Taxonomies/Subject/Cardamon"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

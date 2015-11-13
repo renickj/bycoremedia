@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Options/Personalization/Profiles" name="Matthias Rost Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Personalization/Profiles/Matt%20Weller%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Options/Personalization/Profiles/Matt%20Weller%20Picture"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=363;y=0;width=1325;height=2048</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=253;y=0;width=1538;height=2048</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=0;y=6;width=2045;height=2042</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=259;width=2045;height=1530</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=449;width=2045;height=1151</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=512;width=2045;height=1024</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=616;width=2045;height=817</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=644;width=2045;height=765</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=771;width=2045;height=512</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.17746478873239438;y1=0;x2=0.8253521126760563;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.12394366197183099;y1=0;x2=0.8760563380281691;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0;y1=0.0028089887640449437;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.12640449438202248;x2=1;y2=0.8735955056179775</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.21910112359550563;x2=1;y2=0.7808988764044944</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.25;x2=1;y2=0.75</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.300561797752809;x2=1;y2=0.699438202247191</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.3146067415730337;x2=1;y2=0.6882022471910112</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.37640449438202245;x2=1;y2=0.6264044943820225</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Steak &amp; BBQ</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Steak &amp; BBQ</alt>
+<copyright>Kesu/Shutterstock 104722388</copyright>
+<data href="Matthias%20Rost%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>2045</width>
+<height>2048</height>
+</CMPicture>

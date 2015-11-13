@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Product Pictures/01_On The Table/Plates, Tableware" name="PC_ESPRESSO_CUPS Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Pictures/Product%20Pictures/01_On%20The%20Table/Plates%2C%20Tableware/PC_ESPRESSO_CUPS%20Frontshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/01_On%20The%20Table/Plates%2C%20Tableware/PC_ESPRESSO_CUPS%20Frontshot"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=513;y=0;width=1166;height=1805</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=513;y=0;width=1354;height=1805</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=82;y=0;width=1806;height=1805</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=29;width=2048;height=1534</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=402;width=2048;height=1153</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=468;width=2048;height=1026</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=496;width=2048;height=820</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=496;width=2048;height=767</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=624;width=2048;height=513</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.250501002004008;y1=0;x2=0.8196392785571143;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.250501002004008;y1=0;x2=0.9118236472945892;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.04008016032064128;y1=0;x2=0.9218436873747495;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.015909090909090907;x2=1;y2=0.865909090909091</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.22272727272727272;x2=1;y2=0.8613636363636363</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.2590909090909091;x2=1;y2=0.8272727272727273</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.275;x2=1;y2=0.7295454545454545</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.275;x2=1;y2=0.7</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.34545454545454546;x2=1;y2=0.6295454545454545</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_ESPRESSO_CUPS</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Espressotassen</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Tableware.xml" path="/Settings/Taxonomies/Subject/Tableware"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Espressotassen</alt>
+<copyright>bitt24/Shutterstock 149654768</copyright>
+<data href="PC_ESPRESSO_CUPS%20Frontshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

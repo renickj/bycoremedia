@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Categories/01_On The Table" name="Decoration Category Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Dekoration</teaserTitle>
+<pictures>
+<link href="../../../../../PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/On%20The%20Table/Decoration%20Category%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/On%20The%20Table/Decoration%20Category%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Decoration/Decoration%20External%20Category%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/01_On%20The%20Table/Decoration/Decoration%20External%20Category%20Page"/>
+</target>
+</CMTeaser>

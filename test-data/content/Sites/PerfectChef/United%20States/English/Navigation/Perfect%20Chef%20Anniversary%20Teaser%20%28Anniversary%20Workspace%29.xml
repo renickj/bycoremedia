@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation" name="Perfect Chef Anniversary Teaser (Anniversary Workspace)" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<BooleanProperty Name="useTeaserTargetValidity">true</BooleanProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Happy Birthday, Perfect Chef!</teaserTitle>
+<pictures>
+<link href="../Pictures/Anniversary%20Campaign/Chef%20with%20Birthday%20Cake%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Anniversary%20Campaign/Chef%20with%20Birthday%20Cake%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Categories/03_For%20The%20Cook/Anniversary/Anniversary%20External%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/03_For%20The%20Cook/Anniversary/Anniversary%20External%20Page"/>
+</target>
+</CMTeaser>

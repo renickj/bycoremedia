@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+     this is an example watchdog configuration file and can be used for testing the watchdog/probedog functionality
+     or your custom actions. The real configurations should be defined in the deployment workspace where your deployment
+     setup manifests.
+-->
+
+<!DOCTYPE Watchdog SYSTEM "classpath:xml/coremedia-watchdog.dtd">
+
+<Watchdog>
+  <!-- Probe a CoreMedia Workflow Server -->
+  <Component name="ProbeWorkflowServer" startAction="Workflow-IOR-Query" delay="0">
+    <WorkflowServerQuery name="Workflow-IOR-Query" url="http://@WFS_HOST@:@WFS_HTTP_PORT@/workflow/ior" user="watchdog" password="watchdog"/>
+  </Component>
+
+</Watchdog>

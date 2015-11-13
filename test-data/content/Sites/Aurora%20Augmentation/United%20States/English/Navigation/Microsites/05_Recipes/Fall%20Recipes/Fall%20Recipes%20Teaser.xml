@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Microsites/05_Recipes/Fall Recipes" name="Fall Recipes Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Fall Recipes</teaserTitle>
+<pictures>
+<link href="../../../../Pictures/Recipes/Fall%20Recipes/Chanterelle%20Tagliatelle%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Recipes/Fall%20Recipes/Chanterelle%20Tagliatelle%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Fall%20Recipes%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/05_Recipes/Fall%20Recipes/Fall%20Recipes%20Page"/>
+</target>
+</CMTeaser>

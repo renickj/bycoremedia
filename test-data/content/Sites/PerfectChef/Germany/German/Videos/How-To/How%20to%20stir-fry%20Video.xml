@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/How-To" name="How to stir-fry Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/How-To/How%20to%20stir-fry%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20stir-fry%20Video"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-how-to-stir-fry</segment>
+<title>Gewußt-Wie: Wok-Gerichte</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/How%20To.xml" path="/Settings/Taxonomies/Subject/How%20To"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Chicken.xml" path="/Settings/Taxonomies/Subject/Chicken"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pans.xml" path="/Settings/Taxonomies/Subject/Pans"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Wok-Gerichte</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Erfahren Sie mehr über Wok-Gerichte.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Anbraten in einem Wok eignet sich für fast jede Kombination aus Gemüse und Fleisch oder Fisch. Und es klappt super einfach und schnell! Erfahren Sie mehr über Wok-Gerichte.</p></div></detailText>
+<pictures>
+<link href="How%20to%20stir-fry%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/How-To/How%20to%20stir-fry%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Gewußt-Wie: Wok-Gerichte</alt>
+<copyright>cooksmarts.com / Vimeo CC-BY-SA 3.0</copyright>
+<data href="How%20to%20stir-fry%20Video.data.mp4" mimetype="video/mp4"/>
+<dataUrl>//player.vimeo.com/video/73545495</dataUrl>
+</CMVideo>

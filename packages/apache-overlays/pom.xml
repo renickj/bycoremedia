@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>packages</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>apache-overlays</artifactId>
+  <packaging>pom</packaging>
+
+  <properties>
+     <filters.dir>${project.basedir}/../../src/main/filters</filters.dir>
+    <INSTALL_USER>root</INSTALL_USER>
+    <INSTALL_GROUP>root</INSTALL_GROUP>
+  </properties>
+
+  <modules>
+    <module>studio-apache</module>
+    <module>delivery-apache</module>
+  </modules>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>package-template</artifactId>
+      <version>${project.version}</version>
+      <classifier>apache</classifier>
+      <type>zip</type>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.coremedia.maven</groupId>
+        <artifactId>coremedia-application-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <skipZipArchiving>${skipZip}</skipZipArchiving>
+          <skipRpmArchiving>${skipRpm}</skipRpmArchiving>
+          <dependencyFiltering>true</dependencyFiltering>
+          <defaultConfigurationProperties>${filters.dir}/default-deployment.properties</defaultConfigurationProperties>
+          <rpmConfig>
+            <defaultprefix>/etc/httpd/conf.d</defaultprefix>
+            <defaultuser>${INSTALL_USER}</defaultuser>
+            <defaultgroup>${INSTALL_GROUP}</defaultgroup>
+            <preInstallScript>${project.build.directory}/${project.build.finalName}/INSTALL/preinstall.sh
+            </preInstallScript>
+            <postInstallScript>${project.build.directory}/${project.build.finalName}/INSTALL/postinstall.sh
+            </postInstallScript>
+            <postUninstallScript>${project.build.directory}/${project.build.finalName}/INSTALL/postuninstall.sh
+            </postUninstallScript>
+            <mappings>
+              <mapping>
+                <includes>**/*.conf,**/*.inc</includes>
+              </mapping>
+              <mapping>
+                <filemode>755</filemode>
+                <includes>INSTALL/install-config.sh,INSTALL/reconfigure.sh</includes>
+                <!--this directive needs to be ghost only when you install both overlays on the same machine-->
+                <directive>GHOST</directive>
+              </mapping>
+              <mapping>
+                <includes>INSTALL/**</includes>
+                <excludes>INSTALL/install-config.sh,INSTALL/reconfigure.sh,**/*.bat,**/*.exe</excludes>
+                <!--this directive needs to be ghost only when you install both overlays on the same machine-->
+                <directive>GHOST</directive>
+              </mapping>
+            </mappings>
+            <dependencies>
+              <dependency>
+                <packageName>mod_ssl</packageName>
+                <minVersion>${mod_ssl.rpm.version}</minVersion>
+              </dependency>
+            </dependencies>
+          </rpmConfig>
+          <configurationTemplateFile>${project.build.directory}/${project.build.finalName}/INSTALL/${APPLICATION_NAME}.properties</configurationTemplateFile>
+          <tokenizedConfigurationDir>${project.build.directory}/${project.build.finalName}/INSTALL/${APPLICATION_NAME}-templates</tokenizedConfigurationDir>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

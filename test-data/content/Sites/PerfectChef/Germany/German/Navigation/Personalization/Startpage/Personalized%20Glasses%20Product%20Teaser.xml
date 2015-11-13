@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSelectionRules folder="/Sites/PerfectChef/Germany/German/Navigation/Personalization/Startpage" name="Personalized Glasses Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Personalization/Startpage/Personalized%20Glasses%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Personalization/Startpage/Personalized%20Glasses%20Product%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMCollection/unboxed.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/unboxed"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Personalisierte Produkt Teaser</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Personalisierte Produkt Teaser</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Diese personalisierte Produkt Teaser verwendet verschiedene Attribute persona zum Ziel: </p> <p><br/></p> <p> - Elegante Abendmode: Premium-Champagner-Gläser für US $ 139.99 </p> <p> - Hohe Haushalts incume: Premium-Weingläser für US $ 139.99 </p> <p><br/></p> <p> - Keine Übereinstimmung: regelmäßige Weingläser für US $ 44.99 </p> </div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+<rules grammarName="coremedia-selectionrules-1.0"><rules version="1.0" xmlns="http://www.coremedia.com/2010/selectionrules" xmlns:xlink="http://www.w3.org/1999/xlink">select <content xlink:href="coremedia:///cap/resources/../../../Editorial/Products/Fall%20Campaign/Champagne%20Flutes%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Champagne%20Flutes%20Product%20Teaser"/> if subjectTaxonomies.<content xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Women%20Spring%20Elegant.xml" cmexport:path="/Settings/Taxonomies/Subject/Women%20Spring%20Elegant"/>&gt;=0.05 or subjectTaxonomies.<content xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Women%20Fall%20Elegant.xml" cmexport:path="/Settings/Taxonomies/Subject/Women%20Fall%20Elegant"/>&gt;=0.05 or explicit.<content xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Women%20Spring%20Elegant.xml" cmexport:path="/Settings/Taxonomies/Subject/Women%20Spring%20Elegant"/>=1 or explicit.<content xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Women%20Fall%20Elegant.xml" cmexport:path="/Settings/Taxonomies/Subject/Women%20Fall%20Elegant"/>=1 or subjectTaxonomies.<content xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Glasses.xml" cmexport:path="/Settings/Taxonomies/Subject/Glasses"/>&gt;=0.05; select <content xlink:href="coremedia:///cap/resources/../../../Editorial/Products/Fall%20Campaign/Fall%20Wine%20Glasses%20Product%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Fall%20Wine%20Glasses%20Product%20Teaser"/> if nuggad.householdIncome=5</rules></rules>
+<defaultContent>
+<link href="../../../Editorial/Products/Spring%20Campaign/Spring%20Wine%20Glasses%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Spring%20Wine%20Glasses%20Product%20Teaser"/>
+</defaultContent>
+</CMSelectionRules>

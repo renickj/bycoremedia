@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Documentaries" name="Jacob's Recipe - A short documentary Local Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Local%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Local%20Video"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Jacobs Rezept - Ein kurzer Dokumentarfilm</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Video%282%29.xml" path="/Settings/Taxonomies/Subject/Video%282%29"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Inspirational.xml" path="/Settings/Taxonomies/Subject/Inspirational"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Hero.xml" path="/Settings/Taxonomies/Subject/Hero"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Jacobs Rezept</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Jacob Kenedy ist ein junger, aber erfahrener Londoner Koch. In dieser kurzen Doku offenbart sich Jakob und erzählt über seine Kunst. </p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Jacob Kenedy ist ein junger, aber erfahrener Londoner Koch. Im Jahr 2008 eröffnete er sein Traum-Restaurant Bocca di Lupo mit seinem Geschäftspartner Victor Hugo. Das Restaurant hat verschiedene Preise und Auszeichnungen für seine ehrliche, regionale italienische Küche erhalten. In dieser kurzen Doku offenbart sich Jakob und erzählt über seine Kunst.</p></div></detailText>
+<pictures>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2001%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2001%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2014%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2014%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2004%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2004%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2006%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2006%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2011%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2011%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Jakobs Rezept - Ein kurzer Dokumentarfilm</alt>
+<copyright>Ginger Studio / Vimeo CC-BY-SA 3.0</copyright>
+<data href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Local%20Video.data.mp4" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

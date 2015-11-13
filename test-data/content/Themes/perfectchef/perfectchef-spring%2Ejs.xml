@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMJavaScript folder="/Themes/perfectchef" name="perfectchef-spring.js" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/**</p><p> * Includes all javascripts required for theme perfectchef spring</p><p> * (this file is a placeholder, the inclusion is defined in exported content)</p><p> *</p><p> * To be able to use javascript frameworks without conflicts, we first include all vendor</p><p> * specific javascripts of all themes in the order they need to be loaded (e.g. basic-vendor.js, perfectchef-vendor.js)</p><p> *</p><p> * After all vendor specific javascript is loaded, coremedia specific javascript is being loaded.</p><p> * All coremedia specific javascripts access javascript frameworks via an own namespace. So the first javascript loaded</p><p> * will perform all actions necessary to avoid conflicts (e.g. if jQuery is being used call noConflict(true) in store</p><p> * the result in the namespace to be used.</p><p> */</p></div></code>
+<ieExpression></ieExpression>
+<include>
+<link href="perfectchef%2Ejs.xml" path="/Themes/perfectchef/perfectchef%2Ejs"/>
+</include>
+<dataUrl></dataUrl>
+</CMJavaScript>

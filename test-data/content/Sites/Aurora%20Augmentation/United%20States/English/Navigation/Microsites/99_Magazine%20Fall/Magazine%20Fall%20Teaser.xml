@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Microsites/99_Magazine Fall" name="Magazine Fall Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Fall Magazine</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Enjoy our Fall magazine edition: Read all about hosting a Perfect Dinner. Find out about delicious Autumn Dishes. Read our recipes and learn how to prepare the best Fall dishes with our how-to videos. Finally watch independent reviews of our products.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2006%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2006%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Magazine%20Fall%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/99_Magazine%20Fall/Magazine%20Fall%20Page"/>
+</target>
+</CMTeaser>

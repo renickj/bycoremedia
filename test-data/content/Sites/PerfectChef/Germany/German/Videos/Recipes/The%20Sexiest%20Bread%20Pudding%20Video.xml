@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Recipes" name="The Sexiest Bread Pudding Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Recipes/The%20Sexiest%20Bread%20Pudding%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/The%20Sexiest%20Bread%20Pudding%20Video"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-recipe-the-sexiest-bread-pudding</segment>
+<title>Sexy Brot-Pudding</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Milk.xml" path="/Settings/Taxonomies/Subject/Milk"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Eggs.xml" path="/Settings/Taxonomies/Subject/Eggs"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Sweet.xml" path="/Settings/Taxonomies/Subject/Sweet"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Dessert.xml" path="/Settings/Taxonomies/Subject/Dessert"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Sugar.xml" path="/Settings/Taxonomies/Subject/Sugar"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/White%20Bread.xml" path="/Settings/Taxonomies/Subject/White%20Bread"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Butter.xml" path="/Settings/Taxonomies/Subject/Butter"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Vanilla.xml" path="/Settings/Taxonomies/Subject/Vanilla"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Cardamon.xml" path="/Settings/Taxonomies/Subject/Cardamon"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Raisins.xml" path="/Settings/Taxonomies/Subject/Raisins"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Rum.xml" path="/Settings/Taxonomies/Subject/Rum"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Baking%20Pans.xml" path="/Settings/Taxonomies/Subject/Baking%20Pans"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Dried%20Berries.xml" path="/Settings/Taxonomies/Subject/Dried%20Berries"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Hero.xml" path="/Settings/Taxonomies/Subject/Hero"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipes.xml" path="/Settings/Taxonomies/Subject/Recipes"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Sexy Brot-Pudding</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="first">Bombig! Rum, Beeren und Kardamom. Mjam!</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="first">Nutzen Sie unsere geheimen Zutaten Rum, Beeren und Kardamom, um aus einen einfachen Brotpudding ein köstliches und sexy Dessert zu machen.</p></div></detailText>
+<pictures>
+<link href="../../Pictures/Recipes/Fall%20Recipes/Bread%20Pudding%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Bread%20Pudding%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>The Sexiest Brot-Pudding</alt>
+<copyright>jin yoo / Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/58612829</dataUrl>
+</CMVideo>

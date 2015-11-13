@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMMarketingSpot folder="/Sites/PerfectChef/United States/English/Navigation/e-Marketing Spots" name="Sitewide Top-Sellers Related Box e-Marketing Spot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../Options/Viewtypes/CMCollection/tiles-layout-portrait.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-portrait"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Top Sellers</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>PC_RelatedBox_TopSellers</p></div></teaserText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+<maxLength>6</maxLength>
+<externalId>ibm:///catalog/marketingspot/PC_RelatedBox_TopSellers</externalId>
+</CMMarketingSpot>

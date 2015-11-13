@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/Aurora Augmentation/United States/English/Options/Viewtypes/CMCollection" name="accordion" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description></description>
+<icon href="accordion.icon.png" mimetype="image/png"/>
+<layout>accordion</layout>
+</CMViewtype>

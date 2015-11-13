@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/United States/English/Options/Viewtypes/CMCollection" name="unboxed" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>Displays a collection as unboxed collection</description>
+<icon href="unboxed.icon.png" mimetype="image/png"/>
+<layout>unboxed</layout>
+</CMViewtype>

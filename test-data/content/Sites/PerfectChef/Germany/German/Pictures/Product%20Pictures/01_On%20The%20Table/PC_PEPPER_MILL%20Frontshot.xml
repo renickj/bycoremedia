@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Product Pictures/01_On The Table" name="PC_PEPPER_MILL Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Pictures/Product%20Pictures/01_On%20The%20Table/PC_PEPPER_MILL%20Frontshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/01_On%20The%20Table/PC_PEPPER_MILL%20Frontshot"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=242;y=231;width=1765;height=2734</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=0;y=206;width=2048;height=2729</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=0;y=946;width=2048;height=2046</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=329;width=2048;height=1537</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=123;y=982;width=1621;height=910</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=992;width=1698;height=848</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=1146;width=1662;height=663</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=1085;width=1827;height=684</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=1203;width=1750;height=437</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.11809045226130653;y1=0.075;x2=0.9798994974874372;y2=0.9616666666666667</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0;y1=0.06666666666666667;x2=1;y2=0.9516666666666667</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0;y1=0.30666666666666664;x2=1;y2=0.97</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.10666666666666667;x2=1;y2=0.605</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.06030150753768844;y1=0.31833333333333336;x2=0.8517587939698492;y2=0.6133333333333333</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.32166666666666666;x2=0.8291457286432161;y2=0.5966666666666667</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.37166666666666665;x2=0.8115577889447236;y2=0.5866666666666667</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.3516666666666667;x2=0.8919597989949749;y2=0.5733333333333334</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.39;x2=0.8542713567839196;y2=0.5316666666666666</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_PEPPER_MILL</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Pfeffermühle</title>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/On%20the%20Table.xml" path="/Settings/Taxonomies/Subject/On%20the%20Table"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Pfeffermühle</alt>
+<copyright>Vlasdislav Proshkin / Shutterstock 65460535</copyright>
+<data href="PC_PEPPER_MILL%20Frontshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

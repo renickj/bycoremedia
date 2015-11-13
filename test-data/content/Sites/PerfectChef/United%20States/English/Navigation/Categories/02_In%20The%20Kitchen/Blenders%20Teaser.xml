@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Categories/02_In The Kitchen" name="Blenders Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Blenders</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Appliances/Blenders%20External%20Category%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/02_In%20The%20Kitchen/Appliances/Blenders%20External%20Category%20Page"/>
+</target>
+</CMTeaser>

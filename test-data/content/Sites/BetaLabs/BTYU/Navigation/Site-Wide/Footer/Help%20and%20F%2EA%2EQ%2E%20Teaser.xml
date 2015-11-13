@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer" name="Help and F.A.Q. Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Hilfe und FAQ</teaserTitle>
+<pictures>
+<link href="../../../../../PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../FAQ/FAQ%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/FAQ/FAQ%20Page"/>
+</target>
+</CMTeaser>

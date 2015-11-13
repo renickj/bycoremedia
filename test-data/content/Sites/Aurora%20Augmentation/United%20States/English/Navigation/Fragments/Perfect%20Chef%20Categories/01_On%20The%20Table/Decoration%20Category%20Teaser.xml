@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/01_On The Table" name="Decoration Category Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Decoration</teaserTitle>
+<pictures>
+<link href="../../../../Pictures/Product%20Category%20Pictures/On%20The%20Table/Decoration%20Category%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Category%20Pictures/On%20The%20Table/Decoration%20Category%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Decoration/Decoration%20External%20Category%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/01_On%20The%20Table/Decoration/Decoration%20External%20Category%20Page"/>
+</target>
+</CMTeaser>

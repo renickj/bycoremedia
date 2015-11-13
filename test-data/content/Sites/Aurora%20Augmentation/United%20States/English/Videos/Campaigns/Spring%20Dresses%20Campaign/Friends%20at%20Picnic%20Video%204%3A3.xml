@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/Campaigns/Spring Dresses Campaign" name="Friends at Picnic Video 4:3" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Friends at a Picnic</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Enjoy a Picnic</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Friends at a Picnic.</p></div></detailText>
+<pictures>
+<link href="Friends%20at%20Picnic%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/Friends%20at%20Picnic%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Friends at a Picnic</alt>
+<copyright>Luiza Dutkiewicz/Shutterstock 3465866</copyright>
+<data href="Friends%20at%20Picnic%20Video%204%3A3.data.mp4" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

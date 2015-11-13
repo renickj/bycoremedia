@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall Recipes/Starters" name="Pumpkin Salad Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Pumpkin%20Salad%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Pumpkin%20Salad%20Recipe%20Article"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Kürbis-Salat mit Zwiebeln, Rucola, Parmesan und Pesto</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Pumpkin.xml" path="/Settings/Taxonomies/Subject/Pumpkin"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spicy.xml" path="/Settings/Taxonomies/Subject/Spicy"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salad%282%29.xml" path="/Settings/Taxonomies/Subject/Salad%282%29"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Kürbis-Salat</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Versuchen Sie doch mal Kürbis als Salat!</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Kürbisse sind das typischen Herbst-Gemüse - aber wussten Sie schon, wie toll sie als Salat schmecken? Mischen Sie sie mit Zwiebeln, Rucola, Parmesan und Pesto, um eine italienische Herbst-Vorspeise vorzubereiten.</p><p class="p--heading-2">Zutaten</p><ul><li>1 kleiner Kürbis</li><li>5 Hände voll Rucola</li><li>200g Parmesan </li><li>Pesto</li><li>1 kleine gewürfelte Zwiebel</li><li>5 El Balsamico-Essig</li></ul><p class="p--heading-2">Zubereitung</p><ul><li>Den Kürbis kleinschneiden und die Stücke in einen <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Navigation/Categories/02_In%20The%20Kitchen/Baking%20Pans/Baking%20Pans%20External%20Category%20Page.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In%20The%20Kitchen/Baking%20Pans/Baking%20Pans%20External%20Category%20Page">Bräter </a>legen und mit etwas Olivenöl einreiben</li><li>Den Kürbis mit der Gewürzmischung bestreuen und 1/2 Stunde im Ofen backen</li><li>Kürbiskerne entfernen und den warmen Kürbis in Stücke schneiden</li><li>Pesto nach Geschmack hinzufügen</li><li>Zwiebeln kleinschneiden, Parmesan reiben und zusammen mit den Rucola darüber geben</li><li>Das Ganze mit  dem Balsamico-Essig beträufeln, Salz und Pfeffer bestreuen</li></ul><p/><p class="p--heading-2">Serviervorschlag</p><p>Der herbstliche Kürbissalat lässt sich wunderbar ein paar Tage im Kühlschrank aufbewahren und passt bestens als Beilage zu verschiedenen Gerichten. </p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Pumpkin%20Salad%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Pumpkin%20Salad%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

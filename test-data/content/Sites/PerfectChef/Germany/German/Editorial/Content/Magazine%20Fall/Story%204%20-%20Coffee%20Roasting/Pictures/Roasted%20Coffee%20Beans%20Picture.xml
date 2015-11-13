@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine Fall/Story 4 - Coffee Roasting/Pictures" name="Roasted Coffee Beans Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Magazine%20Fall/Story%204%20-%20Coffee%20Roasting/Pictures/Roasted%20Coffee%20Beans%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Fall/Story%204%20-%20Coffee%20Roasting/Pictures/Roasted%20Coffee%20Beans%20Picture"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=330;y=0;width=619;height=960</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=281;y=0;width=720;height=960</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=160;y=0;width=959;height=960</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=0;width=1280;height=960</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=121;width=1280;height=721</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=160;width=1280;height=642</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=225;width=1280;height=513</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=239;width=1280;height=481</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=321;width=1280;height=321</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.2581888246628131;y1=0;x2=0.7418111753371869;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.21965317919075145;y1=0;x2=0.7822736030828517;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.1252408477842004;y1=0;x2=0.8747591522157996;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.12596401028277635;x2=1;y2=0.8766066838046273</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.16709511568123395;x2=1;y2=0.8354755784061697</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.23393316195372751;x2=1;y2=0.7686375321336761</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.2493573264781491;x2=1;y2=0.7506426735218509</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.3341902313624679;x2=1;y2=0.6683804627249358</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Geröstete Kaffeebohnen</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Geröstete Kaffeebohnen</alt>
+<copyright></copyright>
+<data href="Roasted%20Coffee%20Beans%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>1280</width>
+<height>960</height>
+</CMPicture>

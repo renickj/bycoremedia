@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/.Example Category Page 2" name="Sample Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%202/Sample%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%202/Sample%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Beispielaufgabe</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Beispiel Teaser Text </p> <p> Wählen Sie einen beliebigen Inhalt Artikel zur von der Bibliothek und ziehen verlinken &amp; Drop auf das Zielfeld Teaser oben. </p> <p> Wählen Sie ein beliebiges Bild als Teaser aus der Bibliothek anzeigen und per Drag &amp; Drop in die Bilder unten Feld ein. </p> <p> Sehen Sie die Vorschau auf der rechten Anpassung in Echtzeit, um die Änderungen. </p> </div></teaserText>
+<pictures>
+<link href="../../../../../Pictures/Sitewide%20Pictures/About%20Us%20-%20Chefs%20in%20the%20kitchen%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/About%20Us%20-%20Chefs%20in%20the%20kitchen%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../../../../Navigation/Perfect%20Chef%20Deutschland.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Perfect%20Chef%20Deutschland"/>
+</target>
+</CMTeaser>

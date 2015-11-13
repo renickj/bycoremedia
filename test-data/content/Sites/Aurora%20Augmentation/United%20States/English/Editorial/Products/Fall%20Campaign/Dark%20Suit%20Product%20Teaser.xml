@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/Aurora Augmentation/United States/English/Editorial/Products/Fall Campaign" name="Dark Suit Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Dark Suit</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>This elegant Blazer is perfect for a Dinner Party. Made from Lambswool.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Him/PC_GREY_SUIT%20Frontshot.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Him/PC_GREY_SUIT%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/product/PC_GREY_SUIT</externalId>
+</CMProductTeaser>

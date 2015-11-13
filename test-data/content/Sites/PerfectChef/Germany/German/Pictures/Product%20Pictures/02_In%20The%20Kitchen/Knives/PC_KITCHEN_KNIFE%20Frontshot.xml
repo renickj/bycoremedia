@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Product Pictures/02_In The Kitchen/Knives" name="PC_KITCHEN_KNIFE Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Pictures/Product%20Pictures/02_In%20The%20Kitchen/Knives/PC_KITCHEN_KNIFE%20Frontshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/02_In%20The%20Kitchen/Knives/PC_KITCHEN_KNIFE%20Frontshot"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=221;y=0;width=793;height=1229</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=249;y=0;width=919;height=1229</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=237;y=0;width=1227;height=1229</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=324;y=0;width=1638;height=1229</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=40;width=2048;height=1154</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=103;width=2048;height=1027</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=202;width=2048;height=822</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=241;width=2048;height=771</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=371;width=2048;height=514</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.10789980732177264;y1=0;x2=0.4951830443159923;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.12138728323699421;y1=0;x2=0.5703275529865125;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.11560693641618497;y1=0;x2=0.7148362235067437;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.1579961464354528;y1=0;x2=0.9576107899807321;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.03215434083601286;x2=1;y2=0.9710610932475884</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.08360128617363344;x2=1;y2=0.9196141479099679</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.1639871382636656;x2=1;y2=0.8327974276527331</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.19614147909967847;x2=1;y2=0.8231511254019293</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.3022508038585209;x2=1;y2=0.7202572347266881</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_KITCHEN_KNIFE</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>10-Zoll-Küchenmesser</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Knives.xml" path="/Settings/Taxonomies/Subject/Knives"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>10-Zoll-Küchenmesser</alt>
+<copyright>Julio Embun / shutterstock 99616199</copyright>
+<data href="PC_KITCHEN_KNIFE%20Frontshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

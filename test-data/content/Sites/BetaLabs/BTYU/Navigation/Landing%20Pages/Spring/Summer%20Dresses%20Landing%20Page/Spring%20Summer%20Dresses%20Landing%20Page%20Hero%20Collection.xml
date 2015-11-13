@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/BetaLabs/BTYU/Navigation/Landing Pages/Spring/Summer Dresses Landing Page" name="Spring Summer Dresses Landing Page Hero Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../../../PerfectChef/Germany/German/Options/Viewtypes/CMCollection/slideshow.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/slideshow"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Luftige Kleider</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Spring%20Summer%20Dresses%20Category%20Hero%20Teaser.xml" path="/Sites/BetaLabs/BTYU/Navigation/Landing%20Pages/Spring/Summer%20Dresses%20Landing%20Page/Spring%20Summer%20Dresses%20Category%20Hero%20Teaser"/>
+<link href="../../../../../../PerfectChef/Germany/German/Videos/Campaigns/Spring%20Dresses%20Campaign/Blue%20Summer%20Dress%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Spring%20Dresses%20Campaign/Blue%20Summer%20Dress%20Video"/>
+</items>
+</CMCollection>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Season" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Season</value>
+<children>
+<link href="Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="Holidays%20X-Mas.xml" path="/Settings/Taxonomies/Subject/Holidays%20X-Mas"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

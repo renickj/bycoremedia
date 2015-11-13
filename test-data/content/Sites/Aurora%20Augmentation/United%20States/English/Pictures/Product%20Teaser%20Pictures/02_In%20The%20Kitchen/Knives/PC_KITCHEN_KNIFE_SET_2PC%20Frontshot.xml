@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Product Teaser Pictures/02_In The Kitchen/Knives" name="PC_KITCHEN_KNIFE_SET_2PC Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/rotate;angle=-90/crop;x=12;y=0;width=1320;height=2048</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/rotate;angle=-90/crop;x=0;y=166;width=1344;height=1795</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/rotate;angle=-90/crop;x=0;y=178;width=1344;height=1346</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/rotate;angle=-90/crop;x=0;y=142;width=1344;height=1008</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/rotate;angle=-90/crop;x=0;y=541;width=1344;height=758</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/rotate;angle=-90/crop;x=0;y=616;width=1344;height=675</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/rotate;angle=-90/crop;x=0;y=758;width=1344;height=537</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/rotate;angle=-90/crop;x=0;y=773;width=1344;height=505</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/rotate;angle=-90/crop;x=0;y=896;width=1344;height=335</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.008797653958944282;y1=0;x2=0.9912023460410557;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0;y1=0.08108108108108109;x2=1;y2=0.9575289575289575</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0;y1=0.08670520231213873;x2=1;y2=0.74373795761079</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.0694980694980695;x2=1;y2=0.5617760617760618</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.26396917148362237;x2=1;y2=0.6339113680154143</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.30057803468208094;x2=1;y2=0.630057803468208</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.3699421965317919;x2=1;y2=0.6319845857418112</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.37764932562620424;x2=1;y2=0.6242774566473989</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.4373795761078998;x2=1;y2=0.6011560693641619</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">-90</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_KITCHEN_KNIFE_SET_2PC</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Knife Set</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Knives.xml" path="/Settings/Taxonomies/Subject/Knives"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Knife Set</alt>
+<copyright>Africa Studio/shutterstock 165380543</copyright>
+<data href="PC_KITCHEN_KNIFE_SET_2PC%20Frontshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

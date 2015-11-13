@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/03_For The Cook/Apparel" name="Women Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Women</teaserTitle>
+<pictures>
+<link href="../../../../../Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Fall/For%20Her/PC_FITTED_DRESS%20Frontshot%202.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Fall/For%20Her/PC_FITTED_DRESS%20Frontshot%202"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Women/Perfect%20Chef%20Women%20External%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Women/Perfect%20Chef%20Women%20External%20Page"/>
+</target>
+</CMTeaser>

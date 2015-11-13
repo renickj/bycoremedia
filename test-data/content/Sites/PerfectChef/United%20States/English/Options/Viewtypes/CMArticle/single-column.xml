@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/United States/English/Options/Viewtypes/CMArticle" name="single-column" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>Displays article text with single column layout on every device</description>
+<icon href="single-column.icon.png" mimetype="image/png"/>
+<layout>single-column</layout>
+</CMViewtype>

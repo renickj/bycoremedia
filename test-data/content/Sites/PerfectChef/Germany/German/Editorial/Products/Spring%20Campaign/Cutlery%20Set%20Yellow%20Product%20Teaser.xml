@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring Campaign" name="Cutlery Set Yellow Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Products/Spring%20Campaign/Cutlery%20Set%20Yellow%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/Cutlery%20Set%20Yellow%20Product%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Gelb</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Schnittig und modern – so kommt dieses 24-teilige Besteck-Set für sechs Personen daher. Hochwertiger, rostfreier Edelstahl bewahrt seinen Glanz.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/01_On%20The%20Table/Plates%2C%20Tableware/PC_CUTLERY_SET_YELLOW%20Frontshot.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/01_On%20The%20Table/Plates%2C%20Tableware/PC_CUTLERY_SET_YELLOW%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/product/PC_CUTLERY_SET_YELLOW</externalId>
+</CMProductTeaser>

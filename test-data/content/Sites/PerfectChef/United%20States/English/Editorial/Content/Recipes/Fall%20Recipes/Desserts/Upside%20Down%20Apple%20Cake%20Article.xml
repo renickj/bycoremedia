@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Fall Recipes/Desserts" name="Upside Down Apple Cake Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Upside Down Apple Cake</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Sugar.xml" path="/Settings/Taxonomies/Subject/Sugar"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Butter.xml" path="/Settings/Taxonomies/Subject/Butter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Sweet.xml" path="/Settings/Taxonomies/Subject/Sweet"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dessert.xml" path="/Settings/Taxonomies/Subject/Dessert"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/American.xml" path="/Settings/Taxonomies/Subject/American"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Apple.xml" path="/Settings/Taxonomies/Subject/Apple"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Upside Down</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>A Southern specialty - this Upside Down Caramellized Apple Cake will entice you with flavours of cinnamon, caramel, brown sugar and butter.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>A Southern specialty - this Upside Down Caramellized Apple Cake will entice you with flavours of cinnamon, caramel, brown sugar and butter. Best served with vanilla ice cream - and of course a cup of tea or coffee.</p><p>Why not try some strong dark-roast espresso?</p><p class="p--heading-2">Ingredients</p><ul><li>600g apples</li><li>220g sugar</li><li>4 eggs</li><li>125g butter</li><li>250g flour</li><li>1/2 package backing powder</li><li>2 teespoons oil</li><li>Rind of 1 lemon</li></ul><p class="p--heading-2">Preparation</p><ul><li>Mix quickly in the food processor the sugar and lemon rind</li><li>Add eggs and blend until it becomes a nice cream</li><li>Continue blending while slowly adding the oil</li><li>Blend until well mixed </li><li>In a separate bowl sift the dry ingredients all together (flour, powder, salt)</li><li>Mix the dry ingredients slowly into the batter blending until it becomes a nice thick cream</li><li>Add grated apples and blend quickly into batter just to mix</li><li>Bake for 55 minutes until sticking a knife into center comes out clean</li></ul><p class="p--heading-2">Serving Suggestion</p><p>This very easy to make cake requires no fancy frosting or filling and is delicious for serving at breakfast, tea time or even as a birthday cake with a chocolate or fruit glaze covering.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Upside%20Down%20Apple%20Cake%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Upside%20Down%20Apple%20Cake%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../../Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Related%20Sidebar%20Collection.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Related%20Sidebar%20Collection"/>
+</related>
+</CMArticle>

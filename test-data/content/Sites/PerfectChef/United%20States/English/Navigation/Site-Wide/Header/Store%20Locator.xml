@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Site-Wide/Header" name="Store Locator" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMTeaser/storelocator.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMTeaser/storelocator"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Store Locator</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../Footer/Explore%20External%20Links/Store%20Locator.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Footer/Explore%20External%20Links/Store%20Locator"/>
+</target>
+</CMTeaser>

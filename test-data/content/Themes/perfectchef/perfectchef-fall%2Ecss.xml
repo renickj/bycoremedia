@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCSS folder="/Themes/perfectchef" name="perfectchef-fall.css" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/**</p><p> * Includes all css required for theme perfectchef fall</p><p> * (this file is a placeholder, the inclusion is defined in exported content)</p><p> */</p></div></code>
+<ieExpression></ieExpression>
+<include>
+<link href="perfectchef%2Ecss.xml" path="/Themes/perfectchef/perfectchef%2Ecss"/>
+<link href="css/fall%2Ecss.xml" path="/Themes/perfectchef/css/fall%2Ecss"/>
+</include>
+<dataUrl></dataUrl>
+<media></media>
+</CMCSS>

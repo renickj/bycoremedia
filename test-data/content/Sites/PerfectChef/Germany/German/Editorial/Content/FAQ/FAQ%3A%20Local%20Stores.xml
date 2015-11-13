@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/FAQ" name="FAQ: Local Stores" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Local%20Stores.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Local%20Stores"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>local-stores</segment>
+<title>Haben Sie lokale Geschäfte?</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Ja, unsere Adressen:</p><p><br/></p><table><tbody><tr><td><p class="p--heading-4">Deutschland</p><p>Coremedia AG (Hauptsitz)<br/>Ludwig-Erhard-Str. 18<br/>Hamburg 20459<br/>Telefon: <a xlink:href="http://tel:+49403255870" xlink:show="replace" xlink:type="simple">+49.40.325587.0</a></p></td><td><p class="p--heading-4">Vereinigtes Königreich</p><p>Coremedia UK Ltd<br/>90 Long Acre, Covent Garden<br/>London WC2E 9RZ<br/>Telefon: <a xlink:href="http://tel:+442078493317" xlink:show="replace" xlink:type="simple">+44.207.849.3317</a></p></td></tr></tbody></table><p><br/></p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Ja, unsere Adressen sind wie folgt:</p><table><tbody><tr><td><p class="p--heading-4"><strong>Deutschland</strong></p><p>Coremedia AG (Hauptsitz)<br/>Ludwig-Erhard-Str. 18<br/>Hamburg 20459<br/>Telefon: <a xlink:href="http://tel:+49403255870" xlink:show="replace" xlink:type="simple">+49.40.325587.0</a></p></td><td><p class="p--heading-4"><strong>Vereinigtes Königreich</strong></p><p>Coremedia UK Ltd<br/>90 Long Acre, Covent Garden<br/>London WC2E 9RZ<br/>Telefon: <a xlink:href="http://tel:+442078493317" xlink:show="replace" xlink:type="simple">+44.207.849.3317</a></p></td></tr></tbody></table><p><br/></p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

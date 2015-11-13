@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate" name="Imprint" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/Corporate/Imprint.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Corporate/Imprint"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords>Coremedia Impressum</keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>impressum</segment>
+<title>Impressum</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+<link href="../../../Navigation/Site-Wide/Corporate%20Hidden%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Corporate%20Hidden%20Page"/>
+</contexts>
+<teaserTitle>Impressum</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><br/></p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Perfect Chef<br/></p><p>ist eine Demonstrations-Website für <a xlink:href="http://www.coremedia.com/de/livecontext/" xlink:show="replace" xlink:type="simple">CoreMedia LiveContext 2.0 für IBM WebSphere Commerce</a>, betrieben von der<br/></p><p class="p--heading-2">CoreMedia AG</p><p>Vertretungsberechtigte Vorstände:<br/>Gerrit Kolb, Dr. Klemens Kleiminger</p><p/><p>Ludwig-Erhard-Str. 18</p><p>Hamburg 20459<br/>Telefon: +49.40.325587.0</p><p>Telefax +49.40.325587.999<br/><br/>E-Mail: <a xlink:href="mailto:info@coremedia.com" xlink:show="replace" xlink:type="simple">info@coremedia.com</a></p><p/><p>Registergericht und Handelsregisternummer:<br/>Amtsgericht Hamburg, HR B 76277</p><p/><p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br/>DE 179 733 607</p><p/><p>Verantwortlich für diese Website:<br/>Gerrit Kolb</p><p/><p>CoreMedia AG, Ludwig-Erhard-Straße 18, 20459 Hamburg</p><p><br/></p><p>Alle Bilder wurden von der Coremedia AG unter Copyright von <a xlink:href="http://www.shutterstock.com" xlink:show="new" xlink:type="simple">Shutterstock</a> lizensiert, sofern nichts anderes angegeben ist. Eine Redistribution der Bild-Inhalte ist ohne gesonderte Lizensierung nicht erlaubt.</p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Legal%20-%20Chef%20holding%20papers%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Legal%20-%20Chef%20holding%20papers%20Picture"/>
+</pictures>
+<notSearchable>1</notSearchable>
+<related>
+</related>
+</CMArticle>

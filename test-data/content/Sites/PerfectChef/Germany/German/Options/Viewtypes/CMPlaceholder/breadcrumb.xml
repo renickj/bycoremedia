@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMPlaceholder" name="breadcrumb" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMPlaceholder/breadcrumb.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMPlaceholder/breadcrumb"/>
+</master>
+<masterVersion>3</masterVersion>
+<description>Breadcrumb</description>
+<icon href="breadcrumb.icon.png" mimetype="image/png"/>
+<layout>breadcrumb</layout>
+</CMViewtype>

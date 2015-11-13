@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Aurora Categories/Apparel/Women/Dresses" name="Summer Dress Video Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Enjoy Summer</teaserTitle>
+<pictures>
+<link href="../../../../../../Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../../../../../Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Video%204%3A3.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Video%204%3A3"/>
+</target>
+</CMTeaser>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPlaceholder folder="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer" name="Social Sharing Leiste" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../../PerfectChef/Germany/German/Options/Viewtypes/CMPlaceholder/social-sharing-bar.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMPlaceholder/social-sharing-bar"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Social Sharing Leiste</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>New content item</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<id></id>
+</CMPlaceholder>

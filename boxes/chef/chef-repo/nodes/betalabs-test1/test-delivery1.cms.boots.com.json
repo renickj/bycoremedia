@@ -1,0 +1,17 @@
+{
+  "coremedia": {
+    "configuration": {
+      "configure.RLS_DB_URL": "jdbc:mysql://10.112.158.4:3306/cm7repl_t1",
+      "configure.RLS_DB_USER": "cm7repl_t1",
+      "configure.RLS_DB_PASSWORD": "cm7repl_t1",
+      "configure.CAEFEEDER_LIVE_DB_URL": "jdbc:mysql://10.112.158.4:3306/cm7caefeeder_t1",
+      "configure.CAEFEEDER_LIVE_DB_USER" : "cm7caefeeder_t1" ,
+      "configure.CAEFEEDER_LIVE_DB_PASSWORD": "cm7caefeeder_t1",
+      "configure.DELIVERY_TLD": "test-delivery1.cms.boots.com"
+    }
+  },
+  "run_list": [
+    "role[base]",
+    "role[eds-delivery-apache]"
+  ]
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Editorial/Content/Microsites/Meat Lovers/Pictures" name="Strip Steak Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=23;y=0;width=1323;height=2048</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=0;y=115;width=1365;height=1821</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=0;y=342;width=1365;height=1364</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=515;width=1365;height=1022</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=642;width=1365;height=768</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=684;width=1365;height=684</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=365;width=1365;height=546</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=768;width=1365;height=511</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=853;width=1365;height=342</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.016901408450704224;y1=0;x2=0.9859154929577465;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0;y1=0.05628517823639775;x2=1;y2=0.9455909943714822</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0;y1=0.1669793621013133;x2=1;y2=0.8330206378986866</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.25140712945590993;x2=1;y2=0.7504690431519699</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.3133208255159475;x2=1;y2=0.6885553470919324</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.3339587242026266;x2=1;y2=0.6679174484052532</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.17823639774859287;x2=1;y2=0.4446529080675422</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.37523452157598497;x2=1;y2=0.624765478424015</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.4165103189493433;x2=1;y2=0.5834896810506567</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Strip Steak</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Strip Steak</alt>
+<copyright>Liv friis-larsen/Shutterstock 24495277</copyright>
+<data href="Strip%20Steak%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>1365</width>
+<height>2048</height>
+</CMPicture>

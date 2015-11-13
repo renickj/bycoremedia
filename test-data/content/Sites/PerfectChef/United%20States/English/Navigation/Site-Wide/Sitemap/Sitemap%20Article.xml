@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Navigation/Site-Wide/Sitemap" name="Sitemap Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Perfect Chef Sitemap</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Explore our site and find some hidden gems.</p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Sitemap%20-%20Compass%20on%20Map%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Sitewide%20Pictures/Sitemap%20-%20Compass%20on%20Map%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

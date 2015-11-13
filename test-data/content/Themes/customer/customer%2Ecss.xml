@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCSS folder="/Themes/customer" name="customer.css" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/**</p><p> * Includes all css required for theme perfectchef</p><p> * (this file is a placeholder, the inclusion is defined in exported content)</p><p> */</p><p>/*</p><p>body {</p><p>  background: #ff0000;</p><p>}*/</p></div></code>
+<ieExpression></ieExpression>
+<include>
+</include>
+<dataUrl></dataUrl>
+<media></media>
+</CMCSS>

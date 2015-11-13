@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMDownload folder="/Sites/PerfectChef/United States/English/Editorial/Products/Downloads" name="PC_SUMMER_DRESS White Summer Dress Care Instructions PDF" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_SUMMER_DRESS</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Summer Dress Care Instructions PDF</title>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/PC_SUMMER_DRESS.xml" path="/Settings/Taxonomies/Subject/PC_SUMMER_DRESS"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Summer Dress Care Instructions PDF</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<data href="PC_SUMMER_DRESS%20White%20Summer%20Dress%20Care%20Instructions%20PDF.data.pdf" mimetype="application/pdf"/>
+</CMDownload>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Product Pictures/03_For The Cook/Anniversary" name="Perfect Chef Hat Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Pictures/Product%20Pictures/03_For%20The%20Cook/Anniversary/Perfect%20Chef%20Hat%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/03_For%20The%20Cook/Anniversary/Perfect%20Chef%20Hat%20Picture"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=949;y=0;width=882;height=1366</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=825;y=0;width=1027;height=1366</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=521;y=0;width=1367;height=1366</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=88;y=0;width=1775;height=1330</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=211;width=2048;height=1150</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=325;width=2048;height=1026</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=438;width=2048;height=820</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=474;width=2048;height=768</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=722;width=2048;height=510</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.4634760705289673;y1=0;x2=0.8942065491183879;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.40302267002518893;y1=0;x2=0.9042821158690176;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.25440806045340053;y1=0;x2=0.9219143576826196;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.042821158690176324;y1=0;x2=0.9093198992443325;y2=0.9735849056603774</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.15471698113207547;x2=1;y2=0.9962264150943396</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.23773584905660378;x2=1;y2=0.9886792452830189</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.32075471698113206;x2=1;y2=0.9207547169811321</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.3471698113207547;x2=1;y2=0.909433962264151</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.5283018867924528;x2=1;y2=0.9018867924528302</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_COOKING_HAT</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>PerfectChef Kochmütze</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>PerfectChef Kochmütze</alt>
+<copyright>RTimages/Shutterstock 81859690</copyright>
+<data href="Perfect%20Chef%20Hat%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>2048</width>
+<height>1366</height>
+</CMPicture>

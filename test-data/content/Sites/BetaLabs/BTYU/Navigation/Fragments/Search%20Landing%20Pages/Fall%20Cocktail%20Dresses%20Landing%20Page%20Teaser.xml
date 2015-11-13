@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Fragments/Search Landing Pages" name="Fall Cocktail Dresses Landing Page Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Perfekt zum Dinner</teaserTitle>
+<pictures>
+<link href="../../../../../PerfectChef/Germany/German/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2001%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%2001%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Fall%20Evening%20Dresses%20Hidden%20Landing%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Fragments/Search%20Landing%20Pages/Fall%20Evening%20Dresses%20Hidden%20Landing%20Page"/>
+</target>
+</CMTeaser>

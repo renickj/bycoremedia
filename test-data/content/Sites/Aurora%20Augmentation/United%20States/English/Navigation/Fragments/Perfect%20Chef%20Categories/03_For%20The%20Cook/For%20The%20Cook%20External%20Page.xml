@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalChannel folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/03_For The Cook" name="For The Cook External Page" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords>for the cook, him, her</keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>for-the-cook</segment>
+<title>For The Cook</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/For%20the%20Cook.xml" path="/Settings/Taxonomies/Subject/For%20the%20Cook"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+<link href="Apparel/Apparel%20External%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Apparel%20External%20Page"/>
+<link href="Literature/Literature%20External%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Literature/Literature%20External%20Page"/>
+</children>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<StructProperty Name="placements">
+<Struct>
+<StructProperty Name="790">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Placements/main"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/For%20The%20Cook%20Hero%20Collection.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/For%20The%20Cook%20Hero%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/For%20The%20Cook%20Main%20Collection.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/For%20The%20Cook%20Main%20Collection"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="3928">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../../Options/Settings/Pagegrid/Placements/sidebar.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Placements/sidebar"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/../../A%20Perfect%20Dinner%20Fragment%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/A%20Perfect%20Dinner%20Fragment%20Teaser"/>
+<Link xlink:href="coremedia:///cap/resources/../../../Microsites/06_Magazine%20Spring/Magazine%20Spring%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/06_Magazine%20Spring/Magazine%20Spring%20Teaser"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<LinkProperty Name="layout" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../../../Options/Settings/Pagegrid/Layouts/Two%20Column%20Layout.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Settings/Pagegrid/Layouts/Two%20Column%20Layout"/>
+</Struct>
+</StructProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+<externalId>ibm:///catalog/category/PC_ForTheCook</externalId>
+</CMExternalChannel>

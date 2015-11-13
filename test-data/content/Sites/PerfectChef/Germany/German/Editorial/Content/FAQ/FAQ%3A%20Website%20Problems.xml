@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/FAQ" name="FAQ: Website Problems" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Website%20Problems.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Website%20Problems"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>website-probleme</segment>
+<title>Die Webseite funktioniert nicht richtig</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Es tut uns leid zu hören, daß Sie Probleme haben. Unsere Website wurde ausgiebig getestet und funktioniert mit allen Standard-Browsern:<br/></p><ul><li><a xlink:href="https://www.mozilla.org/en-US/firefox/new/" xlink:show="replace" xlink:type="simple">Mozilla Firefox</a> (neueste Version)</li><li><a xlink:href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" xlink:show="replace" xlink:type="simple">Microsoft Internet Explorer</a> 8, 9, 10 und 11</li><li><a xlink:href="https://www.google.com/intl/en/chrome/browser/" xlink:show="replace" xlink:type="simple">Google Chrome</a> (neueste Version)</li><li><a xlink:href="http://www.apple.com/safari/" xlink:show="replace" xlink:type="simple">Apple Safari</a> (neueste Version)</li></ul><p>Bitte verwenden Sie einen der unterstützten Standard-Browser und / oder aktualisieren Sie Ihren Browser auf die neueste Version.</p><p>Wenn Sie weiterhin Probleme haben, <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../Corporate/Contact%20Us.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/Contact%20Us">wenden Sie sich bitte an unseren Kundenservice.</a></p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

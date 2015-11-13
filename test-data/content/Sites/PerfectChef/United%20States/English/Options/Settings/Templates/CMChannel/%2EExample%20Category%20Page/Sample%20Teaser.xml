@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Options/Settings/Templates/CMChannel/.Example Category Page" name="Sample Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Sample Teaser</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Sample Teaser Text</p><p>Select any Content Item to link to from the Library and drag &amp; drop it onto the Teaser Target field above.</p><p>Select any Image to display as the teaser from the Library and drag &amp; drop it below into the Pictures field below.</p><p>See the preview on the right adapting in real time to your changes.</p></div></teaserText>
+<pictures>
+<link href="../../../../../Pictures/Sitewide%20Pictures/About%20Us%20-%20Chefs%20in%20the%20kitchen%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Sitewide%20Pictures/About%20Us%20-%20Chefs%20in%20the%20kitchen%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../../../../Navigation/Perfect%20Chef%20USA.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Perfect%20Chef%20USA"/>
+</target>
+</CMTeaser>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMJavaScript folder="/Themes/perfectchef/js" name="com.coremedia.livecontext.es.js" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/* --- create own namespace in javascript for own stuff ------------------------------------------------------------- */</p><p>var coremedia = (function (module) {</p><p>  return module;</p><p>}(coremedia || {}));</p><p>coremedia.livecontext = (function (module) {</p><p>  return module;</p><p>}(coremedia.livecontext || {}));</p><p>coremedia.livecontext.es = function (module) {</p><p>  return module;</p><p>}(coremedia.livecontext.es || {});</p></div></code>
+<ieExpression></ieExpression>
+<include>
+</include>
+<dataUrl></dataUrl>
+</CMJavaScript>

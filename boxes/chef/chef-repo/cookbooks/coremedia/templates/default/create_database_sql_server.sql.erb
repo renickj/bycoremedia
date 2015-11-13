@@ -1,0 +1,88 @@
+CREATE DATABASE [<%= @schema %>]
+GO
+ALTER DATABASE [<%= @schema %>] SET COMPATIBILITY_LEVEL = 100
+GO
+ALTER DATABASE [<%= @schema %>] SET ANSI_NULL_DEFAULT OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET ANSI_NULLS OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET ANSI_PADDING OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET ANSI_WARNINGS OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET ARITHABORT OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET AUTO_CLOSE OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET AUTO_CREATE_STATISTICS ON
+GO
+ALTER DATABASE [<%= @schema %>] SET AUTO_SHRINK OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET AUTO_UPDATE_STATISTICS ON
+GO
+ALTER DATABASE [<%= @schema %>] SET CURSOR_CLOSE_ON_COMMIT OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET CURSOR_DEFAULT GLOBAL
+GO
+ALTER DATABASE [<%= @schema %>] SET CONCAT_NULL_YIELDS_NULL OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET NUMERIC_ROUNDABORT OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET QUOTED_IDENTIFIER OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET RECURSIVE_TRIGGERS OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET DISABLE_BROKER
+GO
+ALTER DATABASE [<%= @schema %>] SET AUTO_UPDATE_STATISTICS_ASYNC OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET DATE_CORRELATION_OPTIMIZATION OFF
+GO
+ALTER DATABASE [<%= @schema %>] SET PARAMETERIZATION SIMPLE
+GO
+ALTER DATABASE [<%= @schema %>] SET READ_WRITE
+GO
+ALTER DATABASE [<%= @schema %>] SET RECOVERY FULL
+GO
+ALTER DATABASE [<%= @schema %>] SET MULTI_USER
+GO
+ALTER DATABASE [<%= @schema %>] SET PAGE_VERIFY CHECKSUM
+GO
+USE [<%= @schema %>]
+GO
+IF NOT EXISTS (SELECT name FROM sys.filegroups WHERE is_default=1 AND name = N'PRIMARY') ALTER DATABASE [<%= @schema %>] MODIFY FILEGROUP [PRIMARY] DEFAULT
+GO
+
+USE [master]
+GO
+CREATE LOGIN [<%= @schema %>] WITH PASSWORD=N'<%= @schema %>', DEFAULT_DATABASE=[<%= @schema %>], CHECK_EXPIRATION=OFF, CHECK_POLICY=OFF
+GO
+USE [<%= @schema %>]
+GO
+CREATE USER [<%= @schema %>] FOR LOGIN [<%= @schema %>]
+GO
+USE [<%= @schema %>]
+GO
+ALTER USER [<%= @schema %>] WITH DEFAULT_SCHEMA=[<%= @schema %>]
+GO
+USE [<%= @schema %>]
+GO
+EXEC sp_addrolemember N'db_datareader', N'<%= @schema %>'
+GO
+USE [<%= @schema %>]
+GO
+EXEC sp_addrolemember N'db_datawriter', N'<%= @schema %>'
+GO
+USE [<%= @schema %>]
+GO
+EXEC sp_addrolemember N'db_ddladmin', N'<%= @schema %>'
+GO
+
+USE [<%= @schema %>]
+GO
+CREATE SCHEMA [<%= @schema %>] AUTHORIZATION [<%= @schema %>]
+GO
+USE [<%= @schema %>]
+GO
+ALTER USER [<%= @schema %>] WITH DEFAULT_SCHEMA=[<%= @schema %>]
+GO

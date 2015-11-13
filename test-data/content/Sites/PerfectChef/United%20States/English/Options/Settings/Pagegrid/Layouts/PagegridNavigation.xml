@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Sites/PerfectChef/United States/English/Options/Settings/Pagegrid/Layouts" name="PagegridNavigation" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<IntProperty Name="colCount">1</IntProperty>
+<IntProperty Name="rowCount">5</IntProperty>
+<StringProperty Name="cssClass">lc-single-column</StringProperty>
+<StructListProperty Name="items">
+<Struct>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Placements/header.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/header"/>
+<IntProperty Name="row">1</IntProperty>
+<IntProperty Name="col">1</IntProperty>
+<IntProperty Name="height">10</IntProperty>
+<IntProperty Name="width">100</IntProperty>
+<IntProperty Name="colspan">1</IntProperty>
+</Struct>
+<Struct>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Placements/main.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/main"/>
+<IntProperty Name="row">3</IntProperty>
+<IntProperty Name="col">1</IntProperty>
+<IntProperty Name="height">50</IntProperty>
+<IntProperty Name="width">100</IntProperty>
+<IntProperty Name="colspan">1</IntProperty>
+</Struct>
+<Struct>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Placements/footer.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/footer"/>
+<IntProperty Name="row">5</IntProperty>
+<IntProperty Name="col">1</IntProperty>
+<IntProperty Name="height">10</IntProperty>
+<IntProperty Name="width">100</IntProperty>
+<IntProperty Name="colspan">1</IntProperty>
+</Struct>
+<Struct>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Placements/header-advertisement.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/header-advertisement"/>
+<IntProperty Name="row">2</IntProperty>
+<IntProperty Name="col">1</IntProperty>
+<IntProperty Name="height">10</IntProperty>
+<IntProperty Name="width">100</IntProperty>
+<IntProperty Name="colspan">1</IntProperty>
+</Struct>
+<Struct>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../Placements/footer-advertisement.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Settings/Pagegrid/Placements/footer-advertisement"/>
+<IntProperty Name="row">4</IntProperty>
+<IntProperty Name="col">1</IntProperty>
+<IntProperty Name="height">10</IntProperty>
+<IntProperty Name="width">100</IntProperty>
+<IntProperty Name="colspan">1</IntProperty>
+</Struct>
+</StructListProperty>
+<StringProperty Name="name">LiveContext Single Column Layout</StringProperty>
+<StringProperty Name="description">A single column layout with "main", "header", "footer" and two "advertisement" placements.</StringProperty>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

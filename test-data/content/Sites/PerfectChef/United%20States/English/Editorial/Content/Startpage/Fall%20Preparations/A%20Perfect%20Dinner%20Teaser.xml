@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Editorial/Content/Startpage/Fall Preparations" name="A Perfect Dinner Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>A Perfect Dinner</teaserTitle>
+<pictures>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%20Hero%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Perfect%20Dinner/Perfect%20Dinner%20Hero%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../../../Navigation/Categories/99_Magazine%20Fall/Theme%20Special%3A%20Perfect%20Dinner/Perfect%20Dinner%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/99_Magazine%20Fall/Theme%20Special%3A%20Perfect%20Dinner/Perfect%20Dinner%20Page"/>
+</target>
+</CMTeaser>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Categories/05_Recipes" name="Fall Recipes Main Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Dinner Party Recipes</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Find the best recipes for your Perfect Dinner Party to surprise your friends.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Recipes/Fall%20Recipes/Spicy%20Duck%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Spicy%20Duck%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Fall%20Recipes/Fall%20Recipes.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipes"/>
+</target>
+</CMTeaser>

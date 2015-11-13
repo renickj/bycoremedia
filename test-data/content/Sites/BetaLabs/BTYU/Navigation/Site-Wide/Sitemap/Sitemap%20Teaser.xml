@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Sitemap" name="Sitemap Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Sitemap</teaserTitle>
+<pictures>
+<link href="../../../../../PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Sitemap%20-%20Compass%20on%20Map%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Sitemap%20-%20Compass%20on%20Map%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Sitemap%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Sitemap/Sitemap%20Page"/>
+</target>
+</CMTeaser>

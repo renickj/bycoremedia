@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer" name="Explore Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Site-Wide/Footer/Explore.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Footer/Explore"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Entdecken</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../Sitemap/Sitemap%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Sitemap/Sitemap%20Teaser"/>
+<link href="Explore%20External%20Links/Advanced%20Search.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer/Explore%20External%20Links/Advanced%20Search"/>
+<link href="Explore%20External%20Links/Store%20Locator.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer/Explore%20External%20Links/Store%20Locator"/>
+<link href="Explore%20External%20Links/Get%20our%20Apps.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer/Explore%20External%20Links/Get%20our%20Apps"/>
+</items>
+</CMCollection>

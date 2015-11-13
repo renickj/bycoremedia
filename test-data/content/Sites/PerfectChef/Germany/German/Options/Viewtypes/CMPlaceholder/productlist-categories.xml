@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMPlaceholder" name="productlist-categories" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMPlaceholder/productlist-categories.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMPlaceholder/productlist-categories"/>
+</master>
+<masterVersion>3</masterVersion>
+<description></description>
+<icon href="productlist-categories.icon.png" mimetype="image/png"/>
+<layout>productlist-categories</layout>
+</CMViewtype>

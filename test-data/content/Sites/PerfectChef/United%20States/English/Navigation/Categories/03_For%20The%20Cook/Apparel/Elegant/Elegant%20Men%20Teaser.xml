@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Categories/03_For The Cook/Apparel/Elegant" name="Elegant Men Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Men</teaserTitle>
+<pictures>
+<link href="../../../../../Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Him/PC_GREY_SUIT%20Frontshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Him/PC_GREY_SUIT%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Elegant%20Men/Men%20Elegant%20-%20Dinner%20Wear%20External%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/03_For%20The%20Cook/Apparel/Elegant/Elegant%20Men/Men%20Elegant%20-%20Dinner%20Wear%20External%20Page"/>
+</target>
+</CMTeaser>

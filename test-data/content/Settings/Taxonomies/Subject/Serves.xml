@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Serves" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Serves</value>
+<children>
+<link href="1%20person.xml" path="/Settings/Taxonomies/Subject/1%20person"/>
+<link href="2%20people.xml" path="/Settings/Taxonomies/Subject/2%20people"/>
+<link href="3%20people.xml" path="/Settings/Taxonomies/Subject/3%20people"/>
+<link href="4%20people.xml" path="/Settings/Taxonomies/Subject/4%20people"/>
+<link href="6%20people.xml" path="/Settings/Taxonomies/Subject/6%20people"/>
+<link href="8%20people.xml" path="/Settings/Taxonomies/Subject/8%20people"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

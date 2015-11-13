@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Corporate" name="Return Policy" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>return-policy</segment>
+<title>Return Policy</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>If for any reason are not completely satisfied with your order, simply contact customer service for instructions on how to return your order for a full refund. If and when you are ready to place another order, we will be happy to serve you again.</p><p/></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>If for any reason you are not completely satisfied with your order, simply contact our customer service for instructions on how to return your order for a full refund. If and when you are ready to place another order, we will be happy to serve you again.</p><p/></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Legal%20-%20Chef%20holding%20papers%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Sitewide%20Pictures/Legal%20-%20Chef%20holding%20papers%20Picture"/>
+</pictures>
+<notSearchable>1</notSearchable>
+<related>
+</related>
+</CMArticle>

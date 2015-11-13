@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/United States/English/Videos/Recipes" name="The Perfect Chicken Breast Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-recipe-the-perfect-chicken-breast</segment>
+<title>The Perfect Chicken Breast</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Flour.xml" path="/Settings/Taxonomies/Subject/Flour"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Chicken%20Stock.xml" path="/Settings/Taxonomies/Subject/Chicken%20Stock"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Oil.xml" path="/Settings/Taxonomies/Subject/Oil"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Lemon.xml" path="/Settings/Taxonomies/Subject/Lemon"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pepper.xml" path="/Settings/Taxonomies/Subject/Pepper"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Salt.xml" path="/Settings/Taxonomies/Subject/Salt"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/How%20To.xml" path="/Settings/Taxonomies/Subject/How%20To"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Chicken.xml" path="/Settings/Taxonomies/Subject/Chicken"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/40%20mins.xml" path="/Settings/Taxonomies/Subject/40%20mins"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/4%20people.xml" path="/Settings/Taxonomies/Subject/4%20people"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pans.xml" path="/Settings/Taxonomies/Subject/Pans"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Onion.xml" path="/Settings/Taxonomies/Subject/Onion"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Hero.xml" path="/Settings/Taxonomies/Subject/Hero"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Knives.xml" path="/Settings/Taxonomies/Subject/Knives"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Perfect Chicken Breast</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="first">We've heard from a lot of our readers and students that they really want to learn to make the perfect, juicy, tender, and tasty chicken breast. We did some research for you and here's how we make a delicious chicken breast for any meal.<br/></p><p><br/></p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="first">We've heard from a lot of our readers and students that they really want to learn to make the perfect, juicy, tender, and tasty chicken breast. We did some research for you and here's how we make a delicious chicken breast for any meal.</p><p class="first"><br/></p><p class="first p--heading-2">The Perfect Chicken Breast<br/></p><p class="first">serves 4 | prep time - 10 minutes | cook time - 15 to 20 minutes<br/></p><p class="first"><br/></p><p class="first p--heading-3">Ingredients for chicken:</p><p class="first">Skinless, boneless chicken breast, 2 (~1 lb.)<br/>Kosher / sea salt &amp; pepper<br/>Grape seed / canola oil - 1 to 2 tbs.<br/>Chicken stock - 1/2 cup<br/>Butter - 1 tbs.<br/>Lemon, sliced in rounds - 1/2<br/>Aluminum foil</p><p class="first"><br/></p><p class="first p--heading-3">Ingredients for pan sauce:</p><p class="first">Shallots, minced - 1 to 2 tbs.<br/>Chicken stock - 1 cup<br/>Butter - 1 tbs.<br/>Flour - 1 tbs.<br/>Lemon juice - 1 tbs.<br/>Parsley, minced - 1 tbs.<br/>Kosher / sea salt &amp; pepper to taste<br/></p><p class="first p--heading-3"><br/>Preparation:</p><p class="first">1) Pat chicken breasts dry with paper towels. Season with salt &amp; pepper and tenderize with a fork<br/>2) Prepare other ingredients - butter, lemon, shallots, and parsley<br/></p><p class="first p--heading-3"><br/>Cook:<br/></p><p class="first"><br/>1) Pre-heat oven to 375 degrees<br/>2) Heat an oven-proof pan over med-high heat. Add oil. Once oil is heated (it will shimmer and streak), add chicken breasts. Give the pan a shake and then let rest. Sear for 3 minutes<br/>3) Turn over and sear other side for another 2 minutes and then turn heat off. Add chicken stock and a pad of butter and lemon slice onto each chicken breast. Cover with foil and bake in the oven for 12 to 15 minutes. Chicken is done when it reaches 160 degrees or is firm to the touch (but bounces back just a bit)<br/>4) Set chicken aside to rest and return pan to medium heat. Add chopped shallots, stock, and butter. Mix. Add flour, mix, and let reduce and thicken, ~2 minutes<br/>5) Add lemon juice, chopped parsley, and season to taste with salt and pepper<br/>6) Slice chicken and pour the pan sauce on!</p></div></detailText>
+<pictures>
+<link href="The%20Perfect%20Chicken%20Breast%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/The%20Perfect%20Chicken%20Breast%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>The Perfect Chicken Breast</alt>
+<copyright>Copyright: cooksmarts.com/Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/56446508</dataUrl>
+</CMVideo>

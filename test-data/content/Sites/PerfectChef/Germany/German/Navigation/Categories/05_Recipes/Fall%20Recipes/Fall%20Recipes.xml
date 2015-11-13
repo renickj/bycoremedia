@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMChannel folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Fall Recipes" name="Fall Recipes" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipes.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipes"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords>Rezepte, Herbst, Kürbis, Suppe, Ernte, Erntedank, Ente</keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>herbst-rezepte</segment>
+<title>Herbstrezepte</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+<link href="Starters/Starters%20Fall%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Fall%20Recipes/Starters/Starters%20Fall%20Page"/>
+<link href="Main/Main%20Fall%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Fall%20Recipes/Main/Main%20Fall%20Page"/>
+<link href="Desserts/Desserts%20Fall%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Fall%20Recipes/Desserts/Desserts%20Fall%20Page"/>
+</children>
+<hidden>0</hidden>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<StructProperty Name="placements">
+<Struct>
+<StructProperty Name="998">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/main"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/../../../../Editorial/Content/Recipes/Fall%20Recipes%20Hero%20Teaser.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes%20Hero%20Teaser"/>
+<Link xlink:href="coremedia:///cap/resources/Fall%20Recipes%20Main%20Collection.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipes%20Main%20Collection"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<LinkProperty Name="layout" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../../../Options/Settings/Pagegrid/Layouts/PagegridNavigation.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Layouts/PagegridNavigation"/>
+</Struct>
+</StructProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+</CMChannel>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Sites/Aurora Augmentation/United States/English/Options/Settings" name="ExternalLibraries" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructListProperty Name="externalLibraries">
+<Struct>
+<IntProperty Name="index">0</IntProperty>
+<StringProperty Name="name">RSS Feeds</StringProperty>
+<StringProperty Name="dataUrl">http://rss.cnn.com/rss/edition.rss|#|http://www.wired.co.uk/rss</StringProperty>
+<StringProperty Name="providerId">rssProvider</StringProperty>
+<StringProperty Name="previewType">html</StringProperty>
+<StringProperty Name="contentType">CMArticle</StringProperty>
+<BooleanProperty Name="markAsRead">true</BooleanProperty>
+</Struct>
+<Struct>
+<IntProperty Name="index">1</IntProperty>
+<StringProperty Name="name">RSS Feed - CNN.com - Top Stories</StringProperty>
+<StringProperty Name="dataUrl">http://rss.cnn.com/rss/edition.rss</StringProperty>
+<StringProperty Name="providerId">rssProvider</StringProperty>
+<StringProperty Name="previewType">html</StringProperty>
+<StringProperty Name="contentType">CMArticle</StringProperty>
+<BooleanProperty Name="markAsRead">true</BooleanProperty>
+</Struct>
+<Struct>
+<IntProperty Name="index">2</IntProperty>
+<StringProperty Name="name">Kaltura</StringProperty>
+<StringProperty Name="dataUrl">http://www.kaltura.com</StringProperty>
+<StringProperty Name="dataUrl.template">//www.kaltura.com/kwidget/wid/_{PARTNER_ID}/uiconf_id/1913582/entry_id/{ENTRY_ID}</StringProperty>
+<StringProperty Name="providerId">kalturaVideoProvider</StringProperty>
+<StringProperty Name="previewType">video</StringProperty>
+<StringProperty Name="contentType">CMVideo</StringProperty>
+<BooleanProperty Name="markAsRead">false</BooleanProperty>
+<StringProperty Name="kaltura.admin.name.external.account">admin</StringProperty>
+<StringProperty Name="kaltura.admin.secret.external.account">Change this value according to the documentation.</StringProperty>
+<StringProperty Name="kaltura.secret.external.account">Change this value according to the documentation.</StringProperty>
+<IntProperty Name="kaltura.partner.id.external.account">0</IntProperty>
+</Struct>
+<Struct>
+<IntProperty Name="index">3</IntProperty>
+<StringProperty Name="name">RSS Feed - Wired</StringProperty>
+<StringProperty Name="dataUrl">http://www.wired.co.uk/rss</StringProperty>
+<StringProperty Name="providerId">rssProvider</StringProperty>
+<StringProperty Name="previewType">html</StringProperty>
+<StringProperty Name="contentType">CMArticle</StringProperty>
+<BooleanProperty Name="markAsRead">true</BooleanProperty>
+</Struct>
+</StructListProperty>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

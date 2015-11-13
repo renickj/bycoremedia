@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Startpage" name="Spring Perfect Picnic Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/Startpage/Spring%20Perfect%20Picnic%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Startpage/Spring%20Perfect%20Picnic%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>A Perfect Picnic</teaserTitle>
+<pictures>
+<link href="../../../Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Four%20young%20friends%20picnicking%20in%20the%20park%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Four%20young%20friends%20picnicking%20in%20the%20park%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+</target>
+</CMTeaser>

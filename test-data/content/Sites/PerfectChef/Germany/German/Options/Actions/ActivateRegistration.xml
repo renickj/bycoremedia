@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMAction folder="/Sites/PerfectChef/Germany/German/Options/Actions" name="ActivateRegistration" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Options/Actions/ActivateRegistration.xml" path="/Sites/PerfectChef/United%20States/English/Options/Actions/ActivateRegistration"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>activate-registration</segment>
+<title>Aktivieren Registrierung</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+<link href="../../Pictures/Sitewide%20Pictures/Sign-In%20-%20Replace%20with%20Seasonal%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Sign-In%20-%20Replace%20with%20Seasonal%20Picture"/>
+</pictures>
+<notSearchable>0</notSearchable>
+<related>
+</related>
+<id>com.coremedia.blueprint.elastic.social.cae.flows.ActivateRegistration</id>
+<type>webflow</type>
+</CMAction>

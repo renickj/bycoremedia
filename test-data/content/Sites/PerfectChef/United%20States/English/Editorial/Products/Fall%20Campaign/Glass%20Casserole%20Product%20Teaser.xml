@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/PerfectChef/United States/English/Editorial/Products/Fall Campaign" name="Glass Casserole Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Delicious</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Making casseroles is a simple, delicious way to pack a lot of goodness into one pan.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/02_In%20The%20Kitchen/Baking%20Pans/PC_GLASS_CASSEROLE%20Frontshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/02_In%20The%20Kitchen/Baking%20Pans/PC_GLASS_CASSEROLE%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/product/PC_GLASS_CASSEROLE</externalId>
+</CMProductTeaser>

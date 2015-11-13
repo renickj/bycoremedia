@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Videos/Product Reviews" name="Best Baking Pans Review Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0.07707129094412331</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">0.9113680154142582</StringProperty>
+<StringProperty Name="y2">0.8972602739726028</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=506;y=0;width=417;height=646</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=434;y=0;width=483;height=646</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=308;y=0;width=646;height=646</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=284;y=116;width=674;height=507</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=158;y=52;width=930;height=523</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=133;y=72;width=1006;height=503</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=49;y=104;width=1171;height=468</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=42;y=111;width=1171;height=439</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=185;y=348;width=927;height=232</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.394990366088632;y1=0;x2=0.720616570327553;y2=0.8972602739726028</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.33911368015414256;y1=0;x2=0.7167630057803468;y2=0.8972602739726028</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.24084778420038536;y1=0;x2=0.7456647398843931;y2=0.8972602739726028</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.2216624685138539;y1=0.16143497757847533;x2=0.7481108312342569;y2=0.8654708520179372</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.1233140655105973;y1=0.07191780821917808;x2=0.8497109826589595;y2=0.797945205479452</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.10404624277456648;y1=0.09931506849315068;x2=0.8901734104046243;y2=0.797945205479452</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.038535645472061654;y1=0.14383561643835616;x2=0.953757225433526;y2=0.7945205479452054</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.03275529865125241;y1=0.1541095890410959;x2=0.9479768786127167;y2=0.7636986301369864</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.14450867052023122;y1=0.4828767123287671;x2=0.8689788053949904;y2=0.8047945205479452</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Best Baking Pans Review</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Best Baking Pans Review</alt>
+<copyright>America's Test Kitchen/YouTube embedded</copyright>
+<data href="Best%20Baking%20Pans%20Review%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

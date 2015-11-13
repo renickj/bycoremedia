@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Videos/How-To" name="How to sear and roast meats Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=723;y=0;width=417;height=646</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=718;y=0;width=424;height=567</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=639;y=0;width=597;height=597</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=466;y=0;width=814;height=612</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=293;y=57;width=987;height=555</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=303;y=39;width=977;height=488</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=313;y=106;width=967;height=387</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=274;y=126;width=1006;height=377</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=343;y=126;width=937;height=234</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.5645472061657033;y1=0;x2=0.8901734104046243;y2=0.8972602739726028</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.5606936416184971;y1=0;x2=0.8921001926782274;y2=0.7876712328767124</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.49903660886319845;y1=0;x2=0.9653179190751445;y2=0.8287671232876712</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.36416184971098264;y1=0;x2=1;y2=0.8493150684931506</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.22928709055876687;y1=0.07876712328767123;x2=1;y2=0.8493150684931506</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.23699421965317918;y1=0.0547945205479452;x2=1;y2=0.7328767123287672</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.24470134874759153;y1=0.14726027397260275;x2=1;y2=0.684931506849315</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.2138728323699422;y1=0.17465753424657535;x2=1;y2=0.6986301369863014</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.2678227360308285;y1=0.17465753424657535;x2=1;y2=0.5</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>How to sear and roast meats</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>How to sear and roast meats</alt>
+<copyright>cooksmarts.com/Vimeo CC-BY-SA 3.0</copyright>
+<data href="How%20to%20sear%20and%20roast%20meats%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

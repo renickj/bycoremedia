@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/How-To" name="How to segment (supreme) citrus fruit Vimeo Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-how-to-segment-supreme-citrus-fruit</segment>
+<title>How to segment (supreme) citrus fruit</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/How%20To.xml" path="/Settings/Taxonomies/Subject/How%20To"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Orange.xml" path="/Settings/Taxonomies/Subject/Orange"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Lime.xml" path="/Settings/Taxonomies/Subject/Lime"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Lemon.xml" path="/Settings/Taxonomies/Subject/Lemon"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Dessert.xml" path="/Settings/Taxonomies/Subject/Dessert"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Sweet.xml" path="/Settings/Taxonomies/Subject/Sweet"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Knives.xml" path="/Settings/Taxonomies/Subject/Knives"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Cutting%20Boards.xml" path="/Settings/Taxonomies/Subject/Cutting%20Boards"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Supreme Citrus</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Learn how to slice an orange into fine segments for beautifully looking dessert decoration.</p></div></detailText>
+<pictures>
+<link href="How%20to%20segment%20%28supreme%29%20citrus%20fruit%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/How-To/How%20to%20segment%20%28supreme%29%20citrus%20fruit%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>How to segment (supreme) citrus fruit</alt>
+<copyright>cooksmarts.com/Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/70519074</dataUrl>
+</CMVideo>

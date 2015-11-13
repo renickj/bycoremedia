@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE Watchdog SYSTEM "classpath:xml/coremedia-watchdog.dtd">
+
+<Watchdog>
+
+  <!-- Probe a Preview CAE Feeder -->
+  <Component name="ProbeCaeFeeder" startAction="caefeeder-check">
+    <Jmx name="caefeeder-check"
+         serviceUrl="service:jmx:rmi://@CAEFEEDER_LIVE_HOST@:@CAEFEEDER_LIVE_PORT_PREFIX@@JMX_SERVER_PORT_SUFFIX@/jndi/rmi://@CAEFEEDER_LIVE_HOST@:@CAEFEEDER_LIVE_PORT_PREFIX@@JMX_REGISTRY_PORT_SUFFIX@/jmxrmi"
+         objectName="com.coremedia:type=ProactiveEngine,application=caefeeder" attributeName="HeartBeat" defaultCode="ok">
+      <!-- report an error if no activity could be detected for 30s -->
+      <Converter class="com.coremedia.watchdog.impl.NumberRangeConverter" min="30000" code="error"/>
+    </Jmx>
+  </Component>
+
+</Watchdog>

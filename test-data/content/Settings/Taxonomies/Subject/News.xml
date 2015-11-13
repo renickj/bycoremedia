@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="News" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>News</value>
+<children>
+<link href="Breaking%20News.xml" path="/Settings/Taxonomies/Subject/Breaking%20News"/>
+<link href="Events.xml" path="/Settings/Taxonomies/Subject/Events"/>
+<link href="News%20General.xml" path="/Settings/Taxonomies/Subject/News%20General"/>
+<link href="OpEd.xml" path="/Settings/Taxonomies/Subject/OpEd"/>
+<link href="Press%20Release.xml" path="/Settings/Taxonomies/Subject/Press%20Release"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/United States/English/Navigation/Categories/01_On The Table" name="On  The Table Main Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>On The Table</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Here at Perfect Chef we like to decorate our tables nicely when we invite friends - so we offer a great selection of beautiful decoration items as well as designer glasses and tableware.</p></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Decoration%20Category%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/Decoration%20Category%20Teaser"/>
+<link href="Glasses%20Category%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/Glasses%20Category%20Teaser"/>
+<link href="Tableware%20Category%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/Tableware%20Category%20Teaser"/>
+<link href="../../../Editorial/Products/Spring%20Campaign/Picnic%20Basket%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/Picnic%20Basket%20Product%20Teaser"/>
+<link href="../../../Editorial/Content/Magazine%20Spring/Story%202%20-%20Salads%20for%20Spring/Salads%20for%20Spring%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Spring/Story%202%20-%20Salads%20for%20Spring/Salads%20for%20Spring%20Article"/>
+</items>
+</CMCollection>

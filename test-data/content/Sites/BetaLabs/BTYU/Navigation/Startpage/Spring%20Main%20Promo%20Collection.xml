@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/BetaLabs/BTYU/Navigation/Startpage" name="Spring Main Promo Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../PerfectChef/Germany/German/Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Frühling Haupt Promo-Sammlung</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Die Main Promo-Collection befindet sich unterhalb der Hero-Banner Collection und dem E-Marketing-Spot für die Homepage Angebote.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Die Main Promo-Collection befindet sich unterhalb der Hero-Banner Collection und dem E-Marketing-Spot für die Homepage Angebote.</p><p>Sie können Sie aber auf der Startseite auch per Drag-and-Drop einfach umpositionieren. Probieren Sie es einfach aus.</p><p/><p>Die Main Promo-Collection enthält eine Vielzahl von Teasern, einige von ihnen personalisiert, einige direkte Produkt-Teaser und Verlinkungen zu beliebigen Inhaltselementen wie Videos.</p><p/><p>Bitte wählen Sie eine Test-Benutzer Persona aus der Dropdown rechts oben im Studio, um zu sehen, wie die Seite für verschiedene Benutzergruppen verschieden personalisiert dargestellt wird.</p></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../Personalization/Startpage/Personalized%20Top%20Teaser.xml" path="/Sites/BetaLabs/BTYU/Navigation/Personalization/Startpage/Personalized%20Top%20Teaser"/>
+<link href="../../../../PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Fruit%20Bowl%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Fruit%20Bowl%20Product%20Teaser"/>
+<link href="../../../../PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Oval%20Picnic%20Basket%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Oval%20Picnic%20Basket%20Product%20Teaser"/>
+<link href="../Personalization/Startpage/Personalized%20Casual%20Clothing%20Product%20Teaser.xml" path="/Sites/BetaLabs/BTYU/Navigation/Personalization/Startpage/Personalized%20Casual%20Clothing%20Product%20Teaser"/>
+<link href="../Personalization/Startpage/Personalized%20Glasses%20Product%20Teaser.xml" path="/Sites/BetaLabs/BTYU/Navigation/Personalization/Startpage/Personalized%20Glasses%20Product%20Teaser"/>
+</items>
+</CMCollection>

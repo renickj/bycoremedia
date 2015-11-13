@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall Recipes" name="Spicy Duck Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Pictures/Recipes/Fall%20Recipes/Spicy%20Duck%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Spicy%20Duck%20Picture"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=1101;y=0;width=880;height=1363</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=967;y=0;width=1022;height=1363</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=687;y=0;width=1361;height=1363</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=189;y=0;width=1815;height=1363</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=63;width=2048;height=1154</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=63;width=2048;height=1027</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=67;width=2048;height=822</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=63;width=2048;height=770</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=119;width=2048;height=514</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.5375722543352601;y1=0;x2=0.9672447013487476;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.4720616570327553;y1=0;x2=0.9710982658959537;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.3352601156069364;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.09248554913294797;y1=0;x2=0.9788053949903661;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.0463768115942029;x2=1;y2=0.8927536231884058</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.0463768115942029;x2=1;y2=0.8</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.04927536231884058;x2=1;y2=0.6521739130434783</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.0463768115942029;x2=1;y2=0.6115942028985507</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.08695652173913043;x2=1;y2=0.463768115942029</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Spicy Ente</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Spicy Roast Duck</alt>
+<copyright>sutsaiy / Shutterstock 140909638</copyright>
+<data href="Spicy%20Duck%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>tomcat</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>tomcat-installation</artifactId>
+  <packaging>pom</packaging>
+
+  <description>
+    This module builds the catalina.home installation of tomcat. It is not intended to start the installed tomcat but all
+    coremedia services are based on this tomcat and only install a catalina.base template containing the webapps and pointing
+    to the catalina.home installation folder. Use this artifact to add shared libs for all catalina base instances.
+  </description>
+
+  <properties>
+    <!--dont change this property-->
+    <filters.dir>${project.basedir}/../../src/main/filters</filters.dir>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>tomcat-server-libs</artifactId>
+      <version>${project.version}</version>
+      <type>coremedia-application</type>
+    </dependency>
+
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>tomcat-common-libs</artifactId>
+      <version>${project.version}</version>
+      <type>coremedia-application</type>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <finalName>${APPLICATION_PREFIX}-tomcat-installation</finalName>
+    <plugins>
+      <plugin>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>prepare-tomcat</id>
+            <goals>
+              <goal>unpack</goal>
+            </goals>
+            <phase>generate-resources</phase>
+            <configuration>
+              <outputDirectory>${project.build.directory}/tomcat-dist</outputDirectory>
+              <artifactItems>
+                <artifactItem>
+                  <groupId>${tomcat.groupId}</groupId>
+                  <artifactId>${tomcat.artifactId}</artifactId>
+                  <version>${tomcat.version}</version>
+                  <type>zip</type>
+                </artifactItem>
+              </artifactItems>
+              <excludes>
+                apache-tomcat-${tomcat.version}/webapps/examples/**,
+                apache-tomcat-${tomcat.version}/webapps/docs/**
+              </excludes>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>com.coremedia.maven</groupId>
+        <artifactId>coremedia-application-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <outputDirectory>${project.build.directory}/tomcat-dist/apache-tomcat-${tomcat.version}</outputDirectory>
+        </configuration>
+        <executions>
+          <execution>
+            <id>create-zip-and-rpm</id>
+            <goals>
+              <goal>package-inplace</goal>
+              <goal>zip-it</goal>
+              <goal>rpm</goal>
+            </goals>
+            <configuration>
+              <skipRpmArchiving>${skipRpm}</skipRpmArchiving>
+              <skipZipArchiving>${skipZip}</skipZipArchiving>
+              <excludeTransitiveJars>true</excludeTransitiveJars>
+              <rpmConfig>
+                <preInstallScript>${project.build.directory}/tomcat-dist/apache-tomcat-${tomcat.version}/INSTALL/preinstall.sh
+                </preInstallScript>
+                <mappings>
+                  <mapping>
+                    <includes>bin/**</includes>
+                    <excludes>**/*.bat,**/*.exe,**/*.dll</excludes>
+                    <filemode>755</filemode>
+                  </mapping>
+                  <mapping>
+                    <includes>conf/**,lib/**,server-lib/**,webapps/**,logs/**,temp/**,work/**</includes>
+                  </mapping>
+                </mappings>
+              </rpmConfig>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

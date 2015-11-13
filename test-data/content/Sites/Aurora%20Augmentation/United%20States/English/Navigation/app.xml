@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMHTML folder="/Sites/Aurora Augmentation/United States/English/Navigation" name="app" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>New content item</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt></alt>
+<copyright></copyright>
+<description></description>
+<data grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>&lt;!DOCTYPE html&gt;<br/>&lt;html  ng-app="myApp" ng-controller="customersCtrl"&gt;</p><p>&lt;head id="mainHead"&gt;<br/>&lt;script src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"&gt;</p><p>&lt;/script&gt;</p><p>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"&gt;&lt;/script&gt;</p><p>&lt;script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-sanitize.js"&gt;&lt;/script&gt;</p><p>&lt;/head&gt;</p><p>&lt;body onLoad = "onloading()"&gt;<br/><br/>&lt;div id="mainDiv"&gt; <br/><br/>&lt;/div&gt;<br/><br/>&lt;script&gt;</p><p>var app = angular.module('myApp', ['ngSanitize']);</p><p><br/></p><p>function onloading()</p><p>{</p><p> </p><p>}</p><p>app.controller('customersCtrl', function($scope, $http) {</p><p> </p><p>    $http.get("<a xlink:type="simple" xlink:href="http://preview-helios.dev.cms.boots.com/blueprint/servlet/service/fragment/egal/en-US/params;view=externalHeadasJSON;environment=site%3ABeautifulYou">/blueprint/servlet/service/fragment/egal/en-US/params;view=externalHeadasJSON;environment=site%3ABeautifulYou</a>")</p><p>.success(function (response) {<br/></p><p>document.getElement<strong>ById("</strong>mainHead<strong>").innerHTML</strong><strong>= </strong>document.getElement<strong>ById("</strong>mainHead<strong>").innerHTML</strong><strong>+"&lt;link type='text/css' rel='stylesheet' href='http:"+</strong><strong> </strong>response.css[0]+"'/&gt;"; </p><p> $.getScript("https:"+response.js[0], function(){});</p><p>});</p><p><br/></p><p/><p>$http.get("/blueprint/servlet/service/fragment/egal/en-US/params;externalRef=cm-segmentpath:!beautifulyou!myhome;placement=myhomebottom;environment=site%3ABeautifulYou")</p><p>.success(function (response) {<br/></p><p>document.getElement<strong>ById("</strong>mainDiv<strong>").innerHTML </strong>=<strong> </strong><strong> </strong>document.getElement<strong>ById("</strong>mainDiv<strong>").innerHTML+response</strong>;</p><p>//alert($scope.mainDiv);</p><p>});</p><p/><p/><p>});</p><p/><p/><p>&lt;/script&gt;<br/><br/>&lt;/body&gt;<br/>&lt;/html&gt;</p></div></data>
+</CMHTML>

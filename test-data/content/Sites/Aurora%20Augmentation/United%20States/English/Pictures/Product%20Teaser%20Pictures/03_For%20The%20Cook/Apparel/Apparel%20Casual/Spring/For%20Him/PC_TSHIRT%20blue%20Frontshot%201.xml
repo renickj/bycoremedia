@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Product Teaser Pictures/03_For The Cook/Apparel/Apparel Casual/Spring/For Him" name="PC_TSHIRT blue Frontshot 1" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=233;y=0;width=1587;height=2461</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=102;y=0;width=1843;height=2461</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=0;y=0;width=2048;height=2047</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=191;width=2048;height=1535</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=744;width=2048;height=1154</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=744;width=2048;height=1023</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=744;width=2048;height=819</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=740;width=2048;height=768</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=735;width=2048;height=512</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.11363636363636363;y1=0;x2=0.8886363636363637;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.05;y1=0;x2=0.95;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0;y1=0;x2=1;y2=0.831758034026465</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.07750472589792061;x2=1;y2=0.7013232514177694</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.30245746691871456;x2=1;y2=0.7712665406427222</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.30245746691871456;x2=1;y2=0.718336483931947</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.30245746691871456;x2=1;y2=0.6351606805293005</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.3005671077504726;x2=1;y2=0.6124763705103969</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.29867674858223064;x2=1;y2=0.5066162570888468</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_TSHIRT</String>
+<String>ibm:///catalog/sku/PC_TSHIRT-BLUE-M</String>
+<String>ibm:///catalog/sku/PC_TSHIRT-BLUE-L</String>
+<String>ibm:///catalog/sku/PC_TSHIRT-BLUE-XL</String>
+<String>ibm:///catalog/sku/PC_TSHIRT-BLUE-XXL</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Blue T-Shirt</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../../../Settings/Taxonomies/Subject/Blue.xml" path="/Settings/Taxonomies/Subject/Blue"/>
+<link href="../../../../../../../../../../../Settings/Taxonomies/Subject/Men%20Spring%20Casual.xml" path="/Settings/Taxonomies/Subject/Men%20Spring%20Casual"/>
+<link href="../../../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Blue T-Shirt</alt>
+<copyright>Syda Productions/Shutterstock 141313645</copyright>
+<data href="PC_TSHIRT%20blue%20Frontshot%201.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>2048</width>
+<height>2461</height>
+</CMPicture>

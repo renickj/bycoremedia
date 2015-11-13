@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes" name="Spring Recipes Hero Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/Recipes/Spring%20Recipes%20Hero%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes%20Hero%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Frische Salate</teaserTitle>
+<pictures>
+<link href="../../../Pictures/Recipes/Spring%20Recipes/Greek%20Salad%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Greek%20Salad%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../../Navigation/Categories/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Page"/>
+</target>
+</CMTeaser>

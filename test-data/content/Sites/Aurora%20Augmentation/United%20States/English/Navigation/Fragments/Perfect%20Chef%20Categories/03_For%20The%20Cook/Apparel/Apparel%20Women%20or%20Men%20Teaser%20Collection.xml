@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/03_For The Cook/Apparel" name="Apparel Women or Men Teaser Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../../Options/Viewtypes/CMCollection/tiles-layout-50-50-portrait.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-50-50-portrait"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Women or Men?</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Women%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Women%20Teaser"/>
+<link href="Men%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Men%20Teaser"/>
+</items>
+</CMCollection>

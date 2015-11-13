@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/01_On The Table" name="Tableware Category Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Categories/01_On%20The%20Table/Tableware%20Category%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/Tableware%20Category%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Geschirr</teaserTitle>
+<pictures>
+<link href="../../../Pictures/Product%20Category%20Pictures/On%20The%20Table/Tableware%20Categories%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/On%20The%20Table/Tableware%20Categories%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Tableware/Tableware%20External%20Category%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/01_On%20The%20Table/Tableware/Tableware%20External%20Category%20Page"/>
+</target>
+</CMTeaser>

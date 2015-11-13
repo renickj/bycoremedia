@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content" name="inspiration collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../Options/Viewtypes/CMCollection/tiles-layout-portrait.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-portrait"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>inspiration collection</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Her/PC_EVENING_DRESS%20gold%20Actionshot.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Her/PC_EVENING_DRESS%20gold%20Actionshot"/>
+<link href="../../Pictures/Product%20Teaser%20Pictures/02_In%20The%20Kitchen/Knives/PC_SANTOKU_KNIFE_SET%20Frontshot%201.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Teaser%20Pictures/02_In%20The%20Kitchen/Knives/PC_SANTOKU_KNIFE_SET%20Frontshot%201"/>
+<link href="../../Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Autumn%20Dishes/Hot%20Chocolate%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Fall%20Pictures/Autumn%20Dishes/Hot%20Chocolate%20Picture"/>
+</items>
+</CMCollection>

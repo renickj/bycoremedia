@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall Recipes/Desserts" name="Cooked Pears Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Cooked%20Pears%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Cooked%20Pears%20Article"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Gekochte Birnen mit Mandelblättchen und Schokoladensauce</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Sugar.xml" path="/Settings/Taxonomies/Subject/Sugar"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Butter.xml" path="/Settings/Taxonomies/Subject/Butter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Sweet.xml" path="/Settings/Taxonomies/Subject/Sweet"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dessert.xml" path="/Settings/Taxonomies/Subject/Dessert"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/American.xml" path="/Settings/Taxonomies/Subject/American"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Apple.xml" path="/Settings/Taxonomies/Subject/Apple"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Gekochte Birnen</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><br/></p> </div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Bereiten Sie aus Birnen ein einfaches, aber leckeres Dessert für herbstliche Tage zu: einfach schälen und einkochen! Lassen Sie sich die Mischung aus Rum und Zimt schmecken. Genießen Sie ein echtes Geschmackserlebnis in weniger als 10 Minuten Vorbereitung.</p><p class="p--heading-2">Zutaten</p><ul><li>2 große Birnen</li><li>1/2l Milch</li><li>3 El Rum</li><li>2 El Zucker</li><li>1 Pck. Vanillepudding</li><li>Zimt</li><li>2 Becher Sahne</li><li>Schokoladensauce</li><li>30g Mandelblättchen</li></ul><p class="p--heading-2">Zubereitung</p><ul><li>Backofen auf 160 Grad vorheizen</li><li>Birnen schälen und in kleine Würfel schneiden</li><li>Die Vanillepudding mit Milch, Rom und Zucker mischen</li><li>Zitronensaft hinzufügen</li><li>Auf der untersten Schiene 10-15 Min. backen</li><li>Im ausgeschalteten Offen noch 4 Min. ruhen lassen</li><li>Nach Abkühlung mit gerösteten Mandelblättchen und Schokoladensauce bestreuen</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Die Birnen schmecken auch besonders gut mit ein paar Kugeln Vanilleeis dazu. Servieren Sie einen süßen Dessertwein oder einen leckeren Espresso als Begleitung zum Dessert.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Cooked%20Pears%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Cooked%20Pears%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../../Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Related%20Sidebar%20Collection.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipe%20Article%20Related%20Sidebar%20Collection"/>
+</related>
+</CMArticle>

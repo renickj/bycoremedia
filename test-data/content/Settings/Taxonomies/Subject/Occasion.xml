@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Occasion" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Occasion</value>
+<children>
+<link href="Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="Snack.xml" path="/Settings/Taxonomies/Subject/Snack"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

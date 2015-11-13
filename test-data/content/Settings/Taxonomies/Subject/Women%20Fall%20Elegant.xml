@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Women Fall Elegant" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Women Fall Elegant</value>
+<children>
+<link href="AuroraWMDRS-13.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-13"/>
+<link href="AuroraWMDRS-19.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-19"/>
+<link href="AuroraWMDRS-20.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-20"/>
+<link href="AuroraWMDRS-23.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-23"/>
+<link href="AuroraWMDRS-30.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-30"/>
+</children>
+<externalReference>PC_ApparelWomenExclusive</externalReference>
+</CMTaxonomy>

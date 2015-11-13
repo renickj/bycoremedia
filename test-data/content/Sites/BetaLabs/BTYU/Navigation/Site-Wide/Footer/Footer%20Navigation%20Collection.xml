@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer" name="Footer Navigation Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../../PerfectChef/Germany/German/Options/Viewtypes/CMCollection/footer-navigation.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/footer-navigation"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Footer Navigation</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="My%20Store.xml" path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/My%20Store"/>
+<link href="Explore%20Collection.xml" path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/Explore%20Collection"/>
+<link href="Customer%20Service%20Collection.xml" path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/Customer%20Service%20Collection"/>
+<link href="Corporate%20Info%20Collection.xml" path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/Corporate%20Info%20Collection"/>
+</items>
+</CMCollection>

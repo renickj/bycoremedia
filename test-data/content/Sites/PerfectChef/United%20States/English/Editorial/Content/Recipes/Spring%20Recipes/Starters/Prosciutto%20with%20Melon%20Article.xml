@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Spring Recipes/Starters" name="Prosciutto with Melon Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Prosciutto with Melon</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Ham.xml" path="/Settings/Taxonomies/Subject/Ham"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Melon.xml" path="/Settings/Taxonomies/Subject/Melon"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Mediterranean.xml" path="/Settings/Taxonomies/Subject/Mediterranean"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Prosciutto Melon</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>On a hot day, you need refreshing starters!</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>On a hot day, you need refreshing starters: such one is the Melon with Prosciutto. It could not be easier to prepare! Cut the honey melon with one of our shark knives. Remove the seeds with a spoon and slice into wedges. Wrap with Italian Prosciutto and serve with light, fresh white wine.</p><p class="p--heading-2">Ingredients</p><ul><li>1/4 (350g) rockmelon, seeded</li><li>12 slices prosciutto</li><li>12 fresh basil leaves</li><li>12 cherry bocconcini, drained</li><li>Extra virgin olive oil, to serve</li></ul><p class="p--heading-2">Preparation</p><ul><li>Using a melon baller or teaspoon, scoop 12 balls from rockmelon</li><li>Fold up each slice of prosciutto into a bundle</li><li>Thread the rockmelon, prosciutto bundles, basil and bocconcini onto skewers</li><li>Drizzle with oil and serve</li></ul><p class="p--heading-2">Serving Suggestion</p><p>If desired, just before serving, drizzle a tiny (no more than a drop) amount of balsamic vinegar over each piece along with a little coarsely ground black pepper.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Prosciutto%20with%20Melon%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Spring%20Recipes/Prosciutto%20with%20Melon%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../../Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Spring%20Recipes/Starters/Starters%20Spring%20Teaser"/>
+<link href="../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+</related>
+</CMArticle>

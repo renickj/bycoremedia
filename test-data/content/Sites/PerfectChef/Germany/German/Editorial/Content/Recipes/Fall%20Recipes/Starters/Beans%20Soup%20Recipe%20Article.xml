@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall Recipes/Starters" name="Beans Soup Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Beans%20Soup%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Beans%20Soup%20Recipe%20Article"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Bohnen-Eintopf mit Schweinerippchen</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Beans.xml" path="/Settings/Taxonomies/Subject/Beans"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Onion.xml" path="/Settings/Taxonomies/Subject/Onion"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Carrot.xml" path="/Settings/Taxonomies/Subject/Carrot"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Chicken%20Stock.xml" path="/Settings/Taxonomies/Subject/Chicken%20Stock"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Bohnen Eintopf</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Bohnen sättigen hungrige Mägen und sorgen für viel Protein.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Für einen Eintopf braucht man, wie sein Name sagt, nur einen Topf. Er läßt sich ohne große Umstände auf den Herd bringen und gart dann mehr oder weniger von selbst. Eintopf kann man gut aufbewahren, wieder aufwärmen, oder tiefkühlen und er schmeckt fast jedermann. Der Fantasie sind, was die Zutaten angeht, kaum Grenzen gesetzt.</p><p>Bohnen sind ein wesentlicher Bestandteil der Herbst- und Winter-Suppen und Eintöpfe. Sie füllen den Magen und sorgen für viel Protein. Schinken oder Speck kann man für extra Geschmack und Reichtum hinzufügen.</p><p class="p--heading-2">Zutaten</p><ul><li>375 g weiße Bohnen</li><li>250 g geräucherte Schweinerippchen</li><li>500 g Kartoffeln</li><li>1 Bund Suppengrün Bohnenkraut</li><li>2 El gehackter Petersilie</li></ul><p class="p--heading-2">Zubereitung</p><p/><ul><li>Die Bohnen waschen und in 2l Wasser 12-24 Stunden einweichen</li><li>Die geräucherten Schweinerippchen zusammen mit den Bohnen zum Kochen bringen</li><li>Die Kartoffeln schälen, waschen und in Würfel schneiden</li><li>Das Suppengrün und Bohnenkraut putzen, waschen und kleinschneiden</li><li>Schließlich die Schweinerippchen kleinschneiden und alles in den Suppentopf geben.</li><li>Ca. 45 Minuten auf mittlerer Hitze kochen, bis die Bohnen und Kartoffel gut durchgekocht sind</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Salz und Pfeffer je nach Geschmack zu den Bohnen geben, zum Kochen bringen und mit dem gehackter Petersilie abschmecken und dekorieren.</p><p>Guten Appetit!</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Beans%20Soup%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Beans%20Soup%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

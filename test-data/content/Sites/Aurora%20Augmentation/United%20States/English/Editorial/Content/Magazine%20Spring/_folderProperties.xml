@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMFolderProperties folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Magazine Spring" name="_folderProperties" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<contexts>
+<link href="../../../Navigation/Microsites/06_Magazine%20Spring/Magazine%20Spring%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/06_Magazine%20Spring/Magazine%20Spring%20Page"/>
+</contexts>
+</CMFolderProperties>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMQueryList folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Spring Recipes/Salads" name="Salads Spring Query List" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Navigation/Categories/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Query%20List.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Query%20List"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="fq">
+<Struct>
+<StringProperty Name="documenttype">CMArticle</StringProperty>
+<LinkListProperty Name="subjecttaxonomy" LinkType="coremedia:///cap/contenttype/CMTaxonomy">
+<Link xlink:href="coremedia:///cap/resources/../../../../../../../../../Settings/Taxonomies/Subject/Salad%282%29.xml" cmexport:path="/Settings/Taxonomies/Subject/Salad%282%29"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Frische Salate</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+</CMQueryList>

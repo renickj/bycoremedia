@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Product Category" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Product Category</value>
+<children>
+<link href="Deli.xml" path="/Settings/Taxonomies/Subject/Deli"/>
+<link href="For%20the%20Cook.xml" path="/Settings/Taxonomies/Subject/For%20the%20Cook"/>
+<link href="In%20the%20Kitchen.xml" path="/Settings/Taxonomies/Subject/In%20the%20Kitchen"/>
+<link href="On%20the%20Table.xml" path="/Settings/Taxonomies/Subject/On%20the%20Table"/>
+</children>
+<externalReference>PC_Deli</externalReference>
+</CMTaxonomy>

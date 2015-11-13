@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Fruit" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Fruit</value>
+<children>
+<link href="Strawberry.xml" path="/Settings/Taxonomies/Subject/Strawberry"/>
+<link href="Lime.xml" path="/Settings/Taxonomies/Subject/Lime"/>
+<link href="Lemon.xml" path="/Settings/Taxonomies/Subject/Lemon"/>
+<link href="Orange.xml" path="/Settings/Taxonomies/Subject/Orange"/>
+<link href="Pear.xml" path="/Settings/Taxonomies/Subject/Pear"/>
+<link href="Apple.xml" path="/Settings/Taxonomies/Subject/Apple"/>
+<link href="Melon.xml" path="/Settings/Taxonomies/Subject/Melon"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

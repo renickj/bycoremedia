@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMChannel folder="/Sites/BetaLabs/BTYU/Navigation" name="Perfect Chef Deutschland" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords>Coremedia, Perfect Koch, PerfectChef, Demo, Blaupause, Livecontext, Coremedia Livecontext 2.0 für IBM WebSphere Commerce</keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StringProperty Name="analyticsProvider">googleAnalytics</StringProperty>
+<IntProperty Name="publicationHistoryInterval">60</IntProperty>
+<LinkProperty Name="mediaelementplayer_flash" LinkType="coremedia:///cap/contenttype/CMInteractive" xlink:href="coremedia:///cap/resources/../../../../Themes/basic/vendor/mediaelement/flashmediaelement%2Eswf.xml" cmexport:path="/Themes/basic/vendor/mediaelement/flashmediaelement%2Eswf"/>
+<StructProperty Name="googleAnalytics">
+<Struct>
+<IntProperty Name="pageViewHistoryInterval">60</IntProperty>
+<StringProperty Name="pageReport">content-pages</StringProperty>
+<IntProperty Name="accountId">49338199</IntProperty>
+<IntProperty Name="wpid">81080246</IntProperty>
+<IntProperty Name="pid">83919271</IntProperty>
+<StringProperty Name="webPropertyId">UA-49338199-1</StringProperty>
+<StringProperty Name="domainName">auto</StringProperty>
+<LinkProperty Name="p12File" LinkType="coremedia:///cap/contenttype/CMDownload" xlink:href="coremedia:///cap/resources/../../../../Settings/Options/Settings/googleAnalytics%2Ep12.xml" cmexport:path="/Settings/Options/Settings/googleAnalytics%2Ep12"/>
+<StringProperty Name="serviceAccountEmail">731994752846-tcjq4ti5l28e9f2uf68aebunvbfa26j2@developer.gserviceaccount.com</StringProperty>
+<StringProperty Name="applicationName">coremedia</StringProperty>
+<IntProperty Name="interval">120</IntProperty>
+<IntProperty Name="limit">9999</IntProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="livecontext.relatedpage.pdp">
+<Struct>
+<LinkProperty Name="pagegrid" LinkType="coremedia:///cap/contenttype/CMChannel" xlink:href="coremedia:///cap/resources/Perfect%20Chef%20Deutschland%20PDP%20Template%20Page.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Perfect%20Chef%20Deutschland%20PDP%20Template%20Page"/>
+<StructProperty Name="settings">
+<Struct>
+<StructProperty Name="elasticSocial">
+<Struct>
+<StringProperty Name="reviewType">REGISTERED</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<LinkProperty Name="livecontext.default.product.picture" LinkType="coremedia:///cap/contenttype/CMPicture" xlink:href="coremedia:///cap/resources/../../../PerfectChef/Germany/German/Pictures/Picture%20Missing%20Product%20Picture.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Pictures/Picture%20Missing%20Product%20Picture"/>
+</Struct>
+</localSettings>
+<linkedSettings>
+<link href="../../../../Settings/Options/Bundles/Bundle_de.xml" path="/Settings/Options/Bundles/Bundle_de"/>
+<link href="../../../../Settings/Options/Bundles/Elastic%20Social_de.xml" path="/Settings/Options/Bundles/Elastic%20Social_de"/>
+<link href="../../../../Settings/Options/Bundles/Livecontext_de.xml" path="/Settings/Options/Bundles/Livecontext_de"/>
+<link href="../../../PerfectChef/Germany/German/Options/Settings/CMChannel/Vanity%20URLs.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/CMChannel/Vanity%20URLs"/>
+<link href="../../../PerfectChef/Germany/German/Options/Settings/LiveContext.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/LiveContext"/>
+<link href="../../../PerfectChef/Germany/German/Options/Settings/CAEConfig.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/CAEConfig"/>
+<link href="../../../PerfectChef/Germany/German/Options/Settings/Elastic%20Social.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/Elastic%20Social"/>
+<link href="../../../PerfectChef/Germany/German/Options/Settings/CMChannel/Robots%2Etxt.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/CMChannel/Robots%2Etxt"/>
+<link href="../../../PerfectChef/Germany/German/Options/Settings/CMChannel/Responsive%20Image%20Settings.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/CMChannel/Responsive%20Image%20Settings"/>
+<link href="../../../PerfectChef/Germany/German/Options/Settings/CMChannel/Preview.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/CMChannel/Preview"/>
+<link href="../../../PerfectChef/Germany/German/Options/Settings/Studio%20Preview.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/Studio%20Preview"/>
+</linkedSettings>
+<segment>perfectchef-de-de</segment>
+<title>Perfect Chef Deutschland</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+<link href="Categories/01_On%20The%20Table/On%20The%20Table%20External%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/01_On%20The%20Table/On%20The%20Table%20External%20Page"/>
+<link href="Categories/02_In%20The%20Kitchen/In%20The%20Kitchen%20External%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/02_In%20The%20Kitchen/In%20The%20Kitchen%20External%20Page"/>
+<link href="Categories/03_For%20The%20Cook/For%20The%20Cook%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/03_For%20The%20Cook/For%20The%20Cook%20Page"/>
+<link href="Categories/04_Deli/Deli%20External%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/04_Deli/Deli%20External%20Page"/>
+<link href="Categories/05_Recipes/Recipes%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/05_Recipes/Recipes%20Page"/>
+<link href="Categories/06_Magazine%20Spring/Magazine%20Spring%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/06_Magazine%20Spring/Magazine%20Spring%20Page"/>
+<link href="Startpage/Spring%20Glasses%20Sale%20Category%20Teaser.xml" path="/Sites/BetaLabs/BTYU/Navigation/Startpage/Spring%20Glasses%20Sale%20Category%20Teaser"/>
+<link href="Categories/99_Magazine%20Fall/Magazine%20Fall%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/99_Magazine%20Fall/Magazine%20Fall%20Page"/>
+<link href="Site-Wide/Corporate%20Hidden%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Corporate%20Hidden%20Page"/>
+<link href="Fragments/LiveContext%20Fragments%20Root%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Fragments/LiveContext%20Fragments%20Root%20Page"/>
+<link href="Microsites/Microsites%20Root%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Microsites/Microsites%20Root%20Page"/>
+<link href="Perfect%20Chef%20Deutschland%20PDP%20Template%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Perfect%20Chef%20Deutschland%20PDP%20Template%20Page"/>
+</children>
+<hidden>1</hidden>
+<hiddenInSitemap>1</hiddenInSitemap>
+<javaScript>
+<link href="../../../../Themes/perfectchef/perfectchef%2Ejs.xml" path="/Themes/perfectchef/perfectchef%2Ejs"/>
+</javaScript>
+<css>
+<link href="../../../../Themes/perfectchef/perfectchef%2Ecss.xml" path="/Themes/perfectchef/perfectchef%2Ecss"/>
+</css>
+<favicon href="Perfect%20Chef%20Deutschland.favicon.x-icon" mimetype="image/x-icon"/>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<LinkProperty Name="layout" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../../PerfectChef/Germany/German/Options/Settings/Pagegrid/Layouts/PagegridNavigation.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Layouts/PagegridNavigation"/>
+<StructProperty Name="placements">
+<Struct>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<StructListProperty Name="placements">
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+<Link xlink:href="coremedia:///cap/resources/e-Marketing%20Spots/Sitewide%20Viewed%20Products%20Related%20Box%20e-Marketing%20Spot.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/e-Marketing%20Spots/Sitewide%20Viewed%20Products%20Related%20Box%20e-Marketing%20Spot"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Footer/Social%20Sharing%20Leiste.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/Social%20Sharing%20Leiste"/>
+</LinkListProperty>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/footer-advertisement.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/footer-advertisement"/>
+</Struct>
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Header/Startpage.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Header/Startpage"/>
+<Link xlink:href="coremedia:///cap/resources/../../../PerfectChef/Germany/German/Options/Actions/Search.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Actions/Search"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Header/Store%20Locator.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Header/Store%20Locator"/>
+<Link xlink:href="coremedia:///cap/resources/../../../PerfectChef/Germany/German/Options/Actions/Login.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Actions/Login"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Header/Cart.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Header/Cart"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Header/Navigation.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Header/Navigation"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Header/Breadcrumb.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Header/Breadcrumb"/>
+</LinkListProperty>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/header.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/header"/>
+</Struct>
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+</LinkListProperty>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/header-advertisement.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/header-advertisement"/>
+</Struct>
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Footer/Footer%20Navigation%20Collection.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/Footer%20Navigation%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Footer/Join%20Our%20Mailing%20List.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/Join%20Our%20Mailing%20List"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Footer/Follow%20Us.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/Follow%20Us"/>
+</LinkListProperty>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/footer.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/footer"/>
+</Struct>
+<Struct>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMTeasable">
+<Link xlink:href="coremedia:///cap/resources/Startpage/Spring%20Hero%20Banner%20Collection.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Startpage/Spring%20Hero%20Banner%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/e-Marketing%20Spots/Startpage%20Offer%20Textbanner%20e-Marketing%20Spot.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/e-Marketing%20Spots/Startpage%20Offer%20Textbanner%20e-Marketing%20Spot"/>
+<Link xlink:href="coremedia:///cap/resources/Startpage/Spring%20Main%20Promo%20Collection.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Startpage/Spring%20Main%20Promo%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/Site-Wide/Analytics%20Lists/Google%20Top%205%20Landscape%20Tiles%20Analytics%20List.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Analytics%20Lists/Google%20Top%205%20Landscape%20Tiles%20Analytics%20List"/>
+</LinkListProperty>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/main"/>
+</Struct>
+</StructListProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+</CMChannel>

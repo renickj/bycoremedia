@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer" name="Corporate Info Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Site-Wide/Footer/Corporate%20Info.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Footer/Corporate%20Info"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Unternehmensinformation</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../Editorial/Content/Corporate/About%20Perfect%20Chef.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/About%20Perfect%20Chef"/>
+<link href="Corporate%20Info%20External%20Links/About%20CoreMedia%20LiveContext.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer/Corporate%20Info%20External%20Links/About%20CoreMedia%20LiveContext"/>
+<link href="Corporate%20Info%20External%20Links/Careers.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer/Corporate%20Info%20External%20Links/Careers"/>
+<link href="Corporate%20Info%20External%20Links/Press.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Footer/Corporate%20Info%20External%20Links/Press"/>
+<link href="../../../Editorial/Content/Corporate/Terms%20of%20Use.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/Terms%20of%20Use"/>
+<link href="../../../Editorial/Content/Corporate/Privacy%20Policy.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/Privacy%20Policy"/>
+<link href="../../../Editorial/Content/Corporate/Imprint.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate/Imprint"/>
+</items>
+</CMCollection>

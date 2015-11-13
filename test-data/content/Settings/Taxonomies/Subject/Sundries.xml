@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Sundries" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Sundries</value>
+<children>
+<link href="Noodles.xml" path="/Settings/Taxonomies/Subject/Noodles"/>
+<link href="Rice.xml" path="/Settings/Taxonomies/Subject/Rice"/>
+<link href="Oil.xml" path="/Settings/Taxonomies/Subject/Oil"/>
+<link href="Breadcrumbs.xml" path="/Settings/Taxonomies/Subject/Breadcrumbs"/>
+<link href="Pepper.xml" path="/Settings/Taxonomies/Subject/Pepper"/>
+<link href="Salt.xml" path="/Settings/Taxonomies/Subject/Salt"/>
+<link href="Chicken%20Stock.xml" path="/Settings/Taxonomies/Subject/Chicken%20Stock"/>
+<link href="Vinegar.xml" path="/Settings/Taxonomies/Subject/Vinegar"/>
+<link href="Sugar.xml" path="/Settings/Taxonomies/Subject/Sugar"/>
+<link href="Flour.xml" path="/Settings/Taxonomies/Subject/Flour"/>
+<link href="Mustard.xml" path="/Settings/Taxonomies/Subject/Mustard"/>
+<link href="White%20Bread.xml" path="/Settings/Taxonomies/Subject/White%20Bread"/>
+<link href="Raisins.xml" path="/Settings/Taxonomies/Subject/Raisins"/>
+<link href="Rum.xml" path="/Settings/Taxonomies/Subject/Rum"/>
+<link href="Dried%20Berries.xml" path="/Settings/Taxonomies/Subject/Dried%20Berries"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

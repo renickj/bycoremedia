@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Ingredients" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Ingredients</value>
+<children>
+<link href="Vegetable.xml" path="/Settings/Taxonomies/Subject/Vegetable"/>
+<link href="Meat.xml" path="/Settings/Taxonomies/Subject/Meat"/>
+<link href="Fruit.xml" path="/Settings/Taxonomies/Subject/Fruit"/>
+<link href="Spices%281%29.xml" path="/Settings/Taxonomies/Subject/Spices%281%29"/>
+<link href="Fish%20and%20Seafood.xml" path="/Settings/Taxonomies/Subject/Fish%20and%20Seafood"/>
+<link href="Dairy.xml" path="/Settings/Taxonomies/Subject/Dairy"/>
+<link href="Eggs.xml" path="/Settings/Taxonomies/Subject/Eggs"/>
+<link href="Sundries.xml" path="/Settings/Taxonomies/Subject/Sundries"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

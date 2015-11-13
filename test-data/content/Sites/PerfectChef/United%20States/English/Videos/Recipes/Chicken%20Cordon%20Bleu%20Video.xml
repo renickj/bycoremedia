@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/United States/English/Videos/Recipes" name="Chicken Cordon Bleu Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-recipe-chicken-cordon-bleu</segment>
+<title>Chicken Cordon Bleu</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Chicken.xml" path="/Settings/Taxonomies/Subject/Chicken"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipes.xml" path="/Settings/Taxonomies/Subject/Recipes"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Cheese.xml" path="/Settings/Taxonomies/Subject/Cheese"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Ham.xml" path="/Settings/Taxonomies/Subject/Ham"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pans.xml" path="/Settings/Taxonomies/Subject/Pans"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/France.xml" path="/Settings/Taxonomies/Subject/France"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Cordon Bleu</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Baked chicken cordon bleu can be an easy, delicious, and fun-to-make weeknight dinner. Our baked version is a lot healthier!</p></div></detailText>
+<pictures>
+<link href="Chicken%20Cordon%20Bleu%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/Chicken%20Cordon%20Bleu%20Picture"/>
+</pictures>
+<related>
+<link href="Breaded%20Chicken%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Recipes/Breaded%20Chicken%20Video"/>
+</related>
+<alt>Chicken Cordon Bleu</alt>
+<copyright>Copyright: cooksmarts.com/Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/64246916</dataUrl>
+</CMVideo>

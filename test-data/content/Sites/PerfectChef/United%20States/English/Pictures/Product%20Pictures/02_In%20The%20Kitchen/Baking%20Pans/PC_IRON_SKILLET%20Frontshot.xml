@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Pictures/Product Pictures/02_In The Kitchen/Baking Pans" name="PC_IRON_SKILLET Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0.046242774566473986</StringProperty>
+<StringProperty Name="y1">0.0838150289017341</StringProperty>
+<StringProperty Name="x2">0.9633911368015414</StringProperty>
+<StringProperty Name="y2">0.9132947976878613</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=1188;y=0;width=730;height=1134</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=612;y=115;width=848;height=1134</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=470;y=115;width=1133;height=1134</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=193;y=0;width=1543;height=1158</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=193;y=122;width=1713;height=964</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=166;y=190;width=1720;height=861</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=24;y=288;width=1878;height=751</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=39;y=308;width=1882;height=707</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=332;width=2048;height=514</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.5799614643545279;y1=0;x2=0.9364161849710982;y2=0.8294797687861272</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.29865125240847784;y1=0.0838150289017341;x2=0.7129094412331407;y2=0.9132947976878613</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.22928709055876687;y1=0.0838150289017341;x2=0.7822736030828517;y2=0.9132947976878613</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.09441233140655106;y1=0;x2=0.8477842003853564;y2=0.846820809248555</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.09441233140655106;y1=0.08959537572254335;x2=0.930635838150289;y2=0.7947976878612717</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.08092485549132948;y1=0.13872832369942195;x2=0.9210019267822736;y2=0.7687861271676301</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.011560693641618497;y1=0.21098265895953758;x2=0.928709055876686;y2=0.7601156069364162</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.019267822736030827;y1=0.2254335260115607;x2=0.9383429672447013;y2=0.7427745664739884</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.24277456647398843;x2=1;y2=0.6184971098265896</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_IRON_SKILLET</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Tradtional Iron Skillet</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Baking%20Pans.xml" path="/Settings/Taxonomies/Subject/Baking%20Pans"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Tradtional Iron Skillet</alt>
+<copyright>Vitaliy Netiaga/Shutterstock 144279001</copyright>
+<data href="PC_IRON_SKILLET%20Frontshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

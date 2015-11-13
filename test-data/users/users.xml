@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository xmlns="http://www.coremedia.com/2005/contentserver/userrepository">
+  <group id="staff" name="staff" contentgroup="true" livegroup="false" administrative="false">
+    <rule content="/Home" type="Document_" rights="RMDS"/>
+    <rule content="/Home" type="Folder_" rights="RMDS"/>
+    <rule content="/Settings" type="Document_" rights="R"/>
+    <rule content="/Settings" type="Folder_" rights="R"/>
+    <members>
+      <group id="global-site-manager" name="global-site-manager" contentgroup="true" livegroup="false" administrative="false">
+        <rule content="/Settings/Meta/Mail" type="CMMail" rights="RMDAP"/>
+        <rule content="/Settings/Options/Bundles" type="CMSettings" rights="RMDAP"/>
+        <rule content="/Settings/Options/Settings" type="CMSettings" rights="RMAP"/>
+        <rule content="/Themes" type="CMObject" rights="RMDAP"/>
+        <rule content="/Themes" type="CMTemplateSet" rights="RMDAP"/>
+        <rule content="/Themes" type="Folder_" rights="RMDAP"/>
+        <rule content="/Sites" type="CMObject" rights="RMDAPS"/>
+        <rule content="/Sites" type="Folder_" rights="RMDAPS"/>
+        <!-- TODO: rights for specific Themes subfolders? -->
+        <members>
+          <user id="rick" name="Rick" home="/Home/Rick"/>
+          <user id="mary" name="Mary" home="/Home/Mary"/>
+        </members>
+      </group>
+      <group id="local-site-manager" name="local-site-manager" contentgroup="true" livegroup="false" administrative="false">
+        <!-- all site manager can read the global themes -->
+        <!-- TODO: rights for specific Themes subfolders? -->
+        <rule content="/Themes" type="CMObject" rights="RMDAP"/>
+        <rule content="/Themes" type="CMTemplateSet" rights="RMDAP"/>
+        <rule content="/Themes" type="Folder_" rights="RMDAP"/>
+        <members>
+          <group name="manager-en-US" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <userref id="rick"/>
+              <user id="peter" name="Peter" home="/Home/Peter"/>
+            </members>
+          </group>
+          <group name="manager-de-DE" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <user id="piet" name="Piet" home="/Home/Piet"/>
+            </members>
+          </group>
+          <group name="manager-en-CA" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <userref id="peter"/>
+            </members>
+          </group>
+          <group name="manager-fr-CA" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <user id="pierre" name="Pierre" home="/Home/Pierre"/>
+            </members>
+          </group>
+          <group name="manager-fr-FR" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <userref id="pierre"/>
+            </members>
+          </group>
+          <group name="manager-es-ES" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <user id="pedro" name="Pedro" home="/Home/Pedro"/>
+            </members>
+          </group>
+          <group name="manager-ja-JP" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <user id="yoshi" name="Yoshi" home="/Home/Yoshi"/>
+            </members>
+          </group>
+          <group name="manager-en-JP" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <userref id="yoshi"/>
+            </members>
+          </group>
+        </members>
+      </group>
+      <group name="online-editor" contentgroup="true" livegroup="false" administrative="false">
+        <members>
+          <group name="online-editor-en-US" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <user id="george" name="George" home="/Home/George"/>
+            </members>
+          </group>
+          <group name="online-editor-de-DE" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <user id="georg" name="Georg" home="/Home/Georg"/>
+            </members>
+          </group>
+        </members>
+      </group>
+      <group name="media-editor" contentgroup="true" livegroup="false" administrative="false">
+        <members>
+          <group name="media-editor-en-US" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <user id="mark" name="Mark" home="/Home/Mark"/>
+            </members>
+          </group>
+          <group name="media-editor-de-DE" contentgroup="true" livegroup="false" administrative="false">
+            <members>
+              <user id="markus" name="Markus" home="/Home/Markus"/>
+            </members>
+          </group>
+        </members>
+      </group>
+    </members>
+  </group>
+
+
+  <group capid="coremedia:///cap/group/0" name="administratoren" contentgroup="true" livegroup="true"
+         administrative="true">
+    <rule content="/" type="Document_" rights="RMDAPS"/>
+    <rule content="/" type="Folder_" rights="RMDAPS"/>
+    <members>
+      <user id="adam" name="Adam" home="/Home/Adam"/>
+      <user id="teresa" name="Teresa" home="/Home/Teresa"/>
+    </members>
+  </group>
+  <group name="developer" contentgroup="true" livegroup="false" id="developer">
+    <rule content="/" type="Document_" rights="RMDAP"/>
+    <rule content="/" type="Folder_" rights="RMDAP"/>
+    <members>
+      <user id="dave" name="Dave" home="/Home/Dave"/>
+    </members>
+  </group>
+
+  <group name="translation-manager-role" contentgroup="true" livegroup="false" administrative="false">
+    <members>
+      <groupref id="local-site-manager"/>
+      <groupref id="global-site-manager"/>
+    </members>
+  </group>
+  <group name="composer-role" contentgroup="true" livegroup="false" administrative="false">
+    <members>
+      <groupref id="staff"/>
+      <groupref id="developer"/>
+    </members>
+  </group>
+  <group name="approver-role" contentgroup="true" livegroup="false" administrative="false">
+    <members>
+      <groupref id="local-site-manager"/>
+      <groupref id="global-site-manager"/>
+      <groupref id="developer"/>
+    </members>
+  </group>
+  <group name="publisher-role" contentgroup="true" livegroup="false" administrative="false">
+    <members>
+      <groupref id="local-site-manager"/>
+      <groupref id="global-site-manager"/>
+      <groupref id="developer"/>
+    </members>
+  </group>
+
+  <group name="translation-workflow-robots" contentgroup="true" livegroup="false" administrative="false">
+    <rule content="/" type="Document_" rights="R"/>
+    <rule content="/" type="Folder_" rights="R"/>
+    <rule content="/Sites" type="Document_" rights="RMD"/>
+    <rule content="/Sites" type="Folder_" rights="RMD"/>
+    <members>
+      <user id="translation-workflow-robot" name="translation-workflow-robot"/>
+    </members>
+  </group>
+</repository>

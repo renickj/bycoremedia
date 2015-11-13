@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Magazine Pictures/Magazine Fall Pictures/Autumn Dishes" name="Hot Chocolate Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=471;y=0;width=1105;height=1717</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=384;y=0;width=1283;height=1717</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=166;y=0;width=1715;height=1717</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=91;width=2048;height=1539</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=282;width=2048;height=1154</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=345;width=2048;height=1027</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=147;width=2048;height=821</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=476;width=2048;height=769</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=603;width=2048;height=512</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.23017408123791103;y1=0;x2=0.769825918762089;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.18762088974854932;y1=0;x2=0.8143133462282398;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.08123791102514506;y1=0;x2=0.9187620889748549;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0.053117782909930716;x2=1;y2=0.9491916859122402</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.16397228637413394;x2=1;y2=0.836027713625866</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.20092378752886836;x2=1;y2=0.7990762124711316</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.08545034642032333;x2=1;y2=0.5635103926096998</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.27713625866050806;x2=1;y2=0.7251732101616628</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.3510392609699769;x2=1;y2=0.648960739030023</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">true</StringProperty>
+<StringProperty Name="portrait_ratio3x4">true</StringProperty>
+<StringProperty Name="portrait_ratio1x1">true</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">true</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Hot Chocolate</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Hot Chocolate</alt>
+<copyright>Carla Nichiata/Shutterstock 148964981</copyright>
+<data href="Hot%20Chocolate%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+<width>2048</width>
+<height>1717</height>
+</CMPicture>

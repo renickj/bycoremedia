@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/FAQ" name="FAQ: Support Hotline" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Support%20Hotline.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Support%20Hotline"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>support-hotline</segment>
+<title>Wie kann ich mich an die Support-Hotline wenden?</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Sie erreichen unsere Support-Hotline 24/7.<br/></p><p>Telefon: <a xlink:href="http://tel:+49403255870" xlink:show="replace" xlink:type="simple">+49.40.325587.0</a></p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Sie erreichen unsere Support-Hotline rund um die Uhr unter<br/>Telefon: <a xlink:href="http://tel:+49403255870" xlink:show="replace" xlink:type="simple">+49.40.325587.0</a></p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall Recipes/Starters" name="Pumpkin Cream Soup Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Pumpkin%20Cream%20Soup%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Pumpkin%20Cream%20Soup%20Recipe%20Article"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Kürbiscremesuppe</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Pumpkin.xml" path="/Settings/Taxonomies/Subject/Pumpkin"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spicy.xml" path="/Settings/Taxonomies/Subject/Spicy"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Ginger.xml" path="/Settings/Taxonomies/Subject/Ginger"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cream.xml" path="/Settings/Taxonomies/Subject/Cream"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Kürbissuppe</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Herbst und Winter sind die perfekten Jahreszeiten für einen herzhafte, wärmende Kürbissuppe.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Einführung</p><p>Herbst und Winter sind die perfekten Jahreszeiten für einen herzhafte, wärmende Kürbissuppe. Wir zeigen Ihnen, wie einfach es ist eine köstliche Kürbiscremesuppe vorzubereiten. Sie können auch Ingwer hinzufügen, um den Geschmack zu verfeinern.</p><p class="p--heading-2">Zutaten</p><ul><li>500g geputztes Kürbisfleisch</li><li>125ml süße Sahne</li><li>40g eiskalte Butter</li><li>1 El Tomatenmark</li><li>2 El Zucker</li></ul><p><br/></p><p class="p--heading-2">Zubereitung</p><ul><li>Kürbisfleisch putzen und abwaschen</li><li><a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Videos/How-To/How%20to%20prep%20butternut%20squash%20Video.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Videos/How-To/How%20to%20prep%20butternut%20squash%20Video">Kürbis in kleine Stücke schneiden</a></li><li>Zucker leicht karamelisieren</li><li>Kürbisstücke mit ein wenig Butter dazugeben und anschwitzen</li><li>Tomatenmark dazugeben</li><li>20 Minuten bei niedriger Hitze garen</li><li>Sahne dazugeben</li><li>Mit Salz, Pfeffer und Zucker evtl. einem Teelöffel Essig abschmecken</li></ul><p class="p--heading-2">Serviervorschlag</p><p>Die Kürbis-Suppe nach Belieben mit Kürbiskern-Öl, gerösteten Kürbiskernen oder Sahne dekorieren.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Pumpkin%20Soup%2001%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Pumpkin%20Soup%2001%20Picture"/>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Pumpkin%20Soup%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Pumpkin%20Soup%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../../Videos/How-To/How%20to%20prep%20butternut%20squash%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/How-To/How%20to%20prep%20butternut%20squash%20Video"/>
+<link href="../../../../../Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Video"/>
+<link href="../../../../../Navigation/Categories/05_Recipes/Fall%20Recipes/Starters/Starters%20Fall%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Fall%20Recipes/Starters/Starters%20Fall%20Teaser"/>
+</related>
+</CMArticle>

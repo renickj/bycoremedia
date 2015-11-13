@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tomcat-users>
+  <% @credentials.keys.sort.each do |key| -%>
+    <user username="<%= @credentials[key]["username"] %>" password="<%= @credentials[key]["password"] %>" roles="<%= @credentials[key]["roles"] %>"/>
+  <% end -%>
+</tomcat-users>

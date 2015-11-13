@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMPlaceholder" name="social-sharing-bar" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMPlaceholder/social-sharing-bar.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMPlaceholder/social-sharing-bar"/>
+</master>
+<masterVersion>3</masterVersion>
+<description>Social Sharing Bar</description>
+<icon href="social-sharing-bar.icon.png" mimetype="image/png"/>
+<layout>social-sharing-bar</layout>
+</CMViewtype>

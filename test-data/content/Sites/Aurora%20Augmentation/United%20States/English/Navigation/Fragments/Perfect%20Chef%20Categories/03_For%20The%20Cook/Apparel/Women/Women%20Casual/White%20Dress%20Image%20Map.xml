@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMImageMap folder="/Sites/Aurora Augmentation/United States/English/Navigation/Fragments/Perfect Chef Categories/03_For The Cook/Apparel/Women/Women Casual" name="White Dress Image Map" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="overlay">
+<Struct>
+<BooleanProperty Name="displayTitle">true</BooleanProperty>
+<BooleanProperty Name="displayDefaultPrice">false</BooleanProperty>
+<BooleanProperty Name="displayDiscountedPrice">true</BooleanProperty>
+<BooleanProperty Name="displayShortText">false</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructListProperty Name="image-map">
+<Struct>
+<StringProperty Name="id">map-area-0</StringProperty>
+<StringProperty Name="coords">1025,839,1347,966</StringProperty>
+<StringProperty Name="alt"/>
+<StringProperty Name="rotation"/>
+<StringProperty Name="shape">rect</StringProperty>
+<StringProperty Name="target">_blank</StringProperty>
+<BooleanProperty Name="displayAsInlineOverlay">true</BooleanProperty>
+<StringProperty Name="inlineOverlayTheme">light-on-dark</StringProperty>
+<LinkProperty Name="linkedContent" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/Summer%20Dress%20Product%20Teaser%20-%20white.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Women/Women%20Casual/Summer%20Dress%20Product%20Teaser%20-%20white"/>
+</Struct>
+</StructListProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>White</teaserTitle>
+<pictures>
+<link href="../../../../../../../Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Summer%20Dresses/Young%20beautiful%20girl%20in%20the%20field%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Summer%20Dresses/Young%20beautiful%20girl%20in%20the%20field%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Summer%20Dress%20Product%20Teaser%20-%20white.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Fragments/Perfect%20Chef%20Categories/03_For%20The%20Cook/Apparel/Women/Women%20Casual/Summer%20Dress%20Product%20Teaser%20-%20white"/>
+</target>
+</CMImageMap>

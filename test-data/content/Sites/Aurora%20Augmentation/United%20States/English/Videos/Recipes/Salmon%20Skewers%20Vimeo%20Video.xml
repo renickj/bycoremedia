@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/Recipes" name="Salmon Skewers Vimeo Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Salmon Skewers</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Fish%20and%20Seafood.xml" path="/Settings/Taxonomies/Subject/Fish%20and%20Seafood"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Lemon.xml" path="/Settings/Taxonomies/Subject/Lemon"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Outdoor.xml" path="/Settings/Taxonomies/Subject/Outdoor"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+<link href="Salmon%20Skewers%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Salmon%20Skewers%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Salmon Skewers (1)</alt>
+<copyright></copyright>
+<dataUrl>//player.vimeo.com/video/70212437</dataUrl>
+</CMVideo>

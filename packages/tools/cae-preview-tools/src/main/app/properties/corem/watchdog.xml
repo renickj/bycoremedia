@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE Watchdog SYSTEM "classpath:xml/coremedia-watchdog.dtd">
+
+<Watchdog>
+
+  <!-- Probe a Preview CAE -->
+  <Component name="ProbeCae" startAction="cae-check">
+    <!-- will return 0 only if statuscode is HttpURLConnection.HTTP_OK -->
+    <Http name="cae-check" url="http://@STUDIO_HOST@:@STUDIO_HTTP_PORT@/blueprint" timeout="10"/>
+  </Component>
+
+  <!-- Probe the Studio -->
+  <Component name="ProbeStudio" startAction="studio-check">
+    <!-- will return 0 only if statuscode is HttpURLConnection.HTTP_OK -->
+    <Http name="studio-check" url="http://@STUDIO_HOST@:@STUDIO_HTTP_PORT@/studio" timeout="10"/>
+  </Component>
+</Watchdog>

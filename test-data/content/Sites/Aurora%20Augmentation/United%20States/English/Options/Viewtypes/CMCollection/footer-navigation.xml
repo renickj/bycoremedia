@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/Aurora Augmentation/United States/English/Options/Viewtypes/CMCollection" name="footer-navigation" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>Displays collection as footer navigation</description>
+<icon href="footer-navigation.icon.png" mimetype="image/png"/>
+<layout>footer-navigation</layout>
+</CMViewtype>

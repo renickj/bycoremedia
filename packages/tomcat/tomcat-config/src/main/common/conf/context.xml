@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<!-- The contents of this file will be loaded for each web application -->
+<Context sessionCookieName="CM_SESSIONID" useHttpOnly="false">
+
+    <!-- Default set of monitored resources -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+    <Environment name="coremedia/logging/directory" value="@APPLICATION_LOG_DIR@" type="java.lang.String" override="true"/>
+
+    <ResourceLink name="ORB" global="ORB" type="org.omg.CORBA.ORB"/>
+    <Environment name="coremedia/application/com.coremedia.orb.jndiName" value="java:comp/env/ORB"
+                 type="java.lang.String" override="true"/>
+
+    <!--
+     | This listener shuts down the server, if a context fails. This is necessary for the
+     | OS service to reflect the status of the webapps and not the servlet-container.
+     -->
+    <Listener className="com.coremedia.tomcat.FailedContextShutdownServerListener"/>
+
+</Context>

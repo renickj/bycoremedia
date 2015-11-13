@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/06_Magazine Spring/Season Special: Salads" name="Spring Salads Article Page Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Navigation/Categories/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Page%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Page%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Frühlingssalate</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Der Frühling bringt eine reiche Auswahl an Früchten und Gemüse in allen Farben des Regenbogens.</p></div></teaserText>
+<pictures>
+<link href="../../../../Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Friends%20enjoying%20a%20spring%20salad%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Friends%20enjoying%20a%20spring%20salad%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Spring%20Salads%20Article%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/06_Magazine%20Spring/Season%20Special%3A%20Salads/Spring%20Salads%20Article%20Page"/>
+</target>
+</CMTeaser>

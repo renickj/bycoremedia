@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Settings/Options/Settings" name="UploadSettings" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StringProperty Name="defaultFolder">Editorial</StringProperty>
+<StringProperty Name="defaultContentType">CMDownload</StringProperty>
+<StringProperty Name="defaultBlobPropertyName">data</StringProperty>
+<IntProperty Name="timeout">300000</IntProperty>
+<StringListProperty Name="mimeTypes">
+<String>application/octet-stream</String>
+<String>text/html</String>
+<String>application/postscript</String>
+<String>audio/aiff</String>
+<String>application/mime</String>
+<String>application/arj</String>
+<String>text/asp</String>
+<String>video/avi</String>
+<String>video/msvideo</String>
+<String>video/avs-video</String>
+<String>image/bmp</String>
+<String>application/book</String>
+<String>text/plain</String>
+<String>application/cdf</String>
+<String>application/java</String>
+<String>application/java-byte-code</String>
+<String>text/css</String>
+<String>application/msword</String>
+<String>application/commonground</String>
+<String>application/drafting</String>
+<String>application/acad</String>
+<String>image/vnddwg</String>
+<String>application/dxf</String>
+<String>application/freeloader</String>
+<String>image/g3fax</String>
+<String>image/gif</String>
+<String>video/gl</String>
+<String>application/hta</String>
+<String>text/webviewhtml</String>
+<String>image/ief</String>
+<String>image/jpeg</String>
+<String>image/pjpeg</String>
+<String>application/javascript</String>
+<String>application/ecmascript</String>
+<String>text/javascript</String>
+<String>text/ecmascript</String>
+<String>audio/midi</String>
+<String>audio/nspaudio</String>
+<String>video/mpeg</String>
+<String>audio/mpeg</String>
+<String>image/vasa</String>
+<String>text/mcf</String>
+<String>www/mime</String>
+<String>application/base64</String>
+<String>video/quicktime</String>
+<String>audio/mpeg3</String>
+<String>text/pascal</String>
+<String>application/pdf</String>
+<String>image/pict</String>
+<String>image/x-icon</String>
+<String>image/png</String>
+<String>application/mspowerpoint</String>
+<String>application/vndms-powerpoint</String>
+<String>application/powerpoint</String>
+<String>audio/vndqcelp</String>
+<String>application/vndrn-realmedia</String>
+<String>audio/mid</String>
+<String>application/ringing-tones</String>
+<String>text/richtext</String>
+<String>application/rtf</String>
+<String>audio/s3m</String>
+<String>application/sdp</String>
+<String>application/sounder</String>
+<String>application/sea</String>
+<String>application/set</String>
+<String>text/sgml</String>
+<String>application/smil</String>
+<String>application/solids</String>
+<String>application/plain</String>
+<String>application/gnutar</String>
+<String>image/tiff</String>
+<String>application/dsptype</String>
+<String>audio/tsplayer</String>
+<String>text/tab-separated-values</String>
+<String>text/uri-list</String>
+<String>application/vda</String>
+<String>video/vdo</String>
+<String>model/vrml</String>
+<String>audio/wav</String>
+<String>image/vndwapwbmp</String>
+<String>application/wordperfect</String>
+<String>application/mswrite</String>
+<String>application/x-wri</String>
+<String>text/scriplet</String>
+<String>image/xbm</String>
+<String>image/vndxiff</String>
+<String>application/excel</String>
+<String>application/x-msexcel</String>
+<String>audio/xm</String>
+<String>application/xml</String>
+<String>text/xml</String>
+<String>xgl/movie</String>
+<String>image/xpm</String>
+<String>application/zip</String>
+</StringListProperty>
+<StructProperty Name="mimeTypeMappings">
+<Struct>
+<StringProperty Name="image">CMPicture</StringProperty>
+<StringProperty Name="application">CMDownload</StringProperty>
+<StringProperty Name="audio">CMAudio</StringProperty>
+<StringProperty Name="video">CMVideo</StringProperty>
+<StringProperty Name="text">CMDownload</StringProperty>
+<StringProperty Name="text/css">CMCSS</StringProperty>
+<StringProperty Name="text/javascript">CMJavaScript</StringProperty>
+<StringProperty Name="text/html">CMHTML</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="mimeTypeToMarkupPropertyMappings">
+<Struct>
+<StringProperty Name="text/css">code</StringProperty>
+<StringProperty Name="text/javascript">code</StringProperty>
+<StringProperty Name="text/html">data</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

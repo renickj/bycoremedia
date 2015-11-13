@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Pictures/Product Pictures/01_On The Table/Outdoor" name="PC_PICNIC_BASKET Frontshot 1" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">flip;d=h/b;a=0;c=1/crop;x=623;y=0;width=880;height=1365</StringProperty>
+<StringProperty Name="portrait_ratio3x4">flip;d=h/b;a=0;c=1/crop;x=584;y=0;width=1022;height=1365</StringProperty>
+<StringProperty Name="portrait_ratio1x1">flip;d=h/b;a=0;c=1/crop;x=580;y=0;width=1365;height=1365</StringProperty>
+<StringProperty Name="landscape_ratio4x3">flip;d=h/b;a=0;c=1/crop;x=114;y=0;width=1819;height=1365</StringProperty>
+<StringProperty Name="landscape_ratio16x9">flip;d=h/b;a=0;c=1/crop;x=0;y=107;width=2048;height=1152</StringProperty>
+<StringProperty Name="landscape_ratio2x1">flip;d=h/b;a=0;c=1/crop;x=0;y=170;width=2048;height=1026</StringProperty>
+<StringProperty Name="landscape_ratio5x2">flip;d=h/b;a=0;c=1/crop;x=0;y=272;width=2048;height=821</StringProperty>
+<StringProperty Name="landscape_ratio8x3">flip;d=h/b;a=0;c=1/crop;x=0;y=300;width=2048;height=769</StringProperty>
+<StringProperty Name="landscape_ratio4x1">flip;d=h/b;a=0;c=1/crop;x=0;y=287;width=2048;height=513</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.3044315992292871;y1=0;x2=0.7341040462427746;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.28516377649325625;y1=0;x2=0.7842003853564548;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.2832369942196532;y1=0;x2=0.9499036608863198;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.055876685934489405;y1=0;x2=0.9441233140655106;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.07803468208092486;x2=1;y2=0.9219653179190751</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.12427745664739884;x2=1;y2=0.8757225433526011</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.1994219653179191;x2=1;y2=0.8005780346820809</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.21965317919075145;x2=1;y2=0.7832369942196532</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.2099125364431487;x2=1;y2=0.5860058309037901</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">true</StringProperty>
+<StringProperty Name="landscape_ratio5x2">true</StringProperty>
+<StringProperty Name="landscape_ratio8x3">true</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">true</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_PICNIC_BASKET</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Picnic Basket</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Outdoor.xml" path="/Settings/Taxonomies/Subject/Outdoor"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Picnic Basket</alt>
+<copyright>FikMik/Shutterstock 112420055</copyright>
+<data href="PC_PICNIC_BASKET%20Frontshot%201.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Categories/03_For The Cook" name="Cook Book Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Koch Bücher &amp; Zeitschriften</teaserTitle>
+<pictures>
+<link href="../../../../../PerfectChef/Germany/German/Pictures/Product%20Pictures/03_For%20The%20Cook/Literature/Magazines/PC_FASHION_MAG_2.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/03_For%20The%20Cook/Literature/Magazines/PC_FASHION_MAG_2"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Literature/Literature%20External%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/03_For%20The%20Cook/Literature/Literature%20External%20Page"/>
+</target>
+</CMTeaser>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/Campaigns/Spring Dresses Campaign" name="White Summer Dress Video 16:9" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>White Summer Dress</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Enjoy</teaserTitle>
+<pictures>
+<link href="White%20Summer%20Dress%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>White Summer Dress</alt>
+<copyright>Mamba100/Shutterstock 5292356</copyright>
+<data href="White%20Summer%20Dress%20Video%2016%3A9.data.mp4" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

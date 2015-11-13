@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTemplateSet folder="/Themes/cutomer/templates" name="customer-templates.jar" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<description></description>
+<archive href="customer-templates%2Ejar.archive.java-archive" mimetype="application/java-archive"/>
+</CMTemplateSet>

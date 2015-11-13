@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/Aurora Augmentation/United States/English/Options/Viewtypes/CMCollection" name="business-2-rows-3-elems" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>The business wants this</description>
+<icon href="business-2-rows-3-elems.icon.png" mimetype="image/png"/>
+<layout>2-rows-3-elems</layout>
+</CMViewtype>

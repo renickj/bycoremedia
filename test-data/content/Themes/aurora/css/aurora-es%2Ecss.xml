@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCSS folder="/Themes/aurora/css" name="aurora-es.css" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/* =====================================================================================================================</p><p>   Layout for AAS with Elastic Social functionality</p><p>   Contains styling rules used for Elastic Social integration in Aurora shop (WCS FEP7)</p><p>   ================================================================================================================== */</p><p>/* if review widget is rendered in slot 8 of pdp page, add margins */</p><p>.product_pageDesign_pageGroup [data-slot-id="8"] .cm-reviews {</p><p>  margin-top: 50px;</p><p>  margin-bottom: 50px;</p><p>}</p><p>.cm-reviews .cm-heading3 {</p><p>  color: #767676;</p><p>  font-size: 17px</p><p>  font-weight: bold;</p><p>  margin-bottom: 10px;</p><p>}</p><p>/* buttons in aurora style */</p><p>.cm-reviews .cm-button {</p><p>  display: inline-block;</p><p>  background-image: -webkit-gradient(linear, left top, left bottom, from(#FBBB0B), to(#EE9505));</p><p>  background-image: linear-gradient(#FBBB0B, #EE9505);</p><p>  -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FBBB0B', endColorStr='#EE9505')";</p><p>  border-radius: 4px;</p><p>  min-width: 200px;</p><p>  max-width: 100%;</p><p>  line-height: 29px;</p><p>  min-height: 29px;</p><p>  text-align: center;</p><p>  border: 1px solid #BFBFBF;</p><p>  color: #333333;</p><p>  font-size: 14px;</p><p>  cursor: pointer;</p><p>}</p><p>.cm-reviews .cm-button:hover {</p><p>  background-image: -webkit-gradient(linear, left top, left bottom, from(#FED60C), to(#F8AF06));</p><p>  background-image: linear-gradient(#FED60C, #F8AF06)</p><p>-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FED60C', endColorStr='#F8AF06')";</p><p>}</p><p>.cm-reviews .cm-button:hover .cm-button__text {</p><p>  text-decoration: underline;</p><p>}</p><p>.cm-reviews .cm-button--disabled {</p><p>  background: #919191 none;</p><p>  color: #dbdbdb;</p><p>  cursor: default;</p><p>}</p><p>.cm-reviews .cm-button--disabled:hover {</p><p>  background: #919191 none;</p><p>}</p><p>.cm-reviews .cm-button--disabled:hover .cm-button__text {</p><p>  text-decoration: none;</p><p>}</p></div></code>
+<ieExpression></ieExpression>
+<include>
+</include>
+<dataUrl></dataUrl>
+<media></media>
+</CMCSS>

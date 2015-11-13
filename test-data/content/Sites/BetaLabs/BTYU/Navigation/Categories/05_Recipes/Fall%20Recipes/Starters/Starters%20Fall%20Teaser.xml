@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Categories/05_Recipes/Fall Recipes/Starters" name="Starters Fall Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Herbstvorspeisen</teaserTitle>
+<pictures>
+<link href="../../../../../../../PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Pumpkin%20Salad%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Pumpkin%20Salad%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Starters%20Fall%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/05_Recipes/Fall%20Recipes/Starters/Starters%20Fall%20Page"/>
+</target>
+</CMTeaser>

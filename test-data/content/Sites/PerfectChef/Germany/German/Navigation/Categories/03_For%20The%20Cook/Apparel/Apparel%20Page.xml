@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMChannel folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For The Cook/Apparel" name="Apparel Page" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Navigation/Categories/03_For%20The%20Cook/Apparel/Apparel%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/03_For%20The%20Cook/Apparel/Apparel%20Page"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords>Kleid, Kleidung, Mode, Mode</keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>kleidung</segment>
+<title>Kleidung</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Apparel.xml" path="/Settings/Taxonomies/Subject/Apparel"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+<link href="Casual/Casual.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For%20The%20Cook/Apparel/Casual/Casual"/>
+<link href="Elegant/Elegant%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For%20The%20Cook/Apparel/Elegant/Elegant%20Page"/>
+<link href="../../../Landing%20Pages/Spring/Spring%20Summer%20Dresses%20Hidden%20Landing%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Landing%20Pages/Spring/Spring%20Summer%20Dresses%20Hidden%20Landing%20Page"/>
+<link href="../../../Landing%20Pages/Fall/Fall%20Evening%20Dresses%20Hidden%20Landing%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Landing%20Pages/Fall/Fall%20Evening%20Dresses%20Hidden%20Landing%20Page"/>
+</children>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<LinkProperty Name="layout" LinkType="coremedia:///cap/contenttype/Document_" xlink:href="coremedia:///cap/resources/../../../../Options/Settings/Pagegrid/Layouts/PagegridNavigation.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Layouts/PagegridNavigation"/>
+<StructProperty Name="placements">
+<Struct>
+<StructProperty Name="648">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../../Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/main"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/Apparel%20Hero%20Banner%20Collection.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For%20The%20Cook/Apparel/Apparel%20Hero%20Banner%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/Apparel%20Main%20Collection.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Categories/03_For%20The%20Cook/Apparel/Apparel%20Main%20Collection"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+</CMChannel>

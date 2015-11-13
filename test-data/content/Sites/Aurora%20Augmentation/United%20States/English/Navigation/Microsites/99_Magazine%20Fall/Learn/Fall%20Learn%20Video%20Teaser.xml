@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Microsites/99_Magazine Fall/Learn" name="Fall Learn Video Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Watch: Our best Fall Recipes</teaserTitle>
+<pictures>
+<link href="../../../../Videos/How-To/How%20to%20prep%20butternut%20squash%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/How-To/How%20to%20prep%20butternut%20squash%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Fall%20Learn%20Video%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/99_Magazine%20Fall/Learn/Fall%20Learn%20Video%20Page"/>
+</target>
+</CMTeaser>

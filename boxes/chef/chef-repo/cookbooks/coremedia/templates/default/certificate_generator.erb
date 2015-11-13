@@ -1,0 +1,13 @@
+#!/bin/sh
+umask 077
+
+answers() {
+<% @credentials.each do |credential| -%>
+  echo <%= credential %>
+<% end -%>
+}
+
+rm -rf <%= @private_key %>
+rm -rf <%= @certificate %>
+
+answers | /usr/bin/openssl req -newkey rsa:2048 -keyout <%= @private_key %> -nodes -x509 -days 365 -out <%= @certificate %>

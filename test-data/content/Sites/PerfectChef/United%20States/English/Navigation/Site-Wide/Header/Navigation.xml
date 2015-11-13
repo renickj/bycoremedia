@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPlaceholder folder="/Sites/PerfectChef/United States/English/Navigation/Site-Wide/Header" name="Navigation" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMPlaceholder/navigation.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMPlaceholder/navigation"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>The placeholder for the navigation</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Navigation Placeholder</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<id>navigation</id>
+</CMPlaceholder>

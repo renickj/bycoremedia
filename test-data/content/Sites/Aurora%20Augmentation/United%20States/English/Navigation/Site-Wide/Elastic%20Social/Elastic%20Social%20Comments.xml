@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPlaceholder folder="/Sites/Aurora Augmentation/United States/English/Navigation/Site-Wide/Elastic Social" name="Elastic Social Comments" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Elastic Social comments are rendered by this placeholder</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Elastic Social comments placeholder</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<id>es-comments-placeholder</id>
+</CMPlaceholder>

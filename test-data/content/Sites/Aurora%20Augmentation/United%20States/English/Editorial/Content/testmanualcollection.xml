@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content" name="testmanualcollection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../Options/Viewtypes/CMCollection/business-2-rows-3-elems.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/business-2-rows-3-elems"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>New content item (1)</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Literature/Cookbooks/PC_COOKBOOK_2.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Literature/Cookbooks/PC_COOKBOOK_2"/>
+<link href="../../Videos/Recipes/Burgers%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Burgers%20Picture"/>
+<link href="../../Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Her/PC_EVENING_DRESS%20gold%20Actionshot.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Teaser%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Her/PC_EVENING_DRESS%20gold%20Actionshot"/>
+</items>
+</CMCollection>

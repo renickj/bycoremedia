@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes" name="Share your best recipes with us!" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/Recipes/Share%20your%20best%20recipes%20with%20us%21.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Share%20your%20best%20recipes%20with%20us%21"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords>Rezept,Rezepte,Gewinnspiel,Wettbewerb,Gutschein,Einkaufsgutschein</keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="elasticSocial">
+<Struct>
+<StringProperty Name="commentType">REGISTERED</StringProperty>
+<StringProperty Name="reviewType">DISABLED</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment>teilen-sie-ihre-besten-rezepte-mit-uns</segment>
+<title>Teilen Sie Ihre besten Rezepte mit uns!</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Ihre besten Rezepte</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Bei Perfect-Chef.de sind wir immer auf der Suche nach Ihren besten Rezepten. Teilen Sie jetzt Ihr Lieblingsrezept mit uns und gewinnen Sie jeden Monat Einkaufsgutscheine!</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Gewinnen Sie Gutscheine<br/></p><p>Hier ist Ihre Chance um jeden Monat Perfect-Chef.de Einkaufsgutscheine  zu gewinnen.</p><p>Teilen Sie Ihr Lieblingsrezept mit einem Foto Ihrer kulinarischen Kreation mit uns.<br/></p><p>Beweisen Sie der Perfect Chef Community, dass Sie der "Perfect Chef" - der perfekte Koch - sind!</p><p><br/></p><p class="p--heading-2">Abstimmung</p><p>Unsere Jury stimmt für die besten Rezepte und wir präsentieren die Gewinner jeden Monat in der Rezept-Bereich unserer Website.</p><p>Natürlich können Sie auch Ihre Kommentare abgeben und Ihre Lieblingsrezepte bewerten.<br/></p><p>Bitte beachten Sie, dass wir Rezepte erst auf unserer Website veröffentlichen, sobald sie von unseren Moderatoren überprüft wurden.</p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Recipes/Share%20Your%20Best%20Recipes%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Share%20Your%20Best%20Recipes%20Picture"/>
+</pictures>
+<related>
+<link href="Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article"/>
+<link href="Fall%20Recipes/Desserts/Black%20Bean%20Brownies%20Recipe%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Black%20Bean%20Brownies%20Recipe%20Article"/>
+</related>
+</CMArticle>

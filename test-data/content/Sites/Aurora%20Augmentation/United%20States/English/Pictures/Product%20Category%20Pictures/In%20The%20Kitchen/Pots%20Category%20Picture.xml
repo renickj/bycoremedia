@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/Aurora Augmentation/United States/English/Pictures/Product Category Pictures/In The Kitchen" name="Pots Category Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">flip;d=h/b;a=0;c=1/crop;x=679;y=0;width=864;height=1338</StringProperty>
+<StringProperty Name="portrait_ratio3x4">flip;d=h/b;a=0;c=1/crop;x=675;y=0;width=1002;height=1338</StringProperty>
+<StringProperty Name="portrait_ratio1x1">flip;d=h/b;a=0;c=1/crop;x=675;y=0;width=1338;height=1338</StringProperty>
+<StringProperty Name="landscape_ratio4x3">flip;d=h/b;a=0;c=1/crop;x=264;y=0;width=1784;height=1338</StringProperty>
+<StringProperty Name="landscape_ratio16x9">flip;d=h/b;a=0;c=1/crop;x=79;y=138;width=1847;height=1038</StringProperty>
+<StringProperty Name="landscape_ratio2x1">flip;d=h/b;a=0;c=1/crop;x=83;y=162;width=1902;height=951</StringProperty>
+<StringProperty Name="landscape_ratio5x2">flip;d=h/b;a=0;c=1/crop;x=75;y=343;width=1914;height=766</StringProperty>
+<StringProperty Name="landscape_ratio8x3">flip;d=h/b;a=0;c=1/crop;x=51;y=391;width=1926;height=722</StringProperty>
+<StringProperty Name="landscape_ratio4x1">flip;d=h/b;a=0;c=1/crop;x=209;y=379;width=1756;height=438</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.33140655105973027;y1=0;x2=0.7533718689788054;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.32947976878612717;y1=0;x2=0.8188824662813102;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.32947976878612717;y1=0;x2=0.9826589595375722;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.12909441233140656;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.038535645472061654;y1=0.10324483775811209;x2=0.9402697495183044;y2=0.8790560471976401</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.04046242774566474;y1=0.12094395280235988;x2=0.9691714836223507;y2=0.831858407079646</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.036608863198458574;y1=0.25663716814159293;x2=0.9710982658959537;y2=0.8289085545722714</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.025048169556840076;y1=0.2920353982300885;x2=0.9653179190751445;y2=0.831858407079646</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.10211946050096339;y1=0.2831858407079646;x2=0.9595375722543352;y2=0.6106194690265486</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">true</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Pots</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Pots</alt>
+<copyright>Subbotina Anna/Shutterstock 80571715</copyright>
+<data href="Pots%20Category%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

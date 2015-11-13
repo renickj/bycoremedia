@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/Germany/German/Navigation/Startpage" name="Spring Hero Banner Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Navigation/Startpage/Spring%20Hero%20Banner%20Collection.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Startpage/Spring%20Hero%20Banner%20Collection"/>
+</master>
+<masterVersion>5</masterVersion>
+<keywords></keywords>
+<viewtype>
+<link href="../../Options/Viewtypes/CMCollection/slideshow.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/slideshow"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Frühling Held Banner-Sammlung</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Die Hero Banner-Collection zeigt die wichtigesten "Hero" Inhalte in einer Slideshow (wenn es mehr als ein Element gibt).</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Die Hero Banner-Collection zeigt die wichtigesten "Hero" Inhalte in einer Slideshow (wenn es mehr als ein Element gibt).</p><p>Jeder Inhalt - wie Teaser, Imagemaps, Artikel oder Produkte - kann hier platziert werden.</p><p/><p>Die Bildformate für die Bildausschnitte varrieren je nach dem gewählten Ausgabe-Gerät, aber der Hero Banner wird immer einen großen Teil des Bildschirms einnehmen, so dass emotionale Bildsprache gut an die Benutzer präsentiert wird.</p><p/></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Spring%20Picnic%20Image%20Map.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Startpage/Spring%20Picnic%20Image%20Map"/>
+<link href="Spring%20Glasses%20Sale%20Category%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Startpage/Spring%20Glasses%20Sale%20Category%20Teaser"/>
+<link href="Spring%20Summer%20Dresses%20Landing%20Page%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Startpage/Spring%20Summer%20Dresses%20Landing%20Page%20Teaser"/>
+<link href="../Categories/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Page%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Page%20Teaser"/>
+</items>
+</CMCollection>

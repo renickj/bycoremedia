@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Settings/Options/Bundles" name="Bundle_en" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StringProperty Name="home">Home</StringProperty>
+<StringProperty Name="breadcrumbs.label">You are here:</StringProperty>
+<StringProperty Name="amount.of.comments">Comments: {0}</StringProperty>
+<StringProperty Name="copyright">© 2015 CoreMedia AG</StringProperty>
+<StringProperty Name="text.more">read more</StringProperty>
+<StringProperty Name="download.now">download now</StringProperty>
+<StringProperty Name="meta.author">CoreMedia AG</StringProperty>
+<StringProperty Name="comments.label">Comments</StringProperty>
+<StringProperty Name="map.label">Map</StringProperty>
+<StringProperty Name="related.label">Related</StringProperty>
+<StringProperty Name="download.label">Downloads</StringProperty>
+<StringProperty Name="tags.label">Tags</StringProperty>
+<StringProperty Name="error.headline">An error occured:</StringProperty>
+<StringProperty Name="error.text">The requested content cannot be displayed.</StringProperty>
+<StringProperty Name="error.invalidContent.headline">Invalid Content:</StringProperty>
+<StringProperty Name="error.invalidContent.text">The content you requested is invalid.</StringProperty>
+<StringProperty Name="error.placement.empty">Placement "{0}" is empty. Please select content for this placement.</StringProperty>
+<StringProperty Name="error.flash.not.available">Flash is not available.</StringProperty>
+<StringProperty Name="error.iframe.not.available">Iframes are empty in the Studio-Preview. Open the preview in a separate window.</StringProperty>
+<StringProperty Name="error_iframe_not_available">Iframes are empty in the Studio-Preview. Open the preview in a separate window.</StringProperty>
+<StringProperty Name="error.audio.tag.not.available">Your browser does not support the html5 audio tag.</StringProperty>
+<StringProperty Name="error.video.tag.not.available">Your browser does not support the html5 video tag.</StringProperty>
+<StringProperty Name="gallery.counter.image">Image</StringProperty>
+<StringProperty Name="gallery.counter.of">of</StringProperty>
+<StringProperty Name="map.box.title">Map</StringProperty>
+<StringProperty Name="map.box.description">Location:</StringProperty>
+<StringProperty Name="navigation.sub">Sub-Sections</StringProperty>
+<StringProperty Name="navigation.toggle">Toggle Navigation</StringProperty>
+<StringProperty Name="navigation.more.headlines">More Headlines</StringProperty>
+<StringProperty Name="specs.label">Technical specifiation</StringProperty>
+<StringProperty Name="feature.label">Features</StringProperty>
+<StringProperty Name="login.to.buy">Login first to buy this product</StringProperty>
+<StringProperty Name="order.now">Order now!</StringProperty>
+<StringProperty Name="related.box.title">Related</StringProperty>
+<StringProperty Name="related.box.description">Related {0}</StringProperty>
+<StringProperty Name="search.form.results">Search Results</StringProperty>
+<StringProperty Name="search.form.searchTerm">for {0} ({1} hits)</StringProperty>
+<StringProperty Name="search.results">Search Results for {0}</StringProperty>
+<StringProperty Name="search.searchTerm">{0} search results for {1} found.</StringProperty>
+<StringProperty Name="search.form.button.label">Search again</StringProperty>
+<StringProperty Name="search.spellcheck.hint">Did you mean {0}?</StringProperty>
+<StringProperty Name="search.form.query.label">Query</StringProperty>
+<StringProperty Name="search.form.channel.label">Channel</StringProperty>
+<StringProperty Name="search.form.doctype.label">Type</StringProperty>
+<StringProperty Name="advanced.search">Advanced search</StringProperty>
+<StringProperty Name="search.label">Search</StringProperty>
+<StringProperty Name="search.placeholder">Search...</StringProperty>
+<StringProperty Name="search.error.belowMinQueryLength">Your search term is not long enough. Please enter at least three letters.</StringProperty>
+<StringProperty Name="search.error.noresults">Your search - {0} - did not yield a result.</StringProperty>
+<StringProperty Name="tagcloud.box.title">Tags</StringProperty>
+<StringProperty Name="tagcloud.box.description">Tags:</StringProperty>
+<StringProperty Name="button_top">Top</StringProperty>
+<StringProperty Name="button_read_more">Learn More</StringProperty>
+<StringProperty Name="button_more_info">More Info</StringProperty>
+<StringProperty Name="button_quickinfo">Info</StringProperty>
+<StringProperty Name="button_close">Close</StringProperty>
+<StringProperty Name="button_download">Download</StringProperty>
+<StringProperty Name="Image_teaser">Image as Teaser</StringProperty>
+<StringProperty Name="Image_alt">Image of</StringProperty>
+<StringProperty Name="Image_originalSize">Original Size</StringProperty>
+<StringProperty Name="Image_portrait_ratio20x31">Crop 2:3.1</StringProperty>
+<StringProperty Name="Image_portrait_ratio3x4">Crop 3:4</StringProperty>
+<StringProperty Name="Image_portrait_ratio1x1">Crop 1:1</StringProperty>
+<StringProperty Name="Image_landscape_ratio4x3">Crop 4:3</StringProperty>
+<StringProperty Name="Image_landscape_ratio16x9">Crop 16:9</StringProperty>
+<StringProperty Name="Image_landscape_ratio2x1">Crop 2:1</StringProperty>
+<StringProperty Name="Image_landscape_ratio5x2">Crop 5:2</StringProperty>
+<StringProperty Name="Image_landscape_ratio8x3">Crop 8:3</StringProperty>
+<StringProperty Name="Image_landscape_ratio4x1">Crop 4:1</StringProperty>
+<StringProperty Name="Preview_Label_Default">Default View</StringProperty>
+<StringProperty Name="Preview_Label_Teaser">Teaser</StringProperty>
+<StringProperty Name="Preview_Label_Teaser_Hero">Hero Teaser</StringProperty>
+<StringProperty Name="Preview_Label_Unboxed_In_Placement_Main">Unboxed in placement "main"</StringProperty>
+<StringProperty Name="Preview_Label_Unboxed_In_Placement_Sidebar">Unboxed in placement "sidebar"</StringProperty>
+<StringProperty Name="Preview_Label_Unboxed_In_Collection">Unboxed in tiles layout collection</StringProperty>
+<StringProperty Name="Skiplinks_Content">Skip to Content</StringProperty>
+<StringProperty Name="Skiplinks_Search">Skip to Search</StringProperty>
+<StringProperty Name="Skiplinks_Navigation">Skip to Navigation</StringProperty>
+<StringProperty Name="search_no_suggestions">No suggestions found</StringProperty>
+<StringProperty Name="Share_Label">Share</StringProperty>
+<StringProperty Name="Mailinglist_Label">Join our Mailing List</StringProperty>
+<StringProperty Name="Mailinglist_Placeholder">Your E-Mail-Address</StringProperty>
+<StringProperty Name="FollowUs_Label">Follow Us</StringProperty>
+<StringProperty Name="facebook">Facebook</StringProperty>
+<StringProperty Name="twitter">Twitter</StringProperty>
+<StringProperty Name="pinterest">Pinterest</StringProperty>
+<StringProperty Name="instagram">Instagram</StringProperty>
+<StringProperty Name="Error_NoJavascript">Please enable JavaScript to use this website.</StringProperty>
+<StringProperty Name="next">Next</StringProperty>
+<StringProperty Name="previous">Previous</StringProperty>
+<StringProperty Name="Product_code">Product Code:</StringProperty>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

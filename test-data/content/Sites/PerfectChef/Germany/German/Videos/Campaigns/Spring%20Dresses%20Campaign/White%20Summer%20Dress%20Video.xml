@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Spring Dresses Campaign" name="White Summer Dress Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Video%204%3A3.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Video%204%3A3"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Weißes Sommerkleid</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Entspannen</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Frau in einem weißen Kleid sitzt auf einem Baum am Ufer des Flusses. </p> </div></detailText>
+<pictures>
+<link href="White%20Summer%20Dress%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Spring%20Dresses%20Campaign/White%20Summer%20Dress%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Weißes Sommerkleid</alt>
+<copyright>Mamba100/Shutterstock 5292356</copyright>
+<data href="White%20Summer%20Dress%20Video.data.mp4" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

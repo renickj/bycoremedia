@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/United States/English/Videos/Campaigns/Fall Dresses Campaign" name="Red Cocktail Dress Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Red Cocktail Dress</title>
+<subjectTaxonomy>
+<link href="../../../../../../../Settings/Taxonomies/Subject/Red.xml" path="/Settings/Taxonomies/Subject/Red"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-1.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-1"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-13.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-13"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-19.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-19"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-20.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-20"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-23.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-23"/>
+<link href="../../../../../../../Settings/Taxonomies/Subject/AuroraWMDRS-30.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-30"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Dance</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Dance through the night</p></div></teaserText>
+<pictures>
+<link href="Red%20Cocktail%20Dress%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Campaigns/Fall%20Dresses%20Campaign/Red%20Cocktail%20Dress%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Red Cocktail Dress</alt>
+<copyright>InPost/Shutterstock 5059052</copyright>
+<data href="Red%20Cocktail%20Dress%20Video.data.mp4" mimetype="video/mp4"/>
+<dataUrl></dataUrl>
+</CMVideo>

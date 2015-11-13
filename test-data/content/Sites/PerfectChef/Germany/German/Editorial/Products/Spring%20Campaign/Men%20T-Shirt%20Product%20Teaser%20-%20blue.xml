@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring Campaign" name="Men T-Shirt Product Teaser - blue" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Products/Spring%20Campaign/Men%20T-Shirt%20Product%20Teaser%20-%20blue.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Spring%20Campaign/Men%20T-Shirt%20Product%20Teaser%20-%20blue"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Lässig</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Bunte, lässige T-Shirts sind der Renner der Saison.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Spring/For%20Him/PC_TSHIRT%20blue%20Frontshot%201.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Spring/For%20Him/PC_TSHIRT%20blue%20Frontshot%201"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/sku/PC_TSHIRT-BLUE-L</externalId>
+</CMProductTeaser>

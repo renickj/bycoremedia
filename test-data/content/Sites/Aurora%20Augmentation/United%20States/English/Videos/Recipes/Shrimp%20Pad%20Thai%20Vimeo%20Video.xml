@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/Aurora Augmentation/United States/English/Videos/Recipes" name="Shrimp Pad Thai Vimeo Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-recipe-shrimp-pad-thai</segment>
+<title>Shrimp Pad Thai</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Lime.xml" path="/Settings/Taxonomies/Subject/Lime"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Shrimp.xml" path="/Settings/Taxonomies/Subject/Shrimp"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Peanut.xml" path="/Settings/Taxonomies/Subject/Peanut"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Asia.xml" path="/Settings/Taxonomies/Subject/Asia"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pans.xml" path="/Settings/Taxonomies/Subject/Pans"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Delicious Asian flavors of shrimp, peanut and lime make this noodle dish extra tasty.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Delicious Asian flavors of shrimp, peanut and lime make this noodle dish extra tasty.</p></div></detailText>
+<pictures>
+<link href="Shrimp%20Pad%20Thai%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Shrimp%20Pad%20Thai%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Shrimp Pad Thai</alt>
+<copyright>Copyright: cooksmarts.com/Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/59801811</dataUrl>
+</CMVideo>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/Aurora Augmentation/United States/English/Options/Viewtypes/CMCollection" name="tiles-layout-right" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>Displays a collection in a right focused tiles layout.</description>
+<icon href="tiles-layout-right.icon.png" mimetype="image/png"/>
+<layout>tiles-layout-right</layout>
+</CMViewtype>

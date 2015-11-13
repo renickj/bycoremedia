@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSitemap folder="/Sites/PerfectChef/United States/English/Navigation" name="Sitemap" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Sitemap</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<notSearchable>0</notSearchable>
+<related>
+</related>
+<root>
+<link href="Perfect%20Chef%20USA.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Perfect%20Chef%20USA"/>
+</root>
+</CMSitemap>

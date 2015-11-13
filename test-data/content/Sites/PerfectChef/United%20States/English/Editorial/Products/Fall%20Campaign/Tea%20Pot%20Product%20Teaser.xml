@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/PerfectChef/United States/English/Editorial/Products/Fall Campaign" name="Tea Pot Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Enjoy a Cup</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>This Glass Tea Pot keeps your tea hot.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/01_On%20The%20Table/Plates%2C%20Tableware/PC_TEA_KETTLE%20Actionshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/01_On%20The%20Table/Plates%2C%20Tableware/PC_TEA_KETTLE%20Actionshot"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/product/PC_TEA_POT</externalId>
+</CMProductTeaser>

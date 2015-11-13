@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Fragments/Search Landing Pages" name="Fall Cocktail Dresses Category Main Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Cocktail Kleider</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Entdecken Sie alle unsere eleganten Cocktailkleider</p></div></teaserText>
+<pictures>
+<link href="../../../../../PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/For%20The%20Cook/Apparel/Cocktail%20Dresses%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/For%20The%20Cook/Apparel/Cocktail%20Dresses%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../Categories/03_For%20The%20Cook/Apparel/Elegant/Elegant%20Women/Women%20Elegant%20-%20Cocktail%20Dresses%20External%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/03_For%20The%20Cook/Apparel/Elegant/Elegant%20Women/Women%20Elegant%20-%20Cocktail%20Dresses%20External%20Page"/>
+</target>
+</CMTeaser>

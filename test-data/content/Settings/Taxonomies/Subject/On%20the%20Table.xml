@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="On the Table" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>On the Table</value>
+<children>
+<link href="Glasses.xml" path="/Settings/Taxonomies/Subject/Glasses"/>
+<link href="Decoration.xml" path="/Settings/Taxonomies/Subject/Decoration"/>
+<link href="Outdoor.xml" path="/Settings/Taxonomies/Subject/Outdoor"/>
+<link href="Tableware.xml" path="/Settings/Taxonomies/Subject/Tableware"/>
+<link href="Cutlery.xml" path="/Settings/Taxonomies/Subject/Cutlery"/>
+</children>
+<externalReference>PC_OnTheTable</externalReference>
+</CMTaxonomy>

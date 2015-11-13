@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>packages</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>tools</artifactId>
+  <packaging>pom</packaging>
+
+  <properties>
+    <filters.dir>${project.basedir}/../../src/main/filters</filters.dir>
+  </properties>
+
+  <modules>
+    <module>cms-tools</module>
+    <module>wfs-tools</module>
+    <module>mls-tools</module>
+    <module>rls-tools</module>
+    <module>cae-preview-tools</module>
+    <module>cae-live-tools</module>
+    <module>caefeeder-preview-tools</module>
+    <module>caefeeder-live-tools</module>
+    <module>css-importer</module>
+  </modules>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>package-template</artifactId>
+      <version>${project.version}</version>
+      <classifier>tools</classifier>
+      <type>zip</type>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.coremedia.maven</groupId>
+        <artifactId>coremedia-application-maven-plugin</artifactId>
+        <configuration>
+          <skipRpmArchiving>${skipRpm}</skipRpmArchiving>
+          <skipZipArchiving>${skipZip}</skipZipArchiving>
+          <dependencyFiltering>true</dependencyFiltering>
+          <defaultConfigurationProperties>${filters.dir}/default-deployment.properties</defaultConfigurationProperties>
+          <rpmConfig>
+            <description>
+This rpm packages ${APPLICATION_NAME}, a CoreMedia tool.
+revision: ${buildNumber} - ${maven.build.timestamp}
+To configure the tool you have to define a configuration property file at
+${CONFIGURE_ROOT}/${APPLICATION_NAME}.properties containing:
+${configuration.tokens}
+            </description>
+            <preInstallScript>${project.build.directory}/${project.build.finalName}/INSTALL/preinstall.sh
+            </preInstallScript>
+            <postInstallScript>${project.build.directory}/${project.build.finalName}/INSTALL/postinstall.sh
+            </postInstallScript>
+            <postUninstallScript>${project.build.directory}/${project.build.finalName}/INSTALL/postuninstall.sh
+            </postUninstallScript>
+            <dependencies>
+              <dependency>
+                <packageName>ksh</packageName>
+                <minVersion>${ksh.rpm.version}</minVersion>
+              </dependency>
+            </dependencies>
+            <mappings>
+              <mapping>
+                <includes>bin/**</includes>
+                <excludes>**/*.bat,**/*.exe,**/*.dll</excludes>
+                <filemode>755</filemode>
+              </mapping>
+              <mapping>
+                <includes>classes/**,config/**,lib/**,properties/**,var/**,logs/**</includes>
+              </mapping>
+              <mapping>
+                <filemode>755</filemode>
+                <includes>INSTALL/**/*.sh,reconfigure-tool.sh</includes>
+              </mapping>
+              <mapping>
+                <filemode>644</filemode>
+                <includes>INSTALL/**</includes>
+                <excludes>INSTALL/**/*.sh,INSTALL/**/*.bat</excludes>
+              </mapping>
+            </mappings>
+          </rpmConfig>
+          <configurationTemplateFile>${project.build.directory}/${project.build.finalName}/INSTALL/${APPLICATION_NAME}.properties</configurationTemplateFile>
+          <tokenizedConfigurationDir>${project.build.directory}/${project.build.finalName}/INSTALL/${APPLICATION_NAME}-templates</tokenizedConfigurationDir>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

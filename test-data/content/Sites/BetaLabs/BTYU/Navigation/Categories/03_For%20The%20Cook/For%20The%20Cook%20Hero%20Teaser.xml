@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Categories/03_For The Cook" name="For The Cook Hero Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Genießen Sie den Frühling</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../../../../PerfectChef/Germany/German/Videos/Campaigns/Spring%20Dresses%20Campaign/Blue%20Summer%20Dress%20Video.xml" path="/Sites/PerfectChef/Germany/German/Videos/Campaigns/Spring%20Dresses%20Campaign/Blue%20Summer%20Dress%20Video"/>
+</target>
+</CMTeaser>

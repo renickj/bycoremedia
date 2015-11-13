@@ -1,0 +1,46 @@
+Listen 8006
+Listen 8000
+
+<VirtualHost *:8006>
+  RequestHeader set X-FragmentHost preview
+  ServerName @SHOP_PREVIEW_PRODUCTION_HELIOS_SEGMENT@.@STUDIO_TLD@
+  ServerAlias @LIVECONTEXT_HOST@
+
+  ProxyPreserveHost On
+  Include conf.d/global/ssl.inc
+
+  ProxyPass / https://@SHOP_REF_HOST@:8006/
+  ProxyPassReverse / https://@SHOP_REF_HOST@:8006/
+</VirtualHost>
+
+<VirtualHost *:80>
+  ProxyPreserveHost On
+  ServerName @LIVECONTEXT_HOST@
+
+  ProxyPass / http://@SHOP_REF_HOST@/ connectiontimeout=5 timeout=310
+  ProxyPassReverse / http://@SHOP_REF_HOST@/
+
+  SetEnvIf Request_URI ^/lobtools no-gzip=1
+
+  DefaultType None
+</VirtualHost>
+
+<VirtualHost *:8000>
+  ProxyPreserveHost On
+  ServerName @LIVECONTEXT_HOST@
+  Include conf.d/global/ssl.inc
+  SetEnvIf Request_URI ^/lobtools no-gzip=1
+
+  ProxyPass / https://@SHOP_REF_HOST@/ connectiontimeout=5 timeout=310
+  ProxyPassReverse / https://@SHOP_REF_HOST@/
+</VirtualHost>
+
+<VirtualHost *:443>
+  RequestHeader set X-FragmentHost preview
+  ProxyPreserveHost On
+  ServerName @LIVECONTEXT_HOST@
+  Include conf.d/global/ssl.inc
+
+  ProxyPass / https://@SHOP_REF_HOST@/ connectiontimeout=5 timeout=310
+  ProxyPassReverse / https://@SHOP_REF_HOST@/
+</VirtualHost>

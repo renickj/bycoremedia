@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall Campaign" name="Evening Gown Black Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Products/Fall%20Campaign/Evening%20Gown%20Black%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Evening%20Gown%20Black%20Product%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Klassisch</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Beeindrucken Sie in unserem klassischen schwarzen Satin-Abendkleid.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Her/PC_EVENING_DRESS%20black%20Actionshot.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Her/PC_EVENING_DRESS%20black%20Actionshot"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/sku/PC_EVENING_DRESS-BLACK-M</externalId>
+</CMProductTeaser>

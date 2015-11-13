@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Pictures/Product Pictures/04_Deli/To Eat" name="PC_CAKEPOPS_HALLOWEEN Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Pictures/Product%20Pictures/04_Deli/To%20Eat/PC_CAKEPOPS_HALLOWEEN%20Frontshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/04_Deli/To%20Eat/PC_CAKEPOPS_HALLOWEEN%20Frontshot"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=1012;y=0;width=992;height=1536</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=957;y=0;width=1052;height=1402</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=194;y=0;width=1538;height=1536</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=0;y=0;width=2048;height=1536</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=138;width=2048;height=1149</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=296;width=2048;height=1023</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=375;width=2048;height=817</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=470;width=2048;height=766</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=683;width=2048;height=513</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.4942084942084942;y1=0;x2=0.9787644787644788;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.4671814671814672;y1=0;x2=0.9806949806949807;y2=0.9125964010282777</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.0945945945945946;y1=0;x2=0.8455598455598455;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.08997429305912596;x2=1;y2=0.8380462724935732</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.1928020565552699;x2=1;y2=0.8586118251928021</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.2442159383033419;x2=1;y2=0.7763496143958869</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.3059125964010283;x2=1;y2=0.8046272493573264</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.44473007712082263;x2=1;y2=0.7789203084832905</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">true</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_CAKEPOPS_HALLOWEEN</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Halloween-Kuchen-Pop-</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/To%20Eat.xml" path="/Settings/Taxonomies/Subject/To%20Eat"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Orange%282%29.xml" path="/Settings/Taxonomies/Subject/Orange%282%29"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Green.xml" path="/Settings/Taxonomies/Subject/Green"/>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Halloween-Kuchen-Pop-</alt>
+<copyright>light / Shutterstock 132236015</copyright>
+<data href="PC_CAKEPOPS_HALLOWEEN%20Frontshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

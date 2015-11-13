@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSite folder="/Sites/Aurora Augmentation/United States/English/Navigation" name="BeautifulYou [Site]" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<id>99c8ef576f385bc322564d5694df6fc2</id>
+<name>BeautifulYou</name>
+<root>
+<link href="BeautifulYou%20Root%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/BeautifulYou%20Root%20Page"/>
+</root>
+<siteManagerGroup>manager-en-US</siteManagerGroup>
+</CMSite>

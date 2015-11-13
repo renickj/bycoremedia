@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Fall Recipes/Starters" name="Champignon Cream Soup Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Champignon Cream Soup</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Cream.xml" path="/Settings/Taxonomies/Subject/Cream"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Champignon.xml" path="/Settings/Taxonomies/Subject/Champignon"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spicy.xml" path="/Settings/Taxonomies/Subject/Spicy"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Asia.xml" path="/Settings/Taxonomies/Subject/Asia"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Champignon Soup</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Beans fill the stomach and provide a lot of protein. </p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>Champignons are a staple for winter soups - you can use white or brown champignons, but we think that the brown variety has more taste. For the adventurous cooks, try replacing the cream with coconut milk and to add some oriental spices like Thai basil or kaffir for a suprisingly fresh and Asian flavour.</p><p class="p--heading-2">Ingredients</p><ul><li>8 ounces fresh mushrooms</li><li>2 tablespoons onions, chopped</li><li>1 -2 garlic clove, minced</li><li>2 tablespoons butter</li><li>2 -3 tablespoons flour (separated)</li><li>2 cups chicken broth</li><li>1 cup light cream or 1 cup evaporated milk</li><li>1/2 teaspoon salt</li><li>1/4 teaspoon pepper</li><li>1/4 teaspoon nutmeg</li></ul><p class="p--heading-2">​Preparation</p><ul><li>Cut the mushrooms into slices</li><li>Melt butter in large frying pan</li><li>Add in onions, garlic, and mushrooms. Cook until onions are soft</li><li>Blend in 2 T. flour and stir</li><li>Add in the chicken broth and heat until slightly thickened while stirring frequently</li><li>Stir cream with additional 1 T. flour and seasonings</li><li>Add in cream to soup</li><li>Heat to thicken while stirring frequently</li></ul><p class="p--heading-2">Serving Suggestion</p><p>The adventurous chefs could replace the cream with coconut milk and some oriental spices such as Thai basil to get a surprisingly fresh and Asian tastes. </p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Champignon%20Cream%20Soup%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Fall%20Recipes/Champignon%20Cream%20Soup%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Pictures/Magazine Pictures/Magazine Fall Pictures/Perfect Dinner" name="Perfect Dinner Hero Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=280;y=0;width=880;height=1365</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=185;y=0;width=1022;height=1365</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=32;y=0;width=1365;height=1365</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=182;y=0;width=1819;height=1365</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=71;y=252;width=1977;height=1113</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=178;width=2048;height=1026</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=150;y=272;width=1898;height=757</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=91;y=300;width=1957;height=734</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=304;width=2048;height=513</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.13680154142581888;y1=0;x2=0.5664739884393064;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.0905587668593449;y1=0;x2=0.5895953757225434;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.015414258188824663;y1=0;x2=0.6820809248554913;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.08863198458574181;y1=0;x2=0.976878612716763;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.03468208092485549;y1=0.18497109826589594;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.13005780346820808;x2=1;y2=0.8815028901734104</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.07321772639691715;y1=0.1994219653179191;x2=1;y2=0.7543352601156069</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.04431599229287091;y1=0.21965317919075145;x2=1;y2=0.7572254335260116</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.22254335260115607;x2=1;y2=0.5982658959537572</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>A Perfect Dinner</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>A Perfect Dinner</alt>
+<copyright>Kzenon/Shutterstock 126122477</copyright>
+<data href="Perfect%20Dinner%20Hero%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

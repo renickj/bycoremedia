@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/.Example Category Page 1" name="Main Teaser Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../../United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%201/Main%20Teaser%20Collection.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%201/Main%20Teaser%20Collection"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../Viewtypes/CMCollection/tiles-layout-left.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/tiles-layout-left"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Hauptaufgabe (Override Vererbung)</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Dieser Teaser Text wird nur angezeigt, wenn die Sammlung selbst ist in einer anderen Seite als Teaser eingebettet. </p> <p> Der Text wird von den Details Text oben vererbt, wenn Sie es in diesem Bereich zu überschreiben. </p> </div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> <strong>Dies ist die Sammlung, die unter dem Banner Held Bild sitzt.</strong> <br/></p> <p> Es wird unter der Held Collection in der Seite "Main" Platzierung. </p> <p> Es kann benutzt werden, um auf verschiedene Gegenstände, wie Produkte, Seiten, Artikel, Videos, etc. zu verknüpfen </p> <p> Ziehen Sie die Content-Objekte aus der Bibliothek in das Feld "Titel" unten. <br/></p> <p> Wählen Sie ein Layout-Variante an der Unterseite und bemerken, dass die Vorschau auf die richtigen Veränderungen. <br/></p> <p> Stellen Sie den Schieberegler auf die gewünschte Ausgabegerät: Mobile - Tablet - Desktop </p> </div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Sample%201%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%201/Sample%201%20Picture"/>
+<link href="Sample%202%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%201/Sample%202%20Picture"/>
+<link href="Sample%203%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%201/Sample%203%20Picture"/>
+<link href="Sample%204%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%201/Sample%204%20Picture"/>
+<link href="Sample%205%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Options/Settings/Templates/CMChannel/%2EExample%20Category%20Page%201/Sample%205%20Picture"/>
+</items>
+</CMCollection>

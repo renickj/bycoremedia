@@ -1,0 +1,19 @@
+{
+  "coremedia": {
+    "configuration": {
+      "configure.RLS_DB_DRIVER": "oracle.jdbc.driver.OracleDriver",
+      "configure.RLS_DB_URL": "jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST =(LOAD_BALANCE = yes)(FAILOVER = ON)(ADDRESS = (PROTOCOL = TCP)(HOST = 10.139.13.244)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = 10.139.13.245)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = 10.139.13.246)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = BDCPRDCM)))",
+      "configure.RLS_DB_USER": "PRDCMRLS04",
+      "configure.RLS_DB_PASSWORD": "Chem16ts",
+      "configure.CAEFEEDER_LIVE_DB_DRIVER": "oracle.jdbc.driver.OracleDriver",
+      "configure.CAEFEEDER_LIVE_DB_URL": "jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST =(LOAD_BALANCE = yes)(FAILOVER = ON)(ADDRESS = (PROTOCOL = TCP)(HOST = 10.139.13.244)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = 10.139.13.245)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = 10.139.13.246)(PORT = 1521)))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = BDCPRDCM)))",
+      "configure.CAEFEEDER_LIVE_DB_USER" : "PRDCMFEL04" ,
+      "configure.CAEFEEDER_LIVE_DB_PASSWORD": "Chem16ts"
+    }
+  },
+  "run_list": [
+    "role[base]",
+    "role[eds-delivery]"
+  ]
+}
+

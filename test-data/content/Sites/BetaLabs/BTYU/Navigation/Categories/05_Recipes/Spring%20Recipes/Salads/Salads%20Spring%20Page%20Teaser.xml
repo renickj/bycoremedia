@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Categories/05_Recipes/Spring Recipes/Salads" name="Salads Spring Page Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Unsere besten Salat-Rezepte</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Finden Sie Ideen und Inspiration für frische Frühlingssalate. </p> </div></teaserText>
+<pictures>
+<link href="../../../../../../../PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Greek%20Salad%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Spring%20Recipes/Greek%20Salad%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Salads%20Spring%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Page"/>
+</target>
+</CMTeaser>

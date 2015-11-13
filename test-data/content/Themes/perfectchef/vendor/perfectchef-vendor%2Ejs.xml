@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMJavaScript folder="/Themes/perfectchef/vendor" name="perfectchef-vendor.js" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/**</p><p> * Includes all vendor specific javascripts required for theme perfectchef</p><p> * (this file is a placeholder, the inclusion is defined in exported content)</p><p> */</p></div></code>
+<ieExpression></ieExpression>
+<include>
+<link href="masonry/masonry%2Ejs.xml" path="/Themes/perfectchef/vendor/masonry/masonry%2Ejs"/>
+</include>
+<dataUrl></dataUrl>
+</CMJavaScript>

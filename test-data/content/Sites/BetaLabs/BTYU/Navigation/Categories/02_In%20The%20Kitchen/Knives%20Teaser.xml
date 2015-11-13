@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Categories/02_In The Kitchen" name="Knives Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Messer</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Scheibe und Würfel alles mit unserem super scharfe Messer. </p> </div></teaserText>
+<pictures>
+<link href="../../../../../PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/In%20The%20Kitchen/Knives%20Category%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/In%20The%20Kitchen/Knives%20Category%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+</target>
+</CMTeaser>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSymbol folder="/Sites/PerfectChef/United States/English/Options/Settings/Templates/CMChannel/.Example Category Page" name="Descriptor_de" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description>_Kategorie-Seiten Vorlage für die PerfectChef-Seite</description>
+<icon href="Descriptor_de.icon.png" mimetype="image/png"/>
+</CMSymbol>

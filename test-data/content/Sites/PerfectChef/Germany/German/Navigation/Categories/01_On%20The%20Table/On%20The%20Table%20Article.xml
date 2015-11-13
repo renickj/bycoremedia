@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/01_On The Table" name="On The Table Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Categories/01_On%20The%20Table/On%20The%20Table%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/01_On%20The%20Table/On%20The%20Table%20Article"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Auf dem Tisch</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Hier bei Perfect Chef lieben wir es Partys zu veranstalten und unsere Tische entsprechend zu dekorieren. </p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Hier bei Perfect Chef lieben wir es Partys zu veranstalten und unsere Tische entsprechend zu dekorieren. Finden Sie elegante Designer-Stücke, die Ihren Tisch besonderes und unvergesslich machen. Betrachten Sie unsere Auswahl an Tellern, Gläser und anderem Geschirr sowie Dekorationsartikel.</p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Friends%20enjoying%20a%20spring%20salad%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Friends%20enjoying%20a%20spring%20salad%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

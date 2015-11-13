@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EditorPreferences folder="/Home/admin" name="EditorPreferences" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<data>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="collection">
+<Struct>
+<StringListProperty Name="savedSearches">
+<String>{"_main":{"searchText":"","contentType":"Document_","mode":"search","view":"list","folder":{"$Ref":"content/1"},"orderBy":"freshness desc","limit":50},"status":{"inProduction":true,"editedByMe":true,"editedByOthers":true,"notEdited":true,"approved":true,"published":true,"deleted":false},"lastEdited":{"lastEditedBy":"me"},"_name":"Last edited"}</String>
+<String>{"_main":{"searchText":"","contentType":"CMArticle","mode":"search","view":"list","folder":{"$Ref":"content/1"},"orderBy":"freshness desc","limit":50},"status":{"inProduction":true,"editedByMe":true,"editedByOthers":true,"notEdited":true,"approved":true,"published":true,"deleted":false},"lastEdited":{"lastEditedBy":"anyone"},"_name":"Articles"}</String>
+<String>{"_main":{"searchText":"","contentType":"CMPicture","mode":"search","view":"thumbnails","folder":{"$Ref":"content/1"},"orderBy":"freshness desc","limit":50},"status":{"inProduction":true,"editedByMe":true,"editedByOthers":true,"notEdited":true,"approved":true,"published":true,"deleted":false},"lastEdited":{"lastEditedBy":"anyone"},"_name":"Pictures"}</String>
+<String>{"_main":{"searchText":"","contentType":"CMChannel","mode":"search","view":"list","folder":{"$Ref":"content/1"},"orderBy":"freshness desc","limit":50},"status":{"inProduction":true,"editedByMe":true,"editedByOthers":true,"notEdited":true,"approved":true,"published":true,"deleted":false},"lastEdited":{"lastEditedBy":"anyone"},"_name":"Pages"}</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="forms">
+<Struct>
+<StructProperty Name="CMTaxonomy">
+<Struct>
+<BooleanProperty Name="externalReferenceForm">false</BooleanProperty>
+<BooleanProperty Name="valueForm">false</BooleanProperty>
+<BooleanProperty Name="searchableForm">true</BooleanProperty>
+<BooleanProperty Name="linkedSettings">true</BooleanProperty>
+<BooleanProperty Name="localSettingsForm">true</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMChannel">
+<Struct>
+<BooleanProperty Name="titleForm">false</BooleanProperty>
+<BooleanProperty Name="pictureDocumentForm">false</BooleanProperty>
+<BooleanProperty Name="teaserDocumentForm">false</BooleanProperty>
+<BooleanProperty Name="validityForm">false</BooleanProperty>
+<BooleanProperty Name="coremedia:///cap/content/3474">true</BooleanProperty>
+<BooleanProperty Name="coremedia:///cap/content/3476">true</BooleanProperty>
+<BooleanProperty Name="coremedia:///cap/content/3468">true</BooleanProperty>
+<BooleanProperty Name="coremedia:///cap/content/3480">true</BooleanProperty>
+<BooleanProperty Name="coremedia:///cap/content/3470">true</BooleanProperty>
+<BooleanProperty Name="linkedSettings">false</BooleanProperty>
+<BooleanProperty Name="localSettingsForm">false</BooleanProperty>
+<BooleanProperty Name="channelMetaDataJavaScriptForm">false</BooleanProperty>
+<BooleanProperty Name="channelMetaDataCssForm">false</BooleanProperty>
+<BooleanProperty Name="coremedia:///cap/content/4418">false</BooleanProperty>
+<BooleanProperty Name="coremedia:///cap/content/4608">false</BooleanProperty>
+<BooleanProperty Name="subjectTaxonomyDocumentForm">false</BooleanProperty>
+<BooleanProperty Name="locationTaxonomyForm">false</BooleanProperty>
+<BooleanProperty Name="coremedia:///cap/content/8342">false</BooleanProperty>
+<BooleanProperty Name="coremedia:///cap/content/8350">false</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMSettings">
+<Struct>
+<BooleanProperty Name="cmSettingsSettingsForm">false</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMSite">
+<Struct>
+<BooleanProperty Name="cmSiteRootForm">false</BooleanProperty>
+<BooleanProperty Name="cmSiteSiteManagerForm">false</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMArticle">
+<Struct>
+<BooleanProperty Name="teaserDocumentForm">true</BooleanProperty>
+<BooleanProperty Name="pictureDocumentForm">false</BooleanProperty>
+<BooleanProperty Name="relatedDocumentForm">false</BooleanProperty>
+<BooleanProperty Name="viewTypeSelectorForm">true</BooleanProperty>
+<BooleanProperty Name="validityForm">false</BooleanProperty>
+<BooleanProperty Name="detailsDocumentForm">false</BooleanProperty>
+<BooleanProperty Name="subjectTaxonomyDocumentForm">false</BooleanProperty>
+<BooleanProperty Name="locationTaxonomyForm">true</BooleanProperty>
+<BooleanProperty Name="searchableForm">true</BooleanProperty>
+<BooleanProperty Name="linkedSettings">true</BooleanProperty>
+<BooleanProperty Name="localSettingsForm">true</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMSymbol">
+<Struct>
+<BooleanProperty Name="descriptionForm">false</BooleanProperty>
+<BooleanProperty Name="cmSymbolIconForm">false</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMPicture">
+<Struct>
+<BooleanProperty Name="detailsForm">false</BooleanProperty>
+<BooleanProperty Name="viewTypeSelectorForm">true</BooleanProperty>
+<BooleanProperty Name="validityForm">false</BooleanProperty>
+<BooleanProperty Name="metaSections">true</BooleanProperty>
+<BooleanProperty Name="locationTaxonomyForm">true</BooleanProperty>
+<BooleanProperty Name="subjectTaxonomyDocumentForm">false</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMCollection">
+<Struct>
+<BooleanProperty Name="itemsForm">false</BooleanProperty>
+<BooleanProperty Name="viewTypeSelectorForm">false</BooleanProperty>
+<BooleanProperty Name="validityForm">false</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMVideo">
+<Struct>
+<BooleanProperty Name="detailsDocumentForm">false</BooleanProperty>
+<BooleanProperty Name="teaserDocumentForm">true</BooleanProperty>
+<BooleanProperty Name="dataDocumentForm">false</BooleanProperty>
+<BooleanProperty Name="cmVideoSizeForm">true</BooleanProperty>
+<BooleanProperty Name="pictureDocumentForm">true</BooleanProperty>
+<BooleanProperty Name="viewTypeSelectorForm">true</BooleanProperty>
+<BooleanProperty Name="validityForm">false</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMJavaScript">
+<Struct>
+<BooleanProperty Name="cmJavaScriptDataForm">false</BooleanProperty>
+<BooleanProperty Name="cmJavaScriptIncludeForm">false</BooleanProperty>
+<BooleanProperty Name="ieExpressionForm">true</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMHTML">
+<Struct>
+<BooleanProperty Name="teaserTitleForm">false</BooleanProperty>
+<BooleanProperty Name="descriptionForm">false</BooleanProperty>
+<BooleanProperty Name="cmHtmlDataForm">false</BooleanProperty>
+<BooleanProperty Name="subjectTaxonomyDocumentForm">true</BooleanProperty>
+<BooleanProperty Name="locationTaxonomyForm">true</BooleanProperty>
+<BooleanProperty Name="searchableForm">true</BooleanProperty>
+<BooleanProperty Name="linkedSettings">true</BooleanProperty>
+<BooleanProperty Name="localSettingsForm">true</BooleanProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="CMQueryList">
+<Struct>
+<BooleanProperty Name="viewTypeSelectorForm">false</BooleanProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+<StringProperty Name="preferredSite">99c8ef576f385bc322564d5694df6fc2</StringProperty>
+<LinkListProperty Name="bookmarks" LinkType="coremedia:///cap/contenttype/Content_">
+<Link xlink:href="coremedia:///cap/resources/../../Sites/Aurora%20Augmentation/United%20States/English/Navigation/myinspiration.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/myinspiration"/>
+</LinkListProperty>
+<StructProperty Name="workarea">
+<Struct>
+<StructListProperty Name="tabs">
+<Struct>
+<StringProperty Name="type">com.coremedia.cms.editor.sdk.config.startTab</StringProperty>
+</Struct>
+</StructListProperty>
+<IntProperty Name="activeTabIndex">0</IntProperty>
+</Struct>
+</StructProperty>
+<BooleanProperty Name="showAllTabsInForm">true</BooleanProperty>
+</Struct>
+</data>
+</EditorPreferences>

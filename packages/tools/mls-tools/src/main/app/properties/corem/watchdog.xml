@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!--
+     this is an example watchdog configuration file and can be used for testing the watchdog/probedog functionality
+     or your custom actions. The real configurations should be defined in the deployment workspace where your deployment
+     setup manifests.
+-->
+
+<!DOCTYPE Watchdog SYSTEM "classpath:xml/coremedia-watchdog.dtd">
+
+<Watchdog>
+
+  <!-- Probe a CoreMedia Content Server -->
+  <Component name="ProbeContentServer" startAction="Content-IOR-Query" delay="0">
+    <ServerQuery name="Content-IOR-Query" url="http://@MLS_HOST@:@MLS_HTTP_PORT@/coremedia/ior" user="watchdog" password="watchdog"/>
+  </Component>
+
+  <!-- Probe if CoreMedia Content Server is online -->
+  <Component name="ProbeContentServerOnline" startAction="PSO-ServerMode" delay="0">
+    <ServerMode name="PSO-ServerMode" url="http://@MLS_HOST@:@MLS_HTTP_PORT@/coremedia/ior" user="watchdog" password="watchdog" mode="online"/>
+  </Component>
+
+  <!-- Probe if CoreMedia Content Server is in administration mode -->
+  <Component name="ProbeContentServerAdministration" startAction="PSA-ServerMode" delay="0">
+    <ServerMode name="PSA-ServerMode" url="http://@MLS_HOST@:@MLS_HTTP_PORT@/coremedia/ior" user="watchdog" password="watchdog" mode="administration"/>
+  </Component>
+
+</Watchdog>

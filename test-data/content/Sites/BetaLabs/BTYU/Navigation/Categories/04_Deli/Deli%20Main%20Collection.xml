@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/BetaLabs/BTYU/Navigation/Categories/04_Deli" name="Deli Main Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../../PerfectChef/Germany/German/Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Delikatessen</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="To%20Drink%20Teaser.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/04_Deli/To%20Drink%20Teaser"/>
+<link href="To%20Eat%20Teaser.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/04_Deli/To%20Eat%20Teaser"/>
+<link href="../../../../../PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%204%20-%20Coffee%20Roasting/Coffee%3A%20The%20Art%20and%20Craftmanship%20of%20Roasting.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%204%20-%20Coffee%20Roasting/Coffee%3A%20The%20Art%20and%20Craftmanship%20of%20Roasting"/>
+<link href="../../../../../PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Espresso%20Cups%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Espresso%20Cups%20Product%20Teaser"/>
+<link href="../../../../../PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Tea%20Pot%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall%20Campaign/Tea%20Pot%20Product%20Teaser"/>
+</items>
+</CMCollection>

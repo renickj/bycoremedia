@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMAction folder="/Sites/PerfectChef/United States/English/Options/Actions" name="Login" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<LinkProperty Name="flow.registration" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/Registration.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Actions/Registration"/>
+<LinkProperty Name="flow.passwordExpired" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/PasswordExpired.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Actions/PasswordExpired"/>
+<LinkProperty Name="flow.passwordReset" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/PasswordReset.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Actions/PasswordReset"/>
+<LinkProperty Name="flow.logout" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/Logout.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Actions/Logout"/>
+<LinkProperty Name="flow.userDetails" LinkType="coremedia:///cap/contenttype/CMAction" xlink:href="coremedia:///cap/resources/UserDetails.xml" cmexport:path="/Sites/PerfectChef/United%20States/English/Options/Actions/UserDetails"/>
+</Struct>
+</localSettings>
+<linkedSettings>
+<link href="../Settings/Elastic%20Social.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/Elastic%20Social"/>
+</linkedSettings>
+<segment>login</segment>
+<title>Sign In / Sign Up</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Please register by creating a new account on Perfect Chef.</p></div></detailText>
+<pictures>
+<link href="../../Pictures/Sitewide%20Pictures/Sign-In%20-%20Replace%20with%20Seasonal%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Sitewide%20Pictures/Sign-In%20-%20Replace%20with%20Seasonal%20Picture"/>
+</pictures>
+<notSearchable>0</notSearchable>
+<related>
+</related>
+<id>com.coremedia.blueprint.elastic.social.cae.flows.Login</id>
+<type>webflow</type>
+</CMAction>

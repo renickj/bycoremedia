@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Landing Pages/Spring/Summer Dresses Landing Page" name="Spring Summer Dresses Landing Page Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Sommerkleider</teaserTitle>
+<pictures>
+<link href="../../../../../../PerfectChef/Germany/German/Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Summer%20Dresses/Two%20girls%20in%20the%20summer%20field%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Magazine%20Pictures/Magazine%20Spring%20Pictures/Summer%20Dresses/Two%20girls%20in%20the%20summer%20field%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../Spring%20Summer%20Dresses%20Hidden%20Landing%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Landing%20Pages/Spring/Spring%20Summer%20Dresses%20Hidden%20Landing%20Page"/>
+</target>
+</CMTeaser>

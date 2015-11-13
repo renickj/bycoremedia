@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>tomcat</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>tomcat-config</artifactId>
+  <packaging>pom</packaging>
+
+  <build>
+   <finalName>tomcat</finalName>
+    <plugins>
+      <plugin>
+        <groupId>com.coremedia.maven</groupId>
+        <artifactId>coremedia-application-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>create-http-tomcat-config</id>
+            <goals>
+              <goal>package-inplace</goal>
+              <goal>zip-it</goal>
+            </goals>
+            <configuration>
+              <classifier>http</classifier>
+              <outputDirectory>${project.build.directory}/http</outputDirectory>
+              <outputFile>${project.build.directory}/tomcat-http.zip</outputFile>
+              <appResources>
+                <resource>
+                  <directory>src/main/common</directory>
+                  <includes>
+                    <include>**/*.*</include>
+                  </includes>
+                  <filtering>false</filtering>
+                </resource>
+                <resource>
+                  <directory>src/main/http</directory>
+                  <includes>
+                    <include>**/*.*</include>
+                  </includes>
+                  <filtering>false</filtering>
+                </resource>
+              </appResources>
+            </configuration>
+          </execution>
+          <execution>
+            <id>create-noajp-tomcat-config</id>
+            <goals>
+              <goal>package-inplace</goal>
+              <goal>zip-it</goal>
+            </goals>
+            <configuration>
+              <classifier>noajp</classifier>
+              <outputDirectory>${project.build.directory}/noajp</outputDirectory>
+              <outputFile>${project.build.directory}/tomcat-noajp.zip</outputFile>
+              <appResources>
+                <resource>
+                  <directory>src/main/common</directory>
+                  <includes>
+                    <include>**/*.*</include>
+                  </includes>
+                  <filtering>false</filtering>
+                </resource>
+                <resource>
+                  <directory>src/main/noajp</directory>
+                  <includes>
+                    <include>**/*.*</include>
+                  </includes>
+                  <filtering>false</filtering>
+                </resource>
+              </appResources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

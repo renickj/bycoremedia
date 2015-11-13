@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/Germany/German/Videos/How-To" name="How to segment (supreme) citrus fruit Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/How-To/How%20to%20segment%20%28supreme%29%20citrus%20fruit%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20segment%20%28supreme%29%20citrus%20fruit%20Picture"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=735;y=0;width=464;height=720</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=661;y=0;width=540;height=720</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=498;y=0;width=720;height=720</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=274;y=0;width=959;height=720</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=0;width=1280;height=720</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=79;width=1280;height=641</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=123;width=1280;height=513</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=131;width=1280;height=481</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=271;width=1280;height=321</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.5741811175337187;y1=0;x2=0.9364161849710982;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.5163776493256262;y1=0;x2=0.9383429672447013;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.3892100192678227;y1=0;x2=0.9518304431599229;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.2138728323699422;y1=0;x2=0.9633911368015414;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.1095890410958904;x2=1;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.17123287671232876;x2=1;y2=0.8835616438356164</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0.1815068493150685;x2=1;y2=0.8493150684931506</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0.3767123287671233;x2=1;y2=0.821917808219178</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">true</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Wie Segment (oberste) Zitrusfrüchte</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Gewußt-Wie: Zitrusfrüchte filetieren</alt>
+<copyright>cooksmarts.com / Vimeo CC-BY-SA 3.0</copyright>
+<data href="How%20to%20segment%20%28supreme%29%20citrus%20fruit%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

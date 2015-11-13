@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="In the Kitchen" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>In the Kitchen</value>
+<children>
+<link href="Pots.xml" path="/Settings/Taxonomies/Subject/Pots"/>
+<link href="Pans.xml" path="/Settings/Taxonomies/Subject/Pans"/>
+<link href="Knives.xml" path="/Settings/Taxonomies/Subject/Knives"/>
+<link href="Appliances.xml" path="/Settings/Taxonomies/Subject/Appliances"/>
+<link href="Bowls.xml" path="/Settings/Taxonomies/Subject/Bowls"/>
+<link href="Cutting%20Boards.xml" path="/Settings/Taxonomies/Subject/Cutting%20Boards"/>
+<link href="Baking%20Pans.xml" path="/Settings/Taxonomies/Subject/Baking%20Pans"/>
+</children>
+<externalReference>PC_InTheKitchen</externalReference>
+</CMTaxonomy>

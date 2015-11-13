@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In The Kitchen" name="Mixers Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Categories/02_In%20The%20Kitchen/Mixers%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/02_In%20The%20Kitchen/Mixers%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Küchenmaschinen</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Appliances/Mixers%20External%20Category%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Categories/02_In%20The%20Kitchen/Appliances/Mixers%20External%20Category%20Page"/>
+</target>
+</CMTeaser>

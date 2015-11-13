@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Categories/03_For The Cook/Apparel" name="Casual Man Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Lässig</teaserTitle>
+<pictures>
+<link href="../../../../../../PerfectChef/Germany/German/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Spring/For%20Him/PC_BLAZER%20Frontshot.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Casual/Spring/For%20Him/PC_BLAZER%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Casual/Casual%20Men/Men%20Casual%20-%20Summer%20Wear%20External%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/03_For%20The%20Cook/Apparel/Casual/Casual%20Men/Men%20Casual%20-%20Summer%20Wear%20External%20Page"/>
+</target>
+</CMTeaser>

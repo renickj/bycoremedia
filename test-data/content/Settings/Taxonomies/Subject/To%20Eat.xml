@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="To Eat" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>To Eat</value>
+<children>
+<link href="Spices.xml" path="/Settings/Taxonomies/Subject/Spices"/>
+<link href="Chocolate.xml" path="/Settings/Taxonomies/Subject/Chocolate"/>
+<link href="Exotic%20Fruits.xml" path="/Settings/Taxonomies/Subject/Exotic%20Fruits"/>
+</children>
+<externalReference>PC_ToEat</externalReference>
+</CMTaxonomy>

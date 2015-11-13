@@ -1,0 +1,15 @@
+{
+    "coremedia": {
+      "db": {
+        "schemas": [
+          "cm7management_t1",
+          "cm7master_t1",
+          "cm7mcaefeeder_t1"
+        ]
+      }
+  },
+  "run_list": [
+    "role[base]",
+    "role[eds-management-apache]"
+  ]
+}

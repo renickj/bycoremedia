@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>packages</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>services</artifactId>
+  <packaging>pom</packaging>
+
+  <!--
+   |  #################### DESCRIPTION ######################
+   |
+   |  This pom centralizes some of the maven configuration for the plugins to create the service rpms and zips correctly.
+   |  The property configuration.tokens cannot be resolved by an IDE like IDEA because it is injected by the
+   |  coremedia-application-maven-plugin during the find-filter-tokens mojo.
+   -->
+
+  <!--
+   |  The projects description metadata is being filtered into the service start scripts. If you want to define a service
+   |  specific description add the description element to that services pom.xml.
+   -->
+  <description>Tomcat based service</description>
+
+  <properties>
+    <filters.dir>${project.basedir}/../../src/main/filters</filters.dir>
+
+    <!--JMX CONFIG-->
+    <!-- you have to set this to true when you are running on EC2.-->
+    <TOMCAT_JMX_USE_LOCAL_PORTS>false</TOMCAT_JMX_USE_LOCAL_PORTS>
+    <TOMCAT_JMX_SSL>false</TOMCAT_JMX_SSL>
+    <TOMCAT_JMX_AUTHENTICATE>false</TOMCAT_JMX_AUTHENTICATE>
+    <!--if you want authentication you should set these values securely-->
+    <TOMCAT_JMX_USER_ACCESS>admin readwrite</TOMCAT_JMX_USER_ACCESS>
+    <TOMCAT_JMX_USER_PASSWORD>admin tomcat</TOMCAT_JMX_USER_PASSWORD>
+
+    <!-- values for TOMCAT_ORB_SOCKET_FACTORY. see package com.coremedia.corba for further options. -->
+    <orb.socket.factory.client.only>com.coremedia.corba.NoServerSocketFactory50</orb.socket.factory.client.only>
+    <orb.socket.factory.server>com.sun.corba.se.impl.legacy.connection.DefaultSocketFactory</orb.socket.factory.server>
+
+    <!-- these are defaults and may be overridden in child poms -->
+    <TOMCAT_ORB_SOCKET_FACTORY>${orb.socket.factory.client.only}</TOMCAT_ORB_SOCKET_FACTORY>
+    <TOMCAT_ORB_HOST />
+    <TOMCAT_ORB_PORT>0</TOMCAT_ORB_PORT>
+    <TOMCAT_ORB_LISTEN_SOCKET/>
+    <TOMCAT_ORB_SSL_KEYSTORE/>
+    <TOMCAT_ORB_SSL_PASSPHRASE/>
+
+    <!--SERVICE RUN LEVEL CONFIGURATIONS-->
+    <solr-master-tomcat.startLevels>2345</solr-master-tomcat.startLevels>
+    <solr-master-tomcat.startPriority>86</solr-master-tomcat.startPriority>
+    <solr-master-tomcat.stopPriority>14</solr-master-tomcat.stopPriority>
+
+    <solr-slave-tomcat.startLevels>2345</solr-slave-tomcat.startLevels>
+    <solr-slave-tomcat.startPriority>86</solr-slave-tomcat.startPriority>
+    <solr-slave-tomcat.stopPriority>14</solr-slave-tomcat.stopPriority>
+
+    <cms-tomcat.startLevels>2345</cms-tomcat.startLevels>
+    <cms-tomcat.startPriority>87</cms-tomcat.startPriority>
+    <cms-tomcat.stopPriority>13</cms-tomcat.stopPriority>
+
+    <mls-tomcat.startLevels>2345</mls-tomcat.startLevels>
+    <mls-tomcat.startPriority>87</mls-tomcat.startPriority>
+    <mls-tomcat.stopPriority>13</mls-tomcat.stopPriority>
+
+    <wfs-tomcat.startLevels>2345</wfs-tomcat.startLevels>
+    <wfs-tomcat.startPriority>87</wfs-tomcat.startPriority>
+    <wfs-tomcat.stopPriority>13</wfs-tomcat.stopPriority>
+
+    <rls-tomcat.startLevels>2345</rls-tomcat.startLevels>
+    <rls-tomcat.startPriority>87</rls-tomcat.startPriority>
+    <rls-tomcat.stopPriority>13</rls-tomcat.stopPriority>
+
+    <caefeeder-live-tomcat.startLevels>2345</caefeeder-live-tomcat.startLevels>
+    <caefeeder-live-tomcat.startPriority>88</caefeeder-live-tomcat.startPriority>
+    <caefeeder-live-tomcat.stopPriority>12</caefeeder-live-tomcat.stopPriority>
+
+    <caefeeder-preview-tomcat.startLevels>2345</caefeeder-preview-tomcat.startLevels>
+    <caefeeder-preview-tomcat.startPriority>88</caefeeder-preview-tomcat.startPriority>
+    <caefeeder-preview-tomcat.stopPriority>12</caefeeder-preview-tomcat.stopPriority>
+
+    <studio-tomcat.startLevels>2345</studio-tomcat.startLevels>
+    <studio-tomcat.startPriority>88</studio-tomcat.startPriority>
+    <studio-tomcat.stopPriority>12</studio-tomcat.stopPriority>
+
+    <delivery-tomcat.startLevels>2345</delivery-tomcat.startLevels>
+    <delivery-tomcat.startPriority>88</delivery-tomcat.startPriority>
+    <delivery-tomcat.stopPriority>12</delivery-tomcat.stopPriority>
+
+  </properties>
+
+  <modules>
+    <module>studio-tomcat</module>
+    <module>cms-tomcat</module>
+    <module>wfs-tomcat</module>
+    <module>mls-tomcat</module>
+    <module>rls-tomcat</module>
+    <module>solr-master-tomcat</module>
+    <module>solr-slave-tomcat</module>
+    <module>caefeeder-preview-tomcat</module>
+    <module>caefeeder-live-tomcat</module>
+    <module>delivery-tomcat</module>
+  </modules>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>package-template</artifactId>
+      <version>${project.version}</version>
+      <classifier>tomcat-service</classifier>
+      <type>zip</type>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.coremedia.maven</groupId>
+        <artifactId>coremedia-application-maven-plugin</artifactId>
+        <configuration>
+          <dependencyFiltering>true</dependencyFiltering>
+          <tomcatPath>.</tomcatPath>
+          <tomcatGroupId>${project.groupId}</tomcatGroupId>
+          <tomcatArtifactId>tomcat-config</tomcatArtifactId>
+          <defaultConfigurationProperties>${filters.dir}/default-deployment.properties</defaultConfigurationProperties>
+          <rpmConfig>
+            <description>
+This rpm packages ${APPLICATION_NAME}, a CoreMedia tomcat based service.
+revision: ${buildNumber} - ${maven.build.timestamp}
+To configure this service you have to define a configuration property file at
+${CONFIGURE_ROOT}/${APPLICATION_NAME}.properties containing:
+${configuration.tokens}
+            </description>
+            <preInstallScript>${project.build.directory}/${project.build.finalName}/INSTALL/preinstall.sh
+            </preInstallScript>
+            <postInstallScript>${project.build.directory}/${project.build.finalName}/INSTALL/postinstall.sh
+            </postInstallScript>
+            <preUninstallScript>${project.build.directory}/${project.build.finalName}/INSTALL/preuninstall.sh</preUninstallScript>
+            <postUninstallScript>${project.build.directory}/${project.build.finalName}/INSTALL/postuninstall.sh</postUninstallScript>
+            <dependencies>
+              <dependency>
+                <packageName>${APPLICATION_PREFIX}-tomcat-installation</packageName>
+                <minVersion>PROJECT_VERSION</minVersion>
+              </dependency>
+            </dependencies>
+            <mappings>
+              <mapping>
+                <includes>bin/**</includes>
+                <excludes>**/*.bat,**/*.exe</excludes>
+                <filemode>755</filemode>
+              </mapping>
+              <mapping>
+               <includes>classes/**,conf/**,lib/**,server-lib/**,webapps/**,work/**,solr-home/**</includes>
+              </mapping>
+              <mapping>
+                <filemode>755</filemode>
+                <includes>INSTALL/**/*.sh</includes>
+              </mapping>
+              <mapping>
+                <filemode>644</filemode>
+                <includes>INSTALL/**</includes>
+                <excludes>INSTALL/**/*.sh,INSTALL/**/*.bat</excludes>
+              </mapping>
+            </mappings>
+          </rpmConfig>
+          <configurationTemplateFile>${project.build.directory}/${project.build.finalName}/INSTALL/${APPLICATION_NAME}.properties</configurationTemplateFile>
+          <tokenizedConfigurationDir>${project.build.directory}/${project.build.finalName}/INSTALL/${APPLICATION_NAME}-templates</tokenizedConfigurationDir>
+          <skipZipArchiving>${skipZip}</skipZipArchiving>
+          <skipRpmArchiving>${skipRpm}</skipRpmArchiving>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

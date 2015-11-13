@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMPlaceholder" name="dummy-mailinglist" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMPlaceholder/dummy-mailinglist.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMPlaceholder/dummy-mailinglist"/>
+</master>
+<masterVersion>3</masterVersion>
+<description>Dummy ViewType for Shopping Cart</description>
+<icon href="dummy-mailinglist.icon.png" mimetype="image/png"/>
+<layout>dummy-mailinglist</layout>
+</CMViewtype>

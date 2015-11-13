@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Pictures/Product Pictures/02_In The Kitchen/Baking Pans" name="PC_GLASS_CASSEROLE_OVAL Frontshot" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=568;y=0;width=880;height=1360</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=481;y=0;width=1022;height=1360</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=178;y=0;width=1361;height=1360</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=134;y=0;width=1815;height=1360</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=0;y=12;width=2048;height=1151</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=0;y=12;width=2048;height=1025</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=0;y=4;width=2048;height=820</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=0;y=0;width=2048;height=769</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=0;y=0;width=2048;height=512</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.2774566473988439;y1=0;x2=0.7071290944123314;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.2350674373795761;y1=0;x2=0.7341040462427746;y2=1</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.08670520231213873;y1=0;x2=0.7514450867052023;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.06551059730250482;y1=0;x2=0.9518304431599229;y2=1</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0;y1=0.008695652173913044;x2=1;y2=0.855072463768116</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0;y1=0.008695652173913044;x2=1;y2=0.7623188405797101</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0;y1=0.002898550724637681;x2=1;y2=0.6057971014492753</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0;y1=0;x2=1;y2=0.5652173913043478</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0;y1=0;x2=1;y2=0.37681159420289856</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="commerce">
+<Struct>
+<StringListProperty Name="products">
+<String>ibm:///catalog/product/PC_GLASS_CASSEROLE_OVAL</String>
+</StringListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Oval Glass Casserole</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/Baking%20Pans.xml" path="/Settings/Taxonomies/Subject/Baking%20Pans"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Oval Glass Casserole</alt>
+<copyright>Timolina/Shutterstock 138811301</copyright>
+<data href="PC_GLASS_CASSEROLE_OVAL%20Frontshot.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

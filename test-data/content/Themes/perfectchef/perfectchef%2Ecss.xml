@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCSS folder="/Themes/perfectchef" name="perfectchef.css" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/**</p><p> * Includes all css required for theme perfectchef</p><p> * (this file is a placeholder, the inclusion is defined in exported content)</p><p> */</p></div></code>
+<ieExpression></ieExpression>
+<include>
+<link href="../basic/basic%2Ecss.xml" path="/Themes/basic/basic%2Ecss"/>
+<link href="css/font%2Ecss.xml" path="/Themes/perfectchef/css/font%2Ecss"/>
+<link href="css/layout%2Ecss.xml" path="/Themes/perfectchef/css/layout%2Ecss"/>
+<link href="css/teaser%2Ecss.xml" path="/Themes/perfectchef/css/teaser%2Ecss"/>
+<link href="css/notification%2Ecss.xml" path="/Themes/perfectchef/css/notification%2Ecss"/>
+<link href="css/navigation%2Ecss.xml" path="/Themes/perfectchef/css/navigation%2Ecss"/>
+<link href="css/button%2Ecss.xml" path="/Themes/perfectchef/css/button%2Ecss"/>
+<link href="css/mobile%2Ecss.xml" path="/Themes/perfectchef/css/mobile%2Ecss"/>
+<link href="css/mobile_portrait%2Ecss.xml" path="/Themes/perfectchef/css/mobile_portrait%2Ecss"/>
+<link href="css/mobile_landscape%2Ecss.xml" path="/Themes/perfectchef/css/mobile_landscape%2Ecss"/>
+<link href="css/tablet%2Ecss.xml" path="/Themes/perfectchef/css/tablet%2Ecss"/>
+<link href="css/tablet_portrait%2Ecss.xml" path="/Themes/perfectchef/css/tablet_portrait%2Ecss"/>
+<link href="css/tablet_landscape%2Ecss.xml" path="/Themes/perfectchef/css/tablet_landscape%2Ecss"/>
+<link href="css/desktop%2Ecss.xml" path="/Themes/perfectchef/css/desktop%2Ecss"/>
+<link href="css/fragment%2Ecss.xml" path="/Themes/perfectchef/css/fragment%2Ecss"/>
+<link href="css/lc-es%2Ecss.xml" path="/Themes/perfectchef/css/lc-es%2Ecss"/>
+<link href="css/perfectchef-es%2Ecss.xml" path="/Themes/perfectchef/css/perfectchef-es%2Ecss"/>
+<link href="css/perfectchef-es-form%2Ecss.xml" path="/Themes/perfectchef/css/perfectchef-es-form%2Ecss"/>
+</include>
+<dataUrl></dataUrl>
+<media></media>
+</CMCSS>

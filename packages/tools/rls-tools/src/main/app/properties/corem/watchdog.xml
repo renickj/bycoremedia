@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE Watchdog SYSTEM "classpath:xml/coremedia-watchdog.dtd">
+
+<Watchdog>
+
+  <!-- Probe a CoreMedia Replication Live Server -->
+  <Component name="ProbeContentServer" startAction="Content-IOR-Query" delay="0">
+    <ServerQuery name="Content-IOR-Query" url="http://@RLS_HOST@:@RLS_HTTP_PORT@/coremedia/ior" user="watchdog"
+                 password="watchdog"/>
+  </Component>
+
+  <!-- Probe if CoreMedia Replication Live Server is online -->
+  <Component name="ProbeContentServerOnline" startAction="PSO-ServerMode" delay="0">
+    <ServerMode name="PSO-ServerMode" url="http://@RLS_HOST@:@RLS_HTTP_PORT@/coremedia/ior" user="watchdog" password="watchdog"
+                mode="online"/>
+  </Component>
+
+  <!-- Probe if CoreMedia Replication Live Server is in administration mode -->
+  <Component name="ProbeReplicationLiveServerAdministration" startAction="PSA-ServerMode" delay="0">
+    <ServerMode name="PSA-ServerMode" url="http://@RLS_HOST@:@RLS_HTTP_PORT@/coremedia/ior" user="watchdog" password="watchdog"
+                mode="administration"/>
+  </Component>
+
+  <!-- Probe if the CoreMedia Replicator Live Server's Replicator Service is online -->
+  <Component name="ProbeReplicator" startAction="PRS-ServiceStatus" delay="0">
+    <ServiceStatus name="PRS-ServiceStatus" url="http://@RLS_HOST@:@RLS_HTTP_PORT@/coremedia/ior" user="watchdog" password="watchdog" service="replicator"/>
+  </Component>
+
+</Watchdog>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/United States/English/Navigation/Categories/05_Recipes/Spring Recipes/Salads" name="Salads Spring Page Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Our Best Salad Recipes</teaserTitle>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Greek%20Salad%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Recipes/Spring%20Recipes/Greek%20Salad%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Salads%20Spring%20Page.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Spring%20Recipes/Salads/Salads%20Spring%20Page"/>
+</target>
+</CMTeaser>

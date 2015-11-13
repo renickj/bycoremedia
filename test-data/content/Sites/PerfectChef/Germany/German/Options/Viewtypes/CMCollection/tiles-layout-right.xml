@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection" name="tiles-layout-right" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-right.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-right"/>
+</master>
+<masterVersion>3</masterVersion>
+<description>Displays a collection in a right focused tiles layout.</description>
+<icon href="tiles-layout-right.icon.png" mimetype="image/png"/>
+<layout>tiles-layout-right</layout>
+</CMViewtype>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Men" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Men</value>
+<children>
+<link href="Men%20Fall%20Casual.xml" path="/Settings/Taxonomies/Subject/Men%20Fall%20Casual"/>
+<link href="Men%20Elegant%20Fall.xml" path="/Settings/Taxonomies/Subject/Men%20Elegant%20Fall"/>
+<link href="Men%20Spring%20Casual.xml" path="/Settings/Taxonomies/Subject/Men%20Spring%20Casual"/>
+<link href="Men%20Elegant%20Spring.xml" path="/Settings/Taxonomies/Subject/Men%20Elegant%20Spring"/>
+</children>
+<externalReference>PC_ApparelMen</externalReference>
+</CMTaxonomy>

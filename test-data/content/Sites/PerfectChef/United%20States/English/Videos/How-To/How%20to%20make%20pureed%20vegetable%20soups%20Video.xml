@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/United States/English/Videos/How-To" name="How to make pureed vegetable soups Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-how-to-make-pureed-vegetable-soups</segment>
+<title>How to make pureed vegetable soups</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Cream.xml" path="/Settings/Taxonomies/Subject/Cream"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/How%20To.xml" path="/Settings/Taxonomies/Subject/How%20To"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Vegetable.xml" path="/Settings/Taxonomies/Subject/Vegetable"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pots.xml" path="/Settings/Taxonomies/Subject/Pots"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Onion.xml" path="/Settings/Taxonomies/Subject/Onion"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Carrot.xml" path="/Settings/Taxonomies/Subject/Carrot"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Butternut.xml" path="/Settings/Taxonomies/Subject/Butternut"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pumpkin.xml" path="/Settings/Taxonomies/Subject/Pumpkin"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Knives.xml" path="/Settings/Taxonomies/Subject/Knives"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Blenders.xml" path="/Settings/Taxonomies/Subject/Blenders"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Hearty Soups</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>See how we turn vegetables into creamy goodness in this short technique video.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Making a pureed soup is easier than you think. See how we turn vegetables into creamy goodness in this short technique video - even without adding cream or other dairy products.</p></div></detailText>
+<pictures>
+<link href="How%20to%20make%20pureed%20vegetable%20soups%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20make%20pureed%20vegetable%20soups%20Picture"/>
+</pictures>
+<related>
+<link href="How%20to%20prep%20butternut%20squash%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/How-To/How%20to%20prep%20butternut%20squash%20Video"/>
+<link href="../../Editorial/Content/Recipes/Fall%20Recipes/Starters/Pumpkin%20Cream%20Soup%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Starters/Pumpkin%20Cream%20Soup%20Recipe%20Article"/>
+<link href="../../Editorial/Content/Recipes/Spring%20Recipes/Starters/Tomato%20Soup%20Recipe%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Spring%20Recipes/Starters/Tomato%20Soup%20Recipe%20Article"/>
+</related>
+<alt>How to make pureed vegetable soups</alt>
+<copyright>Copyright: cooksmarts.com/Vimeo CC-BY-SA 3.0</copyright>
+<dataUrl>//player.vimeo.com/video/73497333</dataUrl>
+</CMVideo>

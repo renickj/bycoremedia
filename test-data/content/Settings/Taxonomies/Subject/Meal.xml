@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Meal" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Meal</value>
+<children>
+<link href="Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="Main.xml" path="/Settings/Taxonomies/Subject/Main"/>
+<link href="Dessert.xml" path="/Settings/Taxonomies/Subject/Dessert"/>
+<link href="Drink.xml" path="/Settings/Taxonomies/Subject/Drink"/>
+<link href="Salad%282%29.xml" path="/Settings/Taxonomies/Subject/Salad%282%29"/>
+<link href="Soup.xml" path="/Settings/Taxonomies/Subject/Soup"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

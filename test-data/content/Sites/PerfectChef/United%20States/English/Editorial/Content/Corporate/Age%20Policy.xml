@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/Corporate" name="Age Policy" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>age-policy</segment>
+<title>Age Policy</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-3">Sorry, but you are too young to be allowed to buy in this shop.</p><p><br/></p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-3">Sorry, but you are too young to be allowed to buy in this shop.</p><p class="p--heading-3"><br/></p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Legal%20-%20Chef%20holding%20papers%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Sitewide%20Pictures/Legal%20-%20Chef%20holding%20papers%20Picture"/>
+</pictures>
+<notSearchable>1</notSearchable>
+<related>
+</related>
+</CMArticle>

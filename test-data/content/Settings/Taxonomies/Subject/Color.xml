@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Color" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Color</value>
+<children>
+<link href="White.xml" path="/Settings/Taxonomies/Subject/White"/>
+<link href="Black.xml" path="/Settings/Taxonomies/Subject/Black"/>
+<link href="Red.xml" path="/Settings/Taxonomies/Subject/Red"/>
+<link href="Blue.xml" path="/Settings/Taxonomies/Subject/Blue"/>
+<link href="Orange%282%29.xml" path="/Settings/Taxonomies/Subject/Orange%282%29"/>
+<link href="Green.xml" path="/Settings/Taxonomies/Subject/Green"/>
+<link href="Multi.xml" path="/Settings/Taxonomies/Subject/Multi"/>
+<link href="Brown.xml" path="/Settings/Taxonomies/Subject/Brown"/>
+<link href="Wooden.xml" path="/Settings/Taxonomies/Subject/Wooden"/>
+<link href="Yellow.xml" path="/Settings/Taxonomies/Subject/Yellow"/>
+<link href="Pink.xml" path="/Settings/Taxonomies/Subject/Pink"/>
+<link href="Magenta.xml" path="/Settings/Taxonomies/Subject/Magenta"/>
+<link href="Grey.xml" path="/Settings/Taxonomies/Subject/Grey"/>
+<link href="Auburn.xml" path="/Settings/Taxonomies/Subject/Auburn"/>
+<link href="Beige.xml" path="/Settings/Taxonomies/Subject/Beige"/>
+<link href="Silver.xml" path="/Settings/Taxonomies/Subject/Silver"/>
+<link href="Gold.xml" path="/Settings/Taxonomies/Subject/Gold"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

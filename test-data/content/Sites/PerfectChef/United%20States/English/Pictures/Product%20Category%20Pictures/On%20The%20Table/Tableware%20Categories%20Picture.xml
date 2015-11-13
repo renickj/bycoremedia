@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMPicture folder="/Sites/PerfectChef/United States/English/Pictures/Product Category Pictures/On The Table" name="Tableware Categories Picture" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="focusArea">
+<Struct>
+<StringProperty Name="x1">0</StringProperty>
+<StringProperty Name="y1">0</StringProperty>
+<StringProperty Name="x2">1</StringProperty>
+<StringProperty Name="y2">1</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="transforms">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">b;a=0;c=1/crop;x=529;y=32;width=813;height=1258</StringProperty>
+<StringProperty Name="portrait_ratio3x4">b;a=0;c=1/crop;x=399;y=28;width=947;height=1262</StringProperty>
+<StringProperty Name="portrait_ratio1x1">b;a=0;c=1/crop;x=79;y=28;width=1255;height=1255</StringProperty>
+<StringProperty Name="landscape_ratio4x3">b;a=0;c=1/crop;x=178;y=28;width=1661;height=1247</StringProperty>
+<StringProperty Name="landscape_ratio16x9">b;a=0;c=1/crop;x=91;y=32;width=1859;height=1045</StringProperty>
+<StringProperty Name="landscape_ratio2x1">b;a=0;c=1/crop;x=99;y=36;width=1863;height=931</StringProperty>
+<StringProperty Name="landscape_ratio5x2">b;a=0;c=1/crop;x=79;y=32;width=1874;height=750</StringProperty>
+<StringProperty Name="landscape_ratio8x3">b;a=0;c=1/crop;x=71;y=32;width=1882;height=706</StringProperty>
+<StringProperty Name="landscape_ratio4x1">b;a=0;c=1/crop;x=79;y=162;width=1878;height=469</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="relative">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">position;x1=0.2581888246628131;y1=0.023121387283236993;x2=0.6551059730250481;y2=0.9450867052023122</StringProperty>
+<StringProperty Name="portrait_ratio3x4">position;x1=0.19460500963391136;y1=0.02023121387283237;x2=0.6570327552986512;y2=0.9450867052023122</StringProperty>
+<StringProperty Name="portrait_ratio1x1">position;x1=0.038535645472061654;y1=0.02023121387283237;x2=0.651252408477842;y2=0.9393063583815029</StringProperty>
+<StringProperty Name="landscape_ratio4x3">position;x1=0.08670520231213873;y1=0.02023121387283237;x2=0.8978805394990366;y2=0.9335260115606936</StringProperty>
+<StringProperty Name="landscape_ratio16x9">position;x1=0.04431599229287091;y1=0.023121387283236993;x2=0.9518304431599229;y2=0.7890173410404624</StringProperty>
+<StringProperty Name="landscape_ratio2x1">position;x1=0.04816955684007707;y1=0.02601156069364162;x2=0.9576107899807321;y2=0.708092485549133</StringProperty>
+<StringProperty Name="landscape_ratio5x2">position;x1=0.038535645472061654;y1=0.023121387283236993;x2=0.953757225433526;y2=0.5722543352601156</StringProperty>
+<StringProperty Name="landscape_ratio8x3">position;x1=0.03468208092485549;y1=0.023121387283236993;x2=0.953757225433526;y2=0.5404624277456648</StringProperty>
+<StringProperty Name="landscape_ratio4x1">position;x1=0.038535645472061654;y1=0.11849710982658959;x2=0.9556840077071291;y2=0.4624277456647399</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="isDefault">
+<Struct>
+<StringProperty Name="portrait_ratio20x31">false</StringProperty>
+<StringProperty Name="portrait_ratio3x4">false</StringProperty>
+<StringProperty Name="portrait_ratio1x1">false</StringProperty>
+<StringProperty Name="landscape_ratio4x3">false</StringProperty>
+<StringProperty Name="landscape_ratio16x9">false</StringProperty>
+<StringProperty Name="landscape_ratio2x1">false</StringProperty>
+<StringProperty Name="landscape_ratio5x2">false</StringProperty>
+<StringProperty Name="landscape_ratio8x3">false</StringProperty>
+<StringProperty Name="landscape_ratio4x1">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="reflection">
+<Struct>
+<StringProperty Name="h">false</StringProperty>
+<StringProperty Name="v">false</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="rotation">
+<Struct>
+<StringProperty Name="crude">0</StringProperty>
+<StringProperty Name="fine">0</StringProperty>
+</Struct>
+</StructProperty>
+<StructProperty Name="coloring">
+<Struct>
+<StringProperty Name="brightness">0</StringProperty>
+<StringProperty Name="contrast">1</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Tableware</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<alt>Tableware</alt>
+<copyright>Africa Studio/Shutterstock 126911282</copyright>
+<data href="Tableware%20Categories%20Picture.data.jpeg" mimetype="image/jpeg"/>
+<dataUrl></dataUrl>
+</CMPicture>

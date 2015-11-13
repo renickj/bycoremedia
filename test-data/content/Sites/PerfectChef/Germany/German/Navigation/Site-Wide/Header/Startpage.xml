@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Header" name="Startpage" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Navigation/Site-Wide/Header/Startpage.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Site-Wide/Header/Startpage"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMTeaser/logo.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMTeaser/logo"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Zurück zur Startseite</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../../Perfect%20Chef%20Deutschland.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Perfect%20Chef%20Deutschland"/>
+</target>
+</CMTeaser>

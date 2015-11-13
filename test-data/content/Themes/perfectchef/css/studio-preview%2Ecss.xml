@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCSS folder="/Themes/perfectchef/css" name="studio-preview.css" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>.cm-teaser__content {</p><p>  /* No zooming in Studio preview */</p><p>  -webkit-transition: none;</p><p>  -moz-transition: none;</p><p>  -o-transition: none;</p><p>  transition: none;</p><p>}</p><p>.cm-teaser:hover .cm-teaser__content {</p><p>  /* No zooming in Studio preview */</p><p>  -webkit-transform: none;</p><p>  -ms-transform: none;</p><p>  transform: none;</p><p>  -webkit-transition: none;</p><p>  -moz-transition: none;</p><p>  -o-transition: none;</p><p>  transition: none;</p><p>}</p></div></code>
+<ieExpression></ieExpression>
+<include>
+</include>
+<dataUrl></dataUrl>
+<media></media>
+</CMCSS>

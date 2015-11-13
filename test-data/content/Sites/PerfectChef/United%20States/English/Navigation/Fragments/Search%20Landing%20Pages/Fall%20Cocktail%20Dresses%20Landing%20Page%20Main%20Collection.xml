@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/United States/English/Navigation/Fragments/Search Landing Pages" name="Fall Cocktail Dresses Landing Page Main Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Elegance</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Fall%20Cocktail%20Dresses%20Category%20Main%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Fragments/Search%20Landing%20Pages/Fall%20Cocktail%20Dresses%20Category%20Main%20Teaser"/>
+<link href="../../../Videos/Campaigns/Fall%20Dresses%20Campaign/Red%20Cocktail%20Dress%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Campaigns/Fall%20Dresses%20Campaign/Red%20Cocktail%20Dress%20Video"/>
+<link href="../../../Editorial/Products/Fall%20Campaign/Evening%20Gown%20Red%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Evening%20Gown%20Red%20Product%20Teaser"/>
+<link href="../../../Editorial/Products/Fall%20Campaign/Evening%20Gown%20Black%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Evening%20Gown%20Black%20Product%20Teaser"/>
+<link href="../../../Videos/Campaigns/Fall%20Dresses%20Campaign/Red%20and%20White%20Cocktail%20Dress%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Campaigns/Fall%20Dresses%20Campaign/Red%20and%20White%20Cocktail%20Dress%20Video"/>
+</items>
+</CMCollection>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Settings/Options/Bundles" name="Livecontext_en" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<masterVersion>0</masterVersion>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StringProperty Name="commerce.error.1000">Missing URL parameter</StringProperty>
+<StringProperty Name="commerce.error.1010">The challenge answer was not supplied.</StringProperty>
+<StringProperty Name="commerce.error.1020">The challenge answer supplied is incorrect.</StringProperty>
+<StringProperty Name="commerce.error.2000">The username is missing</StringProperty>
+<StringProperty Name="commerce.error.2010">The username does not belong to a valid registered user.</StringProperty>
+<StringProperty Name="commerce.error.2030">The specified user or password are not correct.</StringProperty>
+<StringProperty Name="commerce.error.2040">The old password is missing.</StringProperty>
+<StringProperty Name="commerce.error.2050">The logged in user supplied an incorrect old password.</StringProperty>
+<StringProperty Name="commerce.error.2060">The password is missing.</StringProperty>
+<StringProperty Name="commerce.error.2070">The password verify is missing.</StringProperty>
+<StringProperty Name="commerce.error.2080">The password and password verification do not match.</StringProperty>
+<StringProperty Name="commerce.error.2100">The e-mail address for the supplied username is missing.</StringProperty>
+<StringProperty Name="commerce.error.2110">The user account is disabled.</StringProperty>
+<StringProperty Name="commerce.error.2170">The current password has expired. A new password must be specified.</StringProperty>
+<StringProperty Name="commerce.error.2200">The password length is too short.</StringProperty>
+<StringProperty Name="commerce.error.2210">The number of allowed consecutive characters of this type is greater than the allowed maximum.</StringProperty>
+<StringProperty Name="commerce.error.2220">The number of allowed instances of characters of this type is greater than the allowed maximum.</StringProperty>
+<StringProperty Name="commerce.error.2230">The password does not contain the required minimum number of letters.</StringProperty>
+<StringProperty Name="commerce.error.2240">The password does not contain the required minimum number of digits.</StringProperty>
+<StringProperty Name="commerce.error.2250">The password cannot match the userid.</StringProperty>
+<StringProperty Name="commerce.error.2260">The password cannot be the same as the previous password.</StringProperty>
+<StringProperty Name="commerce.error.2300">You must wait before logging in again.</StringProperty>
+<StringProperty Name="commerce.error.2400">An ancestor organization is locked.</StringProperty>
+<StringProperty Name="commerce.error.2410">You do not have a role in the store's organizational hierarchy.</StringProperty>
+<StringProperty Name="commerce.error.2420">The registration is pending approval.</StringProperty>
+<StringProperty Name="commerce.error.2430">Your password has been reset. Please retrieve the temporary password from your email and login again.</StringProperty>
+<StringProperty Name="shop_now">Shop Now</StringProperty>
+<StringProperty Name="cart">Cart</StringProperty>
+<StringProperty Name="cart_title">Your Shopping Cart</StringProperty>
+<StringProperty Name="cart_product">Product</StringProperty>
+<StringProperty Name="cart_quantity">Quantity</StringProperty>
+<StringProperty Name="cart_price">Price</StringProperty>
+<StringProperty Name="cart_description">Description</StringProperty>
+<StringProperty Name="cart_add_item">Add to Cart</StringProperty>
+<StringProperty Name="cart_remove_item">Remove from Cart</StringProperty>
+<StringProperty Name="cart_unavailable">Unavailable</StringProperty>
+<StringProperty Name="cart_view_variants">Show Details</StringProperty>
+<StringProperty Name="cart_empty">Sorry, your Cart is empty.</StringProperty>
+<StringProperty Name="cart_go_to_cart">Go to Cart</StringProperty>
+<StringProperty Name="checkout_continue">Continue with checkout</StringProperty>
+<StringProperty Name="product_assets_downloads">Available Downloads</StringProperty>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

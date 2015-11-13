@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scan="true" scanPeriod="30 seconds">
+
+  <include resource="logging-common.xml"/>
+
+   <!--as documented-->
+  <logger name="cap.server" level="warn" additivity="false">
+    <appender-ref ref="file"/>
+  </logger>
+  <logger name="workflow.server" level="warn" additivity="false">
+    <appender-ref ref="file"/>
+  </logger>
+  <logger name="com.coremedia.workflow" level="warn" additivity="false">
+    <appender-ref ref="file"/>
+  </logger>
+
+  <logger name="hox.corem.server" level="warn" additivity="false">
+    <appender-ref ref="file"/>
+  </logger>
+
+  <root level="warn">
+    <appender-ref ref="file"/>
+  </root>
+</configuration>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/PerfectChef/United States/English/Editorial/Content/FAQ" name="FAQ Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMCollection/accordion.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/accordion"/>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StringProperty Name="type">faq</StringProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>F.A.Q.</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="FAQ%3A%20Support%20Hotline.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Support%20Hotline"/>
+<link href="FAQ%3A%20Local%20Stores.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Local%20Stores"/>
+<link href="FAQ%3A%20Delivery%20Services.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Delivery%20Services"/>
+<link href="FAQ%3A%20World-wide%20shipping.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20World-wide%20shipping"/>
+<link href="FAQ%3A%20Item%20out%20of%20stock.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Item%20out%20of%20stock"/>
+<link href="FAQ%3A%20Discount%20Options.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Discount%20Options"/>
+<link href="FAQ%3A%20Pricing%20and%20Tax.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Pricing%20and%20Tax"/>
+<link href="FAQ%3A%20Repairs.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Repairs"/>
+<link href="FAQ%3A%20Damage%20in%20transit.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Damage%20in%20transit"/>
+<link href="FAQ%3A%20Warranty.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Warranty"/>
+<link href="FAQ%3A%20Return%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Return%20Article"/>
+<link href="FAQ%3A%20Express%20Shipping.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Express%20Shipping"/>
+<link href="FAQ%3A%20Clothing%20Sizes.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Clothing%20Sizes"/>
+<link href="FAQ%3A%20Order%20Status.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Order%20Status"/>
+<link href="FAQ%3A%20Print%20Catalog.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Print%20Catalog"/>
+<link href="FAQ%3A%20Payment%20Options.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Payment%20Options"/>
+<link href="FAQ%3A%20Website%20Problems.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Website%20Problems"/>
+</items>
+</CMCollection>

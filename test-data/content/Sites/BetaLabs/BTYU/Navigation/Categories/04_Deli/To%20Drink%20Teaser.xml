@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Categories/04_Deli" name="To Drink Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Zu Trinken</teaserTitle>
+<pictures>
+<link href="../../../../../PerfectChef/Germany/German/Pictures/Product%20Pictures/04_Deli/To%20Drink/PC_ORANGE_TEA%20Frontshot.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/04_Deli/To%20Drink/PC_ORANGE_TEA%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="To%20Drink/To%20Drink%20External%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/04_Deli/To%20Drink/To%20Drink%20External%20Page"/>
+</target>
+</CMTeaser>

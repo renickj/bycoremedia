@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMGallery folder="/Sites/PerfectChef/Germany/German/Videos/Documentaries" name="Jacob's Recipe - A short documentary Gallery" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Gallery.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Gallery"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Jacobs Rezept - Ein kurzer Dokumentarfilm</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Video%282%29.xml" path="/Settings/Taxonomies/Subject/Video%282%29"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Inspirational.xml" path="/Settings/Taxonomies/Subject/Inspirational"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Hero.xml" path="/Settings/Taxonomies/Subject/Hero"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Jacobs Rezept</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Entdecken Sie die Galerie über Jacob Kenedy - ein junger, aber erfahrener Londoner Koch. </p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Entdecken Sie die Galerie über Jacob Kenedy - ein junger, aber erfahrener Londoner Koch. Im Jahr 2008 eröffnete er sein Traum-Restaurant Bocca di Lupo mit seinem Geschäftspartner Victor Hugo. Das Restaurant hat verschiedene Preise und Auszeichnungen für seine ehrliche, regionale italienische Küche erhalten. <br/></p></div></detailText>
+<pictures>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2014%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2014%20Picture"/>
+</pictures>
+<related>
+</related>
+<items>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2001%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2001%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2002%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2002%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2003%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2003%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2004%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2004%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2005%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2005%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2006%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2006%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2007%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2007%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2008%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2008%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2009%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2009%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2010%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2010%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2011%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2011%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2012%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2012%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2013%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2013%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2014%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2014%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2015%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2015%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2016%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2016%20Picture"/>
+<link href="Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2017%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Documentaries/Jacob%27s%20Recipe%20-%20A%20short%20documentary%20Pictures/Jacobs%20Recipe%2017%20Picture"/>
+</items>
+</CMGallery>

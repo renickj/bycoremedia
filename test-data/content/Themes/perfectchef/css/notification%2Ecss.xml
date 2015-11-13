@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCSS folder="/Themes/perfectchef/css" name="notification.css" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/* =====================================================================================================================</p><p>   Notification classes</p><p>   Contains styling definitions for notifications.</p><p>   ================================================================================================================== */</p><p>/* box */</p><p>.cm-notification {</p><p>  position: relative;</p><p>  padding: 10px 25px 10px 35px;</p><p>  min-height: 20px;</p><p>  color: #cccccc;</p><p>  line-height: 20px;</p><p>}</p><p>/* title */</p><p>.cm-notification__headline {</p><p>  font-weight: bold;</p><p>}</p><p>/* icon */</p><p>.cm-notification:before {</p><p>  position: absolute;</p><p>  margin: -1px 0 0 -35px;</p><p>  font-size: 24px;</p><p>  font-family: 'perfectchef';</p><p>  cursor: default;</p><p>}</p><p>.cm-notification--error {</p><p>  color: #e30615;</p><p>}</p><p>.cm-notification--error:before {</p><p>  content: "\e60e";</p><p>}</p><p>.cm-notification--warning {</p><p>  color: #ee9234;</p><p>}</p><p>.cm-notification--warning:before {</p><p>  content: "\e611";</p><p>}</p><p>.cm-notification--info {</p><p>  color: #4681c5;</p><p>}</p><p>.cm-notification--info:before {</p><p>  content: "\e60d";</p><p>}</p><p>.cm-notification--success {</p><p>  color: #5cb565;</p><p>}</p><p>.cm-notification--success:before {</p><p>  content: "\e60f";</p><p>}</p><p>/* dismiss-button */</p><p>.cm-notification__dismiss:before {</p><p>  position: absolute;</p><p>  top: 2px;</p><p>  right: 5px;</p><p>  color: rgba(0, 0, 0, 0.75);</p><p>  content: "\e610";</p><p>  font-size: 12px;</p><p>  font-family: 'perfectchef';</p><p>  cursor: pointer;</p><p>}</p><p>/* dismiss in error alert */</p><p>.cm-notification--error .cm-notification__dismiss:before {</p><p>  color: rgba(255, 255, 255, 1);</p><p>}</p><p>.cm-notification--inactive {</p><p>  display: none;</p><p>}</p></div></code>
+<ieExpression></ieExpression>
+<include>
+</include>
+<dataUrl></dataUrl>
+<media></media>
+</CMCSS>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMFolderProperties folder="/Sites/PerfectChef/United States/English/Editorial/Content/Recipes/Fall Recipes" name="_folderProperties" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<contexts>
+<link href="../../../../Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipes.xml" path="/Sites/PerfectChef/United%20States/English/Navigation/Categories/05_Recipes/Fall%20Recipes/Fall%20Recipes"/>
+</contexts>
+</CMFolderProperties>

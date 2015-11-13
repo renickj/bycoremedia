@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine Fall/Story 1 - A Perfect Dinner" name="Evening Dresses Landing Page Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner/Evening%20Dresses%20Landing%20Page%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Fall/Story%201%20-%20A%20Perfect%20Dinner/Evening%20Dresses%20Landing%20Page%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Abend-Chic</teaserTitle>
+<pictures>
+<link href="../../../../Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Her/PC_EVENING_DRESS%20red%20Actionshot.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/03_For%20The%20Cook/Apparel/Apparel%20Elegant/Fall/For%20Her/PC_EVENING_DRESS%20red%20Actionshot"/>
+</pictures>
+<related>
+</related>
+<target>
+</target>
+</CMTeaser>

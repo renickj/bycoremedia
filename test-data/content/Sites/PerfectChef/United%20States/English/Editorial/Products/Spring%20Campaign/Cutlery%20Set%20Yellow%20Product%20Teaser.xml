@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/PerfectChef/United States/English/Editorial/Products/Spring Campaign" name="Cutlery Set Yellow Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Yellow</teaserTitle>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/01_On%20The%20Table/Plates%2C%20Tableware/PC_CUTLERY_SET_YELLOW%20Frontshot.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Product%20Pictures/01_On%20The%20Table/Plates%2C%20Tableware/PC_CUTLERY_SET_YELLOW%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/product/PC_CUTLERY_SET_YELLOW</externalId>
+</CMProductTeaser>

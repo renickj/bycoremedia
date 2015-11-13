@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSelectionRules folder="/Sites/Aurora Augmentation/United States/English/Navigation/Personalization/Startpage" name="Personalized Casual Clothing Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMCollection/unboxed.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/unboxed"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Casual Clothing</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Casual Clothing</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>This personalized product teaser uses various persona attributes to target:</p><p><br/></p><p>- female: yellow summer dress</p><p><br/></p><p>- no match: casual blue Men's t-shirt<br/></p><p><br/></p></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+<rules grammarName="coremedia-selectionrules-1.0"><rules version="1.0" xmlns="http://www.coremedia.com/2010/selectionrules" xmlns:xlink="http://www.w3.org/1999/xlink">select <content xlink:href="coremedia:///cap/resources/../../../Editorial/Products/Spring%20Campaign/Summer%20Dress%20Product%20Teaser%20-%20yellow.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Spring%20Campaign/Summer%20Dress%20Product%20Teaser%20-%20yellow"/> if nuggad.gender=2 or explicit.<content xlink:href="coremedia:///cap/resources/../../../../../../../Settings/Taxonomies/Subject/Female.xml" cmexport:path="/Settings/Taxonomies/Subject/Female"/>=1</rules></rules>
+<defaultContent>
+<link href="../../../Editorial/Products/Spring%20Campaign/Men%20T-Shirt%20Product%20Teaser%20-%20blue.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Spring%20Campaign/Men%20T-Shirt%20Product%20Teaser%20-%20blue"/>
+</defaultContent>
+</CMSelectionRules>

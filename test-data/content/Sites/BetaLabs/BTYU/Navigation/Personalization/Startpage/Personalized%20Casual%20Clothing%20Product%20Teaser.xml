@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSelectionRules folder="/Sites/BetaLabs/BTYU/Navigation/Personalization/Startpage" name="Personalized Casual Clothing Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../../PerfectChef/Germany/German/Options/Viewtypes/CMCollection/unboxed.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/unboxed"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Lässige Kleidung</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Lässige Kleidung</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p> Diese personalisierte Produkt Teaser verwendet verschiedene Attribute persona zum Ziel: </p> <p><br/></p> <p> - Weiblich: gelb Sommerkleid </p> <p><br/></p> <p> - Keine Übereinstimmung: casual blau Herren T-Shirt <br/></p> <p><br/></p> </div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+<rules grammarName="coremedia-selectionrules-1.0"><rules version="1.0" xmlns="http://www.coremedia.com/2010/selectionrules" xmlns:xlink="http://www.w3.org/1999/xlink">select <content xlink:href="coremedia:///cap/resources/../../../../../PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Summer%20Dress%20Product%20Teaser%20-%20yellow.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Summer%20Dress%20Product%20Teaser%20-%20yellow"/> if nuggad.gender=2 or explicit.<content xlink:href="coremedia:///cap/resources/../../../../../../Settings/Taxonomies/Subject/Female.xml" cmexport:path="/Settings/Taxonomies/Subject/Female"/>=1 or commerce.usersegments#"ibm:///catalog/segment/8000000000000000605"</rules></rules>
+<defaultContent>
+<link href="../../../../../PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Men%20T-Shirt%20Product%20Teaser%20-%20blue.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Men%20T-Shirt%20Product%20Teaser%20-%20blue"/>
+</defaultContent>
+</CMSelectionRules>

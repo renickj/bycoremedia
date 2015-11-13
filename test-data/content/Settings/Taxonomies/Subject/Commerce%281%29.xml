@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Commerce(1)" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Commerce</value>
+<children>
+<link href="Product%20Feature.xml" path="/Settings/Taxonomies/Subject/Product%20Feature"/>
+<link href="Teaser.xml" path="/Settings/Taxonomies/Subject/Teaser"/>
+<link href="Inspirational.xml" path="/Settings/Taxonomies/Subject/Inspirational"/>
+<link href="Hero%20Story.xml" path="/Settings/Taxonomies/Subject/Hero%20Story"/>
+<link href="Shop%20the%20Look.xml" path="/Settings/Taxonomies/Subject/Shop%20the%20Look"/>
+<link href="Video%282%29.xml" path="/Settings/Taxonomies/Subject/Video%282%29"/>
+<link href="new%20tag.xml" path="/Settings/Taxonomies/Subject/new%20tag"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

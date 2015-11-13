@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCSS folder="/Themes/aurora" name="aurora.css" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en</locale>
+<master>
+</master>
+<description></description>
+<code grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>/**</p><p> * Includes all css required for theme aurora</p><p> * (this file is a placeholder, the inclusion is defined in exported content)</p><p> */</p></div></code>
+<ieExpression></ieExpression>
+<include>
+<link href="../basic/css/helpers%2Ecss.xml" path="/Themes/basic/css/helpers%2Ecss"/>
+<link href="../basic/vendor/jquery%2Emagnific-popup-0%2E9%2E7/magnific-popup%2Ecss.xml" path="/Themes/basic/vendor/jquery%2Emagnific-popup-0%2E9%2E7/magnific-popup%2Ecss"/>
+<link href="../basic/vendor/mediaelement/mediaelementplayer%2Emin%2Ecss.xml" path="/Themes/basic/vendor/mediaelement/mediaelementplayer%2Emin%2Ecss"/>
+<link href="../basic/css/coremedia-richtext-1%2E0%2Ecss.xml" path="/Themes/basic/css/coremedia-richtext-1%2E0%2Ecss"/>
+<link href="../basic/css/main%2Ecss.xml" path="/Themes/basic/css/main%2Ecss"/>
+<link href="../basic/css/print%2Ecss.xml" path="/Themes/basic/css/print%2Ecss"/>
+<link href="../basic/css/es%2Ecss.xml" path="/Themes/basic/css/es%2Ecss"/>
+<link href="../basic/css/es-form%2Ecss.xml" path="/Themes/basic/css/es-form%2Ecss"/>
+<link href="../perfectchef/css/font%2Ecss.xml" path="/Themes/perfectchef/css/font%2Ecss"/>
+<link href="../perfectchef/css/layout%2Ecss.xml" path="/Themes/perfectchef/css/layout%2Ecss"/>
+<link href="../perfectchef/css/teaser%2Ecss.xml" path="/Themes/perfectchef/css/teaser%2Ecss"/>
+<link href="../perfectchef/css/notification%2Ecss.xml" path="/Themes/perfectchef/css/notification%2Ecss"/>
+<link href="../perfectchef/css/navigation%2Ecss.xml" path="/Themes/perfectchef/css/navigation%2Ecss"/>
+<link href="../perfectchef/css/button%2Ecss.xml" path="/Themes/perfectchef/css/button%2Ecss"/>
+<link href="../perfectchef/css/mobile%2Ecss.xml" path="/Themes/perfectchef/css/mobile%2Ecss"/>
+<link href="../perfectchef/css/mobile_portrait%2Ecss.xml" path="/Themes/perfectchef/css/mobile_portrait%2Ecss"/>
+<link href="../perfectchef/css/mobile_landscape%2Ecss.xml" path="/Themes/perfectchef/css/mobile_landscape%2Ecss"/>
+<link href="../perfectchef/css/tablet%2Ecss.xml" path="/Themes/perfectchef/css/tablet%2Ecss"/>
+<link href="../perfectchef/css/tablet_portrait%2Ecss.xml" path="/Themes/perfectchef/css/tablet_portrait%2Ecss"/>
+<link href="../perfectchef/css/tablet_landscape%2Ecss.xml" path="/Themes/perfectchef/css/tablet_landscape%2Ecss"/>
+<link href="../perfectchef/css/desktop%2Ecss.xml" path="/Themes/perfectchef/css/desktop%2Ecss"/>
+<link href="../perfectchef/css/lc-es%2Ecss.xml" path="/Themes/perfectchef/css/lc-es%2Ecss"/>
+<link href="../perfectchef/css/perfectchef-es%2Ecss.xml" path="/Themes/perfectchef/css/perfectchef-es%2Ecss"/>
+<link href="../perfectchef/css/perfectchef-es-form%2Ecss.xml" path="/Themes/perfectchef/css/perfectchef-es-form%2Ecss"/>
+<link href="css/aurora%2Ecss.xml" path="/Themes/aurora/css/aurora%2Ecss"/>
+<link href="css/aurora-es%2Ecss.xml" path="/Themes/aurora/css/aurora-es%2Ecss"/>
+</include>
+<dataUrl></dataUrl>
+<media></media>
+</CMCSS>

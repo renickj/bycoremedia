@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/Aurora Augmentation/United States/English/Navigation/Microsites/99_Magazine Fall/Reviews" name="Fall Video Reviews Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Watch: Independent Product Reviews</teaserTitle>
+<pictures>
+<link href="../../../../Videos/Product%20Reviews/Best%20Knives%20Review%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Product%20Reviews/Best%20Knives%20Review%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Fall%20Video%20Reviews%20Page.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Microsites/99_Magazine%20Fall/Reviews/Fall%20Video%20Reviews%20Page"/>
+</target>
+</CMTeaser>

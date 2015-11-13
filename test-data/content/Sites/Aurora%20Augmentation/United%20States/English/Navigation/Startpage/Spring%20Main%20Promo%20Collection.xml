@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Navigation/Startpage" name="Spring Main Promo Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../Options/Viewtypes/CMCollection/tiles-layout-highlight.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-highlight"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Spring Main Promo Collection</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Spring Main Promo Collection</teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>This Main Promo Collection sits below the Hero Banner Collection and the E-Marketing Spot for Homepage offers.</p><p>It contains a variety of teasers, some of them personalised, some linking to products, others to content items.</p><p><br/></p><p>Please select users from the Persona dropdown to see how the page changes for various user groups identified by the personas.</p></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../Personalization/Startpage/Personalized%20Top%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Personalization/Startpage/Personalized%20Top%20Teaser"/>
+<link href="../../Editorial/Products/Spring%20Campaign/Fruit%20Bowl%20Product%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Spring%20Campaign/Fruit%20Bowl%20Product%20Teaser"/>
+<link href="../../Editorial/Products/Spring%20Campaign/Oval%20Picnic%20Basket%20Product%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Spring%20Campaign/Oval%20Picnic%20Basket%20Product%20Teaser"/>
+<link href="../Personalization/Startpage/Personalized%20Casual%20Clothing%20Product%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Personalization/Startpage/Personalized%20Casual%20Clothing%20Product%20Teaser"/>
+<link href="../Personalization/Startpage/Personalized%20Glasses%20Product%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Navigation/Personalization/Startpage/Personalized%20Glasses%20Product%20Teaser"/>
+</items>
+</CMCollection>

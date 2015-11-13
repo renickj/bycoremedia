@@ -1,0 +1,78 @@
+#IntelliJ Idea:
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Maven:
+target/
+overlays/
+.m2
+
+# Eclipse:
+.classpath
+.project
+.settings/
+
+# Sass:
+.sass-cache/
+*.css.map
+
+# Grunt/NPM:
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+node_modules/
+modules/extensions/corporate/corporate-theme/node/
+modules/extensions/estore/estore-theme/node/
+
+# Logs:
+*.log
+*.out
+.npm-debug.log
+
+# Git:
+*.orig
+
+# OS X:
+.DS_Store
+
+# Emacs
+*~
+
+# Vagrant:
+.vagrant/
+.vagrantuser
+.repository
+".gitignore" [noeol] 54L, 708C*.iml
+*.ipr
+*.iws
+.idea/
+# maven:
+target/
+overlays/
+# eclipse:
+.classpath
+.project
+.settings/
+# Logs:
+*.log
+*.out
+# git:
+*.orig
+# OS X
+.DS_Store
+# Emacs
+*~
+# Vagrant
+.vagrant/
+.vagrantuser
+# Grunt/NPM:
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
+node_modules/
+**/*-theme/node
+# Logs:
+*.log
+*.out
+.npm-debug.log
+# Sass:
+.sass-cache/
+*.css.map

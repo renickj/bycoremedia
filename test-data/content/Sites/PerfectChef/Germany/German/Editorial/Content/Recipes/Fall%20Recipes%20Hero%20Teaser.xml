@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes" name="Fall Recipes Hero Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/Recipes/Fall%20Recipes%20Hero%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes%20Hero%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Verlieben Sie sich in unsere würzige Ente</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Eine wunderbares und leckeres Gericht - ideal für eine Dinner-Party.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Recipes/Fall%20Recipes/Spicy%20Duck%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Recipes/Fall%20Recipes/Spicy%20Duck%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Recipes/Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article"/>
+</target>
+</CMTeaser>

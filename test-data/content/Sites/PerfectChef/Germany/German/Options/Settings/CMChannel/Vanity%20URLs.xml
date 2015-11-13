@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMSettings folder="/Sites/PerfectChef/Germany/German/Options/Settings/CMChannel" name="Vanity URLs" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Settings/CMChannel/Vanity%20URLs.xml" path="/Sites/PerfectChef/United%20States/English/Options/Settings/CMChannel/Vanity%20URLs"/>
+</master>
+<masterVersion>3</masterVersion>
+<settings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructListProperty Name="vanityUrlDefinition">
+<Struct>
+<LinkProperty Name="target" LinkType="coremedia:///cap/contenttype/CMGallery" xlink:href="coremedia:///cap/resources/../../../Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Costa%20Rica%20Coffee%20Gallery.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%205%20-%20Coffee%20Costa%20Rica/Costa%20Rica%20Coffee%20Gallery"/>
+<StringProperty Name="id">kaffee</StringProperty>
+</Struct>
+<Struct>
+<StringProperty Name="id">sommerkleider</StringProperty>
+<LinkProperty Name="target" LinkType="coremedia:///cap/contenttype/Content_" xlink:href="coremedia:///cap/resources/../../../Navigation/Landing%20Pages/Spring/Spring%20Summer%20Dresses%20Hidden%20Landing%20Page.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Landing%20Pages/Spring/Spring%20Summer%20Dresses%20Hidden%20Landing%20Page"/>
+</Struct>
+<Struct>
+<StringProperty Name="id">abendkleider</StringProperty>
+<LinkProperty Name="target" LinkType="coremedia:///cap/contenttype/Content_" xlink:href="coremedia:///cap/resources/../../../Navigation/Landing%20Pages/Fall/Fall%20Evening%20Dresses%20Hidden%20Landing%20Page.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Landing%20Pages/Fall/Fall%20Evening%20Dresses%20Hidden%20Landing%20Page"/>
+</Struct>
+<Struct>
+<StringProperty Name="id">cocktailkleider</StringProperty>
+<LinkProperty Name="target" LinkType="coremedia:///cap/contenttype/Content_" xlink:href="coremedia:///cap/resources/../../../Navigation/Landing%20Pages/Fall/Fall%20Evening%20Dresses%20Hidden%20Landing%20Page.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Navigation/Landing%20Pages/Fall/Fall%20Evening%20Dresses%20Hidden%20Landing%20Page"/>
+</Struct>
+</StructListProperty>
+</Struct>
+</settings>
+<identifier></identifier>
+</CMSettings>

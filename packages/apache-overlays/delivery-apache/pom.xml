@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.boots.cms</groupId>
+    <artifactId>apache-overlays</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>delivery-apache</artifactId>
+  <packaging>pom</packaging>
+
+
+  <description>
+    This rpm will only work on Fedora Core, CentOS and RHEL
+  </description>
+
+  <properties>
+    <!-- Set this in your profile to inject a host as request header for development with a single remote instance-->
+    <DEVELOPMENT_FRAGMENT_REQUEST_HEADER></DEVELOPMENT_FRAGMENT_REQUEST_HEADER>
+  </properties>
+
+  <build>
+    <finalName>${APPLICATION_PREFIX}-delivery-apache</finalName>
+    <plugins>
+      <plugin>
+        <groupId>com.coremedia.maven</groupId>
+        <artifactId>coremedia-application-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <executions>
+          <execution>
+            <id>create-zip-and-rpm</id>
+            <goals>
+              <goal>package-inplace</goal>
+              <goal>find-filter-tokens</goal>
+              <goal>zip-it</goal>
+              <goal>rpm</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

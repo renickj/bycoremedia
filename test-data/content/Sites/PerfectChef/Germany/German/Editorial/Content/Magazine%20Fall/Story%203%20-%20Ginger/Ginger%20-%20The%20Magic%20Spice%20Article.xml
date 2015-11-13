@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine Fall/Story 3 - Ginger" name="Ginger - The Magic Spice Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../../United%20States/English/Editorial/Content/Magazine%20Fall/Story%203%20-%20Ginger/Ginger%20-%20The%20Magic%20Spice%20Article.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Magazine%20Fall/Story%203%20-%20Ginger/Ginger%20-%20The%20Magic%20Spice%20Article"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Ingwer - Das Magische Gewürz</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../Settings/Taxonomies/Subject/skinpromotions.xml" path="/Settings/Taxonomies/Subject/skinpromotions"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Ingwer würzt nicht nur viele traditionelle asiatische Gerichte, er ist auch im Westen in Root Beer und verschiedene Desserts beliebt.  </p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><strong>Ingwer</strong> wird ausgiebig als Kochzutat oder Gewürz in der asiatischen und anderen Küchen verwendet. Es ist Teil des westlichen Mainstream-Essens in Root Beer und Desserts wie Lebkuchen und Pfefferkuchen. Obwohl allgemein als "root", also Wurzel bezeichnet, ist es eigentlich das Rhizom der Pflanze Zingiber officinalis.</p><p><img alt="" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xlink:href="coremedia:///cap/resources/Pictures/Ginger%20Picture.xml#data" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%203%20-%20Ginger/Pictures/Ginger%20Picture"/></p><p>Junge Ingwerwurzeln sind saftig und fleischig mit einem sehr milden Geschmack. Sie werden oft in Essig eingelegt als Snack oder einfach nur als Zutat in vielen Gerichten zubereitet. Ältere Ingwer Wurzeln sind faserig und fast trocken. Der Saft aus alten Ingwer-Wurzeln ist extrem scharf und wird oft als Gewürz in der chinesischen Küche verwendet, um andere starke Gerüche und Geschmacksrichtungen wie Meeresfrüchte und Hammelfleisch zu vertuschen.</p><p><img alt="" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xlink:href="coremedia:///cap/resources/Pictures/Ginger%20Root%20Picture.xml#data" cmexport:path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%203%20-%20Ginger/Pictures/Ginger%20Root%20Picture"/></p><p>Aus Ingwer werden auch Süßigkeiten gemacht, er wird als Aromastoff für Kekse und Kuchen verwendet, und ist der Hauptgeschmack in "Ginger Ale", einem süßen, kohlensäurehaltige, nicht-alkoholischen Getränk.<br/><br/>Getrocknetes und gemahlenes Ingwerpulver wird verwendet, um Lebkuchen und anderen Rezepten Würze zu verleihen. Es schmeckt ganz anders als frischer Ingwer, und sie können nicht gegeneinander ausgetauscht werden.<br/><br/>Ingwer wird in den tropischen Gebieten der Welt angebaut. Die teuersten und hochwertigsten Sorten kommen meist aus Indien und Jamaika, während der meiste Massenmarkt-Ingwer in China angebaut wird.<br/><br/>Eine verwandte Pflanze, als Galgant bekannt, wird oft für ähnliche Zwecke in verschiedenen südostasiatischen Küche verwendet.</p><p/></div></detailText>
+<pictures>
+<link href="Pictures/Ginger%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Content/Magazine%20Fall/Story%203%20-%20Ginger/Pictures/Ginger%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Recipes/Fall Recipes/Starters" name="Pumpkin Salad Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Pumpkin Salad with Onion, Arugula, Parmesan and Pesto</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Winter.xml" path="/Settings/Taxonomies/Subject/Winter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Fall.xml" path="/Settings/Taxonomies/Subject/Fall"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Pumpkin.xml" path="/Settings/Taxonomies/Subject/Pumpkin"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spicy.xml" path="/Settings/Taxonomies/Subject/Spicy"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salad%282%29.xml" path="/Settings/Taxonomies/Subject/Salad%282%29"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Pumpkin Salad</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Try pumpkin as salad for a change.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>This delicious, pumpkin-inspired dish is easy to prepare and is perfect for the autumn. </p><p class="p--heading-2">Ingredients</p><ul><li>1.75kg butternut pumpkin, seeds removed, cut into 2cm-thick pieces</li><li>1/2 cup pine nuts</li><li>200g baby arugula</li><li>Honey and balsamic dressing</li><li>1/4 cup honey</li><li>2 tablespoons balsamic vinegar</li><li>1 tablespoon olive oil</li></ul><p class="p--heading-2">Preparation</p><ul><li>​Preheat oven to 250°C</li><li>Line 2 baking trays with baking paper and place pumpkin in a single layer on trays</li><li>Spray with oil and turn to coat</li><li>Season with salt and pepper</li><li>Roast pumpkin, turning once, for 20 minutes or until golden and tender</li><li>Set aside to cool to room temperature</li><li>Heat a small, non-stick frying pan over medium heat and add pine nuts</li><li>Cook, stirring, for 3 minutes or until golden</li><li>Place spinach and pumpkin in a large bowl</li><li>Sprinkle with pine nuts</li><li>Drizzle with dressing</li></ul><p class="p--heading-2">Serving Suggestion</p><p>The salad can be served with bbq, grilled or pan fried salmon.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Fall%20Recipes/Pumpkin%20Salad%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Recipes/Fall%20Recipes/Pumpkin%20Salad%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

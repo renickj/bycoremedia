@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer" name="My Store" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Mein Shop</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../../PerfectChef/Germany/German/Options/Actions/Login.xml" path="/Sites/PerfectChef/Germany/German/Options/Actions/Login"/>
+<link href="Language%20and%20Currency/Country%20and%20Language%20Article.xml" path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/Language%20and%20Currency/Country%20and%20Language%20Article"/>
+<link href="My%20Store%20External%20Links/My%20Wishlist.xml" path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/My%20Store%20External%20Links/My%20Wishlist"/>
+<link href="My%20Store%20External%20Links/My%20Account.xml" path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/My%20Store%20External%20Links/My%20Account"/>
+</items>
+</CMCollection>

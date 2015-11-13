@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMFolderProperties folder="/Sites/PerfectChef/Germany/German/Editorial/Content/Corporate" name="_folderProperties" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/Corporate/_folderProperties.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/Corporate/_folderProperties"/>
+</master>
+<masterVersion>3</masterVersion>
+<contexts>
+<link href="../../../Navigation/Site-Wide/Corporate%20Hidden%20Page.xml" path="/Sites/PerfectChef/Germany/German/Navigation/Site-Wide/Corporate%20Hidden%20Page"/>
+</contexts>
+</CMFolderProperties>

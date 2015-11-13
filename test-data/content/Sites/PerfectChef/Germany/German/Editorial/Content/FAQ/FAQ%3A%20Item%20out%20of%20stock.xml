@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/Germany/German/Editorial/Content/FAQ" name="FAQ: Item out of stock" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Item%20out%20of%20stock.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Content/FAQ/FAQ%3A%20Item%20out%20of%20stock"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>out-of-stock</segment>
+<title>Was kann ich tun, wenn das ausgewählte Produkt nicht mehr vorrätig ist?</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Wenn eines unserer Produkte vergriffen sein, können Sie uns eine E-Mail und wir werden versuchen, für Sie so bald wie möglich wieder-um das Produkt.</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Wenn eines unserer Produkte vergriffen sein sollte, können Sie uns eine E-Mail senden und wir werden versuchen, das Produkt so bald wie möglich für Sie wieder nachzubestellen.</p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

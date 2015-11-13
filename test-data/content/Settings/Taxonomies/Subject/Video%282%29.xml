@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Video(2)" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Video</value>
+<children>
+<link href="How%20To.xml" path="/Settings/Taxonomies/Subject/How%20To"/>
+<link href="Recipe.xml" path="/Settings/Taxonomies/Subject/Recipe"/>
+<link href="Hero.xml" path="/Settings/Taxonomies/Subject/Hero"/>
+<link href="Review.xml" path="/Settings/Taxonomies/Subject/Review"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

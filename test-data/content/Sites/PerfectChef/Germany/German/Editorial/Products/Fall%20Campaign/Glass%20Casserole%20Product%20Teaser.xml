@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/PerfectChef/Germany/German/Editorial/Products/Fall Campaign" name="Glass Casserole Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Editorial/Products/Fall%20Campaign/Glass%20Casserole%20Product%20Teaser.xml" path="/Sites/PerfectChef/United%20States/English/Editorial/Products/Fall%20Campaign/Glass%20Casserole%20Product%20Teaser"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Lecker</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Genießen Sie Aufläufe, die Ihnen in dieser Glaskasserole im Ofen perfekt gelingen.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Pictures/02_In%20The%20Kitchen/Baking%20Pans/PC_GLASS_CASSEROLE%20Frontshot.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Pictures/02_In%20The%20Kitchen/Baking%20Pans/PC_GLASS_CASSEROLE%20Frontshot"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/product/PC_GLASS_CASSEROLE</externalId>
+</CMProductTeaser>

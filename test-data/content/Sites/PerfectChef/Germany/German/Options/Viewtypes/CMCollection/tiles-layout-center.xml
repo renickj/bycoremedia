@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMViewtype folder="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection" name="tiles-layout-center" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../../United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-center.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMCollection/tiles-layout-center"/>
+</master>
+<masterVersion>3</masterVersion>
+<description>Displays a collection in a center focused tiles layout.</description>
+<icon href="tiles-layout-center.icon.png" mimetype="image/png"/>
+<layout>tiles-layout-center</layout>
+</CMViewtype>

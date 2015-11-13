@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Women Spring Elegant" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Women Spring Elegant</value>
+<children>
+<link href="AuroraWMDRS-1.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-1"/>
+<link href="AuroraWMDRS-4.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-4"/>
+<link href="AuroraWMDRS-5.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-5"/>
+<link href="AuroraWMDRS-6.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-6"/>
+<link href="AuroraWMDRS-24.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-24"/>
+<link href="AuroraWMDRS-25.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-25"/>
+<link href="AuroraWMDRS-29.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-29"/>
+<link href="AuroraWMDRS-33.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-33"/>
+<link href="AuroraWMDRS-38.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-38"/>
+<link href="AuroraWMDRS-39.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-39"/>
+<link href="AuroraWMDRS-41.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-41"/>
+<link href="AuroraWMDRS-6%282%29.xml" path="/Settings/Taxonomies/Subject/AuroraWMDRS-6%282%29"/>
+</children>
+<externalReference>PC_ApparelWomenExclusive</externalReference>
+</CMTaxonomy>

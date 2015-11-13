@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMProductTeaser folder="/Sites/Aurora Augmentation/United States/English/Editorial/Products/Spring Campaign" name="Oval Picnic Basket Product Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Outdoors</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Take everything along you need outdoors for a picnic in this oval basket.</p></div></teaserText>
+<pictures>
+<link href="../../../Pictures/Product%20Teaser%20Pictures/01_On%20The%20Table/Outdoor/PC_PICNIC_BASKET_OVAL%20Frontshot%201.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Product%20Teaser%20Pictures/01_On%20The%20Table/Outdoor/PC_PICNIC_BASKET_OVAL%20Frontshot%201"/>
+</pictures>
+<related>
+</related>
+<externalId>ibm:///catalog/product/PC_PICNIC_BASKET_OVAL</externalId>
+</CMProductTeaser>

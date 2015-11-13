@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Cuisine" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Cuisine</value>
+<children>
+<link href="Mediterranean.xml" path="/Settings/Taxonomies/Subject/Mediterranean"/>
+<link href="Asia.xml" path="/Settings/Taxonomies/Subject/Asia"/>
+<link href="France.xml" path="/Settings/Taxonomies/Subject/France"/>
+<link href="Italy.xml" path="/Settings/Taxonomies/Subject/Italy"/>
+<link href="American.xml" path="/Settings/Taxonomies/Subject/American"/>
+<link href="Germany.xml" path="/Settings/Taxonomies/Subject/Germany"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMVideo folder="/Sites/PerfectChef/Germany/German/Videos/Product Reviews" name="Best Traditional Skillets Review YouTube Video" xmlns:cmexport="http://www.coremedia.com/2012/cmexport" translationState="up-to-date">
+<locale>de-DE</locale>
+<master>
+<link href="../../../../United%20States/English/Videos/Product%20Reviews/Best%20Traditional%20Skillets%20Review%20Video.xml" path="/Sites/PerfectChef/United%20States/English/Videos/Product%20Reviews/Best%20Traditional%20Skillets%20Review%20Video"/>
+</master>
+<masterVersion>3</masterVersion>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>video-review-best-traditional-skillets</segment>
+<title>Beste Pfannen</title>
+<subjectTaxonomy>
+<link href="../../../../../../Settings/Taxonomies/Subject/Review.xml" path="/Settings/Taxonomies/Subject/Review"/>
+<link href="../../../../../../Settings/Taxonomies/Subject/Pans.xml" path="/Settings/Taxonomies/Subject/Pans"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Beste Pfannen</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Ein 30cm Brat-Pfanne sollte ein Leben lang halten und sich für alles zu Bratende eignen. Aber muß Top-Qualität auch immer einen Top-Preis haben?</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Ein 30cm Brat-Pfanne sollte ein Leben lang halten und sich für alles zu Bratende eignen. Aber muß Top-Qualität auch immer einen Top-Preis haben?</p></div></detailText>
+<pictures>
+<link href="Best%20Traditional%20Skillets%20Review%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Videos/Product%20Reviews/Best%20Traditional%20Skillets%20Review%20Picture"/>
+</pictures>
+<related>
+</related>
+<alt>Ausstattung der Bewertung: Best Traditional Skillets</alt>
+<copyright>Amerikas Test Kitchen / YouTube embedded</copyright>
+<dataUrl>//www.youtube.com/embed/1atGnmJKmTc?rel=0</dataUrl>
+</CMVideo>

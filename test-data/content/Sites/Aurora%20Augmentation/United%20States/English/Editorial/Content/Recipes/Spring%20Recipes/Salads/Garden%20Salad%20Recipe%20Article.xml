@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Recipes/Spring Recipes/Salads" name="Garden Salad Recipe Article" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Garden Salad with Vinaigrette</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salad.xml" path="/Settings/Taxonomies/Subject/Salad"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Carrot.xml" path="/Settings/Taxonomies/Subject/Carrot"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Oil.xml" path="/Settings/Taxonomies/Subject/Oil"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Pepper.xml" path="/Settings/Taxonomies/Subject/Pepper"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Spring.xml" path="/Settings/Taxonomies/Subject/Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Salad%282%29.xml" path="/Settings/Taxonomies/Subject/Salad%282%29"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Starter.xml" path="/Settings/Taxonomies/Subject/Starter"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Savoury.xml" path="/Settings/Taxonomies/Subject/Savoury"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Picnic.xml" path="/Settings/Taxonomies/Subject/Picnic"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Dinner.xml" path="/Settings/Taxonomies/Subject/Dinner"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Lunch.xml" path="/Settings/Taxonomies/Subject/Lunch"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Summer.xml" path="/Settings/Taxonomies/Subject/Summer"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Garden Salad</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>What could be more refreshing than a crunchy Garden Salad with our home-made vinaigrette?</p><p><br/></p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Introduction</p><p>What could be more refreshing than a crunchy Garden Salad with our home-made <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Vimeo%20Video.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Vimeo%20Video">vinaigrette</a>? All you need is green salad leaves, tomatos, cucumbers, bellpeppers and onions. And it's <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article">easy to prepare at a picnic.</a></p><p class="p--heading-2">Preparation</p><p>For the vinaigrette:</p><ul><li>3 tablespoons fresh orange juice</li><li>1 1/2 tablespoons fresh lime juice</li><li>2 1/2 teaspoons extravirgin olive oil</li><li>2 teaspoons honey</li><li>1 teaspoon red wine vinegar</li><li>1/4 teaspoon salt</li><li>1/8 teaspoon freshly ground black pepper</li></ul><p>For the salad:</p><ul><li>1 1/2 cups (1 x 1/4-inch) julienne-cut zucchini</li><li>1 1/2 cups (1 x 1/4-inch) julienne-cut yellow squash</li><li>1 cup fresh corn kernels (about 2 ears)</li><li>2 tablespoons finely chopped red onion</li><li>1 tablespoon finely chopped fresh flat-leaf parsley</li><li>1 tablespoon finely chopped fresh basil</li></ul><p class="p--heading-2">Preparation</p><p>To prepare vinaigrette, combine the first 7 ingredients, stirring with a whisk.<br/>To prepare salad, combine zucchini and remaining ingredients in a large bowl. Add vinaigrette; toss well. Cover and chill.</p><p class="p--heading-2">Serving Suggestion</p><p>For more pleasure while cutting the vegetables, use our <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Japanese%20Knife%20Product%20Teaser">super sharp Japanese knives</a>, then <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser">grind some fresh pepper</a> and add your prepared <a xlink:show="replace" xlink:type="simple" xlink:href="coremedia:///cap/resources/../../../../../Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Vimeo%20Video.xml" cmexport:path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Vimeo%20Video">vinaigrette</a>.</p></div></detailText>
+<pictures>
+<link href="../../../../../Pictures/Recipes/Spring%20Recipes/Garden%20Salad%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Recipes/Spring%20Recipes/Garden%20Salad%20Picture"/>
+</pictures>
+<related>
+<link href="../../../../Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Products/Fall%20Campaign/Pepper%20Mill%20Product%20Teaser"/>
+<link href="../../../../../Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Vimeo%20Video.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Videos/Recipes/Our%203%20Favorite%20Vinaigrettes%20Vimeo%20Video"/>
+<link href="../../../Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Magazine%20Spring/Story%201%20-%20A%20Perfect%20Picnic/A%20Perfect%20Picnic%20Article"/>
+</related>
+</CMArticle>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTeaser folder="/Sites/BetaLabs/BTYU/Navigation/Startpage" name="Spring Glasses Sale Category Teaser" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>SALE: Gläser</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>Für eine begrenzte Zeit erhalten Sie einen Rabatt von 20% auf alle Gläser.</p></div></teaserText>
+<pictures>
+<link href="../../../../PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/On%20The%20Table/Glasses%20Category%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/On%20The%20Table/Glasses%20Category%20Picture"/>
+</pictures>
+<related>
+</related>
+<target>
+<link href="../Categories/01_On%20The%20Table/Glasses/Glasses%20External%20Category%20Page.xml" path="/Sites/BetaLabs/BTYU/Navigation/Categories/01_On%20The%20Table/Glasses/Glasses%20External%20Category%20Page"/>
+</target>
+</CMTeaser>

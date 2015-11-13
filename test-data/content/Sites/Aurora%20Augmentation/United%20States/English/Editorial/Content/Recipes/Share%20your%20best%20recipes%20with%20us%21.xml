@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/Aurora Augmentation/United States/English/Editorial/Content/Recipes" name="Share your best recipes with us!" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<localSettings>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="elasticSocial">
+<Struct>
+<StringProperty Name="reviewType">DISABLED</StringProperty>
+<StringProperty Name="commentType">REGISTERED</StringProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</localSettings>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Share your best recipes with us!</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Your Best Recipes</teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>At Perfect-Chef.com we are always looking for YOUR best recipes. Enter your favourite recipe now and win shopping coupons every month!</p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p class="p--heading-2">Win coupons<br/></p><p>Here is your chance to win Perfect-Chef.com shopping coupons every month.</p><p>Share your favorite recipes along with a photo of your culinary creation - to prove to our community that you are a Perfect Chef!</p><p><br/></p><p class="p--heading-2">Voting</p><p>Our Jury votes for the best recipes and we highlight each month's winner in the Recipe section of our site.</p><p>Of course you can also comment on and rate the recipes you love.</p><p>Please note that recipes will only be published on our site once they have been reviewed by our moderators.</p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Recipes/Share%20Your%20Best%20Recipes%20Picture.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Pictures/Recipes/Share%20Your%20Best%20Recipes%20Picture"/>
+</pictures>
+<related>
+<link href="Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Main/Spicy%20Duck%20Recipe%20Article"/>
+<link href="Fall%20Recipes/Desserts/Black%20Bean%20Brownies%20Recipe%20Article.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Editorial/Content/Recipes/Fall%20Recipes/Desserts/Black%20Bean%20Brownies%20Recipe%20Article"/>
+</related>
+</CMArticle>

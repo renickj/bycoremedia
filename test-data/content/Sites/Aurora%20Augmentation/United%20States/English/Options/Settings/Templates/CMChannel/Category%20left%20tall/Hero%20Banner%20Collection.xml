@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/Aurora Augmentation/United States/English/Options/Settings/Templates/CMChannel/Category left tall" name="Hero Banner Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../Viewtypes/CMCollection/slideshow.xml" path="/Sites/Aurora%20Augmentation/United%20States/English/Options/Viewtypes/CMCollection/slideshow"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title>Hero Banner Collection</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<teaserText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><strong>This is the collection which sits just below the Header and displays the Hero banner images as a slideshow.</strong><br/></p><p>It is placed as the first element in the Page "Main" placement.</p><p>It can be used to link to various items, such as Products, Pages, Articles, Videos etc.</p><p>The Hero Images will be displayed as screen filling 3:4 ratio on mobile, 1:1 ratio on tablets and 5:2 ratio on the desktop.</p><p>Drag teaser items from the Library into the "Items" field below.<br/></p><p>Select a Layout Variant at the bottom and notice that the preview to the right changes. <br/></p><p>Set the slider to the desired output device: Mobile - Tablet - Desktop</p><p><strong>Please note that the Layout Variant must be set to "Hero Slideshow".</strong></p></div></teaserText>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p><br/></p></div></detailText>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+</items>
+</CMCollection>

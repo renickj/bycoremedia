@@ -1,0 +1,12 @@
+# Installation-dependant settings for all Java programs in $COREM_HOME/bin
+#
+
+# JAVA_HOME is the directory where the JRE is located.
+JAVA_HOME=@CM_JAVA_HOME@
+
+# enable assertions
+JAVA_VM_ARGS="$JAVA_VM_ARGS -ea:com.coremedia... -ea:hox..."
+
+# verbose output on program startup if set to true:
+VERBOSE=false
+

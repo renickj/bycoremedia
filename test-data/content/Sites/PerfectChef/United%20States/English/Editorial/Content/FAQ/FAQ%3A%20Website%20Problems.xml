@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMArticle folder="/Sites/PerfectChef/United States/English/Editorial/Content/FAQ" name="FAQ: Website Problems" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>en-US</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../Options/Viewtypes/CMArticle/single-column.xml" path="/Sites/PerfectChef/United%20States/English/Options/Viewtypes/CMArticle/single-column"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>website-problems</segment>
+<title>The Perfect Chef website is not working properly for me</title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<detailText grammarName="coremedia-richtext-1.0"><div xmlns="http://www.coremedia.com/2003/richtext-1.0" xmlns:xlink="http://www.w3.org/1999/xlink"><p>We are sorry to hear that you are experiencing problems. Our website has been tested and is working with all standard browsers:<br/></p><ul><li><a xlink:href="https://www.mozilla.org/en-US/firefox/new/" xlink:show="replace" xlink:type="simple">Mozilla Firefox </a>(latest version)</li><li><a xlink:href="http://windows.microsoft.com/en-us/internet-explorer/download-ie" xlink:show="replace" xlink:type="simple">Microsoft Internet Explorer</a> 8, 9, 10 and 11</li><li><a xlink:href="https://www.google.com/intl/en/chrome/browser/" xlink:show="replace" xlink:type="simple">Google Chrome</a> (latest version)</li><li><a xlink:href="http://www.apple.com/safari/" xlink:show="replace" xlink:type="simple">Apple Safari</a> (latest version)</li></ul><p>Please use one of these supported standard browsers and/or update your browser to the latest available version.</p><p>If you continue to have problems, please get in touch with our customer service at <a xlink:href="mailto:customer-service@perfect-chef.com" xlink:show="replace" xlink:type="simple">customer-service@perfect-chef.com</a>.</p></div></detailText>
+<pictures>
+<link href="../../../Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture.xml" path="/Sites/PerfectChef/United%20States/English/Pictures/Sitewide%20Pictures/Contact%20Us%20-%20Call%20center%20agents%20Picture"/>
+</pictures>
+<related>
+</related>
+</CMArticle>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalLink folder="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Footer/Customer Service External Links" name="Tel 00800-555-1212" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Tel. 00800-555-1212</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<url>tel:00800-555-1212</url>
+</CMExternalLink>

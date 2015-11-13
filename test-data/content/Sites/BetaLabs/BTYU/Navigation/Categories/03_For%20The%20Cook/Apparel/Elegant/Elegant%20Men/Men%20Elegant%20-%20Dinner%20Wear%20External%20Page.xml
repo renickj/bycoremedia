@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMExternalChannel folder="/Sites/BetaLabs/BTYU/Navigation/Categories/03_For The Cook/Apparel/Elegant/Elegant Men" name="Men Elegant - Dinner Wear External Page" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords>exklusiv, Männer, Männer exklusiv, HAKA, Anzüge, Blazer, elegante</keywords>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment>men-elegant</segment>
+<title>Elegante Herren Abendkleidung</title>
+<subjectTaxonomy>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Men%20Elegant%20Spring.xml" path="/Settings/Taxonomies/Subject/Men%20Elegant%20Spring"/>
+<link href="../../../../../../../../../Settings/Taxonomies/Subject/Men%20Elegant%20Fall.xml" path="/Settings/Taxonomies/Subject/Men%20Elegant%20Fall"/>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<children>
+</children>
+<javaScript>
+</javaScript>
+<css>
+</css>
+<placement>
+<Struct xmlns="http://www.coremedia.com/2008/struct" xmlns:xlink="http://www.w3.org/1999/xlink">
+<StructProperty Name="placements_2">
+<Struct>
+<StructProperty Name="placements">
+<Struct>
+<StructProperty Name="96">
+<Struct>
+<BooleanProperty Name="locked">false</BooleanProperty>
+<LinkProperty Name="section" LinkType="coremedia:///cap/contenttype/CMSymbol" xlink:href="coremedia:///cap/resources/../../../../../../../../PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/main.xml" cmexport:path="/Sites/PerfectChef/Germany/German/Options/Settings/Pagegrid/Placements/main"/>
+<LinkListProperty Name="items" LinkType="coremedia:///cap/contenttype/CMLinkable">
+<Link xlink:href="coremedia:///cap/resources/Men%20Elegant%20%20Hero%20Banner%20Collection.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Categories/03_For%20The%20Cook/Apparel/Elegant/Elegant%20Men/Men%20Elegant%20%20Hero%20Banner%20Collection"/>
+<Link xlink:href="coremedia:///cap/resources/../../../../../Site-Wide/Category%20Pages/Productlist-Placeholder%20Listing.xml" cmexport:path="/Sites/BetaLabs/BTYU/Navigation/Site-Wide/Category%20Pages/Productlist-Placeholder%20Listing"/>
+</LinkListProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</StructProperty>
+</Struct>
+</placement>
+<header>
+</header>
+<footer>
+</footer>
+<externalId>ibm:///catalog/category/PC_ApparelMenExclusive</externalId>
+</CMExternalChannel>

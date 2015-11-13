@@ -1,0 +1,17 @@
+# git
+.gitignore
+
+# doc
+CHANGELOG
+CONTRIBUTING
+LICENSE
+NOTICE
+CHANGELOG.*
+CONTRIBUTING.*
+
+# gem
+Gemfile
+Gemfile.*
+
+# make
+Makefile

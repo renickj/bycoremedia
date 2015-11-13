@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMCollection folder="/Sites/BetaLabs/BTYU/Navigation/Categories/01_On The Table/Tableware" name="Tableware Hero Banner Collection" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale>de-DE</locale>
+<master>
+</master>
+<keywords></keywords>
+<viewtype>
+<link href="../../../../../../PerfectChef/Germany/German/Options/Viewtypes/CMCollection/slideshow.xml" path="/Sites/PerfectChef/Germany/German/Options/Viewtypes/CMCollection/slideshow"/>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle>Dekoration</teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<items>
+<link href="../../../../../../PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/On%20The%20Table/Tableware%20Categories%20Picture.xml" path="/Sites/PerfectChef/Germany/German/Pictures/Product%20Category%20Pictures/On%20The%20Table/Tableware%20Categories%20Picture"/>
+<link href="../../../../../../PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Cutlery%20Set%20Green%20Product%20Teaser.xml" path="/Sites/PerfectChef/Germany/German/Editorial/Products/Spring%20Campaign/Cutlery%20Set%20Green%20Product%20Teaser"/>
+</items>
+</CMCollection>

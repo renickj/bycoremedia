@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CMTaxonomy folder="/Settings/Taxonomies/Subject" name="Attributes" xmlns:cmexport="http://www.coremedia.com/2012/cmexport">
+<locale></locale>
+<master>
+</master>
+<viewtype>
+</viewtype>
+<linkedSettings>
+</linkedSettings>
+<segment></segment>
+<title></title>
+<htmlTitle></htmlTitle>
+<keywords></keywords>
+<htmlDescription></htmlDescription>
+<subjectTaxonomy>
+</subjectTaxonomy>
+<locationTaxonomy>
+</locationTaxonomy>
+<contexts>
+</contexts>
+<teaserTitle></teaserTitle>
+<pictures>
+</pictures>
+<related>
+</related>
+<value>Attributes</value>
+<children>
+<link href="Color.xml" path="/Settings/Taxonomies/Subject/Color"/>
+<link href="Gender.xml" path="/Settings/Taxonomies/Subject/Gender"/>
+<link href="Age-Group.xml" path="/Settings/Taxonomies/Subject/Age-Group"/>
+</children>
+<externalReference></externalReference>
+</CMTaxonomy>
