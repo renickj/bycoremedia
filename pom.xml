@@ -190,6 +190,12 @@
 
   <profiles>
     <profile>
+      <id>env-by-dev-softlayer</id>
+      <properties>
+        <installation.host>159.8.163.205</installation.host>
+      </properties>
+    </profile>
+    <profile>
       <id>withTemplates</id>
       <properties>
         <cae.themes.grunt.task>buildWithTemplates</cae.themes.grunt.task>
