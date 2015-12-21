@@ -4,5 +4,6 @@
 "teaserTitle":"${self.teaserTitle!""}", "teaserText":"<#if self.teaserText?has_content><@cm.include self=self.teaserText view='plainJSON'/></#if>"
 <#if self.target?has_content>,"targetSegmentPath":"<@cm.include self=self.target view="asSegmentPath"/>"</#if>
 <#if self.picture?has_content>,"picture":<@cm.include self=self.picture view="asJSONPicture"/></#if>
-<#assign config=self.getSettingMap("config")!''/><#if config?has_content>,"config":<@cm.include self=config view='plainJSON'/></#if>
+<#assign config=self.getSettingMap("config")!cm.UNDEFINED/>
+,"config":<@cm.include self=config view='plainJSON'/>
 }

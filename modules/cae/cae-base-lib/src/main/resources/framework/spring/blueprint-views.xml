@@ -158,7 +158,7 @@
 
         <!-- ##todo Customer extension. Will be moved to extension/customer -->
         <entry key="com.coremedia.xml.Markup#plainJSON" value-ref="plainJSONView"/>
-        <entry key="java.util.Map#plainJSON" value-ref="plainJSONView"/>
+        <entry key="com.coremedia.blueprint.common.contentbeans.CMLinkable$SettingMap#plainJSON" value-ref="plainJSONView"/>
       </map>
     </property>
   </bean>

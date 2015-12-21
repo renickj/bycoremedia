@@ -72,12 +72,12 @@ public abstract class CMLinkableImpl extends CMLinkableBase {
    * @return the map or null
    */
   @Override
-  public Map<String,Object> getSettingMap(String settingName) {
+  public SettingMap getSettingMap(String settingName) {
     try {
-      return getSettingsService().settingAsMap(settingName, String.class, Object.class, this);
+      return new SettingMap(getSettingsService().settingAsMap(settingName, String.class, Object.class, this));
     }
     catch (Exception e) {
-      return Collections.emptyMap();
+      return new SettingMap(Collections.<String,Object>emptyMap());
     }
   }
 }
