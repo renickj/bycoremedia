@@ -5,7 +5,7 @@
 <#if self.picture?has_content>,"picture":<@cm.include self=self.picture view="asJSONPicture"/></#if>
 <#if self.subjectTaxonomy?has_content>
 ,"tags":[
-	<#list subjectTaxonomy as tag>
+	<#list self.subjectTaxonomy as tag>
 		"${tag.value}"
 		<#if tag_has_next>,</#if>
 	</#list>
