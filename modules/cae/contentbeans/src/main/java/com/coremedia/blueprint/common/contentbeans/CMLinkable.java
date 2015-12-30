@@ -215,5 +215,17 @@ public interface CMLinkable extends Linkable, CMLocalized, BelowRootNavigation, 
    * @param settingName name the setting name
    * @return the map or null
    */
-  Map<String,Object> getSettingMap(String settingName);
+  SettingMap getSettingMap(String settingName);
+
+  class SettingMap {
+    private Map<String,Object> internalMap;
+
+    public SettingMap(Map<String, Object> map) {
+      this.internalMap = map;
+    }
+
+    public Map<String, Object> getMap() {
+      return internalMap;
+    }
+  }
 }

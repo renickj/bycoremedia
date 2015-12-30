@@ -1,5 +1,6 @@
 package com.coremedia.blueprint.cae.view;
 
+import com.coremedia.blueprint.common.contentbeans.CMLinkable;
 import com.coremedia.objectserver.view.TextView;
 import com.coremedia.xml.Markup;
 import com.coremedia.xml.MarkupUtil;
@@ -33,8 +34,8 @@ public class PlainJSONView implements TextView {
                 MarkupUtil.asPlain(markup, converter);
                 jsonValue = converter.asJSONString();
             }
-            else if (bean instanceof Map) {
-                jsonValue = asJSONValueString(bean);
+            else if (bean instanceof CMLinkable.SettingMap) {
+                jsonValue = asJSONValueString(((CMLinkable.SettingMap)bean).getMap());
             }
 
             if (StringUtils.isNotEmpty(jsonValue)) {
