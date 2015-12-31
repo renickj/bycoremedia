@@ -6,7 +6,7 @@
 		"${tag.value}":[
 			<#list tag.children as childrenTag>	
 					"${childrenTag.value}"
-				<#if children_has_next>,</#if>	
+				<#if childrenTag_has_next>,</#if>	
 			</#list>
 			]
 		<#if tag_has_next>,</#if>
