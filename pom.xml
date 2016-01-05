@@ -87,11 +87,10 @@
     <css.importer.inbox.cae>${blueprint.rootdir}/modules/cae/cae-themes/basic-theme/target/resources/themes</css.importer.inbox.cae>
     <css.importer.inbox.corporate>${blueprint.rootdir}/modules/extensions/corporate/corporate-theme/target/resources/themes</css.importer.inbox.corporate>
     <css.importer.inbox.estore>${blueprint.rootdir}/modules/extensions/estore/estore-theme/target/resources/themes</css.importer.inbox.estore>
-    <css.importer.inbox.es>${blueprint.rootdir}/modules/extensions/es/es-webresources/src/main/resources/META-INF/resources/themes</css.importer.inbox.es>
-    <css.importer.inbox.aurora>${blueprint.rootdir}/modules/extensions/lc/lc-theme-aurora/webresources/src/main/resources/META-INF/resources/themes</css.importer.inbox.aurora>
-    <css.importer.inbox.pc>${blueprint.rootdir}/modules/extensions/lc/lc-theme-perfectchef/webresources/src/main/resources/META-INF/resources/themes</css.importer.inbox.pc>
-    <css.importer.inbox.lces>${blueprint.rootdir}/modules/extensions/lc-es/lc-es-webresources/src/main/resources/META-INF/resources/themes</css.importer.inbox.lces>
-    <!-- Only import estore theme for quicker turn around <css.importer.inbox>${css.importer.inbox.cae};${css.importer.inbox.corporate};${css.importer.inbox.es};${css.importer.inbox.aurora};${css.importer.inbox.pc};${css.importer.inbox.lces};${css.importer.inbox.estore}</css.importer.inbox>-->
+    <css.importer.inbox.es>${blueprint.rootdir}/modules/extensions/es/es-theme/target/resources/themes</css.importer.inbox.es>
+    <css.importer.inbox.aurora>${blueprint.rootdir}/modules/extensions/lc/lc-themes/aurora-theme/target/resources/themes</css.importer.inbox.aurora>
+    <css.importer.inbox.pc>${blueprint.rootdir}/modules/extensions/lc/lc-themes/perfectchef-theme/target/resources/themes</css.importer.inbox.pc>
+    <!-- Only import estore theme for quicker turn around <css.importer.inbox>${css.importer.inbox.cae};${css.importer.inbox.corporate};${css.importer.inbox.es};${css.importer.inbox.aurora};${css.importer.inbox.pc};${css.importer.inbox.estore}</css.importer.inbox>-->
     <css.importer.inbox>${css.importer.inbox.estore}</css.importer.inbox>
 
     <!--
