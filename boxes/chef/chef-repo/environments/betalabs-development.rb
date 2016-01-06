@@ -40,6 +40,11 @@ override_attributes ({
                             # Studio configuration
                             'configure.STUDIO_PREVIEW_URL_WHITELIST' => '*.cms.boots.com',
 
+                            # LiveContext configuration
+                            'configure.LIVECONTEXT_HOST' => 'preview-helios.dev.cms.boots.com',
+                            'configure.LIVECONTEXT_WCS_URL' => 'preview-helios.dev.cms.boots.com',
+                            'configure.LIVECONTEXT_WCS_SECURE_URL' => 'preview-helios.dev.cms.boots.com',
+
                             # Misc
                             'configure.JAVA_HOME' =>    '/usr/lib/jvm/java'
                         }
