@@ -11,4 +11,5 @@
 	</#list>
 ]
 </#if>
+,"masterVersion":"${self.masterVersion}"
 }
