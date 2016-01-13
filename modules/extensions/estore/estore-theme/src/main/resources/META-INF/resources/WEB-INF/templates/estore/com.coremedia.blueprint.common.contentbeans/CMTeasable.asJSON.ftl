@@ -11,5 +11,7 @@
 	</#list>
 ]
 </#if>
+<#if self.masterVersion?has_content>
 ,"masterVersion":"${self.masterVersion}"
+</#if>
 }
