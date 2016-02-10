@@ -30,7 +30,21 @@
             </items>
           </editor:collapsibleFormPanel>
           <livecontext:productDetailsDocumentForm/>
-          <livecontext:productTeaserDocumentForm/>
+          <editor:collapsibleFormPanel title="{CustomLabels_properties.INSTANCE.PropertyGroup_Teaser_label}"
+                                       itemId="productTeaserDocumentForm"
+                                       expandOnValues="teaserTitle,teaserText.data">
+	           <items>
+              <editor:stringPropertyField propertyName="teaserTitle"
+                                          itemId="teaserTitle">
+                <plugins mode="append">
+                  <editor:stringPropertyFieldDelegatePlugin delegateExpression="{CatalogHelper.getInstance().getProductPropertyExpression(config.bindTo, CatalogObjectPropertyNames.NAME)}"/>
+                </plugins>
+              </editor:stringPropertyField>
+             <editor:richTextPropertyField propertyName="teaserText"
+                                            itemId="teaserText"
+                                            initialHeight="100"/>
+            </items>
+          </editor:collapsibleFormPanel>
           <editor:collapsibleFormPanel itemId="shopNowSettings" 
                                        collapsed="true"
                                        title="{LivecontextStudioPlugin_properties.INSTANCE['CMProductTeaser_localSettings.shopNow_text']}">

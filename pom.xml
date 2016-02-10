@@ -348,6 +348,14 @@
       <!-- List your plugins here -->
       <dependency>
         <groupId>${project.groupId}</groupId>
+        <artifactId>by-bom</artifactId>
+        <version>${project.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      
+      <dependency>
+        <groupId>${project.groupId}</groupId>
         <artifactId>corporate-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>

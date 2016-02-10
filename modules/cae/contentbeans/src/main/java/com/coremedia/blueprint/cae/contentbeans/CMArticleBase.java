@@ -2,12 +2,15 @@ package com.coremedia.blueprint.cae.contentbeans;
 
 
 import com.coremedia.blueprint.common.contentbeans.CMArticle;
+import com.coremedia.blueprint.common.contentbeans.CMTeasable;
 import com.coremedia.cae.aspect.Aspect;
+import com.coremedia.xml.Markup;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import com.coremedia.cap.content.Content;
 
 /**
  * Generated base class for immutable beans of document type CMArticle.
@@ -46,5 +49,16 @@ public abstract class CMArticleBase extends CMTeasableImpl implements CMArticle 
   @SuppressWarnings("unchecked")
   public List<? extends Aspect<? extends CMArticle>> getAspects() {
     return (List<? extends Aspect<? extends CMArticle>>) super.getAspects();
+  }
+  
+  @Override
+  public List<? extends CMTeasable> getHeroItems() {
+    List<Content> contents = getContent().getLinks(HERO_ITEM);
+    return createBeansFor(contents, CMTeasable.class);
+  }
+  
+  @Override
+  public Markup getProductDesc() {
+    return getContent().getMarkup(DESCRIPTION);
   }
 }

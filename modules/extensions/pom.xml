@@ -43,6 +43,7 @@
     <module>lc-p13n</module>
     <module>lc-asset</module>
     <module>estore</module>
+    <module>by</module>
   </modules>
 
 </project>

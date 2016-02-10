@@ -358,6 +358,8 @@
    -->
   <DocType Name="CMArticle" Parent="CMTeasable">
     <LinkListProperty Name="master" Max="1" LinkType="CMArticle" Override="true" extensions:weakLink="true"/>
+    <XmlProperty Name="productDesc" Grammar="coremedia-richtext-1.0" />
+    <LinkListProperty Name="heroItems" LinkType="CMTeasable"/>
   </DocType>
 
   <DocType Name="CMExternalLink" Parent="CMTeasable">
