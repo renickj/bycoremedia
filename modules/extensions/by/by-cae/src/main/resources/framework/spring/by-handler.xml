@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+	xmlns:webflow="http://www.springframework.org/schema/webflow-config"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd
+                           http://www.springframework.org/schema/webflow-config
+                           http://www.springframework.org/schema/webflow-config/spring-webflow-config-2.3.xsd
+                           http://www.springframework.org/schema/util
+                           http://www.springframework.org/schema/util/spring-util.xsd">
+
+
+	<import resource="classpath:/framework/spring/blueprint-search.xml" />
+
+	<bean id="jsonHandler" class="com.boots.cms.handlers.JSONRequestHandler">
+		<property name="contentRepository" ref="contentRepository" />
+	</bean>
+
+	<customize:append id="registerHttpMessageConverters"
+		bean="httpMessageConverters">
+		<description>
+			Registers additional HttpMessageConverters
+		</description>
+		<list>
+			<!-- converts request/response bodies from/to XML -->
+			<bean
+				class="org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter" />
+			<!-- converts request/response bodies from/to JSON -->
+			<bean
+				class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter" />
+		</list>
+	</customize:append>
+</beans>                        
