@@ -21,7 +21,7 @@
               <bp:imageLinkListPropertyField propertyName="heroItems">
                 <bp:additionalToolbarItems>
                   <tbseparator/>
-                  <qc:quickCreateLinklistMenu propertyName="heroItems"
+                  <bpb-components:quickCreateLinklistMenu propertyName="heroItems"
                                                bindTo="{config.bindTo}"/>
                 </bp:additionalToolbarItems>
               </bp:imageLinkListPropertyField>

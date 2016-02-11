@@ -15,9 +15,30 @@
 
 
 	<import resource="classpath:/framework/spring/blueprint-search.xml" />
+	<import resource="classpath:/framework/spring/blueprint-handlers.xml" />
 
 	<bean id="jsonHandler" class="com.boots.cms.handlers.JSONRequestHandler">
 		<property name="contentRepository" ref="contentRepository" />
+	</bean>
+
+
+
+	<bean id="jsonSearchActionHandler" class="com.boots.cms.handlers.JSONSearchActionHandler" parent="pageHandlerBase">
+		<description>
+			Handles the Search action.
+		</description>
+		<property name="searchService" ref="searchActionService"/>
+		<property name="settingsService" ref="settingsService"/>
+		<property name="minimalSearchQueryLength" value="3"/>
+		<property name="permittedLinkParameterNames">
+			<list>
+				<value>query</value>
+				<value>pageNum</value>
+				<value>channelId</value>
+				<value>docType</value>
+				<value>key</value>
+			</list>
+		</property>
 	</bean>
 
 	<customize:append id="registerHttpMessageConverters"

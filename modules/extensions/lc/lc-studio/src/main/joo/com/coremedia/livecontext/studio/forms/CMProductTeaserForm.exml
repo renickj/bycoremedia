@@ -12,6 +12,8 @@
   <exml:import class="com.coremedia.ecommerce.studio.helper.CatalogHelper"/>
   <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
   <exml:import class="com.coremedia.ecommerce.studio.CatalogModel" />
+    <exml:import class="com.coremedia.blueprint.studio.CustomLabels_properties"/>
+    <exml:import class="com.coremedia.ecommerce.studio.model.CatalogObjectPropertyNames"/>
 
   <editor:documentTabPanel>
     <items>
