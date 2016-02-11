@@ -4,7 +4,7 @@
                 xmlns:editor="exml:com.coremedia.cms.editor.sdk.config"
                 xmlns:bpforms="exml:com.coremedia.blueprint.studio.config"
                 xmlns:bp="exml:com.coremedia.blueprint.studio.config.components"
-                xmlns:qc="exml:com.coremedia.blueprint.studio.config.quickcreate">
+                xmlns:bpb-components="exml:com.coremedia.blueprint.base.components.config">
 
   <exml:import class="com.coremedia.blueprint.studio.BlueprintTabs_properties"/>
   <exml:import class="com.coremedia.blueprint.studio.BlueprintDocumentTypes_properties"/>
