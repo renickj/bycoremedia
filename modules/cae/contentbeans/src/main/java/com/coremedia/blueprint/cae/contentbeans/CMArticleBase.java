@@ -11,6 +11,8 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import com.coremedia.cap.content.Content;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 /**
  * Generated base class for immutable beans of document type CMArticle.
