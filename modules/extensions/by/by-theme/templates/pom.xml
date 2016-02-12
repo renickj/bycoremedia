@@ -18,7 +18,7 @@
 			module will be deployed as part of the CAE. If the property is not active, 
 			they need to be imported into the content repository. ======================================================== -->
 
-		<!--coremedia.project.extension.for>cae</coremedia.project.extension.for -->
+		<coremedia.project.extension.for>cae</coremedia.project.extension.for>
 	</properties>
 
 </project>
