@@ -40,12 +40,7 @@
     </dependency>
     <dependency>
       <groupId>com.boots.cms</groupId>
-      <artifactId>by-templates</artifactId>
-      <version>1.0-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.boots.cms</groupId>
-      <artifactId>by-webresources</artifactId>
+      <artifactId>by-theme</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
