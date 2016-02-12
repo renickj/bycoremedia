@@ -8,7 +8,7 @@
 <#-- results -->
 <#if searchResultHits?has_content>
 {
-"hits":"${self.result.numHits}", "page":"${self.form.pageNum}", "hitsPerPage":"${self.result.searchQuery.limit}", "query":"${self.form.query}"
+"hits":"${self.result.numHits}", "page":"${self.form.pageNum}", "hitsPerPage":"${self.result.searchQuery.limit}", "query":"${self.form.query}",
   searchResults:[
     <#list searchResultHits as hit>
         <@cm.include self=hit view="asJSON" params={
