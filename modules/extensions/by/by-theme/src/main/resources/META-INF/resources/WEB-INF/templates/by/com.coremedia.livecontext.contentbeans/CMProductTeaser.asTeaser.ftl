@@ -14,12 +14,12 @@
       }/>
     </#if>
 	<div class="col-md-7 col-lg-7 col-sm-7 col col-xs-12">
-		<h5>${self.teaserTitle!""}</h5>
+		<h3>${self.teaserTitle!""}</h3>
 	    <#if self.teaserText?has_content>
-	      <p><#escape x as x?html>${self.teaserText?substring(102,self.teaserText?length-10)!""}</#escape></p>
+	      <p>${self.teaserText}</p>
 	    </#if>
-		<#if self.bootsUrl?has_content>
-			<a article-tracking href="${self.bootsUrl}" target="_blank" class="btn primary">Add to basket</a>
+		<#if self.externalId?has_content>
+			<a article-tracking href="${self.externalId!""}" target="_blank" class="btn primary">Add to basket</a>
 	  	</#if>
 	</div>
 <#elseif isTemplateFour>

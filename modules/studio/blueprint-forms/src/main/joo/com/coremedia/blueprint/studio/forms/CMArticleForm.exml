@@ -18,7 +18,7 @@
                                        itemId="cmHeroItemForm"
                                        title="{CustomLabels_properties.INSTANCE.PropertyGroup_HeroItem_label}">
             <items>
-              <bp:imageLinkListPropertyField propertyName="heroItems">
+              <bp:imageLinkListPropertyField propertyName="heroItems" hideLabel="true">
                 <bp:additionalToolbarItems>
                   <tbseparator/>
                   <bpb-components:quickCreateLinklistMenu propertyName="heroItems"
@@ -33,7 +33,7 @@
                                        itemId="cmProductDescForm"
                                        title="{CustomLabels_properties.INSTANCE.PropertyGroup_Description_label}">
             <items>
-            	<editor:richTextPropertyField propertyName="productDesc" initialHeight="200"/>  
+            	<editor:richTextPropertyField propertyName="productDesc" hideLabel="true" initialHeight="200"/>  
             </items>                   
           </editor:collapsibleFormPanel>
           <bpforms:pictureDocumentForm bindTo="{config.bindTo}" collapsed="true"/>

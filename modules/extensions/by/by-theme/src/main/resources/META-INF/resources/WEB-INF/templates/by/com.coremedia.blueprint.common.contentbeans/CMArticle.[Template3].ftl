@@ -12,6 +12,7 @@
 			<article class="${templateClass!""}">
 				<@cm.include self=self view="[]" params={"isTemplateThree": true,"isTemplateSix": false,"isTemplateFour": false} />
 				<section>
+					 <p>Posted on <b>${self.modificationDateInMillis!self.creationDateInMillis!""}</b></p>
 					 <@cm.include self=self.detailText!cm.UNDEFINED />
 					 <#if self.related?has_content>
 							<div class= ${classArticleRelated!""}>

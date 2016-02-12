@@ -23,6 +23,9 @@ public abstract class CMArticleBase extends CMTeasableImpl implements CMArticle 
    *
    * @return a list of {@link CMArticle} objects
    */
+  private static String DATE_FORMAT = "dd.MM.YY";
+  private static SimpleDateFormat dateFormatObj = new SimpleDateFormat(DATE_FORMAT);
+	
   @Override
   public CMArticle getMaster() {
     return (CMArticle) super.getMaster();
@@ -60,5 +63,31 @@ public abstract class CMArticleBase extends CMTeasableImpl implements CMArticle 
   @Override
   public Markup getProductDesc() {
     return getContent().getMarkup(DESCRIPTION);
+  }
+  
+  @Override
+  public String getModificationDate(){
+  	Calendar cal = getContent().getModificationDate();
+  	String date =  dateFormatObj.format(cal.getTime());
+  	return date;
+  }
+  @Override
+  public String getCreationDate(){
+  	Calendar cal = getContent().getCreationDate();
+  	String date =  dateFormatObj.format(cal.getTime());
+  	return date;
+  }
+  @Override
+  public String getModificationDateInMillis(){
+  	Calendar cal = getContent().getModificationDate();
+  	String time =  cal.getTimeInMillis()+"";
+  	return time;
+  }
+	
+  @Override
+  public String getCreationDateInMillis(){
+  	Calendar cal = getContent().getCreationDate();
+  	String time =  cal.getTimeInMillis()+"";
+  	return time;
   }
 }

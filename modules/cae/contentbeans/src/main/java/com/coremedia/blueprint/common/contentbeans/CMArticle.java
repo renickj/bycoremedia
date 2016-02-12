@@ -48,4 +48,14 @@ public interface CMArticle extends CMTeasable {
   List<? extends CMTeasable> getHeroItems();
   
   Markup getProductDesc();
+  
+  String getCreationDateInMillis();
+  
+  String getModificationDateInMillis();
+  
+  String getModificationDate();
+  
+  String getCreationDate();
+  
+  
 }
