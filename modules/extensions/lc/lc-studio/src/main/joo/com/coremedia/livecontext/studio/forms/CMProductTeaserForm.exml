@@ -19,7 +19,8 @@
     <items>
       <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_content_title}">
         <items>
-          <editor:collapsibleFormPanel title="{LivecontextStudioPlugin_properties.INSTANCE.Product_label}"
+        <!-- Changes done for the productID String field -->
+          <editor:collapsibleFormPanel title="{LivecontextStudioPlugin_properties.INSTANCE.CMProductTeaser_externalId_text}"
                                        itemId="cmProductLinkForm">
             <items>
 				<editor:stringPropertyField propertyName="externalId" hideLabel="true"/>
