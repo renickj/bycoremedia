@@ -90,8 +90,10 @@
     <css.importer.inbox.es>${blueprint.rootdir}/modules/extensions/es/es-theme/target/resources/themes</css.importer.inbox.es>
     <css.importer.inbox.aurora>${blueprint.rootdir}/modules/extensions/lc/lc-themes/aurora-theme/target/resources/themes</css.importer.inbox.aurora>
     <css.importer.inbox.pc>${blueprint.rootdir}/modules/extensions/lc/lc-themes/perfectchef-theme/target/resources/themes</css.importer.inbox.pc>
-    <!-- Only import estore theme for quicker turn around <css.importer.inbox>${css.importer.inbox.cae};${css.importer.inbox.corporate};${css.importer.inbox.es};${css.importer.inbox.aurora};${css.importer.inbox.pc};${css.importer.inbox.estore}</css.importer.inbox>-->
-    <css.importer.inbox>${css.importer.inbox.estore}</css.importer.inbox>
+    <!-- Theme folder location for the by theme -->
+    <css.importer.inbox.by>${blueprint.rootdir}/modules/extensions/by/by-theme/target/resources/themes</css.importer.inbox.by>
+    <!-- Only import estore and by theme for quicker turn around <css.importer.inbox>${css.importer.inbox.cae};${css.importer.inbox.corporate};${css.importer.inbox.es};${css.importer.inbox.aurora};${css.importer.inbox.pc};${css.importer.inbox.estore}</css.importer.inbox>-->
+    <css.importer.inbox>${css.importer.inbox.estore};${css.importer.inbox.by}</css.importer.inbox>
 
     <!--
     | true if links to resources such as JavaScript and CSS should be generated to point to files in the
