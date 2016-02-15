@@ -4,5 +4,5 @@
 { "id":"${self.contentId}", "type":"picture", "viewTypeName":"${self.viewTypeName!""}",
 "teaserTitle":"${self.teaserTitle!""}", "teaserText":"<#if self.teaserText?has_content><#escape x as x?html><@cm.include self=self.teaserText view='plainJSON'/></#escape></#if>",
 <#assign ars=bp.responsiveImageLinksData(self, limitAspectRatios![]) />
-"imageurls":<#if ars?has_content>["${ars}"]</#if>
+"imageurls":<#if ars?has_content>[${ars}]</#if>
 }
