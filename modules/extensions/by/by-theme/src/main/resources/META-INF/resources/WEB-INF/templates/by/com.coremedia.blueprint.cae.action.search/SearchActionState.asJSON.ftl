@@ -16,8 +16,6 @@
           "isLast": hit?is_last
         } /><#if !hit?is_last>,</#if>
       </#list>
-
-
   ]
 }
 </#if>

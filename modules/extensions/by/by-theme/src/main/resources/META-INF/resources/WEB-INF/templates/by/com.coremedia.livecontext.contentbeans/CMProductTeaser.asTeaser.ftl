@@ -19,7 +19,7 @@
 	      <p>${self.teaserText}</p>
 	    </#if>
 		<#if self.externalId?has_content>
-			<a article-tracking href="${self.externalId!""}" target="_blank" class="btn primary">Add to basket</a>
+			<a article-tracking href="${self.externalId!""}" target="_blank" class="btn primary">Buy On boots.com</a>
 	  	</#if>
 	</div>
 <#elseif isTemplateFour>

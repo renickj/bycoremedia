@@ -19,16 +19,10 @@
     <items>
       <editor:documentForm title="{BlueprintTabs_properties.INSTANCE.Tab_content_title}">
         <items>
-          <editor:collapsibleFormPanel title="{ECommerceStudioPlugin_properties.INSTANCE.Product_label}"
+          <editor:collapsibleFormPanel title="{LivecontextStudioPlugin_properties.INSTANCE.Product_label}"
                                        itemId="cmProductLinkForm">
             <items>
-              <ec:catalogLinkPropertyField bindTo="{config.bindTo}"
-                                           ddGroup="ContentDD"
-                                           hideLabel="true"
-                                           propertyName="externalId"
-                                           openLinkSources="{CatalogHelper.getInstance().openCatalog}"
-                                           catalogObjectType="{CatalogModel.TYPE_PRODUCT}"
-                                           emptyText="{LivecontextStudioPlugin_properties.INSTANCE.Product_Link_empty_text}"/>
+				<editor:stringPropertyField propertyName="externalId" hideLabel="true"/>
             </items>
           </editor:collapsibleFormPanel>
           <livecontext:productDetailsDocumentForm/>
