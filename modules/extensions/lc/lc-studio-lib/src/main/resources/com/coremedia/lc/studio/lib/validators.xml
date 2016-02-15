@@ -15,10 +15,10 @@
     <property name="propertyName" value="externalId"/>
     <property name="commerceConnectionInitializer" ref="commerceConnectionHelper"/>
   </bean>
-
-  <bean id="productTeaserExternalIdValidator" parent="catalogLinkValidator" class="com.coremedia.lc.studio.lib.validators.ProductTeaserExternalIdValidator">
+<!-- commenting as per the suggestion from sascha for validation-->
+<!--   <bean id="productTeaserExternalIdValidator" parent="catalogLinkValidator" class="com.coremedia.lc.studio.lib.validators.ProductTeaserExternalIdValidator">
     <property name="contentType" value="CMProductTeaser"/>
-  </bean>
+  </bean> -->
 
   <bean id="marketingSpotExternalIdValidator" parent="catalogLinkValidator" class="com.coremedia.lc.studio.lib.validators.MarketingSpotExternalIdValidator">
     <property name="contentType" value="CMMarketingSpot"/>
