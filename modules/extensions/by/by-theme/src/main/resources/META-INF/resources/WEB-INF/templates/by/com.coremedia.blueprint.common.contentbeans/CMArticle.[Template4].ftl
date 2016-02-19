@@ -11,19 +11,23 @@
 			<article class="${templateClass!""}">
 				<@cm.include self=self view="[]" params={"isTemplateSix": false,"isTemplateThree": false,"isTemplateFour": true} />
 				<section class="prdList">
+					<p>Posted on <b>${self.modificationDate!self.creationDate!""}</b></p>
 					 <@cm.include self=self.detailText!cm.UNDEFINED />
 					<div class="row">
-						<div class="prodimages">
-							<#list self.related as related>	
-								<div class= ${classArticleRelated!""}>
-									<@cm.include self=related view="asTeaser" params={"isTemplateSix": false,"isTemplateThree": false,"isTemplateFour": true} />
-								</div>
-							</#list>
+						<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+							<div class="prodimages">
+								<#list self.related as related>	
+									<div class= ${classArticleRelated!""}>
+										<@cm.include self=related view="asTeaser" params={"isTemplateSix": false,"isTemplateThree": false,"isTemplateFour": true} />
+									</div>
+								</#list>
+							</div>
 						</div>
 		 				<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-		 					 <@cm.include self=self.productInfo!cm.UNDEFINED />
+		 					 <@cm.include self=self.productDesc!cm.UNDEFINED />
 		 				</div>
 					</div>
+					
 				</section>
 			</article>
         </div>

@@ -16,13 +16,16 @@
 	<div class="col-md-7 col-lg-7 col-sm-7 col col-xs-12">
 		<h3>${self.teaserTitle!""}</h3>
 	    <#if self.teaserText?has_content>
-	      <p>${self.teaserText}</p>
+	      <@cm.include self=self.teaserText!cm.UNDEFINED />
 	    </#if>
 		<#if self.externalId?has_content>
-			<a article-tracking href="${self.externalId!""}" target="_blank" class="btn primary">Buy On boots.com</a>
+			<a article-tracking href="${self.externalId!""}" target="_blank" >Buy on boots.com</a>
 	  	</#if>
 	</div>
 <#elseif isTemplateFour>
+       <div class="row">
+          <h4>Get the look</h4>
+       </div>
 	<#if self.picture?has_content>
       <@cm.include self=self.picture params={
         "limitAspectRatios": lc.getAspectRatiosForTeaser(),
@@ -30,9 +33,9 @@
       }/>
     </#if>
 	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 col2 vertDisplay">
-		<p><#escape x as x?html>${self.teaserText?substring(102,self.teaserText?length-10)!""}</#escape></p>
-		<#if self.bootsUrl?has_content>
-			<a article-tracking href="${self.bootsUrl}" target="_blank" class="btn primary">Buy On boots.com</a>
+		<@cm.include self=self.teaserText!cm.UNDEFINED />
+		<#if self.externalId?has_content>
+			<a article-tracking href="${self.externalId!""}" target="_blank" >Buy on boots.com</a>
 	  	</#if>
 	</div>
 </#if>

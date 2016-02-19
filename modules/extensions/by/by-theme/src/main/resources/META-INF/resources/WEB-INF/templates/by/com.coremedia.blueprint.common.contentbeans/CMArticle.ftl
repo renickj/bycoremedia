@@ -29,6 +29,7 @@
 			<@cm.include self=heroItem view="asHeader" />
 		  </#list>
 	</#if>
+	
 </header>
 			
 
