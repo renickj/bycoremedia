@@ -18,9 +18,7 @@
 	    <#if self.teaserText?has_content>
 	      <@cm.include self=self.teaserText!cm.UNDEFINED />
 	    </#if>
-		<#if self.externalId?has_content>
-			<a article-tracking href="${self.externalId!""}" target="_blank" >Buy on boots.com</a>
-	  	</#if>
+		<a article-tracking href="${self.externalId!""}" target="_blank" >Buy on boots.com</a>
 	</div>
 <#elseif isTemplateFour>
        <div class="row">
@@ -34,8 +32,6 @@
     </#if>
 	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 col2 vertDisplay">
 		<@cm.include self=self.teaserText!cm.UNDEFINED />
-		<#if self.externalId?has_content>
-			<a article-tracking href="${self.externalId!""}" target="_blank" >Buy on boots.com</a>
-	  	</#if>
+		<a article-tracking href="${self.externalId!""}" target="_blank" >Buy on boots.com</a>
 	</div>
 </#if>
