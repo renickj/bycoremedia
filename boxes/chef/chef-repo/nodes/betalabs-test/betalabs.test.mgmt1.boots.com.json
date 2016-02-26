@@ -22,7 +22,9 @@
         "schemas": [
           "cm7mnmt_blt1",
           "cm7master_blt1",
-          "cm7mcaefeed_blt1"
+          "cm7mcaefeed_blt1",
+          "cm7caefeed_blt1",
+          "cm7repl_blt1"
         ]
       }
   },
