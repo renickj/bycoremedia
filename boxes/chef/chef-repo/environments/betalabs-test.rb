@@ -23,9 +23,14 @@ override_attributes ({
 
                             # Database configuration
                             'configure.CMS_DB_URL' =>   'jdbc:mysql://10.112.158.4:3306/cm7mnmt_blt1',
+                            'configure.CMS_DB_USER' =>      'cm7mnmt_blt1',
+                            'configure.CMS_DB_PASSWORD' =>  'cm7mnmt_blt1',
                             'configure.MLS_DB_URL' =>   'jdbc:mysql://10.112.158.4:3306/cm7master_blt1',
+                            'configure.MLS_DB_USER' =>      'cm7master_blt1',
+                            'configure.MLS_DB_PASSWORD' =>  'cm7master_blt1',
                             'configure.CAEFEEDER_PREVIEW_DB_URL' => 'jdbc:mysql://10.112.158.4:3306/cm7mcaefeed_blt1',
-                            'configure.CAEFEEDER_LIVE_DB_URL' => 'jdbc:mysql://10.112.158.4:3306/cm7caefeed_blt1',
+                            'configure.CAEFEEDER_PREVIEW_DB_USER' =>      'cm7mcaefeed_blt1',
+                            'configure.CAEFEEDER_PREVIEW_DB_PASSWORD' =>  'cm7mcaefeed_blt1',
 
                             # Delivery configuration
                             'configure.DELIVERY_REPOSITORY_HTTP_PORT' => '42080',
