@@ -1,0 +1,28 @@
+{
+  "coremedia": {
+    "configuration": {
+      "configure.RLS_DB_URL": "jdbc:mysql://10.112.158.4:3306/cm7repl_blt1",
+      "configure.RLS_DB_USER": "cm7repl_blt1",
+      "configure.RLS_DB_PASSWORD": "cm7repl_blt1",
+      "configure.RLS_SQL_SCHEMA_CREATE_DROP_INDEXES":"true",
+      "configure.RLS_SQL_SCHEMA_ALTER_TABLE":"true",
+      "configure.CAEFEEDER_LIVE_DB_URL": "jdbc:mysql://10.112.158.4:3306/cm7caefeed_blt1",
+      "configure.CAEFEEDER_LIVE_DB_USER" : "cm7caefeed_blt1" ,
+      "configure.CAEFEEDER_LIVE_DB_PASSWORD": "cm7caefeed_blt1",
+      "configure.DELIVERY_TLD": "betalabs.test.del1.boots.com",
+
+      "configure.LIVECONTEXT_SERVICE_USERNAME":"cmsadmin",
+      "configure.LIVECONTEXT_SERVICE_PASSWORD":"cmsadm1n",
+      "configure.LIVECONTEXT_WCS_URL":"http://www.wccm1live.nu.boots.com",
+      "configure.LIVECONTEXT_WCS_SECURE_URL":"https://www.wccm1live.nu.boots.com",
+      "configure.LIVECONTEXT_HOST":"www.wccm1live.nu.boots.com",
+      "configure.LIVECONTEXT_WCS_STOREFRONT_PREVIEW_URL":"//www.wccm1live.nu.boots.com/webapp/wcs/stores/servlet/",
+      "configure.LIVECONTEXT_WCS_REST_SEARCH_URL":"http://www.wccm1live.nu.boots.com:3737/search/resources",
+      "configure.LIVECONTEXT_WCS_REST_SEARCH_SECURE_URL":"https://www.wccm1live.nu.boots.com:3737/search/resources"
+    }
+  },
+  "run_list": [
+    "role[base]",
+    "role[eds-delivery-apache]"
+  ]
+}

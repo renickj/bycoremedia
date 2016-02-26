@@ -1,0 +1,33 @@
+{
+    "coremedia": {
+
+      "configuration": {
+
+        "configure.LIVECONTEXT_SERVICE_USERNAME":"cmsadmin",
+        "configure.LIVECONTEXT_SERVICE_PASSWORD":"cmsadm1n",
+        "configure.LIVECONTEXT_MANAGEMENT_TOOL_WEB_URI":"https://www.wccm1stag.nu.boots.com:8000/lobtools/CoreMediaManagementCenterWrapper.html",
+        "configure.LIVECONTEXT_WCS_URL":"http://www.wccm1stag.nu.boots.com",
+        "configure.LIVECONTEXT_WCS_SECURE_URL":"https://www.wccm1stag.nu.boots.com",
+        "configure.LIVECONTEXT_HOST":"www.wccm1stag.nu.boots.com",
+        "configure.LIVECONTEXT_WCS_STOREFRONT_PREVIEW_URL":"//www.wccm1stag.nu.boots.com/webapp/wcs/stores/servlet/",
+        "configure.LIVECONTEXT_WCS_REST_SEARCH_URL":"http://www.wccm1stag.nu.boots.com:3737/search/resources",
+        "configure.LIVECONTEXT_WCS_REST_SEARCH_SECURE_URL":"https://www.wccm1stag.nu.boots.com:3737/search/resources",
+
+//      Set the ip to a host so that it will be set in the IOR. necessary  to SSH-tunnel past the firewall for local development.
+        "configure.CMS_IP":"betalabs.test.mgmt1.boots.com",
+        "configure.WFS_IP":"betalabs.test.mgmt1.boots.com"
+      },
+
+      "db": {
+        "schemas": [
+          "cm7mnmt_blt1",
+          "cm7master_blt1",
+          "cm7mcaefeed_blt1"
+        ]
+      }
+  },
+  "run_list": [
+    "role[base]",
+    "role[eds-management-apache]"
+  ]
+}
