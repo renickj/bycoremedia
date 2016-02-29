@@ -42,6 +42,11 @@ override_attributes ({
                             'configure.WEBDAV_TLD' => 'betalabs.test.mgmt1.boots.com',
                             'configure.DELIVERY_TLD' => 'betalabs.test.del1.boots.com',
 
+                            #segment configuration
+                            'configure.STUDIO_HELIOS_SEGMENT' => 'studio',
+                            'configure.PREVIEW_HELIOS_SEGMENT' => 'preview-by',
+                            'configure.HELIOS_SEGMENT' => 'by',
+
                             # Studio configuration
                             'configure.STUDIO_PREVIEW_URL_WHITELIST' => '*.boots.com',
 
