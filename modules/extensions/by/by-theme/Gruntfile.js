@@ -37,7 +37,7 @@ module.exports = function (grunt) {
       },
       build: {
         files: {
-          '<%=  distDir %>/css/estore.css': 'src/sass/estore.scss'
+          '<%=  distDir %>/css/by.css': 'src/sass/by.scss'
         }
       }
     },
@@ -99,8 +99,8 @@ module.exports = function (grunt) {
         dest: '<%=  distDir %>/images/'
       },
       templates: {
-        src: 'target/estore-theme-1.0-SNAPSHOT.jar',
-        dest: '<%=  distDir %>/templates/estore-templates.jar'
+        src: 'target/by-theme-1.0-SNAPSHOT.jar',
+        dest: '<%=  distDir %>/templates/by-templates.jar'
       }
     },
     autoprefixer: {
@@ -109,7 +109,7 @@ module.exports = function (grunt) {
         map: true
       },
       build: {
-        src: '<%= distDir %>/css/estore.css'
+        src: '<%= distDir %>/css/by.css'
       }
     }
     /*styledocco: {
