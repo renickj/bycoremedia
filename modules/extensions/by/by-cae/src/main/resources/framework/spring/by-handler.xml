@@ -41,6 +41,16 @@
 		</property>
 	</bean>
 
+	<bean id="corsHeaderInterceptor"
+		  class="com.boots.cms.handlers.CorsHeaderInterceptor">
+	</bean>
+
+	<customize:prepend id="byControllerInterceptors" bean="handlerInterceptors">
+		<list>
+			<ref bean="corsHeaderInterceptor"/>
+		</list>
+	</customize:prepend>
+
 	<customize:append id="registerHttpMessageConverters"
 		bean="httpMessageConverters">
 		<description>
