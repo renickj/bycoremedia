@@ -6,7 +6,7 @@
 <#if self.subjectTaxonomy?has_content>
 ,"tags":[
 	<#list self.subjectTaxonomy as tag>
-			"${tag.value}"
+			{ "value" :"${tag.value}","id" : "${tag.contentId}"}
 		<#if tag_has_next>,</#if>
 	</#list>
 ]
