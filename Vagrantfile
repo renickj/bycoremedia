@@ -54,7 +54,7 @@ Vagrant.configure("2") do |config|
                   "ssh_port" => "2220",
                   "memory" => "4096",
                   "cpu" => "2",
-                  "name" => "blueprint-box",
+                  "name" => "blueprint-box-betalabs",
                   "name_prefix" => "",
                   "ip" => "192.168.252.100",
                   # use blueprint-box as tld if you want to set aliases in your host file
