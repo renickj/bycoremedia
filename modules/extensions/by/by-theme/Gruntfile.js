@@ -13,7 +13,7 @@ module.exports = function (grunt) {
 
     // --- Properties ---
     pkg: grunt.file.readJSON('package.json'),
-    distDir: 'target/resources/themes/estore',
+    distDir: 'target/resources/themes/by',
     //bootstrapDir: 'node_modules/bootstrap-sass/assets',
     //bootstrapSwipe: 'node_modules/bootstrap-carousel-swipe',
     //jqueryDir: 'node_modules/jquery/dist',
