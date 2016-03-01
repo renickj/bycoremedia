@@ -13,7 +13,7 @@ module.exports = function (grunt) {
 
     // --- Properties ---
     pkg: grunt.file.readJSON('package.json'),
-    distDir: 'target/resources/themes/estore',
+    distDir: 'target/resources/themes/by',
     //bootstrapDir: 'node_modules/bootstrap-sass/assets',
     //bootstrapSwipe: 'node_modules/bootstrap-carousel-swipe',
     //jqueryDir: 'node_modules/jquery/dist',
@@ -97,6 +97,13 @@ module.exports = function (grunt) {
         filter: 'isFile',
         src: ['src/images/**'],
         dest: '<%=  distDir %>/images/'
+      },
+      css: {
+        expand: true,
+        flatten: true,
+        filter: 'isFile',
+        src: ['src/css/**'],
+        dest: '<%=  distDir %>/css/'
       },
       templates: {
         src: 'target/by-theme-1.0-SNAPSHOT.jar',
