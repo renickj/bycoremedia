@@ -53,6 +53,9 @@ override_attributes ({
                             # Studio configuration
                             'configure.STUDIO_PREVIEW_URL_WHITELIST' => '*.boots.com',
 
+                            #MongoDB config, comma-separated mongo-hosts
+                            'configure.MONGO_ADDRESSES' => 'betalabs.test.mgmt1.boots.com:27017',
+
                             # Misc
                             'configure.JAVA_HOME' =>    '/usr/lib/jvm/java'
                         }
