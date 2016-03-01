@@ -37,6 +37,9 @@ override_attributes ({
                             # use the master solr for delivery by default for this setup
                             'configure.DELIVERY_SOLR_PORT'=> '44080',
 
+                            # Set MLS hostname
+                            'configure.MLS_HOST' => 'dataprep1-management1.boots.com',
+
                             # Hostname configuration
                             'configure.STUDIO_TLD' => 'betalabs.test.mgmt1.boots.com',
                             'configure.WEBDAV_TLD' => 'betalabs.test.mgmt1.boots.com',
