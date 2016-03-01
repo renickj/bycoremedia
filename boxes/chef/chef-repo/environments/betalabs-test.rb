@@ -38,7 +38,7 @@ override_attributes ({
                             'configure.DELIVERY_SOLR_PORT'=> '44080',
 
                             # Set MLS hostname
-                            'configure.MLS_HOST' => 'dataprep1-management1.boots.com',
+                            'configure.MLS_HOST' => 'betalabs.test.mgmt1.boots.com',
 
                             # Hostname configuration
                             'configure.STUDIO_TLD' => 'betalabs.test.mgmt1.boots.com',
