@@ -16,6 +16,7 @@
 	<modules>
 		<module>by-bom</module>
 		<module>by-cae</module>
+		<module>by-caefeeder-component</module>
 		<module>by-theme</module>
 	</modules>
 </project>

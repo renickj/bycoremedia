@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization
+                           http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+
+    <!-- Index the productCode property of CMProducts into a separate index field -->
+    <bean id="byRelatedFeedableMapping" class="com.coremedia.cap.feeder.bean.BeanFeedableMapping">
+        <property name="beanClass" value="com.coremedia.blueprint.common.contentbeans.CMTeasable"/>
+        <property name="beanPropertyMappings">
+            <list>
+                <bean class="com.coremedia.cap.feeder.bean.BeanPropertyFeedableElementMapping">
+                    <property name="beanProperty" value="related"/>
+                    <property name="propertyConverter">
+                        <bean class="com.boots.cms.by.caefeeder.RelatedPropertyConverter"/>
+                    </property>
+                    <property name="feedableElement" value="related"/>
+                    <property name="textBody" value="true"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <customize:append id="addByRelatedBeanFeedableMapping" bean="caeFeederBeanMappings">
+        <list>
+            <ref bean="byRelatedFeedableMapping"/>
+        </list>
+    </customize:append>
+
+
+</beans>
+
