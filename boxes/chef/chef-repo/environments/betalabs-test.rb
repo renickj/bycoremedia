@@ -33,9 +33,12 @@ override_attributes ({
                             'configure.CAEFEEDER_PREVIEW_DB_PASSWORD' =>  'cm7mcaefeed_blt1',
 
                             # Delivery configuration
-                            'configure.DELIVERY_REPOSITORY_HTTP_PORT' => '42080',
+                            'configure.DELIVERY_REPOSITORY_HTTP_PORT' => '48080',
                             # use the master solr for delivery by default for this setup
                             'configure.DELIVERY_SOLR_PORT'=> '44080',
+
+                            # Set MLS hostname
+                            'configure.MLS_HOST' => 'betalabs.test.mgmt1.boots.com',
 
                             # Hostname configuration
                             'configure.STUDIO_TLD' => 'betalabs.test.mgmt1.boots.com',
@@ -49,6 +52,9 @@ override_attributes ({
 
                             # Studio configuration
                             'configure.STUDIO_PREVIEW_URL_WHITELIST' => '*.boots.com',
+
+                            #MongoDB config, comma-separated mongo-hosts
+                            'configure.MONGO_ADDRESSES' => 'betalabs.test.mgmt1.boots.com:27017',
 
                             # Misc
                             'configure.JAVA_HOME' =>    '/usr/lib/jvm/java'
