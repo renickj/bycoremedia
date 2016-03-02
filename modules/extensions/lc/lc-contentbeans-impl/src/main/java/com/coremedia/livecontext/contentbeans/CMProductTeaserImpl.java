@@ -164,7 +164,7 @@ public class CMProductTeaserImpl extends CMTeasableImpl implements CMProductTeas
   }
 
   @Override
-  private String getExternalId() {
+  public String getExternalId() {
     String externalId = getContent().getString(EXTERNAL_ID);
     return externalId==null ? "" : externalId.trim();
   }

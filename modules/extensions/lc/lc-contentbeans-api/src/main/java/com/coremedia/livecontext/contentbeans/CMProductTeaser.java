@@ -100,5 +100,5 @@ public interface CMProductTeaser extends CMTeasable {
    *
    * @return an external id representing the product
    */
-  private String getExternalId();
+  String getExternalId();
 }
