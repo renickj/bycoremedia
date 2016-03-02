@@ -163,7 +163,7 @@ public class CMProductTeaserImpl extends CMTeasableImpl implements CMProductTeas
     this.liveContextNavigationFactory = liveContextNavigationFactory;
   }
 
-  @Nonnull
+  @Override
   private String getExternalId() {
     String externalId = getContent().getString(EXTERNAL_ID);
     return externalId==null ? "" : externalId.trim();
