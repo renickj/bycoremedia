@@ -1,7 +1,9 @@
 package com.boots.cms.handlers;
 
-import com.coremedia.blueprint.cae.action.search.*;
 import com.coremedia.blueprint.base.settings.SettingsService;
+import com.coremedia.blueprint.cae.action.search.SearchActionState;
+import com.coremedia.blueprint.cae.action.search.SearchFormBean;
+import com.coremedia.blueprint.cae.action.search.SearchService;
 import com.coremedia.blueprint.cae.handlers.PageHandlerBase;
 import com.coremedia.blueprint.cae.search.SearchResultBean;
 import com.coremedia.blueprint.cae.searchsuggestion.Suggestion;
@@ -13,7 +15,6 @@ import com.coremedia.blueprint.common.navigation.Navigation;
 import com.coremedia.blueprint.common.services.context.ContextHelper;
 import com.coremedia.objectserver.beans.ContentBean;
 import com.coremedia.objectserver.view.substitution.Substitution;
-import com.coremedia.objectserver.view.substitution.SubstitutionRegistry;
 import com.coremedia.objectserver.web.HandlerHelper;
 import com.coremedia.objectserver.web.links.Link;
 import com.google.common.collect.ImmutableMap;
@@ -109,12 +110,12 @@ public class JSONSearchActionHandler extends PageHandlerBase {
       ModelAndView result;
       SearchActionState actionBean;
 
-
+      boolean searchByTaxonomy = "true".equals(request.getParameter("taxonomySearch"));
       // only search if query is long enough
-      if (searchForm.getQuery() != null && searchForm.getQuery().length() >= minimalSearchQueryLength) {
+      if ("*".equals(searchForm.getQuery())||(searchForm.getQuery() != null && searchForm.getQuery().length() >= minimalSearchQueryLength)) {
         //regular search result filtered by doctypes given in the Search Settings document
         Collection<String> docTypes = settingsService.settingAsList(DOCTYPE_SELECT, String.class, navigation);
-        SearchResultBean searchResult = searchService.search(searchResultsPage, searchForm, docTypes);
+        SearchResultBean searchResult = searchService.search(searchResultsPage, searchForm, docTypes, searchByTaxonomy);
 
         //topics search result filtered by topics doctypes given in the Search Settings document
         Collection<String> topicDocTypes = settingsService.settingAsList(TOPICS_DOCTYPE_SELECT, String.class, navigation);

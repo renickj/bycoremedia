@@ -1,13 +1,7 @@
 package com.coremedia.blueprint.cae.action.search;
 
 import com.coremedia.blueprint.base.settings.SettingsService;
-import com.coremedia.blueprint.cae.search.Condition;
-import com.coremedia.blueprint.cae.search.SearchConstants;
-import com.coremedia.blueprint.cae.search.SearchQueryBean;
-import com.coremedia.blueprint.cae.search.SearchResultBean;
-import com.coremedia.blueprint.cae.search.SearchResultFactory;
-import com.coremedia.blueprint.cae.search.Value;
-import com.coremedia.blueprint.cae.search.ValueAndCount;
+import com.coremedia.blueprint.cae.search.*;
 import com.coremedia.blueprint.cae.search.solr.SolrSearchParams;
 import com.coremedia.blueprint.cae.searchsuggestion.Suggestion;
 import com.coremedia.blueprint.cae.searchsuggestion.Suggestions;
@@ -27,11 +21,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Required;
 import org.springframework.util.CollectionUtils;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 import static java.lang.String.format;
 import static java.util.Objects.requireNonNull;
@@ -91,6 +81,19 @@ public class SearchService {
    * @return the search result
    */
   public SearchResultBean search(Page page, SearchFormBean searchForm, Collection<String> docTypes) {
+    return search(page, searchForm, docTypes, false);
+  }
+
+  /**
+   * the fulltext search method
+   *
+   * @param page       the search result page
+   * @param searchForm SearchFormBean
+   * @param docTypes the doctypes to use for the search
+   * @param byTaxonomy performs taxonomy search instead of classic search (the query must be comma separated list of taxonomy ids)
+   * @return the search result
+   */
+  public SearchResultBean search(Page page, SearchFormBean searchForm, Collection<String> docTypes, boolean byTaxonomy) {
     if (StringUtils.isEmpty(searchForm.getQuery())) {
       return null;
     }
@@ -101,7 +104,11 @@ public class SearchService {
     SearchQueryBean searchQuery = new SearchQueryBean();
     searchQuery.setSearchHandler(SearchQueryBean.SEARCH_HANDLER.FULLTEXT);
     // add query string
-    if (StringUtils.isNotEmpty(searchForm.getQuery())) {
+    if (byTaxonomy) {
+      List<String> ids = Arrays.asList(searchForm.getQuery().split(","));
+      searchQuery.addFilter(Condition.is(SearchConstants.FIELDS.SUBJECT_TAXONOMY, Value.anyOf(ids)));
+      searchQuery.setQuery("*");
+    } else {
       searchQuery.setQuery(searchForm.getQuery());
     }
     searchQuery.setSpellcheckSuggest(true);
