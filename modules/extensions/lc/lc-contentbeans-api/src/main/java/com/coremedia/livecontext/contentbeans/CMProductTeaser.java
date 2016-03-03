@@ -95,4 +95,10 @@ public interface CMProductTeaser extends CMTeasable {
    * @param context fallback to lookup the shop now policy
    */
   boolean isShopNowEnabled(CMContext context);
+  /**
+   * Returns an external id representing the product in the commerce system
+   *
+   * @return an external id representing the product
+   */
+  String getExternalId();
 }

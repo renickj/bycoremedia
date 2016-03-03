@@ -5,8 +5,10 @@
   <@cm.include self=self params={
     "limitAspectRatios": lc.getAspectRatiosForTeaser()
   }/>
-  <#if self.teaserTitle?has_content>
-    ${self.teaserTitle}
+  <#if self.detailText?has_content>
+    <@cm.include self=self.detailText!cm.UNDEFINED />
+  <#elseif self.teaserTitle?has_content>
+    <@cm.include self=self.teaserText!cm.UNDEFINED />
   </#if>
 </div>
 
