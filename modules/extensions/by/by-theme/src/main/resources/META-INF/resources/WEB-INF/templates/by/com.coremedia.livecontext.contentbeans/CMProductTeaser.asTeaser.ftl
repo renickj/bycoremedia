@@ -19,13 +19,13 @@
 	      <@cm.include self=self.teaserText!cm.UNDEFINED />
 	    </#if>
 		<#if self.externalId?has_content>
-			<a article-tracking href="${self.externalId!""}" target="_blank" >Buy on boots.com</a>
+			<a article-tracking href="http://www.boots.com/${self.externalId!""}" target="_blank" >Buy on boots.com</a>
 		</#if>
 	</div>
 <#elseif isTemplateFour>
-       <div class="row">
-          <h4>Get the look</h4>
-       </div>
+    <div class="row">
+       <h4>Get the look</h4>
+    </div>
 	<#if self.picture?has_content>
       <@cm.include self=self.picture params={
         "limitAspectRatios": lc.getAspectRatiosForTeaser(),
@@ -35,7 +35,7 @@
 	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 col2 vertDisplay">
 		<@cm.include self=self.teaserText!cm.UNDEFINED />
 		<#if self.externalId?has_content>
-			<a article-tracking href="${self.externalId!""}" target="_blank" >Buy on boots.com</a>
+			<a article-tracking href="http://www.boots.com/${self.externalId!""}" target="_blank" >Buy on boots.com</a>
 		</#if>
 	</div>
 </#if>
