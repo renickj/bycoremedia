@@ -16,6 +16,9 @@
 					<div class="row">
 						<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
 							<div class="prodimages">
+								<div class= ${classArticleRelated!""}>
+							       <h4>Get the look</h4>
+							    </div>
 								<#list self.related as related>	
 									<div class= ${classArticleRelated!""}>
 										<@cm.include self=related view="asTeaser" params={"isTemplateSix": false,"isTemplateThree": false,"isTemplateFour": true} />

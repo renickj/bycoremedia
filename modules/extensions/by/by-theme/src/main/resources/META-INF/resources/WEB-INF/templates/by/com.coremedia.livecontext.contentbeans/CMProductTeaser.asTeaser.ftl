@@ -23,9 +23,7 @@
 		</#if>
 	</div>
 <#elseif isTemplateFour>
-    <div class="row">
-       <h4>Get the look</h4>
-    </div>
+    
 	<#if self.picture?has_content>
       <@cm.include self=self.picture params={
         "limitAspectRatios": lc.getAspectRatiosForTeaser(),
