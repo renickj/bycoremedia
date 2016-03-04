@@ -7,6 +7,20 @@
                            http://www.coremedia.com/2007/coremedia-spring-beans-customization
                            http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
 
+    <customize:append id="byCaeFeederBeanPropertiesByClassCustomizer" bean="caeFeederBeanPropertiesByClass">
+        <description>
+            Mapping from bean classes to comma-separated list of indexed properties.
+            When populating a Feedable for a bean of one of the given classes, the given bean properties are mapped to
+            Feedable elements with the same names. The content of the given properties is also indexed in field 'textbody'.
+            For a more flexible mapping of bean properties to feedable elements, you can configure BeanFeedableMappings in
+            list 'caeFeederBeanMappings', which are merged with the configuration from this map.
+            Beans and their properties are only indexed if the corresponding content type is configured for feeding
+            See properties 'feeder.contentSelector.contentTypes' and 'feeder.contentSelector.includeSubTypes'.
+        </description>
+        <map>
+            <entry key="com.coremedia.blueprint.common.contentbeans.CMArticle" value="productDesc"/>
+        </map>
+    </customize:append>
 
     <!-- Index the productCode property of CMProducts into a separate index field -->
     <bean id="byRelatedFeedableMapping" class="com.coremedia.cap.feeder.bean.BeanFeedableMapping">

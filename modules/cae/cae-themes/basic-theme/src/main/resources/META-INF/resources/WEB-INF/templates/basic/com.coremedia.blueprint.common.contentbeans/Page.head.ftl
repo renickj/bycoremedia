@@ -42,6 +42,12 @@
 <#-- remove no-js class before loading css and more -->
 <script>document.documentElement.className = document.documentElement.className.replace(/no-js/g, 'js');</script>
 
+<#--Generate search URL-->
+    <script>
+        this.searchUrlBase = "/blueprint/servlet/service/jsonsearch/beautifulyou/${bp.setting(cmpage, "searchAction", false).contentId}";
+        this.suggestUrlBase  = this.searchUrlBase +"?rootNavigationId=${self.context.rootNavigations[0].contentId}";
+    </script>
+
 <#-- include css -->
 <#list self.css![] as css>
     <@cm.include self=css view="asCSSLink"/>

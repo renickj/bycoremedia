@@ -81,7 +81,7 @@ public class SearchService {
    * @return the search result
    */
   public SearchResultBean search(Page page, SearchFormBean searchForm, Collection<String> docTypes) {
-    return search(page, searchForm, docTypes, false);
+    return search(page, searchForm, docTypes, null);
   }
 
   /**
@@ -90,23 +90,22 @@ public class SearchService {
    * @param page       the search result page
    * @param searchForm SearchFormBean
    * @param docTypes the doctypes to use for the search
-   * @param byTaxonomy performs taxonomy search instead of classic search (the query must be comma separated list of taxonomy ids)
+   * @param taxonomySearch performs taxonomy search instead of classic search (the query must be comma separated list of taxonomy ids)
    * @return the search result
    */
-  public SearchResultBean search(Page page, SearchFormBean searchForm, Collection<String> docTypes, boolean byTaxonomy) {
+  public SearchResultBean search(Page page, SearchFormBean searchForm, Collection<String> docTypes, String taxonomySearch) {
     if (StringUtils.isEmpty(searchForm.getQuery())) {
       return null;
     }
-
     // get max hits settings
     int hitsPerPage = settingsService.settingWithDefault("search.result.hitsPerPage", Integer.class, HITS_PER_PAGE_DEFAULT, page.getContext());
     // build query
     SearchQueryBean searchQuery = new SearchQueryBean();
     searchQuery.setSearchHandler(SearchQueryBean.SEARCH_HANDLER.FULLTEXT);
     // add query string
-    if (byTaxonomy) {
+    if (taxonomySearch!=null) {
       List<String> ids = Arrays.asList(searchForm.getQuery().split(","));
-      searchQuery.addFilter(Condition.is(SearchConstants.FIELDS.SUBJECT_TAXONOMY, Value.anyOf(ids)));
+      searchQuery.addFilter(Condition.is(taxonomySearch, Value.anyOf(ids)));
       searchQuery.setQuery("*");
     } else {
       searchQuery.setQuery(searchForm.getQuery());
@@ -149,6 +148,7 @@ public class SearchService {
     // add facets
     searchQuery.setFacetFields(Collections.singletonList(SearchConstants.FIELDS.DOCUMENTTYPE.toString()));
     searchQuery.setFacetMinCount(SolrSearchParams.FACET_MIN_COUNT);
+    searchQuery.setSortFields(Arrays.asList(SearchConstants.FIELDS.MODIFICATION_DATE.toString()));
     // add limit/offset
     searchQuery.setLimit(hitsPerPage);
     searchQuery.setOffset(searchForm.getPageNum() * hitsPerPage);
