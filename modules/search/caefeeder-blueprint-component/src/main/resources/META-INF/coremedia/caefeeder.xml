@@ -31,6 +31,7 @@
       <entry key="com.coremedia.blueprint.common.contentbeans.CMMedia" value="caption,alt"/>
       <entry key="com.coremedia.blueprint.common.contentbeans.CMTaxonomy" value="value"/>
       <entry key="com.coremedia.blueprint.common.contentbeans.CMDownload" value="data"/>
+      <entry key="com.coremedia.blueprint.common.contentbeans.CMArticle" value="productDesc"/>
     </map>
   </customize:append>
 
