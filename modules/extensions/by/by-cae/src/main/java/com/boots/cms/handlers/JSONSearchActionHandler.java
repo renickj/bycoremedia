@@ -132,7 +132,8 @@ public class JSONSearchActionHandler extends PageHandlerBase {
             	searchResultTemp = searchService.search(searchResultsPage, searchForm, docTypes,taxonomySearch,limit);
             	for (Object aResult : searchResultTemp.getHits()) {
             		if (aResult instanceof CMTeasable) {
-            			if(!containsTeasable(teaserList,aResult)){
+            			CMTeasable result = (CMTeasable)aResult;
+            			if(!containsTeasable(teaserList,result)){
             				teaserList.add(aResult);
             			}
             		}
