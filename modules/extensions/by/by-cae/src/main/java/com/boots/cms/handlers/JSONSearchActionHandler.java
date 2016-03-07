@@ -117,8 +117,30 @@ public class JSONSearchActionHandler extends PageHandlerBase {
       if ("*".equals(searchForm.getQuery())||(searchForm.getQuery() != null && searchForm.getQuery().length() >= minimalSearchQueryLength)) {
         //regular search result filtered by doctypes given in the Search Settings document
         Collection<String> docTypes = settingsService.settingAsList(DOCTYPE_SELECT, String.class, navigation);
-        SearchResultBean searchResult = searchService.search(searchResultsPage, searchForm, docTypes,taxonomySearch,limit);
-
+        /*added for the limit tags for particular type- aravind */
+        if(limit!=null){
+        	SearchResultBean searchResult = null;
+            SearchResultBean searchResultTemp = null;
+            List<String> ids = asList(searchForm.getQuery().split(","));
+            searchForm.setQuery(ids.get(0));
+            searchResult = searchService.search(searchResultsPage, searchForm, docTypes,taxonomySearch,limit);
+            List<CMTeasable> teaserList = (List<CMTeasable>)searchResult.getHits();
+            for(String id:ids){
+            	searchForm.setQuery(id);
+            	searchResultTemp = searchService.search(searchResultsPage, searchForm, docTypes,taxonomySearch,limit);
+            	for (Object aResult : searchResultTemp.getHits()) {
+            		if (aResult instanceof CMTeasable) {
+            			if(!containsTeasable(teaserList,aResult)){
+            				teaserList.add(aResult);
+            			}
+            		}
+            	}
+            }
+            searchResult.setHits(teaserList);
+            /*end*/
+        }else{
+        	SearchResultBean searchResult = searchService.search(searchResultsPage, searchForm, docTypes,taxonomySearch,limit);
+        }
         //topics search result filtered by topics doctypes given in the Search Settings document
         Collection<String> topicDocTypes = settingsService.settingAsList(TOPICS_DOCTYPE_SELECT, String.class, navigation);
         SearchResultBean searchResultTopics = searchService.searchTopics(navigation, searchForm, topicDocTypes);
@@ -140,8 +162,19 @@ public class JSONSearchActionHandler extends PageHandlerBase {
     }
     return notFound();
   }
-
-
+  
+  private boolean containsTeasable(List<CMTeasable> teaserList,CMTeasable cmTeasable){
+	  boolean isFound = false;
+	  int teaserContentId = cmTeasable.getContentId();
+	  for(CMTeasable teasable : teaserList){
+		  if(teasable.getContentId() == teaserContentId){
+			  isFound = true;
+			  break;
+		  }
+	  }
+	  return isFound;
+  }
+   
   /**
    * Performs suggestion search and provides a JSON object containing the suggestions.
    *
