@@ -111,11 +111,13 @@ public class JSONSearchActionHandler extends PageHandlerBase {
       SearchActionState actionBean;
 
       String  taxonomySearch = request.getParameter("taxonomySearch");
+      // limit as query param for number of results 
+      String  limit = request.getParameter("limit");
       // only search if query is long enough
       if ("*".equals(searchForm.getQuery())||(searchForm.getQuery() != null && searchForm.getQuery().length() >= minimalSearchQueryLength)) {
         //regular search result filtered by doctypes given in the Search Settings document
         Collection<String> docTypes = settingsService.settingAsList(DOCTYPE_SELECT, String.class, navigation);
-        SearchResultBean searchResult = searchService.search(searchResultsPage, searchForm, docTypes, taxonomySearch);
+        SearchResultBean searchResult = searchService.search(searchResultsPage, searchForm, docTypes,taxonomySearch,limit);
 
         //topics search result filtered by topics doctypes given in the Search Settings document
         Collection<String> topicDocTypes = settingsService.settingAsList(TOPICS_DOCTYPE_SELECT, String.class, navigation);

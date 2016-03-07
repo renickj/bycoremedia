@@ -81,7 +81,7 @@ public class SearchService {
    * @return the search result
    */
   public SearchResultBean search(Page page, SearchFormBean searchForm, Collection<String> docTypes) {
-    return search(page, searchForm, docTypes, null);
+    return search(page, searchForm, docTypes, null, null);
   }
 
   /**
@@ -93,7 +93,7 @@ public class SearchService {
    * @param taxonomySearch performs taxonomy search instead of classic search (the query must be comma separated list of taxonomy ids)
    * @return the search result
    */
-  public SearchResultBean search(Page page, SearchFormBean searchForm, Collection<String> docTypes, String taxonomySearch) {
+  public SearchResultBean search(Page page, SearchFormBean searchForm, Collection<String> docTypes, String taxonomySearch,String limit) {
     if (StringUtils.isEmpty(searchForm.getQuery())) {
       return null;
     }
@@ -150,8 +150,14 @@ public class SearchService {
     searchQuery.setFacetMinCount(SolrSearchParams.FACET_MIN_COUNT);
     searchQuery.setSortFields(Arrays.asList(SearchConstants.FIELDS.MODIFICATION_DATE.toString()));
     // add limit/offset
-    searchQuery.setLimit(hitsPerPage);
-    searchQuery.setOffset(searchForm.getPageNum() * hitsPerPage);
+    //limit for number of search results dynamically 
+    if(limit != null){
+    	searchQuery.setLimit(limit);
+    	searchQuery.setOffset(searchForm.getPageNum() * limit);
+    }else{
+    	searchQuery.setLimit(hitsPerPage);
+	    searchQuery.setOffset(searchForm.getPageNum() * hitsPerPage);
+    }
     // run query
     return resultFactory.createSearchResultUncached(searchQuery);
   }
