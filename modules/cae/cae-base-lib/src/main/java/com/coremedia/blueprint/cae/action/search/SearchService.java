@@ -152,7 +152,7 @@ public class SearchService {
     // add limit/offset
     //limit for number of search results dynamically 
     if(limit != null){
-    	searchQuery.setLimit(limit);
+    	searchQuery.setLimit(Integer.parseInt(limit));
     	searchQuery.setOffset(searchForm.getPageNum() * limit);
     }else{
     	searchQuery.setLimit(hitsPerPage);
