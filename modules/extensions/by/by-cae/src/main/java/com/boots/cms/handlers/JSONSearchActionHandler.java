@@ -25,6 +25,7 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
+import com.coremedia.blueprint.common.contentbeans.CMTeasable;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Collection;
@@ -118,8 +119,9 @@ public class JSONSearchActionHandler extends PageHandlerBase {
         //regular search result filtered by doctypes given in the Search Settings document
         Collection<String> docTypes = settingsService.settingAsList(DOCTYPE_SELECT, String.class, navigation);
         /*added for the limit tags for particular type- aravind */
+        SearchResultBean searchResult = null;
         if(limit!=null){
-        	SearchResultBean searchResult = null;
+        	
             SearchResultBean searchResultTemp = null;
             List<String> ids = asList(searchForm.getQuery().split(","));
             searchForm.setQuery(ids.get(0));
@@ -139,7 +141,7 @@ public class JSONSearchActionHandler extends PageHandlerBase {
             searchResult.setHits(teaserList);
             /*end*/
         }else{
-        	SearchResultBean searchResult = searchService.search(searchResultsPage, searchForm, docTypes,taxonomySearch,limit);
+        	searchResult = searchService.search(searchResultsPage, searchForm, docTypes,taxonomySearch,limit);
         }
         //topics search result filtered by topics doctypes given in the Search Settings document
         Collection<String> topicDocTypes = settingsService.settingAsList(TOPICS_DOCTYPE_SELECT, String.class, navigation);
