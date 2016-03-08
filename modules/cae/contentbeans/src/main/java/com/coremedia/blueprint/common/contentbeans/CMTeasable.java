@@ -98,6 +98,25 @@ public interface CMTeasable extends CMHasContexts {
   CMPicture getPicture();
 
   /**
+   * Name of the document property 'thumbnails'.
+   */
+  String THUMBNAILS = "thumbnails";
+
+  /**
+   * Returns the value of the document property {@link #THUMBNAILS}.
+   *
+   * @return the value of the document property {@link #THUMBNAILS}
+   */
+  List<? extends CMPicture> getThumbnails();
+
+  /**
+   * Returns the first element of document property {@link #THUMBNAILS}.
+   *
+   * @return the first element of the document property {@link #THUMBNAILS}
+   */
+  CMPicture getThumbnail();
+
+  /**
    * Returns this. Overridden by standalone teasers.
    *
    * @return a {@link CMLinkable} object

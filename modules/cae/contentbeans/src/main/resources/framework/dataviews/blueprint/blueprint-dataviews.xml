@@ -58,6 +58,7 @@
     <property name="aspectByName" associationType="composition"/>
     <property name="localSettings"/>
     <property name="picturesUnfiltered" associationType="static"/>
+    <property name="thumbnailsUnfiltered" associationType="static"/>
     <property name="segment"/>
     <property name="teaserText"/>
     <property name="teaserTitle"/>
@@ -149,6 +150,7 @@
     <property name="aspectByName" associationType="composition"/>
     <property name="localSettings"/>
     <property name="picturesUnfiltered" associationType="static"/>
+    <property name="thumbnailsUnfiltered" associationType="static"/>
     <property name="contexts" associationType="static"/>
     <property name="viewtype" associationType="aggregation"/>
   </dataview>
@@ -219,6 +221,7 @@
     <property name="aspectByName" associationType="composition"/>
     <property name="localSettings"/>
     <property name="picturesUnfiltered" associationType="static"/>
+    <property name="thumbnailsUnfiltered" associationType="static"/>
     <property name="contexts" associationType="static"/>
     <property name="viewtype" associationType="aggregation"/>
     <property name="searchQuery" associationType="static"/>

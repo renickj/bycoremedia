@@ -82,6 +82,12 @@ public abstract class CMTeasableBase extends CMHasContextsImpl implements CMTeas
   }
 
   @Override
+  public List<? extends CMPicture> getThumbnails() {
+    List<Content> contents = getContent().getLinks(THUMBNAILS);
+    return createBeansFor(contents, CMPicture.class);
+  }
+
+  @Override
   public List<? extends CMPicture> getPictures() {
     List<Content> contents = getContent().getLinks(PICTURES);
     return createBeansFor(contents, CMPicture.class);

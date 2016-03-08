@@ -117,6 +117,7 @@
     <XmlProperty Name="teaserText" Grammar="coremedia-richtext-1.0" extensions:translatable="true"/>
     <XmlProperty Name="detailText" Grammar="coremedia-richtext-1.0" extensions:translatable="true"/>
     <LinkListProperty Name="pictures" LinkType="CMPicture"/>
+    <LinkListProperty Name="thumbnails" LinkType="CMPicture"/>
     <IntProperty Name="notSearchable"/>
     <LinkListProperty Name="related" LinkType="CMTeasable"/>
   </DocType>

@@ -67,6 +67,16 @@ public class CMTeasableImpl extends CMTeasableBase {
     return super.getPictures();
   }
 
+  @Override
+  @SuppressWarnings("unchecked")
+  public List<? extends CMPicture> getThumbnails() {
+    return (List<? extends CMPicture>) filterItems2(getThumbnailsUnfiltered());
+  }
+
+  public List<? extends CMPicture> getThumbnailsUnfiltered() {
+    return super.getThumbnails();
+  }
+
   /**
    * Filter items using the {@link #getValidationService()}
    *
@@ -95,6 +105,12 @@ public class CMTeasableImpl extends CMTeasableBase {
     List<? extends CMPicture> pictures = getPictures();
     return isNotEmpty(pictures) ? pictures.get(0) : null;
  }
+
+  @Override
+  public CMPicture getThumbnail() {
+    List<? extends CMPicture> thumbnails = getThumbnails();
+    return isNotEmpty(thumbnails) ? thumbnails.get(0) : null;
+  }
 
   @Override
   @SuppressWarnings("unchecked")
