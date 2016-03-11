@@ -421,7 +421,6 @@ section.inspiration div.container div.inspiration-holder article.template3 secti
   margin-top: 0;
   padding-top: 15px;
 }
-/* line 283, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section h3 {
   font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
   font-size: 17px;
@@ -429,7 +428,14 @@ section.inspiration div.container div.inspiration-holder article.template3 secti
   letter-spacing: 0.5px;
   color: #9853a1;
 }
-/* line 288, inspiration.scss */
+/* line 283, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.template3 section div.test h2 {
+  font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+/* line 287, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section blockquote {
   font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
   color: #9853a1;
@@ -438,30 +444,29 @@ section.inspiration div.container div.inspiration-holder article.template3 secti
   padding: 22px;
   margin: 35px 0;
 }
-/* line 295, inspiration.scss */
+/* line 294, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section blockquote p {
   display: inline;
 }
-/* line 297, inspiration.scss */
-section.inspiration div.container div.inspiration-holder article.template3 section blockquote p a {
+/* line 296, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.template3 section p a {
   text-decoration: underline;
   color: #464646;
 }
-/* line 304, inspiration.scss */
-section.inspiration div.container div.inspiration-holder article.template3 section blockquote p a:hover,
-section.inspiration div.container div.inspiration-holder article.template3 section blockquote p a:visited,
-section.inspiration div.container div.inspiration-holder article.template3 section blockquote p a:active {
+section.inspiration div.container div.inspiration-holder article.template3 section p a:hover,
+section.inspiration div.container div.inspiration-holder article.template3 section p a:visited,
+section.inspiration div.container div.inspiration-holder article.template3 section p a:active {
   color: #464646;
   background-color: transparent;
 }
-/* line 310, inspiration.scss */
+/* line 302, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section blockquote:after {
   content: '"';
   font-family: VAGRoundedBold, Arial, Helvetica, sans-serif;
   color: #9853a1;
   font-size: 50px;
 }
-/* line 316, inspiration.scss */
+/* line 308, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section blockquote:before {
   content: '"';
   font-family: VAGRoundedBold, Arial, Helvetica, sans-serif;
@@ -470,32 +475,32 @@ section.inspiration div.container div.inspiration-holder article.template3 secti
   position: absolute;
   left: 0;
 }
-/* line 324, inspiration.scss */
+/* line 316, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section div.row {
   margin: 0 0 15px 0;
   padding: 0 50px;
 }
-/* line 327, inspiration.scss */
+/* line 319, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section div.row div {
   text-align: center;
   padding: 25px;
 }
-/* line 331, inspiration.scss */
+/* line 323, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section div.row div div {
   padding: 0;
 }
-/* line 333, inspiration.scss */
+/* line 325, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section div.row div div img {
   display: block;
   clear: both;
   width: 90%;
   margin-bottom: 15px;
 }
-/* line 343, inspiration.scss */
+/* line 335, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section div.list {
   padding-bottom: 15px;
 }
-/* line 346, inspiration.scss */
+/* line 338, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section div.list h2 {
   margin-bottom: 1px;
   font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
@@ -503,17 +508,17 @@ section.inspiration div.container div.inspiration-holder article.template3 secti
   line-height: 26px;
   letter-spacing: 0.5px;
 }
-/* line 351, inspiration.scss */
+/* line 343, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section ol {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 356, inspiration.scss */
+/* line 348, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section ol li {
   margin-bottom: 25px;
 }
-/* line 357, inspiration.scss */
+/* line 349, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section ol li h2 {
   margin-bottom: 0;
   font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
@@ -521,29 +526,28 @@ section.inspiration div.container div.inspiration-holder article.template3 secti
   line-height: 26px;
   letter-spacing: 0.5px;
 }
-/* line 361, inspiration.scss */
+/* line 353, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section ol li p {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-/* line 363, inspiration.scss */
+/* line 355, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section ol li p a {
   text-decoration: underline;
   color: #464646;
 }
-/* line 370, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section ol li p a:hover,
 section.inspiration div.container div.inspiration-holder article.template3 section ol li p a:visited,
 section.inspiration div.container div.inspiration-holder article.template3 section ol li p a:active {
   color: #464646;
   background-color: transparent;
 }
-/* line 381, inspiration.scss */
+/* line 366, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 header {
   text-align: center;
 }
-/* line 383, inspiration.scss */
+/* line 368, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 header h1 {
   font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
   font-size: 25px;
@@ -552,12 +556,12 @@ section.inspiration div.container div.inspiration-holder article.template6 heade
   color: #9853a1;
   padding-bottom: 12px;
 }
-/* line 389, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 header div.articlevideo {
   position: relative;
   height: 0;
   overflow: hidden;
-  padding-bottom: 25px;
+  padding-bottom: 56.25%;
+  margin-bottom: 25px;
 }
 /* line 390, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 header div.articlevideo iframe {
@@ -567,22 +571,22 @@ section.inspiration div.container div.inspiration-holder article.template6 heade
   width: 100%;
   height: 100%;
 }
-/* line 404, inspiration.scss */
+/* line 375, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 header div img {
   width: 100%;
   height: auto;
 }
-/* line 410, inspiration.scss */
+/* line 381, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 section {
   padding: 25px 0;
   border-bottom: 1px solid #e8e8e8;
   margin-bottom: 25px;
 }
-/* line 415, inspiration.scss */
+/* line 386, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 section p:first-child {
   margin-bottom: 0;
 }
-/* line 418, inspiration.scss */
+/* line 389, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 section h2 {
   font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
   font-size: 17px;
@@ -591,52 +595,43 @@ section.inspiration div.container div.inspiration-holder article.template6 secti
   color: #9853a1;
   margin-top: 0;
 }
-/* line 423, inspiration.scss */
-section.inspiration div.container div.inspiration-holder article.template6 section h3 {
-  font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  line-height: 26px;
-  letter-spacing: 0.5px;
-  padding-top: 35px;
-}
-/* line 427, inspiration.scss */
+/* line 394, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 section p {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-/* line 429, inspiration.scss */
+/* line 396, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 section p a {
   text-decoration: underline;
   color: #464646;
 }
-/* line 436, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 section p a:hover,
 section.inspiration div.container div.inspiration-holder article.template6 section p a:visited,
 section.inspiration div.container div.inspiration-holder article.template6 section p a:active {
   color: #464646;
   background-color: transparent;
 }
-/* line 443, inspiration.scss */
+/* line 403, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 div.row {
   padding-bottom: 50px;
   /*BYTFULYOU-1167*/
 }
-/* line 445, inspiration.scss */
+/* line 405, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 div.row div:first-child {
   text-align: center;
 }
-/* line 449, inspiration.scss */
+/* line 409, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 div.row div img {
   vertical-align: middle;
   width: 90%;
-  padding-right: 8px;
   /*---BY1932---*/
+  padding-right: 8px;
   padding-left: 20px;
 }
-/* line 457, inspiration.scss */
+/* line 417, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 div.row div h3 {
-  font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
+	font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1px;
@@ -645,8 +640,8 @@ section.inspiration div.container div.inspiration-holder article.template6 div.r
   padding-top: 18px;
   /*---BY1932---*/
 }
-/* line 464, inspiration.scss */
-section.inspiration div.container div.inspiration-holder article.template6 div.row div p:first-child {
+/* line 423, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.template6 div.row div div p:first-child {
   /*BY2 987*/
   font-family: sans-serif;
   font-size: 18px;
@@ -654,37 +649,35 @@ section.inspiration div.container div.inspiration-holder article.template6 div.r
   margin-top: -3px;
   padding-bottom: 7px;
 }
-/* line 471, inspiration.scss */
-section.inspiration div.container div.inspiration-holder article.template6 div.row div p {
+/* line 430, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.template6 div.row div div p {
   padding-bottom: 10px;
-  padding-right: 25px;
 }
-/* line 474, inspiration.scss */
+/* line 432, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 div.row div p a {
   text-decoration: underline;
   color: #464646;
 }
-/* line 481, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 div.row div p a:hover,
 section.inspiration div.container div.inspiration-holder article.template6 div.row div p a:visited,
 section.inspiration div.container div.inspiration-holder article.template6 div.row div p a:active {
   color: #464646;
   background-color: transparent;
 }
-/* line 487, inspiration.scss */
+/* line 438, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 div.row div a {
   text-decoration: underline;
   color: #004990;
   margin-top: 15px;
 }
-/* line 495, inspiration.scss */
+/* line 446, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 div.row div a:hover,
 section.inspiration div.container div.inspiration-holder article.template6 div.row div a:visited,
 section.inspiration div.container div.inspiration-holder article.template6 div.row div a:active {
   color: #004990;
   background-color: transparent;
 }
-/* line 505, inspiration.scss */
+/* line 456, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 header h1 {
   font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
   font-size: 25px;
@@ -694,17 +687,17 @@ section.inspiration div.container div.inspiration-holder article.temp4 header h1
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 512, inspiration.scss */
+/* line 463, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 header div img {
   width: 100%;
   height: auto;
 }
-/* line 519, inspiration.scss */
+/* line 470, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList h4 {
   margin-top: 50px;
   color: #9f60a8;
 }
-/* line 523, inspiration.scss */
+/* line 474, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList h3 {
   font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
   font-size: 17px;
@@ -714,45 +707,45 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   margin-bottom: 20px;
   margin-top: 7px;
 }
-/* line 529, inspiration.scss */
+/* line 480, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList p {
   margin-top: 10px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.5px;
 }
-/* line 533, inspiration.scss */
+/* line 484, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList ol {
   margin-right: 15px;
 }
-/* line 535, inspiration.scss */
+/* line 486, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList ol li {
   margin-bottom: 10px;
 }
-/* line 539, inspiration.scss */
+/* line 490, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row {
   position: relative;
   margin-top: 25px;
 }
-/* line 542, inspiration.scss */
+/* line 493, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row div.col {
   padding: 0px 25px 0px 25px;
 }
-/* line 545, inspiration.scss */
+/* line 496, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row div.col2 {
   padding: 0px 2px 0px 25px;
   width: 100%;
   text-align: center;
   margin-bottom: 10px;
 }
-/* line 551, inspiration.scss */
+/* line 502, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row div.vertDisplay {
   padding: 0px 2px 0px 25px;
   width: 100%;
   text-align: center;
   margin-bottom: 10px;
 }
-/* line 556, inspiration.scss */
+/* line 507, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row div.vertDisplay p {
   text-align: center;
   padding: 0 0 10px 0;
@@ -760,68 +753,74 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   margin-right: 45px;
   margin-top: 0px;
 }
-/* line 564, inspiration.scss */
+/* line 515, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row div.vertDisplay a {
   text-decoration: underline;
   text-decoration-style: single;
   color: #004990;
   margin-bottom: 40px;
 }
-/* line 573, inspiration.scss */
+/* line 524, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row div.vertDisplay a:hover,
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row div.vertDisplay a:visited,
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row div.vertDisplay a:active {
   color: #004990;
   background-color: transparent;
 }
-/* line 578, inspiration.scss */
+/* line 529, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row div.row {
   margin-top: 0;
 }
-/* line 582, inspiration.scss */
+/* line 533, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row a {
   text-decoration: underline;
   color: #464646;
 }
-/* line 587, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row a:hover,
+section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row a:visited,
+section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row a:active {
+  color: #464646;
+  background-color: transparent;
+}
+/* line 538, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row ul {
   margin-right: 35px;
 }
-/* line 588, inspiration.scss */
+/* line 539, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row ul li {
   list-style: none;
   margin-bottom: 2px;
 }
-/* line 596, inspiration.scss */
+/* line 547, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row ul > li:before {
   content: "-";
   /* en dash */
   position: absolute;
   margin-left: -0.9em;
 }
-/* line 602, inspiration.scss */
+/* line 553, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList h4 {
   font-family: VagRoundedLight, Helvetica, HelveticaLT, sans-serif;
 }
 
 @media (min-width: 601px) {
-  /* line 619, inspiration.scss */
+  /* line 570, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 {
     padding: 0 10px;
   }
-  /* line 622, inspiration.scss */
+  /* line 573, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 header {
     text-align: center;
   }
-  /* line 627, inspiration.scss */
+  /* line 578, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section {
     padding: 25px 0;
   }
-  /* line 630, inspiration.scss */
+  /* line 581, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section p:first-child {
     margin-bottom: 0;
   }
-  /* line 633, inspiration.scss */
+  /* line 584, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section h2:first-child {
     margin-top: 10px !important;
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
@@ -829,7 +828,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     line-height: 30px;
     letter-spacing: 1px;
   }
-  /* line 638, inspiration.scss */
+  /* line 589, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section h3 {
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
     font-size: 17px;
@@ -837,7 +836,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     letter-spacing: 0.5px;
     padding-top: 35px;
   }
-  /* line 642, inspiration.scss */
+  /* line 593, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section blockquote {
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
     font-size: 30px;
@@ -848,7 +847,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  /* line 650, inspiration.scss */
+  /* line 601, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section div.list h2 {
     margin-bottom: 1px;
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
@@ -856,17 +855,17 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     line-height: 26px;
     letter-spacing: 0.5px;
   }
-  /* line 655, inspiration.scss */
+  /* line 606, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section ol {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  /* line 660, inspiration.scss */
+  /* line 611, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section ol li {
     margin-bottom: 25px;
   }
-  /* line 661, inspiration.scss */
+  /* line 612, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section ol li h2 {
     margin-bottom: 0;
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
@@ -874,67 +873,55 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     line-height: 26px;
     letter-spacing: 0.5px;
   }
-  /* line 665, inspiration.scss */
+  /* line 616, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section ol li p {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.5px;
   }
-  /* line 667, inspiration.scss */
-  section.inspiration div.container div.inspiration-holder article.template3 section ol li p a {
-    text-decoration: underline;
-    color: #464646;
-  }
-  /* line 674, inspiration.scss */
-  section.inspiration div.container div.inspiration-holder article.template3 section ol li p a:hover,
-  section.inspiration div.container div.inspiration-holder article.template3 section ol li p a:visited,
-  section.inspiration div.container div.inspiration-holder article.template3 section ol li p a:active {
-    color: #464646;
-    background-color: transparent;
-  }
-  /* line 684, inspiration.scss */
+  /* line 624, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 {
     padding: 0 10px;
   }
-  /* line 687, inspiration.scss */
+  /* line 627, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 header {
     text-align: center;
   }
-  /* line 692, inspiration.scss */
+  /* line 632, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 section {
     padding: 25px 0;
   }
-  /* line 695, inspiration.scss */
+  /* line 635, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 section p:first-child {
     margin-bottom: 0;
   }
-  /* line 698, inspiration.scss */
+  /* line 638, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 section h2:first-child {
     margin-top: 10px !important;
   }
-  /* line 702, inspiration.scss */
+  /* line 642, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 section h2 {
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 0.5px;
   }
-  /* line 711, inspiration.scss */
+  /* line 651, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div p {
     padding-bottom: 100px;
     border-bottom: 1px solid #e8e8e8;
     margin-top: 0px;
   }
-  /* line 718, inspiration.scss */
+  /* line 658, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.img {
     text-align: center;
     margin-top: 50px;
   }
-  /* line 721, inspiration.scss */
+  /* line 661, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.img img {
     width: 100%;
   }
-  /* line 726, inspiration.scss */
+  /* line 666, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList h4 {
     text-align: left;
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
@@ -944,11 +931,11 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     margin-left: 24px;
     margin-bottom: 30px;
   }
-  /* line 732, inspiration.scss */
+  /* line 672, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimages {
     margin-bottom: 50px;
   }
-  /* line 733, inspiration.scss */
+  /* line 673, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimages h4 {
     text-align: center;
     margin-bottom: 25px;
@@ -958,7 +945,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     line-height: 30px;
     letter-spacing: 1px;
   }
-  /* line 740, inspiration.scss */
+  /* line 680, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimages div.imgDisplay img {
     text-align: center;
     margin-top: 0px;
@@ -966,43 +953,43 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     width: 80%;
     height: auto;
   }
-  /* line 748, inspiration.scss */
+  /* line 688, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimages p {
     border-bottom: none;
   }
-  /* line 753, inspiration.scss */
+  /* line 693, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimagesmobile {
     display: none;
   }
-  /* line 756, inspiration.scss */
+  /* line 696, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList ol {
     margin-top: 50px;
     padding-left: 18px;
     margin-bottom: 50px;
   }
-  /* line 759, inspiration.scss */
+  /* line 699, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList ol li {
     margin-bottom: 40px;
   }
 }
 @media (max-width: 600px) {
-  /* line 776, inspiration.scss */
+  /* line 716, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 {
     padding: 0 15px;
   }
-  /* line 779, inspiration.scss */
+  /* line 719, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 header {
     text-align: left;
   }
-  /* line 782, inspiration.scss */
+  /* line 724, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section {
     padding: 25px 0;
   }
-  /* line 785, inspiration.scss */
+  /* line 727, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section p:first-child {
     margin-bottom: 0;
   }
-  /* line 788, inspiration.scss */
+  /* line 730, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section h2:first-child {
     margin-top: 10px !important;
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
@@ -1010,14 +997,14 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     line-height: 30px;
     letter-spacing: 1px;
   }
-  /* line 793, inspiration.scss */
+  /* line 735, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section h3 {
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 0.5px;
   }
-  /* line 797, inspiration.scss */
+  /* line 739, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section blockquote {
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
     font-size: 30px;
@@ -1027,7 +1014,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     border-top: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
   }
-  /* line 804, inspiration.scss */
+  /* line 746, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section div.list h2 {
     margin-bottom: 1px;
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
@@ -1035,17 +1022,17 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     line-height: 26px;
     letter-spacing: 0.5px;
   }
-  /* line 810, inspiration.scss */
+  /* line 752, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section ol {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  /* line 815, inspiration.scss */
+  /* line 757, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section ol li {
     margin-bottom: 25px;
   }
-  /* line 816, inspiration.scss */
+  /* line 758, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section ol li h2 {
     margin-bottom: 0;
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
@@ -1053,73 +1040,61 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     line-height: 26px;
     letter-spacing: 0.5px;
   }
-  /* line 820, inspiration.scss */
+  /* line 762, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section ol li p {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.5px;
   }
-  /* line 822, inspiration.scss */
-  section.inspiration div.container div.inspiration-holder article.template3 section ol li p a {
-    text-decoration: underline;
-    color: #464646;
-  }
-  /* line 829, inspiration.scss */
-  section.inspiration div.container div.inspiration-holder article.template3 section ol li p a:hover,
-  section.inspiration div.container div.inspiration-holder article.template3 section ol li p a:visited,
-  section.inspiration div.container div.inspiration-holder article.template3 section ol li p a:active {
-    color: #464646;
-    background-color: transparent;
-  }
-  /* line 839, inspiration.scss */
+  /* line 770, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 {
     padding: 0 15px;
   }
-  /* line 842, inspiration.scss */
+  /* line 773, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 header {
     text-align: left;
   }
-  /* line 845, inspiration.scss */
+  /* line 776, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 header h1 {
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
     font-size: 30px;
     line-height: 40px;
     letter-spacing: 1px;
   }
-  /* line 849, inspiration.scss */
+  /* line 780, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 section {
     padding: 25px 0;
   }
-  /* line 852, inspiration.scss */
+  /* line 783, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 section p:first-child {
     margin-bottom: 0;
   }
-  /* line 855, inspiration.scss */
+  /* line 786, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template6 section h2:first-child {
     margin-top: 10px !important;
   }
-  /* line 859, inspiration.scss */
-  section.inspiration div.container div.inspiration-holder article.template6 section h2:last-child {
+  /* line 790, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.template6 section h2 {
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 0.5px;
   }
-  /* line 866, inspiration.scss */
+  /* line 797, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.img {
     text-align: center;
   }
-  /* line 868, inspiration.scss */
+  /* line 799, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.img img {
     width: 90%;
   }
-  /* line 872, inspiration.scss */
+  /* line 803, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList h4 {
     text-align: left;
     font-size: 22px;
     margin-left: 25px;
   }
-  /* line 877, inspiration.scss */
+  /* line 808, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimagesmobile {
     padding-top: 40px;
     margin-top: 40px;
@@ -1128,30 +1103,30 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     margin-bottom: 40px;
     border-bottom: 1px solid #e8e8e8;
   }
-  /* line 884, inspiration.scss */
+  /* line 815, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimagesmobile h4 {
     font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
   }
-  /* line 889, inspiration.scss */
+  /* line 820, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimagesmobile div.imgDisplay {
     text-align: center;
   }
-  /* line 891, inspiration.scss */
+  /* line 822, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimagesmobile div.imgDisplay img {
     width: 60%;
   }
-  /* line 896, inspiration.scss */
+  /* line 827, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimages {
     display: none;
   }
-  /* line 899, inspiration.scss */
+  /* line 830, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList ol {
     margin-left: 20px;
     margin-top: 25px;
   }
-  /* line 904, inspiration.scss */
+  /* line 835, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList ul li {
     margin-left: 25px;
   }
