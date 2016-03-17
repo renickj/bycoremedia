@@ -18,7 +18,7 @@
 					<div class="row">
 						<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
 							<#if self.related[0]?has_content && self.related[0].class == 'class com.coremedia.blueprint.cae.contentbeans.CMVideoImpl'>
-								<@cm.include self=self.related[0] view="asTeaser" params={"isTemplateSix": false,"isTemplateThree": false,"isTemplateFour": true,"isVideo":true} />
+								<@cm.include self=self.related[0] view="asTeaser" params={"isTemplateSix": false,"isTemplateThree": false,"isTemplateFour": true} />
 							</#if>
 							<div class="prodimages">
 								<div class="row">
@@ -28,7 +28,7 @@
 								<#assign classType = related.class/>
 									<#if classType != 'class com.coremedia.blueprint.cae.contentbeans.CMVideoImpl'>
 										<div class= ${classArticleRelated!""}>
-											<@cm.include self=related view="asTeaser" params={"isTemplateSix": false,"isTemplateThree": false,"isTemplateFour": true,"isVideo":true} />
+											<@cm.include self=related view="asTeaser" params={"isTemplateSix": false,"isTemplateThree": false,"isTemplateFour": true} />
 										</div>
 									</#if>
 								</#list>
