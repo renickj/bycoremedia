@@ -846,6 +846,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     border-bottom: 1px solid #e8e8e8;
     padding-top: 50px;
     padding-bottom: 50px;
+	padding-left:30px;
   }
   /* line 601, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section div.list h2 {
@@ -918,7 +919,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     margin-top: 50px;
   }
   /* line 661, inspiration.scss */
-  section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.img img {
+  section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.img iframe {
     width: 100%;
   }
   /* line 666, inspiration.scss */
@@ -1091,8 +1092,10 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   /* line 803, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList h4 {
     text-align: left;
-    font-size: 22px;
-    margin-left: 25px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-left: 50px;
   }
   /* line 808, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimagesmobile {
@@ -1105,9 +1108,12 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   }
   /* line 815, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimagesmobile h4 {
-    font-size: 35px;
+   font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
     text-align: center;
     margin-bottom: 30px;
+	margin-left: 0px;
   }
   /* line 820, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimagesmobile div.imgDisplay {
@@ -1123,7 +1129,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   }
   /* line 830, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList ol {
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 25px;
   }
   /* line 835, inspiration.scss */
