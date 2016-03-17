@@ -14,8 +14,8 @@
         "configure.LIVECONTEXT_WCS_REST_SEARCH_SECURE_URL":"https://www.wccm1stag.nu.boots.com:3737/search/resources",
 
 //      Set the ip to a host so that it will be set in the IOR. necessary  to SSH-tunnel past the firewall for local development.
-        "configure.CMS_IP":"betalabs.test.mgmt1.boots.com",
-        "configure.WFS_IP":"betalabs.test.mgmt1.boots.com"
+        "configure.CMS_IP":"mgmt1.cmtest.betalab.159.122.195.145.xip.io",
+        "configure.WFS_IP":"mgmt1.cmtest.betalab.159.122.195.145.xip.io"
       },
 
       "db": {

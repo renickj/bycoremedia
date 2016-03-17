@@ -9,7 +9,7 @@
       "configure.CAEFEEDER_LIVE_DB_URL": "jdbc:mysql://10.112.158.4:3306/cm7caefeed_blt1",
       "configure.CAEFEEDER_LIVE_DB_USER" : "cm7caefeed_blt1" ,
       "configure.CAEFEEDER_LIVE_DB_PASSWORD": "cm7caefeed_blt1",
-      "configure.DELIVERY_TLD": "betalabs.test.del1.boots.com",
+      "configure.DELIVERY_TLD": "del1.cmtest.betalab.159.122.196.241.xip.io",
 
       "configure.LIVECONTEXT_SERVICE_USERNAME":"cmsadmin",
       "configure.LIVECONTEXT_SERVICE_PASSWORD":"cmsadm1n",

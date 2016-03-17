@@ -38,12 +38,12 @@ override_attributes ({
                             'configure.DELIVERY_SOLR_PORT'=> '44080',
 
                             # Set MLS hostname
-                            'configure.MLS_HOST' => 'betalabs.test.mgmt1.boots.com',
+                            'configure.MLS_HOST' => 'mgmt1.cmtest.betalab.159.122.195.145.xip.io',
 
                             # Hostname configuration
-                            'configure.STUDIO_TLD' => 'betalabs.test.mgmt1.boots.com',
-                            'configure.WEBDAV_TLD' => 'betalabs.test.mgmt1.boots.com',
-                            'configure.DELIVERY_TLD' => 'betalabs.test.del1.boots.com',
+                            'configure.STUDIO_TLD' => 'mgmt1.cmtest.betalab.159.122.195.145.xip.io',
+                            'configure.WEBDAV_TLD' => 'mgmt1.cmtest.betalab.159.122.195.145.xip.io',
+                            'configure.DELIVERY_TLD' => 'del1.cmtest.betalab.159.122.196.241.xip.io',
 
                             #segment configuration
                             'configure.STUDIO_HELIOS_SEGMENT' => 'studio',
@@ -51,10 +51,10 @@ override_attributes ({
                             'configure.HELIOS_SEGMENT' => 'by',
 
                             # Studio configuration
-                            'configure.STUDIO_PREVIEW_URL_WHITELIST' => '*.boots.com',
+                            'configure.STUDIO_PREVIEW_URL_WHITELIST' => '*.betalab.159.122.195.145.xip.io',
 
                             #MongoDB config, comma-separated mongo-hosts
-                            'configure.MONGO_ADDRESSES' => 'betalabs.test.mgmt1.boots.com:27017',
+                            'configure.MONGO_ADDRESSES' => 'mgmt1.cmtest.betalab.159.122.195.145.xip.io.com:27017',
 
                             # Misc
                             'configure.JAVA_HOME' =>    '/usr/lib/jvm/java'
