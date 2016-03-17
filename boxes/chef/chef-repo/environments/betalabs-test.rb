@@ -54,7 +54,7 @@ override_attributes ({
                             'configure.STUDIO_PREVIEW_URL_WHITELIST' => '*.betalab.159.122.195.145.xip.io',
 
                             #MongoDB config, comma-separated mongo-hosts
-                            'configure.MONGO_ADDRESSES' => 'mgmt1.cmtest.betalab.159.122.195.145.xip.io.com:27017',
+                            'configure.MONGO_ADDRESSES' => 'mgmt1.cmtest.betalab.159.122.195.145.xip.io:27017',
 
                             # Misc
                             'configure.JAVA_HOME' =>    '/usr/lib/jvm/java'
