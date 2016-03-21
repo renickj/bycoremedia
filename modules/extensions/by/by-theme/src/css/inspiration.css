@@ -913,6 +913,9 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     border-bottom: 1px solid #e8e8e8;
     margin-top: 0px;
   }
+  section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row p {
+      border-bottom: none;
+    }
   /* line 658, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.img {
     text-align: center;
