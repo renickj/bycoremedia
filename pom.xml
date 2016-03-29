@@ -243,6 +243,7 @@
         <!-- Make the preview ports distinct from the Studio ports -->
         <PREVIEW_AJP_PORT_SUFFIX>010</PREVIEW_AJP_PORT_SUFFIX>
         <PREVIEW_HTTP_PORT_SUFFIX>081</PREVIEW_HTTP_PORT_SUFFIX>
+        <studio.host>localhost</studio.host>
       </properties>
     </profile>
     <profile>
