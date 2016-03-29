@@ -7,6 +7,10 @@
 </#if>
 
 <#assign isVideoContent = false/>
+<#assign isTemplateOne = false/>
+<#assign isTemplateThree = false/>
+<#assign isTemplateSix = false/>
+<#assign isTemplateFour = false/>
 
 <#if isTemplateOne?has_content && isTemplateOne?is_boolean && isTemplateOne>
 	<#assign isVideoContent = true/>
