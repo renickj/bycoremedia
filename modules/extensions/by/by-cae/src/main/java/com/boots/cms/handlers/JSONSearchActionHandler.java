@@ -20,6 +20,7 @@ import com.coremedia.objectserver.web.HandlerHelper;
 import com.coremedia.objectserver.web.links.Link;
 import com.google.common.collect.ImmutableMap;
 import org.springframework.beans.factory.annotation.Required;
+import org.springframework.core.Ordered;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
@@ -242,7 +243,7 @@ public class JSONSearchActionHandler extends PageHandlerBase {
     this.minimalSearchQueryLength = minimalSearchQueryLength;
   }
 
-  @Link(type = CMProductTeaser.class, view = HandlerHelper.VIEWNAME_DEFAULT, order=1)
+  @Link(type = CMProductTeaser.class, view = HandlerHelper.VIEWNAME_DEFAULT, order= Ordered.HIGHEST_PRECEDENCE)
   public String buildLinkForProductTeaser(CMProductTeaser productTeaser, String viewName, Map<String, Object> linkParameters, HttpServletRequest request) {
     return BOOTS_DOT_COM_URL_PREFIX + productTeaser.getExternalId();
   }

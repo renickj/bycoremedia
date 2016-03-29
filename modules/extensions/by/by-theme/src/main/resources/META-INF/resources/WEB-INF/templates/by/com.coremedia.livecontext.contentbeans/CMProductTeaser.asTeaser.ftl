@@ -1,12 +1,12 @@
 <#-- @ftlvariable name="self" type="com.coremedia.livecontext.contentbeans.CMProductTeaser" -->
 
 <#if isTemplateSix?has_content && isTemplateSix?is_boolean && isTemplateSix>
-	<#assign isTemplateSix = true/>
-<#else>
+	<#assign template = "six"/>
+<#else><#-- Default: if no template has been set, we'll fall back to template four -->
 <#--In the future, we might add more and need this if: elseifisTemplateFour?has_content && isTemplateFour?is_boolean && isTemplateFour>-->
-	<#assign isTemplateFour = true/>
+	<#assign template = "four"/>
 </#if>
-<#if isTemplateSix?has_content>
+<#if template == "six">
     <#if self.picture?has_content>
       <@cm.include self=self.picture params={
         "limitAspectRatios": lc.getAspectRatiosForTeaser(),
@@ -22,9 +22,7 @@
 			<a article-tracking href="${cm.getLink(self.target!cm.UNDEFINED)}" target="_blank" >Buy on boots.com</a>
 		</#if>
 	</div>
-<#else>
-<#-- In the future we might need this ese if: <#elseif isTemplateFour>-->
-
+<#elseif template == "four">
 	<#if self.picture?has_content>
       <@cm.include self=self.picture params={
         "limitAspectRatios": lc.getAspectRatiosForTeaser(),
