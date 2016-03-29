@@ -17,12 +17,6 @@
 	<import resource="classpath:/framework/spring/blueprint-search.xml" />
 	<import resource="classpath:/framework/spring/blueprint-handlers.xml" />
 
-	<bean id="jsonHandler" class="com.boots.cms.handlers.JSONRequestHandler">
-		<property name="contentRepository" ref="contentRepository" />
-	</bean>
-
-
-
 	<bean id="jsonSearchActionHandler" class="com.boots.cms.handlers.JSONSearchActionHandler" parent="pageHandlerBase">
 		<description>
 			Handles the Search action.

@@ -13,6 +13,7 @@ import com.coremedia.blueprint.common.contentbeans.CMChannel;
 import com.coremedia.blueprint.common.contentbeans.Page;
 import com.coremedia.blueprint.common.navigation.Navigation;
 import com.coremedia.blueprint.common.services.context.ContextHelper;
+import com.coremedia.livecontext.contentbeans.CMProductTeaser;
 import com.coremedia.objectserver.beans.ContentBean;
 import com.coremedia.objectserver.view.substitution.Substitution;
 import com.coremedia.objectserver.web.HandlerHelper;
@@ -67,6 +68,7 @@ public class JSONSearchActionHandler extends PageHandlerBase {
                   "/{" + SEGMENT_ROOT + "}" +
                   "/{" + SEGMENT_ID + ":" + PATTERN_NUMBER + "}";
   private static final String SEARCH_CHANNEL_SETTING = "searchChannel";
+  public static final String BOOTS_DOT_COM_URL_PREFIX = "http://www.boots.com/";
 
 
   private SearchService searchService;
@@ -238,6 +240,11 @@ public class JSONSearchActionHandler extends PageHandlerBase {
 
   public void setMinimalSearchQueryLength(int minimalSearchQueryLength) {
     this.minimalSearchQueryLength = minimalSearchQueryLength;
+  }
+
+  @Link(type = CMProductTeaser.class, view = HandlerHelper.VIEWNAME_DEFAULT, order=1)
+  public String buildLinkForProductTeaser(CMProductTeaser productTeaser, String viewName, Map<String, Object> linkParameters, HttpServletRequest request) {
+    return BOOTS_DOT_COM_URL_PREFIX + productTeaser.getExternalId();
   }
 
 }
