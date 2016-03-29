@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:customize="http://www.coremedia.com/2007/coremedia-spring-beans-customization"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.coremedia.com/2007/coremedia-spring-beans-customization
+       http://www.coremedia.com/2007/coremedia-spring-beans-customization.xsd">
+
+  <import resource="classpath:/com/coremedia/lc/studio/lib/validators.xml"/>
+
+  <bean id="beautifulYouProductTeaserExternalIdValidator" parent="catalogLinkValidator"
+        class="com.boots.cms.by.studio.ProductTeaserExternalIdValidator">
+    <property name="contentType" value="CMProductTeaser"/>
+    <property name="excludedPath" value="/Sites/Beautiful You"/>
+  </bean>
+
+  <customize:replace id="replaceProductTeaserExternalIdValidator" bean="productTeaserExternalIdValidator"
+                     custom-ref="beautifulYouProductTeaserExternalIdValidator "/>
+
+</beans>

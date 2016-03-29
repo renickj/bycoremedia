@@ -133,5 +133,10 @@
       <version>1.0-SNAPSHOT</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>com.boots.cms</groupId>
+      <artifactId>by-studio-lib</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 </project>

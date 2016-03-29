@@ -6,51 +6,58 @@
 
   <!-- boms should use the bom-parent -->
   <parent>
-   <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms</groupId>
     <artifactId>bom-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>../../bom-parent/pom.xml</relativePath>
   </parent>
-  
+
   <artifactId>by-bom</artifactId>
-	<packaging>pom</packaging>
+  <packaging>pom</packaging>
 
-	<properties>
-		<coremedia.project.extension.name>Boots Beauty Extension</coremedia.project.extension.name>
-		<coremedia.project.extension.modelVersion>1.0</coremedia.project.extension.modelVersion>
-	</properties>
+  <properties>
+    <coremedia.project.extension.name>Boots Beauty Extension</coremedia.project.extension.name>
+    <coremedia.project.extension.modelVersion>1.0</coremedia.project.extension.modelVersion>
+  </properties>
 
-		<dependencies>
-			<dependency>
-				<groupId>${project.groupId}</groupId>
-				<artifactId>by-cae</artifactId>
-				<version>${project.version}</version>
-			</dependency>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>by-cae</artifactId>
+        <version>${project.version}</version>
+      </dependency>
 
-			<dependency>
-				<groupId>${project.groupId}</groupId>
-				<artifactId>by-theme</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			
-			<dependency>
-				<groupId>${project.groupId}</groupId>
-				<artifactId>by-webresources</artifactId>
-				<version>${project.version}</version>
-			</dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>by-theme</artifactId>
+        <version>${project.version}</version>
+      </dependency>
 
-			<dependency>
-				<groupId>${project.groupId}</groupId>
-				<artifactId>by-templates</artifactId>
-				<version>${project.version}</version>
-			</dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>by-webresources</artifactId>
+        <version>${project.version}</version>
+      </dependency>
 
-			<dependency>
-				<groupId>${project.groupId}</groupId>
-				<artifactId>by-caefeeder-component</artifactId>
-				<version>${project.version}</version>
-			</dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>by-templates</artifactId>
+        <version>${project.version}</version>
+      </dependency>
 
-		</dependencies>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>by-caefeeder-component</artifactId>
+        <version>${project.version}</version>
+      </dependency>
 
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>by-studio-lib</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+
+    </dependencies>
+  </dependencyManagement>
 </project>
