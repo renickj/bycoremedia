@@ -2,11 +2,11 @@
 
 <#if isTemplateSix?has_content && isTemplateSix?is_boolean && isTemplateSix>
 	<#assign isTemplateSix = true/>
-</#if>
-<#if isTemplateFour?has_content && isTemplateFour?is_boolean && isTemplateFour>
+<#else>
+<#--In the future, we might add more and need this if: elseifisTemplateFour?has_content && isTemplateFour?is_boolean && isTemplateFour>-->
 	<#assign isTemplateFour = true/>
 </#if>
-<#if isTemplateSix>
+<#if isTemplateSix?has_content>
     <#if self.picture?has_content>
       <@cm.include self=self.picture params={
         "limitAspectRatios": lc.getAspectRatiosForTeaser(),
@@ -22,8 +22,9 @@
 			<a article-tracking href="http://www.boots.com/${self.externalId!""}" target="_blank" >Buy on boots.com</a>
 		</#if>
 	</div>
-<#elseif isTemplateFour>
-    
+<#else>
+<#-- In the future we might need this ese if: <#elseif isTemplateFour>-->
+
 	<#if self.picture?has_content>
       <@cm.include self=self.picture params={
         "limitAspectRatios": lc.getAspectRatiosForTeaser(),

@@ -7143,3 +7143,14 @@ body a {
 .btn.boots_login:hover {
   background-color: #b4cde9;
 }
+
+/* Clearfix: contain floats */
+.cm-clearfix:before,
+.cm-clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.cm-clearfix:after {
+  clear: both;
+}
