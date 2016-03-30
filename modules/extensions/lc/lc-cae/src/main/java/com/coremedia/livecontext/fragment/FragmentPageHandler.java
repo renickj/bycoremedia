@@ -69,9 +69,9 @@ public class FragmentPageHandler extends PageHandlerBase {
                                      HttpServletRequest request,
                                      HttpServletResponse response) {
 
-    /*if(Commerce.getCurrentConnection() == null || Commerce.getCurrentConnection().getStoreContext() == null) {
+    if(Commerce.getCurrentConnection() == null || Commerce.getCurrentConnection().getStoreContext() == null) {
       return HandlerHelper.badRequest("Store context not initialized for fragment call " + request.getRequestURI());
-    }*/
+    }
 
     response.setContentType(CONTENT_TYPE_HTML);
 
