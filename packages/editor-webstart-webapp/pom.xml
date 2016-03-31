@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>packages</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -29,9 +29,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>editor</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <type>coremedia-application</type>
       <scope>runtime</scope>
     </dependency>

@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>es-alx</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>

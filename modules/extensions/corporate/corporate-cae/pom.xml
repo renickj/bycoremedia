@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>corporate</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
@@ -18,9 +18,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>contentbeans</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -36,9 +36,9 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>ec-cae-lib</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

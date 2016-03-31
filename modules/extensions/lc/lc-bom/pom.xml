@@ -6,7 +6,7 @@
 
   <!-- boms should use the bom-parent -->
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>bom-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>../../bom-parent/pom.xml</relativePath>
@@ -24,31 +24,6 @@
     <dependencies>
       <dependency>
         <groupId>${project.groupId}</groupId>
-        <artifactId>lc-ecommerce-ibm-component</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>lc-ecommerce-toko-component</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>lc-server</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>lc-studio</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>lc-studio-lib</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
         <artifactId>lc-cae</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -64,22 +39,12 @@
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
-        <artifactId>lc-contentfeeder-component</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
         <artifactId>perfectchef-theme</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>aurora-theme</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>lc-ecommerce-webapp-component</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

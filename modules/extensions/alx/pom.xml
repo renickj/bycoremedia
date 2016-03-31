@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>extensions</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -18,8 +18,5 @@
   <modules>
     <module>alx-bom</module>
     <module>alx-cae</module>
-    <module>alx-server</module>
-    <module>alx-studio-component</module>
-    <module>alx-studio-plugin</module>
   </modules>
 </project>

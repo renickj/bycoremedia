@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
      <artifactId>services</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -54,9 +54,9 @@
     </dependency>
 
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>workflow-server-webapp</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <type>war</type>
     </dependency>
 
@@ -83,7 +83,7 @@
             <configuration>
               <webapps>
                 <webapp>
-                  <groupId>${project.groupId}</groupId>
+                  <groupId>com.boots.cms</groupId>
                   <artifactId>workflow-server-webapp</artifactId>
                   <context>workflow</context>
                 </webapp>

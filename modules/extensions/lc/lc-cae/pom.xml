@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>lc</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
@@ -17,9 +17,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>ec-cae-lib</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
       <groupId>com.coremedia.blueprint.base</groupId>
@@ -81,36 +81,36 @@
       <artifactId>bpbase-lc-common</artifactId>
      </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>lc-ecommerce-ibm-lib</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>lc-ecommerce-ibm-component</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>lc-contentbeans-api</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>lc-contentbeans-impl</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>lc-services-api</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>lc-services-lib</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
       <groupId>com.coremedia.cms</groupId>
@@ -122,14 +122,14 @@
       <artifactId>coremedia-spring</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>contentbeans</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>search-api</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
       <groupId>com.coremedia.cms</groupId>
@@ -241,15 +241,15 @@
       <artifactId>spring-security-web</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>ec-test-util</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>test-util</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>

@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
      <artifactId>services</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -76,10 +76,10 @@
     </dependency>
 
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>solr-config</artifactId>
       <type>coremedia-application</type>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.solr</groupId>

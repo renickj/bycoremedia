@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
      <artifactId>services</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -53,21 +53,21 @@
     </dependency>
 
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>content-management-server-webapp</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>content-feeder-webapp</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <type>war</type>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>user-changes-webapp</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <type>war</type>
     </dependency>
   </dependencies>
@@ -93,17 +93,17 @@
             <configuration>
               <webapps>
                 <webapp>
-                  <groupId>${project.groupId}</groupId>
+                  <groupId>com.boots.cms</groupId>
                   <artifactId>content-management-server-webapp</artifactId>
                   <context>coremedia</context>
                 </webapp>
                 <webapp>
-                  <groupId>${project.groupId}</groupId>
+                  <groupId>com.boots.cms</groupId>
                   <artifactId>content-feeder-webapp</artifactId>
                   <context>contentfeeder</context>
                 </webapp>
                 <webapp>
-                  <groupId>${project.groupId}</groupId>
+                  <groupId>com.boots.cms</groupId>
                   <artifactId>user-changes-webapp</artifactId>
                   <context>user-changes</context>
                 </webapp>

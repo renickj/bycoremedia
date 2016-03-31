@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>modules</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -12,14 +12,10 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>solr-webapp</module>
-    <module>solr-config</module>
     <module>caefeeder-live-webapp</module>
     <module>caefeeder-preview-webapp</module>
     <module>caefeeder-blueprint-component</module>
     <module>caefeeder-lib</module>
-    <module>content-feeder-blueprint-component</module>
-    <module>content-feeder-webapp</module>
   </modules>
 </project>
 

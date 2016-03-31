@@ -4,7 +4,7 @@
 
   <!-- boms should use the bom-parent -->
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>bom-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>../../bom-parent/pom.xml</relativePath>
@@ -28,21 +28,6 @@
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>catalog-contentbeans-lib</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>catalog-doctypes</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>catalog-studio-plugin</artifactId>
-        <version>${project.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>catalog-studio-lib</artifactId>
         <version>${project.version}</version>
       </dependency>
     </dependencies>

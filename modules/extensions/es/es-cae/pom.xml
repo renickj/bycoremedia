@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>es</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -53,9 +53,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>contentbeans</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
       <groupId>com.coremedia.blueprint.base</groupId>

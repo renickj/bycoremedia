@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>lc-es</artifactId>
     <version>1.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
@@ -29,13 +29,13 @@
     <dependency>
       <groupId>com.boots.cms</groupId>
       <artifactId>lc-es-common</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms</groupId>
       <artifactId>lc-services-api</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
       <groupId>com.coremedia.livecontext</groupId>
@@ -46,9 +46,9 @@
       <artifactId>bpbase-lc-common</artifactId>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>lc-ecommerce-ibm-lib</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -69,9 +69,9 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>contentbeans</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>

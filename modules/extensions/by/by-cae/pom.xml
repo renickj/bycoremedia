@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.boots.cms</groupId>
+		<groupId>com.boots.cms.beautifulyou</groupId>
 		<artifactId>by</artifactId>
 		<version>1.0-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
@@ -14,9 +14,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>${project.groupId}</groupId>
+			<groupId>com.boots.cms</groupId>
 			<artifactId>contentbeans</artifactId>
-			<version>${project.version}</version>
+			<version>${boots.cms.core.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
@@ -24,9 +24,9 @@
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>${project.groupId}</groupId>
+			<groupId>com.boots.cms</groupId>
 			<artifactId>search-api</artifactId>
-			<version>${project.version}</version>
+			<version>${boots.cms.core.version}</version>
 		</dependency>
 
 		<dependency>
@@ -107,9 +107,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>${project.groupId}</groupId>
+			<groupId>com.boots.cms</groupId>
 			<artifactId>lc-contentbeans-api</artifactId>
-			<version>${project.version}</version>
+			<version>${boots.cms.core.version}</version>
 		</dependency>
 
 	</dependencies>

@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>cae</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -22,6 +22,14 @@
       <groupId>${project.groupId}</groupId>
       <artifactId>cae-extension-dependencies</artifactId>
       <version>${project.version}</version>
+      <type>pom</type>
+      <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.boots.cms</groupId>
+      <artifactId>cae-extension-dependencies</artifactId>
+      <version>${boots.cms.core.version}</version>
       <type>pom</type>
       <scope>runtime</scope>
     </dependency>
@@ -49,9 +57,9 @@
     </dependency>
 
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>contentbeans</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>runtime</scope>
     </dependency>
 
@@ -70,9 +78,9 @@
     </dependency>
 
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>solr-search</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>runtime</scope>
     </dependency>
 

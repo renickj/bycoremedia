@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>search</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -12,9 +12,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>contentbeans</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <scope>runtime</scope>
       <exclusions>
         <!-- Exclude ASM 3.3.1, which is incompatible with Tika 1.7 -->
@@ -62,6 +62,21 @@
     </dependency>
 
     <dependency>
+      <groupId>com.boots.cms</groupId>
+      <artifactId>caefeeder-extension-dependencies</artifactId>
+      <version>${boots.cms.core.version}</version>
+      <type>pom</type>
+      <scope>runtime</scope>
+      <exclusions>
+        <!-- Exclude ASM 3.3.1, which is incompatible with Tika 1.7 -->
+        <exclusion>
+          <groupId>asm</groupId>
+          <artifactId>asm</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
       <groupId>com.coremedia.cms</groupId>
       <artifactId>cap-client-component</artifactId>
       <scope>runtime</scope>
@@ -91,9 +106,9 @@
     </dependency>
 
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>database-drivers</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <type>pom</type>
       <scope>runtime</scope>
     </dependency>

@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>modules</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -22,21 +22,16 @@
     
     <module>bom-parent</module>
     <module>catalog</module>
-    <module>db2-controlroom</module>
     <module>es</module>
     <module>es-alx</module>
-    <module>es-controlroom</module>
     <module>es-demodata</module>
     <module>es-p13n</module>
-    <module>external-library</module>
     <module>p13n</module>
     <module>nuggad</module>
     <module>shoutem</module>
     <module>osm</module>
     <module>optimizely</module>
     <module>external-preview</module>
-    <module>custom-topic-pages</module>
-    <module>create-from-template</module>
     <module>lc</module>
     <module>corporate</module>
     <module>lc-es</module>

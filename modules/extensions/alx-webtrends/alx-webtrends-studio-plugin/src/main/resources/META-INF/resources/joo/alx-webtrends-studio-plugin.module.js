@@ -1,2 +1,0 @@
-joo.loadModule("${project.groupId}", "${project.artifactId}");
-coremediaEditorPlugins.push({mainClass:"com.coremedia.blueprint.studio.webtrends.WebtrendsStudioPlugin",name:"Webtrends Analytics Integration"});

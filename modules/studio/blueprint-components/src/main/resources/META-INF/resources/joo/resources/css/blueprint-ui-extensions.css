@@ -1,7 +1,0 @@
-/**
-* @see:LinkedSettingsForm.exml
-*/
-.linked-setting-panel > .x-panel-bwrap > .x-panel-body > .x-form-item:nth-child(2) > label.x-form-item-label {
-  margin-top: 8px;
-  display: inline-block;
-}

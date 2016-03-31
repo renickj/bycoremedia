@@ -5,7 +5,7 @@
       You will need to change the groupId in all modules
       A global search&replace will do the job !
   -->
-  <groupId>com.boots.cms</groupId>
+  <groupId>com.boots.cms.beautifulyou</groupId>
   <artifactId>blueprint</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -16,6 +16,12 @@
   </organization>
 
   <properties>
+
+    <!--
+      Since separation of the blueprint workspace into core and tenant app, this is the version to use as core.
+    -->
+    <boots.cms.core.version>1.0-SNAPSHOT</boots.cms.core.version>
+
     <failOnWarning>true</failOnWarning>
     <coremedia.enforcer.fail>true</coremedia.enforcer.fail>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -339,14 +345,6 @@
 
   <dependencyManagement>
     <dependencies>
-      <!-- control room persistence is required -->
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>${controlroom.persistence.extension}-controlroom-bom</artifactId>
-        <version>${project.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
 
       <!-- List your plugins here -->
       <dependency>
@@ -469,31 +467,7 @@
 
       <dependency>
         <groupId>${project.groupId}</groupId>
-        <artifactId>external-library-bom</artifactId>
-        <version>${project.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>      
-
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>create-from-template-bom</artifactId>
-        <version>${project.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>${project.groupId}</groupId>
         <artifactId>catalog-bom</artifactId>
-        <version>${project.version}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-
-      <dependency>
-        <groupId>${project.groupId}</groupId>
-        <artifactId>custom-topic-pages-bom</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
         <scope>import</scope>
@@ -768,9 +742,9 @@
           <!-- Provide doctypes to create web resources as content-->
           <dependencies>
             <dependency>
-              <groupId>${project.groupId}</groupId>
+              <groupId>com.boots.cms</groupId>
               <artifactId>contentserver-blueprint-component</artifactId>
-              <version>${project.version}</version>
+              <version>${boots.cms.core.version}</version>
             </dependency>
             <dependency>
               <groupId>com.coremedia.cms</groupId>

@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>extensions</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -12,13 +12,9 @@
   <packaging>pom</packaging>
 
   <modules>
-    <module>lc-es-common</module>
     <module>lc-es-cae</module>
-    <module>lc-es-studio-lib-component</module>
-    <module>lc-es-studio</module>
     <module>lc-es-templates</module>
     <module>lc-es-bom</module>
-    <module>lc-es-worker-component</module>
   </modules>
 
   <properties>

@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.boots.cms</groupId>
+    <groupId>com.boots.cms.beautifulyou</groupId>
      <artifactId>services</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
@@ -57,16 +57,16 @@
     </dependency>
 
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>studio-webapp</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <type>war</type>
     </dependency>
 
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>webdav-webapp</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <type>war</type>
     </dependency>
 
@@ -78,9 +78,9 @@
     </dependency>
 
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms</groupId>
       <artifactId>elastic-worker-webapp</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <type>war</type>
     </dependency>
   </dependencies>
@@ -132,12 +132,12 @@
                   <context>blueprint</context>
                 </webapp>
                 <webapp>
-                  <groupId>${project.groupId}</groupId>
+                  <groupId>com.boots.cms</groupId>
                   <artifactId>studio-webapp</artifactId>
                   <context>studio</context>
                 </webapp>
                 <webapp>
-                  <groupId>${project.groupId}</groupId>
+                  <groupId>com.boots.cms</groupId>
                   <artifactId>webdav-webapp</artifactId>
                   <context>webdav</context>
                 </webapp>
@@ -147,7 +147,7 @@
                   <context>editor-webstart</context>
                 </webapp>
                 <webapp>
-                  <groupId>${project.groupId}</groupId>
+                  <groupId>com.boots.cms</groupId>
                   <artifactId>elastic-worker-webapp</artifactId>
                   <context>elastic-worker</context>
                 </webapp>
