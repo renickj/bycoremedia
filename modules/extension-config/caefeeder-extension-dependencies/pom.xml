@@ -20,6 +20,12 @@
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>corporate-caefeeder-component</artifactId>
       <version>1.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.boots.cms.beautifulyou</groupId>
+      <artifactId>by-caefeeder-component</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
 </project>

@@ -20,6 +20,7 @@
 		<coremedia.project.extension.modelVersion>1.0</coremedia.project.extension.modelVersion>
 	</properties>
 
+	<dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>${project.groupId}</groupId>
@@ -35,22 +36,10 @@
 			
 			<dependency>
 				<groupId>${project.groupId}</groupId>
-				<artifactId>by-webresources</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>${project.groupId}</groupId>
-				<artifactId>by-templates</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-
-			<dependency>
-				<groupId>${project.groupId}</groupId>
 				<artifactId>by-caefeeder-component</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
 		</dependencies>
-
+	</dependencyManagement>
 </project>
