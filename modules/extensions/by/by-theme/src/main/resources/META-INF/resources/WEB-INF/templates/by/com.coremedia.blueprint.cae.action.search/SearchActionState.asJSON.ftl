@@ -2,9 +2,6 @@
 
 <#assign searchResultHits=(self.result.hits)![]/>
 
-
-
-
 <#-- results -->
 <#if searchResultHits?has_content>
 {
@@ -17,5 +14,10 @@
         } /><#if !hit?is_last>,</#if>
       </#list>
   ]
+}
+<#else>
+{
+"hits":"0", "page":"0", "hitsPerPage":"0", "query":"${self.form.query}",
+"searchResults":[]
 }
 </#if>
