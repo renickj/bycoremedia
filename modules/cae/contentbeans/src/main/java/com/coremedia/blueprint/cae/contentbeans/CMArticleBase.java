@@ -11,8 +11,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import com.coremedia.cap.content.Content;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
+
 
 /**
  * Generated base class for immutable beans of document type CMArticle.
@@ -25,8 +24,6 @@ public abstract class CMArticleBase extends CMTeasableImpl implements CMArticle 
    *
    * @return a list of {@link CMArticle} objects
    */
-  private static String DATE_FORMAT = "dd.MM.YY";
-  private static SimpleDateFormat dateFormatObj = new SimpleDateFormat(DATE_FORMAT);
 	
   @Override
   public CMArticle getMaster() {
@@ -67,29 +64,5 @@ public abstract class CMArticleBase extends CMTeasableImpl implements CMArticle 
     return getContent().getMarkup(DESCRIPTION);
   }
   
-  @Override
-  public String getModificationDate(){
-  	Calendar cal = getContent().getModificationDate();
-  	String date =  dateFormatObj.format(cal.getTime());
-  	return date;
-  }
-  @Override
-  public String getCreationDate(){
-  	Calendar cal = getContent().getCreationDate();
-  	String date =  dateFormatObj.format(cal.getTime());
-  	return date;
-  }
-  @Override
-  public String getModificationDateInMillis(){
-  	Calendar cal = getContent().getModificationDate();
-  	String time =  cal.getTimeInMillis()+"";
-  	return time;
-  }
-	
-  @Override
-  public String getCreationDateInMillis(){
-  	Calendar cal = getContent().getCreationDate();
-  	String time =  cal.getTimeInMillis()+"";
-  	return time;
-  }
+  
 }

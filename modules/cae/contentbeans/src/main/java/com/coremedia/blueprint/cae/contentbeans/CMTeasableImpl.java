@@ -16,6 +16,8 @@ import com.coremedia.blueprint.common.util.ParagraphHelper;
 import com.coremedia.cap.content.Content;
 import com.coremedia.xml.Markup;
 import com.google.common.collect.Lists;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -35,6 +37,8 @@ import static org.apache.commons.lang3.StringUtils.isBlank;
 public class CMTeasableImpl extends CMTeasableBase {
   private static final int LIMIT = 20;
   private static final int CACHE_FOR_IN_SECONDS = 300;
+  private static String DATE_FORMAT = "dd.MM.YY";
+  private static SimpleDateFormat dateFormatObj = new SimpleDateFormat(DATE_FORMAT);
 
   @Override
   public Markup getTeaserText() {
@@ -215,5 +219,31 @@ public class CMTeasableImpl extends CMTeasableBase {
   @Override
   public List<Markup> getTextAsParagraphs() {
     return ParagraphHelper.createParagraphs(getDetailText());
+  }
+  
+  @Override
+  public String getModificationDate(){
+  	Calendar cal = getContent().getModificationDate();
+  	String date =  dateFormatObj.format(cal.getTime());
+  	return date;
+  }
+  @Override
+  public String getCreationDate(){
+  	Calendar cal = getContent().getCreationDate();
+  	String date =  dateFormatObj.format(cal.getTime());
+  	return date;
+  }
+  @Override
+  public String getModificationDateInMillis(){
+  	Calendar cal = getContent().getModificationDate();
+  	String time =  cal.getTimeInMillis()+"";
+  	return time;
+  }
+	
+  @Override
+  public String getCreationDateInMillis(){
+  	Calendar cal = getContent().getCreationDate();
+  	String time =  cal.getTimeInMillis()+"";
+  	return time;
   }
 }

@@ -202,4 +202,28 @@ public interface CMTeasable extends CMHasContexts {
    * @return the detail text splitted at each paragraph.the detail text splitted at each paragraph.
    */
   List<Markup> getTextAsParagraphs();
+  
+  /**
+   * Returns the Teasable Creation Date In MilliSecond.
+   *
+   */
+  String getCreationDateInMillis();
+  
+  /**
+   * Returns the Teasable Modification Date In MilliSecond.
+   *
+   */
+  String getModificationDateInMillis();
+  
+  /**
+   * Returns the Teasable Modification Date.
+   *
+   */
+  String getModificationDate();
+  
+  /**
+   * Returns the Teasable Creation Date.
+   *
+   */
+  String getCreationDate();
 }

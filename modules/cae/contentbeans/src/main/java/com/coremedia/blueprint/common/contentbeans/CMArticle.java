@@ -49,13 +49,4 @@ public interface CMArticle extends CMTeasable {
   
   Markup getProductDesc();
   
-  String getCreationDateInMillis();
-  
-  String getModificationDateInMillis();
-  
-  String getModificationDate();
-  
-  String getCreationDate();
-  
-  
 }
