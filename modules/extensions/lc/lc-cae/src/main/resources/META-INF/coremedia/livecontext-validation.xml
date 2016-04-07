@@ -8,7 +8,7 @@
 
   <customize:append id="addLiveContextValidators" bean="contentbeanValidatorList">
     <list>
-      <ref bean="emptyTargetValidator"/>
+      <!--<ref bean="emptyTargetValidator"/>-->
       <ref bean="cmExternalChannelValidator"/>
       <ref bean="invalidTeaserTargetValidator"/>
     </list>
