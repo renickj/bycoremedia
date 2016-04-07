@@ -32,6 +32,11 @@ override_attributes ({
                             'configure.CAEFEEDER_PREVIEW_DB_USER' =>      'cm7mcaefeed_blt1',
                             'configure.CAEFEEDER_PREVIEW_DB_PASSWORD' =>  'cm7mcaefeed_blt1',
 
+                            'configure.CMS_SQL_SCHEMA_CREATE_DROP_INDEXES' => 'true',
+                            'configure.CMS_SQL_SCHEMA_ALTER_TABLE' => 'true',
+                            'configure.MLS_SQL_SCHEMA_CREATE_DROP_INDEXES' => 'true',
+                            'configure.MLS_SQL_SCHEMA_ALTER_TABLE' => 'true',
+
                             # Delivery configuration
                             'configure.DELIVERY_REPOSITORY_HTTP_PORT' => '48080',
                             # use the master solr for delivery by default for this setup
