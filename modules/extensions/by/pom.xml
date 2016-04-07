@@ -18,5 +18,6 @@
 		<module>by-cae</module>
 		<module>by-caefeeder-component</module>
 		<module>by-theme</module>
+		<module>by-theme-export</module>
 	</modules>
 </project>

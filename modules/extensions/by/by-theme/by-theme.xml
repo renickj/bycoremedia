@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themeDefinition modelVersion="1">
+    <name>by</name>
+    <description>BeautifulYou theme configuration</description>
+    <javaScripts>
+        <javaScript>js/bootstrap.min.js</javaScript>
+        <javaScript>js/jquery.min.js</javaScript>
+    </javaScripts>
+
+    <styleSheets>
+        <css>app.css</css>
+        <css>inspiration.css</css>
+    </styleSheets>
+
+    <fonts>
+
+    </fonts>
+</themeDefinition>
