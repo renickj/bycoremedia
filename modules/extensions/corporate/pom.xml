@@ -20,7 +20,7 @@
     <module>corporate-bom</module>
     <module>corporate-cae</module>
     <module>corporate-caefeeder-component</module>
-    <module>corporate-theme</module>
+    <!--<module>corporate-theme</module>-->
     <module>test-data</module>
   </modules>
 

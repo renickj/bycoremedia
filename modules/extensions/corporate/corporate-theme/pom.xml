@@ -46,7 +46,7 @@
       <id>development-themes</id>
       <activation>
         <property>
-          <name>skipThemes</name>
+          <name>!skipThemes</name>
         </property>
       </activation>
       <build>
