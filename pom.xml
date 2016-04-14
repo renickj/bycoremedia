@@ -334,8 +334,8 @@
       <url>file://${project.basedir}/target</url>
     </snapshotRepository>
     <repository>
-      <id>coremedia.external.releases</id>
-      <url>https://repository.coremedia.com/nexus/service/local/staging/deploy/maven2</url>
+      <id>softlayer.nexus.releases</id>
+      <url>http://159.8.163.202:8081/nexus/content/repositories/releases/</url>
     </repository>
     <site>
       <id>localsite</id>
