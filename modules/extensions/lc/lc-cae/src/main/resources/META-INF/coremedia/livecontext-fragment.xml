@@ -141,11 +141,11 @@
   </bean>
 
   <!-- Former LC1 Integration-->
-  <customize:append id="livecontextLinkTransformerCustomizer" bean="linkTransformers">
-    <list>
-      <ref bean="lcLinkTransformer"/>
-    </list>
-  </customize:append>
+  <!--<customize:append id="livecontextLinkTransformerCustomizer" bean="linkTransformers">-->
+    <!--<list>-->
+      <!--<ref bean="lcLinkTransformer"/>-->
+    <!--</list>-->
+  <!--</customize:append>-->
 
   <bean id="lcLinkTransformer" class="com.coremedia.livecontext.fragment.links.transformers.LiveContextLinkTransformer">
     <property name="removeJSession" value="true"/>
