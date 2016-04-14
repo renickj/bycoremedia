@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.boots.cms.beautifulyou</groupId>
         <artifactId>by</artifactId>
-        <version>1.0</version>
+        <version>1.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>by-theme-export</artifactId>
@@ -38,7 +38,7 @@
                     <dependency>
                         <groupId>com.boots.cms</groupId>
                         <artifactId>contentserver-blueprint-component</artifactId>
-                        <version>${project.version}</version>
+                        <version>${boots.cms.core.version}</version>
                     </dependency>
                 </dependencies>
                 <executions>
