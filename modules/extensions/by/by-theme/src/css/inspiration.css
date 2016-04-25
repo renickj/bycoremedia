@@ -714,6 +714,16 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   line-height: 24px;
   letter-spacing: 0.5px;
 }
+section.inspiration div.container div.inspiration-holder article.temp4 section.prdList p a {
+  text-decoration: underline;
+  color: #464646;
+}
+section.inspiration div.container div.inspiration-holder article.temp4 section.prdList p a:hover,
+section.inspiration div.container div.inspiration-holder article.temp4 section.prdList p a:visited,
+section.inspiration div.container div.inspiration-holder article.temp4 section.prdList p a:active {
+  color: #464646;
+  background-color: transparent;
+}
 /* line 484, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList ol {
   margin-right: 15px;
