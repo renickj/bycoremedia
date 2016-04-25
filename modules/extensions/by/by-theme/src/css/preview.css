@@ -1,0 +1,113 @@
+/* =====================================================================================================================
+Preview classes
+The classes are used for the preview of fragmented items in CoreMedia Studio
+================================================================================================================== */
+/* if multiple teasers are rendered next to each other simulate sidebar layout */
+.cm-preview-content > .content > .cm-teaser + .cm-teaser {
+margin-top: 8px;
+}
+/* hero teasers always render at full width */
+.cm-preview-content > .content > .cm-teaser.cm-teaser--hero {
+max-width: none;
+}
+/* normal teaser's width depends on the selected device */
+@media only screen and (max-width: 599px) and (orientation: portrait) {
+.cm-preview-content > .content > .cm-teaser,
+.cm-preview-content > .content > .cm-frame--teaser {
+max-width: 320px;
+}
+}
+@media only screen and (max-width: 599px) and (orientation: landscape) {
+.cm-preview-content > .content > .cm-teaser,
+.cm-preview-content > .content > .cm-frame--teaser {
+max-width: 280px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: portrait) {
+.cm-preview-content > .content > .cm-teaser,
+.cm-preview-content > .content > .cm-frame--teaser {
+max-width: 380px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 1024px) and (orientation: landscape) {
+.cm-preview-content > .content > .cm-teaser,
+.cm-preview-content > .content > .cm-frame--teaser {
+max-width: 508px;
+}
+}
+@media only screen and (min-width: 1025px) {
+.cm-preview-content > .content > .cm-teaser,
+.cm-preview-content > .content > .cm-frame--teaser {
+max-width: 395px;
+}
+/* if multiple teasers are rendered next to each other simulate sidebar layout */
+.cm-preview-content > .content > .cm-teaser + .cm-teaser {
+margin-top: 10px;
+}
+}
+
+/* =====================================================================================================================
+Preview classes
+The classes are used for the preview of fragmented items in Coremedia Studio
+================================================================================================================== */
+.cm-page-preview {
+background: none #b7b7b7;
+margin: 0;
+padding: 0;
+}
+/* display developer-mode symbol on bottom left */
+.cm-preview-developer-mode {
+position: fixed;
+bottom: 5px;
+left: 10px;
+font-size: 2rem;
+color: #ff0000;
+cursor: default;
+}
+/* fragmented item */
+.cm-preview-item {
+margin-bottom: 1px;
+}
+/* studio look like buttons in fragment preview */
+.cm-page-preview .toggle-button {
+background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADNJREFUeNpiYBgFgxPIA/F7IP6PBb+HyhME+lgMeQ8VJxogG0KyZmRD7pOreRTQCwAEGABc9hDJtWMwowAAAABJRU5ErkJggg==) 20px center no-repeat #f0f0f0;
+}
+.cm-page-preview .toggle-button.toggle-off {
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADFJREFUeNpiYBgF+IA8pQa8B2J9Sgz4T6kh/yk15D8Svj9gLqAoDCiOBfkRkt4BAgwACLgQycQ7s9wAAAAASUVORK5CYII=);
+}
+.cm-page-preview .toggle-container-off {
+display: none;
+}
+/* headline */
+.cm-preview-item__headline {
+display: block;
+padding: 5px 38px;
+color: #646060;
+font-weight: bold;
+font-size: 12px;
+font-family: 'Segoe UI', 'Trebuchet MS', 'Lucida Grande', Helvetica, sans-serif;
+line-height: 20px;
+cursor: pointer;
+}
+/* content */
+.cm-preview-item__container {
+display: block;
+max-width: 1200px;
+padding: 20px;
+background-color: #b7b7b7;
+}
+.cm-preview-content {
+padding: 15px;
+background-color: #ffffff;
+}
+.cm-preview-missing-key {
+font-weight: bold;
+background-color: #ff0000;
+}
+/* images */
+.cm-image-box--preview .cm-image {
+/* at least show the spinning icon of the background (32x32) */
+display: inline-block;
+min-width: 35px;
+min-height: 35px;
+}
