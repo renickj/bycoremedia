@@ -41,7 +41,7 @@
       <groupId>${project.groupId}</groupId>
       <artifactId>tomcat-config</artifactId>
       <version>${project.version}</version>
-      <classifier>http</classifier>
+      <classifier>noajp</classifier>
       <type>coremedia-application</type>
     </dependency>
 
