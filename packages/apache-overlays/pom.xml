@@ -18,7 +18,7 @@
   </properties>
 
   <modules>
-    <module>studio-apache</module>
+    <module>by-mgmt-apache</module>
     <module>delivery-apache</module>
   </modules>
 

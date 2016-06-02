@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- this file enables Tomcat to reload changed resources (= templates) from the given directories while running. -->
-<Context logEffectiveWebXml="false" sessionCookieName="CM_SESSIONID" sessionCookieDomain=".@STUDIO_TLD@" useHttpOnly="false">
-
-</Context>

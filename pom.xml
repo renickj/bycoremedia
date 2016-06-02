@@ -16,11 +16,19 @@
   </organization>
 
   <properties>
-
     <!--
       Since separation of the blueprint workspace into core and tenant app, this is the version to use as core.
     -->
-    <boots.cms.core.version>1.0</boots.cms.core.version>
+    <boots.cms.core.version>1.0-SNAPSHOT</boots.cms.core.version>
+    <!--
+      Port Prefix for xx-preview-tomcat
+      20: BeautifulYou
+      21: E-Store (boots.com)
+      22: LizEarle
+      23: Boots Norway
+    -->
+    <tenant.preview.port.prefix>20</tenant.preview.port.prefix>
+    <tenant.preview.jvm.worker>beautWorker</tenant.preview.jvm.worker>
 
     <failOnWarning>true</failOnWarning>
     <coremedia.enforcer.fail>true</coremedia.enforcer.fail>

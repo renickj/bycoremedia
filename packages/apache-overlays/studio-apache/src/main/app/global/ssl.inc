@@ -1,4 +1,0 @@
-SSLEngine On
-SSLProxyEngine On
-SSLCertificateFile @STUDIO_APACHE_CERT_FILE@
-SSLCertificateKeyFile @STUDIO_APACHE_CERT_KEYFILE@

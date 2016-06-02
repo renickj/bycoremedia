@@ -93,14 +93,7 @@
   </properties>
 
   <modules>
-    <module>studio-tomcat</module>
-    <module>cms-tomcat</module>
-    <module>wfs-tomcat</module>
-    <module>mls-tomcat</module>
-    <module>rls-tomcat</module>
-    <module>solr-master-tomcat</module>
-    <module>solr-slave-tomcat</module>
-    <module>caefeeder-preview-tomcat</module>
+    <module>by-preview-tomcat</module>
     <module>caefeeder-live-tomcat</module>
     <module>delivery-tomcat</module>
   </modules>

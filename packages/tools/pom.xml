@@ -16,15 +16,10 @@
   </properties>
 
   <modules>
-    <module>cms-tools</module>
-    <module>wfs-tools</module>
-    <module>mls-tools</module>
-    <module>rls-tools</module>
-    <module>cae-preview-tools</module>
-    <module>cae-live-tools</module>
-    <module>caefeeder-preview-tools</module>
-    <module>caefeeder-live-tools</module>
-    <module>css-importer</module>
+    <module>by-cae-preview-tools</module>
+    <module>by-cae-live-tools</module>
+    <module>by-caefeeder-preview-tools</module>
+    <module>by-caefeeder-live-tools</module>
   </modules>
 
   <dependencies>
