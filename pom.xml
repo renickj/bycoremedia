@@ -323,7 +323,7 @@
     <!-- its important that test-data is build before boxes because the test-data.zip must be build before
      boxes merge all test-data.zip. In parallel build this is no problem, but when building sequential the module order
      affects the build order because test-data is independent to other modules and no module depends on test-data -->
-    <module>test-data</module>
+    <!--<module>test-data</module>-->
     <module>boxes</module>
   </modules>
 

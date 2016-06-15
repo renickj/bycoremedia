@@ -8,22 +8,21 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>by-caefeeder-live-tools</artifactId>
+  <artifactId>cae-live-tools</artifactId>
   <packaging>pom</packaging>
 
   <dependencies>
     <dependency>
       <groupId>com.boots.cms</groupId>
-      <artifactId>caefeeder-tools-application</artifactId>
+      <artifactId>cae-tools-application</artifactId>
       <version>${boots.cms.core.version}</version>
       <type>coremedia-application</type>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
 
-
   <build>
-    <finalName>${APPLICATION_PREFIX}-caefeeder-live-tools</finalName>
+    <finalName>${APPLICATION_PREFIX}-cae-live-tools</finalName>
     <plugins>
       <plugin>
         <groupId>com.coremedia.maven</groupId>
@@ -44,7 +43,7 @@
                 <overlay>
                   <!--exclude the tools logback to use the one from the package-template-->
                   <groupId>${project.groupId}</groupId>
-                  <artifactId>caefeeder-tools-application</artifactId>
+                  <artifactId>cae-tools-application</artifactId>
                   <excludes>
                     <exclude>properties/corem/tools-logback.xml</exclude>
                     <exclude>bin/pre-config.jpif</exclude>
@@ -52,6 +51,7 @@
                 </overlay>
               </overlays>
             </configuration>
+
           </execution>
         </executions>
       </plugin>

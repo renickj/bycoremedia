@@ -72,7 +72,7 @@
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>by-cae-live-tools</artifactId>
+      <artifactId>cae-live-tools</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
@@ -84,7 +84,7 @@
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>by-caefeeder-live-tools</artifactId>
+      <artifactId>caefeeder-live-tools</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
@@ -102,23 +102,23 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-antrun-plugin</artifactId>
         <executions>
-          <execution>
-            <id>collect-test-data</id>
-            <goals>
-              <goal>run</goal>
-            </goals>
-            <phase>
-              package
-            </phase>
-            <configuration>
-              <target>
-                <zip destfile="${project.build.directory}/shared/content/content-users.zip"
-                     whenempty="fail" duplicate="preserve" keepcompression="false" compress="false">
-                  <zipgroupfileset dir="../" includes="**/test-data/**/test-data.zip"/>
-                </zip>
-              </target>
-            </configuration>
-          </execution>
+          <!--<execution>-->
+            <!--<id>collect-test-data</id>-->
+            <!--<goals>-->
+              <!--<goal>run</goal>-->
+            <!--</goals>-->
+            <!--<phase>-->
+              <!--package-->
+            <!--</phase>-->
+            <!--<configuration>-->
+              <!--<target>-->
+                <!--<zip destfile="${project.build.directory}/shared/content/content-users.zip"-->
+                     <!--whenempty="fail" duplicate="preserve" keepcompression="false" compress="false">-->
+                  <!--<zipgroupfileset dir="../" includes="**/test-data/**/test-data.zip"/>-->
+                <!--</zip>-->
+              <!--</target>-->
+            <!--</configuration>-->
+          <!--</execution>-->
           <execution>
             <id>default-cli</id>
             <goals>
