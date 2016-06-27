@@ -7,11 +7,11 @@
   <parent>
     <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>es-demodata</artifactId>
-    <version>1.0.9</version>
+    <version>1.0.10</version>
   </parent>
 
   <artifactId>es-demodata-preview-cae</artifactId>
-  <version>1.0.9</version>
+  <version>1.0.10</version>
   <packaging>pom</packaging>
 
   <properties>
