@@ -9,7 +9,7 @@
   <artifactId>blueprint</artifactId>
   <version>1.0.9</version>
   <packaging>pom</packaging>
-  <name>CoreMedia CMS Blueprint</name>
+  <name>Tenant: BetaLab</name>
 
   <organization>
     <name>Blueprint</name>
