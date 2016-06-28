@@ -136,7 +136,7 @@ ${configuration.tokens}
             <dependencies>
               <dependency>
                 <packageName>${APPLICATION_PREFIX}-tomcat-installation</packageName>
-                <minVersion>PROJECT_VERSION</minVersion>
+                <minVersion>1.0</minVersion>
               </dependency>
             </dependencies>
             <mappings>
