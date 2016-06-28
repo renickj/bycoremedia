@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>es</artifactId>
-    <version>1.0.10</version>
+    <version>1.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>es-cae</artifactId>
