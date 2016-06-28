@@ -205,7 +205,6 @@
 
   <modules>
     <module>package-template</module>
-    <module>tomcat</module>
     <module>apache-overlays</module>
     <module>services</module>
     <module>tools</module>

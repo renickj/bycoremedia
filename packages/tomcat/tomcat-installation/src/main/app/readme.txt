@@ -1,1 +1,0 @@
-Any file put below this directory will be packaged together with the tomcat installation.
