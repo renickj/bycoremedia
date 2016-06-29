@@ -7,7 +7,7 @@
   <parent>
     <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>extensions</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.11</version>
   </parent>
 
   <artifactId>lc</artifactId>
@@ -19,7 +19,7 @@
     <module>lc-preview-cae</module>
     <module>lc-caefeeder-component</module>
     <module>lc-themes</module>
-    <module>test-data</module>
+    <!--<module>test-data</module>-->
   </modules>
 
   <profiles>
