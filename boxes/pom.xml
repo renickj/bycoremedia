@@ -197,9 +197,9 @@
                 </goals>
                 <phase>deploy</phase>
                 <configuration>
-                  <artifactId>caefeeder-live-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-caefeeder-live-tomcat.rpm</file>
-                  <files>${rpm.deps}/cm7-caefeeder-live-tools.rpm</files>
+                  <artifactId>by-caefeeder-live-tomcat</artifactId>
+                  <file>${rpm.deps}/cm7-by-caefeeder-live-tomcat.rpm</file>
+                  <files>${rpm.deps}/cm7-by-caefeeder-live-tools.rpm</files>
                   <classifiers>tools</classifiers>
                   <types>rpm</types>
                 </configuration>
@@ -212,9 +212,9 @@
                 </goals>
                 <phase>deploy</phase>
                 <configuration>
-                  <artifactId>delivery-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-delivery-tomcat.rpm</file>
-                  <files>${rpm.deps}/cm7-cae-live-tools.rpm</files>
+                  <artifactId>by-delivery-tomcat</artifactId>
+                  <file>${rpm.deps}/cm7-by-delivery-tomcat.rpm</file>
+                  <files>${rpm.deps}/cm7-by-cae-live-tools.rpm</files>
                   <classifiers>tools</classifiers>
                   <types>rpm</types>
                 </configuration>

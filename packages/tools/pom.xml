@@ -17,9 +17,9 @@
 
   <modules>
     <module>by-cae-preview-tools</module>
-    <module>cae-live-tools</module>
+    <module>by-cae-live-tools</module>
     <module>by-caefeeder-preview-tools</module>
-    <module>caefeeder-live-tools</module>
+    <module>by-caefeeder-live-tools</module>
   </modules>
 
   <dependencies>

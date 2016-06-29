@@ -94,8 +94,8 @@
 
   <modules>
     <module>by-preview-tomcat</module>
-    <module>caefeeder-live-tomcat</module>
-    <module>delivery-tomcat</module>
+    <module>by-caefeeder-live-tomcat</module>
+    <module>by-delivery-tomcat</module>
   </modules>
 
   <dependencies>
