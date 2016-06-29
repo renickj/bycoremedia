@@ -38,9 +38,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>${project.groupId}</groupId>
+      <groupId>com.boots.cms.core</groupId>
       <artifactId>tomcat-config</artifactId>
-      <version>${project.version}</version>
+      <version>${boots.cms.core.version}</version>
       <classifier>noajp</classifier>
       <type>coremedia-application</type>
     </dependency>
