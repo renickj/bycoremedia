@@ -19,7 +19,7 @@
 
   <modules>
     <module>by-mgmt-apache</module>
-    <module>delivery-apache</module>
+    <module>by-delivery-apache</module>
   </modules>
 
   <dependencies>

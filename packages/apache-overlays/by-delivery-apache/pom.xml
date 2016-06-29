@@ -8,7 +8,7 @@
     <version>1.0.11</version>
   </parent>
 
-  <artifactId>delivery-apache</artifactId>
+  <artifactId>by-delivery-apache</artifactId>
   <packaging>pom</packaging>
 
 

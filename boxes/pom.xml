@@ -47,13 +47,13 @@
 
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>delivery-apache</artifactId>
+      <artifactId>by-delivery-apache</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>caefeeder-live-tomcat</artifactId>
+      <artifactId>by-caefeeder-live-tomcat</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
@@ -65,13 +65,13 @@
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>delivery-tomcat</artifactId>
+      <artifactId>by-delivery-tomcat</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>cae-live-tools</artifactId>
+      <artifactId>by-cae-live-tools</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
@@ -83,7 +83,7 @@
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>caefeeder-live-tools</artifactId>
+      <artifactId>by-caefeeder-live-tools</artifactId>
       <version>${project.version}</version>
       <type>pom</type>
     </dependency>
@@ -254,8 +254,8 @@
                 </goals>
                 <phase>deploy</phase>
                 <configuration>
-                  <artifactId>delivery-apache</artifactId>
-                  <file>${rpm.deps}/cm7-delivery-apache.rpm</file>
+                  <artifactId>by-delivery-apache</artifactId>
+                  <file>${rpm.deps}/cm7-by-delivery-apache.rpm</file>
                 </configuration>
               </execution>
 
