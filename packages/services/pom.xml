@@ -116,7 +116,7 @@
         <configuration>
           <dependencyFiltering>true</dependencyFiltering>
           <tomcatPath>.</tomcatPath>
-          <tomcatGroupId>${project.groupId}</tomcatGroupId>
+          <tomcatGroupId>com.boots.cms.core</tomcatGroupId>
           <tomcatArtifactId>tomcat-config</tomcatArtifactId>
           <defaultConfigurationProperties>${filters.dir}/default-deployment.properties</defaultConfigurationProperties>
           <rpmConfig>
