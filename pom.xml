@@ -340,12 +340,12 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>localfs</id>
-      <url>file://${project.basedir}/target</url>
+      <id>softlayer.nexus.snapshots</id>
+      <url>http://devops.cms.boots.com:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>softlayer.nexus.releases</id>
-      <url>http://159.8.163.202:8081/nexus/content/repositories/releases/</url>
+      <url>http://devops.cms.boots.com:8081/nexus/content/repositories/releases/</url>
     </repository>
     <site>
       <id>localsite</id>

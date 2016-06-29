@@ -193,108 +193,20 @@
             <version>2.6</version>
             <executions>
               <execution>
-                <id>deploy-cms-rpm</id>
+                <id>deploy-caefeeder-live-rpm</id>
                 <goals>
                   <goal>deploy-file</goal>
                 </goals>
                 <phase>deploy</phase>
                 <configuration>
-                  <artifactId>cms-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-cms-tomcat.rpm</file>
-                  <files>${rpm.deps}/cm7-cms-tools.rpm</files>
+                  <artifactId>caefeeder-live-tomcat</artifactId>
+                  <file>${rpm.deps}/cm7-caefeeder-live-tomcat.rpm</file>
+                  <files>${rpm.deps}/cm7-caefeeder-live-tools.rpm</files>
                   <classifiers>tools</classifiers>
                   <types>rpm</types>
                 </configuration>
               </execution>
-              <execution>
-                <id>deploy-mls-rpm</id>
-                <goals>
-                  <goal>deploy-file</goal>
-                </goals>
-                <phase>deploy</phase>
-                <configuration>
-                  <artifactId>mls-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-mls-tomcat.rpm</file>
-                  <files>${rpm.deps}/cm7-mls-tools.rpm</files>
-                  <classifiers>tools</classifiers>
-                  <types>rpm</types>
-                </configuration>
-              </execution>
-              <execution>
-                <id>deploy-rls-rpm</id>
-                <goals>
-                  <goal>deploy-file</goal>
-                </goals>
-                <phase>deploy</phase>
-                <configuration>
-                  <artifactId>rls-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-rls-tomcat.rpm</file>
-                  <files>${rpm.deps}/cm7-rls-tools.rpm</files>
-                  <classifiers>tools</classifiers>
-                  <types>rpm</types>
-                </configuration>
-              </execution>
-              <execution>
-                <id>deploy-wfs-rpm</id>
-                <goals>
-                  <goal>deploy-file</goal>
-                </goals>
-                <phase>deploy</phase>
-                <configuration>
-                  <artifactId>wfs-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-wfs-tomcat.rpm</file>
-                  <files>${rpm.deps}/cm7-wfs-tools.rpm</files>
-                  <classifiers>tools</classifiers>
-                  <types>rpm</types>
-                </configuration>
-              </execution>
-              <execution>
-                <id>deploy-solr-master-rpm</id>
-                <goals>
-                  <goal>deploy-file</goal>
-                </goals>
-                <phase>deploy</phase>
-                <configuration>
-                  <artifactId>solr-master-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-solr-master-tomcat.rpm</file>
-                </configuration>
-              </execution>
-              <execution>
-                <id>deploy-solr-slave-rpm</id>
-                <goals>
-                  <goal>deploy-file</goal>
-                </goals>
-                <phase>deploy</phase>
-                <configuration>
-                  <artifactId>solr-slave-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-solr-slave-tomcat.rpm</file>
-                </configuration>
-              </execution>
-              <execution>
-                <id>deploy-tomcat-installation-rpm</id>
-                <goals>
-                  <goal>deploy-file</goal>
-                </goals>
-                <phase>deploy</phase>
-                <configuration>
-                  <artifactId>tomcat-installation</artifactId>
-                  <file>${rpm.deps}/cm7-tomcat-installation.rpm</file>
-                </configuration>
-              </execution>
-              <execution>
-                <id>deploy-studio-rpm</id>
-                <goals>
-                  <goal>deploy-file</goal>
-                </goals>
-                <phase>deploy</phase>
-                <configuration>
-                  <artifactId>studio-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-studio-tomcat.rpm</file>
-                  <files>${rpm.deps}/cm7-cae-preview-tools.rpm</files>
-                  <classifiers>tools</classifiers>
-                  <types>rpm</types>
-                </configuration>
-              </execution>
+
               <execution>
                 <id>deploy-delivery-rpm</id>
                 <goals>
@@ -309,45 +221,34 @@
                   <types>rpm</types>
                 </configuration>
               </execution>
+
               <execution>
-                <id>deploy-caefeeder-preview-rpm</id>
+                <id>deploy-preview-rpm</id>
                 <goals>
                   <goal>deploy-file</goal>
                 </goals>
                 <phase>deploy</phase>
                 <configuration>
-                  <artifactId>caefeeder-preview-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-caefeeder-preview-tomcat.rpm</file>
-                  <files>${rpm.deps}/cm7-caefeeder-preview-tools.rpm</files>
+                  <artifactId>by-preview-tomcat</artifactId>
+                  <file>${rpm.deps}/cm7-by-preview-tomcat.rpm</file>
+                  <files>${rpm.deps}/cm7-by-cae-preview-tools.rpm</files>
                   <classifiers>tools</classifiers>
                   <types>rpm</types>
                 </configuration>
               </execution>
+
               <execution>
-                <id>deploy-caefeeder-live-rpm</id>
+                <id>deploy-by-caefeeder-preview-tools-rpm</id>
                 <goals>
                   <goal>deploy-file</goal>
                 </goals>
                 <phase>deploy</phase>
                 <configuration>
-                  <artifactId>caefeeder-live-tomcat</artifactId>
-                  <file>${rpm.deps}/cm7-caefeeder-live-tomcat.rpm</file>
-                  <files>${rpm.deps}/cm7-caefeeder-live-tools.rpm</files>
-                  <classifiers>tools</classifiers>
-                  <types>rpm</types>
+                  <artifactId>cm7-by-caefeeder-preview-tools</artifactId>
+                  <file>${rpm.deps}/cm7-by-caefeeder-preview-tools.rpm</file>
                 </configuration>
               </execution>
-              <execution>
-                <id>deploy-css-importer-rpm</id>
-                <goals>
-                  <goal>deploy-file</goal>
-                </goals>
-                <phase>deploy</phase>
-                <configuration>
-                  <artifactId>css-importer</artifactId>
-                  <file>${rpm.deps}/cm7-css-importer.rpm</file>
-                </configuration>
-              </execution>
+
               <execution>
                 <id>deploy-delivery-apache-rpm</id>
                 <goals>
@@ -359,15 +260,16 @@
                   <file>${rpm.deps}/cm7-delivery-apache.rpm</file>
                 </configuration>
               </execution>
+
               <execution>
-                <id>deploy-studio-apache-rpm</id>
+                <id>deploy-by-mgmt-apache-rpm</id>
                 <goals>
                   <goal>deploy-file</goal>
                 </goals>
                 <phase>deploy</phase>
                 <configuration>
-                  <artifactId>studio-apache</artifactId>
-                  <file>${rpm.deps}/cm7-studio-apache.rpm</file>
+                  <artifactId>by-mgmt-apache</artifactId>
+                  <file>${rpm.deps}/cm7-by-mgmt-apache.rpm</file>
                 </configuration>
               </execution>
             </executions>
