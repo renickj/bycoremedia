@@ -189,8 +189,6 @@
           </plugin>
           <plugin>
             <artifactId>maven-deploy-plugin</artifactId>
-            <!--Enforce version 2.6 until http://jira.codehaus.org/browse/MDEPLOY-190 is solved-->
-            <version>2.6</version>
             <executions>
               <execution>
                 <id>deploy-caefeeder-live-rpm</id>
