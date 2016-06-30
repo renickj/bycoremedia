@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>optimizely</artifactId>
-    <version>1.0.11</version>
+    <version>1.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>optimizely-cae</artifactId>
