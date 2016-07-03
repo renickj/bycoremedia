@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>tools</artifactId>
-    <version>1.0-SNAPSHOT</version>
+      <version>1.0.14</version>
   </parent>
 
   <artifactId>by-cae-preview-tools</artifactId>
