@@ -19,7 +19,7 @@
     <!--
       Since separation of the blueprint workspace into core and tenant app, this is the version to use as core.
     -->
-    <boots.cms.core.version>1.0-SNAPSHOT</boots.cms.core.version>
+    <boots.cms.core.version>1.0.16</boots.cms.core.version>
     <!--
       Port Prefix for xx-preview-tomcat
       20: BeautifulYou
