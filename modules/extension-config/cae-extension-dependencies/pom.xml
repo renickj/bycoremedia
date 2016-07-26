@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>extension-config</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.17</version>
   </parent>
   <artifactId>cae-extension-dependencies</artifactId>
   <packaging>pom</packaging>
@@ -13,151 +13,151 @@
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>lc-p13n-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>lc-es-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>lc-es-templates</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>corporate-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>lc-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>p13n-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>osm-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>alx-p13n-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>alx-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>alx-google-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>alx-google-templates</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>nuggad-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>alx-webtrends-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>es-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>es-theme</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>es-alx-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>es-alx-templates</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>shoutem-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>lc-asset-cae-component</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>optimizely-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>catalog-contentbeans-lib</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>perfectchef-theme</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>aurora-theme</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>by-cae</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.boots.cms.beautifulyou</groupId>
       <artifactId>by-theme</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.17</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
