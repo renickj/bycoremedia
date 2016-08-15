@@ -1235,30 +1235,39 @@
 
   <repositories>
     <repository>
-      <id>wba.releases</id>
-      <name>WBA Releases</name>
-      <url>http://159.8.163.202:8081/nexus/content/groups/public/</url>
+      <id>coremedia.external.livecontext.releases</id>
+      <name>CoreMedia CMS</name>
+      <url>https://repository.coremedia.com/nexus/content/repositories/livecontext-releases/</url>
       <layout>default</layout>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
     </repository>
     <repository>
-      <id>wba.snapshots</id>
-      <name>WBA Snapshots</name>
-      <url>http://159.8.163.202:8081/nexus/content/repositories/snapshots/</url>
+      <id>coremedia.external.releases</id>
+      <name>CoreMedia CMS</name>
+      <url>https://repository.coremedia.com/nexus/content/groups/cms/</url>
       <layout>default</layout>
       <snapshots>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
       </snapshots>
     </repository>
   </repositories>
 
   <pluginRepositories>
     <pluginRepository>
-      <id>wba.releases</id>
-      <name>WBA Releases</name>
-      <url>http://159.8.163.202:8081/nexus/content/groups/public/</url>
+      <id>coremedia.external.livecontext.releases</id>
+      <name>CoreMedia CMS</name>
+      <url>https://repository.coremedia.com/nexus/content/repositories/livecontext-releases/</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </pluginRepository>
+    <pluginRepository>
+      <id>coremedia.external.releases</id>
+      <name>CoreMedia CMS</name>
+      <url>https://repository.coremedia.com/nexus/content/groups/cms/</url>
       <layout>default</layout>
       <snapshots>
         <enabled>false</enabled>
