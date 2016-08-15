@@ -1252,6 +1252,15 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>wba.snapshots</id>
+      <name>WBA Snapshots</name>
+      <url>http://159.8.163.202:8081/nexus/content/repositories/snapshots/</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
   </repositories>
 
   <pluginRepositories>
