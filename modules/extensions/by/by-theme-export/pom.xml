@@ -2,103 +2,115 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.boots.cms.beautifulyou</groupId>
-        <artifactId>by</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
+  <parent>
+    <groupId>com.boots.cms.beautifulyou</groupId>
+    <artifactId>by</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
 
-    <artifactId>by-theme-export</artifactId>
+  <artifactId>by-theme-export</artifactId>
 
-    <properties>
-        <coremedia.project.extension.for>cae</coremedia.project.extension.for>
-    </properties>
+  <properties>
+    <coremedia.project.extension.for>cae</coremedia.project.extension.for>
+  </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>by-theme</artifactId>
-            <version>${project.version}</version>
-            <classifier>theme</classifier>
-            <type>zip</type>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>by-theme</artifactId>
+      <version>${project.version}</version>
+      <classifier>theme</classifier>
+      <type>zip</type>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.boots.cms</groupId>
+      <artifactId>contentserver-blueprint-component</artifactId>
+      <version>${boots.cms.core.version}</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <!-- Create Webresource content in target folder -->
+      <plugin>
+        <groupId>com.coremedia.maven</groupId>
+        <artifactId>coremedia-webresource-content-maven-plugin</artifactId>
+        <!-- Provide doctypes to create web resources as content-->
+        <dependencies>
+          <dependency>
             <groupId>com.boots.cms</groupId>
             <artifactId>contentserver-blueprint-component</artifactId>
             <version>${boots.cms.core.version}</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <!-- Create Webresource content in target folder -->
-            <plugin>
-                <groupId>com.coremedia.maven</groupId>
-                <artifactId>coremedia-webresource-content-maven-plugin</artifactId>
-                <!-- Provide doctypes to create web resources as content-->
-                <dependencies>
-                    <dependency>
-                        <groupId>com.boots.cms</groupId>
-                        <artifactId>contentserver-blueprint-component</artifactId>
-                        <version>${boots.cms.core.version}</version>
-                    </dependency>
-                </dependencies>
-                <executions>
-                    <execution>
-                        <id>compile-resource-lc-testdata</id>
-                        <goals>
-                            <goal>compile</goal>
-                        </goals>
-                        <phase>compile</phase>
-                    </execution>
-                </executions>
-            </plugin>
-            <!-- Copy Content to target folder -->
-            <plugin>
-                <artifactId>maven-resources-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>estore-copy-content-resources</id>
-                        <phase>process-resources</phase>
-                        <goals>
-                            <goal>copy-resources</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>${basedir}/target/content</outputDirectory>
-                            <resources>
-                                <resource>
-                                    <directory>content</directory>
-                                </resource>
-                            </resources>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <!-- Build testdata zip -->
-            <plugin>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>create-by-theme-export-zip</id>
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
-                        <phase>package</phase>
-                        <configuration>
-                            <appendAssemblyId>false</appendAssemblyId>
-                            <finalName>by-theme</finalName>
-                            <descriptors>
-                                <descriptor>src/main/assembly/theme-export-assembly-descriptor.xml</descriptor>
-                            </descriptors>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+          </dependency>
+        </dependencies>
+        <executions>
+          <execution>
+            <id>compile-resource-lc-testdata</id>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+            <phase>compile</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <!-- Copy Content to target folder -->
+      <plugin>
+        <artifactId>maven-resources-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>estore-copy-content-resources</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>copy-resources</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${basedir}/target/content</outputDirectory>
+              <resources>
+                <resource>
+                  <directory>content</directory>
+                </resource>
+              </resources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <!-- Build testdata zip -->
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>create-by-theme-export-zip</id>
+            <goals>
+              <goal>single</goal>
+            </goals>
+            <phase>package</phase>
+            <configuration>
+              <appendAssemblyId>false</appendAssemblyId>
+              <finalName>by-theme</finalName>
+              <descriptors>
+                <descriptor>src/main/assembly/theme-export-assembly-descriptor.xml</descriptor>
+              </descriptors>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <!--
+        The dependency-plugin does not detect that this dependency is used by another plugin
+      -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <configuration>
+          <usedDependencies>
+            <usedDependency>com.boots.cms:contentserver-blueprint-component</usedDependency>
+          </usedDependencies>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
