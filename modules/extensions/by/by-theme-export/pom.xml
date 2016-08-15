@@ -25,6 +25,12 @@
             <type>zip</type>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>com.boots.cms</groupId>
+            <artifactId>contentserver-blueprint-component</artifactId>
+            <version>${boots.cms.core.version}</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
