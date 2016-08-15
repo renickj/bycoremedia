@@ -20,7 +20,4 @@
 
 * the result in the namespace to be used.
 
-
- todo: remove
- bth test
 */
