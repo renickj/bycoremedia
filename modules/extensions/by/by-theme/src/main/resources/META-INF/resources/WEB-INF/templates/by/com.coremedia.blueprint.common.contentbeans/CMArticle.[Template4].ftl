@@ -21,9 +21,9 @@
 								<@cm.include self=self.related[0] view="asTeaser" params={"isTemplateSix": false,"isTemplateThree": false,"isTemplateFour": true} />
 							</#if>
 							<div class="prodimages">
-								<div class="row">
+								<#--<div class="row">
 						          <h4>Get the look</h4>
-						        </div>
+						        </div>-->
 								<#list self.related as related>	
 								<#assign classType = related.class/>
 									<#if !classType?contains("CMVideoImpl")>
@@ -39,9 +39,9 @@
 		 				</div>
 		 				<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
 			 				<div class = "prodimagesmobile">
-				 				<div class="row">
+				 				<#--<div class="row">
 						          <h4>Get the look</h4>
-						        </div>
+						        </div>-->
 								<#list self.related as related>	
 									<#assign classType = related.class/>
 										<#if !classType?contains("CMVideoImpl")>
