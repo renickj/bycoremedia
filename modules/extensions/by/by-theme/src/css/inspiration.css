@@ -127,7 +127,7 @@
   font-size: 30px !important;
   border: none;
   width: 95%;
-  color: #9853a1;
+  color: #888bc4 ;
 }
 /* line 34, inspiration.scss */
 .search-overlay-wrapper .search-overlay .cross {
@@ -138,14 +138,14 @@
 }
 /* line 40, inspiration.scss */
 .search-overlay-wrapper .search-overlay h1 {
-  color: #9853a1;
+  color: #888bc4 ;
   margin: 0;
   font-size: 30px;
 }
 /* line 46, inspiration.scss */
 .search-overlay-wrapper .search-overlay .recent-searches,
 .search-overlay-wrapper .search-overlay .search-suggestions {
-  border-top: 1px solid #9853a1;
+  border-top: 1px solid #888bc4 ;
   border-bottom: 1px solid #e8e8e8;
   padding: 20px 0;
   margin-bottom: 25px;
@@ -153,7 +153,7 @@
 /* line 51, inspiration.scss */
 .search-overlay-wrapper .search-overlay .recent-searches .search-list,
 .search-overlay-wrapper .search-overlay .search-suggestions .search-list {
-  color: #9853a1;
+  color: #888bc4 ;
 }
 /* line 53, inspiration.scss */
 .search-overlay-wrapper .search-overlay .recent-searches .search-list .suggestion-item,
@@ -166,11 +166,11 @@
 }
 /* line 60, inspiration.scss */
 .search-overlay-wrapper .search-overlay .popular-tags span {
-  border: 1px solid #9853a1;
+  border: 1px solid #888bc4 ;
   background: #ffffff;
   display: inline-block;
   margin: 0 10px 10px 0;
-  color: #9853a1;
+  color: #888bc4 ;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -181,7 +181,7 @@
 }
 /* line 73, inspiration.scss */
 .search-overlay-wrapper .search-overlay .popular-tags span:hover {
-  background: #9853a1;
+  background: #888bc4 ;
   color: #ffffff;
 }
 
@@ -198,11 +198,11 @@
 }
 /* line 88, inspiration.scss */
 .inspiration .no-reults {
-  color: #9853a1;
+  color: #888bc4 ;
 }
 /* line 91, inspiration.scss */
 .inspiration .search-results-preloader {
-  color: #9853a1;
+  color: #888bc4 ;
 }
 /* line 93, inspiration.scss */
 .inspiration .search-results-preloader .fa-spin {
@@ -249,10 +249,10 @@
 }
 /* line 129, inspiration.scss */
 .inspiration .tag-carousel span {
-  border: 1px solid #9853a1;
+  border: 1px solid #888bc4 ;
   display: inline-block;
   margin: 0 10px 10px 0;
-  color: #9853a1;
+  color: #888bc4 ;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -263,7 +263,7 @@
 }
 /* line 141, inspiration.scss */
 .inspiration .tag-carousel span:hover {
-  background: #9853a1;
+  background: #888bc4 ;
   color: #ffffff;
 }
 /* line 147, inspiration.scss */
@@ -292,7 +292,7 @@
 /* line 165, inspiration.scss */
 .inspiration .top-banner h1 {
   margin: 0;
-  color: #9853a1;
+  color: #888bc4 ;
 }
 /* line 170, inspiration.scss */
 .inspiration .inspiration-article {
@@ -304,7 +304,7 @@
 }
 /* line 175, inspiration.scss */
 .inspiration .inspiration-article .content {
-  color: #9853a1;
+  color: #888bc4 ;
 }
 /* line 176, inspiration.scss */
 .inspiration .inspiration-article .content a {
@@ -403,8 +403,24 @@ section.inspiration div.container div.inspiration-holder article.template3 heade
   font-size: 25px;
   line-height: 35px;
   letter-spacing: 1px;
-  color: #9853a1;
+  color: #888bc4 ;
   padding-bottom: 12px;
+}
+/*---video-----*/
+section.inspiration div.container div.inspiration-holder article.template3 header div.articlevideo {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  margin-bottom: 25px;
+}
+
+section.inspiration div.container div.inspiration-holder article.template3 header div.articlevideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 /* line 268, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 header div img {
@@ -417,7 +433,7 @@ section.inspiration div.container div.inspiration-holder article.template3 secti
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1px;
-  color: #9853a1;
+  color: #888bc4 ;
   margin-top: 0;
   padding-top: 15px;
 }
@@ -426,7 +442,7 @@ section.inspiration div.container div.inspiration-holder article.template3 secti
   font-size: 17px;
   line-height: 26px;
   letter-spacing: 0.5px;
-  color: #9853a1;
+  color: #888bc4 ;
 }
 /* line 283, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section div.test h2 {
@@ -438,7 +454,7 @@ section.inspiration div.container div.inspiration-holder article.template3 secti
 /* line 287, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section blockquote {
   font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
-  color: #9853a1;
+  color: #888bc4 ;
   border: none;
   position: relative;
   padding: 22px;
@@ -451,26 +467,26 @@ section.inspiration div.container div.inspiration-holder article.template3 secti
 /* line 296, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section p a {
   text-decoration: underline;
-  color: #464646;
+  color: #888bc4;
 }
 section.inspiration div.container div.inspiration-holder article.template3 section p a:hover,
 section.inspiration div.container div.inspiration-holder article.template3 section p a:visited,
 section.inspiration div.container div.inspiration-holder article.template3 section p a:active {
-  color: #464646;
+  color: #888bc4;
   background-color: transparent;
 }
 /* line 302, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section blockquote:after {
   content: '"';
   font-family: VAGRoundedBold, Arial, Helvetica, sans-serif;
-  color: #9853a1;
+  color: #888bc4 ;
   font-size: 50px;
 }
 /* line 308, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template3 section blockquote:before {
   content: '"';
   font-family: VAGRoundedBold, Arial, Helvetica, sans-serif;
-  color: #9853a1;
+  color: #888bc4 ;
   font-size: 50px;
   position: absolute;
   left: 0;
@@ -553,7 +569,7 @@ section.inspiration div.container div.inspiration-holder article.template6 heade
   font-size: 25px;
   line-height: 35px;
   letter-spacing: 1px;
-  color: #9853a1;
+  color: #888bc4 ;
   padding-bottom: 12px;
 }
 section.inspiration div.container div.inspiration-holder article.template6 header div.articlevideo {
@@ -592,7 +608,7 @@ section.inspiration div.container div.inspiration-holder article.template6 secti
   font-size: 17px;
   line-height: 26px;
   letter-spacing: 0.5px;
-  color: #9853a1;
+  color: #888bc4 ;
   margin-top: 0;
 }
 /* line 394, inspiration.scss */
@@ -631,11 +647,11 @@ section.inspiration div.container div.inspiration-holder article.template6 div.r
 }
 /* line 417, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 div.row div h3 {
-	font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
+  font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1px;
-  color: #9853a1;
+  color: #888bc4 ;
   margin: 0;
   padding-top: 18px;
   /*---BY1932---*/
@@ -689,7 +705,7 @@ section.inspiration div.container div.inspiration-holder article.blogtemplate he
   font-size: 25px;
   line-height: 35px;
   letter-spacing: 1px;
-  color: #9853a1;
+  color: #888bc4 ;
   padding-bottom: 12px;
 }
 section.inspiration div.container div.inspiration-holder article.blogtemplate header div.articlevideo {
@@ -714,7 +730,7 @@ section.inspiration div.container div.inspiration-holder article.blogtemplate he
 }
 /* line 381, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.blogtemplate section {
-  padding: 75px 0;
+  padding: 25px 75px;
   border-bottom: 1px solid #e8e8e8;
   margin-bottom: 25px;
 }
@@ -728,7 +744,7 @@ section.inspiration div.container div.inspiration-holder article.blogtemplate se
   font-size: 17px;
   line-height: 26px;
   letter-spacing: 0.5px;
-  color: #9853a1;
+  color: #888bc4 ;
   margin-top: 0;
 }
 /* line 394, inspiration.scss */
@@ -755,15 +771,11 @@ section.inspiration div.container div.inspiration-holder article.blogtemplate di
 }
 /* line 405, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div:first-child {
-  text-align: center;
+  text-align: left;
 }
 /* line 409, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div img {
-  vertical-align: middle;
-  width: 90%;
-  /*---BY1932---*/
-  padding-right: 8px;
-  padding-left: 20px;
+  width: 100%;
 }
 /* line 417, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div h3 {
@@ -771,7 +783,7 @@ section.inspiration div.container div.inspiration-holder article.blogtemplate di
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1px;
-  color: #9853a1;
+  color: #888bc4 ;
   margin: 0;
   padding-top: 18px;
   /*---BY1932---*/
@@ -820,9 +832,25 @@ section.inspiration div.container div.inspiration-holder article.temp4 header h1
   font-size: 25px;
   line-height: 35px;
   letter-spacing: 1px;
-  color: #9853a1;
+  color: #888bc4 ;
   text-align: center;
   margin-bottom: 20px;
+}
+/*-----video-----*/
+section.inspiration div.container div.inspiration-holder article.temp4 header div.articlevideo {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  margin-bottom: 25px;
+}
+/* line 390, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.temp4 header div.articlevideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 /* line 463, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 header div img {
@@ -832,7 +860,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 header di
 /* line 470, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList h4 {
   margin-top: 50px;
-  color: #9f60a8;
+  color: #888bc4 ;
 }
 /* line 474, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 section.prdList h3 {
@@ -840,7 +868,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   font-size: 17px;
   line-height: 26px;
   letter-spacing: 0.5px;
-  color: #9f60a8;
+  color: #888bc4 ;
   margin-bottom: 20px;
   margin-top: 7px;
 }
@@ -993,7 +1021,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     border-bottom: 1px solid #e8e8e8;
     padding-top: 50px;
     padding-bottom: 50px;
-	padding-left:30px;
+    padding-left:30px;
   }
   /* line 601, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.template3 section div.list h2 {
@@ -1053,6 +1081,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 0.5px;
+    margin-top:12px; /* one line spacing */
   }
   /*change for the blog template*/
 
@@ -1065,7 +1094,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   }
   /* line 632, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.blogtemplate section {
-    padding: 25px 0;
+    padding: 25px 75px;
   }
   /* line 635, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.blogtemplate section p:first-child {
@@ -1090,8 +1119,8 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     margin-top: 0px;
   }
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.row p {
-      border-bottom: none;
-    }
+    border-bottom: none;
+  }
   /* line 658, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.img {
     text-align: center;
@@ -1119,7 +1148,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimages h4 {
     text-align: center;
     margin-bottom: 25px;
-    margin-top: 50px;
+    margin-top: 14px;        /*----margin changed to adjust heading above images---*/
     font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
     font-size: 20px;
     line-height: 30px;
@@ -1143,7 +1172,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   }
   /* line 696, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList ol {
-    margin-top: 50px;
+    margin-top: 14px;   /*---padding changed to reduce space on removing get the look---*/
     padding-left: 18px;
     margin-bottom: 50px;
   }
@@ -1279,7 +1308,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   }
   /* line 780, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.blogtemplate section {
-    padding: 25px 0;
+    padding: 25px;
   }
   /* line 783, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.blogtemplate section p:first-child {
@@ -1295,6 +1324,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 0.5px;
+    padding-top: 14px;
   }
 
   /* line 797, inspiration.scss */
@@ -1324,12 +1354,12 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
   }
   /* line 815, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimagesmobile h4 {
-   font-size: 20px;
+    font-size: 20px;
     line-height: 30px;
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 30px;
-	margin-left: 0px;
+    margin-left: 0px;
   }
   /* line 820, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.prodimagesmobile div.imgDisplay {
