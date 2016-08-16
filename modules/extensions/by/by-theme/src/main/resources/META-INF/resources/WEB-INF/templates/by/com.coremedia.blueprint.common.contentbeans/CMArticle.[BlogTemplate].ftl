@@ -15,7 +15,7 @@
 					 <@cm.include self=self.detailText!cm.UNDEFINED />
 					<#list self.related as related>
 							<div class= ${classArticleRelated!""}>
-								<@cm.include self=related view="asTeaser" params={"isBlogTemplate": true,"isTemplateSix": true,"isTemplateThree": false,"isTemplateFour": false}/>
+								<@cm.include self=related view="asTeaser" params={"isBlogTemplate": true,"isTemplateSix": false,"isTemplateThree": false,"isTemplateFour": false}/>
 							</div>
 					</#list>
                 </section>

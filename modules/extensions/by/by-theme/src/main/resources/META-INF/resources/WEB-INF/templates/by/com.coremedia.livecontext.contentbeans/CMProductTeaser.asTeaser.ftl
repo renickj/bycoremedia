@@ -38,19 +38,19 @@
 		</#if>
 	</div>
 <#elseif template == "blog">
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 	<#if self.picture?has_content>
 		<@cm.include self=self.picture params={
 		"limitAspectRatios": lc.getAspectRatiosForTeaser(),
-		"classBox": "col-xs-12 col-sm-12 col-md-12 col-lg-12"
+		"classBox": ""
 		}/>
 	</#if>
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<h3>${self.teaserTitle!""}</h3>
-		<#if self.teaserText?has_content>
-			<@cm.include self=self.teaserText!cm.UNDEFINED />
-		</#if>
-		<#if self.externalId?has_content>
-			<a article-tracking href="${cm.getLink(self.target!cm.UNDEFINED)}" target="_blank" >Buy on boots.com</a>
-		</#if>
+	<h3>${self.teaserTitle!""}</h3>
+	<#if self.teaserText?has_content>
+		<@cm.include self=self.teaserText!cm.UNDEFINED />
+	</#if>
+	<#if self.externalId?has_content>
+		<a article-tracking href="${cm.getLink(self.target!cm.UNDEFINED)}" target="_blank" >Buy on boots.com</a>
+	</#if>
 	</div>
 </#if>
