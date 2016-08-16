@@ -58,26 +58,26 @@
 /**
  * @license
  * MyFonts Webfont Build ID 3068086, 2015-07-30T11:07:58-0400
- * 
+ *
  * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
+ * Agreement(s) entered into by the website owner. All other parties are
  * explicitly restricted from using the Licensed Webfonts(s).
- * 
+ *
  * You may obtain a valid license at the URLs below.
- * 
+ *
  * Webfont: HelveticaLT by Linotype
  * URL: http://www.myfonts.com/fonts/linotype/helvetica/helvetica/
- * Copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted (c) 1985, 1987, 1989, 1990, 1997, 1998, 1999, 2003 Linotype Library GmbH, www.linotype.com. All rights reserved. This software is the property 
+ * Copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted (c) 1985, 1987, 1989, 1990, 1997, 1998, 1999, 2003 Linotype Library GmbH, www.linotype.com. All rights reserved. This software is the property
  * Licensed pageviews: 1,000,000
- * 
+ *
  * Webfont: HelveticaLT-Light by Linotype
  * URL: http://www.myfonts.com/fonts/linotype/helvetica/light/
- * Copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted (c) 1985, 1987, 1988, 1994, 1999, 2003 Linotype Library GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype 
+ * Copyright: Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted (c) 1985, 1987, 1988, 1994, 1999, 2003 Linotype Library GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype
  * Licensed pageviews: 2,000,000
- * 
- * 
+ *
+ *
  * License: http://www.myfonts.com/viewlicense?type=web&buildid=3068086
- * 
+ *
  * © 2015 MyFonts Inc
 */
 @font-face {
@@ -677,6 +677,143 @@ section.inspiration div.container div.inspiration-holder article.template6 div.r
   color: #004990;
   background-color: transparent;
 }
+
+/* css for the new blog template*/
+
+section.inspiration div.container div.inspiration-holder article.blogtemplate header {
+  text-align: center;
+}
+/* line 368, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate header h1 {
+  font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  color: #9853a1;
+  padding-bottom: 12px;
+}
+section.inspiration div.container div.inspiration-holder article.blogtemplate header div.articlevideo {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  margin-bottom: 25px;
+}
+/* line 390, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate header div.articlevideo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 375, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate header div img {
+  width: 100%;
+  height: auto;
+}
+/* line 381, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate section {
+  padding: 75px 0;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 25px;
+}
+/* line 386, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate section p:first-child {
+  margin-bottom: 0;
+}
+/* line 389, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate section h2 {
+  font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  color: #9853a1;
+  margin-top: 0;
+}
+/* line 394, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate section p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+/* line 396, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate section p a {
+  text-decoration: underline;
+  color: #464646;
+}
+section.inspiration div.container div.inspiration-holder article.blogtemplate section p a:hover,
+section.inspiration div.container div.inspiration-holder article.blogtemplate section p a:visited,
+section.inspiration div.container div.inspiration-holder article.blogtemplate section p a:active {
+  color: #464646;
+  background-color: transparent;
+}
+/* line 403, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row {
+  padding-bottom: 50px;
+  /*BYTFULYOU-1167*/
+}
+/* line 405, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div:first-child {
+  text-align: center;
+}
+/* line 409, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div img {
+  vertical-align: middle;
+  width: 90%;
+  /*---BY1932---*/
+  padding-right: 8px;
+  padding-left: 20px;
+}
+/* line 417, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div h3 {
+  font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #9853a1;
+  margin: 0;
+  padding-top: 18px;
+  /*---BY1932---*/
+}
+/* line 423, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div div p:first-child {
+  /*BY2 987*/
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -3px;
+  padding-bottom: 7px;
+}
+/* line 430, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div div p {
+  padding-bottom: 10px;
+}
+/* line 432, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div p a {
+  text-decoration: underline;
+  color: #464646;
+}
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div p a:hover,
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div p a:visited,
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div p a:active {
+  color: #464646;
+  background-color: transparent;
+}
+/* line 438, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div a {
+  text-decoration: underline;
+  color: #004990;
+  margin-top: 15px;
+}
+/* line 446, inspiration.scss */
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div a:hover,
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div a:visited,
+section.inspiration div.container div.inspiration-holder article.blogtemplate div.row div a:active {
+  color: #004990;
+  background-color: transparent;
+}
+
 /* line 456, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.temp4 header h1 {
   font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
@@ -917,6 +1054,35 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     line-height: 26px;
     letter-spacing: 0.5px;
   }
+  /*change for the blog template*/
+
+  section.inspiration div.container div.inspiration-holder article.blogtemplate {
+    padding: 0 10px;
+  }
+  /* line 627, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate header {
+    text-align: center;
+  }
+  /* line 632, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate section {
+    padding: 25px 0;
+  }
+  /* line 635, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate section p:first-child {
+    margin-bottom: 0;
+  }
+  /* line 638, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate section h2:first-child {
+    margin-top: 10px !important;
+  }
+  /* line 642, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate section h2 {
+    font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+  }
+
   /* line 651, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div p {
     padding-bottom: 100px;
@@ -1094,6 +1260,43 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     line-height: 26px;
     letter-spacing: 0.5px;
   }
+
+  /*change for the blog template*/
+
+  section.inspiration div.container div.inspiration-holder article.blogtemplate {
+    padding: 0 15px;
+  }
+  /* line 773, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate header {
+    text-align: left;
+  }
+  /* line 776, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate header h1 {
+    font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 1px;
+  }
+  /* line 780, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate section {
+    padding: 25px 0;
+  }
+  /* line 783, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate section p:first-child {
+    margin-bottom: 0;
+  }
+  /* line 786, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate section h2:first-child {
+    margin-top: 10px !important;
+  }
+  /* line 790, inspiration.scss */
+  section.inspiration div.container div.inspiration-holder article.blogtemplate section h2 {
+    font-family: VAGRoundedLight, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+  }
+
   /* line 797, inspiration.scss */
   section.inspiration div.container div.inspiration-holder article.temp4 section.prdList div.img {
     text-align: center;

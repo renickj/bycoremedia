@@ -2,6 +2,8 @@
 
 <#if isTemplateSix?has_content && isTemplateSix?is_boolean && isTemplateSix>
 	<#assign template = "six"/>
+<#elseif isBlogTemplate?has_content && isBlogTemplate?is_boolean && isBlogTemplate>
+	<#assign template = "blog"/>
 <#else><#-- Default: if no template has been set, we'll fall back to template four -->
 <#--In the future, we might add more and need this if: elseifisTemplateFour?has_content && isTemplateFour?is_boolean && isTemplateFour>-->
 	<#assign template = "four"/>
@@ -31,6 +33,22 @@
     </#if>
 	<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 col2 vertDisplay">
 		<@cm.include self=self.teaserText!cm.UNDEFINED />
+		<#if self.externalId?has_content>
+			<a article-tracking href="${cm.getLink(self.target!cm.UNDEFINED)}" target="_blank" >Buy on boots.com</a>
+		</#if>
+	</div>
+<#elseif template == "blog">
+	<#if self.picture?has_content>
+		<@cm.include self=self.picture params={
+		"limitAspectRatios": lc.getAspectRatiosForTeaser(),
+		"classBox": "col-xs-12 col-sm-12 col-md-12 col-lg-12"
+		}/>
+	</#if>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h3>${self.teaserTitle!""}</h3>
+		<#if self.teaserText?has_content>
+			<@cm.include self=self.teaserText!cm.UNDEFINED />
+		</#if>
 		<#if self.externalId?has_content>
 			<a article-tracking href="${cm.getLink(self.target!cm.UNDEFINED)}" target="_blank" >Buy on boots.com</a>
 		</#if>
