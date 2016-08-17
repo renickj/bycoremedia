@@ -609,7 +609,7 @@ section.inspiration div.container div.inspiration-holder article.template6 secti
   line-height: 26px;
   letter-spacing: 0.5px;
   color: #888bc4 ;
-  margin-top: 0;
+  margin-top: 12px;
 }
 /* line 394, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.template6 section p {
@@ -745,7 +745,7 @@ section.inspiration div.container div.inspiration-holder article.blogtemplate se
   line-height: 26px;
   letter-spacing: 0.5px;
   color: #888bc4 ;
-  margin-top: 0;
+  margin-top:12px ;
 }
 /* line 394, inspiration.scss */
 section.inspiration div.container div.inspiration-holder article.blogtemplate section p {
@@ -1110,6 +1110,7 @@ section.inspiration div.container div.inspiration-holder article.temp4 section.p
     font-size: 17px;
     line-height: 26px;
     letter-spacing: 0.5px;
+    margin-top:14px;
   }
 
   /* line 651, inspiration.scss */
