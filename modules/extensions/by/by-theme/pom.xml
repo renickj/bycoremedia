@@ -115,6 +115,63 @@
 							</execution>
 						</executions>
 					</plugin>
+					<!-- build theme and copy everything to the target folder -->
+					<!-- Pack FTLs twice. Once into target/resources/themes/templates, once into target root -->
+					<plugin>
+						<artifactId>maven-jar-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>jar-templates-to-resources-target</id>
+								<goals><goal>jar</goal></goals>
+								<phase>package</phase>
+								<configuration>
+									<classesDirectory>src/main/resources</classesDirectory>
+									<includes>
+										<include>**/*</include>
+									</includes>
+									<outputDirectory>${basedir}/target/resources/themes/by/templates</outputDirectory>
+									<finalName>by-templates</finalName>
+								</configuration>
+							</execution>
+							<execution>
+								<id>jar-templates-target-root</id>
+								<goals><goal>jar</goal></goals>
+								<phase>package</phase>
+								<configuration>
+									<classesDirectory>src/main/resources</classesDirectory>
+									<includes>
+										<include>**/*</include>
+									</includes>
+									<outputDirectory>${basedir}/target/</outputDirectory>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+					<!-- Copy resources except freemarker -->
+					<plugin>
+						<artifactId>maven-resources-plugin</artifactId>
+						<executions>
+							<execution>
+								<phase>validate</phase>
+								<goals>
+									<goal>copy-resources</goal>
+								</goals>
+								<configuration>
+									<outputDirectory>${basedir}/target/resources/themes/by/</outputDirectory>
+									<resources>
+										<resource>
+											<directory>src/</directory>
+											<filtering>false</filtering>
+											<excludes>
+												<!-- Exclude freemarker templates, they are packed as jar separately -->
+												<exclude>main/**</exclude>
+											</excludes>
+										</resource>
+									</resources>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
 					<plugin>
 						<artifactId>maven-assembly-plugin</artifactId>
 						<executions>
