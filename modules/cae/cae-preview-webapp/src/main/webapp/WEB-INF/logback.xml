@@ -6,8 +6,19 @@
 
   <include resource="logging-common.xml"/>
 
+  <appender name="dailyFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${log.file}</file>
+    <encoder>
+      <pattern>${log.pattern}</pattern>
+    </encoder>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <maxHistory>30</maxHistory>
+      <FileNamePattern>${log.file}.%i</FileNamePattern>
+    </rollingPolicy>
+  </appender>
+
   <logger name="com.coremedia" additivity="false" level="info">
-    <appender-ref ref="file"/>
+    <appender-ref ref="dailyFile"/>
   </logger>
 
   <!-- uncomment to see all View Lookups. Produces _massive_ log output(!) -->
@@ -16,7 +27,7 @@
   <!--</logger>-->
 
   <root level="warn">
-    <appender-ref ref="file"/>
+    <appender-ref ref="dailyFile"/>
   </root>
 
 </configuration>
