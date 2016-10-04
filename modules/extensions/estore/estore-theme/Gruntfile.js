@@ -99,7 +99,7 @@ module.exports = function (grunt) {
         dest: '<%=  distDir %>/images/'
       },
       templates: {
-        src: 'target/estore-theme-1.0-SNAPSHOT.jar',
+        src: 'target/estore-theme-1.0.20.jar',
         dest: '<%=  distDir %>/templates/estore-templates.jar'
       }
     },

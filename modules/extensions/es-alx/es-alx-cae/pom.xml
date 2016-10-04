@@ -4,7 +4,7 @@
   <parent>
     <groupId>com.boots.cms.beautifulyou</groupId>
     <artifactId>es-alx</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.20</version>
   </parent>
 
   <artifactId>es-alx-cae</artifactId>

@@ -106,7 +106,7 @@ module.exports = function (grunt) {
         dest: '<%=  distDir %>/css/'
       },
       templates: {
-        src: 'target/by-theme-1.0-SNAPSHOT.jar',
+        src: 'target/by-theme-1.0.20.jar',
         dest: '<%=  distDir %>/templates/by-templates.jar'
       }
     },
